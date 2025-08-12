@@ -3,6 +3,7 @@ import json
 import os
 from pathlib import Path
 import shutil
+import subprocess
 import time
 from typing import Any, List
 from Code.Helper import Helper
@@ -15,6 +16,15 @@ class Translator_Util:
     def __init__(self):
         self.translator = Translator()
         self.helper = Helper()
+        self.device = Config.get_device()        
+        self.source_path = Path(self.device) / Path(Paths.SOURCE_DIR)        
+        self.source_path.mkdir(parents=True, exist_ok=True)
+        self.updated_files_path = Path(self.device) / Path(Paths.UPDATED_FILES_DIR)        
+        self.updated_files_path.mkdir(parents=True, exist_ok=True)
+        self.new_entries_path = Path(self.device) / Path(Paths.NEW_ENTRIES_DIR)        
+        self.new_entries_path.mkdir(parents=True, exist_ok=True)
+        self.translated_files_path = Path(self.device) / Path(Paths.TRANSLATED_FILES_DIR)        
+        self.translated_files_path.mkdir(parents=True, exist_ok=True)
 
     def __translate_file(self, filename:str, path:str):
         print(f"       ├─ 🔁 Translating file {filename}.")
@@ -24,7 +34,7 @@ class Translator_Util:
         temp_path = out_path + '.tmp'
         
         name_only = os.path.splitext(filename)[0]
-        new_entries_path = os.path.join(Paths.NEW_ENTRIES_DIR, f"{name_only}_new_entries.json")
+        new_entries_path = os.path.join(self.new_entries_path, f"{name_only}_new_entries.json")
 
         # Load JP source (list of entries)
         with open(source_path, 'r', encoding='utf8') as f:
@@ -61,7 +71,7 @@ class Translator_Util:
             new_count += 1
 
             # Periodic save every 100 entries
-            if count % 100 == 0:
+            if count % 200 == 0:
                 try:
                     with open(temp_path, 'w', encoding='utf8') as f:
                         json.dump(translated_data, f, ensure_ascii=False, indent=2)
@@ -159,7 +169,7 @@ class Translator_Util:
 
         end_time = time.time()
         elapsed = end_time - start_time
-        print(f"            ├─ 🛠️ Finihed checking {filename}: {updated_count} entries updated in {elapsed:.2f}s")
+        print(f"            ├─ 🛠️ Finished checking {filename}: {updated_count} entries updated in {elapsed:.2f}s")
  
     def __patch_new_entries(self, new_entries_file, source_file, filename):
         source_data_lookup = {entry["id"]: entry for entry in source_file}
@@ -197,19 +207,17 @@ class Translator_Util:
     def initial_translation(self):
         print(f"\n    ℹ️ Running initial translation")
         start_time = time.time()
-        for filename in os.listdir(Paths.UPDATED_FILES_DIR):
-            file_path = os.path.join(Paths.UPDATED_FILES_DIR, filename)
+        for filename in os.listdir(self.updated_files_path):
+            file_path = os.path.join(self.updated_files_path, filename)
             # Skip subfolders
             if not os.path.isfile(file_path):
                 continue
-            self.__translate_file(filename=filename, path=Paths.UPDATED_FILES_DIR)
+            self.__translate_file(filename=filename, path=self.updated_files_path)
 
-            ## Keep leaderkill and command files on source folder
-            ## They become the new source to compare against on future updates
-            if filename in Config.FILES_TO_CHECK_FOR_UPDATES:
-                destination_path = os.path.join(Paths.SOURCE_DIR, filename)
-                shutil.copy2(file_path, destination_path)  # use shutil.move if you want to move instead
-            elif filename != 'charactercommand':
+            ## Keep leaderkill and command files to check for buffs
+            ## They will become the new source to compare against on future updates
+            ## Keep character command as well
+            if Path(filename).stem not in Config.FILES_TO_CHECK_FOR_UPDATES and Path(filename).stem != 'charactercommand':
                 os.remove(file_path)  # delete the file if not in KEEP_FILES
 
         end_time = time.time()
@@ -319,7 +327,7 @@ class Translator_Util:
             with open(source_file_path, "r", encoding="utf-8") as f:
                 source_file = json.load(f)
 
-            self.__patch_new_entries( new_entries_file, source_file, filename)
+            self.__patch_new_entries(new_entries_file, source_file, filename)
 
         end_time = time.time()
         elapsed = end_time - start_time
@@ -330,11 +338,11 @@ class Translator_Util:
         print(f"\n    ℹ️  Looking for character updates")
         start_time = time.time()
 
-        for updated_file in os.listdir(Paths.UPDATED_FILES_DIR):
-            updated_file_path = os.path.join(Paths.UPDATED_FILES_DIR, updated_file)
+        for updated_file in os.listdir(self.updated_files_path):
+            updated_file_path = os.path.join(self.updated_files_path, updated_file)
             updated_file_name = os.path.splitext(updated_file)[0]
 
-            original_file_path = os.path.join(Paths.SOURCE_DIR, updated_file)
+            original_file_path = os.path.join(self.source_path, updated_file)
 
             # Skip subfolders
             if not os.path.isfile(original_file_path):
@@ -353,7 +361,7 @@ class Translator_Util:
                 self.__translate_file_changes(source_data=source_data, updated_data=updated_data, filename=updated_file_name)
 
             # Move files to source for the next update
-            destination_folder = Paths.SOURCE_DIR
+            destination_folder = self.source_path
             os.makedirs(destination_folder, exist_ok=True)
             destination_path = os.path.join(destination_folder, f'{updated_file_name}.json')
             # Move the file
@@ -363,9 +371,8 @@ class Translator_Util:
         elapsed = end_time - start_time
         print(f"       ├─ ✅ Finished looking for character updates in {elapsed:.2f}s.")  
 
-    def update_game_files(self, files_to_update:List[str] = None):
-        print(f"\n    ℹ️ Updating game files")
-        source_dir = Path(Paths.TRANSLATED_FILES_DIR)
+    def __update_game_files_dmm(self, files_to_update:List[str] = None):
+        source_dir = Path(self.translated_files_path)
         target_dir = Path(Paths.GAME_MASTERS)
 
         # Ensure the destination exists
@@ -378,6 +385,40 @@ class Translator_Util:
                     target_file = target_dir / file.name
                     shutil.copy2(file, target_file)
                     print(f"       ├─ 🔁 Copied {file.name} to {target_file}")
+
+    def __update_game_files_android(self, files_to_update:List[str] = None):
+        source_dir = Path(self.translated_files_path)
+        target_dir = Paths.GAME_MASTERS_Android
+    
+        # Ensure files_to_update is provided or use all files in Translated_Files
+        if files_to_update is None:
+            files_to_update = [file.name for file in source_dir.iterdir() if file.is_file()]
+        
+        for filename in files_to_update:
+            file_path = source_dir / filename
+            
+            if file_path.exists() and file_path.is_file():
+                # Push each file to the target location on the device
+                result = subprocess.run([
+                    "./platform-tools//adb.exe", "push", str(file_path), f"{target_dir}/{filename}"
+                ], capture_output=True, text=True)
+
+                if result.returncode == 0:
+                    print(f"Files pushed successfully: {filename}")
+                else:
+                    print(f"Error pushing {filename}:", result.stderr)
+            else:
+                print(f"File not found: {file_path}")
+        print("   ├─ ✅ Finished pushing translated files.")
+
+    def update_game_files(self, files_to_update:List[str] = None):
+        print(f"\n    ℹ️ Updating game files")
+
+        if self.device == "DMM":
+            self.__update_game_files_dmm(files_to_update)
+        elif self.device == "Android":
+            self.__update_game_files_android(files_to_update)
+            
         print("   ├─ ✅ Finished updating game files.")
 
     def update_game_textures(self, files_to_update:List[str] = None):

@@ -14,4 +14,6 @@ Patched_Textures/
 Translated_Files/
 debug.log
 .vscode/launch.json
+Android/master
+Android/Masters_Backup
 test.py

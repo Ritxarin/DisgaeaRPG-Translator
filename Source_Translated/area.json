@@ -31436,5 +31436,16 @@
     "m_preview_id": 0,
     "area_special_type": 0,
     "sort": 1
+  },
+  {
+    "id": 1832101,
+    "m_episode_id": 18321,
+    "name": "During the test fight Fuji Zesksai",
+    "heading": "",
+    "description": "",
+    "bg_id": 10004,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
   }
 ]

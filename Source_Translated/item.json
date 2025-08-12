@@ -24696,13 +24696,13 @@
   },
   {
     "id": 2700359,
-    "name": "Luang's Crystal",
+    "name": "Rouen's Crystal",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [
       100
     ],
-    "description": "Crystals that can magically modify Luan",
+    "description": "Crystals that can magically modify Rouen",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -24751,6 +24751,54 @@
       20106
     ],
     "description": "A demon that can turn a bottle aprico into awakening state of 6★",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 1945,
+    "name": "PK Demon King Gathering Festic Hand",
+    "item_type": 19,
+    "icon_no": 1945,
+    "effect_value": [
+      201129
+    ],
+    "description": "Tickets for the Phantom Kingdom Demon King Gathering Festival",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 6710,
+    "name": "Prephantom",
+    "item_type": 67,
+    "icon_no": 6710,
+    "effect_value": [
+      0
+    ],
+    "description": "A part of a soul that was purified in battle has been crystallized\nYou can exchange for various rewards at a limited-time exchange",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340228,
+    "name": "Gathering festival exchange ticket",
+    "item_type": 34,
+    "icon_no": 3478,
+    "effect_value": [
+      831
+    ],
+    "description": "Available at the Gathering Festival Exchange",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600359,
+    "name": "Rouen's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      359
+    ],
+    "description": "A demon that can make Rouen into awakening state of ★6",
     "max_num": 9999,
     "sell_price": 0
   }

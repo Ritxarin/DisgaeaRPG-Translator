@@ -24694,5 +24694,41 @@
     "m_character_id": 20106,
     "rarity": 6,
     "class_name": "Captain of the Bottled Courage"
+  },
+  {
+    "id": 3591,
+    "m_character_id": 359,
+    "rarity": 1,
+    "class_name": "The Stylish Vice Captain"
+  },
+  {
+    "id": 3592,
+    "m_character_id": 359,
+    "rarity": 2,
+    "class_name": "The Stylish Vice Captain"
+  },
+  {
+    "id": 3593,
+    "m_character_id": 359,
+    "rarity": 3,
+    "class_name": "The Stylish Vice Captain"
+  },
+  {
+    "id": 3594,
+    "m_character_id": 359,
+    "rarity": 4,
+    "class_name": "The Stylish Vice Captain"
+  },
+  {
+    "id": 3595,
+    "m_character_id": 359,
+    "rarity": 5,
+    "class_name": "Deputy Captain of Regret"
+  },
+  {
+    "id": 3596,
+    "m_character_id": 359,
+    "rarity": 6,
+    "class_name": "Vice Captain Living in a Chief"
   }
 ]

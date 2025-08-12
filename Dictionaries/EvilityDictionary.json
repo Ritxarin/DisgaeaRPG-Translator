@@ -237,5 +237,6 @@
   "パーティが水属性攻撃で受けるダメージ-#PER#%": "All Allies: Water Damage received -#PER#%",
   "パーティが風属性攻撃で受けるダメージ-#PER#%": "All Allies: Wind Damage received -#PER#%",
   "自分のSPD+#PER#%": "SPD +#PER#%",
-  "無属性追撃": "Non-elemental follow-up attack"
+  "無属性追撃": "Non-elemental follow-up attack",
+  "パーティが炎属性の技を使用した時、パーティに与える全てのダメージ+#PER#%(2T)付与": "All Allies: When any ally uses a Fire Skill, Damage +#PER#%(2T)"
 }

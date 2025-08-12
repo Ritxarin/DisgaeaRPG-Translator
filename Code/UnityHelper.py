@@ -3,6 +3,7 @@ import json
 import os
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 import time
 from typing import List
@@ -11,46 +12,37 @@ from Code.config import Config, Paths
 
 
 class UnityHelper:
-    def __init__(self):
-        self.env = UnityPy.load(Paths.GAME_MASTERS)
-        self.masters_path = Path(Paths.GAME_MASTERS) 
-        self.game_assets_path = Path(Paths.GAME_ASSETS)   
-           
-        # Check if the folder exists and is not empty
-        if not self.masters_path.is_dir():
-            print(f" ❌ Error: The folder '{self.masters_path}' does not exist.")
-            sys.exit(1)
-
-        if not any(self.masters_path.iterdir()):
-            print(f" ❌ Error: The folder '{self.masters_path}' is empty.")
-            sys.exit(1)
-
+    def __init__(self):            
+        
+        device = Config.get_device()
+        
+        self.__load_env(device)
         #Ensure required folders exist
-        self.backup_path = Path(Paths.MASTERS_BACKUP)        
+        self.backup_path = Path(device) / Path(Paths.MASTERS_BACKUP)        
         self.backup_path.mkdir(parents=True, exist_ok=True)
 
-        self.assets_backup_path = Path(Paths.ASSETS_BACKUP) 
+        self.assets_backup_path = Path(device) / Path(Paths.ASSETS_BACKUP) 
         self.assets_backup_path.mkdir(parents=True, exist_ok=True)
 
-        self.patched_textures = Path(Paths.PATCHED_TEXTURES)        
+        self.patched_textures = Path(device) / Path(Paths.PATCHED_TEXTURES)        
         self.patched_textures.mkdir(parents=True, exist_ok=True)        
 
-        self.global_assets_path = Path(Paths.GLOBAL_ASSETS_DIR)        
+        self.global_assets_path = Path(device) / Path(Paths.GLOBAL_ASSETS_DIR)        
         self.global_assets_path.mkdir(parents=True, exist_ok=True)
 
         self.translation_source_path = Path(Paths.SOURCE_TRANSLATED_DIR)        
         self.translation_source_path.mkdir(parents=True, exist_ok=True)
 
-        self.source_path = Path(Paths.SOURCE_DIR)        
+        self.source_path = Path(device) / Path(Paths.SOURCE_DIR)        
         self.source_path.mkdir(parents=True, exist_ok=True)
 
-        self.updated_files_path = Path(Paths.UPDATED_FILES_DIR)        
+        self.updated_files_path = Path(device) / Path(Paths.UPDATED_FILES_DIR)        
         self.updated_files_path.mkdir(parents=True, exist_ok=True)
         
-        self.output_path = Path(Paths.TRANSLATED_FILES_DIR)        
-        self.output_path.mkdir(parents=True, exist_ok=True)
+        self.translated_files_path = Path(device) / Path(Paths.TRANSLATED_FILES_DIR)        
+        self.translated_files_path.mkdir(parents=True, exist_ok=True)
 
-        self.new_entries_path = Path(Paths.NEW_ENTRIES_DIR)        
+        self.new_entries_path = Path(device) / Path(Paths.NEW_ENTRIES_DIR)        
         self.new_entries_path.mkdir(parents=True, exist_ok=True)
 
     # Initial datamine. Returns True if the initial setup was already done. False otherwise
@@ -128,7 +120,7 @@ class UnityHelper:
         start_time = time.time()
 
         # Delete before generating new files
-        source_dir = Path(Paths.TRANSLATED_FILES_DIR)
+        source_dir = Path(self.translated_files_path)
         for file in source_dir.iterdir():
             if file.is_file():
                 file.unlink()
@@ -164,7 +156,7 @@ class UnityHelper:
                     print(f"            ├─ 📦 Generated file: {filename}")
 
         for path, env_file in self.env.files.items():
-            output_path = os.path.join(Paths.TRANSLATED_FILES_DIR, os.path.basename(path))
+            output_path = os.path.join(self.translated_files_path, os.path.basename(path))
             filename = path[path.rfind('/') + 1:]
             if files_to_translate is not None and filename not in files_to_translate: 
                 continue
@@ -242,7 +234,6 @@ class UnityHelper:
             json.dump(tree['DataList'], f, ensure_ascii=False, indent=4)
 
         print(f"            ├─ 📝 Extracted: {name}")
-
 
     def __patch_textures(self, source_env, target_env, filename, relative_path):
 
@@ -323,3 +314,38 @@ class UnityHelper:
             # Save the modified Unity asset file
             with open(save_path, "wb") as f:
                 f.write(env_file.save(packer=(64, 2)))
+
+    def __pull_masters_from_mobile(self):
+        output_dir = Path('./Android')
+        output_dir.mkdir(exist_ok=True)
+
+        result = subprocess.run([
+            "./platform-tools//adb.exe", "pull",
+            Paths.GAME_MASTERS_Android,
+            str(output_dir)
+        ], capture_output=True, text=True)
+
+        if result.returncode == 0:
+             print(f"\n    ℹ️ Extracted masters files from device")
+        else:
+            print(" ❌ Error pulling masters files. Make sure phone is connected and usb debugging enabled. Error message:" , result.stderr)
+            sys.exit(1)
+
+    def __load_env(self, device:str):
+        if device == 'DMM':
+            self.masters_path = Path(Paths.GAME_MASTERS_DMM)
+            self.env = UnityPy.load(Paths.GAME_MASTERS)
+        elif device == 'Android':
+            self.__pull_masters_from_mobile()
+            self.masters_path = Path(Paths.GAME_MASTERS_Android_Local) 
+            self.env = UnityPy.load(Paths.GAME_MASTERS_Android_Local)
+            
+        self.game_assets_path = Path(Paths.GAME_ASSETS)           
+        # Check if the folder exists and is not empty
+        if not self.masters_path.is_dir():
+            print(f" ❌ Error: The folder '{self.masters_path}' does not exist.")
+            sys.exit(1)
+
+        if not any(self.masters_path.iterdir()):
+            print(f" ❌ Error: The folder '{self.masters_path}' is empty.")
+            sys.exit(1)

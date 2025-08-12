@@ -103,6 +103,7 @@
   "残体力が少ないほどさらに威力アップ": "The lower HP, the higher the damage",
   "必殺技で与えるダメージ": "Damage dealt by Special Move",
   "技威力+": "Skill Power+",
+
   "DEFの#PER3#%を上乗せしてﾀﾞﾒｰｼﾞ計算": "#PER3#%DEF added to damage calculation",
   "DEFの#PER3#%を上乗せしてダメージ計算": "#PER3#%DEF added to damage calculation",
   "RESの#PER2#%を上乗せしてダメージ計算": "#PER2#%RES added to damage calculation",
@@ -111,6 +112,9 @@
   "DEF#PER2#%を上乗せしてﾀﾞﾒｰｼﾞ計算": "#PER2#%DEF added to damage calculation",
   "DEF#PER3#%を上乗せしてﾀﾞﾒｰｼﾞ計算": "#PER3#%DEF added to damage calculation",
   "DEF#PER4#%を上乗せしてﾀﾞﾒｰｼﾞ計算": "#PER4#%DEF added to damage calculation",
+  "INTの#PER3#%を上乗せしてダメージ計算": "#PER3#%INT added to damage calculation",
+  "を上乗せしてダメージ計算": " Added to damage calculation",
+
   "使用するほどさらに威力アップ": "Power increases with each use",
   "クリティカル時の技威力": "[On Critical hit] Skill power",
   "炎属性で与えるダメージ+#PER4#%": "Fire Damage +#PER4#%",
@@ -127,6 +131,7 @@
   "風属性で与えるダメージ+#PER6#%": "Wind Damage +#PER6#%",
   "消費SPによってさらに威力ｱｯﾌﾟ": "Consume remaining SP to increase Skill Power",
   "残体力が多いほどさらに威力アップ": "Power increases with more remaining health",
+  "全てのダメージアップ効果解除": "Damage buff effect removal",
 
   "敵が少ないほど威力アップ": "Increase damage with fewer enemies",
   "+この技で倒した敵キャラ数×": "+No. of foes defeated by this skill ×",
@@ -138,8 +143,6 @@
   "対象のバフを#PER6#%無視してダメージ計算": "Damage calculation ignores #PER6#% of target buffs",
   "対象のバフを70%無視してダメージ計算": "Calculates damage ignoring 70% of Target's Buffs",
   "DEFデバフ状態の敵がいる時、": "If a DEF-Debuffed foe is present, ",
-
-  "INTの#PER3#%を上乗せしてダメージ計算": "#PER3#%INT added to damage calculation",
 
   "自分の残体力#PER2#%減少": "Reduce remaining HP by #PER2#%",
   "自分の残体力#PER3#%減少": "Reduce remaining HP by #PER3#%",
@@ -164,6 +167,7 @@
   "&ATKバフ効果時、": "If target has ATK buff, ",
 
   "DEFバフ状態の味方がいる時、": "[When ally has a DEF buff]",
+  "PDバフ効果時、": "[If target has SDP debuff], ",
   "対象のHPが75%以下の場合": "If 75% or less HP",
 
   "潜在タイプ[キング]のキャラはさらにATK・INT+": "[Characters of symbol King]ATK & INT +",
@@ -193,6 +197,7 @@
   "[風]": "[Wind]",
 
   "[ﾗﾝﾀﾞﾑ]": "[Random]",
+  "[ランダム]": "[Random]",
 
   "付与[自身]": "[Self]",
   "[自身]": "[Self]",
