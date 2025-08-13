@@ -1,5 +1,4 @@
 Masters_Backup/
-Source/
 Code/__pycache__/
 config.json
 Source - Copy/
@@ -14,6 +13,5 @@ Patched_Textures/
 Translated_Files/
 debug.log
 .vscode/launch.json
-Android/master
-Android/Masters_Backup
 test.py
+Android/master

@@ -15129,7 +15129,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If a critical occurs at the end of the turn, the basic parameters other than the party's HP +#PER#%(2 turns)"
+    "description": "If a critical occurs at the end of the turn, Non-HP Basic Stats +#PER#%(2 turns)"
   },
   {
     "id": 1243,
@@ -17235,7 +17235,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and the basic parameters other than the party's HP +#PER#%(3T)"
+    "description": ", and Non-HP Basic Stats +#PER#%(3T)"
   },
   {
     "id": 1381,
@@ -24619,7 +24619,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "You are subjected to a solo attack on someone other than the party"
+    "description": "Self: Cover"
   },
   {
     "id": 1893,
@@ -29897,7 +29897,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "You are subjected to a solo attack on someone other than the party"
+    "description": "Self: Cover"
   },
   {
     "id": 2193,
@@ -40453,7 +40453,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "When a party generates a critical condition, the basic parameters other than the party's HP: CRD+#PER#%(2T)"
+    "description": "When any ally crits, Non-HP Basic Stats: CRD+#PER#%(2T)"
   },
   {
     "id": 2754,
@@ -52283,7 +52283,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "The more surviving characters in the party, the higher the basic parameters other than the party's HP (max +#PER#%, up to 5 characters)"
+    "description": "The more surviving characters in the party, the higher Non-HP Basic Stats (max +#PER#%, up to 5 characters)"
   },
   {
     "id": 3365,
@@ -53453,7 +53453,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "The more your own HP, the higher the basic parameters other than the party's HP (max +#PER#%)"
+    "description": "The more your own HP, the higher Non-HP Basic Stats (max +#PER#%)"
   },
   {
     "id": 3425,
@@ -67597,7 +67597,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "When a party generates a critical condition, the basic parameters other than the party's HP +#PER#%(2 turns)"
+    "description": "When any ally crits, Non-HP Basic Stats +#PER#%(2 turns)"
   },
   {
     "id": 200533,
@@ -76021,7 +76021,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and the basic parameters other than the party's HP +#PER#%(3T)"
+    "description": ", and Non-HP Basic Stats +#PER#%(3T)"
   },
   {
     "id": 201011,
@@ -96769,7 +96769,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "You are subjected to a solo attack on someone other than the party"
+    "description": "Self: Cover"
   },
   {
     "id": 3584,
@@ -96795,7 +96795,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, if there are 3 or fewer enemies, the basic parameters other than the party's HP +#PER#%(1T)"
+    "description": "All Allies: At the start of the turn, if there are 3 or less foes, Non-HP Basic Stats +#PER#%(1T)"
   },
   {
     "id": 3585,
@@ -96873,7 +96873,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If you are attacked, you will recover the party's HP to exceed the #PER#% of your maximum HP."
+    "description": ". When this unit is attacked, heal all allies by #PER#% of your maximum HP (overheal)."
   },
   {
     "id": 3588,
@@ -96899,7 +96899,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and if there is one enemy, the basic parameters other than the party's HP +#PER#%(1T)"
+    "description": ", and if there is one foe, Non-HP Basic Stats +#PER#%(1T)"
   },
   {
     "id": 201061,

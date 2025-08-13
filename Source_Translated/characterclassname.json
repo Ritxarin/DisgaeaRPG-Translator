@@ -24699,25 +24699,25 @@
     "id": 3591,
     "m_character_id": 359,
     "rarity": 1,
-    "class_name": "The Stylish Vice Captain"
+    "class_name": "Chich First Officer"
   },
   {
     "id": 3592,
     "m_character_id": 359,
     "rarity": 2,
-    "class_name": "The Stylish Vice Captain"
+    "class_name": "Chich First Officer"
   },
   {
     "id": 3593,
     "m_character_id": 359,
     "rarity": 3,
-    "class_name": "The Stylish Vice Captain"
+    "class_name": "Chich First Officer"
   },
   {
     "id": 3594,
     "m_character_id": 359,
     "rarity": 4,
-    "class_name": "The Stylish Vice Captain"
+    "class_name": "Chich First Officer"
   },
   {
     "id": 3595,
@@ -24729,6 +24729,6 @@
     "id": 3596,
     "m_character_id": 359,
     "rarity": 6,
-    "class_name": "Vice Captain Living in a Chief"
+    "class_name": "First Officer who lives by his morals"
   }
 ]

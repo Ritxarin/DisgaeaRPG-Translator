@@ -10272,6 +10272,22 @@
         "mana": 0
     },
     {
+        "id": 3003591,
+        "m_character_id": 359,
+        "m_command_id": 3003591,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003592,
+        "m_character_id": 359,
+        "m_command_id": 3003592,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
         "id": 3200091,
         "m_character_id": 20009,
         "m_command_id": 3200091,

@@ -5555,7 +5555,7 @@
     "item_type": 50,
     "icon_no": 5001,
     "effect_value": [5],
-    "description": "USe to super awaken to ★6 and beyond",
+    "description": "Use to super awaken to ★6 and beyond",
     "max_num": 999,
     "sell_price": 0
   },
@@ -5565,7 +5565,7 @@
     "item_type": 51,
     "icon_no": 5101,
     "effect_value": [0],
-    "description": "Coins that can be used at the exchange counter at the Demon World Martial Arts Tournament",
+    "description": "Coins that can be used at the shop at the Demon World Martial Arts Tournament",
     "max_num": 999999999,
     "sell_price": 0
   },
@@ -5575,7 +5575,7 @@
     "item_type": 52,
     "icon_no": 5201,
     "effect_value": [1],
-    "description": "Use to restore 1 BP",
+    "description": "A portion that can restore 1 BP",
     "max_num": 999999999,
     "sell_price": 0
   },
@@ -5585,7 +5585,7 @@
     "item_type": 53,
     "icon_no": 5301,
     "effect_value": [1],
-    "description": "Key for unlocking the Abyss Gate",
+    "description": "A key for unlocking the Abyss Gate",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -20375,7 +20375,7 @@
     "item_type": 23,
     "icon_no": 2302,
     "effect_value": [500, 356],
-    "description": "A mysterious drug that can earn Urumi's mana when used",
+    "description": "A mysterious drug that can earn Urmi's mana when used",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -20425,7 +20425,7 @@
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [100],
-    "description": "Crystals that can magically modify Rouen",
+    "description": "Crystals that can magically modify Luan",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -20445,7 +20445,7 @@
     "item_type": 46,
     "icon_no": 4601,
     "effect_value": [356],
-    "description": "Demon stars that can turn Urumi into awakening state of 6★",
+    "description": "Demon stars that can turn Urmi into awakening state of 6★",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -20466,46 +20466,6 @@
     "icon_no": 4601,
     "effect_value": [20106],
     "description": "A demon that can turn a bottle aprico into awakening state of 6★",
-    "max_num": 9999,
-    "sell_price": 0
-  },
-  {
-    "id": 1945,
-    "name": "PK Demon King Gathering Festic Hand",
-    "item_type": 19,
-    "icon_no": 1945,
-    "effect_value": [201129],
-    "description": "Tickets for the Phantom Kingdom Demon King Gathering Festival",
-    "max_num": 999,
-    "sell_price": 0
-  },
-  {
-    "id": 6710,
-    "name": "Prephantom",
-    "item_type": 67,
-    "icon_no": 6710,
-    "effect_value": [0],
-    "description": "A part of a soul that was purified in battle has been crystallized\nYou can exchange for various rewards at a limited-time exchange",
-    "max_num": 99999999,
-    "sell_price": 0
-  },
-  {
-    "id": 340228,
-    "name": "Gathering festival exchange ticket",
-    "item_type": 34,
-    "icon_no": 3478,
-    "effect_value": [831],
-    "description": "Available at the Gathering Festival Exchange",
-    "max_num": 9999,
-    "sell_price": 0
-  },
-  {
-    "id": 4600359,
-    "name": "Rouen's Demon Star",
-    "item_type": 46,
-    "icon_no": 4601,
-    "effect_value": [359],
-    "description": "A demon that can make Rouen into awakening state of ★6",
     "max_num": 9999,
     "sell_price": 0
   }
