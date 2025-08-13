@@ -31669,7 +31669,7 @@
   },
   {
     "id": 2291,
-    "name": "Fire Fist Form",
+    "name": "Fire Fist Emperor Form",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -31717,7 +31717,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with fire attacks when you are equipped with fist weapons +#PER#%"
+    "description": "Fist-Equipped Self: Fire Damage +#PER#%"
   },
   {
     "id": 2293,
@@ -31769,11 +31769,11 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ATK/CRD+#PER#%(2T) is the ally character with the highest ATK."
+    "description": "At the start of the turn, Ally character with the highest ATK, ATK/CRD+#PER#%(2T)."
   },
   {
     "id": 2295,
-    "name": "Fire Fist Form",
+    "name": "Fire Fist Emperor Form",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,

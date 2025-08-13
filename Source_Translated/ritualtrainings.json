@@ -50898,7 +50898,7 @@
     "training_status": 2,
     "training_type": 1,
     "m_ritual_training_stage_id": 0,
-    "ability_description": "I'm burning! [Power increase]",
+    "ability_description": "I'm on fire! [Power increase]",
     "ability_type": 1,
     "ability_id": 3002291,
     "buff_value": 4002291
@@ -50922,7 +50922,7 @@
     "training_status": 4,
     "training_type": 1,
     "m_ritual_training_stage_id": 0,
-    "ability_description": "Beat Down Time! [SP-3]",
+    "ability_description": "I'll Beat you up! [SP-3]",
     "ability_type": 1,
     "ability_id": 3002292,
     "buff_value": 4002292
@@ -50982,7 +50982,7 @@
     "training_status": 9,
     "training_type": 1,
     "m_ritual_training_stage_id": 0,
-    "ability_description": "Burn up! ! [SP-5]",
+    "ability_description": "Let's Burn [SP-5]",
     "ability_type": 1,
     "ability_id": 3002293,
     "buff_value": 4002293
