@@ -2703,18 +2703,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      2
-    ],
-    "present_ids": [
-      20006
-    ],
-    "present_rarities": [
-      3
-    ],
-    "present_nums": [
-      1
-    ],
+    "present_types": [2],
+    "present_ids": [20006],
+    "present_rarities": [3],
+    "present_nums": [1],
     "sort": 10,
     "description": "",
     "skip_flg": 0,
@@ -3579,18 +3571,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      4
-    ],
-    "present_ids": [
-      71001
-    ],
-    "present_rarities": [
-      100
-    ],
-    "present_nums": [
-      1
-    ],
+    "present_types": [4],
+    "present_ids": [71001],
+    "present_rarities": [100],
+    "present_nums": [1],
     "sort": 10,
     "description": "",
     "skip_flg": 0,
@@ -8907,18 +8891,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      4
-    ],
-    "present_ids": [
-      61001
-    ],
-    "present_rarities": [
-      100
-    ],
-    "present_nums": [
-      1
-    ],
+    "present_types": [4],
+    "present_ids": [61001],
+    "present_rarities": [100],
+    "present_nums": [1],
     "sort": 7,
     "description": "",
     "skip_flg": 0,
@@ -9923,18 +9899,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      4
-    ],
-    "present_ids": [
-      71002
-    ],
-    "present_rarities": [
-      100
-    ],
-    "present_nums": [
-      1
-    ],
+    "present_types": [4],
+    "present_ids": [71002],
+    "present_rarities": [100],
+    "present_nums": [1],
     "sort": 1,
     "description": "",
     "skip_flg": 0,
@@ -10463,22 +10431,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      4,
-      4
-    ],
-    "present_ids": [
-      71003,
-      11001
-    ],
-    "present_rarities": [
-      100,
-      100
-    ],
-    "present_nums": [
-      1,
-      1
-    ],
+    "present_types": [4, 4],
+    "present_ids": [71003, 11001],
+    "present_rarities": [100, 100],
+    "present_nums": [1, 1],
     "sort": 10,
     "description": "",
     "skip_flg": 0,
@@ -19267,18 +19223,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      4
-    ],
-    "present_ids": [
-      71012
-    ],
-    "present_rarities": [
-      100
-    ],
-    "present_nums": [
-      1
-    ],
+    "present_types": [4],
+    "present_ids": [71012],
+    "present_rarities": [100],
+    "present_nums": [1],
     "sort": 10,
     "description": "",
     "skip_flg": 0,
@@ -21823,18 +21771,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      4
-    ],
-    "present_ids": [
-      71013
-    ],
-    "present_rarities": [
-      100
-    ],
-    "present_nums": [
-      1
-    ],
+    "present_types": [4],
+    "present_ids": [71013],
+    "present_rarities": [100],
+    "present_nums": [1],
     "sort": 10,
     "description": "",
     "skip_flg": 0,
@@ -28299,18 +28239,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      7
-    ],
-    "present_ids": [
-      111
-    ],
-    "present_rarities": [
-      100
-    ],
-    "present_nums": [
-      1
-    ],
+    "present_types": [7],
+    "present_ids": [111],
+    "present_rarities": [100],
+    "present_nums": [1],
     "sort": 9,
     "description": "",
     "skip_flg": 0,
@@ -30231,7 +30163,7 @@
     "proper_level": "-",
     "appear_m_stage_id": 119410,
     "appear_at": "",
-    "name": "Two volumes by Mr. Rahal",
+    "name": "Two volumes by Mr. Laharl",
     "bgm": "",
     "boss_bgm": "",
     "bg_id": 0,
@@ -30259,7 +30191,7 @@
     "proper_level": "2525",
     "appear_m_stage_id": 119501,
     "appear_at": "",
-    "name": "The other Rahal ①.",
+    "name": "The other Laharl ①.",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -30287,7 +30219,7 @@
     "proper_level": "2530",
     "appear_m_stage_id": 119502,
     "appear_at": "",
-    "name": "The other Rahal (2)",
+    "name": "The other Laharl (2)",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -31807,18 +31739,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      7
-    ],
-    "present_ids": [
-      176
-    ],
-    "present_rarities": [
-      100
-    ],
-    "present_nums": [
-      1
-    ],
+    "present_types": [7],
+    "present_ids": [176],
+    "present_rarities": [100],
+    "present_nums": [1],
     "sort": 8,
     "description": "",
     "skip_flg": 0,
@@ -49475,7 +49399,7 @@
     "proper_level": "4825",
     "appear_m_stage_id": 219409,
     "appear_at": "",
-    "name": "The other Rahal ①.",
+    "name": "The other Laharl ①.",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -49503,7 +49427,7 @@
     "proper_level": "4830",
     "appear_m_stage_id": 219502,
     "appear_at": "",
-    "name": "The other Rahal (2)",
+    "name": "The other Laharl (2)",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -67871,7 +67795,7 @@
     "proper_level": "7450",
     "appear_m_stage_id": 319409,
     "appear_at": "",
-    "name": "The other Rahal ①.",
+    "name": "The other Laharl ①.",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -67899,7 +67823,7 @@
     "proper_level": "7460",
     "appear_m_stage_id": 319502,
     "appear_at": "",
-    "name": "The other Rahal (2)",
+    "name": "The other Laharl (2)",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -78091,7 +78015,7 @@
     "proper_level": "8027",
     "appear_m_stage_id": 411206,
     "appear_at": "",
-    "name": "Rahal's Rage (1)",
+    "name": "Laharl's Rage (1)",
     "bgm": "bgm_battle04",
     "boss_bgm": "bgm_boss01",
     "bg_id": 11,
@@ -84643,7 +84567,7 @@
     "proper_level": "8693",
     "appear_m_stage_id": 417506,
     "appear_at": "",
-    "name": "Rahal's and the (1)",
+    "name": "Laharl's and the (1)",
     "bgm": "bgm_battle09",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10027,
@@ -84671,7 +84595,7 @@
     "proper_level": "8696",
     "appear_m_stage_id": 417508,
     "appear_at": "",
-    "name": "Rahal's and the two (2)",
+    "name": "Laharl's and the two (2)",
     "bgm": "bgm_battle09",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10027,
@@ -86267,7 +86191,7 @@
     "proper_level": "8883",
     "appear_m_stage_id": 419409,
     "appear_at": "",
-    "name": "The other Rahal ①.",
+    "name": "The other Laharl ①.",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -86295,7 +86219,7 @@
     "proper_level": "8886",
     "appear_m_stage_id": 419502,
     "appear_at": "",
-    "name": "The other Rahal (2)",
+    "name": "The other Laharl (2)",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -96487,7 +96411,7 @@
     "proper_level": "9027",
     "appear_m_stage_id": 511206,
     "appear_at": "",
-    "name": "Rahal's Rage (1)",
+    "name": "Laharl's Rage (1)",
     "bgm": "bgm_battle04",
     "boss_bgm": "bgm_boss01",
     "bg_id": 11,
@@ -103039,7 +102963,7 @@
     "proper_level": "9693",
     "appear_m_stage_id": 517506,
     "appear_at": "",
-    "name": "Rahal's and the (1)",
+    "name": "Laharl's and the (1)",
     "bgm": "bgm_battle09",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10027,
@@ -103067,7 +102991,7 @@
     "proper_level": "9696",
     "appear_m_stage_id": 517508,
     "appear_at": "",
-    "name": "Rahal's and the two (2)",
+    "name": "Laharl's and the two (2)",
     "bgm": "bgm_battle09",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10027,
@@ -104663,7 +104587,7 @@
     "proper_level": "9883",
     "appear_m_stage_id": 519409,
     "appear_at": "",
-    "name": "The other Rahal ①.",
+    "name": "The other Laharl ①.",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -104691,7 +104615,7 @@
     "proper_level": "9886",
     "appear_m_stage_id": 519502,
     "appear_at": "",
-    "name": "The other Rahal (2)",
+    "name": "The other Laharl (2)",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -114883,7 +114807,7 @@
     "proper_level": "修羅Lv.1",
     "appear_m_stage_id": 611206,
     "appear_at": "",
-    "name": "Rahal's Rage (1)",
+    "name": "Laharl's Rage (1)",
     "bgm": "bgm_battle04",
     "boss_bgm": "bgm_boss01",
     "bg_id": 11,
@@ -121435,7 +121359,7 @@
     "proper_level": "修羅Lv.1",
     "appear_m_stage_id": 617506,
     "appear_at": "",
-    "name": "Rahal's and the (1)",
+    "name": "Laharl's and the (1)",
     "bgm": "bgm_battle09",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10027,
@@ -121463,7 +121387,7 @@
     "proper_level": "修羅Lv.1",
     "appear_m_stage_id": 617508,
     "appear_at": "",
-    "name": "Rahal's and the two (2)",
+    "name": "Laharl's and the two (2)",
     "bgm": "bgm_battle09",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10027,
@@ -123059,7 +122983,7 @@
     "proper_level": "修羅Lv.1",
     "appear_m_stage_id": 619409,
     "appear_at": "",
-    "name": "The other Rahal ①.",
+    "name": "The other Laharl ①.",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -123087,7 +123011,7 @@
     "proper_level": "修羅Lv.1",
     "appear_m_stage_id": 619502,
     "appear_at": "",
-    "name": "The other Rahal (2)",
+    "name": "The other Laharl (2)",
     "bgm": "bgm_battle05",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10028,
@@ -156715,7 +156639,7 @@
     "proper_level": "1000",
     "appear_m_stage_id": 14841027,
     "appear_at": "",
-    "name": "VS Demon Detective Rahal-chan",
+    "name": "VS Demon Detective Laharl-chan",
     "bgm": "bgm_battle04",
     "boss_bgm": "bgm_5_16",
     "bg_id": 10074,
@@ -158843,7 +158767,7 @@
     "proper_level": "9999",
     "appear_m_stage_id": 14952015,
     "appear_at": "",
-    "name": "Rahul Rahal in swimsuit.",
+    "name": "Rahul Laharl in swimsuit.",
     "bgm": "bgm_battle02",
     "boss_bgm": "bgm_battle02",
     "bg_id": 10075,
@@ -177687,7 +177611,7 @@
     "proper_level": "-",
     "appear_m_stage_id": 16871044,
     "appear_at": "",
-    "name": "Krai and Rahal Volume",
+    "name": "Krai and Laharl Volume",
     "bgm": "",
     "boss_bgm": "",
     "bg_id": 0,
@@ -177715,7 +177639,7 @@
     "proper_level": "2600",
     "appear_m_stage_id": 16871045,
     "appear_at": "",
-    "name": "Krai and Rahal (1)",
+    "name": "Krai and Laharl (1)",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_battle03",
     "bg_id": 13,
@@ -177743,7 +177667,7 @@
     "proper_level": "2800",
     "appear_m_stage_id": 16871046,
     "appear_at": "",
-    "name": "Krai and Rahal (2)",
+    "name": "Krai and Laharl (2)",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_battle03",
     "bg_id": 13,
@@ -178135,7 +178059,7 @@
     "proper_level": "9999",
     "appear_m_stage_id": 16872014,
     "appear_at": "",
-    "name": "Shura Rahal",
+    "name": "Shura Laharl",
     "bgm": "bgm_battle13",
     "boss_bgm": "bgm_battle13",
     "bg_id": 13,
@@ -178163,7 +178087,7 @@
     "proper_level": "9999",
     "appear_m_stage_id": 16872015,
     "appear_at": "",
-    "name": "Raja Rahal",
+    "name": "Raja Laharl",
     "bgm": "bgm_battle13",
     "boss_bgm": "bgm_battle13",
     "bg_id": 13,
@@ -179283,7 +179207,7 @@
     "proper_level": "5000",
     "appear_m_stage_id": 17021057,
     "appear_at": "",
-    "name": "VS courtesy of Rahal",
+    "name": "VS courtesy of Laharl",
     "bgm": "bgm_d2_5",
     "boss_bgm": "bgm_d2_5",
     "bg_id": 10106,
@@ -179395,7 +179319,7 @@
     "proper_level": "7500",
     "appear_m_stage_id": 17021058,
     "appear_at": "",
-    "name": "Evil Reit Rahal",
+    "name": "Evil Reit Laharl",
     "bgm": "bgm_d2_5",
     "boss_bgm": "bgm_d2_5",
     "bg_id": 10120,
@@ -179423,7 +179347,7 @@
     "proper_level": "9999",
     "appear_m_stage_id": 17022014,
     "appear_at": "",
-    "name": "Shura Reit Rahal",
+    "name": "Shura Reit Laharl",
     "bgm": "bgm_d2_5",
     "boss_bgm": "bgm_d2_5",
     "bg_id": 10120,
@@ -179451,7 +179375,7 @@
     "proper_level": "9999",
     "appear_m_stage_id": 17022015,
     "appear_at": "",
-    "name": "Raja Rahal, courtesy of Raja Rahal",
+    "name": "Raja Laharl, courtesy of Raja Laharl",
     "bgm": "bgm_d2_5",
     "boss_bgm": "bgm_d2_5",
     "bg_id": 10120,
@@ -179899,7 +179823,7 @@
     "proper_level": "1000",
     "appear_m_stage_id": 17161027,
     "appear_at": "",
-    "name": "VS Black Santa Rahal",
+    "name": "VS Black Santa Laharl",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_battle01",
     "bg_id": 10121,
@@ -266091,18 +266015,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      1601
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      1
-    ],
+    "present_types": [1],
+    "present_ids": [1601],
+    "present_rarities": [0],
+    "present_nums": [1],
     "sort": 9,
     "description": "",
     "skip_flg": 0,
@@ -303451,18 +303367,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 10,
     "description": "",
     "skip_flg": 0,
@@ -303487,18 +303395,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 9,
     "description": "",
     "skip_flg": 0,
@@ -303523,18 +303423,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 8,
     "description": "",
     "skip_flg": 0,
@@ -303559,18 +303451,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 7,
     "description": "",
     "skip_flg": 0,
@@ -303595,18 +303479,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 6,
     "description": "",
     "skip_flg": 0,
@@ -303631,18 +303507,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 5,
     "description": "",
     "skip_flg": 0,
@@ -303667,18 +303535,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 4,
     "description": "",
     "skip_flg": 0,
@@ -303703,18 +303563,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 3,
     "description": "",
     "skip_flg": 0,
@@ -303739,18 +303591,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 2,
     "description": "",
     "skip_flg": 0,
@@ -303775,18 +303619,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 1,
     "description": "",
     "skip_flg": 0,
@@ -358571,7 +358407,7 @@
     "proper_level": "150",
     "appear_m_stage_id": 1260105101,
     "appear_at": "",
-    "name": "Rahal's chest thumping",
+    "name": "Laharl's chest thumping",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss02",
     "bg_id": 60010,
@@ -358683,7 +358519,7 @@
     "proper_level": "500",
     "appear_m_stage_id": 1260104202,
     "appear_at": "",
-    "name": "Rahal's chest thumping",
+    "name": "Laharl's chest thumping",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss02",
     "bg_id": 60010,
@@ -358795,7 +358631,7 @@
     "proper_level": "1250",
     "appear_m_stage_id": 1260104302,
     "appear_at": "",
-    "name": "Rahal's chest thumping",
+    "name": "Laharl's chest thumping",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss02",
     "bg_id": 60010,
@@ -379719,18 +379555,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 10,
     "description": "",
     "skip_flg": 0,
@@ -379755,18 +379583,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 9,
     "description": "",
     "skip_flg": 0,
@@ -379791,18 +379611,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 8,
     "description": "",
     "skip_flg": 0,
@@ -379827,18 +379639,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 7,
     "description": "",
     "skip_flg": 0,
@@ -379863,18 +379667,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 6,
     "description": "",
     "skip_flg": 0,
@@ -379899,18 +379695,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 5,
     "description": "",
     "skip_flg": 0,
@@ -379935,18 +379723,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 4,
     "description": "",
     "skip_flg": 0,
@@ -379971,18 +379751,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 3,
     "description": "",
     "skip_flg": 0,
@@ -380007,18 +379779,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 2,
     "description": "",
     "skip_flg": 0,
@@ -380043,18 +379807,10 @@
     "act": 0,
     "exp": 0,
     "lose_m_story_id": 0,
-    "present_types": [
-      1
-    ],
-    "present_ids": [
-      201
-    ],
-    "present_rarities": [
-      0
-    ],
-    "present_nums": [
-      10
-    ],
+    "present_types": [1],
+    "present_ids": [201],
+    "present_rarities": [0],
+    "present_nums": [10],
     "sort": 1,
     "description": "",
     "skip_flg": 0,
@@ -380323,7 +380079,7 @@
     "proper_level": "32",
     "appear_m_stage_id": 1348101106,
     "appear_at": "",
-    "name": "VS Rahal-chan",
+    "name": "VS Laharl-chan",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 2,
@@ -380519,7 +380275,7 @@
     "proper_level": "324",
     "appear_m_stage_id": 1348101205,
     "appear_at": "",
-    "name": "VS Rahal-chan",
+    "name": "VS Laharl-chan",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 2,
@@ -380659,7 +380415,7 @@
     "proper_level": "795",
     "appear_m_stage_id": 1348101305,
     "appear_at": "",
-    "name": "VS Rahal-chan",
+    "name": "VS Laharl-chan",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 2,
@@ -384635,7 +384391,7 @@
     "proper_level": "32",
     "appear_m_stage_id": 1363101106,
     "appear_at": "",
-    "name": "The Passion of Rahal",
+    "name": "The Passion of Laharl",
     "bgm": "bgm_phantom43",
     "boss_bgm": "bgm_phantom43",
     "bg_id": 1,
@@ -384831,7 +384587,7 @@
     "proper_level": "324",
     "appear_m_stage_id": 1363101205,
     "appear_at": "",
-    "name": "The Passion of Rahal",
+    "name": "The Passion of Laharl",
     "bgm": "bgm_phantom43",
     "boss_bgm": "bgm_phantom43",
     "bg_id": 1,
@@ -384971,7 +384727,7 @@
     "proper_level": "795",
     "appear_m_stage_id": 1363101305,
     "appear_at": "",
-    "name": "The Passion of Rahal",
+    "name": "The Passion of Laharl",
     "bgm": "bgm_phantom43",
     "boss_bgm": "bgm_phantom43",
     "bg_id": 1,
@@ -388695,7 +388451,7 @@
     "proper_level": "1",
     "appear_m_stage_id": 0,
     "appear_at": "",
-    "name": "VSRK Rahal-chan.",
+    "name": "VSRK Laharl-chan.",
     "bgm": "bgm_boss01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 1,
@@ -393119,7 +392875,7 @@
     "proper_level": "1",
     "appear_m_stage_id": 0,
     "appear_at": "",
-    "name": "VS Rahal the Brave",
+    "name": "VS Laharl the Brave",
     "bgm": "bgm_boss01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 1,
@@ -394995,7 +394751,7 @@
     "proper_level": "-",
     "appear_m_stage_id": 1404103110,
     "appear_at": "",
-    "name": "Cooperator Rahal's Volume",
+    "name": "Cooperator Laharl's Volume",
     "bgm": "",
     "boss_bgm": "",
     "bg_id": 0,
@@ -395163,7 +394919,7 @@
     "proper_level": "92",
     "appear_m_stage_id": 1404104106,
     "appear_at": "",
-    "name": "vs. Black Santa Rahal (1)",
+    "name": "vs. Black Santa Laharl (1)",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 24,
@@ -395219,7 +394975,7 @@
     "proper_level": "96",
     "appear_m_stage_id": 1404104108,
     "appear_at": "",
-    "name": "vs. Black Santa Rahal (2)",
+    "name": "vs. Black Santa Laharl (2)",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss02",
     "bg_id": 24,
@@ -395247,7 +395003,7 @@
     "proper_level": "-",
     "appear_m_stage_id": 1404104109,
     "appear_at": "",
-    "name": "Rahal's True Meaning Volume",
+    "name": "Laharl's True Meaning Volume",
     "bgm": "",
     "boss_bgm": "",
     "bg_id": 0,
@@ -395359,7 +395115,7 @@
     "proper_level": "444",
     "appear_m_stage_id": 1404104205,
     "appear_at": "",
-    "name": "vs. Black Santa Rahal (1)",
+    "name": "vs. Black Santa Laharl (1)",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 24,
@@ -395387,7 +395143,7 @@
     "proper_level": "452",
     "appear_m_stage_id": 1404104207,
     "appear_at": "",
-    "name": "vs. Black Santa Rahal (2)",
+    "name": "vs. Black Santa Laharl (2)",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss02",
     "bg_id": 24,
@@ -395499,7 +395255,7 @@
     "proper_level": "1020",
     "appear_m_stage_id": 1404104305,
     "appear_at": "",
-    "name": "vs. Black Santa Rahal (1)",
+    "name": "vs. Black Santa Laharl (1)",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 24,
@@ -395527,7 +395283,7 @@
     "proper_level": "1035",
     "appear_m_stage_id": 1404104307,
     "appear_at": "",
-    "name": "vs. Black Santa Rahal (2)",
+    "name": "vs. Black Santa Laharl (2)",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss02",
     "bg_id": 24,
@@ -399335,7 +399091,7 @@
     "proper_level": "84",
     "appear_m_stage_id": 1413104102,
     "appear_at": "",
-    "name": "Rahal, the wickedly sunny girl.",
+    "name": "Laharl, the wickedly sunny girl.",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10060,
@@ -399587,7 +399343,7 @@
     "proper_level": "428",
     "appear_m_stage_id": 1413104202,
     "appear_at": "",
-    "name": "Rahal, the wickedly sunny girl.",
+    "name": "Laharl, the wickedly sunny girl.",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10060,
@@ -399727,7 +399483,7 @@
     "proper_level": "990",
     "appear_m_stage_id": 1413104302,
     "appear_at": "",
-    "name": "Rahal, the wickedly sunny girl.",
+    "name": "Laharl, the wickedly sunny girl.",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10060,
@@ -425991,7 +425747,7 @@
     "proper_level": "6900",
     "appear_m_stage_id": 0,
     "appear_at": "",
-    "name": "Trial Room, Thunder Emperor Rahal, Shura.",
+    "name": "Trial Room, Thunder Emperor Laharl, Shura.",
     "bgm": "bgm_battle04",
     "boss_bgm": "bgm_4_5",
     "bg_id": 60009,
@@ -445479,7 +445235,7 @@
     "proper_level": "3900",
     "appear_m_stage_id": 0,
     "appear_at": "",
-    "name": "Trial Room, Rahal the Demon Angel, Evil.",
+    "name": "Trial Room, Laharl the Demon Angel, Evil.",
     "bgm": "bgm_battle04",
     "boss_bgm": "bgm_4_5",
     "bg_id": 60009,
@@ -445507,7 +445263,7 @@
     "proper_level": "6900",
     "appear_m_stage_id": 0,
     "appear_at": "",
-    "name": "Trial Room, Rahal-chan, the Devil's Angel, Shura",
+    "name": "Trial Room, Laharl-chan, the Devil's Angel, Shura",
     "bgm": "bgm_battle04",
     "boss_bgm": "bgm_4_5",
     "bg_id": 60009,
@@ -450323,7 +450079,7 @@
     "proper_level": "3900",
     "appear_m_stage_id": 0,
     "appear_at": "",
-    "name": "Trial Room, Rahal the Demon Angel, Evil.",
+    "name": "Trial Room, Laharl the Demon Angel, Evil.",
     "bgm": "bgm_battle04",
     "boss_bgm": "bgm_4_5",
     "bg_id": 60009,
@@ -450351,7 +450107,7 @@
     "proper_level": "6900",
     "appear_m_stage_id": 0,
     "appear_at": "",
-    "name": "Trial Room, Rahal-chan, the Devil's Angel, Shura",
+    "name": "Trial Room, Laharl-chan, the Devil's Angel, Shura",
     "bgm": "bgm_battle04",
     "boss_bgm": "bgm_4_5",
     "bg_id": 60009,
@@ -484875,7 +484631,7 @@
     "proper_level": "36",
     "appear_m_stage_id": 2066101108,
     "appear_at": "",
-    "name": "Monster Rahal",
+    "name": "Monster Laharl",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss02",
     "bg_id": 10020,
@@ -485043,7 +484799,7 @@
     "proper_level": "332",
     "appear_m_stage_id": 2066101207,
     "appear_at": "",
-    "name": "Monster Rahal",
+    "name": "Monster Laharl",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss02",
     "bg_id": 10020,
@@ -485183,7 +484939,7 @@
     "proper_level": "810",
     "appear_m_stage_id": 2066101307,
     "appear_at": "",
-    "name": "Monster Rahal",
+    "name": "Monster Laharl",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss02",
     "bg_id": 10020,
@@ -489187,7 +488943,7 @@
     "proper_level": "88",
     "appear_m_stage_id": 2073104104,
     "appear_at": "",
-    "name": "Rahal's appeal (1)",
+    "name": "Laharl's appeal (1)",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10016,
@@ -489215,7 +488971,7 @@
     "proper_level": "92",
     "appear_m_stage_id": 2073104105,
     "appear_at": "",
-    "name": "Rahal's appeal (2)",
+    "name": "Laharl's appeal (2)",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10016,
@@ -489383,7 +489139,7 @@
     "proper_level": "436",
     "appear_m_stage_id": 2073104203,
     "appear_at": "",
-    "name": "Rahal's appeal (1)",
+    "name": "Laharl's appeal (1)",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10016,
@@ -489411,7 +489167,7 @@
     "proper_level": "444",
     "appear_m_stage_id": 2073104205,
     "appear_at": "",
-    "name": "Rahal's appeal (2)",
+    "name": "Laharl's appeal (2)",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10016,
@@ -489523,7 +489279,7 @@
     "proper_level": "1005",
     "appear_m_stage_id": 2073104303,
     "appear_at": "",
-    "name": "Rahal's appeal (1)",
+    "name": "Laharl's appeal (1)",
     "bgm": "bgm_battle06",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10016,
@@ -489551,7 +489307,7 @@
     "proper_level": "1020",
     "appear_m_stage_id": 2073104305,
     "appear_at": "",
-    "name": "Rahal's appeal (2)",
+    "name": "Laharl's appeal (2)",
     "bgm": "bgm_battle01",
     "boss_bgm": "bgm_boss01",
     "bg_id": 10016,
@@ -496075,7 +495831,7 @@
     "proper_level": "36",
     "appear_m_stage_id": 2090101108,
     "appear_at": "",
-    "name": "Battle of Rahal, the Demon King",
+    "name": "Battle of Laharl, the Demon King",
     "bgm": "bgm_battle02",
     "boss_bgm": "bgm_boss03",
     "bg_id": 1,
@@ -496243,7 +495999,7 @@
     "proper_level": "332",
     "appear_m_stage_id": 2090101207,
     "appear_at": "",
-    "name": "Battle of Rahal, the Demon King",
+    "name": "Battle of Laharl, the Demon King",
     "bgm": "bgm_battle02",
     "boss_bgm": "bgm_boss03",
     "bg_id": 1,
@@ -496383,7 +496139,7 @@
     "proper_level": "810",
     "appear_m_stage_id": 2090101307,
     "appear_at": "",
-    "name": "Battle of Rahal, the Demon King",
+    "name": "Battle of Laharl, the Demon King",
     "bgm": "bgm_battle02",
     "boss_bgm": "bgm_boss03",
     "bg_id": 1,

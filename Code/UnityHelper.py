@@ -1,3 +1,4 @@
+from datetime import datetime
 import io
 import json
 import os
@@ -8,6 +9,7 @@ import sys
 import time
 from typing import List
 import UnityPy
+from Code.Helper import Helper
 from Code.config import Config, Paths
 
 
@@ -315,28 +317,12 @@ class UnityHelper:
             with open(save_path, "wb") as f:
                 f.write(env_file.save(packer=(64, 2)))
 
-    def __pull_masters_from_mobile(self):
-        output_dir = Path('./Android')
-        output_dir.mkdir(exist_ok=True)
-
-        result = subprocess.run([
-            "./platform-tools//adb.exe", "pull",
-            Paths.GAME_MASTERS_Android,
-            str(output_dir)
-        ], capture_output=True, text=True)
-
-        if result.returncode == 0:
-             print(f"\n    ℹ️ Extracted masters files from device")
-        else:
-            print(" ❌ Error pulling masters files. Make sure phone is connected and usb debugging enabled. Error message:" , result.stderr)
-            sys.exit(1)
-
     def __load_env(self, device:str):
         if device == 'DMM':
             self.masters_path = Path(Paths.GAME_MASTERS_DMM)
-            self.env = UnityPy.load(Paths.GAME_MASTERS)
+            self.env = UnityPy.load(Paths.GAME_MASTERS_DMM)
         elif device == 'Android':
-            self.__pull_masters_from_mobile()
+            Helper.pull_masters_from_mobile()
             self.masters_path = Path(Paths.GAME_MASTERS_Android_Local) 
             self.env = UnityPy.load(Paths.GAME_MASTERS_Android_Local)
             

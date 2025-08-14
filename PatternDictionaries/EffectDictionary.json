@@ -43,8 +43,12 @@
 
   "ターン持続)": "T)",
   "ターン)": "T)",
+  "ﾀｰﾝ)": "T)",
+
   "茨効果": "Thorns",
   "茨効果付与": "Thorns",
+
+  "かばう": "Cover",
 
   "SP強奪": "SP Steal",
   "対象のSPを": "SP Steal",
@@ -75,6 +79,7 @@
   "特殊効果解除": "Special Effect Removal",
 
   "受ける全てのダメージ": "Damage Taken",
+  "受けるﾀﾞﾒｰｼﾞ": "Damage Taken",
   "与えるダメージ": "Reduce Damage dealt",
   "与えるダメージ#3#%ダウン": "Damage dealt reduced #PER3#%",
   "与えるダメージ#PER4#%ダウン": "Damage dealt reduced #PER4#%",
@@ -94,6 +99,7 @@
   "受ける全てのダメージ#PER5#%アップ": "Damage Taken + #PER5#%",
   "受ける全てのダメージ#PER6#%アップ": "Damage Taken + #PER6#%",
   "与える全てのダメージ": "All damage",
+  "与えるﾀﾞﾒｰｼﾞ": "Damage",
   "無属性で与えるダメージ": "Non-Elemental damage",
   "敵のDEF・RESの低い方でﾀﾞﾒｰｼﾞ計算": "Uses enemy's lower DEF or RES for damage calculation",
   "DEF・RES低い方でダメージ計算": "Uses enemy's lower DEF or RES for damage calculation",
@@ -185,6 +191,7 @@
 
   "[連発禁止技]": "[Repeat use prohibited]",
   "[連発禁止]": "[Repeat use prohibited]",
+  "[連発禁止": "[Repeat use prohibited ",
 
   "星属性耐性値": "Star resistance",
   "炎属性耐性値": "Fire resistance",
@@ -216,5 +223,8 @@
   "[敵全]": "[All Enemies]",
 
   ")付与&": ")&",
-  ")付与 &": ")&"
+  ")付与 &": ")&",
+  ")付与": ")",
+
+  "#%付与": "#%"
 }

@@ -1,7 +1,11 @@
+from datetime import datetime
 import json
 import os
 from pathlib import Path
+import re
 import shutil
+import subprocess
+import sys
 import tempfile
 
 from Code.config import Paths
@@ -67,3 +71,52 @@ class Helper:
                 print(f"            ├─ 🔒 Backed up Unity asset to: {backup_file}")
             except Exception as e:
                 print(f"            ├─ ❌ Failed to back up {source_file}: {e}")
+
+    def get_android_file_timestamps(self, android_path):
+        result = subprocess.run(
+            ["adb", "shell", "ls", "-l", android_path],
+            capture_output=True, text=True
+        )
+
+        if result.returncode != 0:
+            raise RuntimeError(f"Failed to list remote files: {result.stderr}")
+
+        pattern = re.compile(r"^\S+\s+\d+\s+\S+\s+\S+\s+\d+\s+(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})\s+(.+)$")
+        timestamps = {}
+
+        for line in result.stdout.splitlines():
+            match = pattern.match(line.strip())
+            if match:
+                date_str, time_str, filename = match.groups()
+                full_dt = datetime.strptime(f"{date_str} {time_str}", "%Y-%m-%d %H:%M")
+                timestamps[filename] = full_dt
+
+        return timestamps
+    
+    def pull_updated_files_from_mobile(self, last_exec_dt):
+        remote_files = self.get_android_file_timestamps(Paths.GAME_MASTERS_Android)
+
+        for filename, mod_time in remote_files.items():
+            if last_exec_dt is None or mod_time > last_exec_dt:
+                print(f"Pulling updated file: {filename}")
+                subprocess.run([
+                    "adb", "pull",
+                    f"{Paths.GAME_MASTERS_Android}/{filename}",
+                    f"{Paths.GAME_MASTERS_Android_Local}/{filename}"
+                ])
+
+    def pull_masters_from_mobile():
+        output_dir = Path('./Android')
+        output_dir.mkdir(exist_ok=True)
+
+        result = subprocess.run([
+            "./platform-tools//adb.exe", "pull",
+            Paths.GAME_MASTERS_Android,
+            str(output_dir)
+        ], capture_output=True, text=True)
+
+        if result.returncode == 0:
+             print(f"\n    ℹ️ Extracted masters files from device")
+        else:
+            print(" ❌ Error pulling masters files. Make sure phone is connected and usb debugging enabled. Error message:" , result.stderr)
+            sys.exit(1)

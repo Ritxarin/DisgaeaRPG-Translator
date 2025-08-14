@@ -19938,7 +19938,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Action Gauge+#PER1#,ATK・INT+#PER2#%(1ﾀｰﾝ)",
+    "description_effect": "Action Gauge+#PER1#,ATK・INT+#PER2#%(1T)",
     "description": "The torrent of awakening power manifests as wings.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -20730,7 +20730,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "INT+#PER2#%,CRD+#PER3#%(2T),与えるﾀﾞﾒｰｼﾞ+#PER4#%(1T)付与",
+    "description_effect": "INT+#PER2#%,CRD+#PER3#%(2T),Damage+#PER4#%(1T)",
     "description": "This is the power of Magic Cutie!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -21330,7 +21330,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "ATK・DEF+#PER1#%,CRD+#PER3#%,与えるﾀﾞﾒｰｼﾞ+#PER4#%付与",
+    "description_effect": "ATK・DEF+#PER1#%,CRD+#PER3#%,Damage+#PER4#%",
     "description": "On my mark!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -21462,7 +21462,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF・RES+#PER1#%,受けるﾀﾞﾒｰｼﾞ-#PER3#%(1T)付与",
+    "description_effect": "DEF・RES+#PER1#%,Damage Taken-#PER3#%(1T)",
     "description": "The movement inspires everyone who sees it.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -22427,7 +22427,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[Repeat use prohibited]ATK・RES+#PER2#%(1ﾀｰﾝ)",
+    "description_effect": "[Repeat use prohibited]ATK・RES+#PER2#%(1T)",
     "description": "I'm the best watermelon slicer in this world!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -23955,7 +23955,7 @@
     "trigger_types": [0, 0, 1, 1],
     "trigger_type_params": [0, 0, 1, 1],
     "trigger_targets": [0, 0, 1, 1],
-    "description_effect": "Small Heal,SPD+#PER2#%,ATKﾊﾞﾌ状態の時、CRD+#PER3#%&与えるﾀﾞﾒｰｼﾞ+#PER4#%(1T)付与",
+    "description_effect": "Small Heal,SPD+#PER2#%,ATKﾊﾞﾌ状態の時、CRD+#PER3#%&Damage+#PER4#%(1T)",
     "description": "I can still fight as long as there is love!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -24021,7 +24021,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF+#PER2#%,ATK+#PER3#%&CRT+#PER4#%(1T)&与えるﾀﾞﾒｰｼﾞ+#PER5#%(1T)[Ally]",
+    "description_effect": "DEF+#PER2#%,ATK+#PER3#%&CRT+#PER4#%(1T)&Damage+#PER5#%(1T)[Ally]",
     "description": "This is the true meaning of love and justice! Ultimate! Cutie Slash!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -24590,7 +24590,7 @@
   {
     "id": 3000932,
     "name": "Trick or Treat",
-    "name_battle": "Trick\nor Trick",
+    "name_battle": "Trick\nor Treat",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -24615,7 +24615,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Overheal (small)&ATK+#PER3#%(3T)&DEF・RES+#PER4#%(3T)&かばう(5T)[Self]",
+    "description_effect": "Overheal (small)&ATK+#PER3#%(3T)&DEF・RES+#PER4#%(3T)&Cover(5T)[Self]",
     "description": "This is the overlord's ultimate trick!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -26463,7 +26463,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "SPD+#PER1#%(3T)&CRT+#PER2#%(2T)[Party],Damage dealt by Special Move+#PER3#%付与(1T)[Ally]",
+    "description_effect": "SPD+#PER1#%(3T)&CRT+#PER2#%(2T)[Party],Damage dealt by Special Move+#PER3#%(1T)[Ally]",
     "description": "Ultimate technique that comes in handy when late for school",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -26826,7 +26826,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF+#PER2#%(3T)&かばう(3T)&Damage Taken-#PER4#%(3T)[Self]",
+    "description_effect": "DEF+#PER2#%(3T)&Cover(3T)&Damage Taken-#PER4#%(3T)[Self]",
     "description": "The tomboy princess plays with lightning!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -27915,7 +27915,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "自身のDEF・RESを-#PER2#%(1ﾀｰﾝ)し、Skill Power+#PER4#%",
+    "description_effect": "自身のDEF・RESを-#PER2#%(1T)し、Skill Power+#PER4#%",
     "description": "An amazing combo attack from Levi, not faltering from unknown giant enemies.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -28311,7 +28311,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF・RES+#PER2#%(5T),受ける全てのﾀﾞﾒｰｼﾞ-#PER4#%(2T)付与",
+    "description_effect": "DEF・RES+#PER2#%(5T),受ける全てのﾀﾞﾒｰｼﾞ-#PER4#%(2T)",
     "description": "Throw a spear at full power to pierce enemies",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -28641,7 +28641,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止10T]ATK・DEF+#PER2#%,Buff duration extended+#PER4#",
+    "description_effect": "[Repeat use prohibited 10T]ATK・DEF+#PER2#%,Buff duration extended+#PER4#",
     "description": "Petta Beeeeeeammm!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -28674,7 +28674,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "CRT+#PER2#%(2T)&CRD+#PER3#%(2T)&Reduce Damage dealt+#PER4#%(1T)付与",
+    "description_effect": "CRT+#PER2#%(2T)&CRD+#PER3#%(2T)&Reduce Damage dealt+#PER4#%(1T)",
     "description": "Petta's special move, crosses space and time for a combo attack",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -28839,7 +28839,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF・RES+#PER2#%,受けるﾀﾞﾒｰｼﾞ-#PER4#%(2T)付与",
+    "description_effect": "DEF・RES+#PER2#%,Damage Taken -#PER4#%(2T)",
     "description": "A magic pillar emerges from a summoning circle, thrusting upward",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -28938,7 +28938,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "CRD+#PER2#%,単体攻撃でReduce Damage dealt+#PER1#%(1T)付与,Action Gauge+#PER3#",
+    "description_effect": "CRD+#PER2#%,単体攻撃でReduce Damage dealt+#PER1#%(1T),Action Gauge+#PER3#",
     "description": "Summon power from the underworld to grow stronger.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -30142,7 +30142,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Intercept[ATK](5T)付与,ATK+#PER2#%(5T)[Self]",
+    "description_effect": "Intercept[ATK](5T),ATK+#PER2#%(5T)[Self]",
     "description": "Prepare for battle by stringing iron wire around the field.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -30241,7 +30241,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止5T]Action Gauge+#PER8#&Non-HP Basic Stats+#PER1#%(5T)&CRT+#PER5#%(5T)&CRD+#PER6#%(5T)[Self]",
+    "description_effect": "[Repeat use prohibited 5T]Action Gauge+#PER8#&Non-HP Basic Stats+#PER1#%(5T)&CRT+#PER5#%(5T)&CRD+#PER6#%(5T)[Self]",
     "description": "レーザービームを放ち爆発と共に敵を焼き尽くす",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -30678,7 +30678,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止2T]Extra Action(1times)&SP Regen[#PER2#](4T)&ATK・INT・CRD+#PER3#%(4T)&Buff duration extended+#PER6#[Ally],Action Gauge+#PER7#&All damage+#PER8#%(4T)[Party]",
+    "description_effect": "[Repeat use prohibited 2T]Extra Action(1times)&SP Regen[#PER2#](4T)&ATK・INT・CRD+#PER3#%(4T)&Buff duration extended+#PER6#[Ally],Action Gauge+#PER7#&All damage+#PER8#%(4T)[Party]",
     "description": "HLパワーを得たアルティナの輝かしき一撃",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -32102,7 +32102,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "SP Regen[5],INT・RES+#PER2#%,CRT+#PER4#%(1ﾀｰﾝ)[Ally]",
+    "description_effect": "SP Regen[5],INT・RES+#PER2#%,CRT+#PER4#%(1T)[Ally]",
     "description": "Get strength from Hyotei Rosalind and get powered up!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -34692,7 +34692,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Paralysis,風属性でReduce Damage dealt+#PER3#%(1T)付与＆CRD+#PER4#%＆Action Gauge+#PER5#[Party]",
+    "description_effect": "Paralysis,風属性でReduce Damage dealt+#PER3#%(1T)＆CRD+#PER4#%＆Action Gauge+#PER5#[Party]",
     "description": "Swing a thunderous fist from the sky",
     "resource_id": 3001922,
     "continuous_attack_rates": []
@@ -34989,7 +34989,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止2T]Action Gauge+#PER2#&ATK+#PER3#%(2T)&CRT+#PER4#%(2T)&All damage+#PER5#%(2T)[Self],ATK・INT・CRD+#PER6#%(3T)&Buff duration extended+#PER9#[Party]",
+    "description_effect": "[Repeat use prohibited 2T]Action Gauge+#PER2#&ATK+#PER3#%(2T)&CRT+#PER4#%(2T)&All damage+#PER5#%(2T)[Self],ATK・INT・CRD+#PER6#%(3T)&Buff duration extended+#PER9#[Party]",
     "description": "Petabye is the final blow to my Demon King's special move! ! !",
     "resource_id": 3001952,
     "continuous_attack_rates": []
@@ -37682,7 +37682,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止4T]Intercept[ATK](5T)&かばう(5T)&All damage+#PER3#%(5T)[Self]",
+    "description_effect": "[Repeat use prohibited 4T]Intercept[ATK](5T)&Cover(5T)&All damage+#PER3#%(5T)[Self]",
     "description": "If you come, I'll cut you...!",
     "resource_id": 3002232,
     "continuous_attack_rates": []
@@ -46293,7 +46293,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[Repeat use prohibited]Action Gauge+#PER11#&かばう(3T)&ATK+#PER1#%(1T)・DEF+#PER2#%(2T)使用するほどさらにATK・DEF+#PER3#%(Maximum 3times)&CRT+#PER5#%(1T)&All damage+#PER6#%(1T)[Self],DEF・RES-#PER7#%(2T)&CRD・CRT-#PER9#%(2T)[Single Enemy]",
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER11#&Cover(3T)&ATK+#PER1#%(1T)・DEF+#PER2#%(2T)使用するほどさらにATK・DEF+#PER3#%(Maximum 3times)&CRT+#PER5#%(1T)&All damage+#PER6#%(1T)[Self],DEF・RES-#PER7#%(2T)&CRD・CRT-#PER9#%(2T)[Single Enemy]",
     "description": "The voltage has risen again today. by Cry",
     "resource_id": 3003082,
     "continuous_attack_rates": []
@@ -54464,7 +54464,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Reduce Damage dealt+#PER2#%(1T)付与",
+    "description_effect": "Reduce Damage dealt+#PER2#%(1T)",
     "description": "Is Ping Pong Dash already a dead word?",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -57115,7 +57115,7 @@
     "trigger_types": [0, 4, 4, 4, 4],
     "trigger_type_params": [0, 0, 0, 0, 0],
     "trigger_targets": [0, 2, 2, 2, 2],
-    "description_effect": "ｸﾘﾃｨｶﾙ発動の場合、HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER2#％(1ﾀｰﾝ)",
+    "description_effect": "ｸﾘﾃｨｶﾙ発動の場合、HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER2#％(1T)",
     "description": "This is a collaboration between love and demonic power!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -57412,7 +57412,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[Repeat use prohibited]Action Gauge+#PER3#,ATK+#PER2#%,CRT+#PER5#%(1ﾀｰﾝ),敵ﾊﾞﾌ半減",
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER3#,ATK+#PER2#%,CRT+#PER5#%(1T),敵ﾊﾞﾌ半減",
     "description": "Steal your enemies' life force and convert it to power",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -57808,7 +57808,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "与えるﾀﾞﾒｰｼﾞ+#PER1#%(1T)&受けるﾀﾞﾒｰｼﾞ-#PER2#%(2T)[Party],CRD+#PER3#%(1T)[Ally]",
+    "description_effect": "Damage+#PER1#%(1T)&Damage Taken -#PER2#%(2T)[Party],CRD+#PER3#%(1T)[Ally]",
     "description": "スラスターで集めたエネルギーを放出しパワーアップ",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -59331,7 +59331,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF・RES+#PER2#%,CRD+#PER4#%,受けるﾀﾞﾒｰｼﾞ-#PER5#%(1T)付与",
+    "description_effect": "DEF・RES+#PER2#%,CRD+#PER4#%,Damage Taken -#PER5#%(1T)",
     "description": "The beam is as hot as the demon summer sun!",
     "resource_id": 3200572,
     "continuous_attack_rates": []
@@ -62004,7 +62004,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止3T]Action Gauge+#PER2#&ATK・CRD+#PER3#%(5T)&CRT+#PER5#%(5T)&水属性でReduce Damage dealt+#PER6#%(5T)[Self]",
+    "description_effect": "[Repeat use prohibited 3T]Action Gauge+#PER2#&ATK・CRD+#PER3#%(5T)&CRT+#PER5#%(5T)&水属性でReduce Damage dealt+#PER6#%(5T)[Self]",
     "description": "Those who are gaze upon by their wandering eyes become sacrifices of red ice fangs",
     "resource_id": 3200842,
     "continuous_attack_rates": [0]
@@ -62424,7 +62424,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止3T]Action Gauge+#PER3#&ATK・CRD+#PER4#%(5T)&CRT+#PER6#%(5T)&All damage+#PER7#%(5T)[Self],SPD+#PER8#%(5T)[Party]",
+    "description_effect": "[Repeat use prohibited 3T]Action Gauge+#PER3#&ATK・CRD+#PER4#%(5T)&CRT+#PER6#%(5T)&All damage+#PER7#%(5T)[Self],SPD+#PER8#%(5T)[Party]",
     "description": "The only path left for you is the future of defeat!",
     "resource_id": 3200882,
     "continuous_attack_rates": [0]
@@ -64014,7 +64014,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Overheal (small)&SP Regen[#PER2#](4T)&Action Gauge+#PER3#&オートバフ(4T)付与[CRD+30%(3T)・CRT+5%(3T)][Party],ATK・INT+#PER6#%(4T)[Ally],Thorns(2T)&CRD-#PER9#%(4T)&CRT・SPD-#PER10#%(4T)[All Enemies]",
+    "description_effect": "Overheal (small)&SP Regen[#PER2#](4T)&Action Gauge+#PER3#&オートバフ(4T)[CRD+30%(3T)・CRT+5%(3T)][Party],ATK・INT+#PER6#%(4T)[Ally],Thorns(2T)&CRD-#PER9#%(4T)&CRT・SPD-#PER10#%(4T)[All Enemies]",
     "description": "Deploying a defensive formation. Each squad prepares to counterattack.",
     "resource_id": 3201042,
     "continuous_attack_rates": []
@@ -64047,7 +64047,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Action Gauge+#PER2#&オートバフ(3T)付与[ATK・INT・CRD+40%(2T)]&All damage+#PER6#%(3T)[Party],Additional Hits [1〜3(Power E+)]&Non-HP Basic Stats-#PER8#%(5T)&CRT-#PER12#%(5T)[All Enemies]",
+    "description_effect": "Action Gauge+#PER2#&オートバフ(3T)[ATK・INT・CRD+40%(2T)]&All damage+#PER6#%(3T)[Party],Additional Hits [1〜3(Power E+)]&Non-HP Basic Stats-#PER8#%(5T)&CRT-#PER12#%(5T)[All Enemies]",
     "description": "Max speed of battle. Defeat the enemy battleship from the front.",
     "resource_id": 3201043,
     "continuous_attack_rates": [100, 80, 75]
@@ -108291,7 +108291,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "INT+#PER2#%,CRD+#PER3#%(2T),与えるﾀﾞﾒｰｼﾞ+#PER4#%(1T)付与",
+    "description_effect": "INT+#PER2#%,CRD+#PER3#%(2T),Damage+#PER4#%(1T)",
     "description": "This is the power of Magic Cutie!",
     "resource_id": 3000574,
     "continuous_attack_rates": []
@@ -108726,7 +108726,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "ATK・DEF+#PER1#%,CRD+#PER3#%,与えるﾀﾞﾒｰｼﾞ+#PER4#%付与",
+    "description_effect": "ATK・DEF+#PER1#%,CRD+#PER3#%,Damage+#PER4#%",
     "description": "On my mark!",
     "resource_id": 3000622,
     "continuous_attack_rates": []
@@ -108825,7 +108825,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF・RES+#PER1#%,受けるﾀﾞﾒｰｼﾞ-#PER3#%(1T)付与",
+    "description_effect": "DEF・RES+#PER1#%,Damage Taken -#PER3#%(1T)",
     "description": "The movement inspires everyone who sees it.",
     "resource_id": 3000632,
     "continuous_attack_rates": []
@@ -109757,7 +109757,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[Repeat use prohibited]ATK・RES+#PER2#%(1ﾀｰﾝ)",
+    "description_effect": "[Repeat use prohibited]ATK・RES+#PER2#%(1T)",
     "description": "I'm the best watermelon slicer in this world!",
     "resource_id": 3000722,
     "continuous_attack_rates": []
@@ -111219,7 +111219,7 @@
     "trigger_types": [0, 0, 1, 1],
     "trigger_type_params": [0, 0, 1, 1],
     "trigger_targets": [0, 0, 1, 1],
-    "description_effect": "Small Heal,SPD+#PER2#%,ATKﾊﾞﾌ状態の時、CRD+#PER3#%&与えるﾀﾞﾒｰｼﾞ+#PER4#%(1T)付与",
+    "description_effect": "Small Heal,SPD+#PER2#%,ATKﾊﾞﾌ状態の時、CRD+#PER3#%&Damage+#PER4#%(1T)",
     "description": "I can still fight as long as there is love!",
     "resource_id": 3000871,
     "continuous_attack_rates": []
@@ -111285,7 +111285,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF+#PER2#%,ATK+#PER3#%&CRT+#PER4#%(1T)&与えるﾀﾞﾒｰｼﾞ+#PER5#%(1T):[Ally]",
+    "description_effect": "DEF+#PER2#%,ATK+#PER3#%&CRT+#PER4#%(1T)&Damage+#PER5#%(1T):[Ally]",
     "description": "This is the true meaning of love and justice! Ultimate! Cutie Slash!",
     "resource_id": 3000873,
     "continuous_attack_rates": []
@@ -111846,7 +111846,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Overheal (small)&ATK+#PER3#%(3T)&DEF・RES+#PER4#%(3T)&かばう(5T)[Self]",
+    "description_effect": "Overheal (small)&ATK+#PER3#%(3T)&DEF・RES+#PER4#%(3T)&Cover(5T)[Self]",
     "description": "This is the overlord's ultimate trick!",
     "resource_id": 3000932,
     "continuous_attack_rates": []
@@ -113529,7 +113529,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "SPD+#PER1#%(3T)&CRT+#PER2#%(2T)[Party],Damage dealt by Special Move+#PER3#%付与(1T)[Ally]",
+    "description_effect": "SPD+#PER1#%(3T)&CRT+#PER2#%(2T)[Party],Damage dealt by Special Move+#PER3#%(1T)[Ally]",
     "description": "Ultimate technique that comes in handy when late for school",
     "resource_id": 3001112,
     "continuous_attack_rates": []
@@ -113892,7 +113892,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF+#PER2#%(3T)&かばう(3T)&Damage Taken-#PER4#%(3T)[Self]",
+    "description_effect": "DEF+#PER2#%(3T)&Cover(3T)&Damage Taken-#PER4#%(3T)[Self]",
     "description": "The tomboy princess plays with lightning!",
     "resource_id": 3001151,
     "continuous_attack_rates": []
@@ -114948,7 +114948,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "自身のDEF・RESを-#PER2#%(1ﾀｰﾝ)し、Skill Power+#PER4#%",
+    "description_effect": "自身のDEF・RESを-#PER2#%(1T)し、Skill Power+#PER4#%",
     "description": "An amazing combo attack from Levi, not faltering from unknown giant enemies.",
     "resource_id": 3001253,
     "continuous_attack_rates": []
@@ -115311,7 +115311,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF・RES+#PER2#%(5T),受ける全てのﾀﾞﾒｰｼﾞ-#PER4#%(2T)付与",
+    "description_effect": "DEF・RES+#PER2#%(5T),受ける全てのﾀﾞﾒｰｼﾞ-#PER4#%(2T)",
     "description": "Throw a spear at full power to pierce enemies",
     "resource_id": 3001292,
     "continuous_attack_rates": []
@@ -115608,7 +115608,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止10T]ATK・DEF+#PER2#%,Buff duration extended+#PER4#",
+    "description_effect": "[Repeat use prohibited 10T]ATK・DEF+#PER2#%,Buff duration extended+#PER4#",
     "description": "Petta Beeeeeeammm!",
     "resource_id": 3001322,
     "continuous_attack_rates": []
@@ -115641,7 +115641,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "CRT+#PER2#%(2T)&CRD+#PER3#%(2T)&Reduce Damage dealt+#PER4#%(1T)付与",
+    "description_effect": "CRT+#PER2#%(2T)&CRD+#PER3#%(2T)&Reduce Damage dealt+#PER4#%(1T)",
     "description": "Petta's special move, crosses space and time for a combo attack",
     "resource_id": 3001323,
     "continuous_attack_rates": []
@@ -115806,7 +115806,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF・RES+#PER2#%,受けるﾀﾞﾒｰｼﾞ-#PER4#%(2T)付与",
+    "description_effect": "DEF・RES+#PER2#%,Damage Taken -#PER4#%(2T)",
     "description": "A magic pillar emerges from a summoning circle, thrusting upward",
     "resource_id": 3001342,
     "continuous_attack_rates": []
@@ -115905,7 +115905,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "CRD+#PER2#%,単体攻撃でReduce Damage dealt+#PER1#%(1T)付与,Action Gauge+#PER3#",
+    "description_effect": "CRD+#PER2#%,単体攻撃でReduce Damage dealt+#PER1#%(1T),Action Gauge+#PER3#",
     "description": "Summon power from the underworld to grow stronger.",
     "resource_id": 3001352,
     "continuous_attack_rates": []
@@ -117109,7 +117109,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Intercept[ATK](5T)付与,ATK+#PER2#%(5T)[Self]",
+    "description_effect": "Intercept[ATK](5T),ATK+#PER2#%(5T)[Self]",
     "description": "Prepare for battle by stringing iron wire around the field.",
     "resource_id": 3001472,
     "continuous_attack_rates": []
@@ -117208,7 +117208,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止5T]Action Gauge+#PER8#&Non-HP Basic Stats+#PER1#%(5T)&CRT+#PER5#%(5T)&CRD+#PER6#%(5T)[Self]",
+    "description_effect": "[Repeat use prohibited 5T]Action Gauge+#PER8#&Non-HP Basic Stats+#PER1#%(5T)&CRT+#PER5#%(5T)&CRD+#PER6#%(5T)[Self]",
     "description": "レーザービームを放ち爆発と共に敵を焼き尽くす",
     "resource_id": 3001482,
     "continuous_attack_rates": []
@@ -117645,7 +117645,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止2T]Extra Action(1times)&SP Regen[#PER2#](4T)&ATK・INT・CRD+#PER3#%(4T)&Buff duration extended+#PER6#[Ally],Action Gauge+#PER7#&All damage+#PER8#%(4T)[Party]",
+    "description_effect": "[Repeat use prohibited 2T]Extra Action(1times)&SP Regen[#PER2#](4T)&ATK・INT・CRD+#PER3#%(4T)&Buff duration extended+#PER6#[Ally],Action Gauge+#PER7#&All damage+#PER8#%(4T)[Party]",
     "description": "HLパワーを得たアルティナの輝かしき一撃",
     "resource_id": 3001523,
     "continuous_attack_rates": []
@@ -119036,7 +119036,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "SP Regen[5],INT・RES+#PER2#%,CRT+#PER4#%(1ﾀｰﾝ)[Ally]",
+    "description_effect": "SP Regen[5],INT・RES+#PER2#%,CRT+#PER4#%(1T)[Ally]",
     "description": "Get strength from Hyotei Rosalind and get powered up!",
     "resource_id": 3001662,
     "continuous_attack_rates": []
@@ -121626,7 +121626,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Paralysis,風属性でReduce Damage dealt+#PER3#%(1T)付与＆CRD+#PER4#%＆Action Gauge+#PER5#[Party]",
+    "description_effect": "Paralysis,風属性でReduce Damage dealt+#PER3#%(1T)＆CRD+#PER4#%＆Action Gauge+#PER5#[Party]",
     "description": "Swing a thunderous fist from the sky",
     "resource_id": 3001922,
     "continuous_attack_rates": []
@@ -121923,7 +121923,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止2T]Action Gauge+#PER2#&ATK+#PER3#%(2T)&CRT+#PER4#%(2T)&All damage+#PER5#%(2T)[Self],ATK・INT・CRD+#PER6#%(3T)&Buff duration extended+#PER9#[Party]",
+    "description_effect": "[Repeat use prohibited 2T]Action Gauge+#PER2#&ATK+#PER3#%(2T)&CRT+#PER4#%(2T)&All damage+#PER5#%(2T)[Self],ATK・INT・CRD+#PER6#%(3T)&Buff duration extended+#PER9#[Party]",
     "description": "Petabye is the final blow to my Demon King's special move! ! !",
     "resource_id": 3001952,
     "continuous_attack_rates": []
@@ -124616,7 +124616,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止4T]Intercept[ATK](5T)&かばう(5T)&All damage+#PER3#%(5T)[Self]",
+    "description_effect": "[Repeat use prohibited 4T]Intercept[ATK](5T)&Cover(5T)&All damage+#PER3#%(5T)[Self]",
     "description": "If you come, I'll cut you...!",
     "resource_id": 3002232,
     "continuous_attack_rates": []
@@ -133227,7 +133227,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[Repeat use prohibited]Action Gauge+#PER11#&かばう(3T)&ATK+#PER1#%(1T)・DEF+#PER2#%(2T)使用するほどさらにATK・DEF+#PER3#%(Maximum 3times)&CRT+#PER5#%(1T)&All damage+#PER6#%(1T)[Self],DEF・RES-#PER7#%(2T)&CRD・CRT-#PER9#%(2T)[Single Enemy]",
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER11#&Cover(3T)&ATK+#PER1#%(1T)・DEF+#PER2#%(2T)使用するほどさらにATK・DEF+#PER3#%(Maximum 3times)&CRT+#PER5#%(1T)&All damage+#PER6#%(1T)[Self],DEF・RES-#PER7#%(2T)&CRD・CRT-#PER9#%(2T)[Single Enemy]",
     "description": "The voltage has risen again today. by Cry",
     "resource_id": 3003082,
     "continuous_attack_rates": []
@@ -140408,7 +140408,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Reduce Damage dealt+#PER2#%(1T)付与",
+    "description_effect": "Reduce Damage dealt+#PER2#%(1T)",
     "description": "Is Ping Pong Dash already a dead word?",
     "resource_id": 3200111,
     "continuous_attack_rates": []
@@ -142627,7 +142627,7 @@
     "trigger_types": [0, 4, 4, 4, 4],
     "trigger_type_params": [0, 0, 0, 0, 0],
     "trigger_targets": [0, 2, 2, 2, 2],
-    "description_effect": "ｸﾘﾃｨｶﾙ発動の場合、HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER2#％(1ﾀｰﾝ)",
+    "description_effect": "ｸﾘﾃｨｶﾙ発動の場合、HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER2#％(1T)",
     "description": "This is a collaboration between love and demonic power!",
     "resource_id": 3200353,
     "continuous_attack_rates": []
@@ -142891,7 +142891,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[Repeat use prohibited]Action Gauge+#PER3#,ATK+#PER2#%,CRT+#PER5#%(1ﾀｰﾝ),敵ﾊﾞﾌ半減",
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER3#,ATK+#PER2#%,CRT+#PER5#%(1T),敵ﾊﾞﾌ半減",
     "description": "Steal your enemies' life force and convert it to power",
     "resource_id": 3200383,
     "continuous_attack_rates": []
@@ -143287,7 +143287,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "与えるﾀﾞﾒｰｼﾞ+#PER1#%(1T)&受けるﾀﾞﾒｰｼﾞ-#PER2#%(2T)[Party],CRD+#PER3#%(1T)[Ally]",
+    "description_effect": "Damage+#PER1#%(1T)&Damage Taken -#PER2#%(2T)[Party],CRD+#PER3#%(1T)[Ally]",
     "description": "スラスターで集めたエネルギーを放出しパワーアップ",
     "resource_id": 3200422,
     "continuous_attack_rates": []
@@ -144810,7 +144810,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF・RES+#PER2#%,CRD+#PER4#%,受けるﾀﾞﾒｰｼﾞ-#PER5#%(1T)付与",
+    "description_effect": "DEF・RES+#PER2#%,CRD+#PER4#%,Damage Taken -#PER5#%(1T)",
     "description": "The beam is as hot as the demon summer sun!",
     "resource_id": 3200572,
     "continuous_attack_rates": []
@@ -147483,7 +147483,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止3T]Action Gauge+#PER2#&ATK・CRD+#PER3#%(5T)&CRT+#PER5#%(5T)&水属性でReduce Damage dealt+#PER6#%(5T)[Self]",
+    "description_effect": "[Repeat use prohibited 3T]Action Gauge+#PER2#&ATK・CRD+#PER3#%(5T)&CRT+#PER5#%(5T)&水属性でReduce Damage dealt+#PER6#%(5T)[Self]",
     "description": "Those who are gaze upon by their wandering eyes become sacrifices of red ice fangs",
     "resource_id": 3200842,
     "continuous_attack_rates": [0]
@@ -147903,7 +147903,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[連発禁止3T]Action Gauge+#PER3#&ATK・CRD+#PER4#%(5T)&CRT+#PER6#%(5T)&All damage+#PER7#%(5T)[Self],SPD+#PER8#%(5T)[Party]",
+    "description_effect": "[Repeat use prohibited 3T]Action Gauge+#PER3#&ATK・CRD+#PER4#%(5T)&CRT+#PER6#%(5T)&All damage+#PER7#%(5T)[Self],SPD+#PER8#%(5T)[Party]",
     "description": "The only path left for you is the future of defeat!",
     "resource_id": 3200882,
     "continuous_attack_rates": [0]
@@ -149493,7 +149493,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Overheal (small)&SP Regen[#PER2#](4T)&Action Gauge+#PER3#&オートバフ(4T)付与[CRD+30%(3T)・CRT+5%(3T)][Party],ATK・INT+#PER6#%(4T)[Ally],Thorns(2T)&CRD-#PER9#%(4T)&CRT・SPD-#PER10#%(4T)[All Enemies]",
+    "description_effect": "Overheal (small)&SP Regen[#PER2#](4T)&Action Gauge+#PER3#&オートバフ(4T)[CRD+30%(3T)・CRT+5%(3T)][Party],ATK・INT+#PER6#%(4T)[Ally],Thorns(2T)&CRD-#PER9#%(4T)&CRT・SPD-#PER10#%(4T)[All Enemies]",
     "description": "Deploying a defensive formation. Each squad prepares to counterattack.",
     "resource_id": 3201042,
     "continuous_attack_rates": []
@@ -149526,7 +149526,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Action Gauge+#PER2#&オートバフ(3T)付与[ATK・INT・CRD+40%(2T)]&All damage+#PER6#%(3T)[Party],Additional Hits [1〜3(Power E+)]&Non-HP Basic Stats-#PER8#%(5T)&CRT-#PER12#%(5T)[All Enemies]",
+    "description_effect": "Action Gauge+#PER2#&オートバフ(3T)[ATK・INT・CRD+40%(2T)]&All damage+#PER6#%(3T)[Party],Additional Hits [1〜3(Power E+)]&Non-HP Basic Stats-#PER8#%(5T)&CRT-#PER12#%(5T)[All Enemies]",
     "description": "Max speed of battle. Defeat the enemy battleship from the front.",
     "resource_id": 3201043,
     "continuous_attack_rates": [100, 80, 75]
@@ -157004,7 +157004,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF+250%(3T)[Party],ATK･DEF-50%(5T)&Action Gauge-150&Poison(10T)付与[敵全体]",
+    "description_effect": "DEF+250%(3T)[Party],ATK･DEF-50%(5T)&Action Gauge-150&Poison(10T)[敵全体]",
     "description": "0",
     "resource_id": 3001742,
     "continuous_attack_rates": []
@@ -157822,7 +157822,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "[Repeat use prohibited]Action Gauge+1000[Self]ATK+75%(4T)&CRT+25%(2T)&CRD+50%(2T)&All damage+30%(2T)付与[味方全,DEF・RES-40%(3T)&受けるダメージ15%アップ(3T)[All Enemies]",
+    "description_effect": "[Repeat use prohibited]Action Gauge+1000[Self]ATK+75%(4T)&CRT+25%(2T)&CRD+50%(2T)&All damage+30%(2T)[味方全,DEF・RES-40%(3T)&受けるダメージ15%アップ(3T)[All Enemies]",
     "description": "",
     "resource_id": 3002582,
     "continuous_attack_rates": []
@@ -159918,7 +159918,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "ATK・DES-#PER2#%(2T)[Single Enemy]",
+    "description_effect": "ATK・DEF-#PER2#%(2T)[Single Enemy]",
     "description": "Hahaha! In the demon world, it's not just outside the ring!",
     "resource_id": 3003581,
     "continuous_attack_rates": []
@@ -160221,7 +160221,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "ATK・DES-#PER2#%(2T)[Single Enemy]",
+    "description_effect": "ATK・DEF-#PER2#%(2T)[Single Enemy]",
     "description": "Hahaha! In the demon world, it's not just outside the ring!",
     "resource_id": 3003581,
     "continuous_attack_rates": []

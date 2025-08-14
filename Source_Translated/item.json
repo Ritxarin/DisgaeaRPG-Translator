@@ -1641,11 +1641,11 @@
   },
   {
     "id": 1918,
-    "name": "プラチナム召喚チケット",
+    "name": "Platinum Summon Ticket",
     "item_type": 19,
     "icon_no": 1918,
     "effect_value": [210011],
-    "description": "プラチナムチケット召喚が利用できる",
+    "description": "A ticket that allows one summon on the Platinum Banner",
     "max_num": 999,
     "sell_price": 0
   },
@@ -2935,7 +2935,7 @@
     "item_type": 24,
     "icon_no": 2401,
     "effect_value": [3, 10],
-    "description": "暗黒・深淵ゲートの戦闘をスキップできる券",
+    "description": "Ticket to skip battles in Dark Gates",
     "max_num": 99999,
     "sell_price": 100
   },
@@ -5251,11 +5251,11 @@
   },
   {
     "id": 4801,
-    "name": "魔素",
+    "name": "Magic Essence",
     "item_type": 48,
     "icon_no": 4801,
     "effect_value": [1],
-    "description": "体内に取り込むと超転生可能な不思議な気体",
+    "description": "A mysterious material that allows characters to super reincarnate.",
     "max_num": 999999,
     "sell_price": 0
   },
@@ -20395,7 +20395,7 @@
     "item_type": 23,
     "icon_no": 2302,
     "effect_value": [500, 20106],
-    "description": "A mysterious medicine that can earn you mana from a bottled apricot when used",
+    "description": "A mysterious medicine that can earn you mana for a bottle apricot when used",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -20425,13 +20425,13 @@
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [100],
-    "description": "Crystals that can magically modify Luan",
+    "description": "Crystals that can magically modify Rouen",
     "max_num": 9999,
     "sell_price": 0
   },
   {
     "id": 2720106,
-    "name": "Bottle Aprico Crystal",
+    "name": "Bottle Apricot Crystal",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [100],
@@ -20461,7 +20461,7 @@
   },
   {
     "id": 4620106,
-    "name": "Bottle Aprico's Demon Star",
+    "name": "Bottle Apricot's Demon Star",
     "item_type": 46,
     "icon_no": 4601,
     "effect_value": [20106],
