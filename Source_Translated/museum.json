@@ -5107,5 +5107,18 @@
     "sort": 222,
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 210139,
+    "category": 2,
+    "museum_type": 1,
+    "target_id": 150,
+    "title": "Swimsuit Marone",
+    "resource_name": "",
+    "m_character_id_1": 360,
+    "m_character_id_2": 0,
+    "sort": 106,
+    "open_at": "",
+    "close_at": ""
   }
 ]

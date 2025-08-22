@@ -1046,5 +1046,13 @@
     "main_m_memory_effect_type_id": 102,
     "sub_m_character_id": 0,
     "sub_m_memory_effect_type_id": 106
+  },
+  {
+    "id": 132,
+    "name": "Hand in hand.",
+    "main_m_character_id": 335,
+    "main_m_memory_effect_type_id": 2,
+    "sub_m_character_id": 335,
+    "sub_m_memory_effect_type_id": 8
   }
 ]

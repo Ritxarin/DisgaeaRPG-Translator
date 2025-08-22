@@ -19,8 +19,10 @@ class Translator_Util:
         self.device = Config.get_device()
         if self.device == 'DMM':
             self.masters_path = Path(Paths.GAME_MASTERS_DMM)
+            self.game_assets_path = Path(Paths.GAME_ASSETS_DMM) 
         elif self.device == 'Android':
-            self.masters_path = Path(Paths.GAME_MASTERS_Android_Local)       
+            self.masters_path = Path(Paths.GAME_MASTERS_Android_Local)    
+            self.game_assets_path = Path(Paths.GAME_ASSETS_Android_Local)   
         self.source_path = Path(self.device) / Path(Paths.SOURCE_DIR)        
         self.source_path.mkdir(parents=True, exist_ok=True)
         self.updated_files_path = Path(self.device) / Path(Paths.UPDATED_FILES_DIR)        
@@ -299,8 +301,8 @@ class Translator_Util:
         start_time = time.time()
         updated_files = Config.get_updated_files()
 
-        for filename in os.listdir(Paths.UPDATED_FILES_DIR):
-            file_path = os.path.join(Paths.UPDATED_FILES_DIR, filename)
+        for filename in os.listdir(self.updated_files_path):
+            file_path = os.path.join(self.updated_files_path, filename)
             name_only = os.path.splitext(filename)[0]
 
             # Skip subfolders
@@ -308,7 +310,7 @@ class Translator_Util:
                 continue
 
             if name_only in Config.FILES_TO_TRANSLATE and name_only in updated_files:
-                self.__translate_file(filename, path=Paths.UPDATED_FILES_DIR)
+                self.__translate_file(filename, path=self.updated_files_path)
 
                 if name_only not in Config.FILES_TO_CHECK_FOR_UPDATES:
                     os.remove(file_path)   
@@ -318,6 +320,11 @@ class Translator_Util:
         print(f"       ├─ ✅ Finished translating updated files in {elapsed:.2f}s.")  
 
     # translate updated files
+    def translate_files(self, filenames):
+        for filename in filenames:
+            self.__translate_file(filename=filename, path=self.updated_files_path)
+
+    # patch updated files
     def patch_new_entries(self, filenames:List[str]):
 
         print(f"ℹ️  Patching new entries into source file")
@@ -387,7 +394,7 @@ class Translator_Util:
 
     def __update_game_files_dmm(self, files_to_update:List[str] = None):
         source_dir = Path(self.translated_files_path)
-        target_dir = Path(Paths.GAME_MASTERS)
+        target_dir = Path(Paths.GAME_MASTERS_DMM)
 
         # Ensure the destination exists
         target_dir.mkdir(parents=True, exist_ok=True)
@@ -437,8 +444,18 @@ class Translator_Util:
 
     def update_game_textures(self, files_to_update:List[str] = None):
         print(f"\n    ℹ️ Updating game assets")
+
+        if self.device == "DMM":
+            self.__update_game_textures_dmm(files_to_update)
+        elif self.device == "Android":
+            self.__update_game_files_android(files_to_update)
+            
+        print("   ├─ ✅ Finished updating game files.")
+
+    def __update_game_textures_dmm(self, files_to_update:List[str] = None):   
+
         source_dir = Path(Paths.PATCHED_TEXTURES)
-        target_dir = Path(Paths.GAME_ASSETS)
+        target_dir = Path(Paths.GAME_ASSETS_DMM)
 
         # Ensure the destination exists
         target_dir.mkdir(parents=True, exist_ok=True)
@@ -448,7 +465,7 @@ class Translator_Util:
         for patch_file in source_dir.rglob("*"):
             if patch_file.is_file():
                 relative_path = patch_file.relative_to(source_dir)
-                target_game_file = Path(Paths.GAME_ASSETS) / relative_path
+                target_game_file = Path(Paths.GAME_ASSETS_DMM) / relative_path
 
                 # If filtering is enabled, check filename match
                 if files_to_update is not None:
@@ -466,12 +483,3 @@ class Translator_Util:
                 updated_count += 1
 
         print(f"       ├─ ✅ Finished updating {updated_count} texture(s).")
-        
-        # Copy all files (ignoring subdirectories)
-        for file in source_dir.iterdir():
-            if file.is_file():
-                if files_to_update is None or file.stem in files_to_update:
-                    target_file = target_dir / file.name
-                    shutil.copy2(file, target_file)
-                    print(f"       ├─ 🔁 Copied {file.name} to {target_file}")
-        print("   ├─ ✅ Finished updating game files.")

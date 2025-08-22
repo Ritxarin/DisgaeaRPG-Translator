@@ -24730,5 +24730,41 @@
     "m_character_id": 359,
     "rarity": 6,
     "class_name": "First Officer who lives by his morals"
+  },
+  {
+    "id": 3601,
+    "m_character_id": 360,
+    "rarity": 1,
+    "class_name": "Nethersummer Chroma"
+  },
+  {
+    "id": 3602,
+    "m_character_id": 360,
+    "rarity": 2,
+    "class_name": "Nethersummer Chroma"
+  },
+  {
+    "id": 3603,
+    "m_character_id": 360,
+    "rarity": 3,
+    "class_name": "Nethersummer Chroma"
+  },
+  {
+    "id": 3604,
+    "m_character_id": 360,
+    "rarity": 4,
+    "class_name": "Nethersummer Chroma"
+  },
+  {
+    "id": 3605,
+    "m_character_id": 360,
+    "rarity": 5,
+    "class_name": "Girl playing with the tide waves"
+  },
+  {
+    "id": 3606,
+    "m_character_id": 360,
+    "rarity": 6,
+    "class_name": "Hero of the Summer Sky"
   }
 ]

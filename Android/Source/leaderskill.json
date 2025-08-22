@@ -43420,8 +43420,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -43538,15 +43538,15 @@
         "effect_value_min": 50,
         "effect_value_max": 50,
         "effect_turn": [
-            1,
-            1
+            2,
+            2
         ],
         "bad_effect_type": 0,
         "bad_effect_params": [
             0
         ],
         "bad_effect_value": 0,
-        "description": "ターン終了時、最もCRDが高い味方キャラのATK・INT+#PER#%(1T)"
+        "description": "ターン終了時、最もCRDが高い味方キャラのATK・INT+#PER#%(2T)"
     },
     {
         "id": 2145,
@@ -43574,8 +43574,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 3,
-        "effect_value_max": 3,
+        "effect_value_min": 5,
+        "effect_value_max": 5,
         "effect_turn": [
             0
         ],
@@ -43612,8 +43612,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -43650,17 +43650,17 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
-            1
+            2
         ],
         "bad_effect_type": 0,
         "bad_effect_params": [
             0
         ],
         "bad_effect_value": 0,
-        "description": ",CRD+#PER#%(1T)"
+        "description": ",CRD+#PER#%(2T)"
     },
     {
         "id": 2151,
@@ -43690,8 +43690,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -43920,8 +43920,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 30,
-        "effect_value_max": 30,
+        "effect_value_min": 40,
+        "effect_value_max": 40,
         "effect_turn": [
             0
         ],
@@ -84783,6 +84783,279 @@
         ],
         "bad_effect_value": 0,
         "description": ",CRT+#PER#%"
+    },
+    {
+        "id": 3601,
+        "name": "英雄の夏休み",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 40,
+        "effect_value_max": 40,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分のATK・INT+#PER#%"
+    },
+    {
+        "id": 3602,
+        "name": "夏風にそよぐヒマワリ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 3,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が槍武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3603,
+        "name": "サマーコンファイト",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            6,
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、パーティのSPD・CRT+#PER#%(2T)"
+    },
+    {
+        "id": 3604,
+        "name": "絆の陽光",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 3,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 34,
+        "target_params": [
+            0
+        ],
+        "effect_type": 59,
+        "effect_type_params": [
+            1,
+            1,
+            1
+        ],
+        "limit_damage": 2,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 180,
+        "effect_value_max": 180,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン終了時、残りHPが高い敵キャラに炎属性攻撃(3回,威力D+)"
+    },
+    {
+        "id": 3605,
+        "name": "英雄の夏休み",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",HP+#PER#%"
+    },
+    {
+        "id": 3606,
+        "name": "夏風にそよぐヒマワリ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 3,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3607,
+        "name": "サマーコンファイト",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 36,
+        "target_params": [
+            7
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 35,
+        "effect_value_max": 35,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティのCRTバフ効果を受けているキャラのATK・INT+#PER#%(2T)"
     },
     {
         "id": 10011,

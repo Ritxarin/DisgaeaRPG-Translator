@@ -120,3 +120,59 @@ class Helper:
         else:
             print(" ❌ Error pulling masters files. Make sure phone is connected and usb debugging enabled. Error message:" , result.stderr)
             sys.exit(1)
+
+    def pull_asset_from_mobile(remote_file, local_file):
+        output_dir = Path('./Android')
+        output_dir.mkdir(exist_ok=True)
+        command = ["./platform-tools//adb.exe", "pull", remote_file, local_file]
+        result = subprocess.run(command, check=True, capture_output=True, text=True)
+
+        if result.returncode == 0:
+             print(f"\n    ℹ️ Extracted masters files from device")
+        else:
+            print(" ❌ Error pulling masters files. Make sure phone is connected and usb debugging enabled. Error message:" , result.stderr)
+            sys.exit(1)
+
+    def check_file_exists_on_device(remote_file):
+        """
+        Check if a specific file exists on the Android device using ADB.
+        """
+        command = ["./platform-tools//adb.exe", "shell", "test", "-f", remote_file]
+        result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        
+        # If the file exists, test will return a 0 status code
+        if result.returncode == 0:
+            return True
+        else:
+            return False
+        
+    def push_patched_textures_to_android():
+        patched_root = Path(Paths.PATCHED_TEXTURES_Android)
+        android_root = "/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle"
+
+        print(f"\n    🚀 Pushing patched textures to Android...")
+
+        for patched_file in patched_root.rglob("*"):
+            if patched_file.is_file():
+
+                relative_path = patched_file.relative_to(patched_root)
+                remote_file = f"{android_root}/{relative_path}"
+                remote_file = Path(remote_file).as_posix()
+                if os.path.exists(patched_file):  # Check if the file exists in local working dir
+                    if Helper.check_file_exists_on_device(remote_file):                       
+                        print(f"           ├─ 📤 Pushing {relative_path} → {remote_file}")
+                        command = ["./platform-tools//adb.exe", "push", str(patched_file), remote_file]
+                        subprocess.run(command, check=True)
+
+        print(f"       ├─ ✅ Finished pushing all patched textures.")
+
+    def adb_push_file(local_path: Path, remote_path: str, filename:str):
+        # Push each file to the target location on the device
+        result = subprocess.run([
+            "./platform-tools//adb.exe", "push", str(local_path), f"{remote_path}/{filename}"
+        ], capture_output=True, text=True)
+
+        if result.returncode == 0:
+            print(f"Files pushed successfully: {filename}")
+        else:
+            print(f"Error pushing {filename}:", result.stderr)

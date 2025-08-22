@@ -10,42 +10,51 @@ import time
 from typing import List
 import UnityPy
 from Code.Helper import Helper
+from Code.Translator import Translator
 from Code.config import Config, Paths
 
 
 class UnityHelper:
     def __init__(self):            
         
-        device = Config.get_device()
+        self.device = Config.get_device()
         
-        self.__load_env(device)
+        self.__load_env(self.device)
         #Ensure required folders exist
-        self.backup_path = Path(device) / Path(Paths.MASTERS_BACKUP)        
+        self.backup_path = Path(self.device) / Path(Paths.MASTERS_BACKUP)        
         self.backup_path.mkdir(parents=True, exist_ok=True)
 
-        self.assets_backup_path = Path(device) / Path(Paths.ASSETS_BACKUP) 
+        self.assets_backup_path = Path(self.device) / Path(Paths.ASSETS_BACKUP) 
         self.assets_backup_path.mkdir(parents=True, exist_ok=True)
 
-        self.patched_textures = Path(device) / Path(Paths.PATCHED_TEXTURES)        
+        self.patched_textures = Path(self.device) / Path(Paths.PATCHED_TEXTURES)        
         self.patched_textures.mkdir(parents=True, exist_ok=True)        
 
-        self.global_assets_path = Path(device) / Path(Paths.GLOBAL_ASSETS_DIR)        
+        self.global_assets_path = Path(Paths.GLOBAL_ASSETS_DIR)        
         self.global_assets_path.mkdir(parents=True, exist_ok=True)
 
         self.translation_source_path = Path(Paths.SOURCE_TRANSLATED_DIR)        
         self.translation_source_path.mkdir(parents=True, exist_ok=True)
 
-        self.source_path = Path(device) / Path(Paths.SOURCE_DIR)        
+        self.source_path = Path(self.device) / Path(Paths.SOURCE_DIR)        
         self.source_path.mkdir(parents=True, exist_ok=True)
 
-        self.updated_files_path = Path(device) / Path(Paths.UPDATED_FILES_DIR)        
+        self.updated_files_path = Path(self.device) / Path(Paths.UPDATED_FILES_DIR)        
         self.updated_files_path.mkdir(parents=True, exist_ok=True)
         
-        self.translated_files_path = Path(device) / Path(Paths.TRANSLATED_FILES_DIR)        
+        self.translated_files_path = Path(self.device) / Path(Paths.TRANSLATED_FILES_DIR)        
         self.translated_files_path.mkdir(parents=True, exist_ok=True)
 
-        self.new_entries_path = Path(device) / Path(Paths.NEW_ENTRIES_DIR)        
+        self.source_prefab_path = Path(self.device) / Path(Paths.SOURCE_PREFABS_DIR)        
+        self.source_prefab_path.mkdir(parents=True, exist_ok=True)
+
+        self.translated_prefab_path = Path(self.device) / Path(Paths.TRANSLATED_PREFABS_DIR)        
+        self.translated_prefab_path.mkdir(parents=True, exist_ok=True)
+
+        self.new_entries_path = Path(self.device) / Path(Paths.NEW_ENTRIES_DIR)        
         self.new_entries_path.mkdir(parents=True, exist_ok=True)
+
+        self.translator = Translator()
 
     # Initial datamine. Returns True if the initial setup was already done. False otherwise
     def initial_datamine(self) -> bool:
@@ -105,8 +114,8 @@ class UnityHelper:
             name = data.m_Name
 
             # Datamine updated files and export to updated files folder
-            if name in files_to_datamine and (name in Config.FILES_TO_TRANSLATE or name == 'charactercommand'):
-                self._export_json(obj, name, Paths.UPDATED_FILES_DIR)
+            if name in files_to_datamine and (name in Config.FILES_TO_TRANSLATE or name == 'charactercommand' or name == 'event'):
+                self._export_json(obj, name, self.updated_files_path)
                 source_file = self.masters_path / name
                 backup_file = self.backup_path / name
                 # Make sure the backup directory exists
@@ -171,9 +180,63 @@ class UnityHelper:
         elapsed = end_time - start_time
         print(f"       ├─ ✅ Finished generating translated game files in {elapsed:.2f}s.")
  
+    # Generate translated game files and place them in the Translated_Files folder
+    def generate_translated_prefabs(self, files_to_translate:List[str] = None) -> None:
+        
+        print(f"\n    ℹ️ Generating translated game files")
+        start_time = time.time()
+
+        # Delete before generating new files
+        source_dir = Path(self.translated_files_path)
+        for file in source_dir.iterdir():
+            if file.is_file():
+                file.unlink()
+        
+        prefab_env = UnityPy.load(self.source_prefab_path.as_posix())
+
+        for obj in prefab_env.objects:
+            if obj.type.name == "MonoBehaviour":
+                filename = ''
+                if obj.serialized_type.nodes:            
+                    data = obj.read()
+                    tree = obj.read_typetree()
+                    if 'm_text' not in tree:
+                        continue
+                    tree['m_text'] = self.translator.translate("command", "m_text", tree["m_text"])
+                    obj.save_typetree(tree)
+
+        for path, env_file in prefab_env.files.items():
+            output_path = os.path.join(self.translated_prefab_path, os.path.basename(path))
+            filename = path[path.rfind('/') + 1:]
+
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            with open(output_path, "wb") as f:
+                f.write(env_file.save(packer=(64,2)))
+        
+        end_time = time.time()
+        elapsed = end_time - start_time
+        print(f"       ├─ ✅ Finished generating translated game files in {elapsed:.2f}s.")
+
     def find_and_patch_textures(self):
 
         start_time = time.time()
+
+        if self.device == 'Android':
+            # Only pull files from Android that exist in self.global_assets_path
+            for asset_file in self.global_assets_path.rglob("*"):
+                if asset_file.is_file():
+                    relative_path = asset_file.relative_to(self.global_assets_path)
+                    remote_file = f"/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle/{relative_path}"
+                    remote_file = Path(remote_file).as_posix()
+                    if os.path.exists(asset_file):  # Check if the file exists in local working dir
+                        if Helper.check_file_exists_on_device(remote_file):
+                            # Local output path (where we actually pull the file to)
+                            local_pull_target = './Android/Game_Assets' / relative_path
+                            # Make sure the directory exists
+                            local_pull_target.parent.mkdir(parents=True, exist_ok=True)
+                            print(f"           ├─ ⬇️ Pulling file from Android: {relative_path}")
+                            Helper.pull_asset_from_mobile(remote_file, local_pull_target)
+
         print(f"\n    🔍 Scanning for assets to patch...")
         for asset_file in self.global_assets_path.rglob("*"):
             if asset_file.is_file():
@@ -186,7 +249,7 @@ class UnityHelper:
                 backup_file = self.assets_backup_path / relative_path
 
                 # Build expected path for patched output
-                patched_output_file = Path(Paths.PATCHED_TEXTURES) / relative_path
+                patched_output_file = Path(self.patched_textures_path) / relative_path
                 if patched_output_file.exists():
                     continue  # Skip to next asset
 
@@ -321,12 +384,15 @@ class UnityHelper:
         if device == 'DMM':
             self.masters_path = Path(Paths.GAME_MASTERS_DMM)
             self.env = UnityPy.load(Paths.GAME_MASTERS_DMM)
+            self.game_assets_path = Path(Paths.GAME_ASSETS_DMM) 
+            self.patched_textures_path = Path(Paths.PATCHED_TEXTURES)
         elif device == 'Android':
             Helper.pull_masters_from_mobile()
             self.masters_path = Path(Paths.GAME_MASTERS_Android_Local) 
             self.env = UnityPy.load(Paths.GAME_MASTERS_Android_Local)
-            
-        self.game_assets_path = Path(Paths.GAME_ASSETS)           
+            self.game_assets_path = Path(Paths.GAME_ASSETS_Android_Local) 
+            self.patched_textures_path = Path(Paths.PATCHED_TEXTURES_Android)
+                   
         # Check if the folder exists and is not empty
         if not self.masters_path.is_dir():
             print(f" ❌ Error: The folder '{self.masters_path}' does not exist.")

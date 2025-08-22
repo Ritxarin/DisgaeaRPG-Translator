@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "disp_area_type": 1,
+    "event_id": 0,
+    "text": "Phantom Brave\\nCollaboration now underway!",
+    "open_at": "2025-08-05 00:00:00",
+    "close_at": "2025-09-04 11:05:00"
+  },
+  {
+    "id": 2,
+    "disp_area_type": 2,
+    "event_id": 0,
+    "text": "Phantom Brave\\nCollaboration now underway!",
+    "open_at": "2025-08-05 00:00:00",
+    "close_at": "2025-08-28 23:59:59"
+  },
+  {
+    "id": 3,
+    "disp_area_type": 101,
+    "event_id": 828,
+    "text": "Collaboration event now underway!",
+    "open_at": "2025-08-05 00:00:00",
+    "close_at": "2025-08-19 23:59:59"
+  },
+  {
+    "id": 4,
+    "disp_area_type": 3,
+    "event_id": 9,
+    "text": "Phantom Brave\\nCollaboration now underway!",
+    "open_at": "2025-08-14 00:00:00",
+    "close_at": "2025-08-31 23:59:59"
+  },
+  {
+    "id": 5,
+    "disp_area_type": 103,
+    "event_id": 9,
+    "text": "Collaboration event now underway!",
+    "open_at": "2025-08-14 00:00:00",
+    "close_at": "2025-08-31 23:59:59"
+  }
+]
