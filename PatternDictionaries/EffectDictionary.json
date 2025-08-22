@@ -105,6 +105,7 @@
   "受ける全てのダメージ#PER4#%アップ": "Damage Taken + #PER4#%",
   "受ける全てのダメージ#PER5#%アップ": "Damage Taken + #PER5#%",
   "受ける全てのダメージ#PER6#%アップ": "Damage Taken + #PER6#%",
+  "受けるダメージ#PER19#%アップ": "Damage Taken + #PER19#%",
 
   "与える全てのダメージ": "All damage",
   "与えるﾀﾞﾒｰｼﾞ": "Damage",
