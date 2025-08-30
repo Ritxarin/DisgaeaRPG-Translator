@@ -24766,5 +24766,41 @@
     "m_character_id": 360,
     "rarity": 6,
     "class_name": "Hero of the Summer Sky"
+  },
+  {
+    "id": 3571,
+    "m_character_id": 357,
+    "rarity": 1,
+    "class_name": "New bonds"
+  },
+  {
+    "id": 3572,
+    "m_character_id": 357,
+    "rarity": 2,
+    "class_name": "New bonds"
+  },
+  {
+    "id": 3573,
+    "m_character_id": 357,
+    "rarity": 3,
+    "class_name": "New bonds"
+  },
+  {
+    "id": 3574,
+    "m_character_id": 357,
+    "rarity": 4,
+    "class_name": "New bonds"
+  },
+  {
+    "id": 3575,
+    "m_character_id": 357,
+    "rarity": 5,
+    "class_name": "Girls who inherit the legend"
+  },
+  {
+    "id": 3576,
+    "m_character_id": 357,
+    "rarity": 6,
+    "class_name": "Hero of Peaceful Bonds"
   }
 ]

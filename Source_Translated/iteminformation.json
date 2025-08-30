@@ -5920,5 +5920,11 @@
     "m_item_id": 2700360,
     "item_type": 27,
     "get_areas": "Adell's training"
+  },
+  {
+    "id": 2700357,
+    "m_item_id": 2700357,
+    "item_type": 27,
+    "get_areas": "Adell's training"
   }
 ]

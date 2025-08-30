@@ -10831,5 +10831,29 @@
     "book_flg": 1,
     "breeding_lvup_stage": 0,
     "weapon_type": 1
+  },
+  {
+    "id": 42005,
+    "icon_no": 4,
+    "item_rank": 40,
+    "legend_only": 1,
+    "name": "The shining bow of life",
+    "description": "[For the underworld] Life, shine even more!",
+    "price": 12000,
+    "hp_min": 0,
+    "hp_per_stage": 0,
+    "atk_min": 20,
+    "atk_per_stage": 2,
+    "def_min": 0,
+    "def_per_stage": 0,
+    "inte_min": 0,
+    "inte_per_stage": 0,
+    "res_min": 0,
+    "res_per_stage": 0,
+    "spd_min": 0,
+    "spd_per_stage": 0,
+    "book_flg": 1,
+    "breeding_lvup_stage": 0,
+    "weapon_type": 4
   }
 ]

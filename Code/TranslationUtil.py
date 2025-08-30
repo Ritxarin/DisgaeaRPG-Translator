@@ -448,7 +448,7 @@ class Translator_Util:
         if self.device == "DMM":
             self.__update_game_textures_dmm(files_to_update)
         elif self.device == "Android":
-            self.__update_game_files_android(files_to_update)
+            Helper.push_patched_textures_to_android(files_to_update)
             
         print("   ├─ ✅ Finished updating game files.")
 

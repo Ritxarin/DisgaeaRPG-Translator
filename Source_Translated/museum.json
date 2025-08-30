@@ -5120,5 +5120,18 @@
     "sort": 106,
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 210140,
+    "category": 2,
+    "museum_type": 1,
+    "target_id": 151,
+    "title": "Marone x Apricot",
+    "resource_name": "",
+    "m_character_id_1": 357,
+    "m_character_id_2": 0,
+    "sort": 107,
+    "open_at": "",
+    "close_at": ""
   }
 ]

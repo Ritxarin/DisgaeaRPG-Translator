@@ -31876,5 +31876,71 @@
     "m_preview_id": 0,
     "area_special_type": 0,
     "sort": 1
+  },
+  {
+    "id": 2178101,
+    "m_episode_id": 21781,
+    "name": "Wish you 2000th anniversary!",
+    "heading": "",
+    "description": "Disgaea RPG too\nIt's finally 2nd anniversary!\nThere's a mysterious Pliny\nCome...",
+    "bg_id": 10040,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 2178102,
+    "m_episode_id": 21781,
+    "name": "The first target",
+    "heading": "",
+    "description": "Prenaire is\nThe main characters of this world\nWhat is the reason for aiming for?",
+    "bg_id": 10040,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 2
+  },
+  {
+    "id": 2178103,
+    "m_episode_id": 21781,
+    "name": "Evil strange radio waves",
+    "heading": "",
+    "description": "With Preneur's future weapon\nLahar and his friends are manipulated.\nThis weapon will be 2000 years later\nWhat exactly is a person?",
+    "bg_id": 10040,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 3
+  },
+  {
+    "id": 2178104,
+    "m_episode_id": 21781,
+    "name": "Everything is off!",
+    "heading": "",
+    "description": "Appeared in front of Rosalie and the others.\nWhat is the true identity of the mysterious woman? ?",
+    "bg_id": 10040,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 4
+  },
+  {
+    "id": 2178105,
+    "m_episode_id": 21781,
+    "name": "Break the strange radio waves!",
+    "heading": "",
+    "description": "I found a way to break through strange radio waves\nFuture Usaria.\nWill the heroes really be\nCan I help?",
+    "bg_id": 10040,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 5
+  },
+  {
+    "id": 2178106,
+    "m_episode_id": 21781,
+    "name": "Recollection area",
+    "heading": "",
+    "description": "Pliny Recollection Area",
+    "bg_id": 1005,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 6
   }
 ]

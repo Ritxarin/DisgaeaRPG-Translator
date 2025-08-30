@@ -16407,13 +16407,13 @@
   },
   {
     "id": 2700150,
-    "name": "未来ウサリアの結晶",
+    "name": "Future Usalia crystal",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [
       100
     ],
-    "description": "未来ウサリアを魔改造できる結晶",
+    "description": "A crystal used for Future Usalia's Nether Enhancement.",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -24859,6 +24859,54 @@
       836
     ],
     "description": "Available at PU Character Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 377,
+    "name": "Dark Hero Chips",
+    "item_type": 3,
+    "icon_no": 377,
+    "effect_value": [
+      100
+    ],
+    "description": "Your ability to take action will be restored. It seems that cards have been discarded in the Demon World and become a social problem",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340231,
+    "name": "Festival character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      837
+    ],
+    "description": "Can be used at the Festival Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340232,
+    "name": "Festival Character Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      838
+    ],
+    "description": "Available at Festival Character Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700357,
+    "name": "Marone x Aprico Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can be used to modify Marone x Aprico",
     "max_num": 9999,
     "sell_price": 0
   }

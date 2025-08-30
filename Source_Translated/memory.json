@@ -1054,5 +1054,13 @@
     "main_m_memory_effect_type_id": 2,
     "sub_m_character_id": 335,
     "sub_m_memory_effect_type_id": 8
+  },
+  {
+    "id": 133,
+    "name": "Held! Makai Manjikai Exposition",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 104,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 103
   }
 ]
