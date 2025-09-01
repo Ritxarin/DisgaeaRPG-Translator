@@ -8,7 +8,7 @@ import subprocess
 import sys
 import tempfile
 
-from Code.config import Paths
+from Code.config import Config, Paths
 
 class Helper:
     def __init__(self):
@@ -93,17 +93,20 @@ class Helper:
 
         return timestamps
     
-    def pull_updated_files_from_mobile(self, last_exec_dt):
+    def pull_updated_files_from_mobile(self, last_execution_timestamp, initial_setup_timestamp):
         remote_files = self.get_android_file_timestamps(Paths.GAME_MASTERS_Android)
 
         for filename, mod_time in remote_files.items():
-            if last_exec_dt is None or mod_time > last_exec_dt:
-                print(f"Pulling updated file: {filename}")
-                subprocess.run([
-                    "adb", "pull",
-                    f"{Paths.GAME_MASTERS_Android}/{filename}",
-                    f"{Paths.GAME_MASTERS_Android_Local}/{filename}"
-                ])
+            if filename in Config.FILES_TO_TRANSLATE:
+                # Pull files that have been modified after the last execution timestamp 
+                # And files with a modified date earlier than the initial execution (it is a new file that has been added to the translated files list)
+                if ( mod_time > last_execution_timestamp) or mod_time < initial_setup_timestamp:
+                    print(f"Pulling updated file: {filename}")
+                    subprocess.run([
+                        "adb", "pull",
+                        f"{Paths.GAME_MASTERS_Android}/{filename}",
+                        f"{Paths.GAME_MASTERS_Android_Local}/{filename}"
+                    ])
 
     def pull_masters_from_mobile():
         output_dir = Path('./Android')

@@ -235,11 +235,12 @@ class Translator_Util:
     # Look for files changed after last execution
     def find_updated_files(self):     
         # Get last run time so we can look for updated files
-        timestamp = Config.get_datetime_field(Config.LAST_EXECUTION)
-        if timestamp is None:
-            timestamp = Config.get_datetime_field(Config.INITIAL_SETUP)
+        last_execution_timestamp = Config.get_datetime_field(Config.LAST_EXECUTION)
+        if last_execution_timestamp is None:
+            last_execution_timestamp = Config.get_datetime_field(Config.INITIAL_SETUP)
+        initial_setup_timestamp = Config.get_datetime_field(Config.INITIAL_SETUP)
 
-        print(f'\n    ℹ️  Looking for files updated after {timestamp.strftime("%Y-%m-%d %H:%M:%S")}')
+        print(f'\n    ℹ️  Looking for files updated after {last_execution_timestamp.strftime("%Y-%m-%d %H:%M:%S")}')
         start_time = time.time()
 
         #Reset config
@@ -257,29 +258,34 @@ class Translator_Util:
             if file.is_file():
                 file.unlink()
 
-        # For android, pull updated files
+        # For android, pull updated files from phone
         if self.device == 'Android':
             source_dir = Path(self.masters_path)
             for file in source_dir.iterdir():
                 if file.is_file():
                     file.unlink()
-            self.helper.pull_updated_files_from_mobile(timestamp)
+            self.helper.pull_updated_files_from_mobile(last_execution_timestamp, initial_setup_timestamp)
 
-        # 🔁 Walk through all files in the masters folder
-        for filename in os.listdir(self.masters_path):
-            file_path = os.path.join(self.masters_path, filename)
+            for file in Path(Paths.GAME_MASTERS_Android_Local).iterdir():
+                if file.is_file():
+                    updated_files.append(file.name)
 
-            # Skip subfolders
-            if not os.path.isfile(file_path):
-                continue
+        # 🔁 For DMM iterate game folder
+        if self.device == 'DMM':
+            for filename in os.listdir(self.masters_path):
+                file_path = os.path.join(self.masters_path, filename)
 
-            # Get last modified time
-            mtime = os.path.getmtime(file_path)
-            modified_date = datetime.fromtimestamp(mtime)
+                # Skip subfolders
+                if not os.path.isfile(file_path):
+                    continue
 
-            # Compare with cutoff date
-            if modified_date > timestamp:
-                updated_files.append(filename)
+                # Get last modified time
+                mtime = os.path.getmtime(file_path)
+                modified_date = datetime.fromtimestamp(mtime)
+
+                # Compare with cutoff date. Get if modified more recently OR before initial setup (means this is a file that's now bein)
+                if modified_date > last_execution_timestamp or modified_date < initial_setup_timestamp:
+                    updated_files.append(filename)
 
         # 🖨️ Print or use the list
         print("            ├─  🔁 Files updated since last execution:")
