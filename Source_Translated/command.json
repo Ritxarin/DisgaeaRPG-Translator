@@ -29410,7 +29410,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Overheal (small),ATK・INT+#PER2#%,CRT+#PER4#%(2ﾀｰﾝ)[Ally]",
+    "description_effect": "Overheal (small),ATK・INT+#PER2#%,CRT+#PER4#%(2T)[Ally]",
     "description": "光の矢が降り注ぎ味方に祝福をもらたす",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -29779,7 +29779,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少,[When using skill]CRT+#PER3#%,Skill Power+#PER4#%",
+    "description_effect": "Sacrifice #PER2#% current HP,[When using skill]CRT+#PER3#%,Skill Power+#PER4#%",
     "description": "奇跡ってのはタダじゃないんだ",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -33669,7 +33669,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "ATK+#PER2#%&残体力#PER3#%減少[Self]",
+    "description_effect": "ATK+#PER2#%&Sacrifice #PER3#% current HP[Self]",
     "description": "This is a miraculous technique used by a dragon hunter during the era of the demons.",
     "resource_id": 3001821,
     "continuous_attack_rates": []
@@ -35418,7 +35418,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],DEF・RES+#PER3#%(2T)&Action Gauge+#PER5#[Party]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],DEF・RES+#PER3#%(2T)&Action Gauge+#PER5#[Party]",
     "description": "The ultimate secret of the hero Lahar, where the power of the Demon King and the hero is combined",
     "resource_id": 3001993,
     "continuous_attack_rates": []
@@ -37049,7 +37049,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],DEF・RES-#PER3#%(3T)&SPD-#PER5#%(3T)[All Enemies]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],DEF・RES-#PER3#%(3T)&SPD-#PER5#%(3T)[All Enemies]",
     "description": "Let the prisoner enjoy the popularity of the",
     "resource_id": 3002171,
     "continuous_attack_rates": []
@@ -37082,7 +37082,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少&風属性でReduce Damage dealt+#PER4#%(1T)[Self],Damage calculation ignores #PER3#% of target buffs&SP Steal#PER5#[Single Enemy]",
+    "description_effect": "Sacrifice #PER2#% current HP&風属性でReduce Damage dealt+#PER4#%(1T)[Self],Damage calculation ignores #PER3#% of target buffs&SP Steal#PER5#[Single Enemy]",
     "description": "Nutritional exploitation techniques developed after hunger for sweets",
     "resource_id": 3002172,
     "continuous_attack_rates": []
@@ -37115,7 +37115,7 @@
     "trigger_types": [0, 0, 5, 0, 0, 0],
     "trigger_type_params": [0, 0, 0, 0, 0, 0],
     "trigger_targets": [0, 0, 3, 0, 0, 0],
-    "description_effect": "残体力#PER2#%減少&[On Critical hit] Skill power+#PER3#%[Self],ATK・INT-#PER4#%(3T)&CRD-#PER6#%(3T)[All Enemies]",
+    "description_effect": "Sacrifice #PER2#% current HP&[On Critical hit] Skill power+#PER3#%[Self],ATK・INT-#PER4#%(3T)&CRD-#PER6#%(3T)[All Enemies]",
     "description": "I saw the iron ball on my shackles and came up with me.",
     "resource_id": 3002173,
     "continuous_attack_rates": []
@@ -45196,7 +45196,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER6#%減少[Self],ATK・INT+#PER1#%(2T)&CRD+#PER3#%(2T)&All damage+#PER4#%(2T)&Damage Taken-#PER5#%(2T)[Ally]",
+    "description_effect": "Sacrifice #PER6#% current HP[Self],ATK・INT+#PER1#%(2T)&CRD+#PER3#%(2T)&All damage+#PER4#%(2T)&Damage Taken-#PER5#%(2T)[Ally]",
     "description": "Five seconds later, he was spotted sprinting full force to the food stall.",
     "resource_id": 3002972,
     "continuous_attack_rates": []
@@ -54629,7 +54629,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],ATK・INT・CRD+#PER3#%(3T)[Party]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],ATK・INT・CRD+#PER3#%(3T)[Party]",
     "description": "Tink's suicide technique, lost himself in anger",
     "resource_id": 3200123,
     "continuous_attack_rates": []
@@ -56422,7 +56422,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER4#%減少・Action Gauge+#PER3#,INT・DEF+#PER1#%(2ﾀｰﾝ)",
+    "description_effect": "Sacrifice #PER4#% current HP・Action Gauge+#PER3#,INT・DEF+#PER1#%(2T)",
     "description": "Eat the super spicy curry and become stronger!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -59892,7 +59892,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],Action Gauge-#PER3#[Single Enemy]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],Action Gauge-#PER3#[Single Enemy]",
     "description": "He fires a beam from a sign for his 3rd anniversary celebration...",
     "resource_id": 3200631,
     "continuous_attack_rates": []
@@ -60882,7 +60882,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER4#%減少[Self],DEF・RES-#PER2#%(5T)[Single Enemy]",
+    "description_effect": "Sacrifice #PER4#% current HP[Self],DEF・RES-#PER2#%(5T)[Single Enemy]",
     "description": "Punishment beams to those who commit a foul",
     "resource_id": 3200731,
     "continuous_attack_rates": []
@@ -60948,7 +60948,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER6#%減少[Self],Non-HP Basic Stats-#PER2#%(3T)[All Enemies],CRD+#PER7#%(3T)[Party]",
+    "description_effect": "Sacrifice #PER6#% current HP[Self],Non-HP Basic Stats-#PER2#%(3T)[All Enemies],CRD+#PER7#%(3T)[Party]",
     "description": "The last resort to end the fight...",
     "resource_id": 3200733,
     "continuous_attack_rates": []
@@ -60956,7 +60956,7 @@
   {
     "id": 3200741,
     "name": "True Twin Tea God Weapon",
-    "name_battle": "True Twin Tees\\nReijimi Weapons",
+    "name_battle": "True Twin Tea\\nGod Weapon",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -60989,7 +60989,7 @@
   {
     "id": 3200742,
     "name": "Death Artist",
-    "name_battle": "Death\\nArchist",
+    "name_battle": "Death\\nArtist",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -61377,7 +61377,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],Non-HP Basic Stats-#PER3#%(2T)[Single Enemy]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],Non-HP Basic Stats-#PER3#%(2T)[Single Enemy]",
     "description": "A blow filled with spirit",
     "resource_id": 3200781,
     "continuous_attack_rates": []
@@ -61443,7 +61443,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少&Skill Power+#PER3#%[Self],Inflict Random Ailments(2T)[All Enemies]",
+    "description_effect": "Sacrifice #PER2#% current HP&Skill Power+#PER3#%[Self],Inflict Random Ailments(2T)[All Enemies]",
     "description": "Those who block our paths, let the weak disappear without leaving any dust!",
     "resource_id": 3200783,
     "continuous_attack_rates": []
@@ -62589,7 +62589,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],ATK・INT-#PER3#%(5T)&Fire resistance-#PER5#%(5T)[Single Enemy]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],ATK・INT-#PER3#%(5T)&Fire resistance-#PER5#%(5T)[Single Enemy]",
     "description": "I'll make it even more passionate.",
     "resource_id": 3200901,
     "continuous_attack_rates": []
@@ -62655,7 +62655,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],DEF・RES・CRD-#PER3#%(3T)&Action Gauge-#PER6#[All Enemies],CRT+#PER7#%(3T)&Damage dealt by Special Move+#PER8#%(3T)[Party]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],DEF・RES・CRD-#PER3#%(3T)&Action Gauge-#PER6#[All Enemies],CRT+#PER7#%(3T)&Damage dealt by Special Move+#PER8#%(3T)[Party]",
     "description": "We'll use the help of Hinawa.",
     "resource_id": 3200903,
     "continuous_attack_rates": []
@@ -63051,7 +63051,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少&Skill Power+#PER3#%[Self],ATK・INT+#PER4#%(4T)&CRD+#PER6#%(4T)&Damage dealt by Special Move+#PER7#%(4T)[Party]",
+    "description_effect": "Sacrifice #PER2#% current HP&Skill Power+#PER3#%[Self],ATK・INT+#PER4#%(4T)&CRD+#PER6#%(4T)&Damage dealt by Special Move+#PER7#%(4T)[Party]",
     "description": "Oh, incredible jumping power! It's an interesting rabbit ♥",
     "resource_id": 3200943,
     "continuous_attack_rates": []
@@ -116377,7 +116377,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "Overheal (small),ATK・INT+#PER2#%,CRT+#PER4#%(2ﾀｰﾝ)[Ally]",
+    "description_effect": "Overheal (small),ATK・INT+#PER2#%,CRT+#PER4#%(2T)[Ally]",
     "description": "光の矢が降り注ぎ味方に祝福をもらたす",
     "resource_id": 3001401,
     "continuous_attack_rates": []
@@ -116746,7 +116746,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少,[When using skill]CRT+#PER3#%,Skill Power+#PER4#%",
+    "description_effect": "Sacrifice #PER2#% current HP,[When using skill]CRT+#PER3#%,Skill Power+#PER4#%",
     "description": "奇跡ってのはタダじゃないんだ",
     "resource_id": 3001433,
     "continuous_attack_rates": []
@@ -122352,7 +122352,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],DEF・RES+#PER3#%(2T)&Action Gauge+#PER5#[Party]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],DEF・RES+#PER3#%(2T)&Action Gauge+#PER5#[Party]",
     "description": "The ultimate secret of the hero Lahar, where the power of the Demon King and the hero is combined",
     "resource_id": 3001993,
     "continuous_attack_rates": []
@@ -123983,7 +123983,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],DEF・RES-#PER3#%(3T)&SPD-#PER5#%(3T)[All Enemies]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],DEF・RES-#PER3#%(3T)&SPD-#PER5#%(3T)[All Enemies]",
     "description": "Let the prisoner enjoy the popularity of the",
     "resource_id": 3002171,
     "continuous_attack_rates": []
@@ -124016,7 +124016,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少&風属性でReduce Damage dealt+#PER4#%(1T)[Self],Damage calculation ignores #PER3#% of target buffs&SP Steal#PER5#[Single Enemy]",
+    "description_effect": "Sacrifice #PER2#% current HP&風属性でReduce Damage dealt+#PER4#%(1T)[Self],Damage calculation ignores #PER3#% of target buffs&SP Steal#PER5#[Single Enemy]",
     "description": "Nutritional exploitation techniques developed after hunger for sweets",
     "resource_id": 3002172,
     "continuous_attack_rates": []
@@ -124049,7 +124049,7 @@
     "trigger_types": [0, 0, 5, 0, 0, 0],
     "trigger_type_params": [0, 0, 0, 0, 0, 0],
     "trigger_targets": [0, 0, 3, 0, 0, 0],
-    "description_effect": "残体力#PER2#%減少&[On Critical hit] Skill power+#PER3#%[Self],ATK・INT-#PER4#%(3T)&CRD-#PER6#%(3T)[All Enemies]",
+    "description_effect": "Sacrifice #PER2#% current HP&[On Critical hit] Skill power+#PER3#%[Self],ATK・INT-#PER4#%(3T)&CRD-#PER6#%(3T)[All Enemies]",
     "description": "I saw the iron ball on my shackles and came up with me.",
     "resource_id": 3002173,
     "continuous_attack_rates": []
@@ -132130,7 +132130,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER6#%減少[Self],ATK・INT+#PER1#%(2T)&CRD+#PER3#%(2T)&All damage+#PER4#%(2T)&Damage Taken-#PER5#%(2T)[Ally]",
+    "description_effect": "Sacrifice #PER6#% current HP[Self],ATK・INT+#PER1#%(2T)&CRD+#PER3#%(2T)&All damage+#PER4#%(2T)&Damage Taken-#PER5#%(2T)[Ally]",
     "description": "Five seconds later, he was spotted sprinting full force to the food stall.",
     "resource_id": 3002972,
     "continuous_attack_rates": []
@@ -140573,7 +140573,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],ATK・INT・CRD+#PER3#%(3T)[Party]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],ATK・INT・CRD+#PER3#%(3T)[Party]",
     "description": "Tink's suicide technique, lost himself in anger",
     "resource_id": 3200123,
     "continuous_attack_rates": []
@@ -141967,7 +141967,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER4#%減少・Action Gauge+#PER3#,INT・DEF+#PER1#%(2ﾀｰﾝ)",
+    "description_effect": "Sacrifice #PER4#% current HP・Action Gauge+#PER3#,INT・DEF+#PER1#%(2T)",
     "description": "Eat the super spicy curry and become stronger!",
     "resource_id": 3200291,
     "continuous_attack_rates": []
@@ -145371,7 +145371,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],Action Gauge-#PER3#[Single Enemy]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],Action Gauge-#PER3#[Single Enemy]",
     "description": "He fires a beam from a sign for his 3rd anniversary celebration...",
     "resource_id": 3200631,
     "continuous_attack_rates": []
@@ -146361,7 +146361,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER4#%減少[Self],DEF・RES-#PER2#%(5T)[Single Enemy]",
+    "description_effect": "Sacrifice #PER4#% current HP[Self],DEF・RES-#PER2#%(5T)[Single Enemy]",
     "description": "Punishment beams to those who commit a foul",
     "resource_id": 3200731,
     "continuous_attack_rates": []
@@ -146427,7 +146427,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER6#%減少[Self],Non-HP Basic Stats-#PER2#%(3T)[All Enemies],CRD+#PER7#%(3T)[Party]",
+    "description_effect": "Sacrifice #PER6#% current HP[Self],Non-HP Basic Stats-#PER2#%(3T)[All Enemies],CRD+#PER7#%(3T)[Party]",
     "description": "The last resort to end the fight...",
     "resource_id": 3200733,
     "continuous_attack_rates": []
@@ -146435,7 +146435,7 @@
   {
     "id": 4200741,
     "name": "True Twin Tea God Weapon",
-    "name_battle": "True Twin Tees\\nReijimi Weapons",
+    "name_battle": "True Twin Tea\\nGod Weapon",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -146468,7 +146468,7 @@
   {
     "id": 4200742,
     "name": "Death Artist",
-    "name_battle": "Death\\nArchist",
+    "name_battle": "Death\\nArtist",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -146856,7 +146856,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],Non-HP Basic Stats-#PER3#%(2T)[Single Enemy]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],Non-HP Basic Stats-#PER3#%(2T)[Single Enemy]",
     "description": "A blow filled with spirit",
     "resource_id": 3200781,
     "continuous_attack_rates": []
@@ -146922,7 +146922,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少&Skill Power+#PER3#%[Self],Inflict Random Ailments(2T)[All Enemies]",
+    "description_effect": "Sacrifice #PER2#% current HP&Skill Power+#PER3#%[Self],Inflict Random Ailments(2T)[All Enemies]",
     "description": "Those who block our paths, let the weak disappear without leaving any dust!",
     "resource_id": 3200783,
     "continuous_attack_rates": []
@@ -148068,7 +148068,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],ATK・INT-#PER3#%(5T)&Fire resistance-#PER5#%(5T)[Single Enemy]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],ATK・INT-#PER3#%(5T)&Fire resistance-#PER5#%(5T)[Single Enemy]",
     "description": "I'll make it even more passionate.",
     "resource_id": 3200901,
     "continuous_attack_rates": []
@@ -148134,7 +148134,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少[Self],DEF・RES・CRD-#PER3#%(3T)&Action Gauge-#PER6#[All Enemies],CRT+#PER7#%(3T)&Damage dealt by Special Move+#PER8#%(3T)[Party]",
+    "description_effect": "Sacrifice #PER2#% current HP[Self],DEF・RES・CRD-#PER3#%(3T)&Action Gauge-#PER6#[All Enemies],CRT+#PER7#%(3T)&Damage dealt by Special Move+#PER8#%(3T)[Party]",
     "description": "We'll use the help of Hinawa.",
     "resource_id": 3200903,
     "continuous_attack_rates": []
@@ -148530,7 +148530,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "残体力#PER2#%減少&Skill Power+#PER3#%[Self],ATK・INT+#PER4#%(4T)&CRD+#PER6#%(4T)&Damage dealt by Special Move+#PER7#%(4T)[Party]",
+    "description_effect": "Sacrifice #PER2#% current HP&Skill Power+#PER3#%[Self],ATK・INT+#PER4#%(4T)&CRD+#PER6#%(4T)&Damage dealt by Special Move+#PER7#%(4T)[Party]",
     "description": "Oh, incredible jumping power! It's an interesting rabbit ♥",
     "resource_id": 3200943,
     "continuous_attack_rates": []
@@ -157202,7 +157202,7 @@
     "trigger_types": [0],
     "trigger_type_params": [0],
     "trigger_targets": [0],
-    "description_effect": "DEF･RES低い方でﾀﾞﾒｰｼﾞ計算,ﾏﾋ付与,Action Gauge+#PER4#[Party],残体力#PER5#%減少[Self]",
+    "description_effect": "DEF･RES低い方でﾀﾞﾒｰｼﾞ計算,ﾏﾋ付与,Action Gauge+#PER4#[Party],Sacrifice #PER5#% current HP[Self]",
     "description": "I wouldn't die if I was hit by lightning... because I'm a zombie.",
     "resource_id": 3001822,
     "continuous_attack_rates": []

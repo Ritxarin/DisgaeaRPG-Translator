@@ -89,19 +89,21 @@ class Config:
         return config.get('updated_files', [])
         
     FILES_TO_TRANSLATE =  [
-        'achievement', 'agenda', 'area', 'arenacategory', 'beginnermission',
+        'achievement', 'agenda', 'area', 'arenacategory', 'beginnermission', 'boost',
         'charactermission', 'character', 'characterclassname', 'characterintroduction',
-        'command', 
+        'command', 'collaborationtext',
         'customdailymission', 'custommonthlymission', 'custompartskind', 'customtotalmission', 
         'drink', 'drinkskill', 
         'episode', 
         'equipment', 'equipmenteffecttype', 
         'eventmission', 'eventmissiondaily', 'eventmissionrepetition', 
+        'garapon', 'garaponlot',
         'help', 'hospital', 
         'innocent', 'innocentrecipe',
         'item', 'iteminformation', 
-        'kingdomrank', 'leaderskill', 'liqueur', 
-        'memory', 'memoryeffecttype', 'museum', 'potentialclass', 'product', 'ritualtrainings',
+        'kingdomrank', 'leaderskill', 'liqueur', 'loginbonus',
+        'memory', 'memoryeffecttype', 'museum', 
+        'potentialclass', 'potentialkind', 'product', 'ritualtrainings',
         'stage', 'stagemission', 'survey', 'tower', 
         'travelbenefit', 'travelnegativeeffect', 
         'trophy', 'trophydaily', 'trophydailyrequest', 'trophyrepetition', 'trophyweekly', 
@@ -127,11 +129,11 @@ class Config:
     FILES_TO_TRACK_NEW_ENTRIES =  ['command', 'leaderskill', 'character', 'characterclassname', 'item']
 
     FIELDS_TO_TRANSLATE = [
-        'ability_description', 'body', 'button_text', 'category', 'class_name', 'class_name_1',
+        'ability_description', 'body', 'boost_description', 'boost_title', 'button_text', 'category', 'class_name', 'class_name_1',
         'class_name_2', 'class_name_3', 'class_name_4', 'class_name_5', 'condition_unit_name',
         'description', 'description_effect', 'description_format',
-        'get_areas', 'name', 'name_battle', 'release_content_description',
-        'resource_name', 'sheet_name', 'title'
+        'get_areas', 'item_name', 'm_text', 'name', 'name_battle', 'release_content_description',
+        'resource_name', 'sheet_name', 'text', 'title'
     ]
 
     FIELDS_TO_CHECK_FOR_UPDATES = [ 'description', 'description_effect' ]
@@ -145,16 +147,27 @@ class Paths:
     SOURCE_TRANSLATED_DIR = "./Source_Translated"
     NEW_ENTRIES_DIR = "./New_Entries"
     TRANSLATED_FILES_DIR = "./Translated_Files"
+    TRANSLATED_PREFABS_DIR = "./Translated_Prefabs"
+    SOURCE_PREFABS_DIR = "./Source_Prefabs"
     UPDATED_FILES_DIR = "./Updated_Files"
     MASTERS_BACKUP = "./Masters_Backup"
     ASSETS_BACKUP = "./Assets_Backup"
     PATCHED_TEXTURES = "Patched_Textures"
+    PATCHED_TEXTURES_Android = "./Android/Patched_Textures"
     GAME_ASSETS = os.path.join(
         os.getenv("LOCALAPPDATA").replace("Local", "LocalLow"),
         "disgaearpg",
         "DisgaeaRPG",
         "assetbundle"
     )
+
+    GAME_ASSETS_DMM = os.path.join(
+        os.getenv("LOCALAPPDATA").replace("Local", "LocalLow"),
+        "disgaearpg",
+        "DisgaeaRPG",
+        "assetbundle"
+    )
+
     GAME_MASTERS_DMM = os.path.join(
         os.getenv("LOCALAPPDATA").replace("Local", "LocalLow"),
         "disgaearpg",
@@ -164,4 +177,6 @@ class Paths:
     )
 
     GAME_MASTERS_Android = '/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle/masters'
+    GAME_ASSETS_Android = '/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle/'
     GAME_MASTERS_Android_Local = './Android/master'
+    GAME_ASSETS_Android_Local = './Android/Game_Assets'
