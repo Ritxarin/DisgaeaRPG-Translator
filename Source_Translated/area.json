@@ -31942,5 +31942,82 @@
     "m_preview_id": 0,
     "area_special_type": 0,
     "sort": 6
+  },
+  {
+    "id": 1842101,
+    "m_episode_id": 18421,
+    "name": "Special Battle",
+    "heading": "",
+    "description": "None",
+    "bg_id": 0,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1843101,
+    "m_episode_id": 18431,
+    "name": "The Manshikai Expo begins",
+    "heading": "",
+    "description": "The 2nd World Expo begins!\nThis time, Almas also participated in the host...",
+    "bg_id": 10150,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1843102,
+    "m_episode_id": 18431,
+    "name": "Grand Battle",
+    "heading": "",
+    "description": "A challenge presented to the Space Pavilion Z.\nWhat is the content of \"Grand Battle\"?",
+    "bg_id": 10150,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 2
+  },
+  {
+    "id": 1843103,
+    "m_episode_id": 18431,
+    "name": "Those who lack a name",
+    "heading": "",
+    "description": "Mao and his friends visit the \"Evil Academy Pavilion.\"\nHowever, for some reason, there was a deserted bird singing...",
+    "bg_id": 10150,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 3
+  },
+  {
+    "id": 1843104,
+    "m_episode_id": 18431,
+    "name": "God who controls life",
+    "heading": "",
+    "description": "Death Death-sama, the legendary evil god who plays with his life\nThe sight appeared at the venue...! ?",
+    "bg_id": 10150,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 4
+  },
+  {
+    "id": 1843105,
+    "m_episode_id": 18431,
+    "name": "The Mandarin High School never ends",
+    "heading": "",
+    "description": "Shine your life! \"Death Death-sama\" vs. \"Mandarin Haku\"!\nGather all your skills and stop the evil gods!",
+    "bg_id": 10150,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 5
+  },
+  {
+    "id": 1843201,
+    "m_episode_id": 18432,
+    "name": "EXTRA Area",
+    "heading": "",
+    "description": "Using the BOSS key,\nLet's challenge even more powerful enemies!",
+    "bg_id": 10150,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
   }
 ]

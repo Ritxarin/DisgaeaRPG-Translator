@@ -264,7 +264,7 @@ class Translator_Util:
             for file in source_dir.iterdir():
                 if file.is_file():
                     file.unlink()
-            self.helper.pull_updated_files_from_mobile(last_execution_timestamp, initial_setup_timestamp)
+            self.helper.pull_updated_files_from_mobile(Paths.GAME_MASTERS_Android, Paths.GAME_MASTERS_Android_Local, last_execution_timestamp, initial_setup_timestamp)
 
             for file in Path(Paths.GAME_MASTERS_Android_Local).iterdir():
                 if file.is_file():
@@ -340,7 +340,7 @@ class Translator_Util:
             print(f"    🔁  Processing file : {filename}")
             # Add the suffix to target the new entries file
             new_entries_filename = f"{filename}_new_entries.json"
-            new_entries_file_path = os.path.join(Paths.NEW_ENTRIES_DIR, new_entries_filename)
+            new_entries_file_path = os.path.join(self.new_entries_path, new_entries_filename)
             source_filename = f"{filename}.json"
             source_file_path = os.path.join(Paths.SOURCE_TRANSLATED_DIR, source_filename)            
 

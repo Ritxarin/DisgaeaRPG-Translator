@@ -14,6 +14,7 @@ class Config:
     DEEPL_API_KEY = "YOUR API KEY HERE"
     INITIAL_SETUP = "initial_setup_date"
     LAST_EXECUTION = "last_execution_date"
+    TEXTURE_UPDATED_DATE = "texture_last_updated_date"
     CONFIG_PATH = 'config.json'
     DEVICE = ''
 
@@ -90,7 +91,7 @@ class Config:
         
     FILES_TO_TRANSLATE =  [
         'achievement', 'agenda', 'area', 'arenacategory', 'beginnermission', 'boost',
-        'charactermission', 'character', 'characterclassname', 'characterintroduction',
+        'charactermission', 'character', 'characterclassname', 'characterintroduction', 'charactersubinfo',
         'command', 'collaborationtext',
         'customdailymission', 'custommonthlymission', 'custompartskind', 'customtotalmission', 
         'drink', 'drinkskill', 
@@ -126,14 +127,14 @@ class Config:
 
     FILES_TO_CHECK_FOR_UPDATES =  ['command', 'leaderskill']
 
-    FILES_TO_TRACK_NEW_ENTRIES =  ['command', 'leaderskill', 'character', 'characterclassname', 'item']
+    FILES_TO_TRACK_NEW_ENTRIES =  ['command', 'leaderskill', 'character', 'characterclassname', 'item', 'product', 'event']
 
     FIELDS_TO_TRANSLATE = [
         'ability_description', 'body', 'boost_description', 'boost_title', 'button_text', 'category', 'class_name', 'class_name_1',
         'class_name_2', 'class_name_3', 'class_name_4', 'class_name_5', 'condition_unit_name',
         'description', 'description_effect', 'description_format',
         'get_areas', 'item_name', 'm_text', 'name', 'name_battle', 'release_content_description',
-        'resource_name', 'sheet_name', 'text', 'title'
+        'resource_name', 'sheet_name', 'sub_name', 'text', 'title'
     ]
 
     FIELDS_TO_CHECK_FOR_UPDATES = [ 'description', 'description_effect' ]

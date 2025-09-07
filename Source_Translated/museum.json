@@ -1434,7 +1434,7 @@
     "category": 2,
     "museum_type": 2,
     "target_id": 22,
-    "title": "La Pousel\nCollaboration begins",
+    "title": "La Pucelle\nCollaboration begins",
     "resource_name": "",
     "m_character_id_1": 0,
     "m_character_id_2": 0,
@@ -5131,6 +5131,19 @@
     "m_character_id_1": 357,
     "m_character_id_2": 0,
     "sort": 107,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 320223,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Swimsuit Marone",
+    "resource_name": "360",
+    "m_character_id_1": 360,
+    "m_character_id_2": 0,
+    "sort": 223,
     "open_at": "",
     "close_at": ""
   }

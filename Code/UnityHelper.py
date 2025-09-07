@@ -4,7 +4,6 @@ import json
 import os
 from pathlib import Path
 import shutil
-import subprocess
 import sys
 import time
 from typing import List
@@ -12,13 +11,14 @@ import UnityPy
 from Code.Helper import Helper
 from Code.Translator import Translator
 from Code.config import Config, Paths
-
+from io import BytesIO
 
 class UnityHelper:
     def __init__(self):            
         
         self.device = Config.get_device()
-        
+        self.helper = Helper()
+
         self.__load_env(self.device)
         #Ensure required folders exist
         self.backup_path = Path(self.device) / Path(Paths.MASTERS_BACKUP)        
@@ -217,26 +217,41 @@ class UnityHelper:
         elapsed = end_time - start_time
         print(f"       ├─ ✅ Finished generating translated game files in {elapsed:.2f}s.")
 
-    def find_and_patch_textures(self):
+    def find_and_patch_textures(self, force=False):
 
         start_time = time.time()
 
+        texture_update_timestamp = Config.get_datetime_field(Config.TEXTURE_UPDATED_DATE)
+        if texture_update_timestamp is None:
+            texture_update_timestamp = datetime.min
+        remote_files = {}
+
+        # Pull assets from android device first
         if self.device == 'Android':
+            print(f"           ├─  ⬇️ Pulling assets from Android...")
             # Only pull files from Android that exist in self.global_assets_path
+            # Temporarily store them in assets android local folder
+            remote_path = Paths.GAME_ASSETS_Android
+            # Retrieve timestamps from Android device
+            remote_files = self.helper.get_android_file_timestamps(remote_path)
+            
             for asset_file in self.global_assets_path.rglob("*"):
                 if asset_file.is_file():
                     relative_path = asset_file.relative_to(self.global_assets_path)
-                    remote_file = f"/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle/{relative_path}"
+                    remote_file = f"{remote_path}/{relative_path}"
                     remote_file = Path(remote_file).as_posix()
+                    
                     if os.path.exists(asset_file):  # Check if the file exists in local working dir
                         if Helper.check_file_exists_on_device(remote_file):
                             # Local output path (where we actually pull the file to)
-                            local_pull_target = './Android/Game_Assets' / relative_path
+                            local_pull_target = Paths.GAME_ASSETS_Android_Local / relative_path
                             # Make sure the directory exists
                             local_pull_target.parent.mkdir(parents=True, exist_ok=True)
-                            print(f"           ├─ ⬇️ Pulling file from Android: {relative_path}")
-                            Helper.pull_asset_from_mobile(remote_file, local_pull_target)
+                            Helper.pull_file_from_mobile(remote_file, local_pull_target)
 
+            print(f"           ├─  ✅ Finished pulling assets from Android...")
+            
+        # Iterate global assets and use them to patch game assets
         print(f"\n    🔍 Scanning for assets to patch...")
         for asset_file in self.global_assets_path.rglob("*"):
             if asset_file.is_file():
@@ -245,16 +260,36 @@ class UnityHelper:
 
                 # Build corresponding path in game masters
                 game_asset_file = self.game_assets_path / relative_path
-
                 backup_file = self.assets_backup_path / relative_path
 
                 # Build expected path for patched output
                 patched_output_file = Path(self.patched_textures_path) / relative_path
-                if patched_output_file.exists():
-                    continue  # Skip to next asset
+                
+                # # Patched texture file already exists. Skip to next asset
+                # if patched_output_file.exists():
+                #     continue 
 
-                if game_asset_file.exists():
+                if game_asset_file.exists() and not force:
                     print(f"           ├─  🖼️ Found texture to patch: {relative_path}")
+
+                    # Check if texture needs updating based on the modified timestamp
+                    does_file_need_updating = False
+                    if not patched_output_file.exists():
+                            does_file_need_updating = True
+                    else:
+                        #patch_updated_time = os.path.getmtime(patched_output_file)
+                        #patch_updated_time = datetime.fromtimestamp(patch_updated_time)
+                        if self.device == 'Android':
+                            game_asset_time = remote_files[game_asset_file.stem]
+                            does_file_need_updating = game_asset_time > texture_update_timestamp                        
+                        elif  self.device == 'DMM':                            
+                            game_asset_time = os.path.getmtime(game_asset_file)
+                            game_asset_time = datetime.fromtimestamp(game_asset_time)
+                            does_file_need_updating = game_asset_time > texture_update_timestamp                             
+
+                    if not does_file_need_updating:
+                        print(f"            ├─  ℹ️  Texture is already up to date.")
+                        continue
 
                     # Make sure backup folder exists for the file
                     backup_file.parent.mkdir(parents=True, exist_ok=True)
@@ -362,7 +397,12 @@ class UnityHelper:
                 patched += 1
 
         # Final save
-        jp_texture.image = jp_img
+        #jp_texture.image = jp_img
+        buffer = BytesIO()
+        jp_img.save(buffer, format="PNG")
+        buffer.seek(0)
+        # Just pass the PNG bytes directly — no keyword arguments
+        jp_texture.set_image(buffer)
         jp_texture.save()
 
         print(f"                ├─ 💾 Patched {patched} sprite(s)")
@@ -370,7 +410,7 @@ class UnityHelper:
             print(f"                ├─ ❌ Mismatches: {len(mismatches)} → {mismatches}")
 
         # Step 3: Save the whole environment (updated bundle)
-        output_dir = Paths.PATCHED_TEXTURES
+        output_dir = self.patched_textures_path
 
         for path, env_file in target_env.files.items():
             save_path = output_dir / relative_path

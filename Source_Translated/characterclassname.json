@@ -24802,5 +24802,113 @@
     "m_character_id": 357,
     "rarity": 6,
     "class_name": "Hero of Peaceful Bonds"
+  },
+  {
+    "id": 3611,
+    "m_character_id": 361,
+    "rarity": 1,
+    "class_name": "Manji Expo Helper"
+  },
+  {
+    "id": 3612,
+    "m_character_id": 361,
+    "rarity": 2,
+    "class_name": "Manji Expo Helper"
+  },
+  {
+    "id": 3613,
+    "m_character_id": 361,
+    "rarity": 3,
+    "class_name": "Manji Expo Helper"
+  },
+  {
+    "id": 3614,
+    "m_character_id": 361,
+    "rarity": 4,
+    "class_name": "Manji Expo Helper"
+  },
+  {
+    "id": 3615,
+    "m_character_id": 361,
+    "rarity": 5,
+    "class_name": "Managing assistant of the Manji Expo"
+  },
+  {
+    "id": 3616,
+    "m_character_id": 361,
+    "rarity": 6,
+    "class_name": "Manji Expo HeHero Protecting the Manji Expolper"
+  },
+  {
+    "id": 3631,
+    "m_character_id": 363,
+    "rarity": 1,
+    "class_name": "Diez Gentlemen No Guide Tourguide"
+  },
+  {
+    "id": 3632,
+    "m_character_id": 363,
+    "rarity": 2,
+    "class_name": "Diez Gentlemen No Guide Tourguide"
+  },
+  {
+    "id": 3633,
+    "m_character_id": 363,
+    "rarity": 3,
+    "class_name": "Diez Gentlemen No Guide Tourguide"
+  },
+  {
+    "id": 3634,
+    "m_character_id": 363,
+    "rarity": 4,
+    "class_name": "Diez Gentlemen No Guide Tourguide"
+  },
+  {
+    "id": 3635,
+    "m_character_id": 363,
+    "rarity": 5,
+    "class_name": "Pavilion Keeper"
+  },
+  {
+    "id": 3636,
+    "m_character_id": 363,
+    "rarity": 6,
+    "class_name": "Superb Companion"
+  },
+  {
+    "id": 201071,
+    "m_character_id": 20107,
+    "rarity": 1,
+    "class_name": "Mass-produced invincible robot"
+  },
+  {
+    "id": 201072,
+    "m_character_id": 20107,
+    "rarity": 2,
+    "class_name": "Mass-produced invincible robot"
+  },
+  {
+    "id": 201073,
+    "m_character_id": 20107,
+    "rarity": 3,
+    "class_name": "Mass-produced invincible robot"
+  },
+  {
+    "id": 201074,
+    "m_character_id": 20107,
+    "rarity": 4,
+    "class_name": "Mass-produced invincible robot"
+  },
+  {
+    "id": 201075,
+    "m_character_id": 20107,
+    "rarity": 5,
+    "class_name": "Seven colors of body"
+  },
+  {
+    "id": 201076,
+    "m_character_id": 20107,
+    "rarity": 6,
+    "class_name": "Futuristic Earth Hero"
   }
 ]

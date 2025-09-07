@@ -387,7 +387,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 41,
@@ -5431,7 +5431,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 441,
@@ -7901,7 +7901,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/RES+#PER#%(2T) is the ally character with the action gauge at the beginning."
+    "description": "Highest-AG Ally: At end of turn, ATK/RES +#PER#% (2T)"
   },
   {
     "id": 676,
@@ -7953,7 +7953,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRD・CRT+#PER#%(1T)"
+    "description": ", CRD/CRT+#PER#%(1T)"
   },
   {
     "id": 681,
@@ -8135,7 +8135,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 691,
@@ -8447,7 +8447,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 707,
@@ -8915,7 +8915,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 738,
@@ -11125,7 +11125,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 921,
@@ -12087,7 +12087,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 997,
@@ -25607,7 +25607,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 1951,
@@ -25763,7 +25763,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 1957,
@@ -26309,7 +26309,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 1987,
@@ -27271,7 +27271,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2038,
@@ -27869,7 +27869,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2068,
@@ -29299,7 +29299,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2158,
@@ -29481,7 +29481,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2167,
@@ -29663,7 +29663,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2178,
@@ -30495,7 +30495,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2228,
@@ -30677,7 +30677,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2237,
@@ -31639,7 +31639,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2288,
@@ -32211,7 +32211,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2321,
@@ -32523,7 +32523,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2337,
@@ -33303,7 +33303,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2377,
@@ -33485,7 +33485,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2387,
@@ -33875,7 +33875,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2407,
@@ -34057,7 +34057,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2417,
@@ -34265,7 +34265,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2428,
@@ -34447,7 +34447,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2437,
@@ -34655,7 +34655,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2447,
@@ -34863,7 +34863,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2458,
@@ -35201,7 +35201,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2477,
@@ -35383,7 +35383,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2487,
@@ -35955,7 +35955,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2518,
@@ -36345,7 +36345,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2537,
@@ -36735,7 +36735,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2557,
@@ -36943,7 +36943,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2567,
@@ -37125,7 +37125,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2577,
@@ -37333,7 +37333,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2588,
@@ -37515,7 +37515,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2597,
@@ -37879,7 +37879,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2617,
@@ -38087,7 +38087,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2627,
@@ -38477,7 +38477,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2647,
@@ -38685,7 +38685,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2657,
@@ -38893,7 +38893,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2668,
@@ -39075,7 +39075,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2677,
@@ -39257,7 +39257,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2687,
@@ -39439,7 +39439,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2697,
@@ -39829,7 +39829,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2717,
@@ -40011,7 +40011,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2727,
@@ -40349,7 +40349,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2747,
@@ -41103,7 +41103,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2787,
@@ -41285,7 +41285,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2797,
@@ -41493,7 +41493,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2807,
@@ -41701,7 +41701,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2817,
@@ -41909,7 +41909,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2827,
@@ -42117,7 +42117,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2837,
@@ -42299,7 +42299,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2847,
@@ -42637,7 +42637,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2867,
@@ -42845,7 +42845,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2881,
@@ -43001,7 +43001,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2887,
@@ -43209,7 +43209,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2897,
@@ -43417,7 +43417,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2907,
@@ -43599,7 +43599,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2921,
@@ -43755,7 +43755,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2927,
@@ -43963,7 +43963,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2938,
@@ -44145,7 +44145,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2947,
@@ -44353,7 +44353,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2957,
@@ -44717,7 +44717,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2978,
@@ -44899,7 +44899,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2987,
@@ -45081,7 +45081,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2996,
@@ -45289,7 +45289,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3007,
@@ -45497,7 +45497,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3017,
@@ -45705,7 +45705,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3027,
@@ -45887,7 +45887,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3037,
@@ -46225,7 +46225,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3057,
@@ -46433,7 +46433,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3067,
@@ -46641,7 +46641,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3077,
@@ -46849,7 +46849,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3087,
@@ -47057,7 +47057,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3097,
@@ -47265,7 +47265,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3107,
@@ -47447,7 +47447,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3117,
@@ -47655,7 +47655,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3127,
@@ -47863,7 +47863,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3137,
@@ -48045,7 +48045,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3147,
@@ -48643,7 +48643,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3177,
@@ -49189,7 +49189,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3208,
@@ -49371,7 +49371,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3217,
@@ -49579,7 +49579,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3227,
@@ -49631,7 +49631,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3231,
@@ -49761,7 +49761,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3237,
@@ -49969,7 +49969,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3247,
@@ -50177,7 +50177,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3257,
@@ -50385,7 +50385,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3268,
@@ -50567,7 +50567,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3277,
@@ -50775,7 +50775,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3287,
@@ -50957,7 +50957,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3297,
@@ -51113,7 +51113,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of battle, you will receive an intercept [Water] [RES] (5T)"
+    "description": "Self: At the start of battle, grant Counter [Water] [RES] (5T)"
   },
   {
     "id": 3305,
@@ -51165,7 +51165,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3307,
@@ -51217,7 +51217,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, you take single-target attacks aimed at other party members"
+    "description": ". Additionally, you take single-target attacks aimed at other party members"
   },
   {
     "id": 3311,
@@ -51373,7 +51373,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3317,
@@ -51503,7 +51503,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "When the party character starts turning, your ATK/CRD+#PER#%(1T)"
+    "description": "When the party character starts turning, your ATK/CRD+#PER#%(2T)"
   },
   {
     "id": 3324,
@@ -51581,7 +51581,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3328,
@@ -51737,7 +51737,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3336,
@@ -51971,7 +51971,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3348,
@@ -52153,7 +52153,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3358,
@@ -52309,7 +52309,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3367,
@@ -52491,7 +52491,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3377,
@@ -52699,7 +52699,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3387,
@@ -52907,7 +52907,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3397,
@@ -53115,7 +53115,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3407,
@@ -53479,7 +53479,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3426,
@@ -53557,7 +53557,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3431,
@@ -53713,7 +53713,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3437,
@@ -53895,7 +53895,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3448,
@@ -54285,7 +54285,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3467,
@@ -54493,7 +54493,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3477,
@@ -54701,7 +54701,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3487,
@@ -54909,7 +54909,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3497,
@@ -55117,7 +55117,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3507,
@@ -55299,7 +55299,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3517,
@@ -55507,7 +55507,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3547,
@@ -65859,7 +65859,7 @@
   },
   {
     "id": 200421,
-    "name": "Energy is the maximum death!",
+    "name": "Maximum Energy!",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -65963,7 +65963,7 @@
   },
   {
     "id": 200425,
-    "name": "Energy is the maximum death!",
+    "name": "Maximum Energy!",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -67883,7 +67883,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200547,
@@ -71471,7 +71471,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200777,
@@ -72199,7 +72199,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200817,
@@ -72407,7 +72407,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200827,
@@ -73005,7 +73005,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200857,
@@ -73213,7 +73213,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200867,
@@ -73421,7 +73421,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200877,
@@ -73603,7 +73603,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200887,
@@ -74201,7 +74201,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200917,
@@ -74617,7 +74617,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200937,
@@ -74825,7 +74825,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200948,
@@ -75007,7 +75007,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200957,
@@ -75371,7 +75371,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200977,
@@ -75787,7 +75787,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200997,
@@ -75969,7 +75969,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 201007,
@@ -76359,7 +76359,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 201027,
@@ -76567,7 +76567,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 201037,
@@ -76775,7 +76775,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 201047,
@@ -76983,7 +76983,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 201057,
@@ -96431,7 +96431,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3537,
@@ -96613,7 +96613,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3566,
@@ -96847,7 +96847,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3587,
@@ -97055,7 +97055,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 201067,
@@ -97237,7 +97237,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, Party: Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 3597,
@@ -97654,5 +97654,629 @@
     "bad_effect_params": [0],
     "bad_effect_value": 0,
     "description": ", SPD-Buffed Allies: SP +10 SP+#PER#"
+  },
+  {
+    "id": 3327,
+    "name": "Throne of the leader of the whip",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 22,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 22,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",SP+#PER#"
+  },
+  {
+    "id": 3611,
+    "name": "Hosting the 2nd Manji Expo",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 3, 4, 5],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+  },
+  {
+    "id": 3612,
+    "name": "Hey, Robust Stick",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Staff-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3613,
+    "name": "Perfect Combination",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 22,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: At the start of the turn SP +#PER#"
+  },
+  {
+    "id": 3614,
+    "name": "Organizer's Sense of Responsibility",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [7],
+    "effect_type": 23,
+    "effect_type_params": [2, 4, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [2, 2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "CRT-Buffed Allies: At end of turn, ATK/INT/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 3615,
+    "name": "Hosting the 2nd Manji Expo",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",HP +#PER#%"
+  },
+  {
+    "id": 3616,
+    "name": "Hey, Robust Stick",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": " .Party: Damage +#PER#%"
+  },
+  {
+    "id": 3617,
+    "name": "Perfect Combination",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 320,
+    "trigger_param2": 2,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", if 2+ [Staff/Monster Magic] allies, Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3618,
+    "name": "Organizer's Sense of Responsibility",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 1,
+    "trigger_status": 15,
+    "trigger_param": 75,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [7],
+    "effect_type": 50,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", if your HP is 75%+, All Allies Damage Taken -#PER#%(2T)"
+  },
+  {
+    "id": 3631,
+    "name": "High Pressure Guide",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [0],
+    "effect_type": 2,
+    "effect_type_params": [2, 4],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All enemies' ATK and INT -#PER#%"
+  },
+  {
+    "id": 3632,
+    "name": "Superb telescopic pole",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Spear-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3633,
+    "name": "Come back again!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 19,
+    "target_params": [0],
+    "effect_type": 18,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Highest AG Foe: At start of turn, AG -#PER#"
+  },
+  {
+    "id": 3634,
+    "name": "E.Advance",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 17,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: At the start of the wave, Action Gauge +#PER#"
+  },
+  {
+    "id": 3635,
+    "name": "High Pressure Guide",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [0],
+    "effect_type": 2,
+    "effect_type_params": [6],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",SPD -#PER#%"
+  },
+  {
+    "id": 3636,
+    "name": "Superb telescopic pole",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Additionally, Party: Damage +#PER#%"
+  },
+  {
+    "id": 3637,
+    "name": "Come back again!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 19,
+    "target_params": [0],
+    "effect_type": 24,
+    "effect_type_params": [2, 3, 4, 5],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2, 2, 2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Non-HP Basic Stats -15% (2T)"
+  },
+  {
+    "id": 3638,
+    "name": "E.Advance",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 23,
+    "effect_type_params": [2, 4, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [4, 4, 4],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Atk/INT/CRD+#PER#%(4T)"
+  },
+  {
+    "id": 201071,
+    "name": "Rainbow Earth Hero",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1, 2, 3, 4, 5, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: base parameters and CRD +#PER#%"
+  },
+  {
+    "id": 201072,
+    "name": "Destroy Laser",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+  },
+  {
+    "id": 201073,
+    "name": "Nanoparticle Armor",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 21,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: When attacked, Recover #PER#% of this units Max HP"
+  },
+  {
+    "id": 201074,
+    "name": "Next Phase",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 1,
+    "trigger_status": 37,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: At end of turn, if this unit has an ATK or INT buff, Skill Damage +#PER#% (2T)"
+  },
+  {
+    "id": 201076,
+    "name": "Destroy Laser",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Skill Damage +#PER#%"
+  },
+  {
+    "id": 201077,
+    "name": "Nanoparticle Armor",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 23,
+    "effect_type_params": [3, 5],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", and the party's DEF/RES+#PER#%(2T)"
+  },
+  {
+    "id": 201078,
+    "name": "Next Phase",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 1,
+    "trigger_status": 15,
+    "trigger_param": 100,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 58,
+    "effect_type_params": [1, 2],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 0,
+    "effect_value_max": 0,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", if HP is full, removes Poison/Paralysis"
   }
 ]

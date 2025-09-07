@@ -72,9 +72,9 @@ class Helper:
             except Exception as e:
                 print(f"            ├─ ❌ Failed to back up {source_file}: {e}")
 
-    def get_android_file_timestamps(self, android_path):
+    def get_android_file_timestamps(self, android_path) -> dict:
         result = subprocess.run(
-            ["adb", "shell", "ls", "-l", android_path],
+            ["adb", "shell", "ls", "-lR", android_path],
             capture_output=True, text=True
         )
 
@@ -93,8 +93,8 @@ class Helper:
 
         return timestamps
     
-    def pull_updated_files_from_mobile(self, last_execution_timestamp, initial_setup_timestamp):
-        remote_files = self.get_android_file_timestamps(Paths.GAME_MASTERS_Android)
+    def pull_updated_files_from_mobile(self, remote_path, local_path, last_execution_timestamp, initial_setup_timestamp):
+        remote_files = self.get_android_file_timestamps(remote_path)
 
         for filename, mod_time in remote_files.items():
             if filename in Config.FILES_TO_TRANSLATE:
@@ -104,8 +104,8 @@ class Helper:
                     print(f"Pulling updated file: {filename}")
                     subprocess.run([
                         "adb", "pull",
-                        f"{Paths.GAME_MASTERS_Android}/{filename}",
-                        f"{Paths.GAME_MASTERS_Android_Local}/{filename}"
+                        f"{remote_path}/{filename}",
+                        f"{local_path}/{filename}"
                     ])
 
     def pull_masters_from_mobile():
@@ -118,22 +118,16 @@ class Helper:
             str(output_dir)
         ], capture_output=True, text=True)
 
-        if result.returncode == 0:
-             print(f"\n    ℹ️ Extracted masters files from device")
-        else:
+        if result.returncode != 0:
             print(" ❌ Error pulling masters files. Make sure phone is connected and usb debugging enabled. Error message:" , result.stderr)
             sys.exit(1)
 
-    def pull_asset_from_mobile(remote_file, local_file):
-        output_dir = Path('./Android')
-        output_dir.mkdir(exist_ok=True)
+    def pull_file_from_mobile(remote_file, local_file):
         command = ["./platform-tools//adb.exe", "pull", remote_file, local_file]
         result = subprocess.run(command, check=True, capture_output=True, text=True)
 
-        if result.returncode == 0:
-             print(f"\n    ℹ️ Extracted masters files from device")
-        else:
-            print(" ❌ Error pulling masters files. Make sure phone is connected and usb debugging enabled. Error message:" , result.stderr)
+        if result.returncode != 0:
+            print(" ❌ Error pulling file. Make sure phone is connected and usb debugging enabled. Error message:" , result.stderr)
             sys.exit(1)
 
     def check_file_exists_on_device(remote_file):

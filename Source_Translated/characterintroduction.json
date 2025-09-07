@@ -3792,5 +3792,68 @@
     "name": "Marone x Aprico",
     "description": "Marone and Aprico\nBond confirmation appearance.\nThe soul of the aprico to Marone himself\nBy confirming,\nMore than a regular confine\nIt exerts powerful power.",
     "color_no": 5
+  },
+  {
+    "id": 1473,
+    "img_id": 190,
+    "name": "Guide Mao",
+    "description": "Running \"Mandarin Haku\"\nOne of the organizers.\nTo promote the \"Mandarin High School\",\nHe will fulfill his duties as a sponsor.\nThe \"Mandarin-Hokkaido\" is a collection of a wide variety of technologies.\nMaybe because I was excited\nI didn't sleep much the day before.",
+    "color_no": 1
+  },
+  {
+    "id": 1474,
+    "img_id": 361,
+    "name": "Guide Almas",
+    "description": "Running \"Mandarin Haku\"\nOne of the organizers.\nMao's feelings for \"Mandarin-Hoku\"\nKnowing their strength and working together.\nA festive look with Mao\nRunning \"Mansaku\"\nI'm really looking forward to it.",
+    "color_no": 11
+  },
+  {
+    "id": 1475,
+    "img_id": 364,
+    "name": "Lucy, the guard of the savage",
+    "description": "Mao protects the \"Mandarin High School\"\nHe was asked to be a member of the Demon World Police.\nThe top of the Demon Police\nHe has a habit of slacking off.\nThe preparations for the pavilion you want to go to are perfect.\nNow floating from the pavilion\nHe seems to be concerned about the delicious smell.",
+    "color_no": 1
+  },
+  {
+    "id": 1476,
+    "img_id": 20059,
+    "name": "Space Raspberyl",
+    "description": "Administrator of Space Pavilion.\nWearing in a special Mao suit,\nYou can move at an incredible speed.\nWe went to each pavilion to find Mao and the others\nIt seems they were going around...?",
+    "color_no": 9
+  },
+  {
+    "id": 1477,
+    "img_id": 90080,
+    "name": "Space Fooca",
+    "description": "Pilot of \"Machine-Moving Warrior\"...\nWearing a suit like that,\nAdministrator of Space Pavilion Z.\nTeaming up with Super Desco,\nVarious pavilions\nThey are plotting a game.\nWhat is the purpose of this...?",
+    "color_no": 2
+  },
+  {
+    "id": 1478,
+    "img_id": 20042,
+    "name": "Super Desco",
+    "description": "A guide to Space Pavilion Z.\nWith the battle suit of the future,\nDesco has acquired cutting-edge abilities.\nWith Space Fooca,\nThey are setting up a fight against other pavilions.",
+    "color_no": 11
+  },
+  {
+    "id": 1479,
+    "img_id": 363,
+    "name": "Guide Salvatore",
+    "description": "The Evil Academy Pavilion\nHe's a guide, but he's not suitable.\nTo intimidate you with your commanding tone,\nCompared to other pavilions\nThere are extremely few spectators.",
+    "color_no": 3
+  },
+  {
+    "id": 1480,
+    "img_id": 23,
+    "name": "Big Star",
+    "description": "Administrator of \"Evil Academy Pavilion.\"\n\"Sama\" is not a title,\nIt is part of the name.\nThe name \"h\"\nIf you drop it,\nHe might become \"Bigstar-sama.\"",
+    "color_no": 3
+  },
+  {
+    "id": 1481,
+    "img_id": 90081,
+    "name": "Death Death",
+    "description": "The theme is \"Life, Shine\",\nThe evil god who controls life.\nTaking advantage of others' desires and weaknesses\nBy possessing her, she plays with her life.\nI was depressed\nTake over Desco's body,\nHe is trying to make the life around him shine.",
+    "color_no": 1
   }
 ]

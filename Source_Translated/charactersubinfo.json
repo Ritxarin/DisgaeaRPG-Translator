@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "m_character_id": 30005,
+    "sub_name": "Imp 1"
+  },
+  {
+    "id": 2,
+    "m_character_id": 30006,
+    "sub_name": "Imp 2"
+  },
+  {
+    "id": 3,
+    "m_character_id": 30007,
+    "sub_name": "Imp 3"
+  },
+  {
+    "id": 4,
+    "m_character_id": 30008,
+    "sub_name": "Imp 4"
+  },
+  {
+    "id": 5,
+    "m_character_id": 30009,
+    "sub_name": "Orc 1"
+  },
+  {
+    "id": 6,
+    "m_character_id": 30010,
+    "sub_name": "Orc 2"
+  },
+  {
+    "id": 7,
+    "m_character_id": 30011,
+    "sub_name": "Orc 3"
+  },
+  {
+    "id": 8,
+    "m_character_id": 30012,
+    "sub_name": "Orc 4"
+  },
+  {
+    "id": 9,
+    "m_character_id": 30013,
+    "sub_name": "Rabbit 1"
+  },
+  {
+    "id": 10,
+    "m_character_id": 30014,
+    "sub_name": "Rabbit 2"
+  },
+  {
+    "id": 11,
+    "m_character_id": 30015,
+    "sub_name": "Rabbit 3"
+  },
+  {
+    "id": 12,
+    "m_character_id": 30016,
+    "sub_name": "Rabbit 4"
+  },
+  {
+    "id": 13,
+    "m_character_id": 30017,
+    "sub_name": "Fairy 1"
+  },
+  {
+    "id": 14,
+    "m_character_id": 30018,
+    "sub_name": "Fairy 2"
+  },
+  {
+    "id": 15,
+    "m_character_id": 30019,
+    "sub_name": "Fairy 3"
+  },
+  {
+    "id": 16,
+    "m_character_id": 30020,
+    "sub_name": "Fairy 4"
+  },
+  {
+    "id": 17,
+    "m_character_id": 30021,
+    "sub_name": "Sludge 1"
+  },
+  {
+    "id": 18,
+    "m_character_id": 30022,
+    "sub_name": "Sludge 2"
+  },
+  {
+    "id": 19,
+    "m_character_id": 30023,
+    "sub_name": "Sludge 3"
+  },
+  {
+    "id": 20,
+    "m_character_id": 30024,
+    "sub_name": "Sludge 4"
+  },
+  {
+    "id": 21,
+    "m_character_id": 30025,
+    "sub_name": "Slumber Cat 1"
+  },
+  {
+    "id": 22,
+    "m_character_id": 30026,
+    "sub_name": "Slumber Cat 2"
+  },
+  {
+    "id": 23,
+    "m_character_id": 30027,
+    "sub_name": "Slumber Cat 3"
+  },
+  {
+    "id": 24,
+    "m_character_id": 30028,
+    "sub_name": "Slumber Cat 4"
+  },
+  {
+    "id": 25,
+    "m_character_id": 30037,
+    "sub_name": "Shroom 1"
+  },
+  {
+    "id": 26,
+    "m_character_id": 30038,
+    "sub_name": "Shroom 2"
+  },
+  {
+    "id": 27,
+    "m_character_id": 30039,
+    "sub_name": "Shroom 3"
+  },
+  {
+    "id": 28,
+    "m_character_id": 30040,
+    "sub_name": "Shroom 4"
+  },
+  {
+    "id": 29,
+    "m_character_id": 30033,
+    "sub_name": "Undead 1"
+  },
+  {
+    "id": 30,
+    "m_character_id": 30034,
+    "sub_name": "Undead 2"
+  },
+  {
+    "id": 31,
+    "m_character_id": 30035,
+    "sub_name": "Undead 3"
+  },
+  {
+    "id": 32,
+    "m_character_id": 30036,
+    "sub_name": "Undead 4"
+  },
+  {
+    "id": 33,
+    "m_character_id": 30125,
+    "sub_name": "Living Armor 1"
+  },
+  {
+    "id": 34,
+    "m_character_id": 30126,
+    "sub_name": "Living Armor 2"
+  },
+  {
+    "id": 35,
+    "m_character_id": 30127,
+    "sub_name": "Living Armor 3"
+  },
+  {
+    "id": 36,
+    "m_character_id": 30128,
+    "sub_name": "Living Armor 4"
+  },
+  {
+    "id": 37,
+    "m_character_id": 30089,
+    "sub_name": "Gargoyle 1"
+  },
+  {
+    "id": 38,
+    "m_character_id": 30090,
+    "sub_name": "Gargoyle 2"
+  },
+  {
+    "id": 39,
+    "m_character_id": 30091,
+    "sub_name": "Gargoyle 3"
+  },
+  {
+    "id": 40,
+    "m_character_id": 30092,
+    "sub_name": "Gargoyle 4"
+  },
+  {
+    "id": 41,
+    "m_character_id": 30085,
+    "sub_name": "Spirit 1"
+  },
+  {
+    "id": 42,
+    "m_character_id": 30086,
+    "sub_name": "Spirit 2"
+  },
+  {
+    "id": 43,
+    "m_character_id": 30087,
+    "sub_name": "Spirit 3"
+  },
+  {
+    "id": 44,
+    "m_character_id": 30088,
+    "sub_name": "Spirit 4"
+  },
+  {
+    "id": 45,
+    "m_character_id": 30045,
+    "sub_name": "Felynn 1"
+  },
+  {
+    "id": 46,
+    "m_character_id": 30046,
+    "sub_name": "Felynn 2"
+  },
+  {
+    "id": 47,
+    "m_character_id": 30047,
+    "sub_name": "Felynn 3"
+  },
+  {
+    "id": 48,
+    "m_character_id": 30048,
+    "sub_name": "Felynn 4"
+  },
+  {
+    "id": 49,
+    "m_character_id": 30029,
+    "sub_name": "Winged Warrior 1"
+  },
+  {
+    "id": 50,
+    "m_character_id": 30030,
+    "sub_name": "Winged Warrior 2"
+  },
+  {
+    "id": 51,
+    "m_character_id": 30031,
+    "sub_name": "Winged Warrior 3"
+  },
+  {
+    "id": 52,
+    "m_character_id": 30032,
+    "sub_name": "Winged Warrior 4"
+  },
+  {
+    "id": 53,
+    "m_character_id": 30041,
+    "sub_name": "Flora Beast 1"
+  },
+  {
+    "id": 54,
+    "m_character_id": 30042,
+    "sub_name": "Flora Beast 2"
+  },
+  {
+    "id": 55,
+    "m_character_id": 30043,
+    "sub_name": "Flora Beast 3"
+  },
+  {
+    "id": 56,
+    "m_character_id": 30044,
+    "sub_name": "Flora Beast 4"
+  },
+  {
+    "id": 57,
+    "m_character_id": 30061,
+    "sub_name": "Nether Noble 1"
+  },
+  {
+    "id": 58,
+    "m_character_id": 30062,
+    "sub_name": "Nether Noble 2"
+  },
+  {
+    "id": 59,
+    "m_character_id": 30063,
+    "sub_name": "Nether Noble 3"
+  },
+  {
+    "id": 60,
+    "m_character_id": 30064,
+    "sub_name": "Nether Noble 4"
+  },
+  {
+    "id": 61,
+    "m_character_id": 30097,
+    "sub_name": "Death 1"
+  },
+  {
+    "id": 62,
+    "m_character_id": 30098,
+    "sub_name": "Death 2"
+  },
+  {
+    "id": 63,
+    "m_character_id": 30099,
+    "sub_name": "Death 3"
+  },
+  {
+    "id": 64,
+    "m_character_id": 30100,
+    "sub_name": "Death 4"
+  },
+  {
+    "id": 65,
+    "m_character_id": 30057,
+    "sub_name": "Chimera 1"
+  },
+  {
+    "id": 66,
+    "m_character_id": 30058,
+    "sub_name": "Chimera 2"
+  },
+  {
+    "id": 67,
+    "m_character_id": 30059,
+    "sub_name": "Chimera 3"
+  },
+  {
+    "id": 68,
+    "m_character_id": 30060,
+    "sub_name": "Chimera 4"
+  },
+  {
+    "id": 69,
+    "m_character_id": 30065,
+    "sub_name": "Bear 1"
+  },
+  {
+    "id": 70,
+    "m_character_id": 30066,
+    "sub_name": "Bear 2"
+  },
+  {
+    "id": 71,
+    "m_character_id": 30067,
+    "sub_name": "Bear 3"
+  },
+  {
+    "id": 72,
+    "m_character_id": 30068,
+    "sub_name": "Bear 4"
+  },
+  {
+    "id": 73,
+    "m_character_id": 30081,
+    "sub_name": "Horseman 1"
+  },
+  {
+    "id": 74,
+    "m_character_id": 30082,
+    "sub_name": "Horseman 2"
+  },
+  {
+    "id": 75,
+    "m_character_id": 30083,
+    "sub_name": "Horseman 3"
+  },
+  {
+    "id": 76,
+    "m_character_id": 30084,
+    "sub_name": "Horseman 4"
+  }
+]
