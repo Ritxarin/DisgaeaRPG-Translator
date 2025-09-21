@@ -5950,5 +5950,11 @@
     "m_item_id": 2720107,
     "item_type": 27,
     "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2700362,
+    "m_item_id": 2700362,
+    "item_type": 27,
+    "get_areas": "Adell's training"
   }
 ]

@@ -6,7 +6,7 @@
   ",HP+#PER#%": ",HP +#PER#%",
   "パーティの拳武器装備キャラのATK+#PER#%": "Fist-Equipped Allies: ATK+#PER#%",
   "ターン終了時、自分の行動ゲージ+#PER#": "Self: At end of turn, Action Gauge +#PER#",
-  ",CRT+#PER#%": ",CRT +#PER#%",
+  ",CRT+#PER#%": ", CRT +#PER#%",
   "自分が与える全てのダメージ+#PER#%": "Self: Damage +#PER#%",
   "ターン開始時、自分のHP#PER#%回復": "Self: At the start of the turn heal +#PER#% HP",
   "自分が魔物型キャラに与えるダメージ+#PER#%": "Self: Damage dealt to Monster characters +#PER#%",
@@ -252,5 +252,10 @@
   "ターン開始時、行動ゲージが先頭の敵キャラの行動ゲージ-#PER#": "Highest AG Foe: At start of turn, AG -#PER#",
   "攻撃を受けた時、パーティのHPを、自身の最大HPの#PER#%回復": "All Allies: When attacked, Recover #PER#% of this units Max HP",
   "ターン終了時、ATK・INTバフ効果のいずれかを受けている場合、パーティに必殺技で与えるダメージ+#PER#%(2T)付与": "All Allies: At end of turn, if this unit has an ATK or INT buff, Skill Damage +#PER#% (2T)",
-  "、さらに自身のHPが満タンの場合、パーティの毒・マヒ効果を解除": ", if HP is full, removes Poison/Paralysis"
+  "、さらに自身のHPが満タンの場合、パーティの毒・マヒ効果を解除": ", if HP is full, removes Poison/Paralysis",
+  "ターン開始時、パーティのATKバフ効果を受けているキャラのATK・CRD+#PER#%(2T)": "ATK-Buffed Allies: At start of turn, ATK/CRD +#PER#% (2T)",
+  "パーティの生存キャラ数が多いほどパーティのATK・DEF・CRDアップ(最大+#PER#%,5キャラまで)": "All Allies: More surviving Allies, Higher ATK/DEF/CRD boost (max +#PER#%, 5 allies)",
+  "、さらに行動ゲージが最後尾の敵キャラに受けるダメージ#PER#%アップ(1T)付与": ". Lowest-AG Foe: At the end of the turn, Damage Taken +#PER#%% (1T).",
+  "、さらにパーティの生存キャラ数が多いほど自分が与える全てのダメージアップ(最大+#PER#%,5キャラまで)": ", Self: More surviving allies, higher Damage boost (max +#PER#%, 5 allies)",
+  "パーティの生存キャラ数が多いほどパーティのDEF・RESアップ（最大+#PER#%, 5キャラまで）": "Party: The more surviving allies, the higher DEF/RES (max +#PER#%, 5 allies)"
 }

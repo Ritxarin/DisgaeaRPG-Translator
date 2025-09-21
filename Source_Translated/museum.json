@@ -5146,5 +5146,18 @@
     "sort": 223,
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 210141,
+    "category": 2,
+    "museum_type": 1,
+    "target_id": 152,
+    "title": "Space Fuka",
+    "resource_name": "",
+    "m_character_id_1": 362,
+    "m_character_id_2": 0,
+    "sort": 108,
+    "open_at": "",
+    "close_at": ""
   }
 ]

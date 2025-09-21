@@ -20778,5 +20778,65 @@
     "description": "A demon that can turn Gaming Thursday into awakening state of 6★",
     "max_num": 9999,
     "sell_price": 0
+  },
+  {
+    "id": 379,
+    "name": "Carrot curry",
+    "item_type": 3,
+    "icon_no": 379,
+    "effect_value": [100],
+    "description": "Your ability to take action will be restored. Pyon is full of carrots, a specialty of the Usotomakai!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 1947,
+    "name": "★9 Manten Festacket",
+    "item_type": 19,
+    "icon_no": 1947,
+    "effect_value": [201143],
+    "description": "★9 confirmed! Tickets for once for Manten Festival",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600364,
+    "name": "The Demon Star of the Mandarin Guard Lucy",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [364],
+    "description": "Demon Star that can turn the guard Lucy of the Kanji-Hiroshi into awakening state of 6★",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 1949,
+    "name": "Selfish Key EX Ticket",
+    "item_type": 19,
+    "icon_no": 1949,
+    "effect_value": [201147],
+    "description": "Keep yourself selfish! Tickets for one All-Star EX Festival",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 201029,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201029,
+    "effect_value": [846],
+    "description": "Space Fukaraide exclusive PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700362,
+    "name": "Space Fuka Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [100],
+    "description": "Crystals that can magically modify Space Fuka",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]

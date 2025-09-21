@@ -257,7 +257,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 31,
@@ -699,7 +699,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 61,
@@ -2623,7 +2623,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 201,
@@ -3585,7 +3585,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 286,
@@ -3975,7 +3975,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 308,
@@ -4495,7 +4495,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 361,
@@ -5041,7 +5041,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "The more surviving characters in the party, the higher the party's DEF and RES (up to 5 characters)"
+    "description": "Party: The more surviving allies, the higher DEF/RES (max +#PER#%, 5 allies)"
   },
   {
     "id": 394,
@@ -9383,7 +9383,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 768,
@@ -14791,7 +14791,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 1216,
@@ -22565,7 +22565,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 1766,
@@ -24047,7 +24047,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 1861,
@@ -24177,7 +24177,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 1866,
@@ -27063,7 +27063,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2026,
@@ -27505,7 +27505,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2051,
@@ -29273,7 +29273,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2156,
@@ -29455,7 +29455,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2166,
@@ -30521,7 +30521,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2231,
@@ -31327,7 +31327,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Sword-Equipped Self: Skill Damage +#PER#%"
+    "description": "Sword-Equipped Self, Damage +#PER#%"
   },
   {
     "id": 2273,
@@ -31431,7 +31431,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2277,
@@ -32913,7 +32913,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2356,
@@ -33277,7 +33277,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2376,
@@ -34707,7 +34707,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2451,
@@ -36917,7 +36917,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2566,
@@ -37099,7 +37099,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2576,
@@ -37177,7 +37177,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2581,
@@ -37359,7 +37359,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2591,
@@ -37489,7 +37489,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2596,
@@ -38139,7 +38139,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2631,
@@ -42819,7 +42819,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2876,
@@ -43729,7 +43729,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2926,
@@ -44119,7 +44119,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2946,
@@ -44327,7 +44327,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 2956,
@@ -48695,7 +48695,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 3181,
@@ -49943,7 +49943,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 3246,
@@ -50151,7 +50151,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 3256,
@@ -50931,7 +50931,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 3296,
@@ -54259,7 +54259,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 3466,
@@ -67857,7 +67857,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 200546,
@@ -70899,7 +70899,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 200746,
@@ -72797,7 +72797,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 200846,
@@ -73577,7 +73577,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 200886,
@@ -74799,7 +74799,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 200946,
@@ -96223,7 +96223,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 1896,
@@ -97289,7 +97289,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 3601,
@@ -98278,5 +98278,395 @@
     "bad_effect_params": [0],
     "bad_effect_value": 0,
     "description": ", if HP is full, removes Poison/Paralysis"
+  },
+  {
+    "id": 3641,
+    "name": "Security Angel",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 3, 4, 5],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+  },
+  {
+    "id": 3642,
+    "name": "Self-firing Permit",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Gun-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3643,
+    "name": "Investigator's intuition",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [2],
+    "effect_type": 23,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "ATK-Buffed Allies: At start of turn, ATK/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 3644,
+    "name": "I'll be on guard!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 35,
+    "effect_type_params": [2, 3, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: More surviving Allies, Higher ATK/DEF/CRD boost (max +#PER#%, 5 allies)"
+  },
+  {
+    "id": 3645,
+    "name": "Security Angel",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [7],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", CRT +#PER#%"
+  },
+  {
+    "id": 3646,
+    "name": "Self-firing Permit",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3647,
+    "name": "Investigator's intuition",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 20,
+    "target_params": [0],
+    "effect_type": 99,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [1],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ". Lowest-AG Foe: At the end of the turn, Damage Taken +#PER#% (1T)."
+  },
+  {
+    "id": 3648,
+    "name": "I'll be on guard!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 41,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Self: More surviving allies, higher Damage boost (max +#PER#%, 5 allies)"
+  },
+  {
+    "id": 3621,
+    "name": "Grand Battle",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK and CRD +#PER#%"
+  },
+  {
+    "id": 3622,
+    "name": "Sparkling Meteor Punch",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Fist-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3623,
+    "name": "Mercury-like thread",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 34,
+    "target_params": [0],
+    "effect_type": 59,
+    "effect_type_params": [4, 4, 4],
+    "limit_damage": 2,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 180,
+    "effect_value_max": 180,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Highest-HP Foe: At the end of turn, Star follow-up (3 times, power D+)"
+  },
+  {
+    "id": 3624,
+    "name": "That's why I am!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 91,
+    "effect_type_params": [2, 4, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 35,
+    "effect_value_max": 35,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: The more HP you have, the higher ATK, INT, and CRD increase (up to +#PER#%)"
+  },
+  {
+    "id": 3625,
+    "name": "Grand Battle",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 2,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",HP + number of party monster-type characters x #PER#%"
+  },
+  {
+    "id": 3626,
+    "name": "Sparkling Meteor Punch",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3628,
+    "name": "That's why I am!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 2,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Self: ATK/CRD + No. of Monster allies x#PER#%"
   }
 ]

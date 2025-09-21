@@ -24910,5 +24910,77 @@
     "m_character_id": 20107,
     "rarity": 6,
     "class_name": "Futuristic Earth Hero"
+  },
+  {
+    "id": 3641,
+    "m_character_id": 364,
+    "rarity": 1,
+    "class_name": "Slacker Staff"
+  },
+  {
+    "id": 3642,
+    "m_character_id": 364,
+    "rarity": 2,
+    "class_name": "Slacker staff"
+  },
+  {
+    "id": 3643,
+    "m_character_id": 364,
+    "rarity": 3,
+    "class_name": "Slacker staff"
+  },
+  {
+    "id": 3644,
+    "m_character_id": 364,
+    "rarity": 4,
+    "class_name": "Slacker staff"
+  },
+  {
+    "id": 3645,
+    "m_character_id": 364,
+    "rarity": 5,
+    "class_name": "A friendly security supervisor"
+  },
+  {
+    "id": 3646,
+    "m_character_id": 364,
+    "rarity": 6,
+    "class_name": "Red Investigator of the Manji Expo"
+  },
+  {
+    "id": 3621,
+    "m_character_id": 362,
+    "rarity": 1,
+    "class_name": "Warrior of the Poor Pavillion"
+  },
+  {
+    "id": 3622,
+    "m_character_id": 362,
+    "rarity": 2,
+    "class_name": "Warrior of the Poor Pavillion"
+  },
+  {
+    "id": 3623,
+    "m_character_id": 362,
+    "rarity": 3,
+    "class_name": "Warrior of the Poor Pavillion"
+  },
+  {
+    "id": 3624,
+    "m_character_id": 362,
+    "rarity": 4,
+    "class_name": "Warrior of the Poor Pavillion"
+  },
+  {
+    "id": 3625,
+    "m_character_id": 362,
+    "rarity": 5,
+    "class_name": "Experts in the friend battle"
+  },
+  {
+    "id": 3626,
+    "m_character_id": 362,
+    "rarity": 6,
+    "class_name": "Blue Meteor of Innovation"
   }
 ]

@@ -1062,5 +1062,13 @@
     "main_m_memory_effect_type_id": 104,
     "sub_m_character_id": 0,
     "sub_m_memory_effect_type_id": 103
+  },
+  {
+    "id": 134,
+    "name": "Diva, DJ and Japanese drummer",
+    "main_m_character_id": 20089,
+    "main_m_memory_effect_type_id": 4,
+    "sub_m_character_id": 20089,
+    "sub_m_memory_effect_type_id": 8
   }
 ]
