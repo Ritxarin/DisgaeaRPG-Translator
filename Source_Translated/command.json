@@ -452301,7 +452301,7 @@
   {
     "id": 3003622,
     "name": "Super Accelerate",
-    "name_battle": "Super\\nAccelerated",
+    "name_battle": "Super\\nAccelerate",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -452480,7 +452480,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Remove debuffs&ATK・INT・CRD+#PER9#%(3T)&CRT+#PER12#%(3T)&All damage+#PER13#%(3T)[Party],Action Gauge-#PER14#&DEF/RES Buff Removed&受けるダメージ#PER17#%アップ(3T)[Single Enemy]",
+    "description_effect": "Remove debuffs&ATK・INT・CRD+#PER9#%(3T)&CRT+#PER12#%(3T)&All damage+#PER13#%(3T)[Party],Action Gauge-#PER14#&DEF/RES Buff Removed&Damage Taken +#PER17#%(3T)[Single Enemy]",
     "description": "I'll show you sparkling!",
     "resource_id": 3003622,
     "continuous_attack_rates": []
@@ -452623,7 +452623,7 @@
       0,
       2
     ],
-    "description_effect": "[When using skill]CRT+#PER2#%&[When using skill]CRD+#PER3#%&残HPが多いほどさらに威力アップ[Self],All damage+#PER5#%(3T)[Party],DEF・RES-#PER6#%(2T)&[On Critical hit]Star resistance-#PER8#%(2T)[All Enemies]",
+    "description_effect": "[When using skill]CRT+#PER2#%&[When using skill]CRD+#PER3#%&Damage increases with more HP remaining[Self],All damage+#PER5#%(3T)[Party],DEF・RES-#PER6#%(2T)&[On Critical hit]Star resistance-#PER8#%(2T)[All Enemies]",
     "description": "I understand, so I'll defeat you!",
     "resource_id": 3003623,
     "continuous_attack_rates": []
@@ -455519,7 +455519,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Remove debuffs&ATK・INT・CRD+#PER9#%(3T)&CRT+#PER12#%(3T)&All damage+#PER13#%(3T)[Party],Action Gauge-#PER14#&DEF/RES Buff Removed&受けるダメージ#PER17#%アップ(3T)[Single Enemy]",
+    "description_effect": "Remove debuffs&ATK・INT・CRD+#PER9#%(3T)&CRT+#PER12#%(3T)&All damage+#PER13#%(3T)[Party],Action Gauge-#PER14#&DEF/RES Buff Removed&Damage Taken +#PER17#%(3T)[Single Enemy]",
     "description": "I'll show you sparkling!",
     "resource_id": 3003622,
     "continuous_attack_rates": []
@@ -455662,7 +455662,7 @@
       0,
       2
     ],
-    "description_effect": "[When using skill]CRT+#PER2#%&[When using skill]CRD+#PER3#%&残HPが多いほどさらに威力アップ[Self],All damage+#PER5#%(3T)[Party],DEF・RES-#PER6#%(2T)&[On Critical hit]Star resistance-#PER8#%(2T)[All Enemies]",
+    "description_effect": "[When using skill]CRT+#PER2#%&[When using skill]CRD+#PER3#%&Damage increases with more HP remaining[Self],All damage+#PER5#%(3T)[Party],DEF・RES-#PER6#%(2T)&[On Critical hit]Star resistance-#PER8#%(2T)[All Enemies]",
     "description": "I understand, so I'll defeat you!",
     "resource_id": 3003623,
     "continuous_attack_rates": []
