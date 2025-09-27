@@ -35,6 +35,7 @@
   "魔ビリティー封印回復": "Evility Seal Recovery",
   "束縛効果": "Inflict Bind",
   "DEFデバフの敵へはさらにド忘れ効果": "Inflict forget on DEF debuffed foes",
+  "眠り･ド忘れ付与": "Inflicts Sleep/Forget",
 
   "HP回復中": "Heal",
   "HP回復小": "Small Heal",
@@ -95,7 +96,8 @@
   "行動ゲージ": "Action Gauge",
   "ゲージ": "Action Gauge",
   "ｹﾞｰｼﾞ": "Action Gauge",
-  "DEF・RESバフ効果解除": "DEF/RES Buff Removed",
+  "DEF･RESバフ効果解除": "Remove DEF/RES buffs",
+  "DEF・RESバフ効果解除": "Remove DEF/RES buffs",
   "DEFバフ効果解除": "DEF Buff Removed",
   "バフ効果解除": "remove buff effect",
   "バフ削除": "Buff removed",
@@ -161,6 +163,7 @@
   "必殺技で与えるダメージ": "Damage dealt by Special Move",
   "技威力+": "Skill Power+",
   "ATKバフ時の技威力+": "If user has an ATK buff, Skill Power+",
+  "ATKバフ状態の時、": "If user has an ATK buff, ",
   "対象の体力が70%以下の場合": " If Target's HP is 70% or less",
 
   "DEFの#PER3#%を上乗せしてﾀﾞﾒｰｼﾞ計算": "#PER3#%DEF added to damage calculation",

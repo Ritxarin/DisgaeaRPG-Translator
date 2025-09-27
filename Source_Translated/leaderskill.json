@@ -14947,7 +14947,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if there are fewer than 2 enemies, the party's behavior gauge +#PER#"
+    "description": "At the end of turn, if there are fewer than 2 enemies, the party's Action Gauge +#PER#"
   },
   {
     "id": 1228,
@@ -15831,7 +15831,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if there are 5 or more surviving characters in the party, the party's behavior gauge +#PER#"
+    "description": "At the end of turn, if there are 5 or more surviving characters in the party, the party's Action Gauge +#PER#"
   },
   {
     "id": 1285,
@@ -19263,7 +19263,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you are fully energized, the party's behavior gauge +#PER#"
+    "description": "At the end of turn, if you are fully energized, the party's Action Gauge +#PER#"
   },
   {
     "id": 1551,
@@ -21135,7 +21135,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if the number of surviving characters in the party is 3 or more, the party's behavior gauge +#PER#"
+    "description": "At the end of turn, if the number of surviving characters in the party is 3 or more, the party's Action Gauge +#PER#"
   },
   {
     "id": 1686,
@@ -32549,7 +32549,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: initial SP +#PER#"
+    "description": " ., All Allies: initial SP +#PER#"
   },
   {
     "id": 2338,
@@ -43989,7 +43989,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: initial SP +#PER#"
+    "description": " ., All Allies: initial SP +#PER#"
   },
   {
     "id": 2941,
@@ -45341,7 +45341,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and ATK/CRT+#PER#%(2T) for Party swords and fist weapons equipped characters"
+    "description": ", and ATK, CRT, CRD+#PER#%(2T) for Party swords and weapons equipped characters"
   },
   {
     "id": 3011,
@@ -48565,7 +48565,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "When a party defeats an enemy, the party's behavior gauge +#PER#"
+    "description": "When a party defeats an enemy, the party's Action Gauge +#PER#"
   },
   {
     "id": 3174,
@@ -62167,7 +62167,7 @@
   },
   {
     "id": 200102,
-    "name": "Healing Song",
+    "name": "Song of Healing",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -62193,7 +62193,7 @@
   },
   {
     "id": 200103,
-    "name": "Hanako's firefighting strategy!",
+    "name": "Hanako's Magnificent Strategy!",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 3,
@@ -62215,11 +62215,11 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if your health is 75% or more, the party's behavior gauge +#PER#"
+    "description": "All Allies: At end of turn, if this unit's HP is 75%+, Action Gauge +#PER#"
   },
   {
     "id": 200104,
-    "name": "Hatsuratsu Pawa",
+    "name": "Hyperactive Power",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -62241,7 +62241,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two monster-type characters in the party, damage caused by the party through attribute attacks +#PER#%"
+    "description": "All Allies: If 2+ Monster units in party, Elemental Damage dealt +#PER#%"
   },
   {
     "id": 200105,
@@ -62271,7 +62271,7 @@
   },
   {
     "id": 200108,
-    "name": "Hatsuratsu Pawa",
+    "name": "Hyperactive Power",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -62293,7 +62293,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", If there are more than 5 monster-type characters, damage caused by the party through attribute attacks +#PER#%"
+    "description": ", if 5+ Monster units in party, Elemental Damage dealt +#PER#%"
   },
   {
     "id": 200111,
@@ -63151,7 +63151,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: initial SP +#PER#"
+    "description": " ., All Allies: initial SP +#PER#"
   },
   {
     "id": 200198,
@@ -64555,7 +64555,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and at the start of the battle, the party's behavior gauge +#PER#"
+    "description": ", and at the start of the battle, the party's Action Gauge +#PER#"
   },
   {
     "id": 200311,
@@ -66323,7 +66323,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two monster-type characters in the party, damage caused by the party through attribute attacks +#PER#%"
+    "description": "All Allies: If 2+ Monster units in party, Elemental Damage dealt +#PER#%"
   },
   {
     "id": 200454,
@@ -67025,7 +67025,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if the number of surviving characters in the party is 3 or more, the party's behavior gauge +#PER#"
+    "description": "At the end of turn, if the number of surviving characters in the party is 3 or more, the party's Action Gauge +#PER#"
   },
   {
     "id": 200494,
@@ -70977,7 +70977,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and the party monster-type character ATK INT+#PER#%(1T)"
+    "description": ", Monster Allies: ATK/INT +#PER#%(1T)"
   },
   {
     "id": 200751,
@@ -74565,7 +74565,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "When WAVE starts, if there are more than 3 monster-type characters in the party, the party's behavior gauge +#PER#"
+    "description": "When WAVE starts, if there are more than 3 monster-type characters in the party, the party's Action Gauge +#PER#"
   },
   {
     "id": 200935,
@@ -76883,7 +76883,7 @@
   },
   {
     "id": 201053,
-    "name": "Rabbit ear data link",
+    "name": "Bunny Ears Data Link",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -76905,11 +76905,11 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ATK, INT, CRD+#PER#%(2T) of characters who have been affected by the party's ATK buff effect"
+    "description": "Atk-Buffed Allies: At start of turn, ATK/INT/CRD +#PER#% (2T)"
   },
   {
     "id": 201054,
-    "name": "Underwater Mobile Tactics",
+    "name": "Underwater Maneuver Tactics",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 3,
@@ -76931,7 +76931,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, Wind attribute attacks on enemy characters with low HP remaining (2 times, Power D+)"
+    "description": "Lowest-HP Foe: At end of turn, Wind Follow-up (2 times, Power D+)"
   },
   {
     "id": 201055,
@@ -76957,7 +76957,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and the party monster-type character ATK INT+#PER#%"
+    "description": ", Monster Allies: ATK/INT +#PER#%"
   },
   {
     "id": 201056,
@@ -76987,7 +76987,7 @@
   },
   {
     "id": 201057,
-    "name": "Rabbit ear data link",
+    "name": "Bunny Ears Data Link",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -77009,11 +77009,11 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, if there are more than 3 monster-type characters in the party, the party's SP+#PER#"
+    "description": ", if 3+ Monster allies, Party SP +#PER#"
   },
   {
     "id": 201058,
-    "name": "Underwater Mobile Tactics",
+    "name": "Underwater Maneuver Tactics",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 3,
@@ -77035,7 +77035,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, at the end of turn, Wind attribute attacks on enemy characters with high remaining HP (1 time, Power D+)"
+    "description": ", Highest-HP Foe: At end of turn, Wind Follow-up (1 times, Power D+)"
   },
   {
     "id": 210021,
@@ -98668,5 +98668,239 @@
     "bad_effect_params": [0],
     "bad_effect_value": 0,
     "description": ", Self: ATK/CRD + No. of Monster allies x#PER#%"
+  },
+  {
+    "id": 2975,
+    "name": "Yuie pattern yukata",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",HP +#PER#%"
+  },
+  {
+    "id": 201081,
+    "name": "Conqueror of the Candy Expo",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1, 2, 3, 4, 5],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 18,
+    "effect_value_max": 18,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: Base parameters +#PER#%"
+  },
+  {
+    "id": 201082,
+    "name": "Rabbit octopus throne pulsating",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 55,
+    "effect_value_max": 55,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 201083,
+    "name": "Life of the primordial and end",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [8],
+    "effect_type": 23,
+    "effect_type_params": [2, 4, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [2, 2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "CRD-Buffed Allies: At start of turn, ATK/INT/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 201084,
+    "name": "A glow that smears the impurity",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 63,
+    "effect_type_params": [2, 4, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [4, 4, 4],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "At the start of battle, the party will be given ATK, INT, and CRD debuff conversion status (4 times)"
+  },
+  {
+    "id": 201085,
+    "name": "Conqueror of the Candy Expo",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",CRD +#PER#%"
+  },
+  {
+    "id": 201086,
+    "name": "Rabbit octopus throne pulsating",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 201087,
+    "name": "Life of the primordial and end",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 1,
+    "trigger_status": 15,
+    "trigger_param": 75,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [1],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Self: if HP is 75%+, Damage +#PER#%(1T)"
+  },
+  {
+    "id": 201088,
+    "name": "A glow that smears the impurity",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 6,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", All Allies: initial SP +#PER#"
   }
 ]

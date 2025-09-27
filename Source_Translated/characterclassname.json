@@ -24982,5 +24982,41 @@
     "m_character_id": 362,
     "rarity": 6,
     "class_name": "Blue Meteor of Innovation"
+  },
+  {
+    "id": 201081,
+    "m_character_id": 20108,
+    "rarity": 1,
+    "class_name": "The Urban Legend of the Mandarin Expo"
+  },
+  {
+    "id": 201082,
+    "m_character_id": 20108,
+    "rarity": 2,
+    "class_name": "The Urban Legend of the Mandarin Expo"
+  },
+  {
+    "id": 201083,
+    "m_character_id": 20108,
+    "rarity": 3,
+    "class_name": "The Urban Legend of the Mandarin Expo"
+  },
+  {
+    "id": 201084,
+    "m_character_id": 20108,
+    "rarity": 4,
+    "class_name": "The Urban Legend of the Mandarin Expo"
+  },
+  {
+    "id": 201085,
+    "m_character_id": 20108,
+    "rarity": 5,
+    "class_name": "The pulsating form of life"
+  },
+  {
+    "id": 201086,
+    "m_character_id": 20108,
+    "rarity": 6,
+    "class_name": "The final boss of shining life"
   }
 ]

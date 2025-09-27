@@ -66794,8 +66794,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 200,
-        "effect_value_max": 200,
+        "effect_value_min": 250,
+        "effect_value_max": 250,
         "effect_turn": [
             0
         ],
@@ -66805,6 +66805,44 @@
         ],
         "bad_effect_value": 0,
         "description": "ターン開始時、敵が眠り状態の場合、味方の行動ゲージ+#PER#"
+    },
+    {
+        "id": 2975,
+        "name": "ユイエ柄の浴衣",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",HP+#PER#%"
     },
     {
         "id": 2976,
@@ -66871,8 +66909,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             1,
             1
@@ -67649,8 +67687,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 40,
-        "effect_value_max": 40,
+        "effect_value_min": 50,
+        "effect_value_max": 50,
         "effect_turn": [
             0
         ],
@@ -67755,7 +67793,8 @@
         "effect_type": 23,
         "effect_type_params": [
             2,
-            7
+            7,
+            8
         ],
         "limit_damage": 0,
         "limit_characters": [
@@ -67769,6 +67808,7 @@
         "effect_value_max": 20,
         "effect_turn": [
             2,
+            2,
             2
         ],
         "bad_effect_type": 0,
@@ -67776,7 +67816,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "、さらにパーティの剣・拳武器装備キャラのATK・CRT+#PER#%(2T)"
+        "description": "、さらにパーティの剣・拳武器装備キャラのATK・CRT・CRD+#PER#%(2T)"
     },
     {
         "id": 3011,
@@ -118932,6 +118972,322 @@
         ],
         "bad_effect_value": 0,
         "description": "、さらに自身のHPが満タンの場合、パーティの毒・マヒ効果を解除"
+    },
+    {
+        "id": 201081,
+        "name": "卍博の征服者",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 18,
+        "effect_value_max": 18,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティの基礎パラメータ+#PER#%"
+    },
+    {
+        "id": 201082,
+        "name": "脈打つウサタコ玉座",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 8,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 55,
+        "effect_value_max": 55,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が魔物物理武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 201083,
+        "name": "始原と終末の生命",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 36,
+        "target_params": [
+            8
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            4,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            2,
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、パーティのCRDバフ効果を受けているキャラのATK・INT・CRD+#PER#%(2T)"
+    },
+    {
+        "id": 201084,
+        "name": "不浄を塗りつぶす輝き",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 63,
+        "effect_type_params": [
+            2,
+            4,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 100,
+        "effect_value_max": 100,
+        "effect_turn": [
+            4,
+            4,
+            4
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "戦闘開始時、パーティにATK・INT・CRDデバフ転換状態を付与(4回)"
+    },
+    {
+        "id": 201085,
+        "name": "卍博の征服者",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRD+#PER#%"
+    },
+    {
+        "id": 201086,
+        "name": "脈打つウサタコ玉座",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 8,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 201087,
+        "name": "始原と終末の生命",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 1,
+        "trigger_status": 15,
+        "trigger_param": 75,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            1
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらに自身のHPが75%以上の場合、自分に与える全てのダメージ+#PER#%(1T)付与"
+    },
+    {
+        "id": 201088,
+        "name": "不浄を塗りつぶす輝き",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 6,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティの初期SP+#PER#"
     },
     {
         "id": 210021,

@@ -159,7 +159,7 @@
   "ターン終了時、パーティのATK・INT+#PER#%(1T)": "At the end of the turn, All Allies: ATK and INT +#PER#%(1T)",
   "ターン終了時、残りHPが低い敵キャラに炎属性攻撃(2回,威力B+)": "At the end of the turn, Fire Damage to the enemy with the lowest HP (2 times, B+ power)",
   "攻撃を受けた時、敵全体の行動ゲージ-#PER#": "When attacked, All Enemies: reduce action gauge by #PER#",
-  "、さらにパーティの初期SP+#PER#": "Additionally, All Allies: initial SP +#PER#",
+  "、さらにパーティの初期SP+#PER#": ", All Allies: initial SP +#PER#",
   ",SPD・CRT+#PER#%": ",SPD and CRT +#PER#%",
   ",HP・CRD+#PER#%": ",HP and CRD +#PER#%",
   "自分のATK+#PER#%": "Self: ATK +#PER#%",
@@ -257,5 +257,16 @@
   "パーティの生存キャラ数が多いほどパーティのATK・DEF・CRDアップ(最大+#PER#%,5キャラまで)": "All Allies: More surviving Allies, Higher ATK/DEF/CRD boost (max +#PER#%, 5 allies)",
   "、さらに行動ゲージが最後尾の敵キャラに受けるダメージ#PER#%アップ(1T)付与": ". Lowest-AG Foe: At the end of the turn, Damage Taken +#PER#%% (1T).",
   "、さらにパーティの生存キャラ数が多いほど自分が与える全てのダメージアップ(最大+#PER#%,5キャラまで)": ", Self: More surviving allies, higher Damage boost (max +#PER#%, 5 allies)",
-  "パーティの生存キャラ数が多いほどパーティのDEF・RESアップ（最大+#PER#%, 5キャラまで）": "Party: The more surviving allies, the higher DEF/RES (max +#PER#%, 5 allies)"
+  "パーティの生存キャラ数が多いほどパーティのDEF・RESアップ（最大+#PER#%, 5キャラまで）": "Party: The more surviving allies, the higher DEF/RES (max +#PER#%, 5 allies)",
+  "ターン開始時、パーティのATKバフ効果を受けているキャラのATK・INT・CRD+#PER#%(2T)": "Atk-Buffed Allies: At start of turn, ATK/INT/CRD +#PER#% (2T)",
+  "、さらにパーティに魔物型キャラが3体以上いる場合、パーティのSP+#PER#": ", if 3+ Monster allies, Party SP +#PER#",
+  "ターン終了時、残りHPが低い敵キャラに風属性攻撃(2回,威力D+)": "Lowest-HP Foe: At end of turn, Wind Follow-up (2 times, Power D+)",
+  "、さらにターン終了時、残りHPが高い敵キャラに風属性攻撃(1回,威力D+)": ", Highest-HP Foe: At end of turn, Wind Follow-up (1 times, Power D+)",
+  "、さらにパーティの魔物型キャラのATK・INT+#PER#%": ", Monster Allies: ATK/INT +#PER#%",
+  "、さらにパーティの魔物型キャラのATK・INT+#PER#%(1T)": ", Monster Allies: ATK/INT +#PER#%(1T)",
+  "、さらに自身のHPが75%以上の場合、自分に与える全てのダメージ+#PER#%(1T)付与": ", Self: if HP is 75%+, Damage +#PER#%(1T)",
+  "ターン開始時、パーティのCRDバフ効果を受けているキャラのATK・INT・CRD+#PER#%(2T)": "CRD-Buffed Allies: At start of turn, ATK/INT/CRD +#PER#% (2T)",
+  "パーティに魔物型キャラが2体以上いる場合、パーティが属性攻撃で与えるダメージ+#PER#%": "All Allies: If 2+ Monster units in party, Elemental Damage dealt +#PER#%",
+  "、さらに魔物型キャラが5体以上いる場合、パーティが属性攻撃で与えるダメージ+#PER#%" : ", if 5+ Monster units in party, Elemental Damage dealt +#PER#%",
+  "ターン終了時、体力が75%以上の場合、パーティの行動ゲージ+#PER#" : "All Allies: At end of turn, if this unit's HP is 75%+, Action Gauge +#PER#"
 }
