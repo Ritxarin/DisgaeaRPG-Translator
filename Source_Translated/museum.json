@@ -5172,5 +5172,83 @@
     "sort": 109,
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 320224,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Guide Almas",
+    "resource_name": "361",
+    "m_character_id_1": 361,
+    "m_character_id_2": 0,
+    "sort": 224,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 320225,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Guide Salvatore",
+    "resource_name": "363",
+    "m_character_id_1": 363,
+    "m_character_id_2": 0,
+    "sort": 225,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 320226,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Lucy, the guard of the savage",
+    "resource_name": "364",
+    "m_character_id_1": 364,
+    "m_character_id_2": 0,
+    "sort": 226,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 320227,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Space Fooca",
+    "resource_name": "362",
+    "m_character_id_1": 362,
+    "m_character_id_2": 0,
+    "sort": 227,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 320228,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Death Death 1",
+    "resource_name": "20108_01",
+    "m_character_id_1": 20108,
+    "m_character_id_2": 0,
+    "sort": 228,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 320229,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Death Death 2",
+    "resource_name": "20108_02",
+    "m_character_id_1": 20108,
+    "m_character_id_2": 0,
+    "sort": 229,
+    "open_at": "",
+    "close_at": ""
   }
 ]

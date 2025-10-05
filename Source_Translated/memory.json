@@ -1070,5 +1070,13 @@
     "main_m_memory_effect_type_id": 4,
     "sub_m_character_id": 20089,
     "sub_m_memory_effect_type_id": 8
+  },
+  {
+    "id": 135,
+    "name": "Deadly Warrior Nights Cosplayers",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 101,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 102
   }
 ]

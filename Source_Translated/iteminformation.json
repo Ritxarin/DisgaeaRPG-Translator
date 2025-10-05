@@ -5962,5 +5962,29 @@
     "m_item_id": 2720108,
     "item_type": 27,
     "get_areas": "Adell's training"
+  },
+  {
+    "id": 2700365,
+    "m_item_id": 2700365,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2700366,
+    "m_item_id": 2700366,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2700368,
+    "m_item_id": 2700368,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2700369,
+    "m_item_id": 2700369,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
   }
 ]

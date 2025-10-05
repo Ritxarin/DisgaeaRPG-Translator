@@ -25018,5 +25018,113 @@
     "m_character_id": 20108,
     "rarity": 6,
     "class_name": "Shining Life's Last Boss"
+  },
+  {
+    "id": 3651,
+    "m_character_id": 365,
+    "rarity": 1,
+    "class_name": "The Unconscious Monster Demon King"
+  },
+  {
+    "id": 3652,
+    "m_character_id": 365,
+    "rarity": 2,
+    "class_name": "The Unconscious Monster Demon King"
+  },
+  {
+    "id": 3653,
+    "m_character_id": 365,
+    "rarity": 3,
+    "class_name": "The Unconscious Monster Demon King"
+  },
+  {
+    "id": 3654,
+    "m_character_id": 365,
+    "rarity": 4,
+    "class_name": "The Unconscious Monster Demon King"
+  },
+  {
+    "id": 3655,
+    "m_character_id": 365,
+    "rarity": 5,
+    "class_name": "The monster demon king of revenge"
+  },
+  {
+    "id": 3656,
+    "m_character_id": 365,
+    "rarity": 6,
+    "class_name": "Uncontrollable Modified Demon King"
+  },
+  {
+    "id": 3661,
+    "m_character_id": 366,
+    "rarity": 1,
+    "class_name": "Zombie Princess"
+  },
+  {
+    "id": 3662,
+    "m_character_id": 366,
+    "rarity": 2,
+    "class_name": "Zombie Princess"
+  },
+  {
+    "id": 3663,
+    "m_character_id": 366,
+    "rarity": 3,
+    "class_name": "Zombie Princess"
+  },
+  {
+    "id": 3664,
+    "m_character_id": 366,
+    "rarity": 4,
+    "class_name": "Zombie Princess"
+  },
+  {
+    "id": 3665,
+    "m_character_id": 366,
+    "rarity": 5,
+    "class_name": "Organised by a flashy Halloween"
+  },
+  {
+    "id": 3666,
+    "m_character_id": 366,
+    "rarity": 6,
+    "class_name": "Horror Night Princess Demon King"
+  },
+  {
+    "id": 3681,
+    "m_character_id": 368,
+    "rarity": 1,
+    "class_name": "Beginner cosplayer"
+  },
+  {
+    "id": 3682,
+    "m_character_id": 368,
+    "rarity": 2,
+    "class_name": "Beginner cosplayer"
+  },
+  {
+    "id": 3683,
+    "m_character_id": 368,
+    "rarity": 3,
+    "class_name": "Beginner cosplayer"
+  },
+  {
+    "id": 3684,
+    "m_character_id": 368,
+    "rarity": 4,
+    "class_name": "Beginner cosplayer"
+  },
+  {
+    "id": 3685,
+    "m_character_id": 368,
+    "rarity": 5,
+    "class_name": "Garden Halloweenist"
+  },
+  {
+    "id": 3686,
+    "m_character_id": 368,
+    "rarity": 6,
+    "class_name": "Halloween Slayer"
   }
 ]

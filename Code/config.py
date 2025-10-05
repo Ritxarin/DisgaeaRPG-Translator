@@ -140,12 +140,12 @@ class Config:
     FIELDS_TO_CHECK_FOR_UPDATES = [ 'description', 'description_effect' ]
 
 class Paths:
-    
-    CONFIG_PATH = Path("config.json")
-    DICTIONARIES_DIR = "./Dictionaries"
+    PROJECT_ROOT = Path(__file__).resolve().parent.parent
+    CONFIG_PATH = PROJECT_ROOT / "config.json"
+    DICTIONARIES_DIR = PROJECT_ROOT / "Dictionaries"
     SOURCE_DIR = "./Source"
-    GLOBAL_ASSETS_DIR = "./Global_Assets"
-    SOURCE_TRANSLATED_DIR = "./Source_Translated"
+    GLOBAL_ASSETS_DIR = PROJECT_ROOT / "Global_Assets"
+    SOURCE_TRANSLATED_DIR = PROJECT_ROOT / "Source_Translated"
     NEW_ENTRIES_DIR = "./New_Entries"
     TRANSLATED_FILES_DIR = "./Translated_Files"
     TRANSLATED_PREFABS_DIR = "./Translated_Prefabs"

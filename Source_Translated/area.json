@@ -32459,5 +32459,82 @@
     "m_preview_id": 0,
     "area_special_type": 0,
     "sort": 1
+  },
+  {
+    "id": 1854101,
+    "m_episode_id": 18541,
+    "name": "Special Battle",
+    "heading": "",
+    "description": "None",
+    "bg_id": 0,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1856101,
+    "m_episode_id": 18561,
+    "name": "Halloweenists",
+    "heading": "",
+    "description": "The world of Shizuya-dads is excited by the flashy Halloween.\nHowever, in that shadow there is a \"ninja\" --",
+    "bg_id": 10085,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1856102,
+    "m_episode_id": 18561,
+    "name": "Trick or Delete",
+    "heading": "",
+    "description": "Namsan! The explosion of the kingdom of Zetsusatsusai.\nSerafine appears when Pyrillica appears.",
+    "bg_id": 10085,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 2
+  },
+  {
+    "id": 1856103,
+    "m_episode_id": 18561,
+    "name": "The turbulent second match",
+    "heading": "",
+    "description": "The winner of the first match of \"Trick or Delete\"\n\"My Favorite Halloween\" is the next Ixa...",
+    "bg_id": 10085,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 3
+  },
+  {
+    "id": 1856104,
+    "m_episode_id": 18561,
+    "name": "The final battle of fierce battle",
+    "heading": "",
+    "description": "Ingaoho! I actually lost the match\nRaspberyl XENO. Ixa is heading into the final battle...",
+    "bg_id": 10085,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 4
+  },
+  {
+    "id": 1856105,
+    "m_episode_id": 18561,
+    "name": "My thoughts about Halloween",
+    "heading": "",
+    "description": "The Halloween Slayer scandal was settled.\nKaikan Ninja Kagemaru, write about the hike of regret!",
+    "bg_id": 10085,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 5
+  },
+  {
+    "id": 1856201,
+    "m_episode_id": 18562,
+    "name": "EXTRA Area",
+    "heading": "",
+    "description": "Using the BOSS key,\nTry the amazing tuna and tuna!",
+    "bg_id": 10085,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
   }
 ]

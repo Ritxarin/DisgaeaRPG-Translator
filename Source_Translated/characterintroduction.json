@@ -3855,5 +3855,96 @@
     "name": "Death Death",
     "description": "The theme is \"Life, Shine\",\nThe evil god who controls life.\nTaking advantage of others' desires and weaknesses\nBy possessing her, she plays with her life.\nI was depressed\nTake over Desco's body,\nHe is trying to make the life around him shine.",
     "color_no": 1
+  },
+  {
+    "id": 1482,
+    "img_id": 366,
+    "name": "Nurse Cerafine",
+    "description": "Exposure! Sexy! Zombie nurse!\n\"Fantastic Halloween\" in cosplay\nEnjoy Halloweenist.\nThis year's \"Neo Shibuya Flashy Halloween\"\nHe is also the organizer.\nFor some reason, it's strangely \"fluffy\"\nHe seems to be particular about it...?",
+    "color_no": 11
+  },
+  {
+    "id": 1483,
+    "img_id": 250,
+    "name": "Witch Etna",
+    "description": "Etna dressed up for Halloween.\nA sexy outfit made by Piririka\nI really like it.\nIncidentally, the cost of the costume is\nApparently it's Freon special effects goods...\nLikes \"Fantastic Halloween\"\nHalloweenist.",
+    "color_no": 1
+  },
+  {
+    "id": 1484,
+    "img_id": 251,
+    "name": "Little Devil Beryl XENO",
+    "description": "I dressed up in a Halloween costume\nRaspberyl XENO.\nSexy little devil style\nIt captivates your gaze, both men and women.\nLikes \"Fantastic Halloween\"\nHalloweenist.",
+    "color_no": 7
+  },
+  {
+    "id": 1485,
+    "img_id": 72,
+    "name": "Marine",
+    "description": "Usually she is a maid who runs a beach house.\nLikes \"Fantastic Halloween\"\nHalloweenist.\nEven wearing a swimsuit\nI'm trying to make money on Halloween.",
+    "color_no": 6
+  },
+  {
+    "id": 1486,
+    "img_id": 368,
+    "name": "Ninja Piririka",
+    "description": "I love Halloween purely,\n\"My Favorite Halloween\"\nHalloweenist.\nHe has himself as a Halloween slayer\nHe called himself and ran through the city of Halloween.",
+    "color_no": 3
+  },
+  {
+    "id": 1487,
+    "img_id": 369,
+    "name": "Cat Cat Ao",
+    "description": "Cat saber lovers are squealing\nAo has become a cat sabre.\nEnjoy the extraordinary life with your favorite character,\nA Halloweenist from \"My Favorite Halloween.\"\nThe softness of the paw part is\nIt looks like a real cat saber.",
+    "color_no": 2
+  },
+  {
+    "id": 1488,
+    "img_id": 91,
+    "name": "Halloween Majorita",
+    "description": "Enjoy Halloween purely\nIdeal for Piririka\nOne of the Halloweenists.\nDue to Halloween\nMaybe because the tension is rising\nHe's gentler, more tolerant and noisier than usual.\nEven though I'm not asked to\n\"Trick or Delete\"\nHe has come to be the commentator.",
+    "color_no": 6
+  },
+  {
+    "id": 1489,
+    "img_id": 90083,
+    "name": "Witch Lieselotta",
+    "description": "Enjoying the outfit you don't usually do,\nIdeal for Piririka\nA Halloweenist from \"My Favorite Halloween.\"\nI'm good at making sweets,\nTowards Halloween\nI've made a lot of sweets.",
+    "color_no": 3
+  },
+  {
+    "id": 1490,
+    "img_id": 92,
+    "name": "Halloween Altina",
+    "description": "An angel comes to work for Halloween.\n\"Trick or Delete\"\nHe will serve as the host.\nIncidentally, all of the costumes and props are\nSomething Altina made herself.",
+    "color_no": 12
+  },
+  {
+    "id": 1491,
+    "img_id": 249,
+    "name": "Kyonshi Hanako",
+    "description": "With Taro\nEnjoy Halloween purely.\nIdeal for Piririka\nOne of the Halloweenists.",
+    "color_no": 9
+  },
+  {
+    "id": 1492,
+    "img_id": 93,
+    "name": "Halloween Lahar",
+    "description": "After undergoing Jennifer's modification surgery,\nLahar has become a monster style.\nHalloween with Sicily and the others\nHe had come, but also Ukatsu\nNinja Ambush\nI've taken it...!",
+    "color_no": 7
+  },
+  {
+    "id": 1493,
+    "img_id": 147,
+    "name": "Shadow Pill",
+    "description": "Affected Halloweenist\nThe true identity of a mysterious ninja,\nI came from a different world\nAnother Yukimaru.\nEvery time something happens, it is called \"easy\"\nHe aims to head him in the name.",
+    "color_no": 12
+  },
+  {
+    "id": 1494,
+    "img_id": 365,
+    "name": "Halloween Lahar Improvement",
+    "description": "Once, Kagemaru was in charge\nHalloween Lahar\nPiririca and Serafine\nHe was revived with his wealth.\nAlthough it was modified quite a bit,\nPerformance is pretty good\nIt has been upgraded.",
+    "color_no": 7
   }
 ]

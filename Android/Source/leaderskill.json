@@ -47116,8 +47116,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 15,
-        "effect_value_max": 15,
+        "effect_value_min": 20,
+        "effect_value_max": 20,
         "effect_turn": [
             0
         ],
@@ -47231,8 +47231,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 40,
-        "effect_value_max": 40,
+        "effect_value_min": 50,
+        "effect_value_max": 50,
         "effect_turn": [
             1,
             1
@@ -47318,7 +47318,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "、さらに体力が75%以上の場合、パーティのSP+#PER#"
+        "description": "、さらに自身のHPが75%以上の場合、パーティのSP+#PER#"
     },
     {
         "id": 2287,
@@ -47396,7 +47396,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "、さらに体力が75%以上の場合、パーティのCRT・CRD+#PER#%(1T)"
+        "description": "、さらに自身のHPが75%以上の場合、パーティのCRT・CRD+#PER#%(1T)"
     },
     {
         "id": 2291,
@@ -80411,7 +80411,6 @@
         ],
         "effect_type": 1,
         "effect_type_params": [
-            1,
             2,
             8
         ],
@@ -80423,8 +80422,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -80433,7 +80432,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティのHP・ATK・CRD+#PER#%"
+        "description": "パーティのATK・CRD+#PER#%"
     },
     {
         "id": 3442,
@@ -80552,6 +80551,44 @@
         ],
         "bad_effect_value": 0,
         "description": "ターン開始時、CRTバフ効果を受けている場合、自分のATK・CRD+#PER#%(2T)"
+    },
+    {
+        "id": 3445,
+        "name": "兎兎魔王のオーラ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",HP+#PER#%"
     },
     {
         "id": 3446,
@@ -86613,6 +86650,931 @@
         ],
         "bad_effect_value": 0,
         "description": "、さらにパーティの生存キャラ数が多いほど自分が与える全てのダメージアップ(最大+#PER#%,5キャラまで)"
+    },
+    {
+        "id": 3651,
+        "name": "改善されたハロウィン魔王",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            2
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのATK+#PER#%"
+    },
+    {
+        "id": 3652,
+        "name": "オブシダンハンド",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 40,
+        "effect_value_max": 40,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が拳武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3653,
+        "name": "リベンジテラー改",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 6,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "攻撃を受けた時、自分のATK・CRD+#PER#%(2T)"
+    },
+    {
+        "id": 3654,
+        "name": "アンブッシュカウンター",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 90,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 1,
+        "effect_value_max": 1,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "戦闘開始時、自分に無敵(#PER#回)付与"
+    },
+    {
+        "id": 3655,
+        "name": "改善されたハロウィン魔王",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            3
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",HP・DEF+#PER#%"
+    },
+    {
+        "id": 3656,
+        "name": "オブシダンハンド",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3657,
+        "name": "リベンジテラー改",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 6,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらに与える全てのダメージ+#PER#%(2T)付与"
+    },
+    {
+        "id": 3658,
+        "name": "アンブッシュカウンター",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 8,
+        "target_params": [
+            0
+        ],
+        "effect_type": 50,
+        "effect_type_params": [
+            14
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティの自分以外のキャラに全体攻撃で受けるダメージ-#PER#%(2T)付与"
+    },
+    {
+        "id": 3661,
+        "name": "戦慄のゾンビナース",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            2
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 18,
+        "effect_value_max": 18,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのHP・ATK+#PER#%"
+    },
+    {
+        "id": 3662,
+        "name": "恐怖のガンシューティング",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 5,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が銃武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3663,
+        "name": "極限のスリラーナイト",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 28,
+        "target_params": [
+            2
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、最もATKが高い味方キャラのCRD+#PER#%(2T)"
+    },
+    {
+        "id": 3664,
+        "name": "絶叫の魔眼",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 3,
+        "trigger_target": 5,
+        "trigger_status": 29,
+        "trigger_param": 2,
+        "trigger_param2": 1,
+        "target_type": 11,
+        "target_params": [
+            0
+        ],
+        "effect_type": 18,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 150,
+        "effect_value_max": 150,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン終了時、マヒ状態の敵がいる場合、敵全体の行動ゲージ-#PER#"
+    },
+    {
+        "id": 3665,
+        "name": "戦慄のゾンビナース",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 5,
+        "effect_value_max": 5,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRT+#PER#%"
+    },
+    {
+        "id": 3666,
+        "name": "恐怖のガンシューティング",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 5,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3667,
+        "name": "極限のスリラーナイト",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 3,
+        "trigger_status": 9,
+        "trigger_param": 3,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            3
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにDEFデバフ状態の敵がいる場合、パーティのATK・DEF+#PER#%(2T)"
+    },
+    {
+        "id": 3668,
+        "name": "絶叫の魔眼",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 3,
+        "trigger_target": 5,
+        "trigger_status": 29,
+        "trigger_param": 2,
+        "trigger_param2": 1,
+        "target_type": 11,
+        "target_params": [
+            0
+        ],
+        "effect_type": 24,
+        "effect_type_params": [
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",ATK・INT-#PER#%(2T)"
+    },
+    {
+        "id": 3681,
+        "name": "パリデを殲滅する者",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            2,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 18,
+        "effect_value_max": 18,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのATK・CRD+#PER#%"
+    },
+    {
+        "id": 3682,
+        "name": "回転クナイ・スタイル",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 1,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が剣武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3683,
+        "name": "林・檎・糖・謝！",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 28,
+        "target_params": [
+            8
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、最もCRDが高い味方キャラのATK・CRD+#PER#%(2T)"
+    },
+    {
+        "id": 3684,
+        "name": "怪・人・列・善・哉！",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 1,
+        "trigger_status": 35,
+        "trigger_param": 5,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、ATK・INTバフ効果を受けている場合、パーティに与える全てのダメージ+#PER#%(2T)付与"
+    },
+    {
+        "id": 3685,
+        "name": "パリデを殲滅する者",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            6
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 5,
+        "effect_value_max": 5,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",SPD+#PER#%"
+    },
+    {
+        "id": 3686,
+        "name": "回転クナイ・スタイル",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 1,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3687,
+        "name": "林・檎・糖・謝！",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 28,
+        "target_params": [
+            8
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 5,
+        "effect_value_max": 5,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRT+#PER#%(2T)"
+    },
+    {
+        "id": 3688,
+        "name": "怪・人・列・善・哉！",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 1,
+        "trigger_status": 35,
+        "trigger_param": 37,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 40,
+        "effect_value_max": 40,
+        "effect_turn": [
+            1,
+            1
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにATK・INT・CRTバフ効果を受けている場合、自分のATK・INT+#PER#%(1T)"
     },
     {
         "id": 10011,
@@ -117368,8 +118330,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 10,
-        "effect_value_max": 10,
+        "effect_value_min": 15,
+        "effect_value_max": 15,
         "effect_turn": [
             0
         ],
@@ -147245,6 +148207,120 @@
         ],
         "bad_effect_value": 0,
         "description": "ターン開始時、特殊効果解除を必ず発動"
+    },
+    {
+        "id": 20000087,
+        "name": "ターン開始時に敵全体に束縛を5ターン付与",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 5,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 11,
+        "target_params": [
+            0
+        ],
+        "effect_type": 105,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 100,
+        "effect_value_max": 100,
+        "effect_turn": [
+            5
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時に敵全体に束縛を5ターン付与"
+    },
+    {
+        "id": 20000088,
+        "name": "ターン開始時に自身に威圧を付与",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 5,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 102,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 0,
+        "effect_value_max": 0,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時に自身に威圧を付与"
+    },
+    {
+        "id": 20000089,
+        "name": "戦闘不能時に味方全員に無敵を99ターン付与",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 7,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 90,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 99,
+        "effect_value_max": 99,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "戦闘不能時に味方全員に無敵を99ターン付与"
     },
     {
         "id": 999000001,
