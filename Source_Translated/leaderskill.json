@@ -13387,7 +13387,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with wind elemental attacks +#PER#%"
+    "description": "Self: Wind Damage dealt +#PER#%"
   },
   {
     "id": 1103,
@@ -20433,7 +20433,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with wind elemental attacks when you equip yourself with fist weapon +#PER#%"
+    "description": "Self: Wind Damage dealt when you equip yourself with fist weapon +#PER#%"
   },
   {
     "id": 1633,
@@ -23449,7 +23449,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with wind elemental attacks when equipped with sword weapons +#PER#%"
+    "description": "Self: Wind Damage dealt when equipped with sword weapons +#PER#%"
   },
   {
     "id": 1824,
@@ -24099,7 +24099,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with attribute attacks when you equip a cane weapon +#PER#%"
+    "description": "Staff-Equipped Self: Elemental Damage +#PER#%"
   },
   {
     "id": 1863,
@@ -24125,7 +24125,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "ATK, INT, and CRD buffs used by parties +20%"
+    "description": "All Allies: ATK/INT/CRD buff effect +20%"
   },
   {
     "id": 1864,
@@ -24151,7 +24151,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/INT+#PER#%(1 turn) is the ally character with the lowest SPD."
+    "description": "Ally with the Lowest SPD: At end of user's turn, ATK/INT+#PER#%(1 turn)"
   },
   {
     "id": 1865,
@@ -24203,7 +24203,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies Elemental Damage +#PER#%"
+    "description": ", All Allies: Elemental Damage +#PER#%"
   },
   {
     "id": 1867,
@@ -26023,7 +26023,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with attribute attacks when you equip a cane weapon +#PER#%"
+    "description": "Staff-Equipped Self: Elemental Damage +#PER#%"
   },
   {
     "id": 1973,
@@ -27947,7 +27947,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with wind elemental attacks when equipped with bow weapons +#PER#%"
+    "description": "Self: Wind Damage dealt when equipped with bow weapons +#PER#%"
   },
   {
     "id": 2073,
@@ -28831,7 +28831,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with wind elemental attacks when equipped with spear weapons +#PER#%"
+    "description": "Self: Wind Damage dealt when equipped with spear weapons +#PER#%"
   },
   {
     "id": 2133,
@@ -62917,7 +62917,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "INT+#PER#% for party monster magic weapon equipped characters"
+    "description": "Magic Monster Weapon-Wielding Allies: INT+#PER#%"
   },
   {
     "id": 200182,
@@ -62943,7 +62943,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character's SP+#PER# with magic weapon equipped"
+    "description": "Magic Monster Weapon-Wielding Allies: SP+#PER# when a turn begins"
   },
   {
     "id": 200183,
@@ -62995,7 +62995,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with wind elemental attacks +#PER#%"
+    "description": "Self: Wind Damage dealt +#PER#%"
   },
   {
     "id": 200191,
@@ -66453,7 +66453,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage deals with wind elemental attacks when you equip yourself with a monster magic weapon +#PER#%"
+    "description": "Self: Wind Damage dealt when you equip yourself with a monster magic weapon +#PER#%"
   },
   {
     "id": 200463,
@@ -98697,7 +98697,7 @@
   },
   {
     "id": 201081,
-    "name": "Conqueror of the Candy Expo",
+    "name": "Conqueror of the Manji Festival",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -98723,7 +98723,7 @@
   },
   {
     "id": 201082,
-    "name": "Rabbit octopus throne pulsating",
+    "name": "Pulsating Usatako Throne",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -98749,7 +98749,7 @@
   },
   {
     "id": 201083,
-    "name": "Life of the primordial and end",
+    "name": "The Beginning and End of Life",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -98775,7 +98775,7 @@
   },
   {
     "id": 201084,
-    "name": "A glow that smears the impurity",
+    "name": "Radiance that washes away Impurities",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -98801,7 +98801,7 @@
   },
   {
     "id": 201085,
-    "name": "Conqueror of the Candy Expo",
+    "name": "Conqueror of the Manji Festival",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -98827,7 +98827,7 @@
   },
   {
     "id": 201086,
-    "name": "Rabbit octopus throne pulsating",
+    "name": "Pulsating Usatako Throne",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -98853,7 +98853,7 @@
   },
   {
     "id": 201087,
-    "name": "Life of the primordial and end",
+    "name": "The Beginning and End of Life",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -98879,7 +98879,7 @@
   },
   {
     "id": 201088,
-    "name": "A glow that smears the impurity",
+    "name": "Radiance that washes away Impurities",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,

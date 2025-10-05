@@ -267,6 +267,7 @@
   "、さらに自身のHPが75%以上の場合、自分に与える全てのダメージ+#PER#%(1T)付与": ", Self: if HP is 75%+, Damage +#PER#%(1T)",
   "ターン開始時、パーティのCRDバフ効果を受けているキャラのATK・INT・CRD+#PER#%(2T)": "CRD-Buffed Allies: At start of turn, ATK/INT/CRD +#PER#% (2T)",
   "パーティに魔物型キャラが2体以上いる場合、パーティが属性攻撃で与えるダメージ+#PER#%": "All Allies: If 2+ Monster units in party, Elemental Damage dealt +#PER#%",
-  "、さらに魔物型キャラが5体以上いる場合、パーティが属性攻撃で与えるダメージ+#PER#%" : ", if 5+ Monster units in party, Elemental Damage dealt +#PER#%",
-  "ターン終了時、体力が75%以上の場合、パーティの行動ゲージ+#PER#" : "All Allies: At end of turn, if this unit's HP is 75%+, Action Gauge +#PER#"
+  "、さらに魔物型キャラが5体以上いる場合、パーティが属性攻撃で与えるダメージ+#PER#%": ", if 5+ Monster units in party, Elemental Damage dealt +#PER#%",
+  "ターン終了時、体力が75%以上の場合、パーティの行動ゲージ+#PER#": "All Allies: At end of turn, if this unit's HP is 75%+, Action Gauge +#PER#",
+  "自分が杖武器装備時、属性攻撃で与えるダメージ+#PER#%": "Staff-Equipped Self: Elemental Damage +#PER#%"
 }
