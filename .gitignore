@@ -1,12 +1,8 @@
-Masters_Backup/
 Code/__pycache__/
 config.json
-Source - Copy/
 Source_Translated - Copy/
-Source_Translated_new
 Updated_Files - Copy/
 Masters_Backup - Copy/
-Masters_Backup - Copy (2)
 New_Entries/
 Assets_Backup/
 Patched_Textures/
@@ -17,4 +13,7 @@ test.py
 Android/master
 Android/Game_Assets
 Android/Translated_Prefabs
+Android/Masters_Backup
+Android/Source_Copy
 Global_Assets
+Mobile_Masters

@@ -8,7 +8,7 @@ import subprocess
 import sys
 import tempfile
 
-from Code.config import Config, Paths
+from Code.config import Config, Device, Paths
 
 class Helper:
     def __init__(self):
@@ -144,7 +144,8 @@ class Helper:
             return False
         
     def push_patched_textures_to_android():
-        patched_root = Path(Paths.PATCHED_TEXTURES_Android)
+        #patched_root = Path(Paths.PATCHED_TEXTURES_Android)
+        patched_root = Config.PROJECT_ROOT / Device.Android / Paths.PATCHED_TEXTURES
         android_root = "/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle"
 
         print(f"\n    🚀 Pushing patched textures to Android...")

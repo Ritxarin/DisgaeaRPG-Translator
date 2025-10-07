@@ -17,6 +17,7 @@ class Config:
     TEXTURE_UPDATED_DATE = "texture_last_updated_date"
     CONFIG_PATH = 'config.json'
     DEVICE = ''
+    PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
     @classmethod
     def set_device(cls, device:Device):
@@ -140,21 +141,20 @@ class Config:
     FIELDS_TO_CHECK_FOR_UPDATES = [ 'description', 'description_effect' ]
 
 class Paths:
-    PROJECT_ROOT = Path(__file__).resolve().parent.parent
-    CONFIG_PATH = PROJECT_ROOT / "config.json"
-    DICTIONARIES_DIR = PROJECT_ROOT / "Dictionaries"
-    SOURCE_DIR = "./Source"
-    GLOBAL_ASSETS_DIR = PROJECT_ROOT / "Global_Assets"
-    SOURCE_TRANSLATED_DIR = PROJECT_ROOT / "Source_Translated"
-    NEW_ENTRIES_DIR = "./New_Entries"
-    TRANSLATED_FILES_DIR = "./Translated_Files"
-    TRANSLATED_PREFABS_DIR = "./Translated_Prefabs"
-    SOURCE_PREFABS_DIR = "./Source_Prefabs"
-    UPDATED_FILES_DIR = "./Updated_Files"
-    MASTERS_BACKUP = "./Masters_Backup"
-    ASSETS_BACKUP = "./Assets_Backup"
+    CONFIG_PATH = Config.PROJECT_ROOT / "config.json"
+    DICTIONARIES_DIR = Config.PROJECT_ROOT / "Dictionaries"
+    GLOBAL_ASSETS_DIR = Config.PROJECT_ROOT / "Global_Assets"
+    SOURCE_TRANSLATED_DIR = Config.PROJECT_ROOT / "Source_Translated"
+    SOURCE_DIR = "Source"
+    NEW_ENTRIES_DIR = "New_Entries"
+    TRANSLATED_FILES_DIR = "Translated_Files"
+    TRANSLATED_PREFABS_DIR = "Translated_Prefabs"
+    SOURCE_PREFABS_DIR = "Source_Prefabs"
+    UPDATED_FILES_DIR = "Updated_Files"
+    MASTERS_BACKUP = "Masters_Backup"
+    ASSETS_BACKUP = "Assets_Backup"
     PATCHED_TEXTURES = "Patched_Textures"
-    PATCHED_TEXTURES_Android = "./Android/Patched_Textures"
+    PATCHED_TEXTURES_Android = Config.PROJECT_ROOT / "Android/Patched_Textures"
     GAME_ASSETS = os.path.join(
         os.getenv("LOCALAPPDATA").replace("Local", "LocalLow"),
         "disgaearpg",
@@ -179,5 +179,5 @@ class Paths:
 
     GAME_MASTERS_Android = '/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle/masters'
     GAME_ASSETS_Android = '/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle/'
-    GAME_MASTERS_Android_Local = './Android/master'
-    GAME_ASSETS_Android_Local = './Android/Game_Assets'
+    GAME_MASTERS_Android_Local = Config.PROJECT_ROOT / 'Android/master'
+    GAME_ASSETS_Android_Local = Config.PROJECT_ROOT / 'Android/Game_Assets'

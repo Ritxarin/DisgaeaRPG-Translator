@@ -21,37 +21,37 @@ class UnityHelper:
 
         self.__load_env(self.device)
         #Ensure required folders exist
-        self.backup_path = Path(self.device) / Path(Paths.MASTERS_BACKUP)        
+
+        self.backup_path = Config.PROJECT_ROOT / self.device / Paths.MASTERS_BACKUP       
         self.backup_path.mkdir(parents=True, exist_ok=True)
 
-        self.assets_backup_path = Path(self.device) / Path(Paths.ASSETS_BACKUP) 
+        self.assets_backup_path = Config.PROJECT_ROOT / self.device / Paths.ASSETS_BACKUP
         self.assets_backup_path.mkdir(parents=True, exist_ok=True)
 
-        self.patched_textures = Path(self.device) / Path(Paths.PATCHED_TEXTURES)        
+        self.patched_textures =  Config.PROJECT_ROOT / self.device / Paths.PATCHED_TEXTURES        
         self.patched_textures.mkdir(parents=True, exist_ok=True)        
 
-        self.global_assets_path = Path(Paths.GLOBAL_ASSETS_DIR)        
+        self.global_assets_path = Config.PROJECT_ROOT / Paths.GLOBAL_ASSETS_DIR    
         self.global_assets_path.mkdir(parents=True, exist_ok=True)
 
-        self.translation_source_path = Path(Paths.SOURCE_TRANSLATED_DIR)        
+        self.translation_source_path = Config.PROJECT_ROOT / Paths.SOURCE_TRANSLATED_DIR     
         self.translation_source_path.mkdir(parents=True, exist_ok=True)
 
-        self.source_path = Path(self.device) / Path(Paths.SOURCE_DIR)        
+        self.source_path = Config.PROJECT_ROOT / self.device / Paths.SOURCE_DIR     
         self.source_path.mkdir(parents=True, exist_ok=True)
 
-        self.updated_files_path = Path(self.device) / Path(Paths.UPDATED_FILES_DIR)        
+        self.updated_files_path = Config.PROJECT_ROOT / self.device / Paths.UPDATED_FILES_DIR          
         self.updated_files_path.mkdir(parents=True, exist_ok=True)
         
-        self.translated_files_path = Path(self.device) / Path(Paths.TRANSLATED_FILES_DIR)        
+        self.translated_files_path = Config.PROJECT_ROOT / self.device / Paths.TRANSLATED_FILES_DIR      
         self.translated_files_path.mkdir(parents=True, exist_ok=True)
 
-        self.source_prefab_path = Path(self.device) / Path(Paths.SOURCE_PREFABS_DIR)        
-        self.source_prefab_path.mkdir(parents=True, exist_ok=True)
-
-        self.translated_prefab_path = Path(self.device) / Path(Paths.TRANSLATED_PREFABS_DIR)        
-        self.translated_prefab_path.mkdir(parents=True, exist_ok=True)
-
-        self.new_entries_path = Path(self.device) / Path(Paths.NEW_ENTRIES_DIR)        
+        # self.source_prefab_path = Config.PROJECT_ROOT / self.device / Paths.SOURCE_PREFABS_DIR        
+        # self.source_prefab_path.mkdir(parents=True, exist_ok=True)
+        # self.translated_prefab_path = Config.PROJECT_ROOT / self.device / Paths.TRANSLATED_PREFABS_DIR     
+        # self.translated_prefab_path.mkdir(parents=True, exist_ok=True)
+ 
+        self.new_entries_path = Config.PROJECT_ROOT / self.device / Paths.NEW_ENTRIES_DIR 
         self.new_entries_path.mkdir(parents=True, exist_ok=True)
 
         self.translator = Translator()
@@ -425,13 +425,13 @@ class UnityHelper:
             self.masters_path = Path(Paths.GAME_MASTERS_DMM)
             self.env = UnityPy.load(Paths.GAME_MASTERS_DMM)
             self.game_assets_path = Path(Paths.GAME_ASSETS_DMM) 
-            self.patched_textures_path = Path(Paths.PATCHED_TEXTURES)
         elif device == 'Android':
             Helper.pull_masters_from_mobile()
-            self.masters_path = Path(Paths.GAME_MASTERS_Android_Local) 
-            self.env = UnityPy.load(Paths.GAME_MASTERS_Android_Local)
+            self.masters_path = Paths.GAME_MASTERS_Android_Local
+            self.env = UnityPy.load(str(Paths.GAME_MASTERS_Android_Local))
             self.game_assets_path = Path(Paths.GAME_ASSETS_Android_Local) 
-            self.patched_textures_path = Path(Paths.PATCHED_TEXTURES_Android)
+            
+        self.patched_textures_path = Config.PROJECT_ROOT / self.device / Paths.PATCHED_TEXTURES
                    
         # Check if the folder exists and is not empty
         if not self.masters_path.is_dir():

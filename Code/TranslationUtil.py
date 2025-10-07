@@ -23,15 +23,15 @@ class Translator_Util:
         elif self.device == 'Android':
             self.masters_path = Path(Paths.GAME_MASTERS_Android_Local)    
             self.game_assets_path = Path(Paths.GAME_ASSETS_Android_Local)   
-        self.source_path = Path(self.device) / Path(Paths.SOURCE_DIR)        
+        self.source_path = Config.PROJECT_ROOT / self.device / Paths.SOURCE_DIR     
         self.source_path.mkdir(parents=True, exist_ok=True)
-        self.updated_files_path = Path(self.device) / Path(Paths.UPDATED_FILES_DIR)        
+        self.updated_files_path = Config.PROJECT_ROOT / self.device / Paths.UPDATED_FILES_DIR        
         self.updated_files_path.mkdir(parents=True, exist_ok=True)
-        self.new_entries_path = Path(self.device) / Path(Paths.NEW_ENTRIES_DIR)        
+        self.new_entries_path =  Config.PROJECT_ROOT / self.device / Paths.NEW_ENTRIES_DIR      
         self.new_entries_path.mkdir(parents=True, exist_ok=True)
-        self.translated_files_path = Path(self.device) / Path(Paths.TRANSLATED_FILES_DIR)        
+        self.translated_files_path =  Config.PROJECT_ROOT / self.device / Paths.TRANSLATED_FILES_DIR       
         self.translated_files_path.mkdir(parents=True, exist_ok=True)
-        self.masters_backup_path = Path(self.device) / Path(Paths.MASTERS_BACKUP)        
+        self.masters_backup_path = Config.PROJECT_ROOT / self.device / Paths.MASTERS_BACKUP       
         self.masters_backup_path.mkdir(parents=True, exist_ok=True)
 
     def __translate_file(self, filename:str, path:str):
