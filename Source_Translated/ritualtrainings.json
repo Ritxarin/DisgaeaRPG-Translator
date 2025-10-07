@@ -74041,7 +74041,7 @@
   },
   {
     "id": 36501,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 1,
     "training_type": 2,
@@ -74053,19 +74053,19 @@
   },
   {
     "id": 36502,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 2,
     "training_type": 1,
     "m_ritual_training_stage_id": 0,
-    "ability_description": "Prison Finger Kai [Power Increased]",
+    "ability_description": "Hellfire Finger Kai [Power Increased]",
     "ability_type": 1,
     "ability_id": 3003651,
     "buff_value": 4003651
   },
   {
     "id": 36503,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 3,
     "training_type": 2,
@@ -74077,7 +74077,7 @@
   },
   {
     "id": 36504,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 4,
     "training_type": 1,
@@ -74089,7 +74089,7 @@
   },
   {
     "id": 36505,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 5,
     "training_type": 2,
@@ -74101,7 +74101,7 @@
   },
   {
     "id": 36506,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 6,
     "training_type": 1,
@@ -74113,7 +74113,7 @@
   },
   {
     "id": 36507,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 7,
     "training_type": 2,
@@ -74125,7 +74125,7 @@
   },
   {
     "id": 36508,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 8,
     "training_type": 1,
@@ -74137,7 +74137,7 @@
   },
   {
     "id": 36509,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 9,
     "training_type": 1,
@@ -74149,7 +74149,7 @@
   },
   {
     "id": 36510,
-    "name": "Halloween Lahar Improvement",
+    "name": "Halloween Laharl Kai",
     "m_character_id": 365,
     "training_status": 10,
     "training_type": 2,
@@ -74161,7 +74161,7 @@
   },
   {
     "id": 36601,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 1,
     "training_type": 2,
@@ -74173,7 +74173,7 @@
   },
   {
     "id": 36602,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 2,
     "training_type": 1,
@@ -74185,7 +74185,7 @@
   },
   {
     "id": 36603,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 3,
     "training_type": 2,
@@ -74197,19 +74197,19 @@
   },
   {
     "id": 36604,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 4,
     "training_type": 1,
     "m_ritual_training_stage_id": 0,
-    "ability_description": "Victim Shot [SP-4]",
+    "ability_description": "Victim Shoot [SP-4]",
     "ability_type": 1,
     "ability_id": 3003662,
     "buff_value": 4003662
   },
   {
     "id": 36605,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 5,
     "training_type": 2,
@@ -74221,7 +74221,7 @@
   },
   {
     "id": 36606,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 6,
     "training_type": 1,
@@ -74233,7 +74233,7 @@
   },
   {
     "id": 36607,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 7,
     "training_type": 2,
@@ -74245,7 +74245,7 @@
   },
   {
     "id": 36608,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 8,
     "training_type": 1,
@@ -74257,7 +74257,7 @@
   },
   {
     "id": 36609,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 9,
     "training_type": 1,
@@ -74269,7 +74269,7 @@
   },
   {
     "id": 36610,
-    "name": "Nurse Cerafine",
+    "name": "Nurse Seraphina",
     "m_character_id": 366,
     "training_status": 10,
     "training_type": 2,
@@ -74298,7 +74298,7 @@
     "training_status": 2,
     "training_type": 1,
     "m_ritual_training_stage_id": 0,
-    "ability_description": "Ninnyn Compat! [SP-3]",
+    "ability_description": "Ninnin Combat! [SP-3]",
     "ability_type": 1,
     "ability_id": 3003681,
     "buff_value": 4003681
@@ -74322,7 +74322,7 @@
     "training_status": 4,
     "training_type": 1,
     "m_ritual_training_stage_id": 0,
-    "ability_description": "Gokujo detonation card! [Power increase]",
+    "ability_description": "Gokujo Detonation Card [Power increase]",
     "ability_type": 1,
     "ability_id": 3003682,
     "buff_value": 4003682
@@ -74382,7 +74382,7 @@
     "training_status": 9,
     "training_type": 1,
     "m_ritual_training_stage_id": 0,
-    "ability_description": "忍術奥義：瞬身爛漫[威力UP]",
+    "ability_description": "Ninjutsu Secret: Shunshin Ranman[Power Increased]",
     "ability_type": 1,
     "ability_id": 3003683,
     "buff_value": 4003683
