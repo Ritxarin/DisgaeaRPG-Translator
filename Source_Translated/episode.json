@@ -4898,5 +4898,15 @@
     "name": "Halloween Slayer - Neo Death Witness Night Flame - EXTRA",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 18591,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Trial Room, Ephemeral You Varvatose",
+    "open_at": "",
+    "close_at": ""
   }
 ]

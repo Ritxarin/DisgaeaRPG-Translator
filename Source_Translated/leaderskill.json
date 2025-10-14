@@ -26127,7 +26127,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies Elemental Damage +#PER#%"
+    "description": ", All Allies Elemental Damage +#PER#%"
   },
   {
     "id": 1977,
@@ -28181,7 +28181,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies Elemental Damage +#PER#%"
+    "description": ", All Allies Elemental Damage +#PER#%"
   },
   {
     "id": 2088,
@@ -29117,7 +29117,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies Elemental Damage +#PER#%"
+    "description": ", All Allies Elemental Damage +#PER#%"
   },
   {
     "id": 2148,
@@ -44509,7 +44509,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies Elemental Damage +#PER#%"
+    "description": ", All Allies Elemental Damage +#PER#%"
   },
   {
     "id": 2966,
@@ -46043,7 +46043,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies Elemental Damage +#PER#%"
+    "description": ", All Allies Elemental Damage +#PER#%"
   },
   {
     "id": 3047,
@@ -47941,7 +47941,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: HP, ATK, and CRD +#PER#%"
+    "description": "All Allies: ATK/CRD +#PER#%"
   },
   {
     "id": 3142,
@@ -72823,7 +72823,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies Elemental Damage +#PER#%"
+    "description": ", All Allies Elemental Damage +#PER#%"
   },
   {
     "id": 200847,
@@ -73759,7 +73759,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, all damage dealt to the character with the highest CRD in the party +#PER#%(2T)"
+    "description": "Highest-CRD Ally: At the start of the turn, Damage +#PER#%(2T)"
   },
   {
     "id": 200895,
@@ -73811,7 +73811,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies Elemental Damage +#PER#%"
+    "description": ", All Allies Elemental Damage +#PER#%"
   },
   {
     "id": 200897,
@@ -73837,7 +73837,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, the party monster-type characters are given invincible (#PER# times)"
+    "description": ", Monster-type allies are given invincible (#PER# times)"
   },
   {
     "id": 200898,
@@ -73941,7 +73941,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, damage dealt to the ally character with the highest CRD with a special move +#PER#%(2T)"
+    "description": "Highest-CRD Ally: At the end of turn, Skill Damage +#PER#%(2T)"
   },
   {
     "id": 200904,
@@ -74019,7 +74019,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200907,
@@ -74045,7 +74045,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and also SP+#PER# for character equipped with party wands and monster magic weapons"
+    "description": ", Staff/Mon Magic-wielding Allies: SP+#PER#"
   },
   {
     "id": 200911,
@@ -99630,5 +99630,239 @@
     "bad_effect_params": [0],
     "bad_effect_value": 0,
     "description": "When you are unable to fight, all your allies will be given invincible 99 turns."
+  },
+  {
+    "id": 3145,
+    "name": "commander of the banquet",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 3691,
+    "name": "Specially Selected Costumes",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK +#PER#%"
+  },
+  {
+    "id": 3692,
+    "name": "Vicious Cat Punch",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Fist-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 3693,
+    "name": "Noble Cat Servants",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 15,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: When any ally uses a Star Skill, Damage +#PER#% (2T)"
+  },
+  {
+    "id": 3694,
+    "name": "Box Sitting",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 386,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 22,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: If 3+ [Fist/Mon Phys/Mon Magic] allies; at start of turn, SP+#PER#"
+  },
+  {
+    "id": 3695,
+    "name": "Specially Selected Costumes",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", HP/CRD +#PER#%"
+  },
+  {
+    "id": 3696,
+    "name": "Vicious Cat Punch",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3697,
+    "name": "Noble Cat Servants",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 15,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 23,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Self: ATK/CRD+#PER#%(2T)"
+  },
+  {
+    "id": 3698,
+    "name": "Box Sitting",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 386,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Damage +#PER#%(2T)"
   }
 ]

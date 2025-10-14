@@ -12,13 +12,14 @@ from Code.config import Config, Device, Paths
 
 class Helper:
     def __init__(self):
+        self.device = Config.get_device()
         character_file_path = os.path.join(Paths.SOURCE_TRANSLATED_DIR, 'character.json')
         with open(character_file_path, 'r', encoding='utf8') as f:
             self.character_data = json.load(f)
         # Build lookup dict: id -> character data
         self.char_lookup = {char['id']: char for char in self.character_data}
 
-        charactercommand_file_path = os.path.join(Paths.UPDATED_FILES_DIR, 'charactercommand.json')
+        charactercommand_file_path = Config.PROJECT_ROOT / self.device / Paths.UPDATED_FILES_DIR / 'charactercommand.json'
         with open(charactercommand_file_path, 'r', encoding='utf8') as f:
             self.character_command_data = json.load(f)
         # Build lookup dict: m_command_id -> m_character_id

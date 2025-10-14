@@ -71669,7 +71669,6 @@
         ],
         "effect_type": 1,
         "effect_type_params": [
-            1,
             2,
             8
         ],
@@ -71691,7 +71690,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティのHP・ATK・CRD+#PER#%"
+        "description": "パーティのATK・CRD+#PER#%"
     },
     {
         "id": 3142,
@@ -71757,8 +71756,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 60,
-        "effect_value_max": 60,
+        "effect_value_min": 70,
+        "effect_value_max": 70,
         "effect_turn": [
             1
         ],
@@ -71807,6 +71806,44 @@
         ],
         "bad_effect_value": 0,
         "description": "パーティに潜在タイプ[キング]のキャラが2体以上いる場合、パーティのATK・CRD+#PER#%"
+    },
+    {
+        "id": 3145,
+        "name": "祝宴の指揮官",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",HP+#PER#%"
     },
     {
         "id": 3146,
@@ -72643,8 +72680,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 30,
-        "effect_value_max": 30,
+        "effect_value_min": 40,
+        "effect_value_max": 40,
         "effect_turn": [
             0
         ],
@@ -72681,8 +72718,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             0
         ],
@@ -81627,8 +81664,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 30,
-        "effect_value_max": 30,
+        "effect_value_min": 35,
+        "effect_value_max": 35,
         "effect_turn": [
             0
         ],
@@ -81902,8 +81939,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 15,
-        "effect_value_max": 15,
+        "effect_value_min": 20,
+        "effect_value_max": 20,
         "effect_turn": [
             2
         ],
@@ -87575,6 +87612,313 @@
         ],
         "bad_effect_value": 0,
         "description": "、さらにATK・INT・CRTバフ効果を受けている場合、自分のATK・INT+#PER#%(1T)"
+    },
+    {
+        "id": 3691,
+        "name": "こだわりの着ぐるみ",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            2
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのATK+#PER#%"
+    },
+    {
+        "id": 3692,
+        "name": "凶悪ネコパンチ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が拳武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3693,
+        "name": "尊きネコのしもべたち",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 15,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティが星属性の技を使用した時、パーティに与える全てのダメージ+#PER#%(2T)付与"
+    },
+    {
+        "id": 3694,
+        "name": "癒やしの香箱座り",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 2,
+        "trigger_status": 25,
+        "trigger_param": 386,
+        "trigger_param2": 3,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 22,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティに得意武器種が[拳・魔物物理・魔物魔法]のキャラが3体以上いる場合、ターン開始時、パーティのSP+#PER#"
+    },
+    {
+        "id": 3695,
+        "name": "こだわりの着ぐるみ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",HP・CRD+#PER#%"
+    },
+    {
+        "id": 3696,
+        "name": "凶悪ネコパンチ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3697,
+        "name": "尊きネコのしもべたち",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 15,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらに自分のATK・CRD+#PER#%(2T)"
+    },
+    {
+        "id": 3698,
+        "name": "癒やしの香箱座り",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 2,
+        "trigger_status": 25,
+        "trigger_param": 386,
+        "trigger_param2": 3,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティに与える全てのダメージ+#PER#%(2T)付与"
     },
     {
         "id": 10011,

@@ -25126,5 +25126,41 @@
     "m_character_id": 368,
     "rarity": 6,
     "class_name": "Halloween Slayer"
+  },
+  {
+    "id": 3691,
+    "m_character_id": 369,
+    "rarity": 1,
+    "class_name": "First cosplay"
+  },
+  {
+    "id": 3692,
+    "m_character_id": 369,
+    "rarity": 2,
+    "class_name": "First cosplay"
+  },
+  {
+    "id": 3693,
+    "m_character_id": 369,
+    "rarity": 3,
+    "class_name": "First cosplay"
+  },
+  {
+    "id": 3694,
+    "m_character_id": 369,
+    "rarity": 4,
+    "class_name": "First cosplay"
+  },
+  {
+    "id": 3695,
+    "m_character_id": 369,
+    "rarity": 5,
+    "class_name": "Halloween healing cat"
+  },
+  {
+    "id": 3696,
+    "m_character_id": 369,
+    "rarity": 6,
+    "class_name": "Adorable Princess Cat Fang"
   }
 ]

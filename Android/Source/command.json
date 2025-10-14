@@ -126929,7 +126929,7 @@
         ],
         "effect_values_min": [
             50,
-            15,
+            20,
             250,
             30,
             30,
@@ -126937,7 +126937,7 @@
         ],
         "effect_values_max_30": [
             50,
-            15,
+            20,
             250,
             30,
             30,
@@ -126945,7 +126945,7 @@
         ],
         "effect_values_max_40": [
             50,
-            15,
+            20,
             250,
             30,
             30,
@@ -126953,7 +126953,7 @@
         ],
         "effect_values_max_50": [
             50,
-            15,
+            20,
             250,
             30,
             30,
@@ -127873,7 +127873,7 @@
             1,
             1000,
             80,
-            15,
+            20,
             100,
             15,
             150,
@@ -127884,7 +127884,7 @@
             1,
             1000,
             80,
-            15,
+            20,
             100,
             15,
             150,
@@ -127895,7 +127895,7 @@
             1,
             1000,
             80,
-            15,
+            20,
             100,
             15,
             150,
@@ -127906,7 +127906,7 @@
             1,
             1000,
             80,
-            15,
+            20,
             100,
             15,
             150,
@@ -139217,38 +139217,38 @@
         ],
         "effect_values_min": [
             50,
-            20,
+            25,
             15,
             100,
             10,
-            30,
+            40,
             20
         ],
         "effect_values_max_30": [
             50,
-            20,
+            25,
             15,
             100,
             10,
-            30,
+            40,
             20
         ],
         "effect_values_max_40": [
             50,
-            20,
+            25,
             15,
             100,
             10,
-            30,
+            40,
             20
         ],
         "effect_values_max_50": [
             50,
-            20,
+            25,
             15,
             100,
             10,
-            30,
+            40,
             20
         ],
         "variance_rates": [
@@ -146880,6 +146880,407 @@
         "description_effect": "技使用時のCRD+#PER2#%&INTの#PER3#%を上乗せしてダメージ計算[自身],与える全てのダメージ+#PER4#%(3T)付与[味方全],バフ継続ターン-#PER5#&受けるダメージ#PER6#%アップ(2T)付与&対象がDEFデバフ状態の時、星属性耐性値-#PER7#%(2T)[敵単]",
         "description": "反省のハイクを詠んでください！　ＷＡＳＳＨＯＩ！",
         "resource_id": 3003683,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003691,
+        "name": "ネコネコパニック！",
+        "name_battle": "ネコネコ\\nパニック！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 30,
+        "sp_max_30": 25,
+        "sp_max_40": 24,
+        "sp_max_50": 23,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            63,
+            13,
+            17
+        ],
+        "effect_values_min": [
+            60,
+            30,
+            5,
+            20,
+            10
+        ],
+        "effect_values_max_30": [
+            90,
+            30,
+            5,
+            20,
+            10
+        ],
+        "effect_values_max_40": [
+            91,
+            30,
+            5,
+            20,
+            10
+        ],
+        "effect_values_max_50": [
+            92,
+            30,
+            5,
+            20,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK+#PER2#%(3T)&CRT+#PER3#%(3T)[味方全],ATK-#PER4#%(3T)&SPD-#PER5#%(3T)[敵全]",
+        "description": "これを避けるなんてとんでもない！",
+        "resource_id": 3003691,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003692,
+        "name": "ネコっと乱舞！",
+        "name_battle": "ネコっと\\n乱舞！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 45,
+        "sp_max_30": 40,
+        "sp_max_40": 36,
+        "sp_max_50": 34,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            65,
+            63,
+            101,
+            20,
+            14,
+            16,
+            143
+        ],
+        "effect_values_min": [
+            250,
+            40,
+            40,
+            15,
+            20,
+            75,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_30": [
+            280,
+            40,
+            40,
+            15,
+            20,
+            75,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_40": [
+            291,
+            40,
+            40,
+            15,
+            20,
+            75,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_50": [
+            296,
+            40,
+            40,
+            15,
+            20,
+            75,
+            40,
+            40,
+            15
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+        ],
+        "effect_targets": [
+            1,
+            3,
+            3,
+            3,
+            3,
+            4,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・CRD+#PER2#%(3T)&CRT+#PER4#%(3T)&与える全てのダメージ+#PER5#%(3T)付与[味方単],行動ゲージ+#PER6#[味方全],DEF・RES-#PER7#%(3T)&星属性耐性値-#PER9#%(3T)[敵単]",
+        "description": "たまに本能が疼いちゃうけど、温かく見守りましょう",
+        "resource_id": 3003692,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003693,
+        "name": "アオ猫雑技団！",
+        "name_battle": "アオ猫\\n雑技団！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 80,
+        "sp_max_30": 75,
+        "sp_max_40": 70,
+        "sp_max_50": 68,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            141,
+            81,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            143
+        ],
+        "effect_values_min": [
+            480,
+            50,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15
+        ],
+        "effect_values_max_30": [
+            510,
+            50,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15
+        ],
+        "effect_values_max_40": [
+            525,
+            50,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15
+        ],
+        "effect_values_max_50": [
+            540,
+            50,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "技使用時のCRD+#PER2#%&CRTバフ効果時、技威力+#PER3#%[自身],バフ効果解除&星属性耐性値-#PER11#%(3T)[敵単]",
+        "description": "アオも、みんなと頑張って練習したよ！",
+        "resource_id": 3003693,
         "continuous_attack_rates": []
     },
     {
@@ -385652,7 +386053,7 @@
         ],
         "effect_values_min": [
             50,
-            15,
+            20,
             250,
             30,
             30,
@@ -385660,7 +386061,7 @@
         ],
         "effect_values_max_30": [
             50,
-            15,
+            20,
             250,
             30,
             30,
@@ -385668,7 +386069,7 @@
         ],
         "effect_values_max_40": [
             50,
-            15,
+            20,
             250,
             30,
             30,
@@ -385676,7 +386077,7 @@
         ],
         "effect_values_max_50": [
             50,
-            15,
+            20,
             250,
             30,
             30,
@@ -386596,7 +386997,7 @@
             1,
             1000,
             80,
-            15,
+            20,
             100,
             15,
             150,
@@ -386607,7 +387008,7 @@
             1,
             1000,
             80,
-            15,
+            20,
             100,
             15,
             150,
@@ -386618,7 +387019,7 @@
             1,
             1000,
             80,
-            15,
+            20,
             100,
             15,
             150,
@@ -386629,7 +387030,7 @@
             1,
             1000,
             80,
-            15,
+            20,
             100,
             15,
             150,
@@ -397940,38 +398341,38 @@
         ],
         "effect_values_min": [
             50,
-            20,
+            25,
             15,
             100,
             10,
-            30,
+            40,
             20
         ],
         "effect_values_max_30": [
             50,
-            20,
+            25,
             15,
             100,
             10,
-            30,
+            40,
             20
         ],
         "effect_values_max_40": [
             50,
-            20,
+            25,
             15,
             100,
             10,
-            30,
+            40,
             20
         ],
         "effect_values_max_50": [
             50,
-            20,
+            25,
             15,
             100,
             10,
-            30,
+            40,
             20
         ],
         "variance_rates": [
@@ -405603,6 +406004,407 @@
         "description_effect": "技使用時のCRD+#PER2#%&INTの#PER3#%を上乗せしてダメージ計算[自身],与える全てのダメージ+#PER4#%(3T)付与[味方全],バフ継続ターン-#PER5#&受けるダメージ#PER6#%アップ(2T)付与&対象がDEFデバフ状態の時、星属性耐性値-#PER7#%(2T)[敵単]",
         "description": "反省のハイクを詠んでください！　ＷＡＳＳＨＯＩ！",
         "resource_id": 3003683,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003691,
+        "name": "ネコネコパニック！",
+        "name_battle": "ネコネコ\\nパニック！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 30,
+        "sp_max_30": 25,
+        "sp_max_40": 24,
+        "sp_max_50": 23,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            63,
+            13,
+            17
+        ],
+        "effect_values_min": [
+            68,
+            30,
+            5,
+            20,
+            10
+        ],
+        "effect_values_max_30": [
+            98,
+            30,
+            5,
+            20,
+            10
+        ],
+        "effect_values_max_40": [
+            99,
+            30,
+            5,
+            20,
+            10
+        ],
+        "effect_values_max_50": [
+            100,
+            30,
+            5,
+            20,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK+#PER2#%(3T)&CRT+#PER3#%(3T)[味方全],ATK-#PER4#%(3T)&SPD-#PER5#%(3T)[敵全]",
+        "description": "これを避けるなんてとんでもない！",
+        "resource_id": 3003691,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003692,
+        "name": "ネコっと乱舞！",
+        "name_battle": "ネコっと\\n乱舞！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 41,
+        "sp_max_30": 36,
+        "sp_max_40": 32,
+        "sp_max_50": 30,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            65,
+            63,
+            101,
+            20,
+            14,
+            16,
+            143
+        ],
+        "effect_values_min": [
+            250,
+            40,
+            40,
+            15,
+            20,
+            75,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_30": [
+            280,
+            40,
+            40,
+            15,
+            20,
+            75,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_40": [
+            291,
+            40,
+            40,
+            15,
+            20,
+            75,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_50": [
+            296,
+            40,
+            40,
+            15,
+            20,
+            75,
+            40,
+            40,
+            15
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+        ],
+        "effect_targets": [
+            1,
+            3,
+            3,
+            3,
+            3,
+            4,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・CRD+#PER2#%(3T)&CRT+#PER4#%(3T)&与える全てのダメージ+#PER5#%(3T)付与[味方単],行動ゲージ+#PER6#[味方全],DEF・RES-#PER7#%(3T)&星属性耐性値-#PER9#%(3T)[敵単]",
+        "description": "たまに本能が疼いちゃうけど、温かく見守りましょう",
+        "resource_id": 3003692,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003693,
+        "name": "アオ猫雑技団！",
+        "name_battle": "アオ猫\\n雑技団！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 75,
+        "sp_max_30": 70,
+        "sp_max_40": 65,
+        "sp_max_50": 63,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            141,
+            81,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            143
+        ],
+        "effect_values_min": [
+            480,
+            50,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15
+        ],
+        "effect_values_max_30": [
+            510,
+            50,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15
+        ],
+        "effect_values_max_40": [
+            525,
+            50,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15
+        ],
+        "effect_values_max_50": [
+            540,
+            50,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "技使用時のCRD+#PER2#%&CRTバフ効果時、技威力+#PER3#%[自身],バフ効果解除&星属性耐性値-#PER11#%(3T)[敵単]",
+        "description": "アオも、みんなと頑張って練習したよ！",
+        "resource_id": 3003693,
         "continuous_attack_rates": []
     },
     {
@@ -456674,9 +457476,11 @@
         "trigger_type_params": [
             0
         ],
-        "trigger_targets": [],
-        "description_effect": "",
-        "description": "0",
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "HP以外の基礎パラメータ+50%(5T)&SPD・CRT+30%(5T)[味方全],マヒ・眠り効果(2T)付与&ランダム状態異常付与×2(2T)[敵全]",
+        "description": "我が眷属に貪り喰われるがいい……。",
         "resource_id": 3800011,
         "continuous_attack_rates": []
     },
@@ -456811,9 +457615,11 @@
         "trigger_type_params": [
             0
         ],
-        "trigger_targets": [],
-        "description_effect": "",
-        "description": "0",
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "DEF・RES-50%(3T)&バフ効果解除&与ダメアップ効果解除全種[敵単],",
+        "description": "この空間では抵抗など無意味だ……。",
         "resource_id": 3800012,
         "continuous_attack_rates": []
     },
@@ -456932,9 +457738,11 @@
         "trigger_type_params": [
             0
         ],
-        "trigger_targets": [],
-        "description_effect": "",
-        "description": "0",
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "HP以外の基礎パラメータ-80%(3T)&CRT・CRD-80%(3T)[敵全],特殊効果解除[敵単],行動ゲージ+500[味方全]",
+        "description": "世界共々、儚く……散れ……。",
         "resource_id": 3800013,
         "continuous_attack_rates": []
     },
@@ -459236,27 +460044,27 @@
         "command_types": [
             1,
             98,
-            134
+            4
         ],
         "effect_values_min": [
             250,
             2,
-            85
+            100
         ],
         "effect_values_max_30": [
             250,
             2,
-            85
+            100
         ],
         "effect_values_max_40": [
             250,
             2,
-            85
+            100
         ],
         "effect_values_max_50": [
             250,
             2,
-            85
+            100
         ],
         "variance_rates": [
             100
@@ -459286,7 +460094,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "バフ効果継続ターン-2&茨効果付与",
+        "description_effect": "バフ効果継続ターン-2&毒効果付与",
         "description": "ビームは男のロマンっス",
         "resource_id": 3300013,
         "continuous_attack_rates": []

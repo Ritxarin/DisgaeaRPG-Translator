@@ -34057,7 +34057,7 @@
   },
   {
     "id": 20044,
-    "name": "サンタリーゼロッタ",
+    "name": "Santa Liezerota",
     "unique_flg": 1,
     "character_type": 2,
     "character_special_type": 0,
@@ -34109,7 +34109,7 @@
     "weapon_mastery_rank_7": 0,
     "weapon_mastery_rank_8": 9,
     "weapon_mastery_rank_9": 10,
-    "description": "クリスマスパーティーを盛り上げるため\nサンタ服を身にまとったリーゼロッタ。\n今回の衣装はリーゼロッタのお手製。がお～！",
+    "description": "Liezerota wearing a 'beary' merry holiday outfit to liven up the party. Lieze handmade the costume herself! Growl~!",
     "color_no": 1,
     "explosion_flg": 0,
     "linkage_base": 40,
@@ -34131,7 +34131,7 @@
   },
   {
     "id": 20045,
-    "name": "干支フーカ",
+    "name": "Zodiac Fuka",
     "unique_flg": 1,
     "character_type": 2,
     "character_special_type": 0,
@@ -34183,7 +34183,7 @@
     "weapon_mastery_rank_7": 0,
     "weapon_mastery_rank_8": 10,
     "weapon_mastery_rank_9": 9,
-    "description": "厳しいラブ修行と天性の思い込み力で\n２０２２年の干支である\n寅の力を手に入れたフーカ。",
+    "description": "Through strict Romance Disciple practices and her own natural force of will,\nFuka has claimed the power of the Zodiac Tiger.",
     "color_no": 3,
     "explosion_flg": 0,
     "linkage_base": 40,
@@ -34581,7 +34581,7 @@
   },
   {
     "id": 20051,
-    "name": "Love Zed",
+    "name": "Love X",
     "unique_flg": 1,
     "character_type": 2,
     "character_special_type": 0,
@@ -63607,7 +63607,7 @@
   },
   {
     "id": 369,
-    "name": "catfish (esp. the Japanese catfish, Ctenochaetus japonicus oryzivorous cats)",
+    "name": "Nekoneko Ao",
     "unique_flg": 1,
     "character_type": 1,
     "character_special_type": 0,

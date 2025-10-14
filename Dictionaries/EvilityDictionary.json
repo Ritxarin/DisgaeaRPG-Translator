@@ -152,7 +152,7 @@
   ",CRTは最大+#PER#%,5キャラまで)": ",CRT is up to +#PER#%, 5 characters max)",
   "パーティが使用するバフの効果+18%": "Effect of buffs used by the party +18%",
   "、さらにパーティの消費SP-#PER#%": "Additionally, All Allies: SP consumption -#PER#%",
-  "、さらにパーティに与える全てのダメージ+#PER#%(2T)付与": "Additionally, All Allies: Damage +#PER#%(2T)",
+  "、さらにパーティに与える全てのダメージ+#PER#%(2T)付与": ", All Allies: Damage +#PER#%(2T)",
   "、さらに与える全てのダメージ+#PER#%(2T)付与": "Additionally, Self: Damage +#PER#%(2T)",
   "自分のATK・DEF+#PER#%": "Self: ATK and DEF +#PER#%",
   "敵全体のDEF-#PER#%": "All Enemies: DEF -#PER#%",
