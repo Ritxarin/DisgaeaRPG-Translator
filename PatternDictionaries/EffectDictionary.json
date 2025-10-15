@@ -233,6 +233,7 @@
   "対象のバフを#PER7#%無視してダメージ計算": "Damage calculation ignores #PER7#% of target's buffs",
   "対象のバフを#PER8#%無視してダメージ計算": "Damage calculation ignores #PER8#% of target's buffs",
   "対象のバフを#PER9#%無視してダメージ計算": "Damage calculation ignores #PER9#% of target's buffs",
+  "対象のバフを#PER10#%無視してダメージ計算": "Damage calculation ignores #PER10#% of target's buffs",
   "対象のバフを70%無視してダメージ計算": "Damage calculation ignores 70% of target's Buffs",
   "対象がマヒ状態の時、": "If target is paralyzed, ",
 
@@ -263,6 +264,7 @@
   "DEFバフ状態の味方がいる時、": "[When ally has a DEF buff]",
   "PDバフ効果時、": "[If target has SDP debuff], ",
   "対象のHPが75%以下の場合": "If 75% or less HP",
+  "体力が30%以下の場合、": "If HP is below 30%, ",
   "体力が1%以下の場合、": "If current HP is 1% or less, ",
 
   "潜在タイプ[キング]のキャラはさらにATK・INT+": "[Characters of symbol King]ATK & INT +",

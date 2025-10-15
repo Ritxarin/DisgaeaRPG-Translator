@@ -48,15 +48,9 @@ class EffectTranslator:
             text = pattern.sub(replacement, text)
         return text
     
-class EvilityTranslator:
-
-    patterns = [
-
-    ]
-    
+class EvilityTranslator:    
     def __init__(self):
         self.patterns = EvilityRegex.patterns
-        #self.patterns = EvilityTranslator.patterns
         return
 
     def translate(self, text):
@@ -71,6 +65,7 @@ class Translator:
     def __init__(self):
         self.dict_translator = DictionaryTranslator()
         self.effect_translator = EffectTranslator()
+        self.evility_translator = EvilityTranslator()
 
         # External services
         self.files_for_deepl = ['stage', 'character', 'memory', 'episode', 'command']
@@ -98,13 +93,16 @@ class Translator:
             return value
 
         try:
-            # 1️⃣ Regex replacement for command descriptions
+            # 1️⃣ Dictionary lookup (always first)
+            if self.dict_translator.has(value):
+                return self.dict_translator.translate(value)
+        
+            # 2️⃣ Regex replacement for specific files/fields
             if filename == "command" and field == "description_effect":
-                result = self.effect_translator.translate(value)
+                return self.effect_translator.translate(value)
 
-            # 2️⃣ Dictionary lookup
-            elif self.dict_translator.has(value):
-                result = self.dict_translator.translate(value)
+            elif filename == "leaderskill" and field == "description":
+                return self.evility_translator.translate(value)
 
             # 3️⃣ External translators
             elif filename in self.files_for_deepl and self.translator_deepl:
