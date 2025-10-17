@@ -17,7 +17,8 @@ Requirements:
   `Config.set_device(device=Device.DMM)`
   `Config.set_device(device=Device.Android)`
 - You can create two versions of the script, one for each device if you like.
-- Run the script. It will take care of everything for you. Read the game files, translate them and then apply the translations to your game
+- If you are running it for android, ensure the connection is working. Some guidelines on what you will need on the FAQs section.
+- Run the script. It will take care of everything for you. Read the game files, translate them and then apply the translations to your game.
 - You will need to run the script every time there is a game update as updates will overwrite the translated files.
 - There are several settings you can adjust in config.py. IF you know what your're doing you can easily expand this tool to translate more files, and you can add your own dictionaries as well.
 
@@ -68,4 +69,7 @@ Requirements:
 **A:** You can share this freely. The more people use it, the better chance someone will contribute and improve this. If you really want to, you can link [my ko-fi page](https://ko-fi.com/ritx488879)
 
 **Q: Does this work for Android?**
-**A:** Yes, with the latest update it fully supports Android.
+**A:** Yes, with the latest update it fully supports Android. You will likely need to do the following to ensure abd tools connect to your phone:
+`Enable Developer Options`
+`Enable USB Debugging`
+`Allow USB Debugging on the Phone`
