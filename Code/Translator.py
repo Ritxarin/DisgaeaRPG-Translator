@@ -101,8 +101,10 @@ class Translator:
             if filename == "command" and field == "description_effect":
                 return self.effect_translator.translate(value)
 
-            elif filename == "leaderskill" and field == "description":
-                return self.evility_translator.translate(value)
+            # elif filename == "leaderskill" and field == "description":
+            #     translation = self.evility_translator.translate(value)
+            #     if translation != value:
+            #         return translation
 
             # 3️⃣ External translators
             elif filename in self.files_for_deepl and self.translator_deepl:
