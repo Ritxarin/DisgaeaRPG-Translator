@@ -1,12 +1,8 @@
-Masters_Backup/
 Code/__pycache__/
 config.json
-Source - Copy/
 Source_Translated - Copy/
-Source_Translated_new
 Updated_Files - Copy/
 Masters_Backup - Copy/
-Masters_Backup - Copy (2)
 New_Entries/
 Assets_Backup/
 Patched_Textures/
@@ -14,5 +10,12 @@ Translated_Files/
 debug.log
 .vscode/launch.json
 test.py
-Android/
+Android/master
+Android/Game_Assets
+Android/Translated_Prefabs
+Android/Masters_Backup
+Android/Source_Copy
+DMM/Masters_Backup
 Global_Assets
+Global_Assets/images
+Mobile_Masters

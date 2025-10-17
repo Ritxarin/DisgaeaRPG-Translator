@@ -1,13 +1,15 @@
 import time
 from Code.TranslationUtil import Translator_Util
 from Code.UnityHelper import UnityHelper
-from Code.config import Config
+from Code.config import Config, Device
 
 def main():
 
     start_time = time.time()
     
     print(f"Started execution")
+
+    Config.set_device(device=Device.DMM)
     
     unity_helper = UnityHelper()
     

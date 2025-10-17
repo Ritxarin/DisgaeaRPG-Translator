@@ -968,7 +968,7 @@
   {
     "id": 1086,
     "img_id": 50020,
-    "name": "Love Zed",
+    "name": "Love X",
     "description": "The new form of Des X containing Super Overlord Love Cells developed by Mao.\nWith parental love, rather than romantic love, for Genjuro and the sisterly love of the Kazamatsuri sisters as a driving force, she brings out the best qualities of the Super Overlord Love Cells.\nIn other words, she is the embodiment of love who lives for love!",
     "color_no": 9
   },
@@ -1374,7 +1374,7 @@
   {
     "id": 1144,
     "img_id": 20045,
-    "name": "干支フーカ",
+    "name": "Zodiac Fuka",
     "description": "厳しいラブ修行と天性の思い込み力で\n２０２２年の干支である『寅＝トラ』\nの力を手に入れたフーカ。\n究極の恋愛マスターらしいが……？",
     "color_no": 3
   },
@@ -3792,5 +3792,159 @@
     "name": "Marone x Aprico",
     "description": "Marone and Aprico\nBond confirmation appearance.\nThe soul of the aprico to Marone himself\nBy confirming,\nMore than a regular confine\nIt exerts powerful power.",
     "color_no": 5
+  },
+  {
+    "id": 1473,
+    "img_id": 190,
+    "name": "Guide Mao",
+    "description": "Running \"Mandarin Haku\"\nOne of the organizers.\nTo promote the \"Mandarin High School\",\nHe will fulfill his duties as a sponsor.\nThe \"Mandarin-Hokkaido\" is a collection of a wide variety of technologies.\nMaybe because I was excited\nI didn't sleep much the day before.",
+    "color_no": 1
+  },
+  {
+    "id": 1474,
+    "img_id": 361,
+    "name": "Guide Almas",
+    "description": "Running \"Mandarin Haku\"\nOne of the organizers.\nMao's feelings for \"Mandarin-Hoku\"\nKnowing their strength and working together.\nA festive look with Mao\nRunning \"Mansaku\"\nI'm really looking forward to it.",
+    "color_no": 11
+  },
+  {
+    "id": 1475,
+    "img_id": 364,
+    "name": "Lucy, the guard of the savage",
+    "description": "Mao protects the \"Mandarin High School\"\nHe was asked to be a member of the Demon World Police.\nThe top of the Demon Police\nHe has a habit of slacking off.\nThe preparations for the pavilion you want to go to are perfect.\nNow floating from the pavilion\nHe seems to be concerned about the delicious smell.",
+    "color_no": 1
+  },
+  {
+    "id": 1476,
+    "img_id": 20059,
+    "name": "Space Raspberyl",
+    "description": "Administrator of Space Pavilion.\nWearing in a special Mao suit,\nYou can move at an incredible speed.\nWe went to each pavilion to find Mao and the others\nIt seems they were going around...?",
+    "color_no": 9
+  },
+  {
+    "id": 1477,
+    "img_id": 90080,
+    "name": "Space Fuka",
+    "description": "Pilot of \"Machine-Moving Warrior\"...\nWearing a suit like that,\nAdministrator of Space Pavilion Z.\nTeaming up with Super Desco,\nVarious pavilions\nThey are plotting a game.\nWhat is the purpose of this...?",
+    "color_no": 2
+  },
+  {
+    "id": 1478,
+    "img_id": 20042,
+    "name": "Super Desco",
+    "description": "A guide to Space Pavilion Z.\nWith the battle suit of the future,\nDesco has acquired cutting-edge abilities.\nWith Space Fuka,\nThey are setting up a fight against other pavilions.",
+    "color_no": 11
+  },
+  {
+    "id": 1479,
+    "img_id": 363,
+    "name": "Guide Salvatore",
+    "description": "The Evil Academy Pavilion\nHe's a guide, but he's not suitable.\nTo intimidate you with your commanding tone,\nCompared to other pavilions\nThere are extremely few spectators.",
+    "color_no": 3
+  },
+  {
+    "id": 1480,
+    "img_id": 23,
+    "name": "Big Star",
+    "description": "Administrator of \"Evil Academy Pavilion.\"\n\"Sama\" is not a title,\nIt is part of the name.\nThe name \"h\"\nIf you drop it,\nHe might become \"Bigstar-sama.\"",
+    "color_no": 3
+  },
+  {
+    "id": 1481,
+    "img_id": 90081,
+    "name": "Death Death",
+    "description": "The theme is \"Life, Shine\",\nThe evil god who controls life.\nTaking advantage of others' desires and weaknesses\nBy possessing her, she plays with her life.\nI was depressed\nTake over Desco's body,\nHe is trying to make the life around him shine.",
+    "color_no": 1
+  },
+  {
+    "id": 1482,
+    "img_id": 366,
+    "name": "Nurse Cerafine",
+    "description": "Exposure! Sexy! Zombie nurse!\n\"Fantastic Halloween\" in cosplay\nEnjoy Halloweenist.\nThis year's \"Neo Shibuya Flashy Halloween\"\nHe is also the organizer.\nFor some reason, it's strangely \"fluffy\"\nHe seems to be particular about it...?",
+    "color_no": 11
+  },
+  {
+    "id": 1483,
+    "img_id": 250,
+    "name": "Witch Etna",
+    "description": "Etna dressed up for Halloween.\nA sexy outfit made by Piririka\nI really like it.\nIncidentally, the cost of the costume is\nApparently it's Freon special effects goods...\nLikes \"Fantastic Halloween\"\nHalloweenist.",
+    "color_no": 1
+  },
+  {
+    "id": 1484,
+    "img_id": 251,
+    "name": "Little Devil Beryl XENO",
+    "description": "I dressed up in a Halloween costume\nRaspberyl XENO.\nSexy little devil style\nIt captivates your gaze, both men and women.\nLikes \"Fantastic Halloween\"\nHalloweenist.",
+    "color_no": 7
+  },
+  {
+    "id": 1485,
+    "img_id": 72,
+    "name": "Marine",
+    "description": "Usually she is a maid who runs a beach house.\nLikes \"Fantastic Halloween\"\nHalloweenist.\nEven wearing a swimsuit\nI'm trying to make money on Halloween.",
+    "color_no": 6
+  },
+  {
+    "id": 1486,
+    "img_id": 368,
+    "name": "Ninja Piririka",
+    "description": "I love Halloween purely,\n\"My Favorite Halloween\"\nHalloweenist.\nHe has himself as a Halloween slayer\nHe called himself and ran through the city of Halloween.",
+    "color_no": 3
+  },
+  {
+    "id": 1487,
+    "img_id": 369,
+    "name": "Cat Cat Ao",
+    "description": "Cat saber lovers are squealing\nAo has become a cat sabre.\nEnjoy the extraordinary life with your favorite character,\nA Halloweenist from \"My Favorite Halloween.\"\nThe softness of the paw part is\nIt looks like a real cat saber.",
+    "color_no": 2
+  },
+  {
+    "id": 1488,
+    "img_id": 91,
+    "name": "Halloween Majorita",
+    "description": "Enjoy Halloween purely\nIdeal for Piririka\nOne of the Halloweenists.\nDue to Halloween\nMaybe because the tension is rising\nHe's gentler, more tolerant and noisier than usual.\nEven though I'm not asked to\n\"Trick or Delete\"\nHe has come to be the commentator.",
+    "color_no": 6
+  },
+  {
+    "id": 1489,
+    "img_id": 90083,
+    "name": "Witch Lieselotta",
+    "description": "Enjoying the outfit you don't usually do,\nIdeal for Piririka\nA Halloweenist from \"My Favorite Halloween.\"\nI'm good at making sweets,\nTowards Halloween\nI've made a lot of sweets.",
+    "color_no": 3
+  },
+  {
+    "id": 1490,
+    "img_id": 92,
+    "name": "Halloween Altina",
+    "description": "An angel comes to work for Halloween.\n\"Trick or Delete\"\nHe will serve as the host.\nIncidentally, all of the costumes and props are\nSomething Altina made herself.",
+    "color_no": 12
+  },
+  {
+    "id": 1491,
+    "img_id": 249,
+    "name": "Kyonshi Hanako",
+    "description": "With Taro\nEnjoy Halloween purely.\nIdeal for Piririka\nOne of the Halloweenists.",
+    "color_no": 9
+  },
+  {
+    "id": 1492,
+    "img_id": 93,
+    "name": "Halloween Lahar",
+    "description": "After undergoing Jennifer's modification surgery,\nLahar has become a monster style.\nHalloween with Sicily and the others\nHe had come, but also Ukatsu\nNinja Ambush\nI've taken it...!",
+    "color_no": 7
+  },
+  {
+    "id": 1493,
+    "img_id": 147,
+    "name": "Shadow Pill",
+    "description": "Affected Halloweenist\nThe true identity of a mysterious ninja,\nI came from a different world\nAnother Yukimaru.\nEvery time something happens, it is called \"easy\"\nHe aims to head him in the name.",
+    "color_no": 12
+  },
+  {
+    "id": 1494,
+    "img_id": 365,
+    "name": "Halloween Lahar Improvement",
+    "description": "Once, Kagemaru was in charge\nHalloween Lahar\nPiririca and Serafine\nHe was revived with his wealth.\nAlthough it was modified quite a bit,\nPerformance is pretty good\nIt has been upgraded.",
+    "color_no": 7
   }
 ]

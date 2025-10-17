@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "boost_type": 1,
+    "effect_value": 50,
+    "time_value": 1800,
+    "boost_title": "EXP Boost",
+    "boost_description": "#VALUE#x Character EXP from battle.(#TIME# mins)"
+  },
+  {
+    "id": 2,
+    "boost_type": 2,
+    "effect_value": 50,
+    "time_value": 1800,
+    "boost_title": "HL Boost",
+    "boost_description": "#VALUE#x HL from battle (#TIME# mins)"
+  },
+  {
+    "id": 3,
+    "boost_type": 3,
+    "effect_value": 100,
+    "time_value": 1800,
+    "boost_title": "Drop Rate Boost",
+    "boost_description": "#VALUE#x Item Drop Rate from battle (#TIME# mins)"
+  },
+  {
+    "id": 4,
+    "boost_type": 4,
+    "effect_value": 50,
+    "time_value": 3600,
+    "boost_title": "Event PT Boost",
+    "boost_description": "Pts gained from Story events increase by #VALUE#% (#TIME# mins)"
+  },
+  {
+    "id": 5,
+    "boost_type": 4,
+    "effect_value": 50,
+    "time_value": 1800,
+    "boost_title": "Event PT Boost",
+    "boost_description": "Pts gained from Story events increase by #VALUE#% (#TIME# mins)"
+  },
+  {
+    "id": 6,
+    "boost_type": 4,
+    "effect_value": 50,
+    "time_value": 900,
+    "boost_title": "Event PT Boost",
+    "boost_description": "Pts gained from Story events increase by #VALUE#% (#TIME# mins)"
+  },
+  {
+    "id": 7,
+    "boost_type": 1,
+    "effect_value": 50,
+    "time_value": 0,
+    "boost_title": "EXP Boost",
+    "boost_description": "Players get #VALUE# times character EXP from battles (during the event)"
+  },
+  {
+    "id": 8,
+    "boost_type": 2,
+    "effect_value": 50,
+    "time_value": 0,
+    "boost_title": "HL Boost",
+    "boost_description": "Players get #VALUE# times HL from battles (during the event)"
+  },
+  {
+    "id": 9,
+    "boost_type": 3,
+    "effect_value": 100,
+    "time_value": 0,
+    "boost_title": "Drop Rate Boost",
+    "boost_description": "Players get #VALUE# times Item Drop Rate from battles (during the event)"
+  },
+  {
+    "id": 10,
+    "boost_type": 1,
+    "effect_value": 50,
+    "time_value": 900,
+    "boost_title": "EXP Boost",
+    "boost_description": "#VALUE#x Character EXP from battle.(#TIME# mins)"
+  },
+  {
+    "id": 11,
+    "boost_type": 1,
+    "effect_value": 50,
+    "time_value": 3600,
+    "boost_title": "EXP Boost",
+    "boost_description": "#VALUE#x Character EXP from battle.(#TIME# mins)"
+  },
+  {
+    "id": 12,
+    "boost_type": 2,
+    "effect_value": 50,
+    "time_value": 900,
+    "boost_title": "HL Boost",
+    "boost_description": "#VALUE#x HL from battle (#TIME# mins)"
+  },
+  {
+    "id": 13,
+    "boost_type": 2,
+    "effect_value": 50,
+    "time_value": 3600,
+    "boost_title": "HL Boost",
+    "boost_description": "#VALUE#x HL from battle (#TIME# mins)"
+  },
+  {
+    "id": 14,
+    "boost_type": 3,
+    "effect_value": 100,
+    "time_value": 900,
+    "boost_title": "Drop Rate Boost",
+    "boost_description": "#VALUE#x Item Drop Rate from battle (#TIME# mins)"
+  },
+  {
+    "id": 15,
+    "boost_type": 3,
+    "effect_value": 100,
+    "time_value": 3600,
+    "boost_title": "Drop Rate Boost",
+    "boost_description": "#VALUE#x Item Drop Rate from battle (#TIME# mins)"
+  },
+  {
+    "id": 16,
+    "boost_type": 1,
+    "effect_value": 200,
+    "time_value": 0,
+    "boost_title": "EXP Boost",
+    "boost_description": "Players get #VALUE# times character EXP from battles (during the event)"
+  },
+  {
+    "id": 17,
+    "boost_type": 1,
+    "effect_value": 100,
+    "time_value": 0,
+    "boost_title": "EXP Boost",
+    "boost_description": "Players get #VALUE# times character EXP from battles (during the event)"
+  },
+  {
+    "id": 18,
+    "boost_type": 1,
+    "effect_value": 250,
+    "time_value": 0,
+    "boost_title": "EXP Boost",
+    "boost_description": "Players get #VALUE# times character EXP from battles (during the event)"
+  },
+  {
+    "id": 19,
+    "boost_type": 1,
+    "effect_value": 300,
+    "time_value": 0,
+    "boost_title": "EXP Boost",
+    "boost_description": "Players get #VALUE# times character EXP from battles (during the event)"
+  },
+  {
+    "id": 20,
+    "boost_type": 2,
+    "effect_value": 300,
+    "time_value": 0,
+    "boost_title": "HL Boost",
+    "boost_description": "The HL for obtaining battles will be doubled (during the campaign period)"
+  },
+  {
+    "id": 21,
+    "boost_type": 3,
+    "effect_value": 300,
+    "time_value": 0,
+    "boost_title": "Drop rate boost",
+    "boost_description": "Battle reward items drop rate doubles #VALUE (during the campaign period)"
+  },
+  {
+    "id": 22,
+    "boost_type": 2,
+    "effect_value": 200,
+    "time_value": 0,
+    "boost_title": "HL Boost",
+    "boost_description": "The HL for obtaining battles will be doubled (during the campaign period)"
+  },
+  {
+    "id": 23,
+    "boost_type": 3,
+    "effect_value": 200,
+    "time_value": 0,
+    "boost_title": "Drop rate boost",
+    "boost_description": "Battle reward items drop rate doubles #VALUE (during the campaign period)"
+  },
+  {
+    "id": 24,
+    "boost_type": 9,
+    "effect_value": 100,
+    "time_value": 3600,
+    "boost_title": "Martial Arts Coin Boost",
+    "boost_description": "The amount of Martial Arts Coins earned will be doubled (#TIME#min)"
+  },
+  {
+    "id": 25,
+    "boost_type": 12,
+    "effect_value": 100,
+    "time_value": 3600,
+    "boost_title": "Final Boss Research Institute Challenge Point Boost",
+    "boost_description": "Players will get #VALUE# times points for the Final Boss Research Institute (#TIME#min)"
+  },
+  {
+    "id": 26,
+    "boost_type": 11,
+    "effect_value": 100,
+    "time_value": 86400,
+    "boost_title": "Makai Tours Boost",
+    "boost_description": "Players will get #VALUE# times currency during Makai Tours (24 hours)"
+  },
+  {
+    "id": 27,
+    "boost_type": 1,
+    "effect_value": 400,
+    "time_value": 0,
+    "boost_title": "EXP Boost",
+    "boost_description": "Players get #VALUE# times character EXP from battles (during the event)"
+  },
+  {
+    "id": 28,
+    "boost_type": 2,
+    "effect_value": 400,
+    "time_value": 0,
+    "boost_title": "HL Boost",
+    "boost_description": "The HL for obtaining battles will be doubled (during the campaign period)"
+  },
+  {
+    "id": 29,
+    "boost_type": 3,
+    "effect_value": 400,
+    "time_value": 0,
+    "boost_title": "Drop rate boost",
+    "boost_description": "Battle reward items drop rate doubles #VALUE (during the campaign period)"
+  },
+  {
+    "id": 30,
+    "boost_type": 2,
+    "effect_value": 100,
+    "time_value": 0,
+    "boost_title": "HL Boost",
+    "boost_description": "The HL for obtaining battles will be doubled (during the campaign period)"
+  },
+  {
+    "id": 1001,
+    "boost_type": 6,
+    "effect_value": 0,
+    "time_value": 86400,
+    "boost_title": "Lock Removal HL Free",
+    "boost_description": "Makes the cost of removing locks from Innocents free"
+  }
+]

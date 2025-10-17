@@ -24730,5 +24730,437 @@
     "m_character_id": 359,
     "rarity": 6,
     "class_name": "First Officer who lives by his morals"
+  },
+  {
+    "id": 3601,
+    "m_character_id": 360,
+    "rarity": 1,
+    "class_name": "Nethersummer Chroma"
+  },
+  {
+    "id": 3602,
+    "m_character_id": 360,
+    "rarity": 2,
+    "class_name": "Nethersummer Chroma"
+  },
+  {
+    "id": 3603,
+    "m_character_id": 360,
+    "rarity": 3,
+    "class_name": "Nethersummer Chroma"
+  },
+  {
+    "id": 3604,
+    "m_character_id": 360,
+    "rarity": 4,
+    "class_name": "Nethersummer Chroma"
+  },
+  {
+    "id": 3605,
+    "m_character_id": 360,
+    "rarity": 5,
+    "class_name": "Girl playing with the tide waves"
+  },
+  {
+    "id": 3606,
+    "m_character_id": 360,
+    "rarity": 6,
+    "class_name": "Hero of the Summer Sky"
+  },
+  {
+    "id": 3571,
+    "m_character_id": 357,
+    "rarity": 1,
+    "class_name": "New bonds"
+  },
+  {
+    "id": 3572,
+    "m_character_id": 357,
+    "rarity": 2,
+    "class_name": "New bonds"
+  },
+  {
+    "id": 3573,
+    "m_character_id": 357,
+    "rarity": 3,
+    "class_name": "New bonds"
+  },
+  {
+    "id": 3574,
+    "m_character_id": 357,
+    "rarity": 4,
+    "class_name": "New bonds"
+  },
+  {
+    "id": 3575,
+    "m_character_id": 357,
+    "rarity": 5,
+    "class_name": "Girls who inherit the legend"
+  },
+  {
+    "id": 3576,
+    "m_character_id": 357,
+    "rarity": 6,
+    "class_name": "Hero of Peaceful Bonds"
+  },
+  {
+    "id": 3611,
+    "m_character_id": 361,
+    "rarity": 1,
+    "class_name": "Manji Expo Helper"
+  },
+  {
+    "id": 3612,
+    "m_character_id": 361,
+    "rarity": 2,
+    "class_name": "Manji Expo Helper"
+  },
+  {
+    "id": 3613,
+    "m_character_id": 361,
+    "rarity": 3,
+    "class_name": "Manji Expo Helper"
+  },
+  {
+    "id": 3614,
+    "m_character_id": 361,
+    "rarity": 4,
+    "class_name": "Manji Expo Helper"
+  },
+  {
+    "id": 3615,
+    "m_character_id": 361,
+    "rarity": 5,
+    "class_name": "Managing assistant of the Manji Expo"
+  },
+  {
+    "id": 3616,
+    "m_character_id": 361,
+    "rarity": 6,
+    "class_name": "Manji Expo HeHero Protecting the Manji Expolper"
+  },
+  {
+    "id": 3631,
+    "m_character_id": 363,
+    "rarity": 1,
+    "class_name": "Diez Gentlemen No Guide Tourguide"
+  },
+  {
+    "id": 3632,
+    "m_character_id": 363,
+    "rarity": 2,
+    "class_name": "Diez Gentlemen No Guide Tourguide"
+  },
+  {
+    "id": 3633,
+    "m_character_id": 363,
+    "rarity": 3,
+    "class_name": "Diez Gentlemen No Guide Tourguide"
+  },
+  {
+    "id": 3634,
+    "m_character_id": 363,
+    "rarity": 4,
+    "class_name": "Diez Gentlemen No Guide Tourguide"
+  },
+  {
+    "id": 3635,
+    "m_character_id": 363,
+    "rarity": 5,
+    "class_name": "Pavilion Keeper"
+  },
+  {
+    "id": 3636,
+    "m_character_id": 363,
+    "rarity": 6,
+    "class_name": "Superb Companion"
+  },
+  {
+    "id": 201071,
+    "m_character_id": 20107,
+    "rarity": 1,
+    "class_name": "Mass-produced invincible robot"
+  },
+  {
+    "id": 201072,
+    "m_character_id": 20107,
+    "rarity": 2,
+    "class_name": "Mass-produced invincible robot"
+  },
+  {
+    "id": 201073,
+    "m_character_id": 20107,
+    "rarity": 3,
+    "class_name": "Mass-produced invincible robot"
+  },
+  {
+    "id": 201074,
+    "m_character_id": 20107,
+    "rarity": 4,
+    "class_name": "Mass-produced invincible robot"
+  },
+  {
+    "id": 201075,
+    "m_character_id": 20107,
+    "rarity": 5,
+    "class_name": "Seven colors of body"
+  },
+  {
+    "id": 201076,
+    "m_character_id": 20107,
+    "rarity": 6,
+    "class_name": "Futuristic Earth Hero"
+  },
+  {
+    "id": 3641,
+    "m_character_id": 364,
+    "rarity": 1,
+    "class_name": "Slacker Staff"
+  },
+  {
+    "id": 3642,
+    "m_character_id": 364,
+    "rarity": 2,
+    "class_name": "Slacker staff"
+  },
+  {
+    "id": 3643,
+    "m_character_id": 364,
+    "rarity": 3,
+    "class_name": "Slacker staff"
+  },
+  {
+    "id": 3644,
+    "m_character_id": 364,
+    "rarity": 4,
+    "class_name": "Slacker staff"
+  },
+  {
+    "id": 3645,
+    "m_character_id": 364,
+    "rarity": 5,
+    "class_name": "A friendly security supervisor"
+  },
+  {
+    "id": 3646,
+    "m_character_id": 364,
+    "rarity": 6,
+    "class_name": "Red Investigator of the Manji Expo"
+  },
+  {
+    "id": 3621,
+    "m_character_id": 362,
+    "rarity": 1,
+    "class_name": "Warrior of the Poor Pavillion"
+  },
+  {
+    "id": 3622,
+    "m_character_id": 362,
+    "rarity": 2,
+    "class_name": "Warrior of the Poor Pavillion"
+  },
+  {
+    "id": 3623,
+    "m_character_id": 362,
+    "rarity": 3,
+    "class_name": "Warrior of the Poor Pavillion"
+  },
+  {
+    "id": 3624,
+    "m_character_id": 362,
+    "rarity": 4,
+    "class_name": "Warrior of the Poor Pavillion"
+  },
+  {
+    "id": 3625,
+    "m_character_id": 362,
+    "rarity": 5,
+    "class_name": "Experts in the friend battle"
+  },
+  {
+    "id": 3626,
+    "m_character_id": 362,
+    "rarity": 6,
+    "class_name": "Blue Meteor of Innovation"
+  },
+  {
+    "id": 201081,
+    "m_character_id": 20108,
+    "rarity": 1,
+    "class_name": "Urban Legend of the Manji Festival"
+  },
+  {
+    "id": 201082,
+    "m_character_id": 20108,
+    "rarity": 2,
+    "class_name": "Urban Legend of the Manji Festival"
+  },
+  {
+    "id": 201083,
+    "m_character_id": 20108,
+    "rarity": 3,
+    "class_name": "Urban Legend of the Manji Festival"
+  },
+  {
+    "id": 201084,
+    "m_character_id": 20108,
+    "rarity": 4,
+    "class_name": "Urban Legend of the Manji Festival"
+  },
+  {
+    "id": 201085,
+    "m_character_id": 20108,
+    "rarity": 5,
+    "class_name": "The pulsating form of life"
+  },
+  {
+    "id": 201086,
+    "m_character_id": 20108,
+    "rarity": 6,
+    "class_name": "Shining Life's Last Boss"
+  },
+  {
+    "id": 3651,
+    "m_character_id": 365,
+    "rarity": 1,
+    "class_name": "The Unconscious Monster Demon King"
+  },
+  {
+    "id": 3652,
+    "m_character_id": 365,
+    "rarity": 2,
+    "class_name": "The Unconscious Monster Demon King"
+  },
+  {
+    "id": 3653,
+    "m_character_id": 365,
+    "rarity": 3,
+    "class_name": "The Unconscious Monster Demon King"
+  },
+  {
+    "id": 3654,
+    "m_character_id": 365,
+    "rarity": 4,
+    "class_name": "The Unconscious Monster Demon King"
+  },
+  {
+    "id": 3655,
+    "m_character_id": 365,
+    "rarity": 5,
+    "class_name": "The monster demon king of revenge"
+  },
+  {
+    "id": 3656,
+    "m_character_id": 365,
+    "rarity": 6,
+    "class_name": "Uncontrollable Modified Demon King"
+  },
+  {
+    "id": 3661,
+    "m_character_id": 366,
+    "rarity": 1,
+    "class_name": "Zombie Princess"
+  },
+  {
+    "id": 3662,
+    "m_character_id": 366,
+    "rarity": 2,
+    "class_name": "Zombie Princess"
+  },
+  {
+    "id": 3663,
+    "m_character_id": 366,
+    "rarity": 3,
+    "class_name": "Zombie Princess"
+  },
+  {
+    "id": 3664,
+    "m_character_id": 366,
+    "rarity": 4,
+    "class_name": "Zombie Princess"
+  },
+  {
+    "id": 3665,
+    "m_character_id": 366,
+    "rarity": 5,
+    "class_name": "Organised by a flashy Halloween"
+  },
+  {
+    "id": 3666,
+    "m_character_id": 366,
+    "rarity": 6,
+    "class_name": "Horror Night Princess Demon King"
+  },
+  {
+    "id": 3681,
+    "m_character_id": 368,
+    "rarity": 1,
+    "class_name": "Beginner cosplayer"
+  },
+  {
+    "id": 3682,
+    "m_character_id": 368,
+    "rarity": 2,
+    "class_name": "Beginner cosplayer"
+  },
+  {
+    "id": 3683,
+    "m_character_id": 368,
+    "rarity": 3,
+    "class_name": "Beginner cosplayer"
+  },
+  {
+    "id": 3684,
+    "m_character_id": 368,
+    "rarity": 4,
+    "class_name": "Beginner cosplayer"
+  },
+  {
+    "id": 3685,
+    "m_character_id": 368,
+    "rarity": 5,
+    "class_name": "Garden Halloweenist"
+  },
+  {
+    "id": 3686,
+    "m_character_id": 368,
+    "rarity": 6,
+    "class_name": "Halloween Slayer"
+  },
+  {
+    "id": 3691,
+    "m_character_id": 369,
+    "rarity": 1,
+    "class_name": "First cosplay"
+  },
+  {
+    "id": 3692,
+    "m_character_id": 369,
+    "rarity": 2,
+    "class_name": "First cosplay"
+  },
+  {
+    "id": 3693,
+    "m_character_id": 369,
+    "rarity": 3,
+    "class_name": "First cosplay"
+  },
+  {
+    "id": 3694,
+    "m_character_id": 369,
+    "rarity": 4,
+    "class_name": "First cosplay"
+  },
+  {
+    "id": 3695,
+    "m_character_id": 369,
+    "rarity": 5,
+    "class_name": "Halloween healing cat"
+  },
+  {
+    "id": 3696,
+    "m_character_id": 369,
+    "rarity": 6,
+    "class_name": "Adorable Princess Cat Fang"
   }
 ]

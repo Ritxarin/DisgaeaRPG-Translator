@@ -2008,13 +2008,13 @@
   },
   {
     "id": 1918,
-    "name": "プラチナム召喚チケット",
+    "name": "Platinum Summon Ticket",
     "item_type": 19,
     "icon_no": 1918,
     "effect_value": [
       210011
     ],
-    "description": "プラチナムチケット召喚が利用できる",
+    "description": "A ticket that allows one summon on the Platinum Banner",
     "max_num": 999,
     "sell_price": 0
   },
@@ -3563,7 +3563,7 @@
       3,
       10
     ],
-    "description": "暗黒・深淵ゲートの戦闘をスキップできる券",
+    "description": "Ticket to skip battles in Dark Gates",
     "max_num": 99999,
     "sell_price": 100
   },
@@ -6342,13 +6342,13 @@
   },
   {
     "id": 4801,
-    "name": "魔素",
+    "name": "Magic Essence",
     "item_type": 48,
     "icon_no": 4801,
     "effect_value": [
       1
     ],
-    "description": "体内に取り込むと超転生可能な不思議な気体",
+    "description": "A mysterious material that allows characters to super reincarnate.",
     "max_num": 999999,
     "sell_price": 0
   },
@@ -6708,7 +6708,7 @@
     "effect_value": [
       5
     ],
-    "description": "USe to super awaken to ★6 and beyond",
+    "description": "Use to super awaken to ★6 and beyond",
     "max_num": 999,
     "sell_price": 0
   },
@@ -6720,7 +6720,7 @@
     "effect_value": [
       0
     ],
-    "description": "Coins that can be used at the exchange counter at the Demon World Martial Arts Tournament",
+    "description": "Coins that can be used at the shop at the Demon World Martial Arts Tournament",
     "max_num": 999999999,
     "sell_price": 0
   },
@@ -6732,7 +6732,7 @@
     "effect_value": [
       1
     ],
-    "description": "Use to restore 1 BP",
+    "description": "A portion that can restore 1 BP",
     "max_num": 999999999,
     "sell_price": 0
   },
@@ -6744,7 +6744,7 @@
     "effect_value": [
       1
     ],
-    "description": "Key for unlocking the Abyss Gate",
+    "description": "A key for unlocking the Abyss Gate",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -16407,13 +16407,13 @@
   },
   {
     "id": 2700150,
-    "name": "未来ウサリアの結晶",
+    "name": "Future Usalia crystal",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [
       100
     ],
-    "description": "未来ウサリアを魔改造できる結晶",
+    "description": "A crystal used for Future Usalia's Nether Enhancement.",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -19323,7 +19323,7 @@
   },
   {
     "id": 2720009,
-    "name": "Tallow Crystal",
+    "name": "Taro Crystal",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [
@@ -19335,7 +19335,7 @@
   },
   {
     "id": 2720010,
-    "name": "Flower crystal",
+    "name": "Hanako crystal",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [
@@ -24640,7 +24640,7 @@
       500,
       356
     ],
-    "description": "A mysterious drug that can earn Urumi's mana when used",
+    "description": "A mysterious drug that can earn Urmi's mana when used",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -24666,7 +24666,7 @@
       500,
       20106
     ],
-    "description": "A mysterious medicine that can earn you mana from a bottled apricot when used",
+    "description": "A mysterious medicine that can earn you mana for a bottle apricot when used",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -24708,7 +24708,7 @@
   },
   {
     "id": 2720106,
-    "name": "Bottle Aprico Crystal",
+    "name": "Bottle Apricot Crystal",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [
@@ -24726,7 +24726,7 @@
     "effect_value": [
       356
     ],
-    "description": "Demon stars that can turn Urumi into awakening state of 6★",
+    "description": "Demon stars that can turn Urmi into awakening state of 6★",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -24744,7 +24744,7 @@
   },
   {
     "id": 4620106,
-    "name": "Bottle Aprico's Demon Star",
+    "name": "Bottle Apricot's Demon Star",
     "item_type": 46,
     "icon_no": 4601,
     "effect_value": [
@@ -24779,6 +24779,18 @@
     "sell_price": 0
   },
   {
+    "id": 201028,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201028,
+    "effect_value": [
+      830
+    ],
+    "description": "Marone x Ashraid exclusive PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
     "id": 340228,
     "name": "Gathering festival exchange ticket",
     "item_type": 34,
@@ -24791,6 +24803,18 @@
     "sell_price": 0
   },
   {
+    "id": 2700360,
+    "name": "Swimsuit Marone Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can effectively modify swimsuit marone",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
     "id": 4600359,
     "name": "Rouen's Demon Star",
     "item_type": 46,
@@ -24799,6 +24823,684 @@
       359
     ],
     "description": "A demon that can make Rouen into awakening state of ★6",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 376,
+    "name": "It's a whole rose",
+    "item_type": 3,
+    "icon_no": 376,
+    "effect_value": [
+      100
+    ],
+    "description": "Your ability to take action will be restored. Elegance to eat whole things!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340229,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      835
+    ],
+    "description": "Available at PU Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340230,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      836
+    ],
+    "description": "Available at PU Character Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 377,
+    "name": "Dark Hero Chips",
+    "item_type": 3,
+    "icon_no": 377,
+    "effect_value": [
+      100
+    ],
+    "description": "Your ability to take action will be restored. It seems that cards have been discarded in the Demon World and become a social problem",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340231,
+    "name": "Festival character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      837
+    ],
+    "description": "Can be used at the Festival Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340232,
+    "name": "Festival Character Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      838
+    ],
+    "description": "Available at Festival Character Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700357,
+    "name": "Marone x Aprico Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can be used to modify Marone x Aprico",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 378,
+    "name": "Death Death's Konpei Sugar",
+    "item_type": 3,
+    "icon_no": 378,
+    "effect_value": [
+      100
+    ],
+    "description": "Your ability to take action will be restored. A souvenir from the Mandarin Expression. Eating one grain will make your life shine!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 1946,
+    "name": "Uniform heroine gathering festicket",
+    "item_type": 19,
+    "icon_no": 1946,
+    "effect_value": [
+      201140
+    ],
+    "description": "Tickets for a one-time festival for the heroines in the uniform",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 4561,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      843
+    ],
+    "description": "Life, shine! The 2nd World Expo! Dedicated BOSSPT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5929,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      843
+    ],
+    "description": "Life, shine! The 2nd World Expo! The keys you need to try BOSS in",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200028,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200028,
+    "effect_value": [
+      843
+    ],
+    "description": "Life, shine! The 2nd World Expo! Dedicated PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340233,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      839
+    ],
+    "description": "Can be used at PU character exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340234,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      840
+    ],
+    "description": "Available at PU Character Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340235,
+    "name": "Gathering festival exchange ticket",
+    "item_type": 34,
+    "icon_no": 3478,
+    "effect_value": [
+      844
+    ],
+    "description": "Available at the Gathering Festival Exchange",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300361,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      361
+    ],
+    "description": "A mysterious medicine that can earn you mana from the guide Almas when used.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300363,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      363
+    ],
+    "description": "A mysterious medicine that can earn mana from the guide Salvatore when used.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320107,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20107
+    ],
+    "description": "A mysterious drug that can earn you GAME THURSDAY mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700361,
+    "name": "The Crystal of the Guide Almas",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can magically modify the guide Almas",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700363,
+    "name": "The Crystal of the Guide Salvatore",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can magically modify the guide Salvatore",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700364,
+    "name": "Crystal of Lucy, the guard of the kanji baku",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can magically modify Lucy, the guard of the kanji-haku.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720107,
+    "name": "Gaming Thursday Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystals that can effectively modify Gaming Thursday",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600361,
+    "name": "The Demon Star of the Guide Almas",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      361
+    ],
+    "description": "The demon that can turn the guide Almas into awakening state of 6★",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600363,
+    "name": "The Demon Star of the Guide Salvatore",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      363
+    ],
+    "description": "The demon that can turn the guide Salvatore into awakening state of ★6",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620107,
+    "name": "Gaming Thursday's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20107
+    ],
+    "description": "A demon that can turn Gaming Thursday into awakening state of 6★",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 379,
+    "name": "Carrot curry",
+    "item_type": 3,
+    "icon_no": 379,
+    "effect_value": [
+      100
+    ],
+    "description": "Your ability to take action will be restored. Pyon is full of carrots, a specialty of the Usotomakai!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 1947,
+    "name": "★9 Manten Festacket",
+    "item_type": 19,
+    "icon_no": 1947,
+    "effect_value": [
+      201143
+    ],
+    "description": "★9 confirmed! Tickets for once for Manten Festival",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600364,
+    "name": "The Demon Star of the Mandarin Guard Lucy",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      364
+    ],
+    "description": "Demon Star that can turn the guard Lucy of the Kanji-Hiroshi into awakening state of 6★",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 1949,
+    "name": "Selfish Key EX Ticket",
+    "item_type": 19,
+    "icon_no": 1949,
+    "effect_value": [
+      201147
+    ],
+    "description": "Keep yourself selfish! Tickets for one All-Star EX Festival",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 201029,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201029,
+    "effect_value": [
+      846
+    ],
+    "description": "Space Fukaraide exclusive PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700362,
+    "name": "Space Fuka Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystals that can magically modify Space Fuka",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340237,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      849
+    ],
+    "description": "Available at PU Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340238,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      850
+    ],
+    "description": "Available at PU Character Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340239,
+    "name": "Festival character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      852
+    ],
+    "description": "Can be used at the Festival Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340240,
+    "name": "Festival Character Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      853
+    ],
+    "description": "Available at Festival Character Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720108,
+    "name": "Lord Desdeath crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can magically modify Death Death",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 380,
+    "name": "Sardine jelly",
+    "item_type": 3,
+    "icon_no": 380,
+    "effect_value": [
+      100
+    ],
+    "description": "Your ability to take action will be restored. 10 seconds sardine charge, 104 hours sardine keep",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 381,
+    "name": "Kiria-sama's love cookie",
+    "item_type": 3,
+    "icon_no": 381,
+    "effect_value": [
+      100
+    ],
+    "description": "Your ability to take action will be restored. I'm not going to be able to stay up all night in autumn night.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4562,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      856
+    ],
+    "description": "Halloween Slayer: Neo Shibu Night Breaking - Exclusive BOSSPT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5102,
+    "name": "Super Demon World Martial Arts Coin",
+    "item_type": 51,
+    "icon_no": 5102,
+    "effect_value": [
+      0
+    ],
+    "description": "Coins that can be used at the Makai Ichibutsukai Exchange",
+    "max_num": 999999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5930,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      856
+    ],
+    "description": "The key necessary to challenge BOSS in Halloween Slayer: Neo Seibuyaku-encountering",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200029,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200029,
+    "effect_value": [
+      856
+    ],
+    "description": "Halloween Slayer: Neo Shibu Night Breaking - Special PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340241,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      857
+    ],
+    "description": "Available at PU Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340242,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      858
+    ],
+    "description": "Available at PU Character Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300365,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      365
+    ],
+    "description": "A mysterious drug that can earn you Halloween Lahar Kai mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300366,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      366
+    ],
+    "description": "A mysterious medicine that can earn you mana for Nurse Seraphina when used.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300368,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      368
+    ],
+    "description": "A mysterious medicine that can earn mana for Ninja Piririka when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700365,
+    "name": "The Crystal of Halloween Lahar Reform",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystals that can be magically modified for Halloween Lahar Modification",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700366,
+    "name": "Nurse Cerafine Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can magically modify Nurse Serafine",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700368,
+    "name": "Ninja Piririka Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can magically modify the ninja Piririka",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700369,
+    "name": "Cat Cat Blue Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystal that can magically modify cat cat blue",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600365,
+    "name": "Halloween Lahar Money",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      365
+    ],
+    "description": "Demon Star that can turn Halloween Lahar Kai into awakening state of ★6",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600366,
+    "name": "Nurse Seraphine's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      366
+    ],
+    "description": "A demon that can make Nurse Serafine awakened to a 6-double state",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600368,
+    "name": "Ninja Piririka's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      368
+    ],
+    "description": "Demon Star that can turn Ninja Piririka into awakening state of ★6",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340243,
+    "name": "Chara crystal exchange ticket",
+    "item_type": 34,
+    "icon_no": 3453,
+    "effect_value": [
+      861
+    ],
+    "description": "Available at the Character Crystal Exchange",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600369,
+    "name": "Nekoneko Ao's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      369
+    ],
+    "description": "A magical star that can bring Nekoneko Ao to a ★6 awakened state.",
     "max_num": 9999,
     "sell_price": 0
   }

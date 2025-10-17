@@ -1,15 +1,36 @@
 from datetime import datetime
+from enum import IntEnum
 import json
 import os
 from pathlib import Path
 from typing import List, Optional
+
+class Device(IntEnum):
+    DMM = 1
+    Android = 2
 
 class Config:
 
     DEEPL_API_KEY = "YOUR API KEY HERE"
     INITIAL_SETUP = "initial_setup_date"
     LAST_EXECUTION = "last_execution_date"
+    TEXTURE_UPDATED_DATE = "texture_last_updated_date"
     CONFIG_PATH = 'config.json'
+    DEVICE = ''
+    PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+    @classmethod
+    def set_device(cls, device:Device):
+        if device == Device.DMM:
+            cls.DEVICE = 'DMM'
+        elif device == Device.Android:
+            cls.DEVICE = 'Android'
+
+    @classmethod
+    def get_device(cls):
+        if cls.DEVICE:
+            return cls.DEVICE  # returns "DMM" or "Android"
+        raise RuntimeError("Device not set. Call Config.set_device(Device.DMM or Device.Android) before running.")
 
     @classmethod
     def _load_config(cls):
@@ -29,7 +50,14 @@ class Config:
     def get_datetime_field(cls, field_name: str) -> Optional[datetime]:
         """Get a datetime field from the config by name."""
         config = cls._load_config()
-        date_str = config.get(field_name)
+        # Append _Android or _DMM based on device
+        if cls.DEVICE is None:
+            raise RuntimeError("DEVICE not set. Use Config.set_device() first.")
+        
+        device_suffix = f"_{cls.DEVICE}"  # e.g., _Android
+        full_field_name = field_name + device_suffix
+        date_str = config.get(full_field_name)
+
         if date_str:
             try:
                 # Parse ISO 8601 format
@@ -43,7 +71,12 @@ class Config:
         """Set a datetime field in the config using local time."""
         config = cls._load_config()
         dt_str = (dt or datetime.now()).isoformat()  # Local time
-        config[field_name] = dt_str
+        # Append _Android or _DMM based on device
+        if cls.DEVICE is None:
+            raise RuntimeError("DEVICE not set. Use Config.set_device() first.")        
+        device_suffix = f"_{cls.DEVICE}"  # e.g., _Android
+        full_field_name = field_name + device_suffix
+        config[full_field_name] = dt_str
         cls._save_config(config)
 
     @classmethod
@@ -58,19 +91,21 @@ class Config:
         return config.get('updated_files', [])
         
     FILES_TO_TRANSLATE =  [
-        'achievement', 'agenda', 'area', 'arenacategory', 'beginnermission',
-        'charactermission', 'character', 'characterclassname', 'characterintroduction',
-        'command', 
+        'achievement', 'agenda', 'area', 'arenacategory', 'beginnermission', 'boost',
+        'charactermission', 'character', 'characterclassname', 'characterintroduction', 'charactersubinfo',
+        'command', 'collaborationtext',
         'customdailymission', 'custommonthlymission', 'custompartskind', 'customtotalmission', 
         'drink', 'drinkskill', 
         'episode', 
         'equipment', 'equipmenteffecttype', 
         'eventmission', 'eventmissiondaily', 'eventmissionrepetition', 
+        'garapon', 'garaponlot',
         'help', 'hospital', 
         'innocent', 'innocentrecipe',
         'item', 'iteminformation', 
-        'kingdomrank', 'leaderskill', 'liqueur', 
-        'memory', 'memoryeffecttype', 'museum', 'potentialclass', 'product', 'ritualtrainings',
+        'kingdomrank', 'leaderskill', 'liqueur', 'loginbonus',
+        'memory', 'memoryeffecttype', 'museum', 
+        'potentialclass', 'potentialkind', 'product', 'ritualtrainings',
         'stage', 'stagemission', 'survey', 'tower', 
         'travelbenefit', 'travelnegativeeffect', 
         'trophy', 'trophydaily', 'trophydailyrequest', 'trophyrepetition', 'trophyweekly', 
@@ -93,40 +128,56 @@ class Config:
 
     FILES_TO_CHECK_FOR_UPDATES =  ['command', 'leaderskill']
 
-    FILES_TO_TRACK_NEW_ENTRIES =  ['command', 'leaderskill', 'character', 'characterclassname', 'item']
+    FILES_TO_TRACK_NEW_ENTRIES =  ['command', 'leaderskill', 'character', 'characterclassname', 'item', 'product', 'event']
 
     FIELDS_TO_TRANSLATE = [
-        'ability_description', 'body', 'button_text', 'category', 'class_name', 'class_name_1',
+        'ability_description', 'body', 'boost_description', 'boost_title', 'button_text', 'category', 'class_name', 'class_name_1',
         'class_name_2', 'class_name_3', 'class_name_4', 'class_name_5', 'condition_unit_name',
         'description', 'description_effect', 'description_format',
-        'get_areas', 'name', 'name_battle', 'release_content_description',
-        'resource_name', 'sheet_name', 'title'
+        'get_areas', 'item_name', 'm_text', 'name', 'name_battle', 'release_content_description',
+        'resource_name', 'sheet_name', 'sub_name', 'text', 'title'
     ]
 
     FIELDS_TO_CHECK_FOR_UPDATES = [ 'description', 'description_effect' ]
 
 class Paths:
-    CONFIG_PATH = Path("config.json")
-    DICTIONARIES_DIR = "./Dictionaries"
-    SOURCE_DIR = "./Source"
-    GLOBAL_ASSETS_DIR = "./Global_Assets"
-    SOURCE_TRANSLATED_DIR = "./Source_Translated"
-    NEW_ENTRIES_DIR = "./New_Entries"
-    TRANSLATED_FILES_DIR = "./Translated_Files"
-    UPDATED_FILES_DIR = "./Updated_Files"
-    MASTERS_BACKUP = "./Masters_Backup"
-    ASSETS_BACKUP = "./Assets_Backup"
+    CONFIG_PATH = Config.PROJECT_ROOT / "config.json"
+    DICTIONARIES_DIR = Config.PROJECT_ROOT / "Dictionaries"
+    GLOBAL_ASSETS_DIR = Config.PROJECT_ROOT / "Global_Assets"
+    SOURCE_TRANSLATED_DIR = Config.PROJECT_ROOT / "Source_Translated"
+    SOURCE_DIR = "Source"
+    NEW_ENTRIES_DIR = "New_Entries"
+    TRANSLATED_FILES_DIR = "Translated_Files"
+    TRANSLATED_PREFABS_DIR = "Translated_Prefabs"
+    SOURCE_PREFABS_DIR = "Source_Prefabs"
+    UPDATED_FILES_DIR = "Updated_Files"
+    MASTERS_BACKUP = "Masters_Backup"
+    ASSETS_BACKUP = "Assets_Backup"
     PATCHED_TEXTURES = "Patched_Textures"
+    PATCHED_TEXTURES_Android = Config.PROJECT_ROOT / "Android/Patched_Textures"
     GAME_ASSETS = os.path.join(
         os.getenv("LOCALAPPDATA").replace("Local", "LocalLow"),
         "disgaearpg",
         "DisgaeaRPG",
         "assetbundle"
     )
-    GAME_MASTERS = os.path.join(
+
+    GAME_ASSETS_DMM = os.path.join(
+        os.getenv("LOCALAPPDATA").replace("Local", "LocalLow"),
+        "disgaearpg",
+        "DisgaeaRPG",
+        "assetbundle"
+    )
+
+    GAME_MASTERS_DMM = os.path.join(
         os.getenv("LOCALAPPDATA").replace("Local", "LocalLow"),
         "disgaearpg",
         "DisgaeaRPG",
         "assetbundle",
         "masters"
     )
+
+    GAME_MASTERS_Android = '/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle/masters'
+    GAME_ASSETS_Android = '/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle/'
+    GAME_MASTERS_Android_Local = Config.PROJECT_ROOT / 'Android/master'
+    GAME_ASSETS_Android_Local = Config.PROJECT_ROOT / 'Android/Game_Assets'

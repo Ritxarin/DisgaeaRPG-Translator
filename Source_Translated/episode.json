@@ -1695,7 +1695,7 @@
     "no": 1,
     "series": 0,
     "m_main_story_category_id": 0,
-    "name": "サンタ虎千代",
+    "name": "Santa Torachiyo",
     "open_at": "",
     "close_at": ""
   },
@@ -3205,7 +3205,7 @@
     "no": 1,
     "series": 0,
     "m_main_story_category_id": 0,
-    "name": "Room of Trial Battle, Rahal the Thunderbolt Emperor",
+    "name": "Room of Trial Battle, Laharl the Thunderbolt Emperor",
     "open_at": "",
     "close_at": ""
   },
@@ -4025,7 +4025,7 @@
     "no": 1,
     "series": 0,
     "m_main_story_category_id": 0,
-    "name": "Trial Room, Rahal the Demon Angel.",
+    "name": "Trial Room, Laharl the Demon Angel.",
     "open_at": "",
     "close_at": ""
   },
@@ -4325,7 +4325,7 @@
     "no": 1,
     "series": 0,
     "m_main_story_category_id": 0,
-    "name": "Trial Room, Rahal the Demon Angel.",
+    "name": "Trial Room, Laharl the Demon Angel.",
     "open_at": "",
     "close_at": ""
   },
@@ -4776,6 +4776,136 @@
     "series": 0,
     "m_main_story_category_id": 0,
     "name": "Trial Room Fuji Zesshousai",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18301,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Marona × Ash",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18331,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Summer Palace of Etna Defense",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 21781,
+    "episode_type": 5,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Celebrating 2000th Anniversary! Mr. Hunter x Plenaire, the Main Character (Reminiscences)",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18421,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Manjihaku Special Battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18431,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Life, Shine! The 2nd Manjikai Exposition!",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18432,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Life, Shine! The 2nd Manjikai Expo! EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18451,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Swimsuit Fallen Angel Fron during the test",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18461,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Space Fuka",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18471,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Etna's summer resort: defense battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18541,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Neo Shinmu Night Special Battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18561,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Halloween Slayer - Neo Death Witness Night Flame",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18562,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Halloween Slayer - Neo Death Witness Night Flame - EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18591,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Trial Room, Ephemeral You Varvatose",
     "open_at": "",
     "close_at": ""
   }
