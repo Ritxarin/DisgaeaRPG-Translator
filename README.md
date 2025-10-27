@@ -5,17 +5,15 @@ A project to translate Disgaea RPG JP to english. It supports both Android and D
 Requirements:
 
 - Python v3.10+
-- DeepL API Key (not necessary, but if not provided the google translate will be used instead)
 - `pip install unitypy`
 - `pip install deepl`
 - `pip install deep_translator`
+- Optional: DeepL API Key (not necessary, if it's not provided, the google translate API will be used instead)
 
 ## Usage
 
 - Set up your DEEPL API key on config.py file. You can get one for free [by following these instructions](https://support.deepl.com/hc/en-us/articles/360020695820-API-key-for-DeepL-API). Getting one is free. This isn't required, if you do not provide one, the Google Translate API will be used instead, which is slower and in my oponion produces worse results.
-- Edit main.py line 12 to specify the device you want to run the tool for:
-  `Config.set_device(device=Device.DMM)`
-  `Config.set_device(device=Device.Android)`
+- Edit main.py line 12 to specify the device you want to run the tool for: `Config.set_device(device=Device.DMM)` or `Config.set_device(device=Device.Android)`
 - You can create two versions of the script, one for each device if you like.
 - If you are running it for android, ensure the connection is working. Some guidelines on what you will need on the FAQs section.
 - Run the script. It will take care of everything for you. Read the game files, translate them and then apply the translations to your game.

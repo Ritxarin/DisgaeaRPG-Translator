@@ -1,3 +1,4 @@
+import io
 import os
 import json
 import re
@@ -29,13 +30,108 @@ class DictionaryTranslator:
 
     def has(self, jp_text):
         return jp_text in self.dictionary
+    
+class DeepLTranslator:
+    def __init__(self, api_key=None):
+        self.api_key = api_key or Config.DEEPL_API_KEY
+        self.client = None
+        self.is_available = False
+
+        if not self.api_key or self.api_key == "YOUR API KEY HERE":
+            print("❌ No valid DeepL API key provided.")
+            return
+
+        try:
+            self.client = deepl.Translator(self.api_key)
+            usage = self.client.get_usage()
+            self.is_available = True
+            if usage.character.limit is None:
+                print("⚠️ DeepL key valid, but usage limits unknown.")
+        except deepl.exceptions.AuthorizationException:
+            print("❌ Invalid DeepL API key.")
+        except Exception as e:
+            print(f"⚠️ Failed to initialize DeepL: {e}")
+
+    def translate(self, text, source_lang="JA", target_lang="EN-US"):
+        if not self.is_available:
+            print("⚠️ DeepL not available — falling back or skipping.")
+            return None
+        try:
+            result = self.client.translate_text(text, source_lang=source_lang, target_lang=target_lang)
+            return result.text
+        except Exception as e:
+            print(f"⚠️ DeepL translation failed: {e}")
+            return None
+
+    def get_usage(self):
+        if self.client:
+            return self.client.get_usage()
+        return None
+
+class CharacterNameTranslator:
+    def __init__(self):
+        character_dir_path = Paths.CHARACTER_DICTIONARIES_DIR / 'CharacterNameDictionary.json'
+        character_prefix_dir_path = Paths.CHARACTER_DICTIONARIES_DIR / 'CharacterNamePrefixDictionary.json'
+        self.character_name_dict = {}
+        self.character_prefix_dict = {}
+        self.translator_deepl = DeepLTranslator()
+        if os.path.exists(Paths.CHARACTER_DICTIONARIES_DIR):
+            # Load character name dict
+            with io.open(character_dir_path, encoding='utf8') as f1:
+                try:
+                    self.character_name_dict.update(json.load(f1))
+                except json.JSONDecodeError:
+                        print(f"⚠️ Skipping invalid CharacterNameDictionary JSON")
+
+            # Load character name prefix dict
+            with io.open(character_prefix_dir_path, encoding='utf8') as f2:
+                try:
+                    self.character_prefix_dict.update(json.load(f2))
+                except json.JSONDecodeError:
+                        print(f"⚠️ Skipping invalid CharacterNamePrefixDictionary JSON")
+
+    def _smart_title(self, text):
+        small_words = {"of", "the", "a", "in", "and", "to"}
+        words = text.lower().split()
+        titled = [words[0].capitalize()] + [
+            w if w in small_words else w.capitalize()
+            for w in words[1:]
+        ]
+        return " ".join(titled)
+    
+    def translate(self, jp_name):
+        # Build regex to match known names (longest first to avoid partial matches)
+        name_pattern = "|".join(sorted(self.character_name_dict.keys(), key=len, reverse=True))
+        regex = re.compile(f"({name_pattern})")
+
+        match = regex.search(jp_name)
+        # No match found in dictionary, use DeepL to translate entire name
+        if not match:
+            self.translator_deepl.translate(jp_name)
+
+        char_jp = match.group(1)
+        char_en = self.character_name_dict[char_jp]
+        prefix = jp_name.replace(char_jp, "")
+
+        if prefix:
+            # Character name contains a prefix. Check if we have it in the prefix dictionary
+            if prefix in self.character_prefix_dict:
+                translated_prefix = self.character_prefix_dict[prefix]
+                return f"{translated_prefix} {char_en}"
+            # Otherwise, translate prefix via DeepL
+            translated_prefix = self.translator_deepl.translate(prefix, source_lang="JA", target_lang="EN-US")
+            translated_prefix = self._smart_title(translated_prefix)
+            return f"{translated_prefix} {char_en}"
+        else:
+            return char_en
 
 
 class EffectTranslator:
-    def __init__(self, path='./PatternDictionaries/EffectDictionary.json'):
+    def __init__(self):
+        self.dictionary_path =  Paths.PATTERN_DICTIONARIES_DIR / 'EffectDictionary.json'
         self.replacements = []
-        if os.path.exists(path):
-            with open(path, 'r', encoding='utf8') as f:
+        if os.path.exists(self.dictionary_path):
+            with open(self.dictionary_path, 'r', encoding='utf8') as f:
                 raw_dict = json.load(f)
                 self.replacements = sorted(
                     [(re.compile(re.escape(k)), v) for k, v in raw_dict.items()],
@@ -66,24 +162,12 @@ class Translator:
         self.dict_translator = DictionaryTranslator()
         self.effect_translator = EffectTranslator()
         self.evility_translator = EvilityTranslator()
-
-        # External services
-        self.files_for_deepl = ['stage', 'character', 'memory', 'episode', 'command']
-
+        self.translator_deepl = DeepLTranslator()
+        self.character_translator = CharacterNameTranslator()
         self.translator_google = GoogleTranslator(source='auto', target='en')
 
-        # Try initialize DeepL safely
-        self.translator_deepl = None
-        if Config.DEEPL_API_KEY and Config.DEEPL_API_KEY != "YOUR API KEY HERE":
-            try:
-                self.translator_deepl = deepl.Translator(Config.DEEPL_API_KEY)
-                usage = self.translator_deepl.get_usage()
-                if usage.character.limit is None:
-                    print("⚠️ DeepL key valid but usage limits unknown.")
-            except deepl.exceptions.AuthorizationException:
-                print("❌ Invalid DeepL API key.")
-            except Exception as e:
-                print(f"⚠️ Failed to initialize DeepL: {e}")
+        # External services
+        self.files_for_deepl = ['stage', 'character', 'memory', 'episode', 'command']        
 
     # ---------------------------
     # Main Translation Dispatcher
@@ -100,14 +184,18 @@ class Translator:
             # 2️⃣ Regex replacement for specific files/fields
             if filename == "command" and field == "description_effect":
                 return self.effect_translator.translate(value)
+            
+            # 2️⃣ Regex replacement for specific files/fields
+            if filename == "character" and field == "name":
+                return self.character_translator.translate(value)
 
-            # elif filename == "leaderskill" and field == "description":
+            # if filename == "leaderskill" and field == "description":
             #     translation = self.evility_translator.translate(value)
             #     if translation != value:
             #         return translation
 
             # 3️⃣ External translators
-            elif filename in self.files_for_deepl and self.translator_deepl:
+            if filename in self.files_for_deepl and self.translator_deepl:
                 result = self._translate_with_fallback(value)
             else:
                 result = self._translate_google(value)
@@ -137,8 +225,8 @@ class Translator:
     def _translate_deepl(self, text, max_retries=3, delay=5):
         for attempt in range(max_retries):
             try:
-                result = self.translator_deepl.translate_text(text, target_lang="EN-US")
-                return result.text
+                result = self.translator_deepl.translate(text, source_lang="JA", target_lang="EN-US")
+                return result
             except deepl.DeepLException as e:
                 print(f"🌀 DeepL attempt {attempt+1}/{max_retries} failed: {e}")
                 if attempt < max_retries - 1:
