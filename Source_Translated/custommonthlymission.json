@@ -1486,5 +1486,21 @@
     "present_num": 1,
     "open_at": "2025-10-01 00:00:00",
     "close_at": "2025-10-31 23:59:59"
+  },
+  {
+    "id": 2059,
+    "title": "Obtain over 60,000 challenge points",
+    "sort": 62,
+    "condition_type": 1,
+    "condition_id": 0,
+    "condition_num": 60000,
+    "rename_flg": 1,
+    "display_name": "【冥彩用】プリニースレイヤー",
+    "present_type": 7,
+    "present_id": 10048,
+    "present_rarity": 0,
+    "present_num": 1,
+    "open_at": "2025-11-01 00:00:00",
+    "close_at": "2025-11-30 23:59:59"
   }
 ]

@@ -25162,5 +25162,77 @@
     "m_character_id": 369,
     "rarity": 6,
     "class_name": "Adorable Princess Cat Fang"
+  },
+  {
+    "id": 3701,
+    "m_character_id": 370,
+    "rarity": 1,
+    "class_name": "Kind Older Sister"
+  },
+  {
+    "id": 3702,
+    "m_character_id": 370,
+    "rarity": 2,
+    "class_name": "Kind Older Sister"
+  },
+  {
+    "id": 3703,
+    "m_character_id": 370,
+    "rarity": 3,
+    "class_name": "Kind Older Sister"
+  },
+  {
+    "id": 3704,
+    "m_character_id": 370,
+    "rarity": 4,
+    "class_name": "Kind Older Sister"
+  },
+  {
+    "id": 3705,
+    "m_character_id": 370,
+    "rarity": 5,
+    "class_name": "exemplary halloweenist"
+  },
+  {
+    "id": 3706,
+    "m_character_id": 370,
+    "rarity": 6,
+    "class_name": "Large Flower Blooming for All Saints"
+  },
+  {
+    "id": 3671,
+    "m_character_id": 367,
+    "rarity": 1,
+    "class_name": "stray dog ​​fallen angel"
+  },
+  {
+    "id": 3672,
+    "m_character_id": 367,
+    "rarity": 2,
+    "class_name": "stray dog ​​fallen angel"
+  },
+  {
+    "id": 3673,
+    "m_character_id": 367,
+    "rarity": 3,
+    "class_name": "stray dog ​​fallen angel"
+  },
+  {
+    "id": 3674,
+    "m_character_id": 367,
+    "rarity": 4,
+    "class_name": "stray dog ​​fallen angel"
+  },
+  {
+    "id": 3675,
+    "m_character_id": 367,
+    "rarity": 5,
+    "class_name": "野性的愛天使"
+  },
+  {
+    "id": 3676,
+    "m_character_id": 367,
+    "rarity": 6,
+    "class_name": "Big monster leftovers"
   }
 ]

@@ -1243,5 +1243,18 @@
     "weapon_type": 2,
     "m_character_id": 362,
     "trainer_group_id": 2
+  },
+  {
+    "id": 101,
+    "name": "Super INT Boost",
+    "resource_name": "orb",
+    "innocent_type": 4,
+    "category": 3,
+    "description_format": "INT{0}% increase",
+    "calculate_format": "{0}%",
+    "effect_type": 63,
+    "weapon_type": 14,
+    "m_character_id": 365,
+    "trainer_group_id": 4
   }
 ]

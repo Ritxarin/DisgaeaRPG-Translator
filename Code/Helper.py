@@ -146,7 +146,7 @@ class Helper:
         
     def push_patched_textures_to_android():
         #patched_root = Path(Paths.PATCHED_TEXTURES_Android)
-        patched_root = Config.PROJECT_ROOT / Device.Android / Paths.PATCHED_TEXTURES
+        patched_root = Config.PROJECT_ROOT / 'Android' / Paths.PATCHED_TEXTURES
         android_root = "/sdcard/Android/data/com.disgaearpg.forwardworks/files/assetbundle"
 
         print(f"\n    🚀 Pushing patched textures to Android...")

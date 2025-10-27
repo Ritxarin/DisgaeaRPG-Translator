@@ -5250,5 +5250,18 @@
     "sort": 229,
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 210143,
+    "category": 2,
+    "museum_type": 1,
+    "target_id": 154,
+    "title": "witch liselotta",
+    "resource_name": "",
+    "m_character_id_1": 370,
+    "m_character_id_2": 0,
+    "sort": 110,
+    "open_at": "",
+    "close_at": ""
   }
 ]

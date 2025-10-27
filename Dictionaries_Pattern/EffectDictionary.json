@@ -13,6 +13,7 @@
 
   "HPが25%以下の場合": "If HP is 25% or below",
   "HPが満タンの時": "If HP is full",
+  "HPが満タンの時、": "If HP is full, ",
 
   "毒効果付与": "Poison",
   "効果": "Poison",
@@ -123,9 +124,11 @@
   "バフ継続ターン": "Buff duration extended",
   "デバフ継続ターン": "Debuff duration extended",
   "特殊効果解除": "Special Effect Removal",
+  "特殊効果[茨]解除": "Remove Thorns",
   "特殊効果[衰弱]解除": "Remove Weakness",
   "敵バフ効果微減": "Slightly reduce buff effect",
   "与ダメアップ効果解除全種類": "Remove damage reduction effects",
+  "バフ強奪": " Buff Steal",
 
   "受ける全てのダメージ": "Damage Taken",
   "受ける全てのﾀﾞﾒｰｼﾞ-": "Damage Received -",
@@ -236,6 +239,8 @@
   "対象のバフを#PER10#%無視してダメージ計算": "Damage calculation ignores #PER10#% of target's buffs",
   "対象のバフを70%無視してダメージ計算": "Damage calculation ignores 70% of target's Buffs",
   "対象がマヒ状態の時、": "If target is paralyzed, ",
+  "対象が睡眠状態の時、": "If target is asleep, ",
+  "対象が状態異常の時、": "If target has a status ailment, ",
 
   "連撃[": "Additional Hits [",
   "(威力": "(Power ",
@@ -263,9 +268,14 @@
 
   "DEFバフ状態の味方がいる時、": "[When ally has a DEF buff]",
   "PDバフ効果時、": "[If target has SDP debuff], ",
-  "対象のHPが75%以下の場合": "If 75% or less HP",
+  "対象のHPが75%以下の場合、": "If 75% or less HP, ",
   "体力が30%以下の場合、": "If HP is below 30%, ",
   "体力が1%以下の場合、": "If current HP is 1% or less, ",
+
+  "残HP#PER2#%減少": "Reduce HP by #PER2#%",
+  "残HP#PER3#%減少": "Reduce HP by #PER3#%",
+  "残HP#PER4#%減少": "Reduce HP by #PER4#%",
+  "残HP#PER5#%減少": "Reduce HP by #PER5#%",
 
   "潜在タイプ[キング]のキャラはさらにATK・INT+": "[Characters of symbol King]ATK & INT +",
   "潜在[ルーク]のキャラはさらに": "[Rook Characters] ",

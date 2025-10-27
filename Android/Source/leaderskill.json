@@ -29380,8 +29380,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             1
         ],
@@ -29390,7 +29390,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "ターン開始時、体力が50%以上の場合、パーティに必殺技で与えるダメージ+#PER#%(1T)付与"
+        "description": "ターン開始時、HPが50%以上の場合、パーティに必殺技で与えるダメージ+#PER#%(1T)付与"
     },
     {
         "id": 1584,
@@ -29418,8 +29418,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 30,
-        "effect_value_max": 30,
+        "effect_value_min": 35,
+        "effect_value_max": 35,
         "effect_turn": [
             0
         ],
@@ -60471,8 +60471,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             2,
             2,
@@ -60665,8 +60665,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 25,
-        "effect_value_max": 25,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             1
         ],
@@ -60858,8 +60858,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -60934,8 +60934,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 3,
-        "effect_value_max": 3,
+        "effect_value_min": 5,
+        "effect_value_max": 5,
         "effect_turn": [
             0
         ],
@@ -60944,7 +60944,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": ",CRD+#PER#%(INT・RES上限70%,CRD上限30%)"
+        "description": ",CRD+#PER#%(INT・RES上限70%,CRD上限50%)"
     },
     {
         "id": 2771,
@@ -61011,8 +61011,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 50,
-        "effect_value_max": 50,
+        "effect_value_min": 45,
+        "effect_value_max": 45,
         "effect_turn": [
             0
         ],
@@ -61127,8 +61127,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -61165,8 +61165,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -61203,8 +61203,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 10,
-        "effect_value_max": 10,
+        "effect_value_min": 15,
+        "effect_value_max": 15,
         "effect_turn": [
             2
         ],
@@ -64146,8 +64146,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 10,
-        "effect_value_max": 10,
+        "effect_value_min": 12,
+        "effect_value_max": 12,
         "effect_turn": [
             0
         ],
@@ -64184,8 +64184,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 50,
-        "effect_value_max": 50,
+        "effect_value_min": 75,
+        "effect_value_max": 75,
         "effect_turn": [
             0
         ],
@@ -64340,8 +64340,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 2,
-        "effect_value_max": 2,
+        "effect_value_min": 4,
+        "effect_value_max": 4,
         "effect_turn": [
             0
         ],
@@ -65040,8 +65040,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             2,
             2
@@ -65051,7 +65051,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティがクリティカル発動時、パーティのATK・CRD+#PER#%(2T)"
+        "description": "パーティがクリティカル時、パーティのATK・CRD+#PER#%(2T)"
     },
     {
         "id": 2914,
@@ -87305,6 +87305,314 @@
         "description": ",ATK・INT-#PER#%(2T)"
     },
     {
+        "id": 3671,
+        "name": "ワイルド全開！",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            2
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 35,
+        "effect_value_max": 35,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分のHP・ATK+#PER#%"
+    },
+    {
+        "id": 3672,
+        "name": "いくさオノ＋９９９９",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 6,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 50,
+        "effect_value_max": 50,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が斧武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3673,
+        "name": "愛の咆哮",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 1,
+        "trigger_status": 8,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、ATKバフ効果を受けている場合、自分に与える全てのダメージ+#PER#%(2T)付与"
+    },
+    {
+        "id": 3674,
+        "name": "グレーター・ラブ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 2,
+        "trigger_status": 21,
+        "trigger_param": 1,
+        "trigger_param2": 2,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 40,
+        "effect_value_max": 40,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティに人型キャラが2体以上いる場合、パーティのATK・INT+#PER#%"
+    },
+    {
+        "id": 3675,
+        "name": "ワイルド全開！",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRD+#PER#%"
+    },
+    {
+        "id": 3676,
+        "name": "いくさオノ＋９９９９",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 6,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3677,
+        "name": "愛の咆哮",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 1,
+        "trigger_status": 8,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 51,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            1
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",消費SP-#PER#%"
+    },
+    {
+        "id": 3678,
+        "name": "グレーター・ラブ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 2,
+        "trigger_status": 21,
+        "trigger_param": 1,
+        "trigger_param2": 4,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            3,
+            5,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 40,
+        "effect_value_max": 40,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらに人型キャラが4体以上いる場合、パーティのDEF・RES・CRD+#PER#%"
+    },
+    {
         "id": 3681,
         "name": "パリデを殲滅する者",
         "unique_flg": 0,
@@ -87919,6 +88227,312 @@
         ],
         "bad_effect_value": 0,
         "description": "、さらにパーティに与える全てのダメージ+#PER#%(2T)付与"
+    },
+    {
+        "id": 3701,
+        "name": "推しハロウィンの体現者",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            4,
+            5
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのINT・RES+#PER#%"
+    },
+    {
+        "id": 3702,
+        "name": "超魔流トリック",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 7,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が杖武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3703,
+        "name": "優しき魔女のおもてなし",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 15,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 18,
+        "effect_value_max": 18,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティが使用するバフの効果+18%"
+    },
+    {
+        "id": 3704,
+        "name": "ハロウィン・スマイル",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 35,
+        "effect_type_params": [
+            4,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 60,
+        "effect_value_max": 60,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティの生存キャラ数が多いほど自分のINT・CRD・CRTアップ(INT・CRDは最大+#PER#%"
+    },
+    {
+        "id": 3705,
+        "name": "推しハロウィンの体現者",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",HP+#PER#%"
+    },
+    {
+        "id": 3706,
+        "name": "超魔流トリック",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 7,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3707,
+        "name": "優しき魔女のおもてなし",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 7,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティの消費SP-#PER#%"
+    },
+    {
+        "id": 3708,
+        "name": "ハロウィン・スマイル",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 35,
+        "effect_type_params": [
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRTは最大+#PER#%,5キャラまで)"
     },
     {
         "id": 10011,
@@ -104859,8 +105473,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -104935,8 +105549,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],

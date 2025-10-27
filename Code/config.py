@@ -143,6 +143,8 @@ class Config:
 class Paths:
     CONFIG_PATH = Config.PROJECT_ROOT / "config.json"
     DICTIONARIES_DIR = Config.PROJECT_ROOT / "Dictionaries"
+    CHARACTER_DICTIONARIES_DIR = Config.PROJECT_ROOT / "Dictionaries_Character"
+    PATTERN_DICTIONARIES_DIR = Config.PROJECT_ROOT / "Dictionaries_Pattern"
     GLOBAL_ASSETS_DIR = Config.PROJECT_ROOT / "Global_Assets"
     SOURCE_TRANSLATED_DIR = Config.PROJECT_ROOT / "Source_Translated"
     SOURCE_DIR = "Source"

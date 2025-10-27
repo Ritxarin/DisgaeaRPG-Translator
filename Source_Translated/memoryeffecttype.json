@@ -134,5 +134,141 @@
     "effect_timing": 2,
     "description": "{0} SP when a turn begins {1}",
     "format": "+{0}"
+  },
+  {
+    "id": 9,
+    "effect_type": 1,
+    "effect_type_param": 1,
+    "effect_timing": 0,
+    "description": "{0}'s HP{1}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 10,
+    "effect_type": 1,
+    "effect_type_param": 2,
+    "effect_timing": 0,
+    "description": "{0}'s ATK{1}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 11,
+    "effect_type": 1,
+    "effect_type_param": 3,
+    "effect_timing": 0,
+    "description": "DEF{1} of {0}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 12,
+    "effect_type": 1,
+    "effect_type_param": 4,
+    "effect_timing": 0,
+    "description": "INT{1} of {0}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 13,
+    "effect_type": 1,
+    "effect_type_param": 5,
+    "effect_timing": 0,
+    "description": "RES{1} of {0}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 14,
+    "effect_type": 1,
+    "effect_type_param": 6,
+    "effect_timing": 0,
+    "description": "SPD{1} of {0}",
+    "format": "+{0}"
+  },
+  {
+    "id": 15,
+    "effect_type": 6,
+    "effect_type_param": 0,
+    "effect_timing": 0,
+    "description": "{0} gained EXP{1}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 16,
+    "effect_type": 7,
+    "effect_type_param": 0,
+    "effect_timing": 2,
+    "description": "{0}'s SP at the start of turn {1}",
+    "format": "+{0}"
+  },
+  {
+    "id": 110,
+    "effect_type": 1,
+    "effect_type_param": 1,
+    "effect_timing": 0,
+    "description": "{0}'s HP{1}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 111,
+    "effect_type": 1,
+    "effect_type_param": 2,
+    "effect_timing": 0,
+    "description": "{0}'s ATK{1}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 112,
+    "effect_type": 1,
+    "effect_type_param": 3,
+    "effect_timing": 0,
+    "description": "DEF{1} of {0}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 113,
+    "effect_type": 1,
+    "effect_type_param": 4,
+    "effect_timing": 0,
+    "description": "INT{1} of {0}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 114,
+    "effect_type": 1,
+    "effect_type_param": 5,
+    "effect_timing": 0,
+    "description": "RES{1} of {0}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 115,
+    "effect_type": 1,
+    "effect_type_param": 6,
+    "effect_timing": 0,
+    "description": "SPD{1} of {0}",
+    "format": "+{0}"
+  },
+  {
+    "id": 116,
+    "effect_type": 2,
+    "effect_type_param": 0,
+    "effect_timing": 0,
+    "description": "獲得HL{1}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 117,
+    "effect_type": 3,
+    "effect_type_param": 0,
+    "effect_timing": 0,
+    "description": "{0} gained EXP{1}",
+    "format": "+{0}%"
+  },
+  {
+    "id": 118,
+    "effect_type": 4,
+    "effect_type_param": 0,
+    "effect_timing": 2,
+    "description": "{0}'s SP at the start of turn {1}",
+    "format": "+{0}"
   }
 ]

@@ -25503,5 +25503,89 @@
     "description": "A magical star that can bring Nekoneko Ao to a ★6 awakened state.",
     "max_num": 9999,
     "sell_price": 0
+  },
+  {
+    "id": 201030,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201030,
+    "effect_value": [
+      860
+    ],
+    "description": "Halloween Lahar Kai Raid PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340244,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      864
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340245,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      865
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700370,
+    "name": "Witch Liselotta's Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically transform the witch Liselotta.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340246,
+    "name": "Festival character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      867
+    ],
+    "description": "Available at the Fes Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340247,
+    "name": "Festival character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      868
+    ],
+    "description": "Can be used at the festival character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700367,
+    "name": "Garbage Freon Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically modify Garbage Freon.",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]
