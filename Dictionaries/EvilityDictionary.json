@@ -275,5 +275,6 @@
   "ターン開始時、最もATKが高い味方キャラのATK・CRD+#PER#%(1T)": "Highest-ATK Ally: At start of turn, ATK/CRD +#PER#%(1T)",
   "ターン開始時、最もATKが高い味方キャラのATK・CRD+#PER#%(2T)": "Highest-ATK Ally: At start of turn, ATK/CRD +#PER#%(2T)",
   "ターン開始時、最もCRDが高い味方キャラのATK・CRD+#PER#%(1T)": "Highest-CRD Ally: At start of turn, ATK/CRD +#PER#%(1T)",
-  "ターン開始時、最もCRDが高い味方キャラのATK・CRD+#PER#%(2T)": "Highest-CRD Ally: At start of turn, ATK/CRD +#PER#%(2T)"
+  "ターン開始時、最もCRDが高い味方キャラのATK・CRD+#PER#%(2T)": "Highest-CRD Ally: At start of turn, ATK/CRD +#PER#%(2T)",
+  ",消費SP-#PER#%": ", SP cost -#PER#%"
 }

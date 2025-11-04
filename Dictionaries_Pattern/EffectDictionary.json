@@ -225,6 +225,7 @@
 
   "攻撃対象が受けているデバフ種類が多いほどダメージアップ": "Damage increases with the number of debuff types inflicted on the target ",
   "敵が少ないほど威力アップ": "Increase damage with fewer enemies",
+  "敵が多いほど威力アップ": "Skill Power increases the more enemies surviving",
   "+この技で倒した敵キャラ数×": "+No. of foes defeated by this skill ×",
   "この技で倒した敵ｷｬﾗ数×": "(No. of foes defeated by this skill)×",
 
