@@ -12,5 +12,8 @@
   "DEF+5%": "DEF+5%",
   "DEF+15%": "DEF+15%",
   "RES+5%": "RES+5%",
-  "RES+15%": "RES+15%"
+  "RES+15%": "RES+15%",
+
+  "コラボ中！": "Collab event underway!",
+  "コラボイベント中！": "Collaboration event in progress!"
 }

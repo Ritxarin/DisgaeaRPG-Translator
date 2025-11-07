@@ -1558,5 +1558,57 @@
     "present_rarity": 0,
     "present_num": 1,
     "sort": 4
+  },
+  {
+    "id": 871001,
+    "m_event_id": 871,
+    "title": "Clear a BOSS stage 5 times",
+    "condition_type": 76,
+    "condition_id": 0,
+    "condition_num": 5,
+    "present_type": 1,
+    "present_id": 4801,
+    "present_rarity": 0,
+    "present_num": 50,
+    "sort": 1
+  },
+  {
+    "id": 871002,
+    "m_event_id": 871,
+    "title": "Complete 50 stages in Areas 1-5",
+    "condition_type": 44,
+    "condition_id": 18711,
+    "condition_num": 50,
+    "present_type": 1,
+    "present_id": 4101,
+    "present_rarity": 0,
+    "present_num": 1,
+    "sort": 2
+  },
+  {
+    "id": 871003,
+    "m_event_id": 871,
+    "title": "Clear EXTRA area stages 30 times",
+    "condition_type": 44,
+    "condition_id": 18712,
+    "condition_num": 30,
+    "present_type": 1,
+    "present_id": 4201,
+    "present_rarity": 0,
+    "present_num": 1,
+    "sort": 3
+  },
+  {
+    "id": 871004,
+    "m_event_id": 871,
+    "title": "Spend 500,000 Event Points",
+    "condition_type": 77,
+    "condition_id": 0,
+    "condition_num": 500000,
+    "present_type": 1,
+    "present_id": 2301,
+    "present_rarity": 0,
+    "present_num": 1,
+    "sort": 4
   }
 ]

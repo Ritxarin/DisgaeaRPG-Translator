@@ -75,6 +75,8 @@ class CharacterNameTranslator:
         self.character_name_dict = {}
         self.character_prefix_dict = {}
         self.translator_deepl = DeepLTranslator()
+        self.google_translator = GoogleTranslator(source='auto', target='en')
+
         if os.path.exists(Paths.CHARACTER_DICTIONARIES_DIR):
             # Load character name dict
             with io.open(character_dir_path, encoding='utf8') as f1:
@@ -107,7 +109,7 @@ class CharacterNameTranslator:
         match = regex.search(jp_name)
         # No match found in dictionary, use DeepL to translate entire name
         if not match:
-            self.translator_deepl.translate(jp_name)
+            return self._translate_with_fallback(jp_name)
 
         char_jp = match.group(1)
         char_en = self.character_name_dict[char_jp]
@@ -119,12 +121,21 @@ class CharacterNameTranslator:
                 translated_prefix = self.character_prefix_dict[prefix]
                 return f"{translated_prefix} {char_en}"
             # Otherwise, translate prefix via DeepL
-            translated_prefix = self.translator_deepl.translate(prefix, source_lang="JA", target_lang="EN-US")
+            translated_prefix = self._translate_with_fallback(prefix)
             translated_prefix = self._smart_title(translated_prefix)
             return f"{translated_prefix} {char_en}"
         else:
             return char_en
 
+    def _translate_with_fallback(self, text):
+        try:
+            return self.translator_deepl.translate(text=text, source_lang="JA", target_lang="EN-US")
+        except deepl.DeepLException as e:
+            msg = str(e).lower()
+            if any(k in msg for k in ["quota", "limit", "too many requests"]):
+                print("⚠️ DeepL quota exceeded — switching to Google Translate.")
+                return self.google_translator.translate(text)
+            raise
 
 class EffectTranslator:
     def __init__(self):
@@ -156,7 +167,6 @@ class EvilityTranslator:
                 return repl(match)
         return text
 
-
 class Translator:
     def __init__(self):
         self.dict_translator = DictionaryTranslator()
@@ -185,14 +195,14 @@ class Translator:
             if filename == "command" and field == "description_effect":
                 return self.effect_translator.translate(value)
             
-            # 2️⃣ Regex replacement for specific files/fields
+            # 3️⃣ Character name translation
             if filename == "character" and field == "name":
                 return self.character_translator.translate(value)
 
-            # if filename == "leaderskill" and field == "description":
-            #     translation = self.evility_translator.translate(value)
-            #     if translation != value:
-            #         return translation
+            if filename == "leaderskill" and field == "description":
+                translation = self.evility_translator.translate(value)
+                if translation != value:
+                    return translation
 
             # 3️⃣ External translators
             if filename in self.files_for_deepl and self.translator_deepl:

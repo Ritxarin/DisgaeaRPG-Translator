@@ -25234,5 +25234,113 @@
     "m_character_id": 367,
     "rarity": 6,
     "class_name": "Giant Monster's Leftovers"
+  },
+  {
+    "id": 3711,
+    "m_character_id": 371,
+    "rarity": 1,
+    "class_name": "Foreign novice magician"
+  },
+  {
+    "id": 3712,
+    "m_character_id": 371,
+    "rarity": 2,
+    "class_name": "Foreign novice magician"
+  },
+  {
+    "id": 3713,
+    "m_character_id": 371,
+    "rarity": 3,
+    "class_name": "Foreign novice magician"
+  },
+  {
+    "id": 3714,
+    "m_character_id": 371,
+    "rarity": 4,
+    "class_name": "Foreign novice magician"
+  },
+  {
+    "id": 3715,
+    "m_character_id": 371,
+    "rarity": 5,
+    "class_name": "Foreign novice magician"
+  },
+  {
+    "id": 3716,
+    "m_character_id": 371,
+    "rarity": 6,
+    "class_name": "Foreign novice magician"
+  },
+  {
+    "id": 3741,
+    "m_character_id": 374,
+    "rarity": 1,
+    "class_name": "pious elf nun"
+  },
+  {
+    "id": 3742,
+    "m_character_id": 374,
+    "rarity": 2,
+    "class_name": "pious elf nun"
+  },
+  {
+    "id": 3743,
+    "m_character_id": 374,
+    "rarity": 3,
+    "class_name": "pious elf nun"
+  },
+  {
+    "id": 3744,
+    "m_character_id": 374,
+    "rarity": 4,
+    "class_name": "pious elf nun"
+  },
+  {
+    "id": 3745,
+    "m_character_id": 374,
+    "rarity": 5,
+    "class_name": "pious elf nun"
+  },
+  {
+    "id": 3746,
+    "m_character_id": 374,
+    "rarity": 6,
+    "class_name": "pious elf nun"
+  },
+  {
+    "id": 201091,
+    "m_character_id": 20109,
+    "rarity": 1,
+    "class_name": "red death minnows"
+  },
+  {
+    "id": 201092,
+    "m_character_id": 20109,
+    "rarity": 2,
+    "class_name": "red death minnows"
+  },
+  {
+    "id": 201093,
+    "m_character_id": 20109,
+    "rarity": 3,
+    "class_name": "red death minnows"
+  },
+  {
+    "id": 201094,
+    "m_character_id": 20109,
+    "rarity": 4,
+    "class_name": "red death minnows"
+  },
+  {
+    "id": 201095,
+    "m_character_id": 20109,
+    "rarity": 5,
+    "class_name": "red death minnows"
+  },
+  {
+    "id": 201096,
+    "m_character_id": 20109,
+    "rarity": 6,
+    "class_name": "red death minnows"
   }
 ]

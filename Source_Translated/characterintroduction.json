@@ -3953,5 +3953,47 @@
     "name": "Garbage Freon",
     "description": "In \"Blade & Bastard\"\nCharacters that appear,\nGarbage costume\nFreon wrapped around the body.\nAt first glance, it looks like a tattered piece of cloth, but\nCarefully crafted down to the last detail,\nHigh fluorocarbon technology and\nTo “Blade & Bastard”\nThe love is clearly conveyed.",
     "color_no": 6
+  },
+  {
+    "id": 1496,
+    "img_id": 367,
+    "name": "Garbage Freon",
+    "description": "In \"Blade & Bastard\"\nCharacters that appear,\nGarbage costume\nFreon wrapped around the body.\nis a favorite character\nIn order to become \"garbage\",\nTrying to be wilder than usual\nI'm trying.\nThe costumes are handmade by Freon.",
+    "color_no": 6
+  },
+  {
+    "id": 1497,
+    "img_id": 371,
+    "name": "Belcanan",
+    "description": "\"Blade & Bastard\"\nOne of the characters.\nAlthough he is a magician with a large physique,\nA little timid personality.\nHowever, when the time comes\nmuster up courage,\nDemonstrate dependable power.",
+    "color_no": 4
+  },
+  {
+    "id": 1498,
+    "img_id": 90012,
+    "name": "Tink",
+    "description": "Rosalind's childhood friend\nA young demon.\nI'm usually quiet but\nWhen I get angry or get excited\nMake your body red and make dirty jokes\nYou can say whatever you want, including abusive language.",
+    "color_no": 8
+  },
+  {
+    "id": 1499,
+    "img_id": 372,
+    "name": "garbage",
+    "description": "\"Blade & Bastard\"\nOne of the characters.\nHe didn't speak human language and looked like a stray dog.\nA girl who behaves.\nWielding a sword as big as his own life,\nDefeat the approaching enemy.\nThe name comes from ``the monster's leftovers''.",
+    "color_no": 1
+  },
+  {
+    "id": 1500,
+    "img_id": 374,
+    "name": "Eye Nikki",
+    "description": "\"Blade & Bastard\"\nOne of the characters.\nA female elf priest who serves the gods.\nThe adventurer who died in the \"Labyrinth\"\nA precious person who can be revived.\nWe care about garbage;\nI'm taking good care of you, but\nHe doesn't seem to like himself very much.",
+    "color_no": 11
+  },
+  {
+    "id": 1501,
+    "img_id": 90085,
+    "name": "Formal dress Rosalind",
+    "description": "For 6th anniversary party\nRosalind in a dress.\nVR game with Adele\nEnter the world.",
+    "color_no": 12
   }
 ]
