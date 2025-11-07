@@ -38,7 +38,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 12,
@@ -190,7 +190,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 21,
@@ -348,7 +348,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, party's SPD+#PER#%(1T)"
+    "description": "All Allies: At the start of the turn, SPD +#PER#%(1T)"
   },
   {
     "id": 25,
@@ -657,7 +657,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your ATK+#PER#%(3T)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 43,
@@ -810,7 +810,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 52,
@@ -965,7 +965,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT-#PER#%"
+    "description": ", ATK/INT -#PER#%"
   },
   {
     "id": 56,
@@ -1194,7 +1194,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, your ATK+#PER#%(3T)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 68,
@@ -1232,7 +1232,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(3T)"
+    "description": ", CRT +#PER#%(3T)"
   },
   {
     "id": 71,
@@ -1461,7 +1461,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Int ・ res+#for#%"
+    "description": ", INT/RES +#PER#%"
   },
   {
     "id": 81,
@@ -2198,7 +2198,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies ATK and DEF -#PER#%"
+    "description": "All Enemies: ATK/DEF -#PER#%"
   },
   {
     "id": 124,
@@ -2274,7 +2274,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT -#PER#%"
+    "description": ", CRT -#PER#%"
   },
   {
     "id": 128,
@@ -2388,7 +2388,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will be able to do your own INT+#PER#%(3T)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, INT +#PER#%(3T)"
   },
   {
     "id": 133,
@@ -2543,7 +2543,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(3T)"
+    "description": ", CRT +#PER#%(3T)"
   },
   {
     "id": 137,
@@ -2582,7 +2582,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 141,
@@ -2775,7 +2775,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's INT/RES+#PER#%"
+    "description": ", All Allies: INT/RES +#PER#%"
   },
   {
     "id": 147,
@@ -2815,7 +2815,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",INT・CRD+#PER#%"
+    "description": ", INT/CRD +#PER#%"
   },
   {
     "id": 151,
@@ -3161,7 +3161,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 166,
@@ -3853,7 +3853,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・CRD+#PER#%"
+    "description": ", ATK/CRD +#PER#%"
   },
   {
     "id": 198,
@@ -3933,7 +3933,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 202,
@@ -4625,7 +4625,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 236,
@@ -4702,7 +4702,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 242,
@@ -5553,7 +5553,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 296,
@@ -5631,7 +5631,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・CRD+#PER#%(2T)"
+    "description": ", ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 301,
@@ -5672,7 +5672,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 302,
@@ -5826,7 +5826,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 306,
@@ -6876,7 +6876,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 367,
@@ -7105,7 +7105,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies: ATK/INT -#PER#%"
+    "description": "All Enemies: ATK/INT -#PER#%"
   },
   {
     "id": 381,
@@ -7262,7 +7262,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will have your ATK/CRD+#PER#%(7T)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, ATK/CRD +#PER#%(7T)"
   },
   {
     "id": 385,
@@ -7300,7 +7300,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 387,
@@ -7376,7 +7376,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT+#PER#%(7T)"
+    "description": ", CRT +#PER#%(7T)"
   },
   {
     "id": 391,
@@ -7452,7 +7452,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, SPD +#PER#%(1 turn)"
+    "description": "Self: At the start of the turn, SPD +#PER#%(1T)"
   },
   {
     "id": 393,
@@ -7531,7 +7531,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your ATK/DEF+#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 401,
@@ -7649,7 +7649,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will have your SPD+#PER#%(2 turns)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, SPD +#PER#%(2T)"
   },
   {
     "id": 404,
@@ -8037,7 +8037,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 438,
@@ -8506,7 +8506,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will have your ATK+#PER#%(3 turns)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, ATK +#PER#%(3T)"
   },
   {
     "id": 464,
@@ -9012,7 +9012,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies base parameters other than HP -#PER#%"
+    "description": "All Enemies: Non-HP Basic Stats -#PER#%"
   },
   {
     "id": 511,
@@ -9054,7 +9054,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 512,
@@ -9674,7 +9674,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party INT, DEF, CRD+#PER#%"
+    "description": "All Allies: INT/DEF/CRD +#PER#%"
   },
   {
     "id": 572,
@@ -9944,7 +9944,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's INT+#PER#%(3T)"
+    "description": "All Allies: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 585,
@@ -9983,7 +9983,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 587,
@@ -10369,7 +10369,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 606,
@@ -10485,7 +10485,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's ATK/INT+#PER#%(4T)"
+    "description": "All Allies: At the start of battle, ATK/INT +#PER#%(4T)"
   },
   {
     "id": 612,
@@ -10641,7 +10641,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD -#PER#%"
+    "description": ", SPD -#PER#%"
   },
   {
     "id": 617,
@@ -10874,7 +10874,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's ATK/DEF+#PER#%(3 turns)"
+    "description": "All Allies: At the start of battle, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 632,
@@ -10951,7 +10951,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party DEF/HP+#PER#%"
+    "description": "All Allies: DEF/HP +#PER#%"
   },
   {
     "id": 634,
@@ -11349,7 +11349,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 656,
@@ -11427,7 +11427,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT・CRD+#PER#%(2T)"
+    "description": ", CRT/CRD +#PER#%(2T)"
   },
   {
     "id": 661,
@@ -11621,7 +11621,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT+#PER#%(2T)"
+    "description": ", ATK/INT +#PER#%(2T)"
   },
   {
     "id": 671,
@@ -11743,7 +11743,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, party's ATK/RES+#PER#%(2T)"
+    "description": "All Allies: At the start of the turn, ATK/RES +#PER#%(2T)"
   },
   {
     "id": 674,
@@ -11861,7 +11861,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", CRD/CRT+#PER#%(1T)"
+    "description": ", CRD/CRT +#PER#%(1T)"
   },
   {
     "id": 681,
@@ -12058,7 +12058,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD・HP+#PER#%"
+    "description": ", SPD/HP +#PER#%"
   },
   {
     "id": 686,
@@ -12415,7 +12415,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's ATK, DEF, CRD+#PER#%"
+    "description": "All Allies: ATK/DEF/CRD +#PER#%"
   },
   {
     "id": 702,
@@ -12569,7 +12569,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 706,
@@ -12842,7 +12842,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 716,
@@ -13035,7 +13035,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your ATK/INT+#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK/INT +#PER#%(3T)"
   },
   {
     "id": 724,
@@ -13231,7 +13231,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your ATK/DEF+#PER#%(3T)"
+    "description": "Self: At the start of the turn, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 735,
@@ -13269,7 +13269,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 736,
@@ -13345,7 +13345,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 741,
@@ -13695,7 +13695,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 756,
@@ -13848,7 +13848,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 762,
@@ -14234,7 +14234,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and HP +#PER#%"
+    "description": "All Allies: ATK/HP +#PER#%"
   },
   {
     "id": 782,
@@ -14310,7 +14310,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 784,
@@ -14387,7 +14387,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party INT/DEF+#PER#%"
+    "description": "All Allies: INT/DEF +#PER#%"
   },
   {
     "id": 792,
@@ -14699,7 +14699,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 812,
@@ -14857,7 +14857,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 822,
@@ -14898,7 +14898,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies base parameters other than HP -#PER#%"
+    "description": "All Enemies: Non-HP Basic Stats -#PER#%"
   },
   {
     "id": 823,
@@ -15329,7 +15329,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party INT/RES+#PER#%"
+    "description": "All Allies: INT/RES +#PER#%"
   },
   {
     "id": 852,
@@ -15797,7 +15797,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 876,
@@ -15874,7 +15874,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party HP/SPD+#PER#%"
+    "description": "All Allies: HP/SPD +#PER#%"
   },
   {
     "id": 882,
@@ -15990,7 +15990,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's ATK/DEF+#PER#%(5T)"
+    "description": "All Allies: At the start of battle, ATK/DEF +#PER#%(5T)"
   },
   {
     "id": 886,
@@ -16028,7 +16028,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(1T)"
+    "description": ", CRT +#PER#%(1T)"
   },
   {
     "id": 887,
@@ -16801,7 +16801,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 926,
@@ -16955,7 +16955,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's ATK/RES+#PER#%(3T)"
+    "description": "All Allies: At the start of battle, ATK/RES +#PER#%(3T)"
   },
   {
     "id": 933,
@@ -17264,7 +17264,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 948,
@@ -17302,7 +17302,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 951,
@@ -18077,7 +18077,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 998,
@@ -18116,7 +18116,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's ATK/INT+#PER#%"
+    "description": ", All Allies: ATK/INT +#PER#%"
   },
   {
     "id": 1001,
@@ -18234,7 +18234,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will be able to do your own INT+#PER#%(2T)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, INT +#PER#%(2T)"
   },
   {
     "id": 1004,
@@ -18350,7 +18350,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD・CRT+#PER#%(2T)"
+    "description": ", CRD/CRT +#PER#%(2T)"
   },
   {
     "id": 1011,
@@ -18430,7 +18430,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, party's ATK+#PER#%(1 turn)"
+    "description": "All Allies: At the start of the turn, ATK +#PER#%(1T)"
   },
   {
     "id": 1013,
@@ -18699,7 +18699,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party ATK+#PER#%"
+    "description": "All Allies: ATK +#PER#%"
   },
   {
     "id": 1032,
@@ -18851,7 +18851,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1038,
@@ -18889,7 +18889,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD -#PER#%(2T)"
+    "description": ", SPD -#PER#%(2T)"
   },
   {
     "id": 1041,
@@ -18928,7 +18928,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party ATK/RES+#PER#%"
+    "description": "All Allies: ATK/RES +#PER#%"
   },
   {
     "id": 1042,
@@ -18966,7 +18966,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your SPD+#PER#%(1T)"
+    "description": "Self: At the start of the turn, SPD +#PER#%(1T)"
   },
   {
     "id": 1043,
@@ -19555,7 +19555,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 1074,
@@ -20074,7 +20074,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My CRT+#PER#%"
+    "description": "Self: CRT +#PER#%"
   },
   {
     "id": 1111,
@@ -20154,7 +20154,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your SPD+#PER#%(1T)"
+    "description": "Self: At the start of the turn, SPD +#PER#%(1T)"
   },
   {
     "id": 1113,
@@ -20662,7 +20662,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies ATK and DEF -#PER#%"
+    "description": "All Enemies: ATK/DEF -#PER#%"
   },
   {
     "id": 1141,
@@ -20704,7 +20704,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1142,
@@ -21018,7 +21018,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1161,
@@ -21526,7 +21526,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, your ATK/RES+#PER#%(3 turns)"
+    "description": "Self: At the start of battle, ATK/RES +#PER#%(3T)"
   },
   {
     "id": 1183,
@@ -22177,7 +22177,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 1221,
@@ -22689,7 +22689,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's CRT+#PER#%(3 turns)"
+    "description": "All Allies: At the start of battle, CRT +#PER#%(3T)"
   },
   {
     "id": 1246,
@@ -22765,7 +22765,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and even party SPD+#PER#%"
+    "description": ", All Allies: SPD +#PER#%"
   },
   {
     "id": 1251,
@@ -22959,7 +22959,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1257,
@@ -23120,7 +23120,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will need to use the basic parameters other than your HP +#PER#%(2T)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, Non-HP Basic Stats +#PER#%(2T)"
   },
   {
     "id": 1264,
@@ -23196,7 +23196,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1267,
@@ -23234,7 +23234,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 1271,
@@ -23426,7 +23426,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1276,
@@ -23464,7 +23464,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 1278,
@@ -23543,7 +23543,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1282,
@@ -23699,7 +23699,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1287,
@@ -23737,7 +23737,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(5T)"
+    "description": ", CRD +#PER#%(5T)"
   },
   {
     "id": 1291,
@@ -23776,7 +23776,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 1292,
@@ -24131,7 +24131,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1312,
@@ -24208,7 +24208,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies ATK and DEF -#PER#%"
+    "description": "All Enemies: ATK/DEF -#PER#%"
   },
   {
     "id": 1314,
@@ -24287,7 +24287,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD・CRT-#PER#%"
+    "description": ", SPD/CRT -#PER#%"
   },
   {
     "id": 1318,
@@ -24364,7 +24364,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1322,
@@ -24480,7 +24480,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's ATK/DEF+#PER#%(3 turns)"
+    "description": "All Allies: At the start of battle, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 1325,
@@ -24518,7 +24518,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1328,
@@ -24595,7 +24595,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: INT and RES +#PER#%"
+    "description": "All Allies: INT/RES +#PER#%"
   },
   {
     "id": 1332,
@@ -24749,7 +24749,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1336,
@@ -24827,7 +24827,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and INT/CRD+#PER#%(2 turns)"
+    "description": ", INT/CRD +#PER#%(2T)"
   },
   {
     "id": 1341,
@@ -24868,7 +24868,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1342,
@@ -25021,7 +25021,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1351,
@@ -25060,7 +25060,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1352,
@@ -25256,7 +25256,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1362,
@@ -25410,7 +25410,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1366,
@@ -25527,7 +25527,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 1372,
@@ -25691,7 +25691,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT -#PER#%"
+    "description": ", CRT -#PER#%"
   },
   {
     "id": 1377,
@@ -25970,7 +25970,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 1391,
@@ -26010,7 +26010,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and HP +#PER#%"
+    "description": "All Allies: ATK/INT/HP +#PER#%"
   },
   {
     "id": 1392,
@@ -26167,7 +26167,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1402,
@@ -26474,7 +26474,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and HP +#PER#%"
+    "description": "All Allies: ATK/HP +#PER#%"
   },
   {
     "id": 1422,
@@ -26628,7 +26628,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1432,
@@ -26787,7 +26787,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party ATK/RES+#PER#%"
+    "description": "All Allies: ATK/RES +#PER#%"
   },
   {
     "id": 1442,
@@ -27097,7 +27097,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1462,
@@ -27407,7 +27407,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1477,
@@ -27445,7 +27445,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1481,
@@ -27486,7 +27486,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1482,
@@ -27640,7 +27640,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1486,
@@ -27793,7 +27793,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1492,
@@ -27945,7 +27945,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1501,
@@ -27984,7 +27984,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and HP +#PER#%"
+    "description": "All Allies: ATK/HP +#PER#%"
   },
   {
     "id": 1502,
@@ -28141,7 +28141,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My ATK, DEF, CRD, HP+#PER#%"
+    "description": "Self: ATK/DEF/CRD/HP +#PER#%"
   },
   {
     "id": 1512,
@@ -28298,7 +28298,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party ATK, INT, CRD, HP+#PER#%"
+    "description": "All Allies: ATK/INT/CRD/HP +#PER#%"
   },
   {
     "id": 1522,
@@ -28533,7 +28533,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My basic parameters +#PER#%"
+    "description": "Self: Basic Stats +#PER#%"
   },
   {
     "id": 1532,
@@ -28687,7 +28687,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and HP +#PER#%"
+    "description": "All Allies: ATK/INT/HP +#PER#%"
   },
   {
     "id": 1542,
@@ -28846,7 +28846,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1552,
@@ -28999,7 +28999,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1562,
@@ -29153,7 +29153,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies ATK and DEF -#PER#%"
+    "description": "All Enemies: ATK/DEF -#PER#%"
   },
   {
     "id": 1572,
@@ -29308,7 +29308,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1582,
@@ -29466,7 +29466,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1586,
@@ -29504,7 +29504,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 1587,
@@ -29583,7 +29583,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My ATK, DEF, RES, HP+#PER#%"
+    "description": "Self: ATK/DEF/RES/HP +#PER#%"
   },
   {
     "id": 1592,
@@ -29743,7 +29743,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(4T)"
+    "description": ", CRD +#PER#%(4T)"
   },
   {
     "id": 1598,
@@ -29783,7 +29783,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and RES/CRD+#PER#%(1T)"
+    "description": ", RES/CRD +#PER#%(1T)"
   },
   {
     "id": 1601,
@@ -29823,7 +29823,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party HP, ATK, RES+#PER#%"
+    "description": "All Allies: HP/ATK/RES +#PER#%"
   },
   {
     "id": 1602,
@@ -29975,7 +29975,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1611,
@@ -30014,7 +30014,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1612,
@@ -30172,7 +30172,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1616,
@@ -30210,7 +30210,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1618,
@@ -30287,7 +30287,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party ATK/RES+#PER#%"
+    "description": "All Allies: ATK/RES +#PER#%"
   },
   {
     "id": 1622,
@@ -30440,7 +30440,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1628,
@@ -30517,7 +30517,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1632,
@@ -30671,7 +30671,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1641,
@@ -31098,7 +31098,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1661,
@@ -31290,7 +31290,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1671,
@@ -31330,7 +31330,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party ATK, INT, HP+#PER#%"
+    "description": "All Allies: ATK/INT/HP +#PER#%"
   },
   {
     "id": 1672,
@@ -31483,7 +31483,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 1682,
@@ -31679,7 +31679,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 1688,
@@ -31758,7 +31758,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My INT, DEF, RES, CRD+#PER#%"
+    "description": "Self: INT/DEF/RES/CRD +#PER#%"
   },
   {
     "id": 1692,
@@ -31913,7 +31913,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1698,
@@ -31996,7 +31996,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Base parameters +#PER#%"
+    "description": "Self: Basic Stats +#PER#%"
   },
   {
     "id": 1702,
@@ -32382,7 +32382,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1716,
@@ -32458,7 +32458,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT+#PER#％"
+    "description": ", CRT +#PER#%"
   },
   {
     "id": 1718,
@@ -32536,7 +32536,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and HP +#PER#%"
+    "description": "All Allies: ATK/INT/HP +#PER#%"
   },
   {
     "id": 1722,
@@ -32689,7 +32689,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1728,
@@ -32888,7 +32888,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party SPD/CRT+#PER#%"
+    "description": "All Allies: SPD/CRT +#PER#%"
   },
   {
     "id": 1735,
@@ -32926,7 +32926,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1736,
@@ -33002,7 +33002,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1741,
@@ -33042,7 +33042,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and HP +#PER#%"
+    "description": "All Allies: ATK/INT/HP +#PER#%"
   },
   {
     "id": 1742,
@@ -33195,7 +33195,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 1746,
@@ -33271,7 +33271,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1751,
@@ -33312,7 +33312,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1752,
@@ -33464,7 +33464,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1756,
@@ -33502,7 +33502,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 1757,
@@ -33542,7 +33542,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT+#PER#%(1T)"
+    "description": ", ATK/INT +#PER#%(1T)"
   },
   {
     "id": 1761,
@@ -33582,7 +33582,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 1762,
@@ -33854,7 +33854,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1772,
@@ -34088,7 +34088,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's ATK, INT, CRD+#PER#%(3T)"
+    "description": "All Allies: At the start of battle, ATK/INT/CRD +#PER#%(3T)"
   },
   {
     "id": 1784,
@@ -34164,7 +34164,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 1786,
@@ -34202,7 +34202,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 1791,
@@ -34434,7 +34434,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD-#PER#%(3T)"
+    "description": ", CRD -#PER#%(3T)"
   },
   {
     "id": 1801,
@@ -34476,7 +34476,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1802,
@@ -34666,7 +34666,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 1808,
@@ -34704,7 +34704,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 1811,
@@ -34743,7 +34743,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and CRD +#PER#%"
+    "description": "Self: ATK/CRD +#PER#%"
   },
   {
     "id": 1812,
@@ -34895,7 +34895,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1818,
@@ -34975,7 +34975,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1822,
@@ -35437,7 +35437,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1842,
@@ -35589,7 +35589,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1846,
@@ -35669,7 +35669,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1852,
@@ -35829,7 +35829,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1856,
@@ -35985,7 +35985,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1862,
@@ -36297,7 +36297,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1872,
@@ -36376,7 +36376,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's ATK/DEF+#PER#%(3 turns)"
+    "description": "All Allies: At the start of battle, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 1874,
@@ -36494,7 +36494,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1882,
@@ -36533,7 +36533,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 1883,
@@ -36692,7 +36692,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", ATK・INT-#PER#%"
+    "description": ", ATK/INT -#PER#%"
   },
   {
     "id": 1887,
@@ -36770,7 +36770,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party DEF/RES/HP +#PER#%"
+    "description": "All Allies: DEF/RES/HP +#PER#%"
   },
   {
     "id": 1892,
@@ -37274,7 +37274,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and HP +#PER#%"
+    "description": "All Allies: ATK/HP +#PER#%"
   },
   {
     "id": 1912,
@@ -37352,7 +37352,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given ATK/DEF debuff conversion status (4 times)"
+    "description": "All Allies: At start of battle, ATK/DEF Debuff Conversion (4 times)"
   },
   {
     "id": 1914,
@@ -37862,7 +37862,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1932,
@@ -38024,7 +38024,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1936,
@@ -38102,7 +38102,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP, ATK, and DEF +#PER#%"
+    "description": "All Allies: HP/ATK/DEF +#PER#%"
   },
   {
     "id": 1942,
@@ -38223,7 +38223,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, wind damage to the enemy with the lowest HP (2 times, B+ power)"
+    "description": "Lowest-HP Foe: At the end of the turn, Wind Follow-up (2 Times, Power B+)"
   },
   {
     "id": 1945,
@@ -38261,7 +38261,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1947,
@@ -38339,7 +38339,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP, ATK, and DEF +#PER#%"
+    "description": "All Allies: HP/ATK/DEF +#PER#%"
   },
   {
     "id": 1952,
@@ -38495,7 +38495,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 1956,
@@ -38651,7 +38651,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1962,
@@ -38807,7 +38807,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 1968,
@@ -38884,7 +38884,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: INT and RES +#PER#%"
+    "description": "All Allies: INT/RES +#PER#%"
   },
   {
     "id": 1972,
@@ -39003,7 +39003,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, water attribute attacks on enemy characters with low remaining HP (2 times, power B+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Water Follow-up (2 Times, Power B+)"
   },
   {
     "id": 1975,
@@ -39041,7 +39041,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1976,
@@ -39158,7 +39158,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1982,
@@ -39311,7 +39311,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1986,
@@ -39464,7 +39464,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 1992,
@@ -39616,7 +39616,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 1997,
@@ -39882,7 +39882,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2007,
@@ -39958,7 +39958,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(3T)"
+    "description": ", CRT +#PER#%(3T)"
   },
   {
     "id": 2011,
@@ -40000,7 +40000,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Base parameters +#PER#%"
+    "description": "Self: Basic Stats +#PER#%"
   },
   {
     "id": 2012,
@@ -40080,7 +40080,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given a DEF, INT, and RES debuff conversion status (4 times)"
+    "description": "All Allies: At start of battle, DEF/INT/RES Debuff Conversion (4 times)"
   },
   {
     "id": 2014,
@@ -40158,7 +40158,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2016,
@@ -40274,7 +40274,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's ATK/CRD+#PER#%(2T)"
+    "description": ", All Allies: ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 2021,
@@ -40314,7 +40314,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 2022,
@@ -40582,7 +40582,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP, ATK, and DEF +#PER#%"
+    "description": "All Allies: HP/ATK/DEF +#PER#%"
   },
   {
     "id": 2032,
@@ -40622,7 +40622,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given an ATK/INT debuff conversion status (3 times)"
+    "description": "All Allies: At start of battle, ATK/INT Debuff Conversion (3 times)"
   },
   {
     "id": 2033,
@@ -40742,7 +40742,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2037,
@@ -40861,7 +40861,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and HP +#PER#%"
+    "description": "All Allies: ATK/HP +#PER#%"
   },
   {
     "id": 2042,
@@ -41014,7 +41014,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 2046,
@@ -41172,7 +41172,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters other than the party's HP: CRD+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats/CRD +#PER#%"
   },
   {
     "id": 2052,
@@ -41326,7 +41326,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2057,
@@ -41364,7 +41364,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 2058,
@@ -41444,7 +41444,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 2062,
@@ -41598,7 +41598,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 2066,
@@ -41764,7 +41764,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: base parameters and CRD +#PER#%"
+    "description": "All Allies: Basic Stats/CRD +#PER#%"
   },
   {
     "id": 2072,
@@ -41998,7 +41998,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 2082,
@@ -42232,7 +42232,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters other than the party's HP: CRD+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats/CRD +#PER#%"
   },
   {
     "id": 2102,
@@ -42384,7 +42384,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2106,
@@ -42422,7 +42422,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 2108,
@@ -42462,7 +42462,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・CRD+#PER#%(1T)"
+    "description": ", ATK/CRD +#PER#%(1T)"
   },
   {
     "id": 2111,
@@ -42502,7 +42502,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 2112,
@@ -42654,7 +42654,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2116,
@@ -42730,7 +42730,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 2121,
@@ -42846,7 +42846,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, party's ATK/INT+#PER#%(1T)"
+    "description": "All Allies: At the start of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 2124,
@@ -42922,7 +42922,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2126,
@@ -42998,7 +42998,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 2128,
@@ -43078,7 +43078,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 2132,
@@ -43236,7 +43236,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2136,
@@ -43312,7 +43312,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 2141,
@@ -43352,7 +43352,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party DEF, RES, HP+#PER#%"
+    "description": "All Allies: DEF/RES/HP +#PER#%"
   },
   {
     "id": 2142,
@@ -43506,7 +43506,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 2146,
@@ -43582,7 +43582,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 2151,
@@ -43622,7 +43622,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party ATK, CRD, HP+#PER#%"
+    "description": "All Allies: ATK/CRD/HP +#PER#%"
   },
   {
     "id": 2152,
@@ -43852,7 +43852,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2161,
@@ -43892,7 +43892,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My HP, ATK, DEF+#PER#%"
+    "description": "Self: HP/ATK/DEF +#PER#%"
   },
   {
     "id": 2162,
@@ -44120,7 +44120,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 2171,
@@ -44159,7 +44159,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies: ATK/INT -#PER#%"
+    "description": "All Enemies: ATK/INT -#PER#%"
   },
   {
     "id": 2172,
@@ -44236,7 +44236,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, wind damage to the enemy with the lowest HP (2 times, B+ power)"
+    "description": "Lowest-HP Foe: At the end of the turn, Wind Follow-up (2 Times, Power B+)"
   },
   {
     "id": 2174,
@@ -44312,7 +44312,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT -#PER#%"
+    "description": ", CRT -#PER#%"
   },
   {
     "id": 2176,
@@ -44388,7 +44388,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 2181,
@@ -44430,7 +44430,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 2182,
@@ -44582,7 +44582,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2188,
@@ -44811,7 +44811,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2196,
@@ -45083,7 +45083,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2206,
@@ -45159,7 +45159,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 2211,
@@ -45201,7 +45201,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Base parameters +#PER#%"
+    "description": "Self: Basic Stats +#PER#%"
   },
   {
     "id": 2212,
@@ -45277,7 +45277,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your own CRD+#PER#%(1T)"
+    "description": "Self: At the start of the turn, CRD +#PER#%(1T)"
   },
   {
     "id": 2214,
@@ -45393,7 +45393,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 2222,
@@ -45547,7 +45547,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2226,
@@ -45662,7 +45662,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 2232,
@@ -45816,7 +45816,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2236,
@@ -45972,7 +45972,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 2242,
@@ -46128,7 +46128,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2251,
@@ -46167,7 +46167,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#%"
   },
   {
     "id": 2252,
@@ -46321,7 +46321,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2256,
@@ -46397,7 +46397,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD -#PER#%(2T)"
+    "description": ", SPD -#PER#%(2T)"
   },
   {
     "id": 2258,
@@ -46626,7 +46626,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2266,
@@ -46702,7 +46702,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD -#PER#%"
+    "description": ", SPD -#PER#%"
   },
   {
     "id": 2268,
@@ -46740,7 +46740,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 2271,
@@ -46931,7 +46931,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2276,
@@ -47007,7 +47007,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 2281,
@@ -47048,7 +47048,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2282,
@@ -47164,7 +47164,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, All Allies: ATK and INT +#PER#%(1T)"
+    "description": "All Allies: At the end of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 2285,
@@ -47202,7 +47202,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2286,
@@ -47433,7 +47433,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, Fire Damage to the enemy with the lowest HP (2 times, B+ power)"
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (2 Times, Power B+)"
   },
   {
     "id": 2294,
@@ -47511,7 +47511,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", ATK+#PER#%"
+    "description": ", ATK +#PER#%"
   },
   {
     "id": 2296,
@@ -47587,7 +47587,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",DEF-#PER#%(2T)"
+    "description": ", DEF -#PER#%(2T)"
   },
   {
     "id": 2301,
@@ -47627,7 +47627,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 2302,
@@ -47781,7 +47781,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2306,
@@ -47859,7 +47859,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",DEF・RES+#PER#%(1T)"
+    "description": ", DEF/RES +#PER#%(1T)"
   },
   {
     "id": 2308,
@@ -47936,7 +47936,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 2312,
@@ -48088,7 +48088,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2316,
@@ -48165,7 +48165,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 2322,
@@ -48243,7 +48243,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given a DEF/RES debuff conversion status (twice)"
+    "description": "All Allies: At start of battle, DEF/RES Debuff Conversion (2 times)"
   },
   {
     "id": 2324,
@@ -48319,7 +48319,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2326,
@@ -48396,7 +48396,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 2332,
@@ -48548,7 +48548,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2336,
@@ -48662,7 +48662,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(1T)"
+    "description": ", CRT +#PER#%(1T)"
   },
   {
     "id": 2341,
@@ -48855,7 +48855,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2346,
@@ -48931,7 +48931,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 2348,
@@ -48969,7 +48969,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 2351,
@@ -49008,7 +49008,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 2352,
@@ -49238,7 +49238,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 2358,
@@ -49276,7 +49276,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 2361,
@@ -49471,7 +49471,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2366,
@@ -49662,7 +49662,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, water attribute attacks on enemy characters with low remaining HP (2 times, power B+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Water Follow-up (2 Times, Power B+)"
   },
   {
     "id": 2375,
@@ -49776,7 +49776,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2381,
@@ -49817,7 +49817,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2382,
@@ -49895,7 +49895,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, All Allies: ATK and INT +#PER#%(1T)"
+    "description": "All Allies: At the end of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 2384,
@@ -49971,7 +49971,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2386,
@@ -50205,7 +50205,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will need to use the basic parameters other than your HP +#PER#%(3T)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, Non-HP Basic Stats +#PER#%(3T)"
   },
   {
     "id": 2394,
@@ -50284,7 +50284,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD and CRT +#PER#%"
+    "description": ", SPD/CRT +#PER#%"
   },
   {
     "id": 2396,
@@ -50401,7 +50401,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2402,
@@ -50559,7 +50559,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2406,
@@ -50639,7 +50639,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's ATK, INT, CRD+#PER#%(1T)"
+    "description": ", All Allies: ATK/INT/CRD +#PER#%(1T)"
   },
   {
     "id": 2411,
@@ -50680,7 +50680,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2412,
@@ -50839,7 +50839,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP and CRD +#PER#%"
+    "description": ", HP/CRD +#PER#%"
   },
   {
     "id": 2416,
@@ -50915,7 +50915,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 2418,
@@ -51067,7 +51067,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, fire attribute attacks on enemy characters with low remaining HP (1 time, power A+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (1 Time, Power A+)"
   },
   {
     "id": 2424,
@@ -51144,7 +51144,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP and CRD +#PER#%"
+    "description": ", HP/CRD +#PER#%"
   },
   {
     "id": 2426,
@@ -51412,7 +51412,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2436,
@@ -51567,7 +51567,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies ATK and DEF -#PER#%"
+    "description": "All Enemies: ATK/DEF -#PER#%"
   },
   {
     "id": 2442,
@@ -51719,7 +51719,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD -#PER#%"
+    "description": ", SPD -#PER#%"
   },
   {
     "id": 2446,
@@ -52031,7 +52031,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD and CRT +#PER#%"
+    "description": ", SPD/CRT +#PER#%"
   },
   {
     "id": 2456,
@@ -52146,7 +52146,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: INT and RES +#PER#%"
+    "description": "All Allies: INT/RES +#PER#%"
   },
   {
     "id": 2462,
@@ -52224,7 +52224,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given INT/CRD debuff conversion status (twice)"
+    "description": "All Allies: At start of battle, INT/CRD Debuff Conversion (2 times)"
   },
   {
     "id": 2464,
@@ -52300,7 +52300,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2466,
@@ -52376,7 +52376,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 2471,
@@ -52531,7 +52531,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, wind damage to the enemy with the lowest HP (2 times, B+ power)"
+    "description": "Lowest-HP Foe: At the end of the turn, Wind Follow-up (2 Times, Power B+)"
   },
   {
     "id": 2476,
@@ -52801,7 +52801,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2486,
@@ -52955,7 +52955,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party ATK, DEF, CRD+#PER#%"
+    "description": "All Allies: ATK/DEF/CRD +#PER#%"
   },
   {
     "id": 2492,
@@ -53148,7 +53148,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD -#PER#%(2T)"
+    "description": ", SPD -#PER#%(2T)"
   },
   {
     "id": 2501,
@@ -53187,7 +53187,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My INT/RES+#PER#%"
+    "description": "Self: INT/RES +#PER#%"
   },
   {
     "id": 2502,
@@ -53340,7 +53340,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2506,
@@ -53493,7 +53493,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP and ATK +#PER#%"
+    "description": "All Allies: HP/ATK +#PER#%"
   },
   {
     "id": 2512,
@@ -53571,7 +53571,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, Wind attribute attacks on enemy characters with high HP remaining (3 times, Power D+)"
+    "description": "Highest-HP Foe: At the end of the turn, Wind Follow-up (3 Times, Power D+)"
   },
   {
     "id": 2514,
@@ -53647,7 +53647,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2516,
@@ -53762,7 +53762,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 2522,
@@ -53914,7 +53914,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2526,
@@ -54069,7 +54069,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2532,
@@ -54223,7 +54223,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2536,
@@ -54530,7 +54530,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 2546,
@@ -54646,7 +54646,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 2552,
@@ -54800,7 +54800,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2556,
@@ -54914,7 +54914,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 2561,
@@ -54953,7 +54953,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 2562,
@@ -55222,7 +55222,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My HP/ATK+#PER#%"
+    "description": "Self: HP/ATK +#PER#%"
   },
   {
     "id": 2572,
@@ -55300,7 +55300,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given an ATK/CRT debuff conversion status (4 times)"
+    "description": "All Allies: At start of battle, ATK/CRT Debuff Conversion (4 times)"
   },
   {
     "id": 2574,
@@ -55455,7 +55455,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's ATK/CRD+#PER#%(4T)"
+    "description": ", All Allies: ATK/CRD +#PER#%(4T)"
   },
   {
     "id": 2578,
@@ -55532,7 +55532,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#%"
   },
   {
     "id": 2582,
@@ -55609,7 +55609,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, Fire Damage to the enemy with the lowest HP (2 times, B+ power)"
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (2 Times, Power B+)"
   },
   {
     "id": 2584,
@@ -55685,7 +55685,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2586,
@@ -55800,7 +55800,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP and ATK +#PER#%"
+    "description": "All Allies: HP/ATK +#PER#%"
   },
   {
     "id": 2592,
@@ -56066,7 +56066,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2601,
@@ -56105,7 +56105,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP and ATK +#PER#%"
+    "description": "All Allies: HP/ATK +#PER#%"
   },
   {
     "id": 2602,
@@ -56262,7 +56262,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2606,
@@ -56339,7 +56339,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My HP/ATK+#PER#%"
+    "description": "Self: HP/ATK +#PER#%"
   },
   {
     "id": 2612,
@@ -56493,7 +56493,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2616,
@@ -56648,7 +56648,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2622,
@@ -56804,7 +56804,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2626,
@@ -56957,7 +56957,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: INT and RES +#PER#%"
+    "description": "All Allies: INT/RES +#PER#%"
   },
   {
     "id": 2632,
@@ -57109,7 +57109,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 2636,
@@ -57378,7 +57378,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT・SPD+#PER#%"
+    "description": ", CRT/SPD +#PER#%"
   },
   {
     "id": 2646,
@@ -57456,7 +57456,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Atk ・ CRD+#Per#%(3T)"
+    "description": ", ATK/CRD +#PER#%(3T)"
   },
   {
     "id": 2648,
@@ -57494,7 +57494,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 2651,
@@ -57649,7 +57649,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given an ATK/INT debuff conversion status (3 times)"
+    "description": "All Allies: At start of battle, ATK/INT Debuff Conversion (3 times)"
   },
   {
     "id": 2655,
@@ -57687,7 +57687,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 2656,
@@ -57803,7 +57803,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's ATK/INT+#PER#%(3T)"
+    "description": ", All Allies: ATK/INT +#PER#%(3T)"
   },
   {
     "id": 2661,
@@ -57919,7 +57919,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, star attribute attacks on enemy characters with low remaining HP (2 times, power B+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Star Follow-up (2 Times, Power B+)"
   },
   {
     "id": 2664,
@@ -57999,7 +57999,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2666,
@@ -58077,7 +58077,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",DEF・RES+#PER#%(2T)"
+    "description": ", DEF/RES +#PER#%(2T)"
   },
   {
     "id": 2671,
@@ -58118,7 +58118,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2672,
@@ -58274,7 +58274,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2676,
@@ -58388,7 +58388,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 2681,
@@ -58431,7 +58431,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: base parameters and CRD +#PER#%"
+    "description": "All Allies: Basic Stats/CRD +#PER#%"
   },
   {
     "id": 2682,
@@ -58701,7 +58701,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP, ATK, and DEF +#PER#%"
+    "description": "All Allies: HP/ATK/DEF +#PER#%"
   },
   {
     "id": 2692,
@@ -59123,7 +59123,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2706,
@@ -59238,7 +59238,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and CRD +#PER#%"
+    "description": "Self: ATK/CRD +#PER#%"
   },
   {
     "id": 2712,
@@ -59392,7 +59392,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2716,
@@ -59506,7 +59506,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party CRT+#PER#%"
+    "description": "All Allies: CRT +#PER#%"
   },
   {
     "id": 2722,
@@ -59663,7 +59663,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP・RES+#PER#%"
+    "description": ", HP/RES +#PER#%"
   },
   {
     "id": 2726,
@@ -59741,7 +59741,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's ATK/INT+#PER#%(1T)"
+    "description": ", All Allies: ATK/INT +#PER#%(1T)"
   },
   {
     "id": 2731,
@@ -59934,7 +59934,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT・SPD+#PER#%"
+    "description": ", CRT/SPD +#PER#%"
   },
   {
     "id": 2737,
@@ -59972,7 +59972,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 2741,
@@ -60013,7 +60013,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2742,
@@ -60167,7 +60167,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2746,
@@ -60283,7 +60283,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and HP +#PER#%"
+    "description": "All Allies: ATK/INT/HP +#PER#%"
   },
   {
     "id": 2752,
@@ -60405,7 +60405,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's CRT+#PER#%(1T)"
+    "description": "All Allies: At the start of battle, CRT +#PER#%(1T)"
   },
   {
     "id": 2755,
@@ -60443,7 +60443,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and even my HP+#PER#%"
+    "description": ", Self: HP +#PER#%"
   },
   {
     "id": 2756,
@@ -60557,7 +60557,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 2761,
@@ -60596,7 +60596,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: INT and RES +#PER#%"
+    "description": "All Allies: INT/RES +#PER#%"
   },
   {
     "id": 2762,
@@ -60673,7 +60673,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, Fire Damage to the enemy with the lowest HP (2 times, B+ power)"
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (2 Times, Power B+)"
   },
   {
     "id": 2764,
@@ -60750,7 +60750,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2766,
@@ -60865,7 +60865,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 2772,
@@ -60981,7 +60981,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, party's INT/CRD+#PER#%(2T)"
+    "description": "All Allies: At the end of the turn, INT/CRD +#PER#%(2T)"
   },
   {
     "id": 2775,
@@ -61019,7 +61019,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2776,
@@ -61173,7 +61173,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP, ATK, and CRD +#PER#%"
+    "description": "All Allies: HP/ATK/CRD +#PER#%"
   },
   {
     "id": 2782,
@@ -61408,7 +61408,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2792,
@@ -61524,7 +61524,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, party's ATK/INT+#PER#%(2T)"
+    "description": "All Allies: At the end of the turn, ATK/INT +#PER#%(2T)"
   },
   {
     "id": 2795,
@@ -61562,7 +61562,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2796,
@@ -61716,7 +61716,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 2802,
@@ -61869,7 +61869,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2806,
@@ -62176,7 +62176,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2816,
@@ -62332,7 +62332,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 2822,
@@ -62490,7 +62490,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 2826,
@@ -62762,7 +62762,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given ATK, INT, and CRD debuff conversion status (3 times)"
+    "description": "All Allies: At start of battle, ATK/INT/CRD Debuff Conversion (3 times)"
   },
   {
     "id": 2835,
@@ -62800,7 +62800,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2836,
@@ -63071,7 +63071,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",DEF and RES +#PER#%"
+    "description": ", DEF/RES +#PER#%"
   },
   {
     "id": 2846,
@@ -63187,7 +63187,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT・CRD+#PER#%(2T)"
+    "description": ", CRT/CRD +#PER#%(2T)"
   },
   {
     "id": 2851,
@@ -63379,7 +63379,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2856,
@@ -63649,7 +63649,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD・CRT+#PER#%(1T)"
+    "description": ", SPD/CRT +#PER#%(1T)"
   },
   {
     "id": 2868,
@@ -63727,7 +63727,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and HP +#PER#%"
+    "description": "All Allies: ATK/HP +#PER#%"
   },
   {
     "id": 2872,
@@ -63804,7 +63804,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, water attribute attacks on enemy characters with low remaining HP (2 times, power B+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Water Follow-up (2 Times, Power B+)"
   },
   {
     "id": 2874,
@@ -63962,7 +63962,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 2882,
@@ -64114,7 +64114,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 2886,
@@ -64194,7 +64194,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT・CRD+#PER#%(5T)"
+    "description": ", ATK/INT/CRD +#PER#%(5T)"
   },
   {
     "id": 2888,
@@ -64232,7 +64232,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Self: synchronization (#PER# times)"
+    "description": ", Self: Synchronization (#PER# times)"
   },
   {
     "id": 2891,
@@ -64424,7 +64424,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",DEF+#PER#%"
+    "description": ", DEF +#PER#%"
   },
   {
     "id": 2896,
@@ -64580,7 +64580,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 2902,
@@ -64814,7 +64814,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 2911,
@@ -64855,7 +64855,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2912,
@@ -64972,7 +64972,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, Fire Damage to the enemy with the lowest HP (2 times, B+ power)"
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (2 Times, Power B+)"
   },
   {
     "id": 2915,
@@ -65010,7 +65010,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2916,
@@ -65319,7 +65319,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and more SPD/CRT+#PER#%(4T)"
+    "description": ", SPD/CRT +#PER#%(4T)"
   },
   {
     "id": 2928,
@@ -65357,7 +65357,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 2931,
@@ -65396,7 +65396,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 2932,
@@ -65550,7 +65550,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2936,
@@ -65979,7 +65979,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 2952,
@@ -66291,7 +66291,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's CRT+#PER#%(2T)"
+    "description": "All Allies: At the start of battle, CRT +#PER#%(2T)"
   },
   {
     "id": 2963,
@@ -66451,7 +66451,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT・CRD+#PER#%(2T)"
+    "description": ", ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 2967,
@@ -66531,7 +66531,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",DEF・RES・CRT-#PER#%(2T)"
+    "description": ", DEF/RES/CRT -#PER#%(2T)"
   },
   {
     "id": 2971,
@@ -66572,7 +66572,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 2972,
@@ -66764,7 +66764,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT・CRD+#PER#%(1T)"
+    "description": ", CRT/CRD +#PER#%(1T)"
   },
   {
     "id": 2981,
@@ -66803,7 +66803,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and CRD +#PER#%"
+    "description": "Self: ATK/CRD +#PER#%"
   },
   {
     "id": 2982,
@@ -66961,7 +66961,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 2986,
@@ -67039,7 +67039,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD・CRT+#PER#%(2T)"
+    "description": ", CRD/CRT +#PER#%(2T)"
   },
   {
     "id": 2988,
@@ -67077,7 +67077,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 2991,
@@ -67233,7 +67233,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, star attribute attacks on enemy characters with high HP remaining (3 times, power D+)"
+    "description": "Highest-HP Foe: At the end of the turn, Star Follow-up (3 Times, Power D+)"
   },
   {
     "id": 2995,
@@ -67386,7 +67386,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and HP +#PER#%"
+    "description": "All Allies: ATK/HP +#PER#%"
   },
   {
     "id": 3002,
@@ -67777,7 +67777,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, party's ATK, INT, CRD+#PER#%(2T)"
+    "description": "All Allies: At the end of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 3014,
@@ -67819,7 +67819,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given ATK, INT, and CRT debuff conversion status (3 times)"
+    "description": "All Allies: At start of battle, ATK/INT/CRT Debuff Conversion (3 times)"
   },
   {
     "id": 3015,
@@ -67857,7 +67857,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3016,
@@ -67971,7 +67971,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and party CRD+#PER#%(3T)"
+    "description": ", All Allies: CRD +#PER#%(3T)"
   },
   {
     "id": 3021,
@@ -68161,7 +68161,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3026,
@@ -68237,7 +68237,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", ATK+#per#%"
+    "description": ", ATK +#PER#%"
   },
   {
     "id": 3031,
@@ -68393,7 +68393,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, water attribute attacks on enemy characters with high remaining HP (4 times, power E+)"
+    "description": "Highest-HP Foe: At the end of the turn, Water Follow-up (4 Times, Power E+)"
   },
   {
     "id": 3035,
@@ -68431,7 +68431,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 3036,
@@ -68625,7 +68625,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given an ATK/CRT debuff conversion status (3 times)"
+    "description": "All Allies: At start of battle, ATK/CRT Debuff Conversion (3 times)"
   },
   {
     "id": 3044,
@@ -68665,7 +68665,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, fire attribute attacks on enemy characters with low remaining HP (3 times, power D+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (3 Times, Power D+)"
   },
   {
     "id": 3045,
@@ -68743,7 +68743,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and party CRT/CRD+#PER#%(3T)"
+    "description": ", All Allies: CRT/CRD +#PER#%(3T)"
   },
   {
     "id": 3051,
@@ -68782,7 +68782,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 3052,
@@ -68938,7 +68938,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3056,
@@ -69091,7 +69091,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and CRD +#PER#%"
+    "description": "Self: ATK/CRD +#PER#%"
   },
   {
     "id": 3062,
@@ -69245,7 +69245,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3066,
@@ -69553,7 +69553,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD and CRT +#PER#%"
+    "description": ", SPD/CRT +#PER#%"
   },
   {
     "id": 3076,
@@ -69706,7 +69706,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#%"
   },
   {
     "id": 3082,
@@ -69860,7 +69860,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3086,
@@ -69936,7 +69936,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and more CRD+#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 3088,
@@ -70016,7 +70016,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 3092,
@@ -70172,7 +70172,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3096,
@@ -70248,7 +70248,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 3098,
@@ -70326,7 +70326,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 3102,
@@ -70478,7 +70478,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT -#PER#%"
+    "description": ", CRT -#PER#%"
   },
   {
     "id": 3106,
@@ -70595,7 +70595,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 3112,
@@ -70749,7 +70749,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3116,
@@ -70863,7 +70863,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 3121,
@@ -71054,7 +71054,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3126,
@@ -71223,7 +71223,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 3132,
@@ -71377,7 +71377,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3136,
@@ -71724,7 +71724,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD・CRT+#PER#%(1T)"
+    "description": ", CRD/CRT +#PER#%(1T)"
   },
   {
     "id": 3148,
@@ -71804,7 +71804,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 3152,
@@ -71997,7 +71997,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(2T)"
+    "description": ", CRD +#PER#%(2T)"
   },
   {
     "id": 3158,
@@ -72226,7 +72226,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT+#PER#%"
+    "description": ", ATK/INT +#PER#%"
   },
   {
     "id": 3166,
@@ -72340,7 +72340,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT -#PER#%"
+    "description": ", CRT -#PER#%"
   },
   {
     "id": 3171,
@@ -72379,7 +72379,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 3172,
@@ -72531,7 +72531,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3176,
@@ -72609,7 +72609,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・CRD+#PER#%(2T)"
+    "description": ", ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3178,
@@ -72841,7 +72841,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3188,
@@ -73071,7 +73071,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3196,
@@ -73149,7 +73149,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",INT・CRD+#PER#%(3T)"
+    "description": ", INT/CRD +#PER#%(3T)"
   },
   {
     "id": 3201,
@@ -73267,7 +73267,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, water attribute attacks on enemy characters with low remaining HP (4 times, power E+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Water Follow-up (4 Times, Power E+)"
   },
   {
     "id": 3204,
@@ -73346,7 +73346,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP・SPD+#PER#%"
+    "description": ", HP/SPD +#PER#%"
   },
   {
     "id": 3206,
@@ -73462,7 +73462,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 3212,
@@ -73616,7 +73616,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3216,
@@ -73692,7 +73692,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT-#PER#%(2T)"
+    "description": ", CRT -#PER#%(2T)"
   },
   {
     "id": 3218,
@@ -73730,7 +73730,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 3221,
@@ -73771,7 +73771,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 3222,
@@ -73927,7 +73927,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP and CRD +#PER#%"
+    "description": ", HP/CRD +#PER#%"
   },
   {
     "id": 3226,
@@ -74080,7 +74080,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and CRD +#PER#%"
+    "description": "Self: ATK/CRD +#PER#%"
   },
   {
     "id": 3232,
@@ -74272,7 +74272,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・CRD+#PER#%(5T)"
+    "description": ", ATK/CRD +#PER#%(5T)"
   },
   {
     "id": 3238,
@@ -74426,7 +74426,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, fire attribute attacks on enemy characters with low remaining HP (2 times, Power D+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (2 Times, Power D+)"
   },
   {
     "id": 3244,
@@ -74578,7 +74578,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ". Highest HP foe: At the end of turn, fire follow-up (1 time, power D+)"
+    "description": ", Highest-HP Foe: At the end of the turn, Fire Follow-up (1 Time, Power D+)"
   },
   {
     "id": 3248,
@@ -74616,7 +74616,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(1T)"
+    "description": ", CRT +#PER#%(1T)"
   },
   {
     "id": 3251,
@@ -74655,7 +74655,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 3252,
@@ -74923,7 +74923,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Computer+#per#%(2t)"
+    "description": ", ATK +#PER#%(2T)"
   },
   {
     "id": 3261,
@@ -74965,7 +74965,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 3262,
@@ -75127,7 +75127,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3266,
@@ -75245,7 +75245,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 3272,
@@ -75400,7 +75400,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3276,
@@ -75476,7 +75476,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 3278,
@@ -75514,7 +75514,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3281,
@@ -75823,7 +75823,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP and ATK +#PER#%"
+    "description": "All Allies: HP/ATK +#PER#%"
   },
   {
     "id": 3292,
@@ -75942,7 +75942,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given ATK, INT, and CRD debuff conversion status (3 times)"
+    "description": "All Allies: At start of battle, ATK/INT/CRD Debuff Conversion (3 times)"
   },
   {
     "id": 3295,
@@ -76096,7 +76096,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and party CRT/CRD+#PER#%(3T)"
+    "description": ", All Allies: CRT/CRD +#PER#%(3T)"
   },
   {
     "id": 3301,
@@ -76135,7 +76135,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 3302,
@@ -76287,7 +76287,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3306,
@@ -76441,7 +76441,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 3312,
@@ -76595,7 +76595,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3316,
@@ -76748,7 +76748,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and CRD +#PER#%"
+    "description": "Self: ATK/CRD +#PER#%"
   },
   {
     "id": 3322,
@@ -76902,7 +76902,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3326,
@@ -77133,7 +77133,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My ATK, DEF, RES+#PER#%"
+    "description": "Self: ATK/DEF/RES +#PER#%"
   },
   {
     "id": 3335,
@@ -77249,7 +77249,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3338,
@@ -77328,7 +77328,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies base parameters other than HP -#PER#%"
+    "description": "All Enemies: Non-HP Basic Stats -#PER#%"
   },
   {
     "id": 3342,
@@ -77482,7 +77482,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD・CRT-#PER#%"
+    "description": ", SPD/CRT -#PER#%"
   },
   {
     "id": 3346,
@@ -77600,7 +77600,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 3352,
@@ -77754,7 +77754,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 3356,
@@ -78563,7 +78563,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3386,
@@ -78639,7 +78639,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 3388,
@@ -78677,7 +78677,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 3391,
@@ -78719,7 +78719,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters other than your own HP: CRD+#PER#%"
+    "description": "Self: Non-HP Basic Stats/CRD +#PER#%"
   },
   {
     "id": 3392,
@@ -78874,7 +78874,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 3396,
@@ -79028,7 +79028,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP and ATK +#PER#%"
+    "description": "All Allies: HP/ATK +#PER#%"
   },
   {
     "id": 3402,
@@ -79340,7 +79340,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 3412,
@@ -79461,7 +79461,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, Fire Damage to the enemy with the lowest HP (2 times, B+ power)"
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (2 Times, Power B+)"
   },
   {
     "id": 3415,
@@ -79500,7 +79500,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD and CRT +#PER#%"
+    "description": ", SPD/CRT +#PER#%"
   },
   {
     "id": 3416,
@@ -79576,7 +79576,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD+#PER#%(5T)"
+    "description": ", SPD +#PER#%(5T)"
   },
   {
     "id": 3421,
@@ -79926,7 +79926,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP and ATK +#PER#%"
+    "description": "All Allies: HP/ATK +#PER#%"
   },
   {
     "id": 3432,
@@ -80080,7 +80080,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 3436,
@@ -80156,7 +80156,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 3438,
@@ -80312,7 +80312,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, star attribute attacks on enemy characters with low remaining HP (3 times, power D+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Star Follow-up (3 Times, Power D+)"
   },
   {
     "id": 3444,
@@ -80467,7 +80467,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 3452,
@@ -80625,7 +80625,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3456,
@@ -81089,7 +81089,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 3472,
@@ -81242,7 +81242,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 3476,
@@ -81320,7 +81320,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・CRD+#PER#%(1T)"
+    "description": ", ATK/CRD +#PER#%(1T)"
   },
   {
     "id": 3478,
@@ -81559,7 +81559,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3486,
@@ -81715,7 +81715,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 3492,
@@ -81871,7 +81871,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3496,
@@ -82026,7 +82026,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 3502,
@@ -82178,7 +82178,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3506,
@@ -82335,7 +82335,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "SPD/CRD-#PER#% for all enemies"
+    "description": "All Enemies: SPD/CRD -#PER#%"
   },
   {
     "id": 3512,
@@ -82720,7 +82720,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given an ATK/CRD debuff conversion status (3 times)"
+    "description": "All Allies: At start of battle, ATK/CRD Debuff Conversion (3 times)"
   },
   {
     "id": 3545,
@@ -82758,7 +82758,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3546,
@@ -82874,7 +82874,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's SPD/CRT+#PER#%(3T)"
+    "description": ", All Allies: SPD/CRT +#PER#%(3T)"
   },
   {
     "id": 3551,
@@ -83107,7 +83107,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT+#PER#%(4T)"
+    "description": ", ATK/INT +#PER#%(4T)"
   },
   {
     "id": 10011,
@@ -83149,7 +83149,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 10012,
@@ -84990,7 +84990,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's ATK+#PER#%(3 turns)"
+    "description": "All Allies: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 17102,
@@ -87349,7 +87349,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 100021,
@@ -87501,7 +87501,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 100031,
@@ -87577,7 +87577,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 100033,
@@ -87729,7 +87729,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 100043,
@@ -87957,7 +87957,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, INT +#PER#%(3T)"
   },
   {
     "id": 100061,
@@ -88109,7 +88109,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, INT +#PER#%(3T)"
   },
   {
     "id": 100071,
@@ -88261,7 +88261,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, INT +#PER#%(3T)"
   },
   {
     "id": 100081,
@@ -88375,7 +88375,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, INT +#PER#%(3T)"
   },
   {
     "id": 100084,
@@ -89173,7 +89173,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 100141,
@@ -89477,7 +89477,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, SPD +#PER#%(1 turn)"
+    "description": "Self: At the start of the turn, SPD +#PER#%(1T)"
   },
   {
     "id": 100161,
@@ -89553,7 +89553,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 100163,
@@ -89971,7 +89971,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK-#PER#% for all enemies"
+    "description": "All Enemies: ATK -#PER#%"
   },
   {
     "id": 100192,
@@ -90047,7 +90047,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 100194,
@@ -90275,7 +90275,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party DEF+#PER#%"
+    "description": "All Allies: DEF +#PER#%"
   },
   {
     "id": 100212,
@@ -90313,7 +90313,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 100213,
@@ -90693,7 +90693,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 100261,
@@ -90921,7 +90921,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, your ATK+#PER#%(3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 100273,
@@ -91739,7 +91739,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200016,
@@ -91816,7 +91816,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 200022,
@@ -92011,7 +92011,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 200033,
@@ -92163,7 +92163,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 200063,
@@ -92319,7 +92319,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, your ATK/DEF+#PER#%(3T)"
+    "description": "Self: At the start of battle, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 200083,
@@ -92434,7 +92434,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 200092,
@@ -92550,7 +92550,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, All Allies: ATK and INT +#PER#%(1T)"
+    "description": "All Allies: At the end of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 200095,
@@ -92588,7 +92588,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200096,
@@ -92666,7 +92666,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's DEF/RES+#PER#%(2T)"
+    "description": ", All Allies: DEF/RES +#PER#%(2T)"
   },
   {
     "id": 200098,
@@ -92900,7 +92900,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200108,
@@ -93288,7 +93288,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200127,
@@ -93408,7 +93408,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, your ATK/RES+#PER#%(3 turns)"
+    "description": "Self: At the start of battle, ATK/RES +#PER#%(3T)"
   },
   {
     "id": 200143,
@@ -93446,7 +93446,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party DEF+#PER#%"
+    "description": "All Allies: DEF +#PER#%"
   },
   {
     "id": 200144,
@@ -93484,7 +93484,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 200151,
@@ -93523,7 +93523,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party INT/DEF+#PER#%"
+    "description": "All Allies: INT/DEF +#PER#%"
   },
   {
     "id": 200152,
@@ -94177,7 +94177,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200197,
@@ -94253,7 +94253,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(1T)"
+    "description": ", CRT +#PER#%(1T)"
   },
   {
     "id": 200201,
@@ -94406,7 +94406,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 200211,
@@ -94715,7 +94715,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party RES/HP+#PER#%"
+    "description": "All Allies: RES/HP +#PER#%"
   },
   {
     "id": 200231,
@@ -94836,7 +94836,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, basic parameters other than HP +#PER#%(3T)"
+    "description": "All Allies: At the end of the turn, if unit has defeated a foe, Non-HP Basic Stats +#PER#%(3T)"
   },
   {
     "id": 200234,
@@ -94913,7 +94913,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",DEF and RES +#PER#%"
+    "description": ", DEF/RES +#PER#%"
   },
   {
     "id": 200236,
@@ -94989,7 +94989,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 200241,
@@ -95031,7 +95031,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 200242,
@@ -95223,7 +95223,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "INT/RES-#PER#% of all enemies"
+    "description": "All Enemies: INT/RES -#PER#%"
   },
   {
     "id": 200253,
@@ -95337,7 +95337,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200256,
@@ -95375,7 +95375,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD -#PER#%"
+    "description": ", SPD -#PER#%"
   },
   {
     "id": 200257,
@@ -95417,7 +95417,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and my own INT, DEF, CRD+#PER#%(5T)"
+    "description": ", Self: INT/DEF/CRD +#PER#%(5T)"
   },
   {
     "id": 200258,
@@ -96276,7 +96276,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(4T)"
+    "description": ", CRD +#PER#%(4T)"
   },
   {
     "id": 200308,
@@ -97425,7 +97425,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will need to use the basic parameters other than your HP +#PER#%(3 turns)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, Non-HP Basic Stats +#PER#%(3T)"
   },
   {
     "id": 200381,
@@ -97783,7 +97783,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200401,
@@ -97976,7 +97976,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200408,
@@ -98053,7 +98053,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and HP +#PER#%"
+    "description": "All Allies: ATK/HP +#PER#%"
   },
   {
     "id": 200412,
@@ -98211,7 +98211,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 200416,
@@ -98328,7 +98328,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 200422,
@@ -98480,7 +98480,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200431,
@@ -98673,7 +98673,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 200442,
@@ -98826,7 +98826,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200447,
@@ -99055,7 +99055,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200456,
@@ -99093,7 +99093,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and even party SPD+#PER#%"
+    "description": ", All Allies: SPD +#PER#%"
   },
   {
     "id": 200461,
@@ -99285,7 +99285,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200466,
@@ -99401,7 +99401,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party HP, ATK, INT+#PER#%"
+    "description": "All Allies: HP/ATK/INT +#PER#%"
   },
   {
     "id": 200472,
@@ -99555,7 +99555,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 200476,
@@ -99670,7 +99670,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 200482,
@@ -99828,7 +99828,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200486,
@@ -99904,7 +99904,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(3T)"
+    "description": ", CRD +#PER#%(3T)"
   },
   {
     "id": 200491,
@@ -99944,7 +99944,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party HP, INT, RES+#PER#%"
+    "description": "All Allies: HP/INT/RES +#PER#%"
   },
   {
     "id": 200492,
@@ -100096,7 +100096,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",INT+#PER#%(3T)"
+    "description": ", INT +#PER#%(3T)"
   },
   {
     "id": 200498,
@@ -100173,7 +100173,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 200502,
@@ -100327,7 +100327,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200508,
@@ -100366,7 +100366,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD・CRT+#PER#%"
+    "description": ", CRD/CRT +#PER#%"
   },
   {
     "id": 200511,
@@ -100407,7 +100407,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 200512,
@@ -100559,7 +100559,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200516,
@@ -100635,7 +100635,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",INT+#PER#%(1T)"
+    "description": ", INT +#PER#%(1T)"
   },
   {
     "id": 200521,
@@ -100675,7 +100675,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My INT, CRD, HP+#PER#%"
+    "description": "Self: INT/CRD/HP +#PER#%"
   },
   {
     "id": 200522,
@@ -100752,7 +100752,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, fire attribute attacks on enemy characters with low remaining HP (2 times, Power B)"
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (2 Times, Power B)"
   },
   {
     "id": 200524,
@@ -100833,7 +100833,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: base parameters and CRD +#PER#%"
+    "description": "All Allies: Basic Stats/CRD +#PER#%"
   },
   {
     "id": 200532,
@@ -101107,7 +101107,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and HP +#PER#%"
+    "description": "All Allies: ATK/INT/HP +#PER#%"
   },
   {
     "id": 200542,
@@ -101184,7 +101184,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 200544,
@@ -101338,7 +101338,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD・CRT・CRD-#PER#%"
+    "description": ", SPD/CRT/CRD -#PER#%"
   },
   {
     "id": 200548,
@@ -101569,7 +101569,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and ATK/INT+#PER#%"
+    "description": ", ATK/INT +#PER#%"
   },
   {
     "id": 200561,
@@ -101608,7 +101608,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 200562,
@@ -101764,7 +101764,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200566,
@@ -101840,7 +101840,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT-#PER#%(2T)"
+    "description": ", CRT -#PER#%(2T)"
   },
   {
     "id": 200568,
@@ -101917,7 +101917,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 200572,
@@ -101957,7 +101957,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's DEF/RES+#PER#%(3 turns)"
+    "description": "All Allies: At the start of battle, DEF/RES +#PER#%(3T)"
   },
   {
     "id": 200573,
@@ -102071,7 +102071,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200577,
@@ -102302,7 +102302,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200587,
@@ -102420,7 +102420,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, party's ATK, INT, CRD+#PER#%(3T)"
+    "description": "All Allies: At the start of battle, ATK/INT/CRD +#PER#%(3T)"
   },
   {
     "id": 200593,
@@ -102461,7 +102461,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 200594,
@@ -102575,7 +102575,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200601,
@@ -102768,7 +102768,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD -#PER#%"
+    "description": ", SPD -#PER#%"
   },
   {
     "id": 200611,
@@ -102807,7 +102807,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My ATK/HP+#PER#%"
+    "description": "Self: ATK/HP +#PER#%"
   },
   {
     "id": 200612,
@@ -102960,7 +102960,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200617,
@@ -102998,7 +102998,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200621,
@@ -103037,7 +103037,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 200622,
@@ -103191,7 +103191,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200627,
@@ -103423,7 +103423,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Base parameters +#PER#%"
+    "description": "Self: Basic Stats +#PER#%"
   },
   {
     "id": 200642,
@@ -103462,7 +103462,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, star attribute attacks on enemy characters with low remaining HP (2 times, power B+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Star Follow-up (2 Times, Power B+)"
   },
   {
     "id": 200643,
@@ -103578,7 +103578,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200648,
@@ -103813,7 +103813,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party INT・CRD+#PER#%"
+    "description": "All Allies: INT/CRD +#PER#%"
   },
   {
     "id": 200662,
@@ -103891,7 +103891,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, your INT/CRT+#PER#%(5T)"
+    "description": "Self: At the start of battle, INT/CRT +#PER#%(5T)"
   },
   {
     "id": 200664,
@@ -103968,7 +103968,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200666,
@@ -104044,7 +104044,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(5T)"
+    "description": ", CRD +#PER#%(5T)"
   },
   {
     "id": 200668,
@@ -104122,7 +104122,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party HP, ATK, INT+#PER#%"
+    "description": "All Allies: HP/ATK/INT +#PER#%"
   },
   {
     "id": 200672,
@@ -104275,7 +104275,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200681,
@@ -104317,7 +104317,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Base parameters +#PER#%"
+    "description": "Self: Basic Stats +#PER#%"
   },
   {
     "id": 200682,
@@ -104509,7 +104509,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and more CRD+#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 200691,
@@ -104664,7 +104664,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given ATK/CRD debuff conversion status (twice)"
+    "description": "All Allies: At start of battle, ATK/CRD Debuff Conversion (2 times)"
   },
   {
     "id": 200695,
@@ -104702,7 +104702,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200696,
@@ -104782,7 +104782,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Base parameters +#PER#%"
+    "description": "Self: Basic Stats +#PER#%"
   },
   {
     "id": 200702,
@@ -104934,7 +104934,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and INT+#PER#%(1T)"
+    "description": ", INT +#PER#%(1T)"
   },
   {
     "id": 200711,
@@ -104975,7 +104975,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 200712,
@@ -105127,7 +105127,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200717,
@@ -105167,7 +105167,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's DEF/RES+#PER#%(2T)"
+    "description": ", All Allies: DEF/RES +#PER#%(2T)"
   },
   {
     "id": 200721,
@@ -105323,7 +105323,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given a DEF/RES debuff conversion status (twice)"
+    "description": "All Allies: At start of battle, DEF/RES Debuff Conversion (2 times)"
   },
   {
     "id": 200725,
@@ -105362,7 +105362,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200726,
@@ -105439,7 +105439,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party INT・CRD+#PER#%"
+    "description": "All Allies: INT/CRD +#PER#%"
   },
   {
     "id": 200732,
@@ -105595,7 +105595,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200741,
@@ -105752,7 +105752,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your ATK/DEF+#PER#%(1T)"
+    "description": "Self: At the start of the turn, ATK/DEF +#PER#%(1T)"
   },
   {
     "id": 200745,
@@ -105947,7 +105947,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 200752,
@@ -106099,7 +106099,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200756,
@@ -106216,7 +106216,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 200762,
@@ -106368,7 +106368,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200767,
@@ -106408,7 +106408,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's ATK/INT+#PER#%(2T)"
+    "description": ", All Allies: ATK/INT +#PER#%(2T)"
   },
   {
     "id": 200771,
@@ -106599,7 +106599,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200776,
@@ -106675,7 +106675,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(1T)"
+    "description": ", CRT +#PER#%(1T)"
   },
   {
     "id": 200778,
@@ -107110,7 +107110,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200796,
@@ -107186,7 +107186,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%(1T)"
+    "description": ", CRD +#PER#%(1T)"
   },
   {
     "id": 200798,
@@ -107263,7 +107263,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: INT and RES +#PER#%"
+    "description": "All Allies: INT/RES +#PER#%"
   },
   {
     "id": 200802,
@@ -107415,7 +107415,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200806,
@@ -107683,7 +107683,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200816,
@@ -107991,7 +107991,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",DEF and RES +#PER#%"
+    "description": ", DEF/RES +#PER#%"
   },
   {
     "id": 200826,
@@ -108069,7 +108069,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT+#PER#%(5T)"
+    "description": ", ATK/INT +#PER#%(5T)"
   },
   {
     "id": 200828,
@@ -108146,7 +108146,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party HP・INT+#PER#%"
+    "description": "All Allies: HP/INT +#PER#%"
   },
   {
     "id": 200832,
@@ -108300,7 +108300,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200836,
@@ -108456,7 +108456,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP, ATK, and DEF +#PER#%"
+    "description": "All Allies: HP/ATK/DEF +#PER#%"
   },
   {
     "id": 200842,
@@ -109036,7 +109036,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 200862,
@@ -109189,7 +109189,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 200866,
@@ -109267,7 +109267,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT+#PER#%(2T)"
+    "description": ", ATK/INT +#PER#%(2T)"
   },
   {
     "id": 200868,
@@ -109345,7 +109345,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK and DEF +#PER#%"
+    "description": "All Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 200872,
@@ -109499,7 +109499,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200876,
@@ -109614,7 +109614,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#%"
   },
   {
     "id": 200882,
@@ -110081,7 +110081,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200896,
@@ -110195,7 +110195,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 200901,
@@ -110234,7 +110234,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party INT/HP+#PER#%"
+    "description": "All Allies: INT/HP +#PER#%"
   },
   {
     "id": 200902,
@@ -110386,7 +110386,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 200906,
@@ -110503,7 +110503,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 200912,
@@ -110810,7 +110810,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: INT and RES +#PER#%"
+    "description": "All Allies: INT/RES +#PER#%"
   },
   {
     "id": 200922,
@@ -110964,7 +110964,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200926,
@@ -111042,7 +111042,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's ATK/INT+#PER#%(2T)"
+    "description": ", All Allies: ATK/INT +#PER#%(2T)"
   },
   {
     "id": 200928,
@@ -111120,7 +111120,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and HP +#PER#%"
+    "description": "All Allies: ATK/INT/HP +#PER#%"
   },
   {
     "id": 200932,
@@ -111390,7 +111390,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and ATK/INT+#PER#%(5T)"
+    "description": ", ATK/INT +#PER#%(5T)"
   },
   {
     "id": 200941,
@@ -111431,7 +111431,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 200942,
@@ -112165,7 +112165,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200966,
@@ -112241,7 +112241,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Computer+#per#%(2t)"
+    "description": ", ATK +#PER#%(2T)"
   },
   {
     "id": 200971,
@@ -112509,7 +112509,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD-#PER#%(3T)"
+    "description": ", SPD -#PER#%(3T)"
   },
   {
     "id": 200981,
@@ -112548,7 +112548,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 200982,
@@ -112700,7 +112700,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200986,
@@ -112975,7 +112975,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given ATK, INT, CRD, and CRT debuff conversion status (4 times)"
+    "description": "All Allies: At start of battle, ATK/INT/CRD/CRT Debuff Conversion (4 times)"
   },
   {
     "id": 200995,
@@ -113013,7 +113013,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 200996,
@@ -113129,7 +113129,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP and ATK +#PER#%"
+    "description": "All Allies: HP/ATK +#PER#%"
   },
   {
     "id": 201002,
@@ -113603,7 +113603,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 201016,
@@ -113949,7 +113949,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and also my own INT+#PER#%(1T)"
+    "description": ", Self: INT +#PER#%(1T)"
   },
   {
     "id": 201028,
@@ -113987,7 +113987,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD+#PER#%(2T)"
+    "description": ", SPD +#PER#%(2T)"
   },
   {
     "id": 201031,
@@ -114026,7 +114026,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies: ATK/INT -#PER#%"
+    "description": "All Enemies: ATK/INT -#PER#%"
   },
   {
     "id": 201032,
@@ -114179,7 +114179,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT -#PER#%"
+    "description": ", CRT -#PER#%"
   },
   {
     "id": 201036,
@@ -114486,7 +114486,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", HP ・ CRT+#per#%"
+    "description": ", HP/CRT +#PER#%"
   },
   {
     "id": 201046,
@@ -114645,7 +114645,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 201052,
@@ -114764,7 +114764,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Lowest-HP Foe: At end of turn, Wind Follow-up (2 times, Power D+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Wind Follow-up (2 Times, Power D+)"
   },
   {
     "id": 201055,
@@ -114917,7 +114917,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Highest-HP Foe: At end of turn, Wind Follow-up (1 times, Power D+)"
+    "description": ", Highest-HP Foe: At the end of the turn, Wind Follow-up (1 Time, Power D+)"
   },
   {
     "id": 210021,
@@ -116547,7 +116547,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300013,
@@ -116699,7 +116699,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300023,
@@ -116737,7 +116737,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My ATK+#PER#%"
+    "description": "Self: ATK +#PER#%"
   },
   {
     "id": 300024,
@@ -116851,7 +116851,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300033,
@@ -116889,7 +116889,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My DEF+#PER#%"
+    "description": "Self: DEF +#PER#%"
   },
   {
     "id": 300034,
@@ -117003,7 +117003,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300043,
@@ -117041,7 +117041,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "My HP+#PER#%"
+    "description": "Self: HP +#PER#%"
   },
   {
     "id": 300044,
@@ -117155,7 +117155,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, SPD +#PER#%(1 turn)"
+    "description": "Self: At the start of the turn, SPD +#PER#%(1T)"
   },
   {
     "id": 300053,
@@ -117307,7 +117307,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, SPD +#PER#%(1 turn)"
+    "description": "Self: At the start of the turn, SPD +#PER#%(1T)"
   },
   {
     "id": 300063,
@@ -117459,7 +117459,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, SPD +#PER#%(1 turn)"
+    "description": "Self: At the start of the turn, SPD +#PER#%(1T)"
   },
   {
     "id": 300073,
@@ -117535,7 +117535,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300081,
@@ -117611,7 +117611,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, SPD +#PER#%(1 turn)"
+    "description": "Self: At the start of the turn, SPD +#PER#%(1T)"
   },
   {
     "id": 300083,
@@ -117687,7 +117687,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300091,
@@ -117839,7 +117839,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300101,
@@ -117991,7 +117991,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300111,
@@ -118453,7 +118453,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300141,
@@ -118611,7 +118611,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300151,
@@ -118769,7 +118769,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300161,
@@ -118927,7 +118927,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300171,
@@ -119003,7 +119003,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300173,
@@ -119079,7 +119079,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 300181,
@@ -119155,7 +119155,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300183,
@@ -119231,7 +119231,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 300191,
@@ -119307,7 +119307,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300193,
@@ -119459,7 +119459,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300203,
@@ -119611,7 +119611,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, DEF +#PER#%(3T)"
   },
   {
     "id": 300213,
@@ -119763,7 +119763,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, DEF +#PER#%(3T)"
   },
   {
     "id": 300223,
@@ -119915,7 +119915,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, DEF +#PER#%(3T)"
   },
   {
     "id": 300233,
@@ -119991,7 +119991,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300241,
@@ -120067,7 +120067,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, DEF +#PER#%(3T)"
   },
   {
     "id": 300243,
@@ -120143,7 +120143,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300251,
@@ -120295,7 +120295,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300261,
@@ -120447,7 +120447,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300271,
@@ -120790,7 +120790,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 300292,
@@ -120943,7 +120943,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 300302,
@@ -121096,7 +121096,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 300312,
@@ -121249,7 +121249,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' DEF and RES -#PER#%"
+    "description": "All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 300322,
@@ -121515,7 +121515,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300341,
@@ -121667,7 +121667,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300351,
@@ -121819,7 +121819,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your RES+#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, RES +#PER#%(3T)"
   },
   {
     "id": 300361,
@@ -121971,7 +121971,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your RES+#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, RES +#PER#%(3T)"
   },
   {
     "id": 300371,
@@ -122749,7 +122749,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, party's ATK/INT+#PER#%(1 turn)"
+    "description": "All Allies: At the start of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 300421,
@@ -122903,7 +122903,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, party's ATK/INT+#PER#%(1 turn)"
+    "description": "All Allies: At the start of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 300431,
@@ -123057,7 +123057,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, party's DEF/RES+#PER#%(1 turn)"
+    "description": "All Allies: At the start of the turn, DEF/RES +#PER#%(1T)"
   },
   {
     "id": 300441,
@@ -123211,7 +123211,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, party's DEF/RES+#PER#%(1 turn)"
+    "description": "All Allies: At the start of the turn, DEF/RES +#PER#%(1T)"
   },
   {
     "id": 300451,
@@ -123363,7 +123363,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300461,
@@ -123515,7 +123515,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300471,
@@ -123667,7 +123667,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 300481,
@@ -123819,7 +123819,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 300531,
@@ -124501,7 +124501,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' base parameters -#PER#%"
+    "description": "All Enemies: Basic Stats -#PER#%"
   },
   {
     "id": 300572,
@@ -124577,7 +124577,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, RES +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, RES +#PER#%(3T)"
   },
   {
     "id": 300574,
@@ -124657,7 +124657,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' base parameters -#PER#%"
+    "description": "All Enemies: Basic Stats -#PER#%"
   },
   {
     "id": 300582,
@@ -124733,7 +124733,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, DEF +#PER#%(3T)"
   },
   {
     "id": 300584,
@@ -124813,7 +124813,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' base parameters -#PER#%"
+    "description": "All Enemies: Basic Stats -#PER#%"
   },
   {
     "id": 300592,
@@ -124889,7 +124889,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, DEF +#PER#%(3T)"
   },
   {
     "id": 300594,
@@ -124969,7 +124969,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' base parameters -#PER#%"
+    "description": "All Enemies: Basic Stats -#PER#%"
   },
   {
     "id": 300602,
@@ -125045,7 +125045,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, RES +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, RES +#PER#%(3T)"
   },
   {
     "id": 300604,
@@ -125731,7 +125731,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK and DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 300652,
@@ -125885,7 +125885,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK and DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 300662,
@@ -126039,7 +126039,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK and DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 300672,
@@ -126153,7 +126153,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 300681,
@@ -126193,7 +126193,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK and DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 300682,
@@ -126307,7 +126307,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 300691,
@@ -126763,7 +126763,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300721,
@@ -126915,7 +126915,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300731,
@@ -126991,7 +126991,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 300733,
@@ -127143,7 +127143,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 300743,
@@ -127295,7 +127295,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 300753,
@@ -127447,7 +127447,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 300763,
@@ -127562,7 +127562,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and INT +#PER#%"
+    "description": "Self: ATK/INT +#PER#%"
   },
   {
     "id": 300772,
@@ -127600,7 +127600,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300773,
@@ -127715,7 +127715,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and INT +#PER#%"
+    "description": "Self: ATK/INT +#PER#%"
   },
   {
     "id": 300782,
@@ -127753,7 +127753,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300783,
@@ -127868,7 +127868,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and INT +#PER#%"
+    "description": "Self: ATK/INT +#PER#%"
   },
   {
     "id": 300792,
@@ -127906,7 +127906,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300793,
@@ -128021,7 +128021,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and INT +#PER#%"
+    "description": "Self: ATK/INT +#PER#%"
   },
   {
     "id": 300802,
@@ -128059,7 +128059,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 300803,
@@ -128211,7 +128211,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300813,
@@ -128287,7 +128287,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 300821,
@@ -128363,7 +128363,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300823,
@@ -128439,7 +128439,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 300831,
@@ -128515,7 +128515,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300833,
@@ -128591,7 +128591,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300841,
@@ -128667,7 +128667,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300843,
@@ -128743,7 +128743,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, SPD +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, SPD +#PER#%(3T)"
   },
   {
     "id": 300851,
@@ -128781,7 +128781,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300852,
@@ -128857,7 +128857,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 300854,
@@ -128933,7 +128933,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300862,
@@ -129085,7 +129085,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300872,
@@ -129237,7 +129237,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300882,
@@ -129313,7 +129313,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, INT +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, INT +#PER#%(3T)"
   },
   {
     "id": 300884,
@@ -129389,7 +129389,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300892,
@@ -129503,7 +129503,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, DEF +#PER#%(3T)"
   },
   {
     "id": 300901,
@@ -129541,7 +129541,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300902,
@@ -129655,7 +129655,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, DEF +#PER#%(3T)"
   },
   {
     "id": 300911,
@@ -129693,7 +129693,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300912,
@@ -129807,7 +129807,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, RES +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, RES +#PER#%(3T)"
   },
   {
     "id": 300921,
@@ -129845,7 +129845,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 300922,
@@ -129959,7 +129959,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, RES +#PER#%(3 turns)"
+    "description": "Self: At the start of battle, RES +#PER#%(3T)"
   },
   {
     "id": 300971,
@@ -129997,7 +129997,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300972,
@@ -130151,7 +130151,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300982,
@@ -130305,7 +130305,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 300992,
@@ -130459,7 +130459,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies' RES -#PER#%"
+    "description": "All Enemies: RES -#PER#%"
   },
   {
     "id": 301002,
@@ -131943,7 +131943,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 301181,
@@ -132095,7 +132095,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 301191,
@@ -132247,7 +132247,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 301201,
@@ -132399,7 +132399,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 301251,
@@ -132475,7 +132475,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 301253,
@@ -132513,7 +132513,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 301254,
@@ -132627,7 +132627,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 301263,
@@ -132779,7 +132779,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 301273,
@@ -132931,7 +132931,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn, ATK +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, ATK +#PER#%(3T)"
   },
   {
     "id": 301283,
@@ -132969,7 +132969,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn,  DEF +#PER#%(3 turns)"
+    "description": "Self: At the start of the turn, DEF +#PER#%(3T)"
   },
   {
     "id": 301284,
@@ -133463,7 +133463,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 301321,
@@ -133615,7 +133615,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 301331,
@@ -134071,7 +134071,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 301361,
@@ -134223,7 +134223,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, ATK +#PER#% (3 turns)"
+    "description": "Self: At the start of battle, ATK +#PER#%(3T)"
   },
   {
     "id": 301371,
@@ -134261,7 +134261,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "SPD +#PER#%"
+    "description": "Self: SPD +#PER#%"
   },
   {
     "id": 301372,
@@ -134299,7 +134299,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "SPD +#PER#%"
+    "description": "Self: SPD +#PER#%"
   },
   {
     "id": 301373,
@@ -134337,7 +134337,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "SPD +#PER#%"
+    "description": "Self: SPD +#PER#%"
   },
   {
     "id": 301374,
@@ -134375,7 +134375,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "SPD +#PER#%"
+    "description": "Self: SPD +#PER#%"
   },
   {
     "id": 309101,
@@ -137863,7 +137863,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 10000001,
@@ -138333,7 +138333,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your ATK/INT+#PER#% (10 turns)"
+    "description": "Self: At the start of the turn, ATK/INT +#PER#%(10T)"
   },
   {
     "id": 10000013,
@@ -138373,7 +138373,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, your DEF/RES+#PER#% (10 turns)"
+    "description": "Self: At the start of the turn, DEF/RES +#PER#%(10T)"
   },
   {
     "id": 10000014,
@@ -138607,7 +138607,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will have your ATK/INT+#PER#% (10 turns)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, ATK/INT +#PER#%(10T)"
   },
   {
     "id": 10000020,
@@ -138647,7 +138647,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if you defeat an enemy character, you will have your DEF/RES+#PER#% (10 turns)"
+    "description": "Self: At the end of the turn, if unit has defeated a foe, DEF/RES +#PER#%(10T)"
   },
   {
     "id": 10000021,
@@ -143317,7 +143317,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 3526,
@@ -143943,7 +143943,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT-#PER#%(1T)"
+    "description": ", ATK/INT -#PER#%(1T)"
   },
   {
     "id": 3531,
@@ -143982,7 +143982,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and CRD +#PER#%"
+    "description": "Self: ATK/CRD +#PER#%"
   },
   {
     "id": 3532,
@@ -144137,7 +144137,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3536,
@@ -144527,7 +144527,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and Party's SPD/CRT+#PER#%(4T)"
+    "description": ", All Allies: SPD/CRT +#PER#%(4T)"
   },
   {
     "id": 3568,
@@ -144761,7 +144761,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3586,
@@ -144920,7 +144920,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF and RES +#PER#%"
+    "description": "All Allies: DEF/RES +#PER#%"
   },
   {
     "id": 201062,
@@ -145042,7 +145042,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At start of battle, DEF/RES/CRD/CRT Debuff Conversion (4 Times)"
+    "description": "All Allies: At start of battle, DEF/RES/CRD/CRT Debuff Conversion (4 times)"
   },
   {
     "id": 201065,
@@ -145080,7 +145080,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 201066,
@@ -145195,7 +145195,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP and ATK +#PER#%"
+    "description": "All Allies: HP/ATK +#PER#%"
   },
   {
     "id": 3592,
@@ -145355,7 +145355,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD and CRT +#PER#%"
+    "description": ", SPD/CRT +#PER#%"
   },
   {
     "id": 3596,
@@ -145508,7 +145508,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK and INT +#PER#%"
+    "description": "Self: ATK/INT +#PER#%"
   },
   {
     "id": 3602,
@@ -145586,7 +145586,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, party's SPD/CRT+#PER#%(2T)"
+    "description": "All Allies: At the start of the turn, SPD/CRT +#PER#%(2T)"
   },
   {
     "id": 3604,
@@ -145626,7 +145626,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Highest HP foe: At the end of turn, fire follow-up (3 times, power D+)"
+    "description": "Highest-HP Foe: At the end of the turn, Fire Follow-up (3 Times, Power D+)"
   },
   {
     "id": 3605,
@@ -145664,7 +145664,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3606,
@@ -146089,7 +146089,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 3612,
@@ -146245,7 +146245,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3616,
@@ -146398,7 +146398,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All enemies: ATK/INT -#PER#%"
+    "description": "All Enemies: ATK/INT -#PER#%"
   },
   {
     "id": 3632,
@@ -146550,7 +146550,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD -#PER#%"
+    "description": ", SPD -#PER#%"
   },
   {
     "id": 3636,
@@ -146674,7 +146674,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Atk/INT/CRD+#PER#%(4T)"
+    "description": ", ATK/INT/CRD +#PER#%(4T)"
   },
   {
     "id": 201071,
@@ -146717,7 +146717,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: base parameters and CRD +#PER#%"
+    "description": "All Allies: Basic Stats/CRD +#PER#%"
   },
   {
     "id": 201072,
@@ -146909,7 +146909,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's DEF/RES+#PER#%(2T)"
+    "description": ", All Allies: DEF/RES +#PER#%(2T)"
   },
   {
     "id": 201078,
@@ -146989,7 +146989,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+    "description": "All Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 3642,
@@ -147376,7 +147376,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Highest-HP Foe: At the end of turn, Star follow-up (3 times, power D+)"
+    "description": "Highest-HP Foe: At the end of the turn, Star Follow-up (3 Times, Power D+)"
   },
   {
     "id": 3624,
@@ -147569,7 +147569,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 201081,
@@ -147611,7 +147611,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Base parameters +#PER#%"
+    "description": "All Allies: Basic Stats +#PER#%"
   },
   {
     "id": 201082,
@@ -147733,7 +147733,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of battle, the party will be given ATK, INT, and CRD debuff conversion status (4 times)"
+    "description": "All Allies: At start of battle, ATK/INT/CRD Debuff Conversion (4 times)"
   },
   {
     "id": 201085,
@@ -147771,7 +147771,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 201086,
@@ -147923,7 +147923,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP +#PER#%"
+    "description": ", HP +#PER#%"
   },
   {
     "id": 3651,
@@ -148116,7 +148116,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", HP/Def +#PER#%"
+    "description": ", HP/DEF +#PER#%"
   },
   {
     "id": 3656,
@@ -148269,7 +148269,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: HP and ATK +#PER#%"
+    "description": "All Allies: HP/ATK +#PER#%"
   },
   {
     "id": 3662,
@@ -148539,7 +148539,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", ATK/INT-#PER#%(2T)"
+    "description": ", ATK/INT -#PER#%(2T)"
   },
   {
     "id": 3681,
@@ -148732,7 +148732,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD +#PER#%"
+    "description": ", SPD +#PER#%"
   },
   {
     "id": 3686,
@@ -148808,7 +148808,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": " ,CRT +#PER#%(2T)"
+    "description": ", CRT +#PER#%(2T)"
   },
   {
     "id": 3688,
@@ -149269,7 +149269,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Self: ATK/CRD+#PER#%(2T)"
+    "description": ", Self: ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3698,
@@ -149652,7 +149652,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: HP/ATK+#PER#%"
+    "description": "Self: HP/ATK +#PER#%"
   },
   {
     "id": 3672,
@@ -149805,7 +149805,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD +#PER#%"
+    "description": ", CRD +#PER#%"
   },
   {
     "id": 3676,
@@ -149961,7 +149961,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's DEF/RES/HP+#PER#%"
+    "description": "All Allies: DEF/RES/HP +#PER#%"
   },
   {
     "id": 3712,
@@ -150273,7 +150273,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+    "description": "All Allies: ATK/INT/CRD +#PER#%"
   },
   {
     "id": 3742,
@@ -150541,7 +150541,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",ATK・INT+#PER#%(2T)"
+    "description": ", ATK/INT +#PER#%(2T)"
   },
   {
     "id": 201091,
@@ -150581,7 +150581,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK/INT/CRT of all enemies-#PER#%"
+    "description": "All Enemies: ATK/INT/CRT -#PER#%"
   },
   {
     "id": 201092,
