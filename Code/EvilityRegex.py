@@ -17,16 +17,21 @@ stat_map = {
     'ゲージ': 'AG',  # Action Gauge
     'HP以外の基礎パラメータ': 'Non-HP Basic Stats',
     '基礎パラメータ': 'Basic Stats',
+    'HP': 'HP',
     'ATK': 'ATK',
     'INT': 'INT',
     'DEF': 'DEF',
-    'MDF': 'MDF',
+    'RES': 'RES',
     'SPD': 'SPD',
     'CRD': 'CRD',
-    'HIT': 'HIT',
-    'RES': 'RES',
+    'CRT': 'CRT',
     # Add more if needed
 }
+
+# Build stat group from the stat_map keys
+# Escape any that contain non-ASCII characters or regex symbols
+stat_keys = sorted(stat_map.keys(), key=len, reverse=True)
+stats_pattern = '|'.join(map(re.escape, stat_keys))
 
 
 damage_type_map = {
@@ -62,40 +67,92 @@ timing_map = {
     '戦闘開始時': 'At the start of battle',
 }
 
+target_map = {
+    '自分の': 'Self',
+    'パーティの': 'All Allies',
+    '敵全体の': 'All Enemies',
+    '残りHPが高い敵キャラ': 'Highest-HP Foe',
+    '残りHPの高い敵キャラ': 'Highest-HP Foe',
+    '残りHPが低い敵キャラ': 'Lowest-HP Foe',
+    '残りHPの低い敵キャラ': 'Lowest-HP Foe',
+}
+
 patterns = [
 
-    (
-    re.compile(
-        r'^(、さらに)?(ターン終了時)、敵キャラを倒していたら(?P<target>自分の|敵全体の)?'
-        r'(?P<stats>(?:[A-Z]+(?:・[A-Z]+)*|HP以外の基礎パラメータ))\+#PER#(?:%|％)'  # Match single/multiple stats or "Non-HP Basic Stats"
-        r'(?:\((?P<turns>\d+)(T|ターン)?\)|（(?P<turns_alt>\d+)ターン）)$',  # Handle both T and ターン in duration
-        flags=re.UNICODE
-    ),
-    lambda m: (
-        f"{'Self' if m.group('target') == '自分の' else 'All Allies'}"  # Determine Target
-        + ": At the "
-        + "end of the turn, if unit has defeated a foe, "
-        + (
-            "Non-HP Basic Stats "  # Default to Non-HP Basic Stats
-            if m.group('stats') == 'HP以外の基礎パラメータ' else  # If "HP以外の基礎パラメータ"
-            f"{', '.join(m.group('stats').replace('・', '/').split('・'))} "  # Otherwise, show specific stats
-        )
-        + "+#PER#%"  # Stats or Non-HP Basic Stats
-        + (
-            f"({m.group('turns') or m.group('turns_alt')}T)" if (m.group('turns') or m.group('turns_alt')) else ''
-        )  # Optional turns, either T or ターン
-    )
-)
+    # # --- 1️⃣ End of Turn Defeat Foe Stat Buffs ✅ ---
+    # (
+    #     re.compile(
+    #         r'^(、さらに)?(ターン終了時)、敵キャラを倒していたら(?P<target>自分の|敵全体の)?'
+    #         r'(?P<stats>(?:[A-Z]+(?:・[A-Z]+)*|HP以外の基礎パラメータ))\+#PER#(?:%|％)'  # Match single/multiple stats or "Non-HP Basic Stats"
+    #         r'(?:\((?P<turns>\d+)(T|ターン)?\)|（(?P<turns_alt>\d+)ターン）)$',  # Handle both T and ターン in duration
+    #         flags=re.UNICODE
+    #     ),
+    #     lambda m: (
+    #         f"{'Self' if m.group('target') == '自分の' else 'All Allies'}"  # Determine Target
+    #         + ": At the "
+    #         + "end of the turn, if unit has defeated a foe, "
+    #         + (
+    #             "Non-HP Basic Stats "  # Default to Non-HP Basic Stats
+    #             if m.group('stats') == 'HP以外の基礎パラメータ' else  # If "HP以外の基礎パラメータ"
+    #             f"{', '.join(m.group('stats').replace('・', '/').split('・'))} "  # Otherwise, show specific stats
+    #         )
+    #         + "+#PER#%"  # Stats or Non-HP Basic Stats
+    #         + (
+    #             f"({m.group('turns') or m.group('turns_alt')}T)" if (m.group('turns') or m.group('turns_alt')) else ''
+    #         )  # Optional turns, either T or ターン
+    #     )
+    # ),
 
 
+#     # --- 2️⃣ Static buffs/debuffs with no duration ✅ ---
+#     (
+#         re.compile(
+#             rf'^(?P<target>自分の|パーティの|敵全体の)?'
+#             rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+#             r'(?P<sign>[+-])#PER#(?:%|％)$',
+#             flags=re.UNICODE
+#         ),
+#         lambda m: (
+#             target_map.get(m.group('target'), '')
+#             + (": " if m.group('target') else "")
+#             + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+#             + f" {m.group('sign')}#PER#%"
+#         )
+#     ),
+
+#     # --- 3️⃣ Simple Stat Buffs (No Timing) with Mandatory Leading Comma ✅ ---
+#     (
+#         re.compile(
+#             rf'^[、,]'  # match Japanese comma OR normal comma
+#             rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+#             r'(?P<sign>[+-])#PER#(?:%|％)'
+#             r'(?:\((?P<turns>\d+)T\)|（(?P<turns_alt>\d+)ターン）)?$',
+#             flags=re.UNICODE
+#         ),
+#         lambda m: (
+#             ", "  # always include leading comma
+#             + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+#             + f" {m.group('sign')}#PER#%"
+#             + (f"({m.group('turns') or m.group('turns_alt')}T)" 
+#             if (m.group('turns') or m.group('turns_alt')) else "")
+#         )
+#     ),
 
 
+#     # --- 4️⃣ Synchonization ✅ ---
+#     (
+#         re.compile(
+#             r'^(、さらに)?自身にシンクロ\(#PER#回\)付与$',
+#             flags=re.UNICODE
+#         ),
+#         lambda m: (
+#             f"{', ' if m.group(1) else ''}"  # Optional leading comma
+#             + "Self: Synchronization (#PER# times)"
+#         )
+#     ),
 
 
-
-
-
-#     # --- Party Debuff Conversion at Start of Battle ---
+#     # --- 5️⃣ Party Debuff Conversion at Start of Battle ✅ ---
 #     (
 #         re.compile(
 #             r'戦闘開始時、パーティに(?P<stats>(?:\w+・?)+)デバフ転換状態を付与\((?P<times>\d+)回\)',
@@ -104,7 +161,7 @@ patterns = [
 #         lambda m: f"All Allies: At start of battle, {m.group('stats').replace('・', '/')} Debuff Conversion ({m.group('times')} times)"
 #     ),
 
-#     # # --- Stat Buffs with Timing, Target, and optional Leading Comma ---
+#     # --- 6️⃣ Stat Buffs with Timing, Target, and optional Leading Comma ✅ ---
 #     (
 #         re.compile(
 #             r'^(、さらに)?(戦闘開始時|ターン(?P<timing>開始|終了)時)、'
@@ -133,170 +190,212 @@ patterns = [
 #     ),
 
 
-#     # --- Simple Stat Buffs (No Timing) with Leading Comma ---
+    # # --- 7️⃣ Standalone Stat Buffs (no timing clause, optional leading comma) ---
+    # (
+    #     re.compile(
+    #         r'^(?:、さらに|[、,])?\s*'                           # allow:  、さらに  OR  、  OR  , 
+    #         r'(?P<stats>[A-Z]+(?:・[A-Z]+)*)'
+    #         r'\+#PER#%'
+    #         r'(?:\((?P<turns>\d+)(?:T|ターン)?\)|（(?P<turns_alt>\d+)ターン）)?$',
+    #         flags=re.UNICODE
+    #     ),
+    #     lambda m: (
+    #         ", "                               # always output with English comma
+    #         + m.group('stats').replace('・', '/')
+    #         + " +#PER#%"
+    #         + (
+    #             f"({m.group('turns') or m.group('turns_alt')}T)"
+    #             if (m.group('turns') or m.group('turns_alt')) else ""
+    #         )
+    #     )
+    # ),
+
+
+#     # --- 8️⃣ : Additional stat buffs for self/party  ✅ ---
+#    (
+#         re.compile(
+#             r'^(、さらに)(?P<target>自分の|パーティの|敵全体の)?(?P<stats>[A-Z]+(?:・[A-Z]+)*)\+#PER#%(?:\((?P<turns>\d+)(?:T|ターン)\))?'
+#         ),
+#         lambda m: (
+#             f", {target_map[m.group('target')]}: " if m.group('target') else ", "
+#         )
+#         + f"{m.group('stats').replace('・', '/')} +#PER#%"
+#         + (f"({m.group('turns')}T)" if m.group('turns') else "")
+#     ),
+
+#     # --- 9️⃣ Follow-up Attacks based on remaining HP ✅ ---
 #     (
 #         re.compile(
-#             r'^(、さらに)?(?P<stats>[A-Z]+(?:・[A-Z]+)*)\+#PER#%'
-#             r'(?:\((?P<turns>\d+)(?:T|ターン)?\)|（(?P<turns_alt>\d+)ターン）)?'
+#             r'(、さらに)?'
+#             r'(?P<timing>ターン開始時|ターン終了時|戦闘開始時)、'
+#             r'(?P<hp_phrase>残りHPが高い敵キャラ|残りHPが低い敵キャラ|残りHPの低い敵キャラ)(?:単体)?'
+#             r'に(?P<element>[炎水風星])属性攻撃\((?P<hits>\d+)回[,，]威力(?P<power>[A-E]\+?)\)',
+#             flags=re.UNICODE
 #         ),
 #         lambda m: (
 #             f"{', ' if m.group(1) else ''}"
-#             f"{m.group('stats').replace('・', '/')} +#PER#%"
-#             f"{f'({m.group('turns') or m.group('turns_alt')}T)' if (m.group('turns') or m.group('turns_alt')) else ''}"
+#             f"{target_map[m.group('hp_phrase')]}: "
+#             f"{timing_map[m.group('timing')]}, "
+#             f"{element_map[m.group('element')]} Follow-up "
+#             f"({m.group('hits')} {'Time' if m.group('hits') == '1' else 'Times'}, Power {m.group('power')})"
 #         )
 #     ),
 
 
-#     # Additional stat buffs for self/party
+#     # --- 1️⃣0️⃣ Party uses [Element] skill -> Buffs (Damage, stats, SP...) ✅ --- #
 #     (
 #         re.compile(
-#             r'^(、さらに)(?P<target>自分の|パーティの)?(?P<stats>[A-Z]+(?:・[A-Z]+)*)\+#PER#%(?:\((?P<turns>\d+)(?:T|ターン)\))?'
+#             r"(?:[、,]\s*)?(?:さらに)?パーティが(?P<element>[炎水風星])属性の技を使用した時、"
+#             r"パーティ(?:(?:に与える全てのダメージ)|(?:の(?P<buffs>[A-Z・]+|HP以外の基礎パラメータ|SP)))"
+#             r"\+#PER#%(?:\((?P<turns>\d+)T\))?",
+#             flags=re.UNICODE
 #         ),
 #         lambda m: (
-#             f", {'Self' if m.group('target') == '自分の' else 'All Allies'}: "
-#             f"{m.group('stats').replace('・', '/')} +#PER#%"
-#             f"{f'({m.group('turns')}T)' if m.group('turns') else ''}"
-#         ),
-#     ),
-
-#     # --- Pattern 1: Highest-HP enemy follow-ups ---
-#     (
-#     re.compile(
-#         r'(、さらに)?ターン(?P<timing>開始|終了)時、残りHPが高い敵キャラ(?:単体)?に'
-#         r'(?P<element>[炎水風星])属性攻撃\((?P<hits>\d+)回[,，]威力(?P<power>[A-E]\+?)\)',
-#         flags=re.UNICODE,
-#     ),
-#     lambda m: f"{', ' if m.group(1) else ''}"
-#               f"Highest-HP Foe: At the "
-#               f"{'start' if m.group('timing') == '開始' else 'end'} of turn, "
-#               f"{element_map[m.group('element')]} Follow-up "
-#               f"({m.group('hits')} {'Time' if m.group('hits') == '1' else 'Times'}, Power {m.group('power')})",
-#     ),
-
-#     # --- Pattern 2: Lowest-HP enemy follow-ups ---
-#     (
-#     re.compile(
-#         r'(、さらに)?ターン(?P<timing>開始|終了)時、残りHP(?:が|の)低い敵キャラ(?:単体)?に'
-#         r'(?P<element>[炎水風星])属性攻撃\((?P<hits>\d+)回[,，]威力(?P<power>[A-E]\+?)\)',
-#         flags=re.UNICODE,
-#     ),
-#     lambda m: f"{', ' if m.group(1) else ''}"
-#               f"Lowest-HP Foe: At the "
-#               f"{'start' if m.group('timing') == '開始' else 'end'} of turn, "
-#               f"{element_map[m.group('element')]} Follow-up "
-#               f"({m.group('hits')} {'Time' if m.group('hits') == '1' else 'Times'}, Power {m.group('power')})",
-#     ),
-
-
-#     # 1️⃣ Party uses [Element] skill -> Party Damage Up
-#     (
-#         re.compile(
-#             r"(?P<lead>[、,])?(?:さらに)?パーティが(?P<element>[炎水風星])属性の技を使用した時、パーティに与える全てのダメージ\+#PER#%(?:\((?P<turns>\d+)T\))?付与"
-#         ),
-#         lambda m: (
-#             (", " if m.group('lead') else "")
-#             + f"All Allies: When a {element_map[m.group('element')]} Skill is used, "
-#             + f"Damage +#PER#%({m.group('turns')}T)" if m.group('turns')
-#             else
-#             (", " if m.group('lead') else "")
-#             + f"All Allies: When a {element_map[m.group('element')]} Skill is used, Damage +#PER#%"
-#         )
-#     ),
-
-#     # 2️⃣ Party uses [Element] skill -> Buff stats or SP etc.
-#     (
-#         re.compile(
-#             r'(?P<lead>[、,])?(?:さらに)?パーティが(?P<element>[炎水風星])属性の技を使用した時、パーティの(?P<buffs>[A-Z・]+|HP以外の基礎パラメータ|SP)\+#PER#%(?:\((?P<turns>\d+)T\))?'
-#         ),
-#         lambda m: (
-#             (", " if m.group('lead') else "")
-#             + f"All Allies: When a {element_map[m.group('element')]} Skill is used, "
-#             + f"{stat_map.get(m.group('buffs'), m.group('buffs').replace('・', '/'))} "
-#             + f"+#PER#%({m.group('turns')}T)" if m.group('turns')
-#             else (", " if m.group('lead') else "")
-#             + f"All Allies: When a {element_map[m.group('element')]} Skill is used, "
-#             + f"{stat_map.get(m.group('buffs'), m.group('buffs').replace('・', '/'))} +#PER#%"
+#             # Prefix (if preceded by comma)
+#             f"{', ' if m.group(0).startswith(('、', ',')) else ''}"
+#             # Base phrase
+#             f"All Allies: When a {element_map[m.group('element')]} Skill is used, "
+#             # Branch based on what matched
+#             + (
+#                 f"Damage +#PER#%{f'({m.group('turns')}T)' if m.group('turns') else ''}"
+#                 if m.group('buffs') is None else
+#                 f"{stat_map.get(m.group('buffs'), m.group('buffs').replace('・', '/'))} "
+#                 f"+#PER#%{f'({m.group('turns')}T)' if m.group('turns') else ''}"
+#             )
 #         )
 #     ),
 
     
-#     # 2️⃣ Weapon-equipped self: damage
+#     # --- 1️⃣1️⃣ Weapon-equipped self: damage and stat buffs ✅ --- #
 #     (
 #         re.compile(
-#             r'(?:、さらに)?自分が(?P<weapon>剣|杖|魔物魔法|魔物物理|拳|銃|斧|弓|槍)武器装備時、'
-#             r'(?:(?P<element>[炎水風星])属性)?'
-#             r'(?:攻撃で)?'
-#             r'(?P<damage_type>与える全てのダメージ|必殺技で与えるダメージ|属性攻撃で与えるダメージ)\+#PER#%'
-#         ),
-#         lambda m:
-#             (", " if m.string.startswith("、さらに") else "") +
-#             f"{weapon_map[m.group('weapon')]}-Equipped Self: " +
-#             f"{element_map.get(m.group('element'), damage_type_map[m.group('damage_type')])} +#PER#%"
-#     ),
-
-#     # 2️⃣b Weapon-equipped self: stat buffs (e.g. ATK・DEF +#PER#%)
-#     (
-#         re.compile(
-#             r'(?:、さらに)?自分が(?P<weapon>剣|杖|魔物魔法|魔物物理|拳|銃|斧|弓|槍)武器装備時、'
-#             r'(?P<stats>[A-Z・]+)\+#PER#%',
-#             flags=re.UNICODE
-#         ),
-#         lambda m:
-#             (", " if m.string.startswith("、さらに") else "") +
-#             f"{weapon_map[m.group('weapon')]}-Equipped Self: " +
-#             f"{m.group('stats').replace('・', '/')} +#PER#%"
-#     ),
-
-#     # 3️⃣b Self vs Gender-Based Damage Modifiers
-#     (
-#         re.compile(
-#             r'自分が(?P<gender>男性|女性)キャラ(?P<direction>から|に)'
-#             r'(?P<type>与える|受ける)(?:全ての)?ダメージ'
-#             r'(?P<value>(?:[+-]#PER#|[+-]?\d+)[%％])',
+#             r"(?:[、,]\s*)?(?:さらに)?自分が"
+#             r"(?P<weapon>剣|杖|魔物魔法|魔物物理|拳|銃|斧|弓|槍)武器装備時、"
+#             r"(?:(?:(?P<element>[炎水風星])属性)?(?:攻撃で)?(?P<damage_type>与える全てのダメージ|必殺技で与えるダメージ|属性攻撃で与えるダメージ)"
+#             r"|\s*(?P<stats>[A-Z・]+))"
+#             r"\+#PER#%",
 #             flags=re.UNICODE
 #         ),
 #         lambda m: (
-#             f"Self: Damage "
-#             + ("dealt to" if m.group('type') == '与える' else "taken from") + " "
-#             + ("male" if m.group('gender') == '男性' else "female") + " units "
+#             f"{', ' if m.group(0).startswith(('、', ',')) else ''}"
+#             f"{weapon_map[m.group('weapon')]}-Equipped Self: "
+#             + (
+#                 # 🟥 Damage case
+#                 (
+#                     f"{element_map[m.group('element')]} " if m.group('element') else ""
+#                 )
+#                 + f"{damage_type_map[m.group('damage_type')]} +#PER#%"
+#                 if m.group('damage_type')
+#                 # 🟦 Stat buff case
+#                 else f"{m.group('stats').replace('・', '/')} +#PER#%"
+#             )
+#         )
+#     ),
+
+#     # --- 1️⃣2️⃣ Gender-based dame dealt/taken ✅ ---
+#     (
+#         re.compile(
+#             r"(?:[、,]\s*)?(?:さらに)?"
+#             r"(?P<target>自分が|パーティの)"
+#             r"(?P<gender>男性|女性)キャラ"
+#             r"(?:(?P<direction>から|に)|が)?"
+#             r"(?P<type>与える|受ける)?(?:全ての)?ダメージ"
+#             r"(?P<value>(?:[+-]#PER#|[+-]?\d+)[%％])",
+#             flags=re.UNICODE
+#         ),
+#         lambda m: (
+#             f"{', ' if m.group(0).startswith(('、', ',')) else ''}"
+#             +
+#             (
+#                 "Self" if m.group('target') == '自分が'
+#                 else "All Allies"
+#             )
+#             + ": "
+#             +
+#             (
+#                 # Determine the English phrasing based on available cues
+#                 "Damage dealt to " if m.group('type') == '与える' or m.group('direction') == 'に'
+#                 else "Damage taken from " if m.group('direction') == 'から'
+#                 else "Damage taken by "
+#             )
+#             + ("male" if m.group('gender') == '男性' else "female")
+#             + " units "
 #             + m.group('value').replace('％', '%')
 #         )
 #     ),
 
-#     # Stat bufs when attacked
+#     # --- 1️⃣3️⃣ When Attacked Stat Buffs ✅ ---
 #     (
 #         re.compile(
-#             r'^(?:(?P<trigger_party>パーティが)?攻撃を受けた時、)'       # trigger: party attacked (optional)
-#             r'(?:(?P<buff_target>自分|パーティ)の)?'                      # buff target: self or party (optional)
-#             r'(?P<stats>HP以外の基礎パラメータ|基礎パラメータ|[A-Z・]+|ゲージ|SP)'
-#             r'\+(?P<value>#PER#％|#PER#%|[0-9]+％|[0-9]+%)'
-#             r'(?:[\(（](?P<duration>\d+T|\d+ターン)[\)）])?'
+#             r"(?:[、,]\s*)?(?:さらに)?"
+#             r"(?:(?P<trigger_party>パーティが)?攻撃を受けた時、)"  # trigger: "when (party) is attacked"
+#             r"(?:(?P<buff_target>自分|パーティ)の)?"               # buff target: self or party
+#             r"(?P<stats>HP以外の基礎パラメータ|基礎パラメータ|[A-Z・]+|ゲージ|SP)"
+#             r"\+(?P<value>#PER#％|#PER#%|[0-9]+％|[0-9]+%)"
+#             r"(?:[\(（](?P<duration>\d+T|\d+ターン)[\)）])?",
+#             flags=re.UNICODE
 #         ),
 #         lambda m: (
+#             f"{', ' if m.group(0).startswith(('、', ',')) else ''}"
 #             f"{'All Allies' if m.group('buff_target') == 'パーティ' else 'Self'}: "
-#             f"When {'party' if m.group('trigger_party') else 'unit'} is attacked, "
+#             f"When the {'party' if m.group('trigger_party') else 'unit'} is attacked, "
 #             f"{'/'.join(stat_map.get(s, s) for s in m.group('stats').split('・'))} "
-#             f"+{m.group('value')}"
+#             f"+{m.group('value').replace('％', '%')}"
 #             + (f" ({m.group('duration').replace('ターン', 'T')})" if m.group('duration') else "")
 #         )
 #     ),
 
 
-#     # Weapon-Wielding Allies - Damage Up
+#     # --- 1️⃣4️⃣ Weapon-Wielding Party Damage Dealt/Taken ✅ ---
 #     (
 #         re.compile(
-#             r"(?P<lead>[、,])?(?:さらに)?パーティの(?P<weapon>.+?)武器装備キャラが"
-#             r"(?:(?P<condition>.+?)で)?"
-#             r"(?P<direction>与える|受ける)"
-#             r"(?P<scope>全ての)?ダメージ(?P<sign>\+|\-)#PER#%"
-#         ),
+#         r"(?P<lead>[、,])?(?:さらに)?パーティの(?P<weapon>.+?)武器装備キャラが"
+#         r"(?:(?P<condition>.+?)で)?"
+#         r"(?P<direction>与える|受ける)"
+#         r"(?P<scope>全ての)?ダメージ(?P<sign>\+|\-)#PER#[%％]",
+#         flags=re.UNICODE
+#     ),
 #         lambda m: (
-#             (", " if m.group('lead') else "") +
-#             f"{'/'.join([weapon_map.get(w, w) for w in m.group('weapon').split('・')])}-Wielding Allies: "
-#             f"{(damage_type_map.get(m.group('condition')) + ' ') if m.group('condition') else (('Damage dealt' if m.group('direction') == '与える' else 'Damage taken') + ' ')}"
-#             f"{m.group('sign')}#PER#%"
+#             # optional leading comma
+#             (", " if m.group('lead') else "")
+#             # weapon info
+#             + f"{'/'.join(weapon_map.get(w, w) for w in m.group('weapon').split('・'))}-Wielding Allies: "
+#             # direction branch
+#             + (
+#                 # Damage dealt
+#                 f"{damage_type_map.get(m.group('condition'), 'Damage')} {m.group('sign')}#PER#%"
+#                 if m.group('direction') == '与える'
+#                 # Damage taken
+#                 else f"Damage taken"
+#                 + (f" from {damage_type_map.get(m.group('condition'), '')}" if m.group('condition') else "")
+#                 + f" {m.group('sign')}#PER#%"
+#             )
 #         )
 #     ),
+
+    # # --- 1️⃣5️⃣ Multi-Stat Buffed Allies/Self at Turn Start/End ✅ ---
+    # (
+    #     re.compile(
+    #         rf'^(?P<prefix>(?:、さらに|[、,])?)\s*'                            # optional leading comma or "、さらに"
+    #         rf'(?P<timing>ターン開始時|ターン終了時|戦闘開始時)、'             # timing
+    #         rf'パーティの(?P<cond_stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'  # condition stats
+    #         rf'バフ効果を受けている(?P<who>キャラ|味方)の'                     # who = キャラ | 味方
+    #         rf'(?P<apply_stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)' # applied stats
+    #         r'\+#PER#%(?:\((?P<turns>\d+)(?:T|ターン)?\)|（(?P<turns_alt>\d+)ターン）)?$',
+    #         flags=re.UNICODE
+    #     ),
+    #             lambda m: (
+    #         f"{m.group('cond_stats').replace('・', '/')}-Buffed "
+    #         f"{'Self' if m.group('who') == 'キャラ' else 'Allies'}: "
+    #         f"At the "
+    #         f"{'start' if m.group('timing') == 'ターン開始時' else 'end' if m.group('timing') == 'ターン終了時' else 'start of battle'}"
+    #         f"{'' if m.group('timing') == '戦闘開始時' else ' of the turn'}, "
+    #         f"{m.group('apply_stats').replace('・', '/')} +#PER#%"
+    #         f"{'(' + (m.group('turns') or m.group('turns_alt')) + 'T)' if (m.group('turns') or m.group('turns_alt')) else ''}"
+    #     )
+    # ),
+
+
 
 #     # Highest/Lowest AG-Ally - HP heal
 #     (

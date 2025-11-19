@@ -1080,7 +1080,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage you inflict on female characters +#PER#%"
+    "description": "Self: Damage dealt to female units +#PER#%"
   },
   {
     "id": 62,
@@ -1579,7 +1579,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage you do to male characters +#PER#%"
+    "description": "Self: Damage dealt to male units +#PER#%"
   },
   {
     "id": 84,
@@ -1769,7 +1769,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage received by party axe weapon equipped characters -#PER#%"
+    "description": "Axe-Wielding Allies: Damage taken -#PER#%"
   },
   {
     "id": 101,
@@ -1998,7 +1998,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage deals from a special move by a party's fist weapon equipped character +#PER#%"
+    "description": "Fist-Wielding Allies: Skill Damage +#PER#%"
   },
   {
     "id": 113,
@@ -2036,7 +2036,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage taken by party fist weapon equipped characters from normal attacks - #PER#%"
+    "description": "Fist-Wielding Allies: Damage taken from Normal Attack -#PER#%"
   },
   {
     "id": 114,
@@ -2697,7 +2697,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage dealt by party bow and wand weapon equipped characters +#PER#%"
+    "description": "Bow/Staff-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 144,
@@ -2854,7 +2854,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When you are equipped with an axe weapon, ATK DEF+#PER#%"
+    "description": "Axe-Equipped Self: ATK/DEF +#PER#%"
   },
   {
     "id": 152,
@@ -3545,7 +3545,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage dealt by party fist weapon equipped characters +#PER#%"
+    "description": "Fist-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 184,
@@ -3699,7 +3699,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-wielding allies: Damage +#PER#%"
+    "description": "Axe-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 193,
@@ -4352,7 +4352,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Sword-Equipped Self: ATK DEF+#PER#%"
+    "description": "Sword-Equipped Self: ATK/DEF +#PER#%"
   },
   {
     "id": 223,
@@ -4428,7 +4428,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Sword-Equipped Allies: Damage +#PER#%"
+    "description": "Sword-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 231,
@@ -4740,7 +4740,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage caused by party gun weapon equipped characters with a wide attack +#PER#%"
+    "description": "Gun-Wielding Allies: AoE Damage +#PER#%"
   },
   {
     "id": 243,
@@ -4779,7 +4779,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When you are equipped with a gun weapon, ATK DEF+#PER#%"
+    "description": "Gun-Equipped Self: ATK/DEF +#PER#%"
   },
   {
     "id": 244,
@@ -4931,7 +4931,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage deals by party gun weapon equipped characters +#PER#%"
+    "description": "Gun-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 254,
@@ -5009,7 +5009,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your ATK/DEF+#PER#%(1 turn)"
+    "description": "Self: When the unit is attacked, ATK/DEF +#PER#% (1T)"
   },
   {
     "id": 272,
@@ -5047,7 +5047,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage caused by a character equipped with a fist weapon in a party +#PER#%"
+    "description": "Fist-Wielding Allies: Single-Target Damage +#PER#%"
   },
   {
     "id": 273,
@@ -5788,7 +5788,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a fire attribute move, all damage dealt to the party +#PER#%(2T) grants"
+    "description": "All Allies: When a Fire Skill is used, Damage +#PER#%(2T)"
   },
   {
     "id": 305,
@@ -6054,7 +6054,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage deals from a special move by a character equipped with a party spear weapon +#PER#%"
+    "description": "Spear-Wielding Allies: Skill Damage +#PER#%"
   },
   {
     "id": 314,
@@ -6092,7 +6092,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage taken by female characters at the party - #PER#%"
+    "description": "All Allies: Damage taken by female units -#PER#%"
   },
   {
     "id": 331,
@@ -6212,7 +6212,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage deals by character equipped with party wands and monster magic weapons +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: Non-Elemental Damage +#PER#%"
   },
   {
     "id": 334,
@@ -6449,7 +6449,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage deals from a special move by a character equipped with a party spear weapon +#PER#%"
+    "description": "Spear-Wielding Allies: Skill Damage +#PER#%"
   },
   {
     "id": 352,
@@ -6800,7 +6800,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage dealt by party gun weapon equipped characters +#PER#%"
+    "description": "Gun-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 364,
@@ -6914,7 +6914,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, all damage dealt when you equip yourself with a gun weapon +#PER#%"
+    "description": ", Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 368,
@@ -7222,7 +7222,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Sword-Equipped Self: Skill Damage +#PER#%"
+    "description": "Spear-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 384,
@@ -7611,7 +7611,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Skill Damage +#PER#%"
+    "description": "Fist-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 403,
@@ -8156,7 +8156,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage dealt by party guns, fists, and monster physical weapons equipped characters +#PER#%"
+    "description": "Gun/Fist/Mon Phys-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 443,
@@ -8392,7 +8392,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage you receive from male characters -#PER#%"
+    "description": "Self: Damage taken from male units -#PER#%"
   },
   {
     "id": 461,
@@ -8777,7 +8777,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-wielding allies: Damage +#PER#%"
+    "description": "Axe-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 483,
@@ -8971,7 +8971,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 494,
@@ -9286,7 +9286,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-wielding allies: Damage +#PER#%"
+    "description": "Axe-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 544,
@@ -9791,7 +9791,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Wane/Mon.Magic-Equipped Allies: Skill damage +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: Skill Damage +#PER#%"
   },
   {
     "id": 581,
@@ -9906,7 +9906,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 584,
@@ -10022,7 +10022,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", damage dealt with special moves by character equipped with party wands and monster magic weapons +#PER#%"
+    "description": ", Staff/Mon Magic-Wielding Allies: Skill Damage +#PER#%"
   },
   {
     "id": 591,
@@ -10254,7 +10254,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Skill Damage +#PER#%"
+    "description": "Bow-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 603,
@@ -10407,7 +10407,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",Damage dealt by character equipped with a party's bow weapon with special moves +#PER#%"
+    "description": ", Bow-Wielding Allies: Skill Damage +#PER#%"
   },
   {
     "id": 607,
@@ -10796,7 +10796,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your ATK/DEF+#PER#%(1 turn)"
+    "description": "Self: When the unit is attacked, ATK/DEF +#PER#% (1T)"
   },
   {
     "id": 624,
@@ -11071,7 +11071,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage caused by party bow weapon equipped characters with a wide attack +#PER#%"
+    "description": "Bow-Wielding Allies: AoE Damage +#PER#%"
   },
   {
     "id": 643,
@@ -11467,7 +11467,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage dealt by party guns, bows, and fist weapons +#PER#%"
+    "description": "Gun/Bow/Fist-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 662,
@@ -12299,7 +12299,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from male characters -#PER#%"
+    "description": "Self: Damage taken from male units -#PER#%"
   },
   {
     "id": 696,
@@ -12957,7 +12957,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage deals by character equipped with party swords and wands +#PER#%"
+    "description": "Sword/Staff-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 722,
@@ -13425,7 +13425,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 743,
@@ -13580,7 +13580,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage deals from a party's axe weapon equipped characters with special moves +#PER#%"
+    "description": "Axe-Wielding Allies: Skill Damage +#PER#%"
   },
   {
     "id": 753,
@@ -13618,7 +13618,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Skill Damage +#PER#%"
+    "description": "Axe-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 754,
@@ -13733,7 +13733,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and all damage received by party axe weapon-equipped characters -#PER#%"
+    "description": ", Axe-Wielding Allies: Damage taken -#PER#%"
   },
   {
     "id": 757,
@@ -14660,7 +14660,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When you are equipped with a fist weapon, ATK DEF+#PER#%"
+    "description": "Fist-Equipped Self: ATK/DEF +#PER#%"
   },
   {
     "id": 811,
@@ -14777,7 +14777,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your ATK/SPD+#PER#%(1 turn)"
+    "description": "Self: When the unit is attacked, ATK/SPD +#PER#% (1T)"
   },
   {
     "id": 814,
@@ -14815,7 +14815,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 821,
@@ -14937,7 +14937,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When you are equipped with a bow weapon, ATK/INT+#PER#%"
+    "description": "Bow-Equipped Self: ATK/INT +#PER#%"
   },
   {
     "id": 824,
@@ -15131,7 +15131,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Damage to Male Characters +#PER#%"
+    "description": "Self: Damage dealt to male units +#PER#%"
   },
   {
     "id": 841,
@@ -15290,7 +15290,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage to female characters +#PER#%"
+    "description": "Self: Damage dealt to female units +#PER#%"
   },
   {
     "id": 851,
@@ -15405,7 +15405,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 854,
@@ -16181,7 +16181,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When you are equipped with a spear weapon, ATK/RES+#PER#%"
+    "description": "Spear-Equipped Self: ATK/RES +#PER#%"
   },
   {
     "id": 894,
@@ -16299,7 +16299,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 903,
@@ -16491,7 +16491,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 914,
@@ -16531,7 +16531,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your INT/SPD+#PER#%(1T)"
+    "description": "Self: When the unit is attacked, INT/SPD +#PER#% (1T)"
   },
   {
     "id": 916,
@@ -16993,7 +16993,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 934,
@@ -17033,7 +17033,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your ATK DEF+#PER#%(1T)"
+    "description": "Self: When the unit is attacked, ATK/DEF +#PER#% (1T)"
   },
   {
     "id": 937,
@@ -17071,7 +17071,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",All damage dealt by party fist weapon equipped characters +#PER#%"
+    "description": ", Fist-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 941,
@@ -17609,7 +17609,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage taken by female characters at the party - #PER#%"
+    "description": "All Allies: Damage taken by female units -#PER#%"
   },
   {
     "id": 981,
@@ -18196,7 +18196,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 1003,
@@ -19439,7 +19439,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 1071,
@@ -20390,7 +20390,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Skill Damage +#PER#%"
+    "description": "Axe-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 1123,
@@ -20903,7 +20903,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your ATK/DEF+#PER#%(2T)"
+    "description": "Self: When the unit is attacked, ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 1153,
@@ -21987,7 +21987,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Skill Damage +#PER#%"
+    "description": "Bow-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 1213,
@@ -23816,7 +23816,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, DEF/RES+#PER#%(5 turns) of allies who are receiving party ATK buff effect"
+    "description": "ATK-Buffed Allies: At the end of the turn, DEF/RES +#PER#%(5T)"
   },
   {
     "id": 1293,
@@ -24011,7 +24011,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 1304,
@@ -24169,7 +24169,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 1313,
@@ -26205,7 +26205,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Skill Damage +#PER#%"
+    "description": "Bow-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 1403,
@@ -27369,7 +27369,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your ATK+#PER#%(1T)"
+    "description": "Self: When the unit is attacked, ATK +#PER#% (1T)"
   },
   {
     "id": 1475,
@@ -27678,7 +27678,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, damage dealt with attribute attacks when you equip sword weapons +#PER#%"
+    "description": ", Sword-Equipped Self: Elemental Damage +#PER#%"
   },
   {
     "id": 1487,
@@ -27831,7 +27831,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, CRD+#PER#%(1T) of characters who have been affected by the party's ATK buff effect"
+    "description": "ATK-Buffed Self: At the end of the turn, CRD +#PER#%(1T)"
   },
   {
     "id": 1493,
@@ -31213,7 +31213,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage caused by character equipped with party wands and monster magic weapons +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: Elemental Damage +#PER#%"
   },
   {
     "id": 1664,
@@ -31565,7 +31565,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a water attribute technique, basic parameters other than the party's HP +#PER#%(2T)"
+    "description": "All Allies: When a Water Skill is used, Non-HP Basic Stats +#PER#%(2T)"
   },
   {
     "id": 1684,
@@ -31796,7 +31796,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 1693,
@@ -33350,7 +33350,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, CRD+#PER#%(2T) of characters who have been subjected to the party's INT buff effect"
+    "description": "INT-Buffed Self: At the end of the turn, CRD +#PER#%(2T)"
   },
   {
     "id": 1753,
@@ -34280,7 +34280,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a fire attribute move, the party's ATK/DEF+#PER#%(2T)"
+    "description": "All Allies: When a Fire Skill is used, ATK/DEF +#PER#%(2T)"
   },
   {
     "id": 1793,
@@ -34552,7 +34552,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a wind attribute move, the party's CRD+#PER#%(2T)"
+    "description": "All Allies: When a Wind Skill is used, CRD +#PER#%(2T)"
   },
   {
     "id": 1804,
@@ -36890,7 +36890,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, basic parameters other than the party's HP +#PER#%(1T)"
+    "description": "All Allies: When the unit is attacked, Non-HP Basic Stats +#PER#% (1T)"
   },
   {
     "id": 1897,
@@ -37121,7 +37121,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "DEF buffed allies: At the end of turn, ATK+#PER#%(2T)"
+    "description": "DEF-Buffed Self: At the end of the turn, ATK +#PER#%(2T)"
   },
   {
     "id": 1905,
@@ -37630,7 +37630,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Skill Damage +#PER#%"
+    "description": "Fist-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 1923,
@@ -38146,7 +38146,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a wind attribute technique, basic parameters other than the party's HP +#PER#%(1T)"
+    "description": "All Allies: When a Wind Skill is used, Non-HP Basic Stats +#PER#%(1T)"
   },
   {
     "id": 1943,
@@ -38184,7 +38184,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 1944,
@@ -39196,7 +39196,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 1983,
@@ -39920,7 +39920,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, damage dealt with special moves when you equip fist weapons +#PER#%"
+    "description": ", Fist-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2008,
@@ -40899,7 +40899,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Sword-Equipped Self: Skill Damage +#PER#%"
+    "description": "Spear-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2043,
@@ -41522,7 +41522,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2064,
@@ -43160,7 +43160,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a wind attribute technique, basic parameters other than the party's HP +#PER#%(2T)"
+    "description": "All Allies: When a Wind Skill is used, Non-HP Basic Stats +#PER#%(2T)"
   },
   {
     "id": 2134,
@@ -44197,7 +44197,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2173,
@@ -44468,7 +44468,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a fire attribute move, the party's CRD+#PER#%(2T)"
+    "description": "All Allies: When a Fire Skill is used, CRD +#PER#%(2T)"
   },
   {
     "id": 2183,
@@ -45431,7 +45431,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2223,
@@ -45778,7 +45778,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your ATK/CRD+#PER#%(2T)"
+    "description": "Self: When the unit is attacked, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 2235,
@@ -46205,7 +46205,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Skill Damage +#PER#%"
+    "description": "Axe-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2253,
@@ -47124,7 +47124,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2284,
@@ -47705,7 +47705,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a fire attribute move, the party's ATK/INT+#PER#%(1T)"
+    "description": "All Allies: When a Fire Skill is used, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 2304,
@@ -47974,7 +47974,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2313,
@@ -48203,7 +48203,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Skill Damage +#PER#%"
+    "description": "Bow-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2323,
@@ -48434,7 +48434,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2333,
@@ -49353,7 +49353,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Skill Damage +#PER#%"
+    "description": "Bow-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2363,
@@ -49585,7 +49585,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2373,
@@ -49855,7 +49855,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2383,
@@ -50439,7 +50439,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2403,
@@ -50718,7 +50718,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2413,
@@ -50762,7 +50762,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a water attribute technique, basic parameters other than the party's HP +#PER#%(1T)"
+    "description": "All Allies: When a Water Skill is used, Non-HP Basic Stats +#PER#%(1T)"
   },
   {
     "id": 2414,
@@ -51029,7 +51029,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2423,
@@ -51298,7 +51298,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2433,
@@ -51605,7 +51605,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2443,
@@ -51952,7 +51952,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When the party is attacked, your ATK DEF+#PER#%(2T)"
+    "description": "Self: When the party is attacked, ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 2454,
@@ -52184,7 +52184,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2463,
@@ -52452,7 +52452,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2473,
@@ -52993,7 +52993,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Skill Damage +#PER#%"
+    "description": "Fist-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2493,
@@ -53225,7 +53225,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2503,
@@ -53531,7 +53531,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2513,
@@ -53800,7 +53800,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2523,
@@ -54107,7 +54107,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2533,
@@ -54185,7 +54185,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the character who has been receiving the party's CRD buff effect is ATK/INT+#PER#%(1T)"
+    "description": "CRD-Buffed Self: At the end of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 2535,
@@ -54414,7 +54414,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Skill Damage +#PER#%"
+    "description": "Fist-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2543,
@@ -54684,7 +54684,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2553,
@@ -54991,7 +54991,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2563,
@@ -55260,7 +55260,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2573,
@@ -55570,7 +55570,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2583,
@@ -55838,7 +55838,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2593,
@@ -55876,7 +55876,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been receiving the party's CRD buff effect is ATK+#PER#%(1T)"
+    "description": "CRD-Buffed Self: At the start of the turn, ATK +#PER#%(1T)"
   },
   {
     "id": 2594,
@@ -56143,7 +56143,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Sword-Equipped Self: Skill Damage +#PER#%"
+    "description": "Spear-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2603,
@@ -56377,7 +56377,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2613,
@@ -56686,7 +56686,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2623,
@@ -56728,7 +56728,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a fire attribute move, the party's ATK, INT, CRD+#PER#%(1T)"
+    "description": "All Allies: When a Fire Skill is used, ATK/INT/CRD +#PER#%(1T)"
   },
   {
     "id": 2624,
@@ -56880,7 +56880,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",When a party uses a water attribute move, all damage dealt to the party +#PER#%(1T) granted"
+    "description": ", All Allies: When a Water Skill is used, Damage +#PER#%(1T)"
   },
   {
     "id": 2628,
@@ -56995,7 +56995,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2633,
@@ -57301,7 +57301,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a wind elemental technique, all damage dealt to the party +#PER#%(3T) grants"
+    "description": "All Allies: When a Wind Skill is used, Damage +#PER#%(3T)"
   },
   {
     "id": 2644,
@@ -57339,7 +57339,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, ATK+#PER#%(2T) of an ally who has been receiving the party's CRD buff effect"
+    "description": "CRD-Buffed Allies: At the start of the turn, ATK +#PER#%(2T)"
   },
   {
     "id": 2645,
@@ -57571,7 +57571,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2653,
@@ -57880,7 +57880,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2663,
@@ -57961,7 +57961,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a star attribute move, the party's ATK, INT, CRD+#PER#%(2T)"
+    "description": "All Allies: When a Star Skill is used, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 2665,
@@ -58469,7 +58469,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2683,
@@ -58739,7 +58739,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2693,
@@ -59276,7 +59276,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2713,
@@ -59544,7 +59544,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2723,
@@ -59624,7 +59624,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the character who has been receiving the party's CRT buff effect is ATK, INT, CRD+#PER#%(2T)"
+    "description": "CRT-Buffed Self: At the end of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 2725,
@@ -60051,7 +60051,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2743,
@@ -60903,7 +60903,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2773,
@@ -61211,7 +61211,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2783,
@@ -61251,7 +61251,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a star attribute move, the party's ATK DEF+#PER#%(2T)"
+    "description": "All Allies: When a Star Skill is used, ATK/DEF +#PER#%(2T)"
   },
   {
     "id": 2784,
@@ -61446,7 +61446,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2793,
@@ -62059,7 +62059,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2813,
@@ -62370,7 +62370,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2823,
@@ -62412,7 +62412,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been receiving the party's CRT buff effect is ATK, INT, CRD+#PER#%(2T)"
+    "description": "CRT-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 2824,
@@ -62682,7 +62682,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2833,
@@ -62956,7 +62956,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2843,
@@ -63263,7 +63263,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 2853,
@@ -63494,7 +63494,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2863,
@@ -63765,7 +63765,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2873,
@@ -63844,7 +63844,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been receiving the party's CRT buff effect is ATK/CRD+#PER#%(2T)"
+    "description": "CRT-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 2875,
@@ -64000,7 +64000,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2883,
@@ -64618,7 +64618,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2903,
@@ -64893,7 +64893,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2913,
@@ -65125,7 +65125,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2923,
@@ -65434,7 +65434,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2933,
@@ -66017,7 +66017,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2953,
@@ -66333,7 +66333,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a water attribute technique, the party's ATK, INT, CRD+#PER#%(2T)"
+    "description": "All Allies: When a Water Skill is used, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 2964,
@@ -66610,7 +66610,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2973,
@@ -66923,7 +66923,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a fire attribute move, basic parameters other than the party's HP +#PER#%(3T)"
+    "description": "All Allies: When a Fire Skill is used, Non-HP Basic Stats +#PER#%(3T)"
   },
   {
     "id": 2985,
@@ -67115,7 +67115,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2992,
@@ -67193,7 +67193,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your DEF/CRD+#PER#%(2T)"
+    "description": "Self: When the unit is attacked, DEF/CRD +#PER#% (2T)"
   },
   {
     "id": 2994,
@@ -67424,7 +67424,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3003,
@@ -67735,7 +67735,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3013,
@@ -68047,7 +68047,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3023,
@@ -68820,7 +68820,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3053,
@@ -68860,7 +68860,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When the party uses a star attribute skill, the party's ATK/DEF/CRD+#PER#%(2T)"
+    "description": "All Allies: When a Star Skill is used, ATK/DEF/CRD +#PER#%(2T)"
   },
   {
     "id": 3054,
@@ -69129,7 +69129,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3063,
@@ -69744,7 +69744,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3083,
@@ -70054,7 +70054,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3093,
@@ -70364,7 +70364,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3103,
@@ -70633,7 +70633,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3113,
@@ -71261,7 +71261,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3133,
@@ -71569,7 +71569,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3143,
@@ -72417,7 +72417,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3173,
@@ -72955,7 +72955,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 3193,
@@ -73226,7 +73226,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3203,
@@ -73500,7 +73500,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3213,
@@ -73809,7 +73809,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3223,
@@ -73849,7 +73849,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been receiving the party's CRT buff effect is ATK/CRD+#PER#%(2T)"
+    "description": "CRT-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3224,
@@ -74118,7 +74118,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3233,
@@ -74387,7 +74387,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3243,
@@ -74693,7 +74693,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3253,
@@ -75003,7 +75003,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3263,
@@ -75089,7 +75089,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ATK, INT, CRD+#PER#%(2T) of characters who have been subjected to the party's INT buff effect"
+    "description": "INT-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 3265,
@@ -75590,7 +75590,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3283,
@@ -75861,7 +75861,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3293,
@@ -76479,7 +76479,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3313,
@@ -76519,7 +76519,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the character who has been receiving the party's CRD buff effect is ATK/INT+#PER#%(2T)"
+    "description": "CRD-Buffed Self: At the end of the turn, ATK/INT +#PER#%(2T)"
   },
   {
     "id": 3314,
@@ -76786,7 +76786,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3323,
@@ -77366,7 +77366,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3343,
@@ -77638,7 +77638,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3353,
@@ -77868,7 +77868,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3362,
@@ -78445,7 +78445,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3383,
@@ -78525,7 +78525,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been receiving the party's CRD buff effect is ATK/INT+#PER#%(3T)"
+    "description": "CRD-Buffed Self: At the start of the turn, ATK/INT +#PER#%(3T)"
   },
   {
     "id": 3385,
@@ -79066,7 +79066,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3403,
@@ -79378,7 +79378,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Skill Damage +#PER#%"
+    "description": "Axe-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 3413,
@@ -79614,7 +79614,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3422,
@@ -79694,7 +79694,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a water attribute technique, the party's ATK, INT, CRD+#PER#%(2T)"
+    "description": "All Allies: When a Water Skill is used, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 3424,
@@ -80272,7 +80272,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3443,
@@ -80587,7 +80587,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party is attacked, basic parameters other than the party's HP +#PER#%(1T)"
+    "description": "All Allies: When the party is attacked, Non-HP Basic Stats +#PER#% (1T)"
   },
   {
     "id": 3455,
@@ -80816,7 +80816,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3463,
@@ -81439,7 +81439,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3483,
@@ -81793,7 +81793,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been subjected to the party's DEF buff effect is ATK/CRD+#PER#%(2T)"
+    "description": "DEF-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3494,
@@ -82064,7 +82064,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3503,
@@ -82102,7 +82102,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When any ally uses a Fire Skill, Damage +#PER#%(2T)"
+    "description": "All Allies: When a Fire Skill is used, Damage +#PER#%(2T)"
   },
   {
     "id": 3504,
@@ -82373,7 +82373,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Bow-Equipped Self, Damage +#PER#%"
+    "description": "Bow-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3513,
@@ -82640,7 +82640,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3543,
@@ -82680,7 +82680,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been subjected to the party's SPD buff effect is ATK/CRD+#PER#%(2T)"
+    "description": "SPD-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3544,
@@ -82991,7 +82991,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the DEF/RES+#PER#%(4T) of a character who has been subjected to the party's ATK buff effect"
+    "description": "ATK-Buffed Self: At the end of the turn, DEF/RES +#PER#%(4T)"
   },
   {
     "id": 3554,
@@ -84718,7 +84718,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage deals by party fist weapon equipped characters +#PER#%"
+    "description": "Fist-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 10112,
@@ -84757,7 +84757,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When you are equipped with a fist weapon, ATK DEF+#PER#%"
+    "description": "Fist-Equipped Self: ATK/DEF +#PER#%"
   },
   {
     "id": 10113,
@@ -87387,7 +87387,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Damage to Male Characters +#PER#%"
+    "description": "Self: Damage dealt to male units +#PER#%"
   },
   {
     "id": 100022,
@@ -89363,7 +89363,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage dealt by party bow weapon equipped characters +#PER#%"
+    "description": "Bow-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 100152,
@@ -92279,7 +92279,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage dealt by party guns, fists, and monster physical weapons equipped characters +#PER#%"
+    "description": "Gun/Fist/Mon Phys-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 200082,
@@ -92472,7 +92472,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200093,
@@ -95535,7 +95535,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200263,
@@ -96118,7 +96118,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All damage dealt by party fist, spear, and monster physical weapon equipped characters +#PER#%"
+    "description": "Fist/Spear/Mon Phys-Wielding Allies: Damage +#PER#%"
   },
   {
     "id": 200302,
@@ -96394,7 +96394,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Elemental Damage when you equip yourself with a monster magic weapon +#PER#%"
+    "description": "Mon Magic-Equipped Self: Elemental Damage +#PER#%"
   },
   {
     "id": 200313,
@@ -96595,7 +96595,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When you are equipped with a monster magic weapon, INT/DEF+#PER#%"
+    "description": "Mon Magic-Equipped Self: INT/DEF +#PER#%"
   },
   {
     "id": 200324,
@@ -96910,7 +96910,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When you are equipped with a physical monster weapon, ATK DEF+#PER#%"
+    "description": "Mon Phys-Equipped Self: ATK/DEF +#PER#%"
   },
   {
     "id": 200344,
@@ -97063,7 +97063,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200354,
@@ -98133,7 +98133,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200414,
@@ -98941,7 +98941,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When you are equipped with a monster physical weapon, SPD+#PER#%"
+    "description": "Mon Phys-Equipped Self: SPD +#PER#%"
   },
   {
     "id": 200453,
@@ -100249,7 +100249,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200504,
@@ -100953,7 +100953,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200536,
@@ -101454,7 +101454,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a star attribute move, the party's ATK/CRD+#PER#%(2T)"
+    "description": "All Allies: When a Star Skill is used, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 200553,
@@ -103115,7 +103115,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been receiving the party's RES buff effect (1 turn)"
+    "description": "RES-Buffed Self: At the start of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 200624,
@@ -104355,7 +104355,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200683,
@@ -104586,7 +104586,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200693,
@@ -104820,7 +104820,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200703,
@@ -105245,7 +105245,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200723,
@@ -106485,7 +106485,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200773,
@@ -106523,7 +106523,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, party's ATK+#PER#%(1T)"
+    "description": "All Allies: When the unit is attacked, ATK +#PER#% (1T)"
   },
   {
     "id": 200774,
@@ -106789,7 +106789,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200783,
@@ -107033,7 +107033,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been receiving the party's CRT buff effect is ATK/INT+#PER#%(1T)"
+    "description": "CRT-Buffed Self: At the start of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 200794,
@@ -107301,7 +107301,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200803,
@@ -107876,7 +107876,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200823,
@@ -108184,7 +108184,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200833,
@@ -108494,7 +108494,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Elemental Damage when you equip yourself with a physical monster weapon +#PER#%"
+    "description": "Mon Phys-Equipped Self: Elemental Damage +#PER#%"
   },
   {
     "id": 200843,
@@ -108842,7 +108842,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been receiving the party's CRT buff effect is ATK, INT, CRD+#PER#%(3T)"
+    "description": "CRT-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(3T)"
   },
   {
     "id": 200854,
@@ -109074,7 +109074,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200863,
@@ -109383,7 +109383,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200873,
@@ -109421,7 +109421,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the character who has been receiving the party's CRD buff effect is ATK+#PER#%(2T)"
+    "description": "CRD-Buffed Self: At the start of the turn, ATK +#PER#%(2T)"
   },
   {
     "id": 200874,
@@ -109652,7 +109652,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200883,
@@ -109963,7 +109963,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Elemental Damage when you equip yourself with a monster magic weapon +#PER#%"
+    "description": "Mon Magic-Equipped Self: Elemental Damage +#PER#%"
   },
   {
     "id": 200893,
@@ -110272,7 +110272,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200903,
@@ -110848,7 +110848,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200923,
@@ -111158,7 +111158,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200933,
@@ -111469,7 +111469,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200943,
@@ -111779,7 +111779,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the character who has been receiving the party's CRD buff effect is ATK/INT+#PER#%(2T)"
+    "description": "CRD-Buffed Self: At the end of the turn, ATK/INT +#PER#%(2T)"
   },
   {
     "id": 200954,
@@ -112049,7 +112049,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200963,
@@ -112586,7 +112586,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 200983,
@@ -112892,7 +112892,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200993,
@@ -113167,7 +113167,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 201003,
@@ -113487,7 +113487,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 201013,
@@ -114064,7 +114064,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 201033,
@@ -114683,7 +114683,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 201053,
@@ -114725,7 +114725,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Atk-Buffed Allies: At start of turn, ATK/INT/CRD +#PER#% (2T)"
+    "description": "ATK-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 201054,
@@ -122051,7 +122051,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from female characters -#PER#%"
+    "description": "Self: Damage taken from female units -#PER#%"
   },
   {
     "id": 300373,
@@ -122207,7 +122207,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from female characters -#PER#%"
+    "description": "Self: Damage taken from female units -#PER#%"
   },
   {
     "id": 300383,
@@ -122363,7 +122363,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from female characters -#PER#%"
+    "description": "Self: Damage taken from female units -#PER#%"
   },
   {
     "id": 300393,
@@ -122519,7 +122519,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from female characters -#PER#%"
+    "description": "Self: Damage taken from female units -#PER#%"
   },
   {
     "id": 300403,
@@ -123941,7 +123941,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from male characters -#PER#%"
+    "description": "Self: Damage taken from male units -#PER#%"
   },
   {
     "id": 300534,
@@ -124101,7 +124101,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Damage to Male Characters +#PER#%"
+    "description": "Self: Damage dealt to male units +#PER#%"
   },
   {
     "id": 300544,
@@ -124261,7 +124261,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Damage to Male Characters +#PER#%"
+    "description": "Self: Damage dealt to male units +#PER#%"
   },
   {
     "id": 300554,
@@ -124421,7 +124421,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from male characters -#PER#%"
+    "description": "Self: Damage taken from male units -#PER#%"
   },
   {
     "id": 300564,
@@ -137821,7 +137821,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the test fight, you can give 3 bonds to an enemy with status abnormality."
+    "description": "At the start of the turn, bind enemies with abnormal status 3 times."
   },
   {
     "id": 999999,
@@ -138135,7 +138135,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your ATK/INT+#PER#% (10 turns)"
+    "description": "Self: When the unit is attacked, ATK/INT +#PER#% (10T)"
   },
   {
     "id": 10000008,
@@ -138175,7 +138175,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, your DEF/RES+#PER#% (10 turns)"
+    "description": "Self: When the unit is attacked, DEF/RES +#PER#% (10T)"
   },
   {
     "id": 10000009,
@@ -139796,7 +139796,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from male characters -80%"
+    "description": "Self: Damage taken from male units -80%"
   },
   {
     "id": 20000015,
@@ -139834,7 +139834,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from female characters -80%"
+    "description": "Self: Damage taken from female units -80%"
   },
   {
     "id": 20000016,
@@ -143203,7 +143203,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3523,
@@ -144020,7 +144020,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3533,
@@ -144331,7 +144331,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When a party uses a water attribute technique, the party's ATK, INT, CRD+#PER#%(2T)"
+    "description": "All Allies: When a Water Skill is used, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 3563,
@@ -144487,7 +144487,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, when a party uses a wind elemental technique, all damage dealt to the party +#PER#%(2T) is given."
+    "description": ", All Allies: When a Wind Skill is used, Damage +#PER#%(2T)"
   },
   {
     "id": 3567,
@@ -144641,7 +144641,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3583,
@@ -144958,7 +144958,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 201063,
@@ -145233,7 +145233,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3593,
@@ -145546,7 +145546,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3603,
@@ -146127,7 +146127,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3613,
@@ -146207,7 +146207,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Allies: At end of turn, ATK/INT/CRD +#PER#% (2T)"
+    "description": "CRT-Buffed Self: At the end of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 3615,
@@ -146436,7 +146436,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self, Damage +#PER#%"
+    "description": "Spear-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3633,
@@ -146755,7 +146755,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+    "description": "Mon Magic-Equipped Self: Skill Damage +#PER#%"
   },
   {
     "id": 201073,
@@ -147027,7 +147027,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Self, Damage +#PER#%"
+    "description": "Gun-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3643,
@@ -147067,7 +147067,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK-Buffed Allies: At start of turn, ATK/CRD +#PER#% (2T)"
+    "description": "ATK-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3644,
@@ -147336,7 +147336,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Self, Damage +#PER#%"
+    "description": "Fist-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3623,
@@ -147649,7 +147649,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+    "description": "Mon Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 201083,
@@ -147691,7 +147691,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Allies: At start of turn, ATK/INT/CRD +#PER#% (2T)"
+    "description": "CRD-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 201084,
@@ -148039,7 +148039,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: When attacked, ATK/CRD +#PER#%(2T)"
+    "description": "Self: When the unit is attacked, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 3654,
@@ -149114,7 +149114,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When any ally uses a Star Skill, Damage +#PER#% (2T)"
+    "description": "All Allies: When a Star Skill is used, Damage +#PER#%(2T)"
   },
   {
     "id": 3694,
@@ -149690,7 +149690,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self, Damage +#PER#%"
+    "description": "Axe-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3673,
@@ -149728,7 +149728,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, if you are under the ATK buff effect, all damage dealt to you will be given +#PER#% (2T)."
+    "description": "ATK-Buffed Self: At start of turn, Damage +#PER#% (2T)."
   },
   {
     "id": 3674,
@@ -149925,7 +149925,7 @@
   },
   {
     "id": 3711,
-    "name": "big girl",
+    "name": "Big Girl",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -149965,7 +149965,7 @@
   },
   {
     "id": 3712,
-    "name": "A huge staff like a club",
+    "name": "Huge Club-like Staff",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -149999,7 +149999,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3713,
@@ -150041,7 +150041,7 @@
   },
   {
     "id": 3714,
-    "name": "hidden courage",
+    "name": "Hidden Courage",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 11,
@@ -150079,11 +150079,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When party is attacked, ATK/INT/CRD +#PER#% (1T)"
+    "description": "All Allies: When the party is attacked, ATK/INT/CRD +#PER#% (1T)"
   },
   {
     "id": 3715,
-    "name": "big girl",
+    "name": "Big Girl",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -150121,7 +150121,7 @@
   },
   {
     "id": 3716,
-    "name": "A huge staff like a club",
+    "name": "Huge Club-like Staff",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -150193,11 +150193,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Furthermore, when you receive damage that exceeds #PER#% of your maximum HP, cut the excess amount."
+    "description": ", Negate Damage over #PER#% of Max HP #PER#%"
   },
   {
     "id": 3718,
-    "name": "hidden courage",
+    "name": "Hidden Courage",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 11,
@@ -150237,7 +150237,7 @@
   },
   {
     "id": 3741,
-    "name": "light that illuminates the labyrinth",
+    "name": "Light Illuminating the Labyrinth",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -150277,7 +150277,7 @@
   },
   {
     "id": 3742,
-    "name": "A glimpse of swordsmanship",
+    "name": "Glimpse of Swordsmanship",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -150315,7 +150315,7 @@
   },
   {
     "id": 3743,
-    "name": "Great Shield ≪Mapophic≫",
+    "name": "Large Shield ≪Maporfic≫",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 5,
@@ -150349,11 +150349,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the wave, Action Gauge +#PER#"
+    "description": "All Allies: At the start of the wave, AG +#PER#"
   },
   {
     "id": 3744,
-    "name": "Blessing of God Kadrut",
+    "name": "God Cadolt's Blessing",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -150387,11 +150387,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If the party has 3 or more characters with the favorite weapon type [sword/axe/staff], at the start of the turn, the party's SP+#PER#"
+    "description": "All Allies: At start of turn, if 3+ [Sword / Axe / Staff] allies, SP+#PER#"
   },
   {
     "id": 3745,
-    "name": "light that illuminates the labyrinth",
+    "name": "Light Illuminating the Labyrinth",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -150429,7 +150429,7 @@
   },
   {
     "id": 3746,
-    "name": "A glimpse of swordsmanship",
+    "name": "Glimpse of Swordsmanship",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -150467,7 +150467,7 @@
   },
   {
     "id": 3747,
-    "name": "Great Shield ≪Mapophic≫",
+    "name": "Large Shield ≪Maporfic≫",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 5,
@@ -150501,11 +150501,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and all damage taken to the party -#PER#%(3T) added"
+    "description": ", Damage Taken -#PER#%(3T)"
   },
   {
     "id": 3748,
-    "name": "Blessing of God Kadrut",
+    "name": "God Cadolt's Blessing",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -150545,7 +150545,7 @@
   },
   {
     "id": 201091,
-    "name": "wandering monster",
+    "name": "Wandering Monster",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 5,
@@ -150585,7 +150585,7 @@
   },
   {
     "id": 201092,
-    "name": "Phantom of the Fire Dragon",
+    "name": "Fire Dragon's Phantom",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -150623,7 +150623,7 @@
   },
   {
     "id": 201093,
-    "name": "red membrane to repair",
+    "name": "Repairing Red Membrane",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -150657,11 +150657,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn, +#PER#% HP recovery based on your max HP"
+    "description": "All Allies: At start of turn, Heal #PER#% of this units max HP"
   },
   {
     "id": 201094,
-    "name": "Treasure of the labyrinth",
+    "name": "Labyrinth Treasure",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -150695,11 +150695,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When defeating a boss in the item world, chance of dropping separately from normal drops +#PER#% (effects overlap, not affected by other drop rate increasing effects)"
+    "description": "Item World: When defeating a boss, Chance of a Second Drop +#PER#%"
   },
   {
     "id": 201095,
-    "name": "wandering monster",
+    "name": "Wandering Monster",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -150733,11 +150733,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the damage the party receives from humanoid characters -#PER#%"
+    "description": "; All Allies: Damage Taken from Humanoids -#PER#%"
   },
   {
     "id": 201096,
-    "name": "Phantom of the Fire Dragon",
+    "name": "Fire Dragon's Phantom",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -150771,11 +150771,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Party: Damage +#PER#%"
+    "description": ", All Allies: Damage +#PER#%"
   },
   {
     "id": 201097,
-    "name": "red membrane to repair",
+    "name": "Repairing Red Membrane",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -150809,6 +150809,576 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the party's SP+#PER#"
+    "description": ", Party SP +#PER#"
+  },
+  {
+    "id": 3721,
+    "name": "Pioneer of the Hounds",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 35,
+    "effect_value_max": 35,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: HP/ATK +#PER#%"
+  },
+  {
+    "id": 3722,
+    "name": "Tanpira's Fierce Attack",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Sword-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 3723,
+    "name": "Wild Sense of Smell",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 13,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At start of turn; the fewer Foes left, the more ATK/CRD increases (up to +50%, 2T)"
+  },
+  {
+    "id": 3724,
+    "name": "Sharpened Instincts",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 10,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 8,
+    "effect_value_max": 8,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: For each NE, ATK and DEF +#PER#%"
+  },
+  {
+    "id": 3725,
+    "name": "Pioneer of the Hounds",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 8,
+    "effect_value_max": 8,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: SPD +#PER#%"
+  },
+  {
+    "id": 3726,
+    "name": "Tanpira's Fierce Attack",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3727,
+    "name": "Wild Sense of Smell",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 13,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 7,
+    "effect_value_max": 7,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Self: The fewer Foes left, the more Damage Increases (Max +35%, 2T)"
+  },
+  {
+    "id": 3728,
+    "name": "Sharpened Instincts",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 10,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRD+#PER#% (ATK/DEF limit 80%, CRD limit 50%)"
+  },
+  {
+    "id": 805201,
+    "name": "Trial: Damage the party receives from humanoid characters -30%",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 4,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 3,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Damage the party receives from humanoid characters -30%"
+  },
+  {
+    "id": 20000090,
+    "name": "Basic parameters other than favorite weapon type [axe] -80%, SPD, CRT, CRD -80%",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 25,
+    "target_params": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "effect_type": 2,
+    "effect_type_params": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 80,
+    "effect_value_max": 80,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Basic parameters other than favorite weapon type [axe] -80%, SPD, CRT, CRD -80%"
+  },
+  {
+    "id": 20000091,
+    "name": "Damage inflicted by all attacks except for favorite weapon type [axe] -80%",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 25,
+    "target_params": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "effect_type": 98,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 80,
+    "effect_value_max": 80,
+    "effect_turn": [
+      100
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Damage inflicted by all attacks except for favorite weapon type [axe] -80%"
+  },
+  {
+    "id": 20000092,
+    "name": "Damage received from all attacks except for favorite weapon type [Axe] +300%",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 25,
+    "target_params": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "effect_type": 99,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 300,
+    "effect_value_max": 300,
+    "effect_turn": [
+      100
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Damage received from all attacks except for favorite weapon type [Axe] +300%"
+  },
+  {
+    "id": 20000093,
+    "name": "Steal buffs from all allies at the start of the turn",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 111,
+    "effect_type_params": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 0,
+    "effect_value_max": 0,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Steal buffs from all allies at the start of the turn"
+  },
+  {
+    "id": 20000094,
+    "name": "Permanent effect of SP load [+60] on all allies",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 110,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 60,
+    "effect_value_max": 60,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Permanent effect of SP load [+60] on all allies"
   }
 ]

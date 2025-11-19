@@ -5263,5 +5263,57 @@
     "sort": 110,
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 320230,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Ninja Piririka",
+    "resource_name": "368",
+    "m_character_id_1": 368,
+    "m_character_id_2": 0,
+    "sort": 230,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 320231,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Nurse Seraphine",
+    "resource_name": "366",
+    "m_character_id_1": 366,
+    "m_character_id_2": 0,
+    "sort": 231,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 320232,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "Nekoneko Ao",
+    "resource_name": "369",
+    "m_character_id_1": 369,
+    "m_character_id_2": 0,
+    "sort": 232,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 320233,
+    "category": 3,
+    "museum_type": 2,
+    "target_id": 0,
+    "title": "witch liselotta",
+    "resource_name": "370",
+    "m_character_id_1": 370,
+    "m_character_id_2": 0,
+    "sort": 233,
+    "open_at": "",
+    "close_at": ""
   }
 ]

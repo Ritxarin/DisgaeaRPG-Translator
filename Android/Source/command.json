@@ -148717,6 +148717,348 @@
         "continuous_attack_rates": []
     },
     {
+        "id": 3003721,
+        "name": "arf！！",
+        "name_battle": "arf！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            21,
+            17,
+            63,
+            101
+        ],
+        "effect_values_min": [
+            60,
+            50,
+            10,
+            5,
+            10
+        ],
+        "effect_values_max_30": [
+            90,
+            50,
+            10,
+            5,
+            10
+        ],
+        "effect_values_max_40": [
+            91,
+            50,
+            10,
+            5,
+            10
+        ],
+        "effect_values_max_50": [
+            92,
+            50,
+            10,
+            5,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            2,
+            2,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "行動ゲージ-#PER2#&SPD-#PER3#%(3T)[敵全],CRT+#PER4#%(3T)&与える全てのダメージ+#PER5#%(3T)付与[味方全]",
+        "description": "野良犬は猛犬と化し、目前の獲物をなぎ払う",
+        "resource_id": 3003721,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003722,
+        "name": "growl！！",
+        "name_battle": "growl！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 30,
+        "sp_max_30": 25,
+        "sp_max_40": 23,
+        "sp_max_50": 22,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            39,
+            20,
+            127,
+            8,
+            65,
+            101,
+            14,
+            16,
+            150
+        ],
+        "effect_values_min": [
+            160,
+            1,
+            1000,
+            100,
+            50,
+            50,
+            15,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_30": [
+            190,
+            1,
+            1000,
+            100,
+            50,
+            50,
+            15,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_40": [
+            197,
+            1,
+            1000,
+            100,
+            50,
+            50,
+            15,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_50": [
+            202,
+            1,
+            1000,
+            100,
+            50,
+            50,
+            15,
+            40,
+            40,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            3,
+            2,
+            2,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            3,
+            2,
+            2,
+            2
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            4,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "[連発禁止]行動ゲージ+#PER3#&CRTデバフ効果解除&ATK・CRD+#PER5#%(2T)[自身],与える全てのダメージ+#PER7#%(3T)付与[味方全],DEF・RES-#PER8#%(2T)&受けるダメージ#PER10#%アップ(2T)付与[敵単]",
+        "description": "多勢に無勢をものともせぬ、強引で乱暴な剣舞",
+        "resource_id": 3003722,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003723,
+        "name": "致命的一撃！！",
+        "name_battle": "致命的\\n一撃！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 80,
+        "sp_max_30": 75,
+        "sp_max_40": 70,
+        "sp_max_50": 68,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            132,
+            124,
+            81,
+            32,
+            20
+        ],
+        "effect_values_min": [
+            480,
+            160,
+            40,
+            20,
+            30,
+            200
+        ],
+        "effect_values_max_30": [
+            510,
+            160,
+            40,
+            20,
+            30,
+            200
+        ],
+        "effect_values_max_40": [
+            525,
+            160,
+            40,
+            20,
+            30,
+            200
+        ],
+        "effect_values_max_50": [
+            540,
+            160,
+            40,
+            20,
+            30,
+            200
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            1,
+            5,
+            5,
+            5,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            5,
+            4,
+            12
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            3,
+            2,
+            2
+        ],
+        "description_effect": "連撃[2～5(威力D)]&技使用時のCRT+#PER3#%&クリティカル時、技威力+#PER4#%&SP+#PER5#[自身],敵を倒した時、行動ゲージ+#PER6#[味方全]",
+        "description": "その剣は速く、鋭く、そして『致命的』だった",
+        "resource_id": 3003723,
+        "continuous_attack_rates": [
+            100,
+            100,
+            90,
+            85,
+            80
+        ]
+    },
+    {
         "id": 3003741,
         "name": "≪聖雷片吟≫",
         "name_battle": "≪聖雷片吟≫",
@@ -412746,6 +413088,348 @@
         "continuous_attack_rates": []
     },
     {
+        "id": 4003721,
+        "name": "arf！！",
+        "name_battle": "arf！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            21,
+            17,
+            63,
+            101
+        ],
+        "effect_values_min": [
+            68,
+            50,
+            10,
+            5,
+            10
+        ],
+        "effect_values_max_30": [
+            98,
+            50,
+            10,
+            5,
+            10
+        ],
+        "effect_values_max_40": [
+            99,
+            50,
+            10,
+            5,
+            10
+        ],
+        "effect_values_max_50": [
+            100,
+            50,
+            10,
+            5,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            2,
+            2,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "行動ゲージ-#PER2#&SPD-#PER3#%(3T)[敵全],CRT+#PER4#%(3T)&与える全てのダメージ+#PER5#%(3T)付与[味方全]",
+        "description": "野良犬は猛犬と化し、目前の獲物をなぎ払う",
+        "resource_id": 3003721,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003722,
+        "name": "growl！！",
+        "name_battle": "growl！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 27,
+        "sp_max_30": 22,
+        "sp_max_40": 20,
+        "sp_max_50": 19,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            39,
+            20,
+            127,
+            8,
+            65,
+            101,
+            14,
+            16,
+            150
+        ],
+        "effect_values_min": [
+            160,
+            1,
+            1000,
+            100,
+            50,
+            50,
+            15,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_30": [
+            190,
+            1,
+            1000,
+            100,
+            50,
+            50,
+            15,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_40": [
+            197,
+            1,
+            1000,
+            100,
+            50,
+            50,
+            15,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_50": [
+            202,
+            1,
+            1000,
+            100,
+            50,
+            50,
+            15,
+            40,
+            40,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            3,
+            2,
+            2,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            3,
+            2,
+            2,
+            2
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            4,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "[連発禁止]行動ゲージ+#PER3#&CRTデバフ効果解除&ATK・CRD+#PER5#%(2T)[自身],与える全てのダメージ+#PER7#%(3T)付与[味方全],DEF・RES-#PER8#%(2T)&受けるダメージ#PER10#%アップ(2T)付与[敵単]",
+        "description": "多勢に無勢をものともせぬ、強引で乱暴な剣舞",
+        "resource_id": 3003722,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003723,
+        "name": "致命的一撃！！",
+        "name_battle": "致命的\\n一撃！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 80,
+        "sp_max_30": 75,
+        "sp_max_40": 70,
+        "sp_max_50": 68,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            132,
+            124,
+            81,
+            32,
+            20
+        ],
+        "effect_values_min": [
+            490,
+            160,
+            40,
+            20,
+            30,
+            200
+        ],
+        "effect_values_max_30": [
+            520,
+            160,
+            40,
+            20,
+            30,
+            200
+        ],
+        "effect_values_max_40": [
+            535,
+            160,
+            40,
+            20,
+            30,
+            200
+        ],
+        "effect_values_max_50": [
+            550,
+            160,
+            40,
+            20,
+            30,
+            200
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            1,
+            5,
+            5,
+            5,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            5,
+            4,
+            12
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            3,
+            2,
+            2
+        ],
+        "description_effect": "連撃[2～5(威力D)]&技使用時のCRT+#PER3#%&クリティカル時、技威力+#PER4#%&SP+#PER5#[自身],敵を倒した時、行動ゲージ+#PER6#[味方全]",
+        "description": "その剣は速く、鋭く、そして『致命的』だった",
+        "resource_id": 3003723,
+        "continuous_attack_rates": [
+            100,
+            100,
+            90,
+            85,
+            80
+        ]
+    },
+    {
         "id": 4003741,
         "name": "≪聖雷片吟≫",
         "name_battle": "≪聖雷片吟≫",
@@ -466985,6 +467669,426 @@
         "continuous_attack_rates": []
     },
     {
+        "id": 6200741,
+        "name": "真・ツインテ烈神兵器+",
+        "name_battle": "真・ツインテ烈神兵器+",
+        "command_category": 3,
+        "attr": 1,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            9,
+            10,
+            11,
+            33
+        ],
+        "effect_values_min": [
+            200,
+            50,
+            50,
+            50,
+            50,
+            15
+        ],
+        "effect_values_max_30": [
+            200,
+            50,
+            50,
+            50,
+            50,
+            15
+        ],
+        "effect_values_max_40": [
+            200,
+            50,
+            50,
+            50,
+            50,
+            15
+        ],
+        "effect_values_max_50": [
+            200,
+            50,
+            50,
+            50,
+            50,
+            15
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4,
+            4,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "HP以外の基礎パラメータ+50%(4T)[味方全],SP-15[敵全]",
+        "description": "一糸乱れぬ動きを姉妹で猛特訓しました。",
+        "resource_id": 3200741,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 6200742,
+        "name": "デスアーチスト+",
+        "name_battle": "デスアーチスト+",
+        "command_category": 3,
+        "attr": 1,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 33,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            20,
+            8,
+            9,
+            12,
+            65,
+            63,
+            103
+        ],
+        "effect_values_min": [
+            250,
+            500,
+            80,
+            80,
+            30,
+            100,
+            20,
+            30
+        ],
+        "effect_values_max_30": [
+            250,
+            500,
+            80,
+            80,
+            30,
+            100,
+            20,
+            30
+        ],
+        "effect_values_max_40": [
+            250,
+            500,
+            80,
+            80,
+            30,
+            100,
+            20,
+            30
+        ],
+        "effect_values_max_50": [
+            250,
+            500,
+            80,
+            80,
+            30,
+            100,
+            20,
+            30
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            2,
+            1,
+            1,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            2,
+            1,
+            1,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "行動ゲージ+500&ATK・DEF+80%(3T)&SPD+30%(2T)&CRD+100%(1T)&CRT+20%(1T)&必殺技で与えるダメージ+30%(3T)付与[自身]",
+        "description": "ノック遊びから生まれた恐ろしい技……。",
+        "resource_id": 3200742,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 6200743,
+        "name": "最終兵器デスブラスト+",
+        "name_battle": "最終兵器デスブラスト+",
+        "command_category": 3,
+        "attr": 1,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 70,
+        "sp_max_30": 65,
+        "sp_max_40": 60,
+        "sp_max_50": 58,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            85,
+            154,
+            91
+        ],
+        "effect_values_min": [
+            600,
+            100,
+            0,
+            25
+        ],
+        "effect_values_max_30": [
+            600,
+            100,
+            0,
+            25
+        ],
+        "effect_values_max_40": [
+            600,
+            100,
+            0,
+            25
+        ],
+        "effect_values_max_50": [
+            600,
+            100,
+            0,
+            25
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            1,
+            1,
+            5
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "対象のバフを100%無視してダメージ計算&与ダメバフ効果解除[敵単],DEFの25%を上乗せしてダメージ計算[自身]",
+        "description": "実を言うと、ボールはもうだめです。",
+        "resource_id": 3200743,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 6200744,
+        "name": "デスアーチスト+",
+        "name_battle": "デスアーチスト+",
+        "command_category": 3,
+        "attr": 1,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 33,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            20,
+            8,
+            9,
+            12,
+            65,
+            63,
+            103,
+            145
+        ],
+        "effect_values_min": [
+            250,
+            750,
+            80,
+            80,
+            30,
+            100,
+            20,
+            30,
+            0
+        ],
+        "effect_values_max_30": [
+            250,
+            750,
+            80,
+            80,
+            30,
+            100,
+            20,
+            30,
+            0
+        ],
+        "effect_values_max_40": [
+            250,
+            750,
+            80,
+            80,
+            30,
+            100,
+            20,
+            30,
+            0
+        ],
+        "effect_values_max_50": [
+            250,
+            750,
+            80,
+            80,
+            30,
+            100,
+            20,
+            30,
+            0
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            2,
+            1,
+            1,
+            3,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            2,
+            1,
+            1,
+            3,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "行動ゲージ+750&ATK・DEF+80%(3T)&SPD+30%(2T)&CRD+100%(1T)&CRT+20%(1T)&必殺技で与えるダメージ+30%(3T)付与[自身],特殊効果解除[敵全]",
+        "description": "ノック遊びから生まれた恐ろしい技……。",
+        "resource_id": 3200742,
+        "continuous_attack_rates": []
+    },
+    {
         "id": 6300011,
         "name": "プリニー連射",
         "name_battle": "プリニー連射",
@@ -467101,27 +468205,27 @@
         "command_types": [
             1,
             20,
-            12
+            65
         ],
         "effect_values_min": [
             200,
             500,
-            30
+            50
         ],
         "effect_values_max_30": [
             200,
             500,
-            30
+            50
         ],
         "effect_values_max_40": [
             200,
             500,
-            30
+            50
         ],
         "effect_values_max_50": [
             200,
             500,
-            30
+            50
         ],
         "variance_rates": [
             100
@@ -467151,7 +468255,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "行動ゲージ+500&SPD+30%(3T)[味方全]",
+        "description_effect": "行動ゲージ+500&CRD+50%(3T)[味方全]",
         "description": "爆発物には親近感を覚えるッス",
         "resource_id": 3300012,
         "continuous_attack_rates": []
@@ -467174,27 +468278,27 @@
         "command_types": [
             1,
             98,
-            4
+            134
         ],
         "effect_values_min": [
             250,
             2,
-            100
+            85
         ],
         "effect_values_max_30": [
             250,
             2,
-            100
+            85
         ],
         "effect_values_max_40": [
             250,
             2,
-            100
+            85
         ],
         "effect_values_max_50": [
             250,
             2,
-            100
+            85
         ],
         "variance_rates": [
             100
@@ -467224,7 +468328,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "バフ効果継続ターン-2&毒効果付与",
+        "description_effect": "バフ効果継続ターン-2&茨効果付与[敵全]",
         "description": "ビームは男のロマンっス",
         "resource_id": 3300013,
         "continuous_attack_rates": []
@@ -467305,7 +468409,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "SP強奪30＆バフ貫通（50%）＆CRD＋50％",
+        "description_effect": "SP30強奪&50%バフ貫通[敵単],技使用時CRD+50%[自身]",
         "description": "顔が真っ赤になるくらい必死に打ち出す技ッス",
         "resource_id": 3300014,
         "continuous_attack_rates": []

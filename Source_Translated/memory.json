@@ -1094,5 +1094,13 @@
     "main_m_memory_effect_type_id": 111,
     "sub_m_character_id": 0,
     "sub_m_memory_effect_type_id": 118
+  },
+  {
+    "id": 138,
+    "name": "Threat! DESCO XENO",
+    "main_m_character_id": 304,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 304,
+    "sub_m_memory_effect_type_id": 16
   }
 ]

@@ -53,7 +53,7 @@
   "、さらにパーティに受ける全てのダメージ-#PER#%(2T)付与": ", All Allies: Damage Taken -#PER#%(2T)",
   "パーティの槍武器装備キャラのATK+#PER#%": "Spear-Equipped Allies: ATK +#PER#%",
   "敵全体のATK・INT-#PER#%": "All enemies: ATK/INT -#PER#%",
-  "自分が槍武器装備時、必殺技で与えるダメージ+#PER#%": "Sword-Equipped Self: Skill Damage +#PER#%",
+  "自分が槍武器装備時、必殺技で与えるダメージ+#PER#%": "Spear-Equipped Self: Skill Damage +#PER#%",
   "ターン開始時、自分のSPD+#PER#%(1ターン)": "Self: At the start of the turn, SPD +#PER#%(1 turn)",
   "自分が拳武器装備時、必殺技で与えるダメージ+#PER#%": "Fist-Equipped Self, Skill Damage +#PER#%",
   "戦闘開始時、自分のHP以外の基礎パラメータ+#PER#％(3ターン)": "Self: At the start of the battle, Non-HP Basic Stats +#PER#% (3 turns)",
