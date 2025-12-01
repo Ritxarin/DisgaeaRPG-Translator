@@ -25378,5 +25378,77 @@
     "m_character_id": 372,
     "rarity": 6,
     "class_name": "Monster's Leftovers"
+  },
+  {
+    "id": 3751,
+    "m_character_id": 375,
+    "rarity": 1,
+    "class_name": "6th Anniversary Demon Princess"
+  },
+  {
+    "id": 3752,
+    "m_character_id": 375,
+    "rarity": 2,
+    "class_name": "6th Anniversary Demon Princess"
+  },
+  {
+    "id": 3753,
+    "m_character_id": 375,
+    "rarity": 3,
+    "class_name": "6th Anniversary Demon Princess"
+  },
+  {
+    "id": 3754,
+    "m_character_id": 375,
+    "rarity": 4,
+    "class_name": "6th Anniversary Demon Princess"
+  },
+  {
+    "id": 3755,
+    "m_character_id": 375,
+    "rarity": 5,
+    "class_name": "Black rose blooming at the banquet"
+  },
+  {
+    "id": 3756,
+    "m_character_id": 375,
+    "rarity": 6,
+    "class_name": "Brilliant Sinful Rose"
+  },
+  {
+    "id": 3731,
+    "m_character_id": 373,
+    "rarity": 1,
+    "class_name": "Celebration Hero"
+  },
+  {
+    "id": 3732,
+    "m_character_id": 373,
+    "rarity": 2,
+    "class_name": "Celebration Hero"
+  },
+  {
+    "id": 3733,
+    "m_character_id": 373,
+    "rarity": 3,
+    "class_name": "Celebration Hero"
+  },
+  {
+    "id": 3734,
+    "m_character_id": 373,
+    "rarity": 4,
+    "class_name": "Celebration Hero"
+  },
+  {
+    "id": 3735,
+    "m_character_id": 373,
+    "rarity": 5,
+    "class_name": "6th anniversary of justice"
+  },
+  {
+    "id": 3736,
+    "m_character_id": 373,
+    "rarity": 6,
+    "class_name": "Anniversary Hero"
   }
 ]

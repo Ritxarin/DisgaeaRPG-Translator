@@ -229,6 +229,10 @@
   "+この技で倒した敵キャラ数×": "+No. of foes defeated by this skill ×",
   "この技で倒した敵ｷｬﾗ数×": "(No. of foes defeated by this skill)×",
 
+  "人型はさらに": "Human Characters ",
+
+  "ロックオン付与(継続回数が多いほどCRTダウン)": "Lock-On (CRT decreases every successful hit)",
+
   "対象のバフを#PER2#%無視してダメージ計算": "Damage calculation ignores #PER2#% of target's buffs",
   "対象のバフを#PER3#%無視してダメージ計算": "Damage calculation ignores #PER3#% of target's buffs",
   "対象のバフを#PER4#%無視してダメージ計算": "Damage calculation ignores #PER4#% of target's buffs",

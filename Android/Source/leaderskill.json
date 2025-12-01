@@ -40096,7 +40096,7 @@
         ],
         "effect_type": 3,
         "effect_type_params": [
-            3
+            1
         ],
         "limit_damage": 0,
         "limit_characters": [
@@ -40116,7 +40116,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "自分が銃武器装備時、必殺技で与えるダメージ+#PER#%"
+        "description": "自分が銃武器装備時、与える全てのダメージ+#PER#%"
     },
     {
         "id": 2013,
@@ -40254,7 +40254,7 @@
         ],
         "effect_type": 3,
         "effect_type_params": [
-            3
+            1
         ],
         "limit_damage": 0,
         "limit_characters": [
@@ -40274,7 +40274,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "、さらにパーティが必殺技で与えるダメージ+#PER#%"
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
     },
     {
         "id": 2017,
@@ -40341,8 +40341,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             2,
             2
@@ -40929,8 +40929,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 25,
-        "effect_value_max": 25,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             0
         ],
@@ -41159,8 +41159,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 35,
-        "effect_value_max": 35,
+        "effect_value_min": 40,
+        "effect_value_max": 40,
         "effect_turn": [
             1,
             1
@@ -71527,8 +71527,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 25,
-        "effect_value_max": 25,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             0
         ],
@@ -71565,8 +71565,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 25,
-        "effect_value_max": 25,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             0
         ],
@@ -71641,8 +71641,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -72184,8 +72184,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 15,
-        "effect_value_max": 15,
+        "effect_value_min": 20,
+        "effect_value_max": 20,
         "effect_turn": [
             2
         ],
@@ -72232,7 +72232,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": ",CRD+#PER#%(ATK・DEF上限80%,CRD上限50%)\n"
+        "description": ",CRD+#PER#%(ATK・DEF上限80%,CRD上限50%)"
     },
     {
         "id": 3161,
@@ -89155,6 +89155,244 @@
         "description": ",CRD+#PER#%(ATK・DEF上限80%,CRD上限50%)"
     },
     {
+        "id": 3731,
+        "name": "６周年のヒーロー",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分の基礎パラメータ+#PER#%"
+    },
+    {
+        "id": 3732,
+        "name": "磨き抜いた正義のパワー",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 50,
+        "effect_value_max": 50,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が拳武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3733,
+        "name": "ジャスティスドライブ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 61,
+        "effect_type_params": [
+            2,
+            3,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 120,
+        "effect_value_max": 120,
+        "effect_turn": [
+            3,
+            3,
+            3
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "戦闘開始時、自分のATK・DEF・CRD+40% 徐々に効果が上昇(1T+40%,上限#PER#%)"
+    },
+    {
+        "id": 3734,
+        "name": "日本一の晴れ舞台！",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 36,
+        "target_params": [
+            8
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、パーティのCRDバフ効果を受けているキャラのATK・INT+#PER#%(2T)"
+    },
+    {
+        "id": 3736,
+        "name": "磨き抜いた正義のパワー",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3738,
+        "name": "日本一の晴れ舞台！",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 36,
+        "target_params": [
+            8
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",与える全てのダメージ+#PER#%(2T)付与"
+    },
+    {
         "id": 3741,
         "name": "迷宮を照らす光",
         "unique_flg": 0,
@@ -89461,6 +89699,280 @@
         ],
         "bad_effect_value": 0,
         "description": ",ATK・INT+#PER#%(2T)"
+    },
+    {
+        "id": 3751,
+        "name": "６周年の礼装",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのHP・ATK・INT+#PER#%"
+    },
+    {
+        "id": 3752,
+        "name": "クレッセント・ノーブル",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 4,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が弓武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3753,
+        "name": "輪廻の狂想曲",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 47,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            4,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            2,
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "敵味方いずれかのキャラが水属性の技を使用した時、パーティのATK・INT・CRD+#PER#%(2T)"
+    },
+    {
+        "id": 3754,
+        "name": "エンピリアル・ローズ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 3,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 35,
+        "target_params": [
+            0
+        ],
+        "effect_type": 59,
+        "effect_type_params": [
+            2,
+            2,
+            2
+        ],
+        "limit_damage": 2,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 180,
+        "effect_value_max": 180,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン終了時、残りHPが低い敵キャラに水属性攻撃(3回,威力D+)"
+    },
+    {
+        "id": 3755,
+        "name": "６周年の礼装",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 5,
+        "effect_value_max": 5,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRT+#PER#%"
+    },
+    {
+        "id": 3756,
+        "name": "クレッセント・ノーブル",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 4,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3757,
+        "name": "輪廻の狂想曲",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 47,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらに自分に与える全てのダメージ+#PER#%(2T)付与"
     },
     {
         "id": 10011,

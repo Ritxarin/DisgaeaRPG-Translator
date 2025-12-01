@@ -5315,5 +5315,18 @@
     "sort": 233,
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 210144,
+    "category": 2,
+    "museum_type": 1,
+    "target_id": 158,
+    "title": "Formal dress Nippon Ichi-chan",
+    "resource_name": "",
+    "m_character_id_1": 373,
+    "m_character_id_2": 0,
+    "sort": 111,
+    "open_at": "",
+    "close_at": ""
   }
 ]

@@ -2922,5 +2922,22 @@
     "help_resource_name": "",
     "open_at": "2025-10-27 11:05:00",
     "close_at": "2025-11-20 23:59:59"
+  },
+  {
+    "id": 239,
+    "agenda_type": 7,
+    "agenda_rank": 10000,
+    "point": 50,
+    "base_rate": 20,
+    "effect_value": "31,32,33",
+    "lowmaker_lv": 200,
+    "release_type": 0,
+    "release_param": "0",
+    "appear_m_agenda_id": 0,
+    "title": "I want to continue receiving various effects on my 6th anniversary.",
+    "sort": 1,
+    "help_resource_name": "",
+    "open_at": "2025-11-21 11:05:00",
+    "close_at": "2025-12-15 23:59:59"
   }
 ]

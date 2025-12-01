@@ -3995,5 +3995,19 @@
     "name": "Formal dress Rosalind",
     "description": "For 6th anniversary party\nRosalind in a dress.\nVR game with Adele\nEnter the world.",
     "color_no": 12
+  },
+  {
+    "id": 1502,
+    "img_id": 315,
+    "name": "formal dress lahar",
+    "description": "To celebrate the anniversary party,\nLahar dressed in formal clothes.\nEvery year, to Mr. Plenaire\nThe party keeps being ruined,\nI'm holding my head...",
+    "color_no": 1
+  },
+  {
+    "id": 1503,
+    "img_id": 90086,
+    "name": "Formal dress Nippon Ichi-chan",
+    "description": "Holding justice in your small chest,\nWearing formal attire,\nIn order to protect the party in the demon world,\nIchi-chan from Japan has come!\nSeeking a fighting stage suitable for a hero,\nNow here again, hero of justice,\nNippon Ichi-chan is visiting!",
+    "color_no": 2
   }
 ]

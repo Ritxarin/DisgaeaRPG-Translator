@@ -246,5 +246,29 @@
     "time_value": 86400,
     "boost_title": "Lock Removal HL Free",
     "boost_description": "Makes the cost of removing locks from Innocents free"
+  },
+  {
+    "id": 31,
+    "boost_type": 1,
+    "effect_value": 500,
+    "time_value": 0,
+    "boost_title": "Earned EXP boost",
+    "boost_description": "Character EXP obtained in battle will be doubled by #VALUE# (during campaign period)"
+  },
+  {
+    "id": 32,
+    "boost_type": 2,
+    "effect_value": 500,
+    "time_value": 0,
+    "boost_title": "Earn HL Boost",
+    "boost_description": "HL obtained in battle will be doubled by #VALUE# (during campaign period)"
+  },
+  {
+    "id": 33,
+    "boost_type": 3,
+    "effect_value": 500,
+    "time_value": 0,
+    "boost_title": "drop rate boost",
+    "boost_description": "The drop rate of battle reward items will be doubled by #VALUE# (during the campaign period)"
   }
 ]

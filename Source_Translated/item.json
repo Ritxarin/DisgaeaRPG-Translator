@@ -25782,5 +25782,125 @@
     "description": "Available at the Fes Character Exchange",
     "max_num": 9999,
     "sell_price": 0
+  },
+  {
+    "id": 382,
+    "name": "6th anniversary takoyaki?",
+    "item_type": 3,
+    "icon_no": 382,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. Human experiment in one bite! Fateful Russian Takoyaki!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 1950,
+    "name": "6th Wagamama Keep Ticket",
+    "item_type": 19,
+    "icon_no": 1950,
+    "effect_value": [
+      201173
+    ],
+    "description": "6th Anniversary Keep Wagamama! Ticket for one All Star Festival",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 201031,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201031,
+    "effect_value": [
+      876
+    ],
+    "description": "Pleinair raid exclusive PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340251,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      877
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340252,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      878
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700375,
+    "name": "Crystal of formal dress Rosalind",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically modify the Code Rosalind.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600375,
+    "name": "Rosalind's Magic Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      375
+    ],
+    "description": "A magical star that can bring the Code Rosalind to a ★6 awakened state.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340253,
+    "name": "Festival character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      883
+    ],
+    "description": "Available at the Fes Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340254,
+    "name": "Festival character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      884
+    ],
+    "description": "Can be used at the festival character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700373,
+    "name": "Formal dress Japan's best crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically transform formal dress Nippon Ichi-chan",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]

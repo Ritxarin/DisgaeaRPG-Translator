@@ -4978,5 +4978,35 @@
     "name": "Trial Room Final Weapon Fuca",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 18761,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "plenaic acid",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18801,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Summer Palace of Etna Defense",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18821,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "6th Anniversary Special Battle",
+    "open_at": "",
+    "close_at": ""
   }
 ]

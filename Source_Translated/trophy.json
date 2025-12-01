@@ -44283,5 +44283,22 @@
     "open_at": "2017-10-21 12:34:56",
     "close_at": "2099-10-31 23:56:01",
     "next_m_trophy_id": 0
+  },
+  {
+    "id": 10037,
+    "rank": 3,
+    "title": "Day 2190 of Demon King Training!",
+    "description": "",
+    "condition_type": 1,
+    "condition_id": 0,
+    "condition_num": 2190,
+    "present_type": 10,
+    "present_id": 107,
+    "present_rarity": 0,
+    "present_num": 1,
+    "sort": 37,
+    "open_at": "2017-10-21 12:34:57",
+    "close_at": "2099-10-31 23:56:02",
+    "next_m_trophy_id": 0
   }
 ]

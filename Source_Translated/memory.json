@@ -1102,5 +1102,29 @@
     "main_m_memory_effect_type_id": 10,
     "sub_m_character_id": 304,
     "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 139,
+    "name": "Mr. Plenaire's Manners Course",
+    "main_m_character_id": 316,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 316,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 140,
+    "name": "6th Anniversary Party!",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 117,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 115
+  },
+  {
+    "id": 141,
+    "name": "Christmas in Wu and Sariah",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 112,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 111
   }
 ]
