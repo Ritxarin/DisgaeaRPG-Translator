@@ -4009,5 +4009,110 @@
     "name": "Formal dress Nippon Ichi-chan",
     "description": "Holding justice in your small chest,\nWearing formal attire,\nIn order to protect the party in the demon world,\nIchi-chan from Japan has come!\nSeeking a fighting stage suitable for a hero,\nNow here again, hero of justice,\nNippon Ichi-chan is visiting!",
     "color_no": 2
+  },
+  {
+    "id": 1504,
+    "img_id": 376,
+    "name": "Formal dress Mao",
+    "description": "Mao in formal clothes.\n6th anniversary party\nServes as host.\nTrouble happens every year\nAnniversary party,\nPeace this year\nI am enthusiastic about holding the event.",
+    "color_no": 11
+  },
+  {
+    "id": 1505,
+    "img_id": 373,
+    "name": "Formal dress Nippon Ichi-chan",
+    "description": "Nippon Ichi-chan in formal clothes.\n6th anniversary party\nI hope it ends safely,\nAt the request of Mr. Plenaire\nParticipate as a security guard.\nToo strong sense of justice\nA scratch on the ball.",
+    "color_no": 2
+  },
+  {
+    "id": 1506,
+    "img_id": 382,
+    "name": "Formal dress raspberyl",
+    "description": "Raspberyl in formal clothes.\nAt the 6th anniversary party,\nServes as host with Mao.\ndifferent from usual\nWearing mature costumes,\nPlanning to enjoy a peaceful party────\nIt seems like...?",
+    "color_no": 9
+  },
+  {
+    "id": 1507,
+    "img_id": 375,
+    "name": "Formal dress Rosalind",
+    "description": "Rosalind in formal clothes.\nAt the 6th anniversary party,\nHe is participating with his girlfriend Adele.\nI'm looking forward to the party,\nThe costumes were also prepared in advance.",
+    "color_no": 12
+  },
+  {
+    "id": 1508,
+    "img_id": 377,
+    "name": "Hissatsu Jigokujin Beyond X",
+    "description": "One of the legendary ten gentlemen.\nA master of disguise,\nby any disguise\nI have deceived people's eyes.\nAlso for anniversary party\nAppears in the guise of past protagonists.\nWhat is its true purpose...?",
+    "color_no": 0
+  },
+  {
+    "id": 1509,
+    "img_id": 90087,
+    "name": "black santa aetna",
+    "description": "Etna dressed in a black Santa costume.\nI was preparing for Christmas,\nHe burst into the party wanting a present.\nIt's Santa, but the presents are\nI am on the receiving side, not on the giving side.",
+    "color_no": 1
+  },
+  {
+    "id": 1510,
+    "img_id": 383,
+    "name": "black santa aetna",
+    "description": "Etna in a black Santa costume.\nLahar and Sicily XENO\nTogether they formed the \"Black Santa Trio\".\nFrom the children on Christmas night\nHe plans to steal the present, but...?",
+    "color_no": 1
+  },
+  {
+    "id": 1511,
+    "img_id": 90088,
+    "name": "Santa Lahar-chan",
+    "description": "Santa Plenaire's\nBathed in light, becoming a woman and becoming a Santa\nLahar has done it.\nBy dressing up as Santa,\nWith my usual supremacy\nHis selfish personality completely changes.",
+    "color_no": 1
+  },
+  {
+    "id": 1512,
+    "img_id": 379,
+    "name": "White Shrine Maiden Saria",
+    "description": "Saria in a white shrine maiden costume.\nWith my twin sister Wu\nTo enjoy the New Year,\nParticipating in a shrine maiden experience.",
+    "color_no": 11
+  },
+  {
+    "id": 1513,
+    "img_id": 385,
+    "name": "Black Priestess Wu",
+    "description": "Nono Wu in a black shrine maiden costume.\nI was invited by my twin sister Saria.\nParticipate in a shrine maiden experience.\nAlthough he has a curt attitude,\nHe cares deeply about Saria.",
+    "color_no": 12
+  },
+  {
+    "id": 1514,
+    "img_id": 20045,
+    "name": "zodiac hookah",
+    "description": "Fuka has the power of a tiger.\nIn order to aim for \"Eto Musume\",\nParticipate in the race with Desco.\nThe runner's name is \"Koibana Baka\"",
+    "color_no": 3
+  },
+  {
+    "id": 1515,
+    "img_id": 20110,
+    "name": "new year lucky board",
+    "description": "I came from the XENO world.\nLucky board.\nPretending to be a referee\nToying with the race.\nSurprisingly, it was the runners' side.",
+    "color_no": 6
+  },
+  {
+    "id": 1516,
+    "img_id": 20111,
+    "name": "zodiac desco",
+    "description": "Developed by Genjuro Kazamatsuri\nspecial\nDrink ``carrot jelly''\nDesco has gained the power of the zodiac.\nTo make Fuuka an “Eto Musume”\nIt looked like a horse...\nThe runner's name is \"Des Desu Desco\".",
+    "color_no": 3
+  },
+  {
+    "id": 1517,
+    "img_id": 90089,
+    "name": "Valbatose's best clothes",
+    "description": "Valbatose in his best clothes.\nThis year's goal is to choose the zodiac\nTo change it to ``18 branches (sardines)''.\nThe depth of the relationship between New Year and sardines\nBy letting the whole demon world know,\nAchieving the “Year of Sardines”\nIs that what you're aiming for?",
+    "color_no": 12
+  },
+  {
+    "id": 1518,
+    "img_id": 90090,
+    "name": "Best clothes Altina",
+    "description": "Altina in her best clothes.\nI want to go to New Year's visit with Valbatose,\nHe went out of his way to wear new clothes.\n...However, Fenrich\nSchedule Valvatose in advance\nBecause I was filling it with \"Eto Musume\",\nHatsumode is postponed.\nThis year's resolution is to make peace with the werewolf.",
+    "color_no": 9
   }
 ]

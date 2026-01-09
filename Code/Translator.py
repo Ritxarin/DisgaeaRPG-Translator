@@ -137,6 +137,84 @@ class CharacterNameTranslator:
                 return self.google_translator.translate(text)
             raise
 
+class SkillNameTranslator:
+    def __init__(self):
+        self.skill_name_cache = {}
+        self.translator_deepl = DeepLTranslator()
+        self.google_translator = GoogleTranslator(source='auto', target='en')
+    
+    def translate(self, jp_name: str)  -> str:
+        normalized, had_break = self.__normalize_skill_name(jp_name)
+
+        if normalized not in self.skill_name_cache:
+            self.skill_name_cache[normalized] = self.__translate_with_fallback(normalized)
+
+        translated = self.skill_name_cache[normalized]
+
+        if had_break:
+            return self.__rewrap(translated)
+
+        return translated
+
+    def __normalize_skill_name(self, text: str) -> tuple[str, bool]:
+        return text.replace("\\n", ""), "\\n" in text
+    
+    def __rewrap(self, text: str) -> str:
+        words = text.split(" ")
+        if len(words) <= 1:
+            return text  # no safe split
+
+        # 1️⃣ Try natural punctuation splits (best)
+        punctuation_patterns = [
+            r":\s*",          # Colon
+            # r"\s*—\s*",       # Em dash
+            # r"\s*–\s*",       # En dash
+            # r"\s*-\s*",       # Hyphen
+            # r"!\s*",
+            # r"\?\s*",
+        ]
+
+        for pattern in punctuation_patterns:
+            match = re.search(pattern, text)
+            if match:
+                split_pos = match.end()
+                left = text[:split_pos].rstrip()
+                right = text[split_pos:].lstrip()
+                if left and right:
+                    return left + "\\n" + right
+
+        # 2️⃣ Fallback: midpoint split on word boundary
+        total_len = sum(len(w) for w in words) + (len(words) - 1)
+        half = total_len // 2
+
+        running = 0
+        best_idx = 1
+        best_diff = float("inf")
+
+        for i in range(1, len(words)):
+            running += len(words[i - 1]) + 1
+            diff = abs(running - half)
+            if diff < best_diff:
+                best_diff = diff
+                best_idx = i
+
+        return (
+            " ".join(words[:best_idx])
+            + "\\n"
+            + " ".join(words[best_idx:])
+        )
+
+
+    def __translate_with_fallback(self, text):
+        try:
+            return self.translator_deepl.translate(text=text, source_lang="JA", target_lang="EN-US")
+        except deepl.DeepLException as e:
+            msg = str(e).lower()
+            if any(k in msg for k in ["quota", "limit", "too many requests"]):
+                print("⚠️ DeepL quota exceeded — switching to Google Translate.")
+                return self.google_translator.translate(text)
+            raise
+
 class EffectTranslator:
     def __init__(self):
         self.dictionary_path =  Paths.PATTERN_DICTIONARIES_DIR / 'EffectDictionary.json'
@@ -174,6 +252,7 @@ class Translator:
         self.evility_translator = EvilityTranslator()
         self.translator_deepl = DeepLTranslator()
         self.character_translator = CharacterNameTranslator()
+        self.skill_name_translator = SkillNameTranslator()
         self.translator_google = GoogleTranslator(source='auto', target='en')
 
         # External services
@@ -191,20 +270,26 @@ class Translator:
             if self.dict_translator.has(value):
                 return self.dict_translator.translate(value)
         
-            # 2️⃣ Regex replacement for specific files/fields
-            if filename == "command" and field == "description_effect":
-                return self.effect_translator.translate(value)
+            # 2️⃣ Translate Skills 
+            if filename == "command":
+                # Regex translation for skill description
+                if field == "description_effect":
+                    return self.effect_translator.translate(value)
+                # Skill name translation, parse \\n correctly
+                elif field in ("name", "name_battle"):
+                    return self.skill_name_translator.translate(value)
             
             # 3️⃣ Character name translation
-            if filename == "character" and field == "name":
+            if (filename == "character" and field == "name") or (filename == "ritualtrainings" and field == "name"):
                 return self.character_translator.translate(value)
 
+            # 4️⃣ Evility specific translation - use regex or fall back to normal translation if no regex match found
             if filename == "leaderskill" and field == "description":
                 translation = self.evility_translator.translate(value)
                 if translation != value:
                     return translation
 
-            # 3️⃣ External translators
+            # 5️⃣ External translators
             if filename in self.files_for_deepl and self.translator_deepl:
                 result = self._translate_with_fallback(value)
             else:
@@ -253,3 +338,14 @@ class Translator:
         except Exception as e:
             print(f"⚠️ Google Translate failed: {e}")
             return text
+        
+    def _translate_skill_name(self, text: str) -> str:
+        normalized, breaks = normalize_skill_name(text)
+
+        if normalized not in self.skill_name_cache:
+            translated = self._translate_with_fallback(normalized)
+            self.skill_name_cache[normalized] = translated
+        else:
+            translated = self.skill_name_cache[normalized]
+
+        return restore_skill_name(translated, breaks)

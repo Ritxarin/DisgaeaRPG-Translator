@@ -595,7 +595,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 54,
@@ -1245,7 +1245,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK+#PER#%(1T) of the ally character with the action gauge at the beginning"
+    "description": "Highest-AG Ally: At the end of turn, ATK +#PER#% (1T)"
   },
   {
     "id": 103,
@@ -1297,7 +1297,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the lowest Action Gauge, Action Gauge +#PER# at the start of the turn"
+    "description": "Lowest-AG Ally: At the start of turn, AG +#PER#"
   },
   {
     "id": 111,
@@ -1661,7 +1661,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the DEF and RES of the enemy with the highest action gauge -#PER#% (2T)"
+    "description": "Highest-AG Enemy: At the start of the turn, DEF/RES -#PER#% (2T)"
   },
   {
     "id": 135,
@@ -2077,7 +2077,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the highest Action Gauge: SP+#PER# when a turn end"
+    "description": "Highest-AG Ally: At the end of turn, SP +#PER#"
   },
   {
     "id": 164,
@@ -2363,7 +2363,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/INT+#PER#%(3T) is the ally character with the action gauge at the beginning."
+    "description": "Highest-AG Ally: At the end of turn, ATK/INT +#PER#% (3T)"
   },
   {
     "id": 183,
@@ -2701,7 +2701,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Buff effects used by parties +18%"
+    "description": "All Allies: Buff Effects +18%"
   },
   {
     "id": 204,
@@ -3013,7 +3013,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "[Queen] Type Allies: ATK/INT+#PER#%"
+    "description": "Queen Allies: ATK/INT +#PER#%"
   },
   {
     "id": 232,
@@ -3143,7 +3143,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", plus 10% buff effects used by parties"
+    "description": ", All Allies: Buff Effects +10%"
   },
   {
     "id": 241,
@@ -3689,7 +3689,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ally character with the highest ATK is CRT+#PER#%(1T)"
+    "description": "Highest-ATK Ally: At the end of the turn, CRT +#PER#% (1T)"
   },
   {
     "id": 294,
@@ -3871,7 +3871,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 humanoid characters in the party, the party's ATK, INT, CRD+#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, ATK/INT/CRD +#PER#%"
   },
   {
     "id": 304,
@@ -4313,7 +4313,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "SP+#PER# of an ally who has been receiving the party's DEF buff effect at the end of turn"
+    "description": "DEF-Buffed Allies: At the end of the turn, SP +#PER#%"
   },
   {
     "id": 351,
@@ -4365,7 +4365,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the action gauge at the beginning of the action gauge is ATK/DEF-#PER#%(1T)"
+    "description": "Highest-AG Enemy: At the start of the turn, ATK/DEF -#PER#% (1T)"
   },
   {
     "id": 353,
@@ -5249,7 +5249,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 424,
@@ -5691,7 +5691,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage caused by character of the party's potential type [Pawn] with special move +#PER#%"
+    "description": "Pawn Allies: Skill Damage +#PER#%"
   },
   {
     "id": 463,
@@ -5951,7 +5951,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the last action gauge is SPD-#PER#% (1 turn)"
+    "description": "Lowest-AG Enemy: At the start of the turn, SPD -#PER#% (1T)"
   },
   {
     "id": 491,
@@ -6003,7 +6003,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the battle, SP +#PER#"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 493,
@@ -6133,7 +6133,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: SP consumption -#PER#%"
+    "description": "All Allies: SP Cost -#PER#%"
   },
   {
     "id": 514,
@@ -6159,7 +6159,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the lowest Action Gauge, Action Gauge +#PER# at the start of the turn"
+    "description": "Lowest-AG Ally: At the start of turn, AG +#PER#"
   },
   {
     "id": 541,
@@ -6341,7 +6341,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: SP consumption -#PER#%"
+    "description": "All Allies: SP Cost -#PER#%"
   },
   {
     "id": 554,
@@ -6445,7 +6445,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/INT+#PER#% (1 turn) is the ally character with the action gauge at the beginning."
+    "description": "Highest-AG Ally: At the end of turn, ATK/INT +#PER#% (1T)"
   },
   {
     "id": 564,
@@ -6627,7 +6627,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the action gauge is the leading ally character INT+#PER#%(1T)"
+    "description": "Highest-AG Ally: At the end of turn, INT +#PER#% (1T)"
   },
   {
     "id": 583,
@@ -7589,7 +7589,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/DEF+#PER#%(2T) is the ally character with the action gauge at the beginning."
+    "description": "Highest-AG Ally: At the end of turn, ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 655,
@@ -7771,7 +7771,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the action gauge is the first ally character SPD+#PER#%(2T)"
+    "description": "Highest-AG Ally: At the end of turn, SPD +#PER#% (2T)"
   },
   {
     "id": 668,
@@ -7901,7 +7901,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Highest-AG Ally: At end of turn, ATK/RES +#PER#% (2T)"
+    "description": "Highest-AG Ally: At the end of turn, ATK/RES +#PER#% (2T)"
   },
   {
     "id": 676,
@@ -8395,7 +8395,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/DEF+#PER#%(2T) is the ally character with the action gauge at the beginning."
+    "description": "Highest-AG Ally: At the end of turn, ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 705,
@@ -8577,7 +8577,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the basic parameters other than the HP of the enemy character with the action gauge at the beginning -#PER#%(1T)"
+    "description": "Highest-AG Enemy: At the start of the turn, Non-HP Basic Stats -#PER#% (1T)"
   },
   {
     "id": 715,
@@ -9669,7 +9669,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the highest Action Gauge: SP+#PER# when a turn end"
+    "description": "Highest-AG Ally: At the end of turn, SP +#PER#"
   },
   {
     "id": 793,
@@ -10189,7 +10189,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/INT+#PER#% (1 turn) is the ally character with the highest SPD."
+    "description": "Highest-SPD Ally: At the end of the turn, ATK/INT +#PER#% (1T)"
   },
   {
     "id": 843,
@@ -10293,7 +10293,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest RES is RES-#PER#%(2 turns)"
+    "description": "Highest-RES Enemy: At the start of the turn, RES -#PER#%(2T)"
   },
   {
     "id": 853,
@@ -10397,7 +10397,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest DEF is DEF-#PER#%(2 turns)"
+    "description": "Highest-DEF Enemy: At the start of the turn, DEF -#PER#%(2T)"
   },
   {
     "id": 863,
@@ -10449,7 +10449,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 871,
@@ -10553,7 +10553,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK, RES, CRD+#PER#% (2 turns) is the ally character with the action gauge at the beginning."
+    "description": "Highest-AG Ally: At the end of turn, ATK/RES/CRD +#PER#% (2T)"
   },
   {
     "id": 875,
@@ -10657,7 +10657,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If you are receiving an SPD buff effect at the start of the turn, the party's ATK+#PER#%(1T)"
+    "description": "SPD-Buffed Self: All Allies, At the start of the turn, ATK +#PER#%(1T)"
   },
   {
     "id": 883,
@@ -10969,7 +10969,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest SPD is SPD-#PER#%(2 turns)"
+    "description": "Highest-SPD Enemy: At the start of the turn, SPD -#PER#%(2T)"
   },
   {
     "id": 911,
@@ -11229,7 +11229,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest ATK is ATK DEF-#PER#%(2T)"
+    "description": "Highest-ATK Enemy: At the start of the turn, ATK/DEF -#PER#%(2T)"
   },
   {
     "id": 925,
@@ -11333,7 +11333,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: SP consumption -#PER#%"
+    "description": "All Allies: SP Cost -#PER#%"
   },
   {
     "id": 932,
@@ -11697,7 +11697,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/INT+#PER#% (1 turn) is the ally character with the action gauge at the beginning."
+    "description": "Highest-AG Ally: At the end of turn, ATK/INT +#PER#% (1T)"
   },
   {
     "id": 961,
@@ -11827,7 +11827,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ATK/INT+#PER#% (1 turn) is the ally character with the last action gauge."
+    "description": "Lowest-AG Ally: At the start of turn, ATK/INT +#PER#% (1T)"
   },
   {
     "id": 982,
@@ -12269,7 +12269,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 1007,
@@ -12321,7 +12321,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Basic parameters for characters of party latent type [Knight] +#PER#%"
+    "description": "Knight Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1012,
@@ -12503,7 +12503,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the action gauge is the lead character INT/RES+#PER#%(2 turns)"
+    "description": "Highest-AG Ally: At the end of turn, INT/RES +#PER#% (2T)"
   },
   {
     "id": 1031,
@@ -12555,7 +12555,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the highest Action Gauge: SP+#PER# when a turn end"
+    "description": "Highest-AG Ally: At the end of turn, SP +#PER#"
   },
   {
     "id": 1033,
@@ -12607,7 +12607,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest HP is DEF-#PER#%(2T)"
+    "description": "Highest-HP Enemy: At the start of the turn, DEF -#PER#%(2T)"
   },
   {
     "id": 1035,
@@ -12997,7 +12997,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the highest Action Gauge: At the end of the turn, ATK +#PER#%(2 turns)"
+    "description": "Highest-AG Ally: At the end of turn, ATK +#PER#% (2T)"
   },
   {
     "id": 1064,
@@ -13179,7 +13179,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/INT+#PER#% (1 turn) is the ally character with the highest SPD."
+    "description": "Highest-SPD Ally: At the end of the turn, ATK/INT +#PER#% (1T)"
   },
   {
     "id": 1083,
@@ -13465,7 +13465,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Basic parameters for characters of party latent type [Luke] +#PER#%"
+    "description": "Rook Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1112,
@@ -13543,7 +13543,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 potential type [Luke] characters in the party, all damage dealt by the party +#PER#%"
+    "description": "All Allies: If 3+ [Rook] Type units are present, Damage +#PER#%"
   },
   {
     "id": 1117,
@@ -13647,7 +13647,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Axe-Equipped Self: Skill Damage +#PER#%"
+    "description": "Axe-Equipped Self, Damage +#PER#%"
   },
   {
     "id": 1123,
@@ -13725,7 +13725,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 1131,
@@ -13751,7 +13751,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "ATK RES+#PER#% for the humanoid character from the party"
+    "description": "Humanoid Allies: ATK/RES +#PER#%"
   },
   {
     "id": 1132,
@@ -13881,7 +13881,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 1143,
@@ -14115,7 +14115,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All damage dealt by characters from the party's potential type [Night King] +#PER#%"
+    "description": "Knight/King Allies: Damage +#PER#%"
   },
   {
     "id": 1163,
@@ -14167,7 +14167,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the gauge of the ally character with the action gauge at the beginning +#PER#"
+    "description": "Highest-AG Ally: At the end of turn, AG +#PER#"
   },
   {
     "id": 1171,
@@ -14765,7 +14765,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK+#PER#%(1T) is the ally character with the highest ATK."
+    "description": "Highest-ATK Ally: At the end of the turn, ATK +#PER#% (1T)"
   },
   {
     "id": 1215,
@@ -14817,7 +14817,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 1218,
@@ -14999,7 +14999,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Basic parameters for characters of the party's latent type [Bishop] +#PER#%"
+    "description": "Bishop Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1232,
@@ -15025,7 +15025,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the basic parameters other than HP of the enemy character with the highest ATK -#PER#%(1 turn)"
+    "description": "Highest-ATK Enemy: At the start of the turn, Non-HP Basic Stats -#PER#%(1T)"
   },
   {
     "id": 1233,
@@ -15415,7 +15415,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Basic parameters other than HP for the character of the party's latent type [Luke] +#PER#%"
+    "description": "Rook Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1262,
@@ -15623,7 +15623,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the lowest Action Gauge, Action Gauge +#PER# at the start of the turn"
+    "description": "Lowest-AG Ally: At the start of turn, AG +#PER#"
   },
   {
     "id": 1274,
@@ -15727,7 +15727,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 1281,
@@ -16013,7 +16013,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Basic parameters for characters of party latent type [King] +#PER#%"
+    "description": "King Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1302,
@@ -16325,7 +16325,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the battle, SP +#PER#"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 1323,
@@ -16351,7 +16351,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 characters of the potential type [Pawn] in the party, damage caused by the party with special move +#PER#%"
+    "description": "All Allies: If 3+ [Pawn] Type units are present, Skill Damage +#PER#%"
   },
   {
     "id": 1324,
@@ -16481,7 +16481,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the enemy character with the action gauge at the beginning of the game is ATK/INT-#PER#%(3 turns)"
+    "description": "Highest-AG Enemy: At the end of the turn, ATK/INT -#PER#% (3T)"
   },
   {
     "id": 1333,
@@ -16715,7 +16715,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 humanoid characters in the party, the party's ATK/DEF+#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, ATK/DEF +#PER#%"
   },
   {
     "id": 1345,
@@ -16819,7 +16819,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: If there are 3 or more humanoid characters in the party, Skill Damage +#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, Skill Damage +#PER#%"
   },
   {
     "id": 1354,
@@ -16923,7 +16923,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the battle, SP +#PER#"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 1363,
@@ -16949,7 +16949,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the DEF and RES of the enemy with the highest action gauge -#PER#% (2T)"
+    "description": "Highest-AG Enemy: At the start of the turn, DEF/RES -#PER#% (2T)"
   },
   {
     "id": 1364,
@@ -16975,7 +16975,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 humanoid characters in the party, the party's CRT+#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, CRT +#PER#%"
   },
   {
     "id": 1365,
@@ -17053,7 +17053,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", If there are more than 5 humanoid characters, the party's ATK, INT, CRD+#PER#%"
+    "description": ", All Allies: If 5+ Humanoid units are present, ATK/INT/CRD +#PER#%"
   },
   {
     "id": 1371,
@@ -17131,7 +17131,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: If there are 3 or more humanoid characters in the party, Skill Damage +#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, Skill Damage +#PER#%"
   },
   {
     "id": 1374,
@@ -17209,7 +17209,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", If there are more than 5 humanoid characters, damage caused by the party through attribute attacks +#PER#%"
+    "description": ", All Allies: If 5+ Humanoid units are present, Elemental Damage +#PER#%"
   },
   {
     "id": 1378,
@@ -17313,7 +17313,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/INT+#PER#%(2T) is the ally character with the action gauge at the beginning."
+    "description": "Highest-AG Ally: At the end of turn, ATK/INT +#PER#% (2T)"
   },
   {
     "id": 1384,
@@ -17417,7 +17417,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "When you equip yourself with a fist weapon, all damage that the party deals +#PER#%"
+    "description": "Fist-Equipped Self: All Allies: Damage +#PER#%"
   },
   {
     "id": 1393,
@@ -17443,7 +17443,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 characters of the potential type [Knight] in the party, the party's ATK/DEF+#PER#%"
+    "description": "All Allies: If 3+ [Knight] Type units are present, ATK/DEF +#PER#%"
   },
   {
     "id": 1394,
@@ -17573,7 +17573,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than 3 characters with their favorite weapon types [Bow, Sword, Gun], then you will be able to use your own ATK/RES+#PER#%"
+    "description": "Self: If 3+ [Bow/Sword/Gun] Allies, ATK/RES +#PER#%"
   },
   {
     "id": 1411,
@@ -17729,7 +17729,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 humanoid characters in the party, damage caused by the party with special moves +#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, Skill Damage +#PER#%"
   },
   {
     "id": 1423,
@@ -17755,7 +17755,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest ATK is SPD-#PER#%(2 turns)"
+    "description": "Highest-ATK Enemy: At the start of the turn, SPD -#PER#%(2T)"
   },
   {
     "id": 1424,
@@ -17781,7 +17781,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than 3 characters with the weapon type that is special [Gun, Sword, Bow], the party's ATK/DEF+#PER#%"
+    "description": "All Allies: If 3+ [Gun/Sword/Bow] Allies, ATK/DEF +#PER#%"
   },
   {
     "id": 1431,
@@ -17833,7 +17833,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the basic parameters other than HP of the enemy character with the highest ATK -#PER#%(1 turn)"
+    "description": "Highest-ATK Enemy: At the start of the turn, Non-HP Basic Stats -#PER#%(1T)"
   },
   {
     "id": 1433,
@@ -18197,7 +18197,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 humanoid characters in the party, damage caused by the party through attribute attacks +#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, Elemental Damage +#PER#%"
   },
   {
     "id": 1471,
@@ -18223,7 +18223,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Basic parameters other than HP for the character of the party's latent type [Knight] +#PER#%"
+    "description": "Knight Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1472,
@@ -18431,7 +18431,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two humanoid characters in the party, you will need to use your ATK/CRD+#PER#%"
+    "description": "Self: If 2+ Humanoid units are present, ATK/CRD +#PER#%"
   },
   {
     "id": 1484,
@@ -18613,7 +18613,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "ATK-Buffed Self: At the end of the turn, CRD +#PER#%(1T)"
+    "description": "ATK-Buffed Allies: At the end of the turn, CRD +#PER#%(1T)"
   },
   {
     "id": 1493,
@@ -18639,7 +18639,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage caused by the party using special moves when you equip yourself with fist weapons +#PER#%"
+    "description": "Fist-Equipped Self: All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 1494,
@@ -19003,7 +19003,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two humanoid characters in the party, the party's ATK/INT+#PER#%"
+    "description": "All Allies: If 2+ Humanoid units are present, ATK/INT +#PER#%"
   },
   {
     "id": 1527,
@@ -19055,7 +19055,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", If there are more than 3 humanoid characters, the party's CRT/CRD+#PER#%"
+    "description": ", All Allies: If 3+ Humanoid units are present, CRT/CRD +#PER#%"
   },
   {
     "id": 1531,
@@ -19211,7 +19211,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 humanoid characters in the party, basic parameters other than the party's HP +#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 1543,
@@ -19445,7 +19445,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If you are receiving a CRD buff effect at the start of the turn, then your SP+#PER#"
+    "description": "CRD-Buffed Self: At the start of the turn, SP +#PER#%"
   },
   {
     "id": 1564,
@@ -19471,7 +19471,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two humanoid characters in the party, you will need to use your ATK/CRD+#PER#%"
+    "description": "Self: If 2+ Humanoid units are present, ATK/CRD +#PER#%"
   },
   {
     "id": 1571,
@@ -19549,7 +19549,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: If there are 3 or more humanoid characters in the party, Skill Damage +#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, Skill Damage +#PER#%"
   },
   {
     "id": 1574,
@@ -19575,7 +19575,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK+#PER#%(1T) is the ally character with the highest ATK."
+    "description": "Highest-ATK Ally: At the end of the turn, ATK +#PER#% (1T)"
   },
   {
     "id": 1581,
@@ -19627,7 +19627,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the basic parameters other than HP of the ally character with the lowest SPD +#PER#%(2T)"
+    "description": "Lowest-SPD Ally: At the end of the turn, All Stats except HP +#PER#% (2T)"
   },
   {
     "id": 1583,
@@ -19653,7 +19653,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, if HP is 50% or above, special move damage +#PER#% (1T) is given to the party."
+    "description": "At the start of the turn, If HP >= 50%, All Allies: Skill Damage +#PER#%(1T)"
   },
   {
     "id": 1584,
@@ -19991,7 +19991,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "When you equip yourself with a fist weapon, all damage that the party deals +#PER#%"
+    "description": "Fist-Equipped Self: All Allies: Damage +#PER#%"
   },
   {
     "id": 1604,
@@ -20017,7 +20017,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the battle, SP +#PER#"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 1605,
@@ -20563,7 +20563,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two characters of the potential type [Knight] in the party, damage caused by the party through attribute attacks +#PER#%"
+    "description": "All Allies: If 2+ [Knight] Type units are present, Elemental Damage +#PER#%"
   },
   {
     "id": 1643,
@@ -20589,7 +20589,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest ATK is the basic parameters other than HP -#PER#%(2T)"
+    "description": "Highest-ATK Enemy: At the start of the turn, Non-HP Basic Stats -#PER#%(2T)"
   },
   {
     "id": 1644,
@@ -20615,7 +20615,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two humanoid characters in the party, the party's ATK/INT+#PER#%"
+    "description": "All Allies: If 2+ Humanoid units are present, ATK/INT +#PER#%"
   },
   {
     "id": 1646,
@@ -20641,7 +20641,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, if there are 3 or more characters of the latent type [Knight], damage caused by the party through attribute attacks +#PER#%"
+    "description": ", All Allies: If 3+ [Knight] Type units are present, Elemental Damage +#PER#%"
   },
   {
     "id": 1648,
@@ -20667,7 +20667,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", If there are more than 4 humanoid characters in the party, the party's SPD+#PER#%"
+    "description": ", All Allies: If 4+ Humanoid units are present, SPD +#PER#%"
   },
   {
     "id": 1651,
@@ -20849,7 +20849,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ally character with the highest INT+#PER#%(1 turn)"
+    "description": "Highest-INT Ally: At the end of the turn, INT +#PER#% (1T)"
   },
   {
     "id": 1663,
@@ -21031,7 +21031,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage caused by the party using special moves when you are equipped with a cane weapon +#PER#%"
+    "description": "Staff-Equipped Self: All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 1681,
@@ -21317,7 +21317,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two humanoid characters in the party, you will need to use your own INT, DEF, RES, CRD+#PER#%"
+    "description": "Self: If 2+ Humanoid units are present, INT/DEF/RES/CRD +#PER#%"
   },
   {
     "id": 1695,
@@ -21603,7 +21603,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 humanoid characters in the party, you will be able to use your own ATK/DEF+#PER#%"
+    "description": "Self: If 3+ Humanoid units are present, ATK/DEF +#PER#%"
   },
   {
     "id": 1714,
@@ -22045,7 +22045,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", Damage +#PER#%(3T) granted"
+    "description": ", Damage +#PER#%(3T)"
   },
   {
     "id": 1738,
@@ -22175,7 +22175,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than four characters with their favorite weapon types [axes, swords, guns, wands, monster magic], then you will have your own ATK/DEF+#PER#%"
+    "description": "Self: If 4+ [Axe/Sword/Gun/Staff/Mon Magic] Allies, ATK/DEF +#PER#%"
   },
   {
     "id": 1745,
@@ -22305,7 +22305,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "INT-Buffed Self: At the end of the turn, CRD +#PER#%(2T)"
+    "description": "INT-Buffed Allies: At the end of the turn, CRD +#PER#%(2T)"
   },
   {
     "id": 1753,
@@ -22695,7 +22695,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there is at least one character of the potential type [Queen] in the party, the party's CRD+#PER#%"
+    "description": "All Allies: If 1+ [Queen] Type units are present, CRD +#PER#%"
   },
   {
     "id": 1774,
@@ -22721,7 +22721,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage caused by the party using attribute attacks when you equip your sword weapon +#PER#%"
+    "description": "Sword-Equipped Self: All Allies: Elemental Damage +#PER#%"
   },
   {
     "id": 1781,
@@ -23137,7 +23137,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK+#PER#%(2T) is the ally character with the highest ATK."
+    "description": "Highest-ATK Ally: At the end of the turn, ATK +#PER#% (2T)"
   },
   {
     "id": 1805,
@@ -23917,7 +23917,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If your HP is 50% or more at the start of the turn, your ATK, DEF, CRD+#PER#%(1T)"
+    "description": "At the start of the turn, If HP >= 50%, Self: ATK/DEF/CRD +#PER#%(1T)"
   },
   {
     "id": 1854,
@@ -23943,7 +23943,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than 3 characters with the weapon type that is special in [Sword, Fist, Bow], the basic parameters other than your HP: CRD+#PER#%"
+    "description": "Self: If 3+ [Sword/Fist/Bow] Allies, Non-HP Basic Stats/CRD +#PER#%"
   },
   {
     "id": 1855,
@@ -24151,7 +24151,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the Lowest SPD: At end of user's turn, ATK/INT+#PER#%(1 turn)"
+    "description": "Lowest-SPD Ally: At the end of the turn, ATK/INT +#PER#% (1T)"
   },
   {
     "id": 1865,
@@ -24489,7 +24489,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: If there are 3 or more humanoid characters in the party, Skill Damage +#PER#%"
+    "description": "All Allies: If 3+ Humanoid units are present, Skill Damage +#PER#%"
   },
   {
     "id": 1885,
@@ -24645,7 +24645,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 1894,
@@ -24827,7 +24827,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "DEF-Buffed Self: At the end of the turn, ATK +#PER#%(2T)"
+    "description": "DEF-Buffed Allies: At the end of the turn, ATK +#PER#%(2T)"
   },
   {
     "id": 1905,
@@ -25347,7 +25347,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 characters of the potential type [King] in the party, all damage dealt by the party +#PER#%"
+    "description": "All Allies: If 3+ [King] Type units are present, Damage +#PER#%"
   },
   {
     "id": 1933,
@@ -25451,7 +25451,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", If there are more than 5 characters of the latent type [King], all damage dealt by the party +#PER#%"
+    "description": ", All Allies: If 5+ [King] Type units are present, Damage +#PER#%"
   },
   {
     "id": 1941,
@@ -25893,7 +25893,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if your HP is 50% or more, the party's ATK, INT, CRD+#PER#%(2T)"
+    "description": "At the end of the turn, If HP >= 50%, All Allies: ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 1964,
@@ -27037,7 +27037,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ally character with the highest INT+#PER#%(1T)"
+    "description": "Highest-INT Ally: At the start of the turn, INT +#PER#% (1T)"
   },
   {
     "id": 2025,
@@ -27401,7 +27401,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than 3 characters with the weapon type that is special [Sword, Spear, Gun], then you will be able to use your ATK/CRD+#PER#%"
+    "description": "Self: If 3+ [Sword/Spear/Gun] Allies, ATK/CRD +#PER#%"
   },
   {
     "id": 2045,
@@ -27583,7 +27583,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK+#PER#%(2T) is the ally character with the highest ATK."
+    "description": "Highest-ATK Ally: At the end of the turn, ATK +#PER#% (2T)"
   },
   {
     "id": 2054,
@@ -28259,7 +28259,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ally character with the highest ATK is CRT+#PER#%(1T)"
+    "description": "Highest-ATK Ally: At the end of the turn, CRT +#PER#% (1T)"
   },
   {
     "id": 2103,
@@ -28441,7 +28441,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All damage dealt by the party when you equip your bow weapon +#PER#%"
+    "description": "Bow-Equipped Self: All Allies: Damage +#PER#%"
   },
   {
     "id": 2113,
@@ -28493,7 +28493,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ally character with the highest ATK is CRT+#PER#%(2T)"
+    "description": "Highest-ATK Ally: At the end of the turn, CRT +#PER#% (2T)"
   },
   {
     "id": 2115,
@@ -28545,7 +28545,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and all damage dealt by characters of the latent type [King] +#PER#%"
+    "description": ", King Allies: Damage +#PER#%"
   },
   {
     "id": 2118,
@@ -28623,7 +28623,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Effect of buffs used by the party +18%"
+    "description": "All Allies: Buff Effects +18%"
   },
   {
     "id": 2123,
@@ -28727,7 +28727,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: SP consumption -#PER#%"
+    "description": ", All Allies: SP Cost -#PER#%"
   },
   {
     "id": 2127,
@@ -28779,7 +28779,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2131,
@@ -28883,7 +28883,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "SP+#PER# of an ally who has been receiving the party's CRT buff effect at the start of the turn"
+    "description": "CRT-Buffed Allies: At the start of the turn, SP +#PER#%"
   },
   {
     "id": 2135,
@@ -29065,7 +29065,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, ATK/INT+#PER#% (2T) of the ally character with the highest CRD"
+    "description": "Highest-CRD Ally: At the end of the turn, ATK/INT +#PER#% (2T)"
   },
   {
     "id": 2145,
@@ -29221,7 +29221,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest HP is DEF-#PER#%(2T)"
+    "description": "Highest-HP Enemy: At the start of the turn, DEF -#PER#%(2T)"
   },
   {
     "id": 2154,
@@ -29247,7 +29247,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with the special weapon type [Sword/Wand], then you will be able to use your own ATK, DEF, RES+#PER#%"
+    "description": "Self: If 2+ [Sword/Staff] Allies, ATK/DEF/RES +#PER#%"
   },
   {
     "id": 2155,
@@ -30001,7 +30001,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, when the turn starts, you will receive invincible (#PER# times)"
+    "description": ", Self: At the start of the turn, grant Invincibility (#PER# Times)"
   },
   {
     "id": 2197,
@@ -30105,7 +30105,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest HP is DEF/RES-#PER#%(3T)"
+    "description": "Highest-HP Enemy: At the start of the turn, DEF/RES -#PER#%(3T)"
   },
   {
     "id": 2204,
@@ -30183,7 +30183,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, when you equip yourself with an axe weapon, the damage that the party deals with with a special move +#PER#%"
+    "description": ", Axe-Equipped Self: All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2208,
@@ -30417,7 +30417,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the action gauge at the beginning of the action gauge is ATK/DEF-#PER#%(2T)"
+    "description": "Highest-AG Enemy: At the start of the turn, ATK/DEF -#PER#% (2T)"
   },
   {
     "id": 2224,
@@ -30443,7 +30443,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with the special weapon type [Sword/Spear], then you will have your own ATK+#PER#%"
+    "description": "Self: If 2+ [Sword/Spear] Allies, ATK +#PER#%"
   },
   {
     "id": 2225,
@@ -30781,7 +30781,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage caused by the party using special moves when you equip yourself with bow weapon +#PER#%"
+    "description": "Bow-Equipped Self: All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2243,
@@ -30963,7 +30963,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Highest-ATK Ally: At start of turn, ATK/CRD +#PER#%(1T)"
+    "description": "Highest-ATK Ally: At the start of the turn, ATK/CRD +#PER#% (1T)"
   },
   {
     "id": 2255,
@@ -31015,7 +31015,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2257,
@@ -31171,7 +31171,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK+#PER#%(2T) is the ally character with the highest CRT."
+    "description": "Highest-CRT Ally: At the end of the turn, ATK +#PER#% (2T)"
   },
   {
     "id": 2265,
@@ -31223,7 +31223,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2267,
@@ -31613,7 +31613,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", Furthermore, if your HP is 75% or more, party's SP+#PER#"
+    "description": ", If HP >= 75%, All Allies: SP +#PER#%"
   },
   {
     "id": 2287,
@@ -31665,7 +31665,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", Furthermore, if own HP is 75% or more, party's CRT/CRD+#PER#%(1T)"
+    "description": ", If HP >= 75%, All Allies: CRT/CRD +#PER#%(1T)"
   },
   {
     "id": 2291,
@@ -31769,7 +31769,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, Ally character with the highest ATK, ATK/CRD+#PER#%(2T)."
+    "description": "Highest-ATK Ally: At the start of the turn, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 2295,
@@ -31951,7 +31951,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If you are receiving an INT buff effect at the start of the turn, the party's CRD+#PER#%(1T)"
+    "description": "INT-Buffed Self: All Allies, At the start of the turn, CRD +#PER#%(1T)"
   },
   {
     "id": 2305,
@@ -32055,7 +32055,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",Damage dealt with fire attribute attack +#PER#%(1T) granted"
+    "description": ", Fire Damage +#PER#%(1T)"
   },
   {
     "id": 2311,
@@ -32367,7 +32367,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2331,
@@ -32445,7 +32445,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 2334,
@@ -32679,7 +32679,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ATK+#PER#%(2T) is the ally character with the highest ATK."
+    "description": "Highest-ATK Ally: At the start of the turn, ATK +#PER#% (2T)"
   },
   {
     "id": 2345,
@@ -32731,7 +32731,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2347,
@@ -32861,7 +32861,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ally character with the highest CRD is ATK/DEF+#PER#%(2T)"
+    "description": "Highest-CRD Ally: At the start of the turn, ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 2354,
@@ -32939,7 +32939,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2357,
@@ -33147,7 +33147,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2371,
@@ -33225,7 +33225,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two characters of the potential type [Luke] in the party, the party's ATK+#PER#%"
+    "description": "All Allies: If 2+ [Rook] Type units are present, ATK +#PER#%"
   },
   {
     "id": 2374,
@@ -34577,7 +34577,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "+10% buff effects used by parties"
+    "description": "All Allies: Buff Effects +10%"
   },
   {
     "id": 2444,
@@ -34603,7 +34603,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two characters of the potential type [Knight] in the party, the party's ATK+#PER#%"
+    "description": "All Allies: If 2+ [Knight] Type units are present, ATK +#PER#%"
   },
   {
     "id": 2445,
@@ -34681,7 +34681,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: SP consumption -#PER#%"
+    "description": ", All Allies: SP Cost -#PER#%"
   },
   {
     "id": 2448,
@@ -34993,7 +34993,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ally character with the highest INT+#PER#%(1T)"
+    "description": "Highest-INT Ally: At the start of the turn, INT +#PER#% (1T)"
   },
   {
     "id": 2465,
@@ -35045,7 +35045,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2468,
@@ -35513,7 +35513,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the DEF and RES of the enemy with the highest action gauge -#PER#% (2T)"
+    "description": "Highest-AG Enemy: At the start of the turn, DEF/RES -#PER#% (2T)"
   },
   {
     "id": 2494,
@@ -35539,7 +35539,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with the special weapon type [Spear, Fist, and Monster Physics], the party's ATK/CRD+#PER#%"
+    "description": "All Allies: If 2+ [Spear/Fist/Mon Phys] Allies, ATK/CRD +#PER#%"
   },
   {
     "id": 2496,
@@ -35565,7 +35565,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2497,
@@ -35747,7 +35747,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2507,
@@ -35773,7 +35773,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: SP consumption -#PER#%"
+    "description": ", All Allies: SP Cost -#PER#%"
   },
   {
     "id": 2508,
@@ -36085,7 +36085,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 humanoid characters in the party, your HP+#PER#%"
+    "description": "Self: If 3+ Humanoid units are present, HP +#PER#%"
   },
   {
     "id": 2525,
@@ -36137,7 +36137,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2527,
@@ -36293,7 +36293,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Self: At the end of the turn, ATK/INT +#PER#%(1T)"
+    "description": "CRD-Buffed Allies: At the end of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 2535,
@@ -36553,7 +36553,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2547,
@@ -36657,7 +36657,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "+20% buff effects used by parties"
+    "description": "All Allies: Buff Effects +20%"
   },
   {
     "id": 2554,
@@ -36865,7 +36865,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with a weapon type that is special [Bow/Gun], the party's CRT+#PER#%"
+    "description": "All Allies: If 2+ [Bow/Gun] Allies, CRT +#PER#%"
   },
   {
     "id": 2564,
@@ -37281,7 +37281,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with a special weapon type [Axe/Gun], then you will have your own ATK+#PER#%"
+    "description": "Self: If 2+ [Axe/Gun] Allies, ATK +#PER#%"
   },
   {
     "id": 2585,
@@ -37437,7 +37437,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Self: At the start of the turn, ATK +#PER#%(1T)"
+    "description": "CRD-Buffed Allies: At the start of the turn, ATK +#PER#%(1T)"
   },
   {
     "id": 2594,
@@ -37645,7 +37645,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ally characters with the highest ATK, ATK, DEF, CRD+#PER#%(1T)"
+    "description": "Highest-ATK Ally: At the start of the turn, ATK/DEF/CRD +#PER#% (1T)"
   },
   {
     "id": 2604,
@@ -37671,7 +37671,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with the special weapon type [Sword/Spear], then you will have your own ATK/DEF+#PER#%"
+    "description": "Self: If 2+ [Sword/Spear] Allies, ATK/DEF +#PER#%"
   },
   {
     "id": 2605,
@@ -37723,7 +37723,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2611,
@@ -38035,7 +38035,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there is at least one character of the potential type [King] in the party, the party's CRD+#PER#%"
+    "description": "All Allies: If 1+ [King] Type units are present, CRD +#PER#%"
   },
   {
     "id": 2625,
@@ -38295,7 +38295,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2638,
@@ -39569,7 +39569,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Effect of buffs used by the party +18%"
+    "description": "All Allies: Buff Effects +18%"
   },
   {
     "id": 2704,
@@ -39647,7 +39647,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2707,
@@ -39959,7 +39959,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Self: At the end of the turn, ATK/INT/CRD +#PER#%(2T)"
+    "description": "CRT-Buffed Allies: At the end of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 2725,
@@ -40557,7 +40557,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", Damage +#PER#%(2T) granted"
+    "description": ", Damage +#PER#%(2T)"
   },
   {
     "id": 2758,
@@ -40921,7 +40921,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2777,
@@ -41311,7 +41311,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, if the party has more than two characters with the special weapon type [Sword/Bow], the party's SP+#PER#"
+    "description": ", All Allies: If 2+ [Sword/Bow] Allies, SP +#PER#%"
   },
   {
     "id": 2798,
@@ -41415,7 +41415,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "+15% buff effects used by parties"
+    "description": "All Allies: Buff Effects +15%"
   },
   {
     "id": 2804,
@@ -41441,7 +41441,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with the special weapon type [Sword/Bow], the party's ATK/INT+#PER#%"
+    "description": "All Allies: If 2+ [Sword/Bow] Allies, ATK/INT +#PER#%"
   },
   {
     "id": 2805,
@@ -41831,7 +41831,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
+    "description": "CRT-Buffed Allies: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 2824,
@@ -42325,7 +42325,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, if your HP is below 30% at the start of the turn, the party will receive invincible (#PER# times)"
+    "description": ", At the start of the turn, If HP <= 30%, All Allies: Invincibility (#PER# Times)"
   },
   {
     "id": 2848,
@@ -42507,7 +42507,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 2861,
@@ -42611,7 +42611,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with a special weapon type [Axe], the party's ATK/CRD+#PER#%"
+    "description": "All Allies: If 2+ [Axe] Allies, ATK/CRD +#PER#%"
   },
   {
     "id": 2866,
@@ -42793,7 +42793,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
+    "description": "CRT-Buffed Allies: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 2875,
@@ -43339,7 +43339,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ATK+#PER#%(1T) is the ally character with the highest ATK."
+    "description": "Highest-ATK Ally: At the start of the turn, ATK +#PER#% (1T)"
   },
   {
     "id": 2904,
@@ -43391,7 +43391,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and the basic parameters of the entire enemy -#PER#%"
+    "description": ", All Enemies: Basic Stats -#PER#%"
   },
   {
     "id": 2906,
@@ -43521,7 +43521,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "When the party is critical, party's ATK/CRD+#PER#%(2T)"
+    "description": "All Allies: When any ally crits, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 2914,
@@ -43677,7 +43677,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the battle, SP +#PER#"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 2924,
@@ -43885,7 +43885,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest ATK is DEF/RES-#PER#%(2T)"
+    "description": "Highest-ATK Enemy: At the start of the turn, DEF/RES -#PER#%(2T)"
   },
   {
     "id": 2934,
@@ -44561,7 +44561,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",Damage dealt with water-based attack +#PER#%(2T) granted"
+    "description": ", Water Damage +#PER#%(2T)"
   },
   {
     "id": 2968,
@@ -45237,7 +45237,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Highest-CRD Ally: At start of turn, ATK/CRD +#PER#%(2T)"
+    "description": "Highest-CRD Ally: At the start of the turn, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 3005,
@@ -45653,7 +45653,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If you are receiving a CRT buff effect at the start of the turn, the party's ATK+#PER#%(2T)"
+    "description": "CRT-Buffed Self: All Allies, At the start of the turn, ATK +#PER#%(2T)"
   },
   {
     "id": 3025,
@@ -47213,7 +47213,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 3105,
@@ -47369,7 +47369,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Effect of buffs used by the party +18%"
+    "description": "All Allies: Buff Effects +18%"
   },
   {
     "id": 3114,
@@ -47395,7 +47395,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ally character with the highest CRD is ATK/INT+#PER#%(2T)"
+    "description": "Highest-CRD Ally: At the end of the turn, ATK/INT +#PER#% (2T)"
   },
   {
     "id": 3115,
@@ -47473,7 +47473,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: SP consumption -#PER#%"
+    "description": ", All Allies: SP Cost -#PER#%"
   },
   {
     "id": 3118,
@@ -48019,7 +48019,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two characters of the potential type [King] in the party, the party's ATK/CRD+#PER#%"
+    "description": "All Allies: If 2+ [King] Type units are present, ATK/CRD +#PER#%"
   },
   {
     "id": 3146,
@@ -48097,7 +48097,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, when the battle begins, your initial SP+#PER#"
+    "description": ", Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 3151,
@@ -48591,7 +48591,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two characters of the potential type [King] in the party, the party's ATK+#PER#%"
+    "description": "All Allies: If 2+ [King] Type units are present, ATK +#PER#%"
   },
   {
     "id": 3175,
@@ -48955,7 +48955,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If you are receiving an INT buff effect at the start of the turn, the party's INT/RES+#PER#%(3T)"
+    "description": "INT-Buffed Self: All Allies, At the start of the turn, INT/RES +#PER#%(3T)"
   },
   {
     "id": 3195,
@@ -49007,7 +49007,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 3197,
@@ -49293,7 +49293,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest ATK is ATK/CRD-#PER#%(2T)"
+    "description": "Highest-ATK Enemy: At the start of the turn, ATK/CRD -#PER#%(2T)"
   },
   {
     "id": 3214,
@@ -49319,7 +49319,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if there is an enemy in the DEF debuff state, the party's ATK+#PER#%(2T)"
+    "description": "At the end of the turn, if there is an enemy with DEF debuff, party's ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 3215,
@@ -49501,7 +49501,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
+    "description": "CRT-Buffed Allies: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3224,
@@ -49527,7 +49527,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than 3 characters with a special weapon type [Axe], the party's ATK/DEF+#PER#%"
+    "description": "All Allies: If 3+ [Axe] Allies, ATK/DEF +#PER#%"
   },
   {
     "id": 3225,
@@ -50333,7 +50333,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "INT-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
+    "description": "INT-Buffed Allies: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 3265,
@@ -50489,7 +50489,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ATK character with the highest ATK is ATK DEF+#PER#%(2T)"
+    "description": "Highest-ATK Ally: At the start of the turn, ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 3274,
@@ -50515,7 +50515,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than 3 characters with the weapon type that is special in [Sword, Spear, Bow], then you will have your own ATK/DEF+#PER#%"
+    "description": "Self: If 3+ [Sword/Spear/Bow] Allies, ATK/DEF +#PER#%"
   },
   {
     "id": 3275,
@@ -50697,7 +50697,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: When any ally crits, CRD/CRT+#PER#%(2T)"
+    "description": "All Allies: When any ally crits, CRD/CRT +#PER#% (2T)"
   },
   {
     "id": 3284,
@@ -51295,7 +51295,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Self: At the end of the turn, ATK/INT +#PER#%(2T)"
+    "description": "CRD-Buffed Allies: At the end of the turn, ATK/INT +#PER#%(2T)"
   },
   {
     "id": 3314,
@@ -51685,7 +51685,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with the special weapon type [Sword/Bow], the party's ATK/INT+#PER#%"
+    "description": "All Allies: If 2+ [Sword/Bow] Allies, ATK/INT +#PER#%"
   },
   {
     "id": 3334,
@@ -51763,7 +51763,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, if your HP is below 25% at the start of the turn, your ATK/CRD+#PER#%(1T)"
+    "description": ", At the start of the turn, If HP <= 25%, Self: ATK/CRD +#PER#%(1T)"
   },
   {
     "id": 3337,
@@ -52647,7 +52647,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Self: At the start of the turn, ATK/INT +#PER#%(3T)"
+    "description": "CRD-Buffed Allies: At the start of the turn, ATK/INT +#PER#%(3T)"
   },
   {
     "id": 3385,
@@ -53323,7 +53323,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 3417,
@@ -53505,7 +53505,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, if HP is 50% or more, all damage received by the party - #PER#%(2T) is given"
+    "description": ", If HP >= 50%, All Allies: Damage Taken -#PER#%(2T)"
   },
   {
     "id": 3427,
@@ -53635,7 +53635,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Highest-ATK Ally: At start of turn, ATK/CRD +#PER#%(2T)"
+    "description": "Highest-ATK Ally: At the start of the turn, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 3434,
@@ -53973,7 +53973,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "When you equip yourself with an axe weapon, all damage that the party deals +#PER#%"
+    "description": "Axe-Equipped Self: All Allies: Damage +#PER#%"
   },
   {
     "id": 3453,
@@ -53999,7 +53999,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 3454,
@@ -54207,7 +54207,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: When any ally crits, ATK/CRD+#PER#%(2T)"
+    "description": "All Allies: When any ally crits, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 3464,
@@ -54649,7 +54649,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ally character with the highest CRD is ATK/INT+#PER#%(2T)"
+    "description": "Highest-CRD Ally: At the start of the turn, ATK/INT +#PER#% (2T)"
   },
   {
     "id": 3485,
@@ -54831,7 +54831,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "DEF-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
+    "description": "DEF-Buffed Allies: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3494,
@@ -55273,7 +55273,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character's first action gauge is SPD-#PER#%(2T)"
+    "description": "Highest-AG Enemy: At the start of the turn, SPD -#PER#% (2T)"
   },
   {
     "id": 3516,
@@ -55429,7 +55429,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "SPD-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
+    "description": "SPD-Buffed Allies: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3544,
@@ -55637,7 +55637,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "ATK-Buffed Self: At the end of the turn, DEF/RES +#PER#%(4T)"
+    "description": "ATK-Buffed Allies: At the end of the turn, DEF/RES +#PER#%(4T)"
   },
   {
     "id": 3554,
@@ -55689,7 +55689,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 3557,
@@ -55793,7 +55793,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the highest Action Gauge: At the end of the turn, ATK +#PER#%(2 turns)"
+    "description": "Highest-AG Ally: At the end of turn, ATK +#PER#% (2T)"
   },
   {
     "id": 10014,
@@ -56391,7 +56391,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the highest Action Gauge: At the end of the turn, ATK +#PER#%(2 turns)"
+    "description": "Highest-AG Ally: At the end of turn, ATK +#PER#% (2T)"
   },
   {
     "id": 10073,
@@ -56495,7 +56495,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the lowest Action Gauge, Action Gauge +#PER# at the start of the turn"
+    "description": "Lowest-AG Ally: At the start of turn, AG +#PER#"
   },
   {
     "id": 10083,
@@ -56599,7 +56599,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the DEF+#PER#%(2 turns) of the ally character with the last action gauge"
+    "description": "Lowest-AG Ally: At the start of turn, DEF +#PER#% (2T)"
   },
   {
     "id": 10093,
@@ -59771,7 +59771,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the HP of the ally character with the action gauge first recovers to the #PER#% of the maximum HP of your own"
+    "description": "Highest-AG Ally: At the end of turn, Heal #PER#% of max HP"
   },
   {
     "id": 100142,
@@ -60083,7 +60083,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the lowest Action Gauge, Action Gauge +#PER# at the start of the turn"
+    "description": "Lowest-AG Ally: At the start of turn, AG +#PER#"
   },
   {
     "id": 100172,
@@ -60161,7 +60161,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 100181,
@@ -60187,7 +60187,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the highest Action Gauge: At the end of the turn, ATK +#PER#%(2 turns)"
+    "description": "Highest-AG Ally: At the end of turn, ATK +#PER#% (2T)"
   },
   {
     "id": 100182,
@@ -60655,7 +60655,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 100234,
@@ -60681,7 +60681,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the action gauge is the lead character INT+#PER#%(2 turns)"
+    "description": "Highest-AG Ally: At the end of turn, INT +#PER#% (2T)"
   },
   {
     "id": 100251,
@@ -61045,7 +61045,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the highest Action Gauge: At the end of the turn, ATK +#PER#%(2 turns)"
+    "description": "Highest-AG Ally: At the end of turn, ATK +#PER#% (2T)"
   },
   {
     "id": 100383,
@@ -61149,7 +61149,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the highest Action Gauge: SP+#PER# when a turn end"
+    "description": "Highest-AG Ally: At the end of turn, SP +#PER#"
   },
   {
     "id": 100393,
@@ -61825,7 +61825,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 200081,
@@ -62085,7 +62085,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200097,
@@ -62241,7 +62241,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: If 2+ Monster units in party, Elemental Damage dealt +#PER#%"
+    "description": "All Allies: If 2+ Monster units are present, Elemental Damage +#PER#%"
   },
   {
     "id": 200105,
@@ -62293,7 +62293,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", if 5+ Monster units in party, Elemental Damage dealt +#PER#%"
+    "description": ", All Allies: If 5+ Monster units are present, Elemental Damage +#PER#%"
   },
   {
     "id": 200111,
@@ -63021,7 +63021,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Party monster physical weapon equipped character ATK/INT+#PER#%"
+    "description": "Monster Allies: ATK/INT +#PER#%"
   },
   {
     "id": 200192,
@@ -63047,7 +63047,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, if there are less than 3 enemies, you will receive damage +#PER#%(1T) that you deal with as a special move."
+    "description": "At the start of the turn, if there are 3 or fewer enemies, all damage dealt to you will be given +#PER#% (1T)"
   },
   {
     "id": 200193,
@@ -63437,7 +63437,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 200223,
@@ -63749,7 +63749,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the gauge of the ally character with the action gauge at the beginning +#PER#"
+    "description": "Highest-AG Ally: At the end of turn, AG +#PER#"
   },
   {
     "id": 200244,
@@ -63853,7 +63853,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 200254,
@@ -64295,7 +64295,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest INT-#PER#%(2 turns)"
+    "description": "Highest-INT Enemy: At the start of the turn, INT -#PER#%(2T)"
   },
   {
     "id": 200291,
@@ -64347,7 +64347,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest RES is RES-#PER#%(2 turns)"
+    "description": "Highest-RES Enemy: At the start of the turn, RES -#PER#%(2T)"
   },
   {
     "id": 200293,
@@ -64659,7 +64659,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: SP consumption -#PER#%"
+    "description": "All Allies: SP Cost -#PER#%"
   },
   {
     "id": 200321,
@@ -64711,7 +64711,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the action gauge is the lead character INT/RES+#PER#%(2 turns)"
+    "description": "Highest-AG Ally: At the end of turn, INT/RES +#PER#% (2T)"
   },
   {
     "id": 200323,
@@ -65101,7 +65101,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ally character's final action gauge is SP+#PER#"
+    "description": "Lowest-AG Ally: At the start of turn, SP +#PER#"
   },
   {
     "id": 200362,
@@ -65309,7 +65309,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Basic parameters for characters of party latent type [Queen] +#PER#%"
+    "description": "Queen Allies: Basic Stats +#PER#%"
   },
   {
     "id": 200382,
@@ -65413,7 +65413,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Basic parameters other than HP for the character of the party's latent type [Queen] +#PER#%"
+    "description": "Queen Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 200392,
@@ -65439,7 +65439,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All damage dealt by the character of the party's potential type [Queen] +#PER#%"
+    "description": "Queen Allies: Damage +#PER#%"
   },
   {
     "id": 200393,
@@ -65543,7 +65543,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Basic parameters other than HP for the character of the party's latent type [Bishop] +#PER#%"
+    "description": "Bishop Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 200402,
@@ -65621,7 +65621,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD+#PER#% for the character of the party's potential type [Bishop]"
+    "description": "Bishop Allies: CRD +#PER#%"
   },
   {
     "id": 200405,
@@ -65855,7 +65855,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200421,
@@ -65933,7 +65933,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the action gauge is the lead character CRT+#PER#%(2T)"
+    "description": "Highest-AG Ally: At the end of turn, CRT +#PER#% (2T)"
   },
   {
     "id": 200424,
@@ -66037,7 +66037,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage caused by the party using special moves when you equip yourself with a physical monster weapon +#PER#%"
+    "description": "Mon Phys-Equipped Self: All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200433,
@@ -66089,7 +66089,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ally character's final action gauge is SP+#PER#"
+    "description": "Lowest-AG Ally: At the start of turn, SP +#PER#"
   },
   {
     "id": 200441,
@@ -66141,7 +66141,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage caused by character of the party's potential type [King Luke] with special move +#PER#%"
+    "description": "King/Rook Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200443,
@@ -66323,7 +66323,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: If 2+ Monster units in party, Elemental Damage dealt +#PER#%"
+    "description": "All Allies: If 2+ Monster units are present, Elemental Damage +#PER#%"
   },
   {
     "id": 200454,
@@ -66635,7 +66635,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "SP+#PER# of allies who are receiving party RES buff effects at the end of turn"
+    "description": "RES-Buffed Allies: At the end of the turn, SP +#PER#%"
   },
   {
     "id": 200473,
@@ -66817,7 +66817,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than 3 monster-type characters in the party, all damage dealt by the party +#PER#%"
+    "description": "All Allies: If 3+ Monster units are present, Damage +#PER#%"
   },
   {
     "id": 200483,
@@ -66999,7 +66999,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ally character with the highest INT CRD+#PER#%(3T)"
+    "description": "Highest-INT Ally: At the end of the turn, CRD +#PER#% (3T)"
   },
   {
     "id": 200493,
@@ -67363,7 +67363,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If you are receiving an INT buff effect at the start of the turn, then your SP+#PER#"
+    "description": "INT-Buffed Self: At the start of the turn, SP +#PER#%"
   },
   {
     "id": 200515,
@@ -67545,7 +67545,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two monster-type characters in the party, you can use your own CRT+#PER#%"
+    "description": "Self: If 2+ Monster units are present, CRT +#PER#%"
   },
   {
     "id": 200531,
@@ -67727,7 +67727,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200541,
@@ -68039,7 +68039,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "+25% buff effects used by parties"
+    "description": "All Allies: Buff Effects +25%"
   },
   {
     "id": 200555,
@@ -68117,7 +68117,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two characters of the potential type [Bishop] in the party, damage caused by the party through attribute attacks +#PER#%"
+    "description": "All Allies: If 2+ [Bishop] Type units are present, Elemental Damage +#PER#%"
   },
   {
     "id": 200563,
@@ -68143,7 +68143,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest ATK is ATK DEF-#PER#%(2T)"
+    "description": "Highest-ATK Enemy: At the start of the turn, ATK/DEF -#PER#%(2T)"
   },
   {
     "id": 200564,
@@ -68169,7 +68169,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ATK/CRD+#PER#%(2T) is the ally character with the highest ATK."
+    "description": "Highest-ATK Ally: At the end of the turn, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 200565,
@@ -68221,7 +68221,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", If there are more than 3 characters of the potential type [Bishop], damage caused by the party through attribute attacks +#PER#%"
+    "description": ", All Allies: If 3+ [Bishop] Type units are present, Elemental Damage +#PER#%"
   },
   {
     "id": 200567,
@@ -68273,7 +68273,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ",Damage dealt with special move +#PER#%(1T) granted"
+    "description": ", Skill Damage +#PER#%(1T)"
   },
   {
     "id": 200571,
@@ -68481,7 +68481,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the highest HP is DEF/RES-#PER#%(3 turns)"
+    "description": "Highest-HP Enemy: At the start of the turn, DEF/RES -#PER#%(3T)"
   },
   {
     "id": 200583,
@@ -68507,7 +68507,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ally character with the lowest SPD is CRD+#PER#%(3 turns)"
+    "description": "Lowest-SPD Ally: At the end of the turn, CRD +#PER#% (3T)"
   },
   {
     "id": 200584,
@@ -69105,7 +69105,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "RES-Buffed Self: At the start of the turn, ATK/INT +#PER#%(1T)"
+    "description": "RES-Buffed Allies: At the start of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 200624,
@@ -69287,7 +69287,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 200641,
@@ -69547,7 +69547,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD+#PER#%(1T) for the ally character with the highest CRT at the start of the turn"
+    "description": "Highest-CRT Ally: At the start of the turn, CRD +#PER#% (1T)"
   },
   {
     "id": 200661,
@@ -70015,7 +70015,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200687,
@@ -70119,7 +70119,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the ATK+#PER#%(2T) is the ally character with the highest CRD."
+    "description": "Highest-CRD Ally: At the start of the turn, ATK +#PER#% (2T)"
   },
   {
     "id": 200694,
@@ -70197,7 +70197,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200701,
@@ -70431,7 +70431,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 200715,
@@ -70509,7 +70509,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "DEF/RES+#PER#% of the character of the party's potential type [King Bishop]"
+    "description": "King/Bishop Allies: DEF/RES +#PER#%"
   },
   {
     "id": 200722,
@@ -70639,7 +70639,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200731,
@@ -70691,7 +70691,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Damage caused by the party using special moves when you equip yourself with a monster magic weapon +#PER#%"
+    "description": "Mon Magic-Equipped Self: All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200733,
@@ -70743,7 +70743,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 200735,
@@ -70925,7 +70925,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200747,
@@ -71081,7 +71081,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Effect of buffs used by the party +18%"
+    "description": "All Allies: Buff Effects +18%"
   },
   {
     "id": 200755,
@@ -71133,7 +71133,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, when you equip yourself with a monster magic weapon, the damage that the party deals with by attribute attacks +#PER#%"
+    "description": ", Mon Magic-Equipped Self: All Allies: Elemental Damage +#PER#%"
   },
   {
     "id": 200758,
@@ -71159,7 +71159,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: SP consumption -#PER#%"
+    "description": ", All Allies: SP Cost -#PER#%"
   },
   {
     "id": 200761,
@@ -71263,7 +71263,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 200765,
@@ -71627,7 +71627,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 200786,
@@ -71653,7 +71653,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200791,
@@ -71731,7 +71731,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Self: At the start of the turn, ATK/INT +#PER#%(1T)"
+    "description": "CRT-Buffed Allies: At the start of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 200794,
@@ -72017,7 +72017,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200808,
@@ -72355,7 +72355,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD+#PER#%(2T) for the ally character with the highest CRT at the start of the turn"
+    "description": "Highest-CRT Ally: At the start of the turn, CRD +#PER#% (2T)"
   },
   {
     "id": 200825,
@@ -72615,7 +72615,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200837,
@@ -72953,7 +72953,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(3T)"
+    "description": "CRT-Buffed Allies: At the start of the turn, ATK/INT/CRD +#PER#%(3T)"
   },
   {
     "id": 200854,
@@ -72979,7 +72979,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the battle, SP +#PER#"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 200855,
@@ -73161,7 +73161,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two monster-type characters in the party, the party's ATK/INT+#PER#%"
+    "description": "All Allies: If 2+ Monster units are present, ATK/INT +#PER#%"
   },
   {
     "id": 200865,
@@ -73265,7 +73265,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, if there are more than two humanoid characters in the party, the party's ATK/INT+#PER#%"
+    "description": ", All Allies: If 2+ Humanoid units are present, ATK/INT +#PER#%"
   },
   {
     "id": 200871,
@@ -73343,7 +73343,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Self: At the start of the turn, ATK +#PER#%(2T)"
+    "description": "CRD-Buffed Allies: At the start of the turn, ATK +#PER#%(2T)"
   },
   {
     "id": 200874,
@@ -73525,7 +73525,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If you are receiving an SPD buff effect at the start of the turn, the party's ATK/CRD+#PER#%(2T)"
+    "description": "SPD-Buffed Self: All Allies, At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 200884,
@@ -73967,7 +73967,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 200905,
@@ -74149,7 +74149,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ally character with the highest CRD is ATK/INT+#PER#%(5T)"
+    "description": "Highest-CRD Ally: At the end of the turn, ATK/INT +#PER#% (5T)"
   },
   {
     "id": 200915,
@@ -74357,7 +74357,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of turn, the ally character with the highest INT CRD+#PER#%(2T)"
+    "description": "Highest-INT Ally: At the end of the turn, INT/CRD +#PER#% (2T)"
   },
   {
     "id": 200925,
@@ -74409,7 +74409,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200927,
@@ -74747,7 +74747,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 200944,
@@ -74773,7 +74773,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there is at least one monster type character in the party, the party's ATK/INT+#PER#%"
+    "description": "All Allies: If 1+ Monster units are present, ATK/INT +#PER#%"
   },
   {
     "id": 200945,
@@ -74851,7 +74851,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Furthermore, if there are more than four humanoid characters in the party, the party's ATK, INT, CRD+#PER#%"
+    "description": ", All Allies: If 4+ Humanoid units are present, ATK/INT/CRD +#PER#%"
   },
   {
     "id": 200951,
@@ -74929,7 +74929,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Self: At the end of the turn, ATK/INT +#PER#%(2T)"
+    "description": "CRD-Buffed Allies: At the end of the turn, ATK/INT +#PER#%(2T)"
   },
   {
     "id": 200954,
@@ -75215,7 +75215,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200967,
@@ -75579,7 +75579,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 200987,
@@ -75709,7 +75709,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there is at least one monster type character in the party, the party's ATK/INT+#PER#%"
+    "description": "All Allies: If 1+ Monster units are present, ATK/INT +#PER#%"
   },
   {
     "id": 200994,
@@ -75813,7 +75813,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", If there are more than 3 humanoid characters in the party, the party's ATK/INT+#PER#%"
+    "description": ", All Allies: If 3+ Humanoid units are present, ATK/INT +#PER#%"
   },
   {
     "id": 201001,
@@ -76125,7 +76125,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If you are receiving an SPD buff effect at the start of the turn, the party's ATK/INT+#PER#%(1T)"
+    "description": "SPD-Buffed Self: All Allies, At the start of the turn, ATK/INT +#PER#%(1T)"
   },
   {
     "id": 201015,
@@ -76177,7 +76177,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Skill Damage +#PER#%"
+    "description": ", All Allies: Skill Damage +#PER#%"
   },
   {
     "id": 201017,
@@ -76333,7 +76333,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and the DEF/RES-#PER#% for all enemies"
+    "description": ", All Enemies: DEF/RES -#PER#%"
   },
   {
     "id": 201026,
@@ -76489,7 +76489,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, grant invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 201034,
@@ -76515,7 +76515,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two monster-type characters in the party, the party's DEF/RES+#PER#%"
+    "description": "All Allies: If 2+ Monster units are present, DEF/RES +#PER#%"
   },
   {
     "id": 201035,
@@ -76619,7 +76619,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", If there are more than two humanoid characters in the party, the party's ATK, INT, CRD+#PER#%"
+    "description": ", All Allies: If 2+ Humanoid units are present, ATK/INT/CRD +#PER#%"
   },
   {
     "id": 201041,
@@ -76905,7 +76905,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "ATK-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
+    "description": "ATK-Buffed Allies: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 201054,
@@ -78049,7 +78049,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 300012,
@@ -78153,7 +78153,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 300022,
@@ -78257,7 +78257,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 300032,
@@ -78361,7 +78361,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 300042,
@@ -79349,7 +79349,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the lowest Action Gauge, Action Gauge +#PER# at the start of the turn"
+    "description": "Lowest-AG Ally: At the start of turn, AG +#PER#"
   },
   {
     "id": 300134,
@@ -79661,7 +79661,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Ally with the lowest Action Gauge, Action Gauge +#PER# at the start of the turn"
+    "description": "Lowest-AG Ally: At the start of turn, AG +#PER#"
   },
   {
     "id": 300164,
@@ -83483,7 +83483,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 300573,
@@ -83535,7 +83535,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the action gauge at the beginning of the RES-#PER#% (2 turns)"
+    "description": "Highest-AG Enemy: At the start of the turn, RES -#PER#% (2T)"
   },
   {
     "id": 300581,
@@ -83587,7 +83587,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 300583,
@@ -83639,7 +83639,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the enemy character with the action gauge at the beginning of the RES-#PER#% (2 turns)"
+    "description": "Highest-AG Enemy: At the start of the turn, RES -#PER#% (2T)"
   },
   {
     "id": 300591,
@@ -83691,7 +83691,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 300593,
@@ -83743,7 +83743,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, enemy with highest Action Gauge ATK -#PER#%(2 turns)"
+    "description": "Highest-AG Enemy: At the start of the turn, ATK -#PER#% (2T)"
   },
   {
     "id": 300601,
@@ -83795,7 +83795,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start the battle, SP +#PER#"
+    "description": "Self: At the start of battle, Initial SP +#PER#%"
   },
   {
     "id": 300603,
@@ -83847,7 +83847,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, enemy with highest Action Gauge ATK -#PER#%(2 turns)"
+    "description": "Highest-AG Enemy: At the start of the turn, ATK -#PER#% (2T)"
   },
   {
     "id": 300611,
@@ -88085,7 +88085,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, enemy with highest Action Gauge ATK -#PER#%(2 turns)"
+    "description": "Highest-AG Enemy: At the start of the turn, ATK -#PER#% (2T)"
   },
   {
     "id": 301134,
@@ -88397,7 +88397,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, enemy with highest Action Gauge ATK -#PER#%(2 turns)"
+    "description": "Highest-AG Enemy: At the start of the turn, ATK -#PER#% (2T)"
   },
   {
     "id": 301164,
@@ -96379,7 +96379,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "If there are more than two characters of the potential type [King] in the party, the party's ATK/CRD+#PER#%"
+    "description": "All Allies: If 2+ [King] Type units are present, ATK/CRD +#PER#%"
   },
   {
     "id": 3535,
@@ -96483,7 +96483,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and if there are more than 3 characters of the potential type [King], all damage dealt by the party +#PER#%"
+    "description": ", All Allies: If 3+ [King] Type units are present, Damage +#PER#%"
   },
   {
     "id": 3561,
@@ -96587,7 +96587,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, if HP is 50% or more, the party's ATK, INT, CRD+#PER#%(2T)"
+    "description": "At the start of the turn, If HP >= 50%, All Allies: ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 3565,
@@ -96691,7 +96691,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", and if your HP is below 50%, the party's SP+#PER#"
+    "description": ", If HP < 50%, All Allies: SP +#PER#%"
   },
   {
     "id": 3581,
@@ -96977,7 +96977,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Highest-Atk Ally: At the end of the turn, ATK/CRD +#PER#%(2T)."
+    "description": "Highest-ATK Ally: At the end of the turn, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 201064,
@@ -97159,7 +97159,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: When any ally crits, Non-HP Basic Stats +#PER#%(2T)"
+    "description": "All Allies: When any ally crits, Non-HP Basic Stats +#PER#% (2T)"
   },
   {
     "id": 3594,
@@ -97185,7 +97185,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: If 2+ [Sword/Gun] Allies, ATK/CRD+#PER#%"
+    "description": "All Allies: If 2+ [Sword/Gun] Allies, ATK/CRD +#PER#%"
   },
   {
     "id": 3595,
@@ -97471,7 +97471,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Allies: ATK/INT+#PER#%(2T)"
+    "description": ", CRT-Buffed Allies: ATK/INT +#PER#%(2T)"
   },
   {
     "id": 3571,
@@ -97601,7 +97601,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": " All Allies: Auto-Revive"
+    "description": ", All Allies: Auto-Revive"
   },
   {
     "id": 3576,
@@ -97653,7 +97653,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", SPD-Buffed Allies: SP +10 SP+#PER#"
+    "description": ", SPD-Buffed Allies: SP +#PER#%"
   },
   {
     "id": 3327,
@@ -97783,7 +97783,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Self: At the end of the turn, ATK/INT/CRD +#PER#%(2T)"
+    "description": "CRT-Buffed Allies: At the end of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 3615,
@@ -97887,7 +97887,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", if your HP is 75%+, All Allies Damage Taken -#PER#%(2T)"
+    "description": ", If HP >= 75%, All Allies: Damage Taken -#PER#%(2T)"
   },
   {
     "id": 3631,
@@ -98355,7 +98355,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "ATK-Buffed Self: At the start of the turn, ATK/CRD +#PER#%(2T)"
+    "description": "ATK-Buffed Allies: At the start of the turn, ATK/CRD +#PER#%(2T)"
   },
   {
     "id": 3644,
@@ -98771,7 +98771,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Self: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
+    "description": "CRD-Buffed Allies: At the start of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 201084,
@@ -98875,7 +98875,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": ", Self: if HP is 75%+, Damage +#PER#%(1T)"
+    "description": ", If HP >= 75%, Self: Damage +#PER#%(1T)"
   },
   {
     "id": 201088,
@@ -99031,7 +99031,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the battle, Invincibility (#PER# times)"
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
   },
   {
     "id": 3655,
@@ -99213,7 +99213,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Highest-ATK Ally: At start of turn, CRD +#PER#%(2T)"
+    "description": "Highest-ATK Ally: At the start of the turn, CRD +#PER#% (2T)"
   },
   {
     "id": 3664,
@@ -99421,7 +99421,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Highest-CRD Ally: At start of turn, ATK/CRD +#PER#%(2T)"
+    "description": "Highest-CRD Ally: At the start of the turn, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 3684,
@@ -99941,7 +99941,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "Effect of buffs used by the party +18%"
+    "description": "All Allies: Buff Effects +18%"
   },
   {
     "id": 3704,
@@ -100175,7 +100175,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "All Allies: If 2+ Humanoid Allies, ATK/INT+#PER#%"
+    "description": "All Allies: If 2+ Humanoid units are present, ATK/INT +#PER#%"
   },
   {
     "id": 3675,
@@ -100279,7 +100279,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "if 4+ Humanoid Allies, DEF/RES/CRD +#PER#%"
+    "description": ", All Allies: If 4+ Humanoid units are present, DEF/RES/CRD +#PER#%"
   },
   {
     "id": 3711,
@@ -101527,7 +101527,7 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Self: At the start of the turn, ATK/INT +#PER#%(2T)"
+    "description": "CRD-Buffed Allies: At the start of the turn, ATK/INT +#PER#%(2T)"
   },
   {
     "id": 3736,
@@ -101580,5 +101580,2215 @@
     "bad_effect_params": [0],
     "bad_effect_value": 0,
     "description": ", Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3761,
+    "name": "Revolutionary Bio-experiment",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 4],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/INT +#PER#%"
+  },
+  {
+    "id": 3762,
+    "name": "Overlord's Violent Fist",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Fist-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3763,
+    "name": "Rivals who Connect Hearts",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 35,
+    "effect_type_params": [2, 4, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: More surviving allies, more ATK/INT/CRD increases (max +#PER#%, 5 allies)"
+  },
+  {
+    "id": 3764,
+    "name": "Innovation of Wisdom",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 63,
+    "effect_type_params": [2, 4, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [3, 3, 3],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: At start of battle, ATK/INT/CRD Debuff Conversion (3 times)"
+  },
+  {
+    "id": 3765,
+    "name": "Revolutionary Bio-experiment",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [0],
+    "effect_type": 2,
+    "effect_type_params": [2, 3, 4, 5],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", All Enemies: Non-HP Basic Stats -#PER#%"
+  },
+  {
+    "id": 3766,
+    "name": "Overlord's Violent Fist",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3767,
+    "name": "Rivals who Connect Hearts",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 41,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "; Self: More surviving allies, more Damage increases (max +#PER#%, 5 allies)"
+  },
+  {
+    "id": 3768,
+    "name": "Innovation of Wisdom",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 96,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Self: Auto-Revive"
+  },
+  {
+    "id": 3771,
+    "name": "Sexy Teacher Disguise",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 4,
+    "effect_type_params": [1],
+    "limit_damage": 1,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Damage received from male characters -#PER#%"
+  },
+  {
+    "id": 3772,
+    "name": "Ambush Lessons",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Staff-Equipped Self, Skill damage +#PER#%"
+  },
+  {
+    "id": 3773,
+    "name": "Clever Deception",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 19,
+    "target_params": [0],
+    "effect_type": 18,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 75,
+    "effect_value_max": 75,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Highest AG Foe: At start of turn, AG -#PER#"
+  },
+  {
+    "id": 3774,
+    "name": "Doctor's Technique",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 71,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: At start of Wave, Overheal #PER#% of this unit's Max HP"
+  },
+  {
+    "id": 3775,
+    "name": "Sexy Teacher Disguise",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 4,
+    "effect_type_params": [14],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Damage Taken -#PER#%"
+  },
+  {
+    "id": 3776,
+    "name": "Ambush Lessons",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Skill Damage +#PER#%"
+  },
+  {
+    "id": 3777,
+    "name": "Clever Deception",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 19,
+    "target_params": [0],
+    "effect_type": 98,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Damage Dealt -#PER#% (2T)"
+  },
+  {
+    "id": 3778,
+    "name": "Doctor's Technique",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [0],
+    "effect_type": 24,
+    "effect_type_params": [6, 7],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [3, 3],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",  All Foes: SPD/CRT -#PER#%(3T)"
+  },
+  {
+    "id": 3821,
+    "name": "6 Years of Love and Bravery",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1, 2, 3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK/DEF +#PER#%"
+  },
+  {
+    "id": 3822,
+    "name": "Imperial Cracker",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Gun-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3823,
+    "name": "A-Rule: Oblique Light Disruptor",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 26,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 22,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: At start of turn, If 3+ [Fist/Bow/Gun] Allies, SP+#PER#"
+  },
+  {
+    "id": 3824,
+    "name": "Guidance from a Formidable Foe",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [7],
+    "effect_type": 23,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "CRT-Buffed Allies: At the end of the turn, ATK/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 3825,
+    "name": "6 Years of Love and Bravery",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [6],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",SPD +#PER#%"
+  },
+  {
+    "id": 3826,
+    "name": "Imperial Cracker",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3827,
+    "name": "A-Rule: Oblique Light Disruptor",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 26,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 50,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Damage Taken -#PER#%(2T)"
+  },
+  {
+    "id": 3828,
+    "name": "Guidance from a Formidable Foe",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [7],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Damage +#PER#%(2T)"
+  },
+  {
+    "id": 1127,
+    "name": "I won't go wild",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 1,
+    "trigger_status": 8,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 23,
+    "effect_type_params": [7],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [1],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", ATK-buffed Self: CRT +#PER#% (1T)"
+  },
+  {
+    "id": 1135,
+    "name": "Should I start work?",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 3,
+    "target_params": [1],
+    "effect_type": 1,
+    "effect_type_params": [6],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",SPD +#PER#%"
+  },
+  {
+    "id": 1137,
+    "name": "gun style",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 4,
+    "target_params": [5],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Damage: +#PER#%"
+  },
+  {
+    "id": 1138,
+    "name": "Snipe",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [0],
+    "effect_type": 2,
+    "effect_type_params": [7],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", CRT -#PER#%"
+  },
+  {
+    "id": 1156,
+    "name": "princess prestige",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3831,
+    "name": "Present Stealing Operation",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 18,
+    "effect_value_max": 18,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/DEF +#PER#%"
+  },
+  {
+    "id": 3832,
+    "name": "Elder Tree Spear",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Spear-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3833,
+    "name": "Black Voltage",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 14,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 23,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: When a Wind Skill is used, ATK/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 3834,
+    "name": "Sexy Santa's Commands",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 28,
+    "target_params": [2],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Highest-ATK Ally: At the start of the turn, Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3835,
+    "name": "Present Stealing Operation",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", HP/CRD +#PER#%"
+  },
+  {
+    "id": 3836,
+    "name": "Elder Tree Spear",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3837,
+    "name": "Black Voltage",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 14,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3838,
+    "name": "Sexy Santa's Commands",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [6],
+    "effect_type": 23,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", SPD-Buffed Allies: ATK/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 3841,
+    "name": "Shop's Charming Female Employee in a Santa Costume",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 3, 4, 5],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+  },
+  {
+    "id": 3842,
+    "name": "Rabbit Eared Gift Bag",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Axe-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 3843,
+    "name": "Price Energy",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 60,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 90,
+    "effect_value_max": 90,
+    "effect_turn": [3, 3],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies, At the start of battle, ATK/CRD+#PER#% effect gradually decreases (1T-30%, lower limit 30%)"
+  },
+  {
+    "id": 3844,
+    "name": "Buon Natale",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 14,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Axe-Equipped Self: Inmune to ailments"
+  },
+  {
+    "id": 3845,
+    "name": "Shop's Charming Female Employee in a Santa Costume",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 35,
+    "effect_value_max": 35,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 3846,
+    "name": "Rabbit Eared Gift Bag",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3847,
+    "name": "Price Energy",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [3],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Self: Damage +#PER#% (3T)"
+  },
+  {
+    "id": 3848,
+    "name": "Buon Natale",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 43,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Self: the more allies surviving, the less damage taken (max -#PER#% with 5 allies)"
+  },
+  {
+    "id": 3781,
+    "name": "Busty Santa Power",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 4, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+  },
+  {
+    "id": 3782,
+    "name": "Magic Sword Santa Saber",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Sword-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 3783,
+    "name": "Holy Night Flare",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 16,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 23,
+    "effect_type_params": [2, 4, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [2, 2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: When any ally crits, ATK/INT/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 3784,
+    "name": "Super Overlord Meteor Shower",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 35,
+    "target_params": [0],
+    "effect_type": 59,
+    "effect_type_params": [1, 1],
+    "limit_damage": 2,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 180,
+    "effect_value_max": 180,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (2 Times, Power D+)"
+  },
+  {
+    "id": 3785,
+    "name": "Busty Santa Power",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 3786,
+    "name": "Magic Sword Santa Saber",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3787,
+    "name": "Holy Night Flare",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 16,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3788,
+    "name": "Super Overlord Meteor Shower",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 34,
+    "target_params": [0],
+    "effect_type": 59,
+    "effect_type_params": [1],
+    "limit_damage": 2,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 180,
+    "effect_value_max": 180,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Highest-HP Foe: At the end of the turn, Fire Follow-up (1 Time, Power D+)"
+  },
+  {
+    "id": 3791,
+    "name": "White Kannagi",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/DEF +#PER#%"
+  },
+  {
+    "id": 3792,
+    "name": "White Rabbit Archery",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 4,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Bow-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3793,
+    "name": "Kagura's White Seal",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [0],
+    "effect_type": 18,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Foes: At start of Wave, AG -#PER#"
+  },
+  {
+    "id": 3794,
+    "name": "Ming Dynasty Offerings",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 34,
+    "trigger_param2": 2,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: If 2+ [Pawn/Queen] Type units are present, ATK/DEF +#PER#%"
+  },
+  {
+    "id": 3795,
+    "name": "White Kannagi",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 3796,
+    "name": "White Rabbit Archery",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 4,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3797,
+    "name": "Kagura's White Seal",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [0],
+    "effect_type": 57,
+    "effect_type_params": [4],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Inflict Forget (2T)."
+  },
+  {
+    "id": 3798,
+    "name": "Ming Dynasty Offerings",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 34,
+    "trigger_param2": 2,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [7],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", CRT +#PER#%"
+  },
+  {
+    "id": 3851,
+    "name": "Black Kannagi",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1, 2],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK +#PER#%"
+  },
+  {
+    "id": 3852,
+    "name": "Black Rabbit Style - Flowing Prayer Sword",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Sword-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 3853,
+    "name": "Black Kagura's Seal",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [2],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Atk-Buffed Allies: At start of turn, Damage +#PER#% (2T)."
+  },
+  {
+    "id": 3854,
+    "name": "Evening Offering",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 34,
+    "trigger_param2": 2,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: If 2+ [Pawn/Queen] Type units are present, ATK/CRD +#PER#%"
+  },
+  {
+    "id": 3855,
+    "name": "Black Kannagi",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",CRD +#PER#%"
+  },
+  {
+    "id": 3856,
+    "name": "Black Rabbit Style - Flowing Prayer Sword",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3857,
+    "name": "Black Kagura's Seal",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 19,
+    "target_params": [0],
+    "effect_type": 99,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Highest-AG Foe: Damage Taken +#PER#% (2T)."
+  },
+  {
+    "id": 3858,
+    "name": "Evening Offering",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 34,
+    "trigger_param2": 2,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [6],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",SPD +#PER#%"
+  },
+  {
+    "id": 201101,
+    "name": "Delaying Tactics",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [0],
+    "effect_type": 2,
+    "effect_type_params": [2, 4],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All enemies: ATK/INT -#PER#%"
+  },
+  {
+    "id": 201102,
+    "name": "First Sunrise of the Year",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Mon.Phys-Equipped Self: Skill damage +#PER#%"
+  },
+  {
+    "id": 201103,
+    "name": "Go Ahead~",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 17,
+    "target_params": [0],
+    "effect_type": 23,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Highest-AG Ally: At the end of turn, ATK/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 201104,
+    "name": "Happy New Year~",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 99,
+    "target_params": [99],
+    "effect_type": 10,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "HL Gained +#PER#%"
+  },
+  {
+    "id": 201105,
+    "name": "Delaying Tactics",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [0],
+    "effect_type": 2,
+    "effect_type_params": [6],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ",SPD -#PER#%"
+  },
+  {
+    "id": 201106,
+    "name": "First Sunrise of the Year",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [3],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Skill Damage +#PER#%"
+  },
+  {
+    "id": 201107,
+    "name": "Go Ahead~",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 19,
+    "target_params": [0],
+    "effect_type": 24,
+    "effect_type_params": [6, 7],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [2, 2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Highest-AG Enemy: SPD/CRT -#PER#% (2T)"
+  },
+  {
+    "id": 201108,
+    "name": "Happy New Year~",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 90,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 1,
+    "effect_value_max": 1,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Self: At the start of the battle, grant Invincibility (#PER# Times)"
+  },
+  {
+    "id": 201111,
+    "name": "deathdesdesco",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 1,
+    "effect_type_params": [1, 2, 4],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/INT/HP +#PER#%"
+  },
+  {
+    "id": 201112,
+    "name": "boaboa punch",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 201113,
+    "name": "Explosion death! Fast forward death!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 10,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 17,
+    "effect_type_params": [0],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "At the end of the turn, if a critical hit occurs, the party's action gauge +#PER#"
+  },
+  {
+    "id": 201114,
+    "name": "超空間認識",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 23,
+    "effect_type_params": [2, 8],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 13,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [1, 1],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": "At the start of the turn, the fewer enemy characters survive, the more your ATK/CRD increases (up to +50%, 1T)"
+  },
+  {
+    "id": 201115,
+    "name": "deathdesdesco",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 3,
+    "target_params": [2],
+    "effect_type": 1,
+    "effect_type_params": [7],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Monster Allies: CRT +#PER#%"
+  },
+  {
+    "id": 201116,
+    "name": "boaboa punch",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 3,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [0],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 201117,
+    "name": "Explosion death! Fast forward death!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 10,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [0],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [2],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Damage +#PER#%(2T)"
+  },
+  {
+    "id": 201118,
+    "name": "超空間認識",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [0],
+    "effect_type": 49,
+    "effect_type_params": [1],
+    "limit_damage": 0,
+    "limit_characters": [0],
+    "effect_correct_type": 13,
+    "effect_correct_characters": [0],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [1],
+    "bad_effect_type": 0,
+    "bad_effect_params": [0],
+    "bad_effect_value": 0,
+    "description": ", Increases all damage dealt (maximum +25%, 1T)"
   }
 ]

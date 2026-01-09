@@ -5008,5 +5008,125 @@
     "name": "6th Anniversary Special Battle",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 18871,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Curse, Sixth Anniversary! The Killing of All the Protagonists",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18872,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Curse, Sixth Anniversary! All Protagonist Killings EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18921,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Trial Room Desco XENO",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30001,
+    "episode_type": 9,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Attack! Metal Prinny",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18901,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Summer Palace of Etna Defense",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18911,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Santa Plenaire.",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 18931,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Black Holy Night Special Battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 22011,
+    "episode_type": 5,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Love and troubles! Tora-iro no Hatsumode! (Reminiscence)",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19011,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "et daughter, Guilty Racer.",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19012,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "et daughter Guilty Racer EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19021,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Happy New Year Special Battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19061,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Trial Room Infinite Super Reincarnation Zetto",
+    "open_at": "",
+    "close_at": ""
   }
 ]

@@ -25450,5 +25450,365 @@
     "m_character_id": 373,
     "rarity": 6,
     "class_name": "Anniversary Hero"
+  },
+  {
+    "id": 3761,
+    "m_character_id": 376,
+    "rarity": 1,
+    "class_name": "Formal Honor Student"
+  },
+  {
+    "id": 3762,
+    "m_character_id": 376,
+    "rarity": 2,
+    "class_name": "Formal Honor Student"
+  },
+  {
+    "id": 3763,
+    "m_character_id": 376,
+    "rarity": 3,
+    "class_name": "Formal Honor Student"
+  },
+  {
+    "id": 3764,
+    "m_character_id": 376,
+    "rarity": 4,
+    "class_name": "Formal Honor Student"
+  },
+  {
+    "id": 3765,
+    "m_character_id": 376,
+    "rarity": 5,
+    "class_name": "Chairman celebrating 6th anniversary"
+  },
+  {
+    "id": 3766,
+    "m_character_id": 376,
+    "rarity": 6,
+    "class_name": "Chairman Pioneering Innovation"
+  },
+  {
+    "id": 3771,
+    "m_character_id": 377,
+    "rarity": 1,
+    "class_name": "Just a cosplay Enthusiast"
+  },
+  {
+    "id": 3772,
+    "m_character_id": 377,
+    "rarity": 2,
+    "class_name": "Just a cosplay Enthusiast"
+  },
+  {
+    "id": 3773,
+    "m_character_id": 377,
+    "rarity": 3,
+    "class_name": "Just a cosplay Enthusiast"
+  },
+  {
+    "id": 3774,
+    "m_character_id": 377,
+    "rarity": 4,
+    "class_name": "Just a cosplay Enthusiast"
+  },
+  {
+    "id": 3775,
+    "m_character_id": 377,
+    "rarity": 5,
+    "class_name": "True identity of Machiko Sensei"
+  },
+  {
+    "id": 3776,
+    "m_character_id": 377,
+    "rarity": 6,
+    "class_name": "Hundred Faced Diez Gentleman Waiting to Ambush"
+  },
+  {
+    "id": 3821,
+    "m_character_id": 382,
+    "rarity": 1,
+    "class_name": "Badass Delinquent"
+  },
+  {
+    "id": 3822,
+    "m_character_id": 382,
+    "rarity": 2,
+    "class_name": "Badass Delinquent"
+  },
+  {
+    "id": 3823,
+    "m_character_id": 382,
+    "rarity": 3,
+    "class_name": "Badass Delinquent"
+  },
+  {
+    "id": 3824,
+    "m_character_id": 382,
+    "rarity": 4,
+    "class_name": "Badass Delinquent"
+  },
+  {
+    "id": 3825,
+    "m_character_id": 382,
+    "rarity": 5,
+    "class_name": "The evil master in charge of the 6th anniversary"
+  },
+  {
+    "id": 3826,
+    "m_character_id": 382,
+    "rarity": 6,
+    "class_name": "Legendary Delinquent who will lead the Next Generation"
+  },
+  {
+    "id": 3831,
+    "m_character_id": 383,
+    "rarity": 1,
+    "class_name": "Selfish Little Devil Santa"
+  },
+  {
+    "id": 3832,
+    "m_character_id": 383,
+    "rarity": 2,
+    "class_name": "Selfish Little Devil Santa"
+  },
+  {
+    "id": 3833,
+    "m_character_id": 383,
+    "rarity": 3,
+    "class_name": "Selfish Little Devil Santa"
+  },
+  {
+    "id": 3834,
+    "m_character_id": 383,
+    "rarity": 4,
+    "class_name": "Selfish Little Devil Santa"
+  },
+  {
+    "id": 3835,
+    "m_character_id": 383,
+    "rarity": 5,
+    "class_name": "reckless plunderer"
+  },
+  {
+    "id": 3836,
+    "m_character_id": 383,
+    "rarity": 6,
+    "class_name": "Dark Night's Sexy Majin"
+  },
+  {
+    "id": 3841,
+    "m_character_id": 384,
+    "rarity": 1,
+    "class_name": "Christmas poster girl"
+  },
+  {
+    "id": 3842,
+    "m_character_id": 384,
+    "rarity": 2,
+    "class_name": "Christmas poster girl"
+  },
+  {
+    "id": 3843,
+    "m_character_id": 384,
+    "rarity": 3,
+    "class_name": "Christmas poster girl"
+  },
+  {
+    "id": 3844,
+    "m_character_id": 384,
+    "rarity": 4,
+    "class_name": "Christmas poster girl"
+  },
+  {
+    "id": 3845,
+    "m_character_id": 384,
+    "rarity": 5,
+    "class_name": "Signboard girl of the pure holy night"
+  },
+  {
+    "id": 3846,
+    "m_character_id": 384,
+    "rarity": 6,
+    "class_name": "Poster girl who carries happiness"
+  },
+  {
+    "id": 3781,
+    "m_character_id": 378,
+    "rarity": 1,
+    "class_name": "Good Santa Overlord"
+  },
+  {
+    "id": 3782,
+    "m_character_id": 378,
+    "rarity": 2,
+    "class_name": "Good Santa Overlord"
+  },
+  {
+    "id": 3783,
+    "m_character_id": 378,
+    "rarity": 3,
+    "class_name": "Good Santa Overlord"
+  },
+  {
+    "id": 3784,
+    "m_character_id": 378,
+    "rarity": 4,
+    "class_name": "Good Santa Overlord"
+  },
+  {
+    "id": 3785,
+    "m_character_id": 378,
+    "rarity": 5,
+    "class_name": "Muchipuri Santa Demon King"
+  },
+  {
+    "id": 3786,
+    "m_character_id": 378,
+    "rarity": 6,
+    "class_name": "Idol Santa Super Overlord"
+  },
+  {
+    "id": 3791,
+    "m_character_id": 379,
+    "rarity": 1,
+    "class_name": "White Rabbit that controls the Sun"
+  },
+  {
+    "id": 3792,
+    "m_character_id": 379,
+    "rarity": 2,
+    "class_name": "White Rabbit that controls the Sun"
+  },
+  {
+    "id": 3793,
+    "m_character_id": 379,
+    "rarity": 3,
+    "class_name": "White Rabbit that controls the Sun"
+  },
+  {
+    "id": 3794,
+    "m_character_id": 379,
+    "rarity": 4,
+    "class_name": "White Rabbit that controls the Sun"
+  },
+  {
+    "id": 3795,
+    "m_character_id": 379,
+    "rarity": 5,
+    "class_name": "Dancer of the first wind"
+  },
+  {
+    "id": 3796,
+    "m_character_id": 379,
+    "rarity": 6,
+    "class_name": "White Twin Moon Bouncing on Fresh Snow"
+  },
+  {
+    "id": 3851,
+    "m_character_id": 385,
+    "rarity": 1,
+    "class_name": "Black Rabbit that controls Shadows"
+  },
+  {
+    "id": 3852,
+    "m_character_id": 385,
+    "rarity": 2,
+    "class_name": "Black Rabbit that controls Shadows"
+  },
+  {
+    "id": 3853,
+    "m_character_id": 385,
+    "rarity": 3,
+    "class_name": "Black Rabbit that controls Shadows"
+  },
+  {
+    "id": 3854,
+    "m_character_id": 385,
+    "rarity": 4,
+    "class_name": "Black Rabbit that controls Shadows"
+  },
+  {
+    "id": 3855,
+    "m_character_id": 385,
+    "rarity": 5,
+    "class_name": "winter night dancer"
+  },
+  {
+    "id": 3856,
+    "m_character_id": 385,
+    "rarity": 6,
+    "class_name": "Black Twin Moon Dancing on New Year's Eve"
+  },
+  {
+    "id": 201101,
+    "m_character_id": 20110,
+    "rarity": 1,
+    "class_name": "Happy Signboard Rabbit"
+  },
+  {
+    "id": 201102,
+    "m_character_id": 20110,
+    "rarity": 2,
+    "class_name": "Happy Signboard Rabbit"
+  },
+  {
+    "id": 201103,
+    "m_character_id": 20110,
+    "rarity": 3,
+    "class_name": "Happy Signboard Rabbit"
+  },
+  {
+    "id": 201104,
+    "m_character_id": 20110,
+    "rarity": 4,
+    "class_name": "Happy Signboard Rabbit"
+  },
+  {
+    "id": 201105,
+    "m_character_id": 20110,
+    "rarity": 5,
+    "class_name": "Spring greeting rabbit"
+  },
+  {
+    "id": 201106,
+    "m_character_id": 20110,
+    "rarity": 6,
+    "class_name": "Celebratory Signboard Rabbit"
+  },
+  {
+    "id": 201111,
+    "m_character_id": 20111,
+    "rarity": 1,
+    "class_name": "Zodiac girl running ahead"
+  },
+  {
+    "id": 201112,
+    "m_character_id": 20111,
+    "rarity": 2,
+    "class_name": "Zodiac girl running ahead"
+  },
+  {
+    "id": 201113,
+    "m_character_id": 20111,
+    "rarity": 3,
+    "class_name": "Zodiac girl running ahead"
+  },
+  {
+    "id": 201114,
+    "m_character_id": 20111,
+    "rarity": 4,
+    "class_name": "Zodiac girl running ahead"
+  },
+  {
+    "id": 201115,
+    "m_character_id": 20111,
+    "rarity": 5,
+    "class_name": "Rushing final boss"
+  },
+  {
+    "id": 201116,
+    "m_character_id": 20111,
+    "rarity": 6,
+    "class_name": "The final weapon of the twelve gods"
   }
 ]

@@ -25902,5 +25902,635 @@
     "description": "A crystal that can magically transform formal dress Nippon Ichi-chan",
     "max_num": 9999,
     "sell_price": 0
+  },
+  {
+    "id": 1951,
+    "name": "Santa EX gathering festival kit",
+    "item_type": 19,
+    "icon_no": 1951,
+    "effect_value": [
+      201182
+    ],
+    "description": "Ticket for one Santa EX color gathering festival",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 4564,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      887
+    ],
+    "description": "Curse 6th anniversary! BOSSPT for all main character murder cases",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5932,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      887
+    ],
+    "description": "Curse 6th anniversary! Keys needed to challenge the BOSS in the All-Main Character Murder Incident",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 6711,
+    "name": "party ticket",
+    "item_type": 67,
+    "icon_no": 6711,
+    "effect_value": [
+      0
+    ],
+    "description": "Second edition of party tickets that are great value to collect\nYou can exchange them for various rewards at the limited-time exchange.",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 200031,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200031,
+    "effect_value": [
+      887
+    ],
+    "description": "Curse 6th anniversary! PT for all main character murder cases",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340255,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      885
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340256,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      886
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340257,
+    "name": "Gathering festival exchange ticket",
+    "item_type": 34,
+    "icon_no": 3478,
+    "effect_value": [
+      888
+    ],
+    "description": "Can be used at Gathering Festival Exchange",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300376,
+    "name": "Exclusive Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      376
+    ],
+    "description": "A mysterious medicine that can be used to obtain the mana of the formal dress Mao.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300377,
+    "name": "Exclusive Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      377
+    ],
+    "description": "A mysterious medicine that allows you to obtain the mana of the deadly hellman Beyond X when used.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300382,
+    "name": "Exclusive Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      382
+    ],
+    "description": "A mysterious medicine that allows you to obtain the mana of the Raspberyl dress when used.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700376,
+    "name": "Crystal of formal dress Mao",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically modify the formal dress Mao.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700377,
+    "name": "Deadly Hellman Beyond X Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically modify the deadly hellman Beyond X.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700382,
+    "name": "Raspberyl crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically modify the Raspberyl dress.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700383,
+    "name": "black santa aetna crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically transform Black Santa Aetna.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600376,
+    "name": "Formal dress Mao's demon star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      376
+    ],
+    "description": "A magical star that can bring the formal dress Mao to a ★6 awakened state.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600377,
+    "name": "Deathly Hellman Beyond X's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      377
+    ],
+    "description": "A magical star that can bring the deadly hellman Beyond X to a 6★ awakened state.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600382,
+    "name": "Raspberyl Magic Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      382
+    ],
+    "description": "A magical star that can bring the Raspberyl code to a ★6 awakened state.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 70001,
+    "name": "Puri Titanium",
+    "item_type": 70,
+    "icon_no": 70001,
+    "effect_value": [
+      0
+    ],
+    "description": "Fluid metal that makes up Metal Prinny\nCan be exchanged for various items at the exchange shop",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340258,
+    "name": "La Pucelle exchange ticket",
+    "item_type": 34,
+    "icon_no": 3480,
+    "effect_value": [
+      889
+    ],
+    "description": "Available at La Pucelle Exchange",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600383,
+    "name": "Black Santa Etna's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      383
+    ],
+    "description": "A magical star that can bring Black Santa Aetna to a ★6 awakened state.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700384,
+    "name": "crystals of santa pleinaire",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically modify Santaplaine.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 383,
+    "name": "Rabbit cake",
+    "item_type": 3,
+    "icon_no": 383,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. A sweet cake that looks like it's about to scream",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 384,
+    "name": "floral syrup",
+    "item_type": 3,
+    "icon_no": 384,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. The richly scented syrup moistens your throat and makes your voice sound beautiful.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 201032,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201032,
+    "effect_value": [
+      891
+    ],
+    "description": "Santa Plenaire Raid PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340259,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      896
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340260,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      897
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340261,
+    "name": "Plenaire exchange ticket",
+    "item_type": 34,
+    "icon_no": 3484,
+    "effect_value": [
+      898
+    ],
+    "description": "Available at Plenaire Exchange",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340262,
+    "name": "Festival character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      899
+    ],
+    "description": "Available at the Fes Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340263,
+    "name": "Festival character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      900
+    ],
+    "description": "Can be used at the festival character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700378,
+    "name": "Santa Lahar-chan crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically transform Santa Lahar-chan.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 385,
+    "name": "3-tier osechi with sardine stamp",
+    "item_type": 3,
+    "icon_no": 385,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. A special New Year's dish where all lucky charms are made of sardines",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 386,
+    "name": "honey milk candy",
+    "item_type": 3,
+    "icon_no": 386,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. Taro and Hanako's special candy with the sweetness of milk",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4565,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      901
+    ],
+    "description": "Eto Musume Guilty Racer Exclusive BOSSPT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5933,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      901
+    ],
+    "description": "Keys needed to challenge BOSS in Eto Musume Guilty Racer",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200032,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200032,
+    "effect_value": [
+      901
+    ],
+    "description": "Eto Musume Guilty Racer exclusive PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340264,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      903
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340265,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      904
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300379,
+    "name": "Exclusive Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      379
+    ],
+    "description": "A mysterious medicine that allows you to obtain White Priestess Saria's mana when used.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300385,
+    "name": "Exclusive Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      385
+    ],
+    "description": "A mysterious medicine that allows you to obtain Black Priestess Wu's mana when used.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320110,
+    "name": "Exclusive Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20110
+    ],
+    "description": "A mysterious medicine that can be used to obtain mana from the New Year Lucky Board.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700379,
+    "name": "White Priestess Saria's Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically transform the White Shrine Maiden Saria.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700380,
+    "name": "Kimono Valbatose Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically modify Kimono Valbatose.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700385,
+    "name": "Black Priestess Wu's Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically transform the Black Priestess Wu.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720110,
+    "name": "new year lucky board crystals",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "Crystals that can magically modify the New Year Lucky Board",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720111,
+    "name": "zodiac desco crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal that can magically modify the Zodiac Desco",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600379,
+    "name": "White Shrine Maiden Saria's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      379
+    ],
+    "description": "A magical star that can bring the White Shrine Maiden Saria to a ★6 awakened state.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600385,
+    "name": "Black Priestess Wu's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      385
+    ],
+    "description": "A magical star that can bring Black Priestess Wu to a ★6 awakened state.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620110,
+    "name": "New year lucky board magic star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20110
+    ],
+    "description": "A magical star that can make the New Year Lucky Board a ★6 awakened state.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 387,
+    "name": "Manly Garlic Oil Karame",
+    "item_type": 3,
+    "icon_no": 387,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. This manly dish should be eaten piping hot!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 6712,
+    "name": "chocolate rotten mochi",
+    "item_type": 67,
+    "icon_no": 6712,
+    "effect_value": [
+      0
+    ],
+    "description": "Reward for escaping from Sugoroku\nYou can exchange them for various rewards at the limited-time exchange.",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620111,
+    "name": "Zodiac Desco's Demon Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20111
+    ],
+    "description": "A magical star that can bring the Zodiac Desco to a ★6 awakened state.",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]

@@ -11,6 +11,8 @@ weapon_map = {
 '魔物魔法': 'Mon Magic',
 '魔物物理': 'Mon Phys'
 }
+weapon_keys = sorted(weapon_map.keys(), key=len, reverse=True)
+weapon_pattern = '|'.join(map(re.escape, weapon_keys))
 
 stat_map = {
     'SP': 'SP',
@@ -30,9 +32,10 @@ stat_map = {
 
 # Build stat group from the stat_map keys
 # Escape any that contain non-ASCII characters or regex symbols
-stat_keys = sorted(stat_map.keys(), key=len, reverse=True)
-stats_pattern = '|'.join(map(re.escape, stat_keys))
-
+stats_pattern = (
+    r'(?:HP以外の基礎パラメータ|基礎パラメータ|ゲージ|'
+    r'SPD|SP(?!D)|RES|INT|DEF|CRD|CRT|ATK|HP)'
+)
 
 damage_type_map = {
 '必殺技で与えるダメージ': 'Skill Damage',
@@ -45,7 +48,10 @@ damage_type_map = {
 '通常攻撃': 'Normal Attack',
 '無属性攻撃': 'Non-Elemental Damage',
 '属性攻撃': 'Elemental Damage',
+'受ける全てのダメージ': 'Damage Taken',
 }
+damage_keys = sorted(damage_type_map.keys(), key=len, reverse=True)
+damage_pattern = '|'.join(map(re.escape, damage_keys))
 
 
 element_map = {
@@ -55,6 +61,8 @@ element_map = {
 '星': 'Star',
 '無': 'Non-Elemental'
 }
+element_keys = sorted(element_map.keys(), key=len, reverse=True)
+element_pattern = '|'.join(map(re.escape, element_keys))
 
 race_map = {
     '魔物型': 'Monster',
@@ -75,6 +83,33 @@ target_map = {
     '残りHPの高い敵キャラ': 'Highest-HP Foe',
     '残りHPが低い敵キャラ': 'Lowest-HP Foe',
     '残りHPの低い敵キャラ': 'Lowest-HP Foe',
+}
+
+latent_type_map = {
+    'キング': 'King',
+    'クイーン': 'Queen',
+    'ルーク': 'Rook',
+    'ビショップ': 'Bishop',
+    'ナイト': 'Knight',
+    'ポーン': 'Pawn',
+}
+
+hp_cond = (
+    r'(?:(?:自身の)?HPが)'
+    r'(?P<threshold>\d+)%'
+    r'(?P<comparator>以上|以下|未満)の場合、'
+)
+
+lead_timing = (
+    r'(?P<lead>(?:、さらに|[、,])?)\s*'
+    r'(?P<timing>ターン開始時、|ターン終了時、)?'
+)
+
+
+hp_cmp_map = {
+    '以上': '>=',
+    '以下': '<=',
+    '未満': '<',
 }
 
 patterns = [
@@ -102,7 +137,6 @@ patterns = [
             )  # Optional turns, either T or ターン
         )
     ),
-
 
     # --- 2️⃣ Static buffs/debuffs with no duration ✅ ---
     (
@@ -138,7 +172,6 @@ patterns = [
         )
     ),
 
-
     # --- 4️⃣ Synchonization ✅ ---
     (
         re.compile(
@@ -150,7 +183,6 @@ patterns = [
             + "Self: Synchronization (#PER# times)"
         )
     ),
-
 
     # --- 5️⃣ Party Debuff Conversion at Start of Battle ✅ ---
     (
@@ -189,7 +221,6 @@ patterns = [
         )
     ),
 
-
     # --- 7️⃣ Standalone Stat Buffs (no timing clause, optional leading comma) ---
     (
         re.compile(
@@ -209,10 +240,9 @@ patterns = [
             )
         )
     ),
-
-
-    # --- 8️⃣ : Additional stat buffs for self/party  ✅ ---
-   (
+  
+    # --- 8️⃣ Additional stat buffs for self/party  ✅ ---
+    (
         re.compile(
             r'^(、さらに)(?P<target>自分の|パーティの|敵全体の)?(?P<stats>[A-Z]+(?:・[A-Z]+)*)\+#PER#%(?:\((?P<turns>\d+)(?:T|ターン)\))?'
         ),
@@ -223,7 +253,7 @@ patterns = [
         + (f"({m.group('turns')}T)" if m.group('turns') else "")
     ),
 
-    # --- 9️⃣ Follow-up Attacks based on remaining HP ✅ ---
+    # --- 9️⃣ Follow-up Attacks based on remaining HP ✅ ---    
     (
         re.compile(
             r'(、さらに)?'
@@ -240,7 +270,6 @@ patterns = [
             f"({m.group('hits')} {'Time' if m.group('hits') == '1' else 'Times'}, Power {m.group('power')})"
         )
     ),
-
 
     # --- 1️⃣0️⃣ Party uses [Element] skill -> Buffs (Damage, stats, SP...) ✅ --- #
     (
@@ -265,8 +294,24 @@ patterns = [
         )
     ),
 
-    
-    # --- 1️⃣1️⃣ Weapon-equipped self: damage and stat buffs ✅ --- #
+    # --- 1️⃣1️⃣ Party Crits -> Multi-Stat Buffs ✅ ---
+    (
+        re.compile(
+            rf'^パーティがクリティカル時、'
+            rf'パーティの(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'\+#PER#(?:%|％)'
+            r'(?:\((?P<turns>\d+)(?:T|ターン)\))?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            "All Allies: When any ally crits, "
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " +#PER#%"
+            + (f" ({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
+    # --- 1️⃣2️⃣ Weapon-equipped self: damage and stat buffs ✅ --- #
     (
         re.compile(
             r"(?:[、,]\s*)?(?:さらに)?自分が"
@@ -292,7 +337,28 @@ patterns = [
         )
     ),
 
-    # --- 1️⃣2️⃣ Gender-based dame dealt/taken ✅ ---
+    # --- 1️⃣2️⃣ Alternative: Weapon-equipped self: elemental party damage buff ✅ --- #
+    (
+        re.compile(
+            r'^(?P<lead>[、,])?(?:さらに)?'
+            r'自分が(?P<weapon>剣|杖|魔物魔法|魔物物理|拳|銃|斧|弓|槍)武器装備時、'
+            r'パーティが(?P<damage_type>'
+            r'属性攻撃で与えるダメージ|'
+            r'与える全てのダメージ|与えるすべてのダメージ|'
+            r'必殺技で与えるダメージ'
+            r')'
+            r'\+#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + f"{weapon_map[m.group('weapon')]}-Equipped Self: "
+            + "All Allies: "
+            + f"{damage_type_map.get(m.group('damage_type'), m.group('damage_type'))} +#PER#%"
+        )
+    ),
+
+    # --- 1️⃣3️⃣ Gender-based dame dealt/taken ✅ ---
     (
         re.compile(
             r"(?:[、,]\s*)?(?:さらに)?"
@@ -324,7 +390,7 @@ patterns = [
         )
     ),
 
-    # --- 1️⃣3️⃣ When Attacked Stat Buffs ✅ ---
+    # --- 1️⃣4️⃣ When Attacked Stat Buffs ✅ ---
     (
         re.compile(
             r"(?:[、,]\s*)?(?:さらに)?"
@@ -345,8 +411,7 @@ patterns = [
         )
     ),
 
-
-    # --- 1️⃣4️⃣ Weapon-Wielding Party Damage Dealt/Taken ✅ ---
+    # --- 1️⃣5️⃣ Weapon-Wielding Party Damage Dealt/Taken ✅ ---
     (
         re.compile(
         r"(?P<lead>[、,])?(?:さらに)?パーティの(?P<weapon>.+?)武器装備キャラが"
@@ -373,7 +438,7 @@ patterns = [
         )
     ),
 
-    # --- 1️⃣5️⃣ Multi-Stat Buffed Allies/Self at Turn Start/End ✅ ---
+    # --- 1️⃣6️⃣ Multi-Stat Buffed Allies/Self at Turn Start/End ✅ ---
     (
         re.compile(
             rf'^(?P<prefix>(?:、さらに|[、,])?)\s*'                            # optional leading comma or "、さらに"
@@ -386,7 +451,7 @@ patterns = [
         ),
                 lambda m: (
             f"{m.group('cond_stats').replace('・', '/')}-Buffed "
-            f"{'Self' if m.group('who') == 'キャラ' else 'Allies'}: "
+            f"{'Self' if m.group('who') in ('自身','自分') else 'Allies'}: "
             f"At the "
             f"{'start' if m.group('timing') == 'ターン開始時' else 'end' if m.group('timing') == 'ターン終了時' else 'start of battle'}"
             f"{'' if m.group('timing') == '戦闘開始時' else ' of the turn'}, "
@@ -395,7 +460,7 @@ patterns = [
         )
     ),
 
-    # --- 1️⃣6️⃣ Multi-Stat Buffed Self at Turn Start/End ✅ ---
+    # --- 1️⃣7️⃣ I -Multi-Stat Buffed Self at Turn Start/End ✅ ---
     (
     re.compile(
         rf'^(?P<timing>ターン開始時|ターン終了時)、'
@@ -411,75 +476,714 @@ patterns = [
         f"{'(' + (m.group('turns') or m.group('turns_alt')) + 'T)' if (m.group('turns') or m.group('turns_alt')) else ''}"
     )),
 
-    # Highest/Lowest AG-Ally - HP heal
-    (
-        re.compile(r"ターン(?P<timing>開始|終了)時、行動ゲージが(?P<position>先頭|最後尾)の味方キャラのHPを、自身の最大HPの#PER#(?:%|％)回復"),
-        lambda m: f"{'Highest' if m.group('position')=='先頭' else 'Lowest'}-AG Ally: At the {'start' if m.group('timing')=='開始' else 'end'} of turn, Heal #PER#% of max HP"
-    ),
-
-    # Highest/Lowest AG-Ally - SP or Gauge +#PER#
-    (
-        re.compile(r"ターン(?P<timing>開始|終了)時、行動ゲージが(?P<position>先頭|最後尾)の味方キャラの(?P<stat>SP|ゲージ)\+#PER#"),
-        lambda m: f"{'Highest' if m.group('position')=='先頭' else 'Lowest'}-AG Ally: At the "
-                f"{'start' if m.group('timing')=='開始' else 'end'} of turn, "
-                f"{stat_map.get(m.group('stat'), m.group('stat'))} +#PER#"
-    ),
-
-    # Highest/Lowest AG-Ally - Standard buffs (ATK, INT, DEF, CRD, etc.) with optional turns and %
+    # --- 1️⃣7️⃣ II - Buffed Self → SP Gain at Turn Start/End ---
     (
         re.compile(
-            r"ターン(?P<timing>開始|終了)時、行動ゲージが(?P<position>先頭|最後尾)の味方キャラの"
-            r"(?P<buffs>[A-Z0-9・]+)"
-            r"(?:\+#PER#(?:%|％))?"
-            r"(?:\((?P<turns>\d+)(?:T|ターン)\))?"
-        ),
-        lambda m: f"{'Highest' if m.group('position')=='先頭' else 'Lowest'}-AG Ally: At the {'start' if m.group('timing')=='開始' else 'end'} of turn, "
-                f"{m.group('buffs').replace('・','/')}"
-                f"{' +#PER#%(' + m.group('turns') + 'T)' if m.group('turns') else ' +#PER#%'}"
-    ),
-
-    # High Stat + Skill Damage
-    (
-        re.compile(
-            r"ターン(?P<timing>開始|終了)時、最も(?P<target>[A-Z]+)の高い味方キャラに必殺技で与えるダメージ\+#PER#%\((?P<turns>\d+)T\)付与"
-        ),
-        lambda m: f"Highest-{m.group('target')} Ally: At the {'start' if m.group('timing')=='開始' else 'end'} of turn, Skill Damage +#PER#%({m.group('turns')}T)"
-    ),
-
-    # High Stat + Damage
-    (
-        re.compile(
-            r"ターン(?P<timing>開始|終了)時、パーティの最も(?P<target>[A-Z]+)が高いキャラに与える全てのダメージ\+#PER#%\((?P<turns>\d+)T\)付与"
-        ),
-        lambda m: f"Highest-{m.group('target')} Ally: At the {'start' if m.group('timing')=='開始' else 'end'} of turn, Damage +#PER#%({m.group('turns')}T)"
-    ),
-
-    # Single-Stat Buffed Allies
-    (
-        re.compile(
-            r'(?P<lead>[、,])?(?:さらに)?ターン(?P<timing>開始|終了)時、パーティの(?P<buff>ATK|DEF|INT|RES|SPD)バフ効果を受けているキャラの(?P<stats>[A-Z・]+)\+#PER#(?:%|％)?(?:\((?P<duration>\d+)(?:T|ターン)\))?'
+            rf'^(?P<timing>ターン開始時|ターン終了時)、'
+            rf'(?P<cond_stat>{stats_pattern})バフ効果を受けている場合、'
+            rf'自分のSP\+#PER#(?:%|％)?$',
+            flags=re.UNICODE
         ),
         lambda m: (
+            f"{stat_map.get(m.group('cond_stat'), m.group('cond_stat'))}-Buffed Self: "
+            f"At the {'start' if m.group('timing') == 'ターン開始時' else 'end'} of the turn, "
+            f"SP +#PER#%"
+        )
+    ),
+
+    # --- 1️⃣7️⃣ -  III Buffed Self → Party buffs ✅ ---
+    (
+        re.compile(
+            rf'^(?P<timing>ターン開始時|ターン終了時)、'
+            rf'(?P<cond_stat>{stats_pattern})バフ効果を受けている場合、'
+            rf'パーティの(?P<apply_stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'\+#PER#%(?:\((?P<turns>\d+)(?:T|ターン)?\)|（(?P<turns_alt>\d+)ターン）)?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            f"{stat_map.get(m.group('cond_stat'), m.group('cond_stat'))}-Buffed Self: "
+            f"All Allies, At the {'start' if m.group('timing') == 'ターン開始時' else 'end'} of the turn, "
+            + "/".join(stat_map.get(s, s) for s in m.group('apply_stats').split('・'))
+            + " +#PER#%"
+            + (
+                f"({m.group('turns') or m.group('turns_alt')}T)"
+                if (m.group('turns') or m.group('turns_alt')) else ""
+            )
+        )
+    ),
+
+
+    #--- 1️⃣8️⃣ Highest/Lowest Stat Ally Buffs at Turn Start/End ✅ ---
+    (
+        re.compile(
+            rf'\s*'  # allow whitespace
+            r'(?P<timing>ターン開始時|ターン終了時)、'
+            rf'最も(?P<compare_stat>{stats_pattern})が(?P<order>高い|低い)味方キャラの'
+            rf'(?P<stat_block>HP以外の基礎パラメータ|{stats_pattern}(?:・{stats_pattern})*)'
+            r'\+#PER#[%％]'
+            r'(?:\((?P<duration>\d+)(?:T|ターン)?\))?'
+            r'\s*$',  # allow trailing whitespace
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            f"{'Lowest' if m.group('order') == '低い' else 'Highest'}-{m.group('compare_stat')} Ally: "
+            + ("At the start of the turn, " if m.group('timing') == "ターン開始時" else "At the end of the turn, ")
+            + (
+                "All Stats except HP"
+                if m.group('stat_block') == "HP以外の基礎パラメータ"
+                else "/".join(m.group('stat_block').split('・'))
+            )
+            + " +#PER#%"
+            + (f" ({m.group('duration')}T)" if m.group('duration') else "")
+        )
+    ),
+
+   # --- 1️⃣9️⃣ Highest Stat Ally Damage Buffs at Turn Start/End ✅ ---
+    (
+        re.compile(
+            rf'^ターン(?P<timing>開始|終了)時、'                              # timing
+            rf'(?:パーティの)?'                                             # optional "パーティの" (second form)
+            rf'最も(?P<compare_stat>{stats_pattern})(?:が|の)高い'            # compare stat + が|の
+            rf'(?:味方(?:キャラ)?|キャラ)に'                                # "味方キャラに" or "キャラに"
+            rf'(?P<dtype>必殺技で与えるダメージ|与える全てのダメージ|与えるダメージ)'
+            r'\+#PER#%'                                                     # percent token
+            r'(?:\((?P<turns>\d+)(?:T|ターン)?\)|（(?P<turns_alt>\d+)ターン）)?'  # duration (optional)
+            r'付与$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            # compare_stat -> prefer mapped (e.g. 'SPD' -> 'SPD' or Japanese->English if present)
+            f"Highest-{stat_map.get(m.group('compare_stat'), m.group('compare_stat'))} Ally: "
+            f"At the {'start' if m.group('timing') == '開始' else 'end'} of the turn, "
+            f"{damage_type_map.get(m.group('dtype'), m.group('dtype'))} +#PER#%"
+            f"{'(' + (m.group('turns') or m.group('turns_alt')) + 'T)' if (m.group('turns') or m.group('turns_alt')) else ''}"
+        )
+    ),
+
+    # --- 2️⃣0️⃣ Highest/Lowest AG Ally Effects at Turn Start/End (AG, SP, Heal) ✅ ---
+    (
+        re.compile(
+            r"ターン(?P<timing>開始|終了)時、"
+            r"行動ゲージが(?P<position>先頭|最後尾)の味方キャラの"
+            r"(?:(?P<hp>HPを、自身の最大HPの#PER#(?:%|％)回復)"
+            r"|(?P<stat>SP|ゲージ)\+#PER#)",
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            f"{'Highest' if m.group('position')=='先頭' else 'Lowest'}-AG Ally: "
+            f"At the {'start' if m.group('timing')=='開始' else 'end'} of turn, "
+            +
+            (
+                # HP heal block
+                "Heal #PER#% of max HP"
+                if m.group('hp')
+                else
+                # SP / Gauge block
+                f"{stat_map.get(m.group('stat'), m.group('stat'))} +#PER#"
+            )
+        )
+    ),
+
+    # --- 2️⃣1️⃣ Highest/Lowest AG Ally Multi-Stat Buffs at Turn Start/End ✅ ---
+    (
+        re.compile(
+            rf"ターン(?P<timing>開始|終了)時、"
+            rf"行動ゲージが(?P<position>先頭|最後尾)の味方キャラの"
+            rf"(?P<buffs>(?:(?!(?<![A-Z・])SP(?![A-Z・])|ゲージ){stats_pattern})(?:・(?:(?!(?<![A-Z・])SP(?![A-Z・])|ゲージ){stats_pattern}))*)"
+            rf"\+#PER#(?P<percent>%|％)?"
+            rf"(?:\((?P<turns>\d+)(?:T|ターン)\))?",
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            f"{'Highest' if m.group('position')=='先頭' else 'Lowest'}-AG Ally: "
+            f"At the {'start' if m.group('timing')=='開始' else 'end'} of turn, "
+            f"{'/'.join(m.group('buffs').split('・'))} "
+            f"+#PER#%"
+            + (f" ({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
+    # --- 2️⃣2️⃣ All Enemy Multi-Stat Debuffs. Optional leading comma ✅ ---
+    (
+        re.compile(
+            rf'^(?P<prefix>(?:、さらに|[、,])?)\s*'
+            r'敵全体の'
+            rf'(?P<stats>(?:HP以外の基礎パラメータ|{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'-#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group("prefix") else "")   # << normalized comma+space ALWAYS
+            + "All Enemies: "
+            + (
+                "Non-HP Basic Stats"
+                if m.group("stats") == "HP以外の基礎パラメータ"
+                else "/".join(stat_map.get(s, s) for s in m.group("stats").split("・"))
+            )
+            + " -#PER#%"
+        )
+    ),
+
+    # --- 2️⃣3️⃣ Auto-Revive for Self/Party. Optional leading comma ✅ ---
+    (
+        re.compile(
+            r'^(?P<prefix>(?:、さらに|[、,])?)\s*'
+            r'(?P<who>パーティ|自分)に自動蘇生付与$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group("prefix") else "")
+            + ("All Allies" if m.group("who") == "パーティ" else "Self")
+            + ": Auto-Revive"
+        )
+    ),
+
+    # --- 2️⃣4️⃣ Single stat Buffed Allies, buffs with optional timing ✅ ---
+    (
+        re.compile(
+            r'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            r'(?:(?P<timing>ターン開始時|ターン終了時)、)?'   # 🔹 timing OPTIONAL
+            r'パーティの(?P<buff>ATK|DEF|INT|RES|SPD|CRD|CRT)'
+            r'バフ効果を受けている(?P<who>キャラ|味方)の'
+            r'(?P<stats>[A-Z・]+)'
+            r'\+#PER#(?:%|％)?'
+            r'(?:\((?P<duration>\d+)(?:T|ターン)\))?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            # leading comma
             (", " if m.group('lead') else "")
-            + f"{m.group('buff')}-buffed Allies: "
-            + f"At the {'start' if m.group('timing') == '開始' else 'end'} of turn, "
-            + f"{'/'.join(m.group('stats').split('・'))} +#PER#%"
+            # buff source
+            + f"{stat_map.get(m.group('buff'), m.group('buff'))}-Buffed "
+            # who
+            + ("Allies: " if m.group('who') == '味方' else "Allies: ")
+            # timing (ONLY if present)
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            # applied stats
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " +#PER#%"
+            # duration
             + (f"({m.group('duration')}T)" if m.group('duration') else "")
         )
     ),
 
-    # Multi-Stat Buffed Allies
+    # --- 2️⃣5️⃣ Multi-stat Buffed Allies, buffs with optional timing ✅ ---
     (
         re.compile(
-            r'(?:、さらに)?(?P<buffs>(?:ATK|DEF|INT|RES|SPD)(?:・(?:ATK|DEF|INT|RES|SPD))+?)バフ効果のいずれかを受けている場合、パーティの(?P<stats>[\w・]+)\+#PER#%\((?P<duration>\d+T)\)'
+            r'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            r'(?:(?P<timing>ターン開始時|ターン終了時)、)?'   # 🔹 timing OPTIONAL
+            r'(?P<buffs>(?:ATK|DEF|INT|RES|SPD|CRD|CRT)'
+            r'(?:・(?:ATK|DEF|INT|RES|SPD|CRD|CRT))+?)'
+            r'バフ効果のいずれかを受けている場合、'
+            r'パーティの(?P<stats>[A-Z・]+)'
+            r'\+#PER#(?:%|％)'
+            r'(?:\((?P<duration>\d+)(?:T|ターン)\))?$',
+            flags=re.UNICODE
         ),
         lambda m: (
-            (", " if m.string.startswith("、さらに") else "")
-            + f"{'/'.join(m.group('buffs').split('・'))}-buffed Allies: "
-            + f"{'/'.join(m.group('stats').split('・'))}"
-            + f" +#PER#%({m.group('duration')})"
+            # leading comma
+            (", " if m.group('lead') else "")
+            # condition buffs
+            + f"{'/'.join(stat_map.get(b, b) for b in m.group('buffs').split('・'))}-Buffed Allies: "
+            # timing (ONLY if present)
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            # applied stats
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " +#PER#%"
+            # duration
+            + (f"({m.group('duration')}T)" if m.group('duration') else "")
         )
     ),
+
+    # --- 2️⃣6️⃣ Highest/Lowest AG Enemy Multi-Stat Debuffs (optional leading comma, optional timing) ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'(?P<timing>ターン(?P<when>開始|終了)時、)?'
+            rf'行動ゲージが(?P<position>先頭|最後尾)の敵キャラの'
+            rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            rf'-(?P<value>#PER#)(?:%|％)'
+            rf'(?:\((?P<turns>\d+)(?:T|ターン)\))?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + f"{'Highest' if m.group('position') == '先頭' else 'Lowest'}-AG Enemy: "
+            + (
+                f"At the {'start' if m.group('when') == '開始' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " -#PER#%"
+            + (f" ({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
+    # --- 2️⃣7️⃣ Highest/Lowest Stat Enemy Multi-Stat Debuffs at Turn Start/End ✅ ---
+    (
+        re.compile(
+            rf'^ターン(?P<timing>開始|終了)時、'
+            rf'最も(?P<compare_stat>{stats_pattern})が(?P<order>高い|低い)敵キャラの'
+            rf'(?P<stat_block>HP以外の基礎パラメータ|'
+            rf'(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            rf'-(?P<value>#PER#)(?:%|％)'
+            rf'(?:\((?P<duration>\d+)(?:T|ターン)\))?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            f"{'Highest' if m.group('order') == '高い' else 'Lowest'}-"
+            f"{stat_map.get(m.group('compare_stat'), m.group('compare_stat'))} Enemy: "
+            f"At the {'start' if m.group('timing') == '開始' else 'end'} of the turn, "
+            + (
+                "Non-HP Basic Stats"
+                if m.group('stat_block') == "HP以外の基礎パラメータ"
+                else "/".join(stat_map.get(s, s) for s in m.group('stat_block').split('・'))
+            )
+            + " -#PER#%"
+            + (f"({m.group('duration')}T)" if m.group('duration') else "")
+        )
+    ),
+
+    # --- 2️⃣8️⃣ Party Stat Buffs if X+ Latent-Type Units Are Present (optional leading comma, timing, multi-types) ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'(?P<timing>ターン開始時、|ターン終了時、)?'
+            rf'(?:パーティに)?'   # ✅ FIX
+            rf'潜在タイプ\[(?P<latent>[^\]]+)\]のキャラが'
+            rf'(?P<count>\d+)体以上いる場合、'
+            rf'パーティの(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'\+#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "All Allies: "
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + f"If {m.group('count')}+ ["
+            + "/".join(latent_type_map.get(t, t) for t in m.group('latent').split('・'))
+            + "] Type units are present, "
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " +#PER#%"
+        )
+    ),
+
+    ## --- 2️⃣9️⃣ Party Damage Buff if X+ Latent-Type Units Are Present (optional leading comma, timing, multi-types) ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'               # optional leading comma
+            rf'(?P<timing>ターン開始時、|ターン終了時、)?'        # optional timing
+            rf'(?:パーティに)?'                                # 🔥 OPTIONAL パーティに
+            rf'潜在タイプ\[(?P<latent>[^\]]+)\]のキャラが'
+            rf'(?P<count>\d+)体以上いる場合、'
+            rf'パーティが(?P<damage_type>'
+            rf'必殺技で与えるダメージ|'
+            rf'与える全てのダメージ|与えるすべてのダメージ|'
+            rf'属性攻撃で与えるダメージ'
+            rf')'
+            r'\+#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "All Allies: "
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + f"If {m.group('count')}+ ["
+            + "/".join(latent_type_map.get(t, t) for t in m.group('latent').split('・'))
+            + "] Type units are present, "
+            + f"{damage_type_map.get(m.group('damage_type'), m.group('damage_type'))} +#PER#%"
+        )
+    ),
+
+    # --- 3️⃣0️⃣ Party Damage Buff if Latent-Type Units Are Present (optional leading comma, multi-types) ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'(?:パーティの)?'  # optional
+            rf'潜在タイプ\[(?P<latent>[^\]]+)\]のキャラが'
+            rf'(?P<damage>'
+            rf'必殺技で与えるダメージ|'
+            rf'与える全てのダメージ|'
+            rf'与えるすべてのダメージ'
+            rf')'
+            r'\+#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + f"{'/'.join(latent_type_map.get(t, t) for t in m.group('latent').split('・'))} Allies: "
+            + f"{damage_type_map.get(m.group('damage'), m.group('damage'))} +#PER#%"
+        )
+    ),
+
+    # --- 3️⃣1️⃣ Party Stat Buff if Latent-Type Units Are Present (optional leading comma, multi-types) ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'(?:パーティの)?'
+            rf'潜在タイプ\[(?P<latent>[^\]]+)\]のキャラの'
+            rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'\+#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + f"{'/'.join(latent_type_map.get(t, t) for t in m.group('latent').split('・'))} Allies: "
+            + f"{'/'.join(stat_map.get(s, s) for s in m.group('stats').split('・'))} +#PER#%"
+        )
+    ),
+
+    # --- 3️⃣2️⃣ Initial SP Buff at Start of Battle for Self/Party ✅ ---
+    (
+        re.compile(
+            r'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            r'戦闘開始時、'
+            r'(?P<target>自分の|パーティの)'
+            r'初期SP'
+            r'\+#PER#(?:%|％)?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + (
+                "Self" if m.group('target') == '自分の'
+                else "All Allies"
+            )
+            + ": At the start of battle, Initial SP +#PER#%"
+        )
+    ),
+
+    # --- 3️⃣3️⃣ Party Stat Buff if X+ Weapon-Wielding Units Are Present (optional leading comma, multi-types) ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'パーティに得意武器種が\[(?P<weapons>[^\]]+)\]のキャラが'
+            rf'(?P<count>\d+)体以上いる場合、'
+            rf'(?P<target>自分の|パーティの)'
+            rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'\+#PER#(?:%|％)?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + (
+                "Self" if m.group('target') == '自分の'
+                else "All Allies"
+            )
+            + ": "
+            + f"If {m.group('count')}+ ["
+            + "/".join(weapon_map.get(w, w) for w in m.group('weapons').split('・'))
+            + "] Allies, "
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " +#PER#%"
+        )
+    ),
+
+    # --- 3️⃣4️⃣ Party Buff Effects Buff ✅ ---
+    (
+        re.compile(
+            r'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            r'パーティが使用するバフの効果'
+            r'(?P<sign>\+|-)'
+            r'(?P<value>\d+|#PER#)'
+            r'(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "All Allies: Buff Effects "
+            + f"{m.group('sign')}{m.group('value')}%"
+        )
+    ),
+
+    # --- 3️⃣5️⃣ Party SP Cost Reduction Buff ✅ ---
+    (
+        re.compile(
+            r'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            r'パーティの消費SP-'
+            r'(?P<value>#PER#|\d+)'
+            r'(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "All Allies: SP Cost -"
+            + f"{m.group('value')}%"
+        )
+    ),
+
+    # --- 3️⃣6️⃣ Self Stat Buff if X+ Race Units Are Present (optional leading comma) ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'パーティに(?P<race>{"|".join(map(re.escape, race_map.keys()))})キャラが'
+            rf'(?P<count>\d+)体以上いる場合、'
+            rf'自分の(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            rf'\+#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "Self: "
+            + f"If {m.group('count')}+ "
+            + f"{race_map.get(m.group('race'), m.group('race'))} units are present, "
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " +#PER#%"
+        )
+    ),
+
+    # --- 3️⃣7️⃣ Party Damage Buff if X+ Race Units Are Present (optional leading comma, timing) ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'               # optional leading comma
+            rf'(?P<timing>ターン開始時、|ターン終了時、)?'        # optional timing
+            rf'(?:パーティに)?'                                # optional パーティに
+            rf'(?P<race>魔物型|人型)キャラが'
+            rf'(?P<count>\d+)体以上いる場合、'
+            rf'パーティが(?P<damage_type>'
+            rf'必殺技で与えるダメージ|'
+            rf'与える全てのダメージ|与えるすべてのダメージ|'
+            rf'属性攻撃で与えるダメージ'
+            rf')'
+            r'\+#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "All Allies: "
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + f"If {m.group('count')}+ "
+            + f"{race_map.get(m.group('race'), m.group('race'))} units are present, "
+            + f"{damage_type_map.get(m.group('damage_type'), m.group('damage_type'))} +#PER#%"
+        )
+    ),
+
+    # --- 3️⃣8️⃣ Party Stat Buff if X+ Race Units Are Present (optional leading comma, timing) ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'(?P<timing>ターン開始時、|ターン終了時、)?'
+            rf'(?:パーティに)?'
+            rf'(?P<race>魔物型|人型)キャラが'
+            rf'(?P<count>\d+)体以上いる場合、'
+            rf'パーティの(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'\+#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "All Allies: "
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + f"If {m.group('count')}+ "
+            + f"{race_map.get(m.group('race'), m.group('race'))} units are present, "
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " +#PER#%"
+        )
+    ),
+
+    # --- 3️⃣9️⃣ Self Invincibility (optional leading comma, timing) ✅ ---
+    (
+        re.compile(
+            r'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            r'(?P<timing>戦闘開始時、|ターン開始時、|ターン終了時、)?'
+            r'自分に無敵\(#PER#回\)付与$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "Self: "
+            + (
+                f"At {('the start of the battle' if m.group('timing') == '戦闘開始時、' else 'the start of the turn' if m.group('timing') == 'ターン開始時、' else 'the end of the turn')}, "
+                if m.group('timing') else ""
+            )
+            + "grant Invincibility (#PER# Times)"
+        )
+    ),
+
+    # --- 4️⃣0️⃣ - 🅰️ HP Conditional Buffs: SP Buffs  ✅ ---
+    (
+        re.compile(
+            rf'^{lead_timing}'
+            rf'{hp_cond}'
+            rf'(?P<target>パーティ|自分)のSP'
+            rf'(?P<sign>[+-])#PER#(?:%|％)?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + f"If HP {hp_cmp_map[m.group('comparator')]} {m.group('threshold')}%, "
+            + ("All Allies: " if m.group('target') == 'パーティ' else "Self: ")
+            + f"SP {m.group('sign')}#PER#%"
+        )
+    ),
+
+    #  --- 4️⃣0️⃣ - 🅱️ HP Conditional Buffs: Multi-Stat Buffs  ✅ ---
+    (
+        re.compile(
+            rf'^{lead_timing}'
+            rf'{hp_cond}'
+            rf'(?P<target>パーティ|自分)の'
+            rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            rf'(?P<sign>[+-])#PER#(?:%|％)?'
+            rf'(?:\((?P<turns>\d+)(?:T|ターン)\))?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + f"If HP {hp_cmp_map[m.group('comparator')]} {m.group('threshold')}%, "
+            + ("All Allies: " if m.group('target') == 'パーティ' else "Self: ")
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + f" {m.group('sign')}#PER#%"
+            + (f"({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
+    #  --- 4️⃣0️⃣ - 🅲️ HP Conditional Buffs: Damage Buffs  ✅ ---
+    (
+        re.compile(
+            rf'^{lead_timing}'
+            rf'{hp_cond}'
+            rf'(?P<target>パーティ|自分)に?'
+            rf'(?P<damage>'
+                rf'必殺技で与えるダメージ|'
+                rf'与える全てのダメージ|'
+                rf'与えるすべてのダメージ|'
+                rf'受ける全てのダメージ'
+            rf')'
+            rf'(?P<sign>[+-])#PER#(?:%|％)?'
+            rf'(?:\((?P<turns>\d+)(?:T|ターン)\))?'
+            rf'(?:付与)?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + f"If HP {hp_cmp_map[m.group('comparator')]} {m.group('threshold')}%, "
+            + ("All Allies: " if m.group('target') == 'パーティ' else "Self: ")
+            + f"{damage_type_map.get(m.group('damage'), m.group('damage'))} "
+            + f"{m.group('sign')}#PER#%"
+            + (f"({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
+    #  --- 4️⃣0️⃣ - 🅳️ HP Conditional Buffs: Invincibility Buffs  ✅ ---
+    (
+        re.compile(
+            rf'^{lead_timing}'
+            rf'{hp_cond}'
+            rf'(?P<target>パーティ|自分)に無敵'
+            rf'\(#PER#回\)付与$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + (
+                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + f"If HP {hp_cmp_map[m.group('comparator')]} {m.group('threshold')}%, "
+            + ("All Allies: " if m.group('target') == 'パーティ' else "Self: ")
+            + "Invincibility (#PER# Times)"
+        )
+    ),
+
+    # --- 4️⃣1️⃣ - I: Chained Elemental Damage Buffs ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>[、,])'
+            rf'(?:(?P<element>[炎水風星])属性)?'
+            rf'攻撃で与えるダメージ'
+            r'\+#PER#(?:%|％)'
+            r'(?:\((?P<turns>\d+)(?:T|ターン)\))?'
+            r'付与$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            ", "
+            + (f"{element_map[m.group('element')]} " if m.group('element') else "")
+            + "Damage +#PER#%"
+            + (f"({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
+    # --- 4️⃣1️⃣ - II: Chained Damage Type Buffs ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>[、,])'
+            rf'(?P<damage_type>'
+            rf'与える全てのダメージ|与えるすべてのダメージ|'
+            rf'必殺技で与えるダメージ|'
+            rf'属性攻撃で与えるダメージ|'
+            rf'無属性攻撃で与えるダメージ'
+            rf')'
+            r'\+#PER#(?:%|％)'
+            r'(?:\((?P<turns>\d+)(?:T|ターン)\))?'
+            r'付与$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            ", "
+            + f"{damage_type_map.get(m.group('damage_type'), m.group('damage_type'))} "
+            + "+#PER#%"
+            + (f"({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
+
+    #FALLBACK. Matches unconditional party-wide damage buffs ONLY.
+    # Must appear after all conditional damage rules.
+    # ---  ✅ --- #
+    (
+        re.compile(
+            rf'^(?P<lead>、さらに|、|,)?(?:さらに)?'
+            rf'(?:自分が(?P<weapon>{weapon_pattern})武器装備時、)?'
+            rf'パーティが'
+            rf'(?:(?P<element>{element_pattern})属性)?'
+            rf'(?P<damage>{damage_pattern})'
+            r'[+-]?#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + (f"{weapon_map[m.group('weapon')]}-Equipped Self: " if m.group('weapon') else "")
+            + "All Allies: "
+            + (
+                f"{element_map[m.group('element')]} "
+                if m.group('element') else ""
+            )
+            + f"{damage_type_map.get(m.group('damage'), m.group('damage'))} +#PER#%"
+        )
+    ),
+
 
     # Buffed Self + SP buffs
     (
@@ -497,7 +1201,6 @@ patterns = [
             + f"{m.group('stat')} +#PER#"
         )
     ),
-
 
     # Buffed Self + Stat buffs
     (
@@ -522,27 +1225,6 @@ patterns = [
                 "All Allies " if m.group('target') == "パーティ" else ""
             )
             + f"{'/'.join(m.group('stats').split('・'))} +#PER#%"
-            + (f" ({m.group('duration').replace('ターン', 'T')})" if m.group('duration') else "")
-        )
-    ),
-
-    # Highest/Lowest Stat + buffs with optional turns and %
-    (
-        re.compile(
-            r'(?P<timing>ターン開始時|ターン終了時)、'
-            r'最も(?P<compare_stat>[A-Z]+)が(?P<order>高い|低い)味方キャラの'
-            r'(?P<stat_block>HP以外の基礎パラメータ|[A-Z・]+)'
-            r'\+#PER#[%％]'  # matches both % and full-width ％
-            r'(?:\((?P<duration>\d+T|[0-9]+ターン)\))?'
-        ),
-        lambda m: (
-            f"{'Lowest' if m.group('order') == '低い' else 'Highest'}-{m.group('compare_stat')} Ally: "
-            + ("At the start of the turn, " if m.group('timing') == "ターン開始時" else "At the end of the turn, ")
-            + (
-                "All Stats except HP" if m.group('stat_block') == "HP以外の基礎パラメータ"
-                else "/".join(m.group('stat_block').split('・'))
-            )
-            + " +#PER#%"
             + (f" ({m.group('duration').replace('ターン', 'T')})" if m.group('duration') else "")
         )
     ),
@@ -588,7 +1270,6 @@ patterns = [
             + ("damage +#PER%" if m.group('direction') == "与える" else "damage taken -#PER%")  # Handle direction
         )
     ),
-
 
     # Self [element] damage +#PER#% dealt/taken. Optional equipped weapon condition
     (
@@ -654,6 +1335,6 @@ patterns = [
             + f"{damage_type_map[m.group('target')]}: +#PER#%"
             + (f"({m.group('duration').replace('ターン', 'T')})" if m.group('duration') else "")
         )
-    ),
+    )
 
 ]
