@@ -43,6 +43,9 @@
   "束縛効果": "Inflict Bind",
   "DEFデバフの敵へはさらにド忘れ効果": "Inflict forget on DEF debuffed foes",
   "眠り･ド忘れ付与": "Inflicts Sleep/Forget",
+  "茨効果": "Thorns",
+  "茨効果付与": "Thorns",
+  "マヒ・茨効果": "Paralysis/Thorns",
 
   "HP回復中": "Heal",
   "HP回復小": "Small Heal",
@@ -57,9 +60,6 @@
   "ターン持続)": "T)",
   "ターン)": "T)",
   "ﾀｰﾝ)": "T)",
-
-  "茨効果": "Thorns",
-  "茨効果付与": "Thorns",
 
   "かばう": "Cover",
 
@@ -263,13 +263,18 @@
   "クリティカル発動の場合、": "[On Critical hit] ",
   "クリティカル時、": "[On Critical hit]",
   "クリティカル時の": "[On Critical hit]",
-  "CRTバフ効果時、": "If target has a CRT buff, ",
+  "ATKバフ効果時、": "If ATK buffed, ",
+  "DEFバフ効果時、": "If DEF buffed, ",
+  "INTバフ効果時、": "If INT buffed, ",
+  "RESバフ効果時、": "If RES buffed, ",
+  "CRTバフ効果時、": "If CRT buffed, ",
+  "CRDバフ効果時、": "If CRD buffed, ",
+  "SPDバフ効果時、": "If SPD buffed, ",
   "CRTバフ状態のキャラに": "CRT Buffed allies ",
   "ｸﾘﾃｨｶﾙ時の技威力": "[On Crit]Skill Power",
   "魔物型はさらに": "[Monster types]",
   "対象が毒状態の時、": "[When enemy is poisoned]",
   "対象がSPDデバフ状態の時、": "If target has SPD debuff, ",
-  "ATKバフ効果時、": "If target has ATK buff, ",
   "DEFデバフ状態の敵がいる時、": "If a DEF-Debuffed foe is present, ",
   "対象がDEFデバフ状態の時、": "If the target has a DEF debuff, ",
   "対象がATKデバフ状態の時、": "If target has ATK debuff, ",
@@ -279,7 +284,6 @@
   "RESデバフ状態の敵への": "If target has a RES debuff, ",
 
   "DEFバフ状態の味方がいる時、": "[When ally has a DEF buff]",
-  "PDバフ効果時、": "[If target has SDP debuff], ",
   "対象のHPが75%以下の場合、": "If 75% or less HP, ",
   "体力が30%以下の場合、": "If HP is below 30%, ",
   "体力が1%以下の場合、": "If current HP is 1% or less, ",

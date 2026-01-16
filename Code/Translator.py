@@ -7,7 +7,7 @@ from deep_translator import GoogleTranslator
 import deepl
 from datetime import datetime
 
-from Code import EvilityRegex
+from Code import EvilityRegex, GeneralRegex
 from Code.config import Config, Paths
 
 
@@ -204,7 +204,6 @@ class SkillNameTranslator:
             + " ".join(words[best_idx:])
         )
 
-
     def __translate_with_fallback(self, text):
         try:
             return self.translator_deepl.translate(text=text, source_lang="JA", target_lang="EN-US")
@@ -245,6 +244,49 @@ class EvilityTranslator:
                 return repl(match)
         return text
 
+class TranslationContext:
+    def __init__(self):
+        self.characters = {}      # JP → EN
+        self.characters_ready = False
+
+class RegexRule:
+    def __init__(self, files, fields):
+        self.files = set(files)
+        self.fields = set(fields)
+
+    def applies_to(self, filename, field):
+        return filename in self.files and field in self.fields
+    
+class RegexTranslator:    
+    def __init__(self, patterns, context):
+        self.patterns = patterns
+        self.context = context
+        self.regex_rules = [
+            RegexRule(
+                files=["item"],
+                fields=["description", "name"],
+            ),
+            RegexRule(
+                files=["eventmission"],
+                fields=["title"],
+            )
+        ]
+
+
+    def translate(self, text):
+        for pattern, repl in self.patterns:
+            match = pattern.search(text)
+            if not match:
+                continue
+            try:
+                return repl(match, self.context)
+            except KeyError as e:
+                # Missing character name — log and skip regex
+                print(f"⚠️ Missing character in regex lookup: {e}")
+                return text
+
+        return text
+
 class Translator:
     def __init__(self):
         self.dict_translator = DictionaryTranslator()
@@ -254,6 +296,17 @@ class Translator:
         self.character_translator = CharacterNameTranslator()
         self.skill_name_translator = SkillNameTranslator()
         self.translator_google = GoogleTranslator(source='auto', target='en')
+        self.context = TranslationContext()
+        self.regex_translator = RegexTranslator(GeneralRegex.patterns, self.context)
+        self.character_master_path = (
+            Paths.CHARACTER_DICTIONARIES_DIR / "CharacterMasterDictionary.json"
+        )
+        self.character_master_dictionary = {}
+        if self.character_master_path.exists():
+            with open(self.character_master_path, "r", encoding="utf8") as f:
+                self.character_master_dictionary.update(json.load(f))
+        self.context.characters.update(self.character_master_dictionary)
+        self.context.characters_ready = True
 
         # External services
         self.files_for_deepl = ['stage', 'character', 'memory', 'episode', 'command']        
@@ -281,7 +334,11 @@ class Translator:
             
             # 3️⃣ Character name translation
             if (filename == "character" and field == "name") or (filename == "ritualtrainings" and field == "name"):
-                return self.character_translator.translate(value)
+                translation = self.character_translator.translate(value)
+                # Update master dictionary
+                if translation and translation != value:
+                    self.__update_character_master(value, translation)
+                return translation
 
             # 4️⃣ Evility specific translation - use regex or fall back to normal translation if no regex match found
             if filename == "leaderskill" and field == "description":
@@ -289,6 +346,14 @@ class Translator:
                 if translation != value:
                     return translation
 
+            # 5️⃣ General regex-based translations
+            for rule in self.regex_translator.regex_rules:
+                if rule.applies_to(filename, field):
+                    result = self.regex_translator.translate(value)
+                    if result != value:
+                        return result
+            
+            # --- 6️⃣ Stat Buffs with Timing, Target, and optional Leading Comma ✅ ---
             # 5️⃣ External translators
             if filename in self.files_for_deepl and self.translator_deepl:
                 result = self._translate_with_fallback(value)
@@ -338,14 +403,15 @@ class Translator:
         except Exception as e:
             print(f"⚠️ Google Translate failed: {e}")
             return text
-        
-    def _translate_skill_name(self, text: str) -> str:
-        normalized, breaks = normalize_skill_name(text)
 
-        if normalized not in self.skill_name_cache:
-            translated = self._translate_with_fallback(normalized)
-            self.skill_name_cache[normalized] = translated
-        else:
-            translated = self.skill_name_cache[normalized]
+    def __update_character_master(self, jp_name: str, en_name: str):
+        if jp_name in self.character_master_dictionary:
+            return  # already known
 
-        return restore_skill_name(translated, breaks)
+        self.character_master_dictionary[jp_name] = en_name
+
+        # Persist immediately (safe, small file)
+        with open(self.character_master_path, "w", encoding="utf8") as f:
+            json.dump(self.character_master_dictionary, f, ensure_ascii=False, indent=2)
+
+        print(f"\t\t➕ Added character to master dictionary: {jp_name} → {en_name}")

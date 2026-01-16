@@ -286765,7 +286765,7 @@
   },
   {
     "id": 10012006,
-    "name": "Magic remodeling Prinny",
+    "name": "N.E. Prinny",
     "icon_no": 1601,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -287961,7 +287961,7 @@
   },
   {
     "id": 10012058,
-    "name": "Hardening Drop Lv.1",
+    "name": "Drop of Hardening Lv.1",
     "icon_no": 6401,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -287984,7 +287984,7 @@
   },
   {
     "id": 10012059,
-    "name": "Hardening Drop Lv.2",
+    "name": "Drop of Hardening Lv.2",
     "icon_no": 6402,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -288007,7 +288007,7 @@
   },
   {
     "id": 10012060,
-    "name": "Hardening Drop Lv.3",
+    "name": "Drop of Hardening Lv.3",
     "icon_no": 6403,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -288053,7 +288053,7 @@
   },
   {
     "id": 10012062,
-    "name": "Hardening Drop Lv.5",
+    "name": "Drop of Hardening Lv.5",
     "icon_no": 6405,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -288076,7 +288076,7 @@
   },
   {
     "id": 10012063,
-    "name": "Magic resistance drop Lv.1",
+    "name": "Drop of Magic Resistance Lv.1",
     "icon_no": 6501,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -288099,7 +288099,7 @@
   },
   {
     "id": 10012064,
-    "name": "Magic resistance drop Lv.2",
+    "name": "Drop of Magic Resistance Lv.2",
     "icon_no": 6502,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -288122,7 +288122,7 @@
   },
   {
     "id": 10012065,
-    "name": "Magic resistance drop Lv.3",
+    "name": "Drop of Magic Resistance Lv.3",
     "icon_no": 6503,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -288145,7 +288145,7 @@
   },
   {
     "id": 10012066,
-    "name": "Magic resistance drop Lv.4",
+    "name": "Drop of Magic Resistance Lv.4",
     "icon_no": 6504,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -288168,7 +288168,7 @@
   },
   {
     "id": 10012067,
-    "name": "Magic resistance drop Lv.5",
+    "name": "Drop of Magic Resistance Lv.5",
     "icon_no": 6505,
     "icon_resource_name": "",
     "m_item_shop_id": 10012,
@@ -288490,7 +288490,7 @@
   },
   {
     "id": 20000004,
-    "name": "Magic remodeling Prinny",
+    "name": "N.E. Prinny",
     "icon_no": 1601,
     "icon_resource_name": "",
     "m_item_shop_id": 20001,
@@ -292354,7 +292354,7 @@
   },
   {
     "id": 10013004,
-    "name": "Magic remodeling Prinny",
+    "name": "N.E. Prinny",
     "icon_no": 1601,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,
@@ -293550,7 +293550,7 @@
   },
   {
     "id": 10013056,
-    "name": "Hardening Drop Lv.1",
+    "name": "Drop of Hardening Lv.1",
     "icon_no": 6401,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,
@@ -293573,7 +293573,7 @@
   },
   {
     "id": 10013057,
-    "name": "Hardening Drop Lv.2",
+    "name": "Drop of Hardening Lv.2",
     "icon_no": 6402,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,
@@ -293596,7 +293596,7 @@
   },
   {
     "id": 10013058,
-    "name": "Hardening Drop Lv.3",
+    "name": "Drop of Hardening Lv.3",
     "icon_no": 6403,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,
@@ -293642,7 +293642,7 @@
   },
   {
     "id": 10013060,
-    "name": "Hardening Drop Lv.5",
+    "name": "Drop of Hardening Lv.5",
     "icon_no": 6405,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,
@@ -293665,7 +293665,7 @@
   },
   {
     "id": 10013061,
-    "name": "Magic resistance drop Lv.1",
+    "name": "Drop of Magic Resistance Lv.1",
     "icon_no": 6501,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,
@@ -293688,7 +293688,7 @@
   },
   {
     "id": 10013062,
-    "name": "Magic resistance drop Lv.2",
+    "name": "Drop of Magic Resistance Lv.2",
     "icon_no": 6502,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,
@@ -293711,7 +293711,7 @@
   },
   {
     "id": 10013063,
-    "name": "Magic resistance drop Lv.3",
+    "name": "Drop of Magic Resistance Lv.3",
     "icon_no": 6503,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,
@@ -293734,7 +293734,7 @@
   },
   {
     "id": 10013064,
-    "name": "Magic resistance drop Lv.4",
+    "name": "Drop of Magic Resistance Lv.4",
     "icon_no": 6504,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,
@@ -293757,7 +293757,7 @@
   },
   {
     "id": 10013065,
-    "name": "Magic resistance drop Lv.5",
+    "name": "Drop of Magic Resistance Lv.5",
     "icon_no": 6505,
     "icon_resource_name": "",
     "m_item_shop_id": 10013,

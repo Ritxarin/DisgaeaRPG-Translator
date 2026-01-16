@@ -211,11 +211,18 @@ class Translator_Util:
         #     json.dump(translated_data, f, ensure_ascii=False, indent=2)
         self.helper.safe_save_json(patched_source, out_path)
     
+    def __is_character_file(filename):
+        return "character" in filename.lower()
+
     # in case the initial files are not up to date. Look for new entries, translate and update our translations
     def initial_translation(self):
         print(f"\n    ℹ️ Running initial translation")
         start_time = time.time()
-        for filename in os.listdir(self.updated_files_path):
+
+        files = os.listdir(self.updated_files_path)
+        files.sort(key=lambda f: not self.__is_character_file(f))
+
+        for filename in files:
             file_path = os.path.join(self.updated_files_path, filename)
             # Skip subfolders
             if not os.path.isfile(file_path):
@@ -307,6 +314,8 @@ class Translator_Util:
         start_time = time.time()
         updated_files = Config.get_updated_files()
 
+        files = os.listdir(self.updated_files_path)
+        files.sort(key=lambda f: not self.__is_character_file(f))
         for filename in os.listdir(self.updated_files_path):
             file_path = os.path.join(self.updated_files_path, filename)
             name_only = os.path.splitext(filename)[0]

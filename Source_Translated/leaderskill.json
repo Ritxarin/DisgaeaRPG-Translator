@@ -103585,7 +103585,7 @@
   },
   {
     "id": 201111,
-    "name": "deathdesdesco",
+    "name": "Death Death Desco",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -103611,7 +103611,7 @@
   },
   {
     "id": 201112,
-    "name": "boaboa punch",
+    "name": "Boa Boa Punch",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -103637,7 +103637,7 @@
   },
   {
     "id": 201113,
-    "name": "Explosion death! Fast forward death!",
+    "name": "It's an Explosion of Death! A Relentless Charge of Death! ",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 10,
@@ -103659,11 +103659,11 @@
     "bad_effect_type": 0,
     "bad_effect_params": [0],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, if a critical hit occurs, the party's action gauge +#PER#"
+    "description": "All Allies: At end of turn, if a crit occurs, AG +#PER#"
   },
   {
     "id": 201114,
-    "name": "超空間認識",
+    "name": "Spatial Awareness",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -103689,7 +103689,7 @@
   },
   {
     "id": 201115,
-    "name": "deathdesdesco",
+    "name": "Death Death Desco",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -103715,7 +103715,7 @@
   },
   {
     "id": 201116,
-    "name": "boaboa punch",
+    "name": "Boa Boa Punch",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -103741,7 +103741,7 @@
   },
   {
     "id": 201117,
-    "name": "Explosion death! Fast forward death!",
+    "name": "It's an Explosion of Death! A Relentless Charge of Death! ",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 10,
@@ -103767,7 +103767,7 @@
   },
   {
     "id": 201118,
-    "name": "超空間認識",
+    "name": "Spatial Awareness",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
