@@ -5128,5 +5128,25 @@
     "name": "Trial Room Infinite Super Reincarnation Zetto",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 19051,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Valvatose in fine clothes",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19091,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Summer Palace of Etna Defense",
+    "open_at": "",
+    "close_at": ""
   }
 ]

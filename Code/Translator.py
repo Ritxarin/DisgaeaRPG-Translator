@@ -76,6 +76,9 @@ class CharacterNameTranslator:
         self.character_prefix_dict = {}
         self.translator_deepl = DeepLTranslator()
         self.google_translator = GoogleTranslator(source='auto', target='en')
+        self.VARIANT_SUFFIX_MAP = {
+            "凶": "Badass",
+        }
 
         if os.path.exists(Paths.CHARACTER_DICTIONARIES_DIR):
             # Load character name dict
@@ -101,31 +104,50 @@ class CharacterNameTranslator:
         ]
         return " ".join(titled)
     
+    def _extract_variant(self, jp_name: str):
+        for suffix, en_variant in self.VARIANT_SUFFIX_MAP.items():
+            if jp_name.endswith(suffix):
+                return jp_name[:-len(suffix)], en_variant
+        return jp_name, None
+    
+    def has_variant_suffix(self, jp_name: str) -> bool:
+        return any(jp_name.endswith(suffix) for suffix in self.VARIANT_SUFFIX_MAP)
+    
     def translate(self, jp_name):
-        # Build regex to match known names (longest first to avoid partial matches)
-        name_pattern = "|".join(sorted(self.character_name_dict.keys(), key=len, reverse=True))
+        # 1️⃣ Extract variant suffix first
+        base_name, variant = self._extract_variant(jp_name)
+
+        # 2️⃣ Build regex to match known names (longest first)
+        name_pattern = "|".join(
+            sorted(self.character_name_dict.keys(), key=len, reverse=True)
+        )
         regex = re.compile(f"({name_pattern})")
 
-        match = regex.search(jp_name)
-        # No match found in dictionary, use DeepL to translate entire name
+        match = regex.search(base_name)
+        # 3️⃣ No match → fallback translation
         if not match:
-            return self._translate_with_fallback(jp_name)
+            translated = self._translate_with_fallback(base_name)
+            return f"{translated} {variant}" if variant else translated
 
         char_jp = match.group(1)
         char_en = self.character_name_dict[char_jp]
-        prefix = jp_name.replace(char_jp, "")
+        start, end = match.span()
+        prefix = base_name[:start]
 
         if prefix:
-            # Character name contains a prefix. Check if we have it in the prefix dictionary
             if prefix in self.character_prefix_dict:
                 translated_prefix = self.character_prefix_dict[prefix]
-                return f"{translated_prefix} {char_en}"
-            # Otherwise, translate prefix via DeepL
-            translated_prefix = self._translate_with_fallback(prefix)
-            translated_prefix = self._smart_title(translated_prefix)
-            return f"{translated_prefix} {char_en}"
+                result = f"{translated_prefix} {char_en}"
+            else:
+                translated_prefix = self._smart_title(
+                    self._translate_with_fallback(prefix)
+                )
+                result = f"{translated_prefix} {char_en}"
         else:
-            return char_en
+            result = char_en
+
+        return f"{result} {variant}" if variant else result
+
 
     def _translate_with_fallback(self, text):
         try:
@@ -335,8 +357,12 @@ class Translator:
             # 3️⃣ Character name translation
             if (filename == "character" and field == "name") or (filename == "ritualtrainings" and field == "name"):
                 translation = self.character_translator.translate(value)
-                # Update master dictionary
-                if translation and translation != value:
+                # Update master dictionary if not variant version
+                if (
+                    translation
+                    and translation != value
+                    and not self.character_translator.has_variant_suffix(value)
+                ):
                     self.__update_character_master(value, translation)
                 return translation
 

@@ -1142,5 +1142,13 @@
     "main_m_memory_effect_type_id": 111,
     "sub_m_character_id": 0,
     "sub_m_memory_effect_type_id": 113
+  },
+  {
+    "id": 144,
+    "name": "Two ladies",
+    "main_m_character_id": 20097,
+    "main_m_memory_effect_type_id": 12,
+    "sub_m_character_id": 20097,
+    "sub_m_memory_effect_type_id": 16
   }
 ]

@@ -25810,5 +25810,41 @@
     "m_character_id": 20111,
     "rarity": 6,
     "class_name": "Twelve God's Ultimate Weapon"
+  },
+  {
+    "id": 3801,
+    "m_character_id": 380,
+    "rarity": 1,
+    "class_name": "Original Sardine Doctor"
+  },
+  {
+    "id": 3802,
+    "m_character_id": 380,
+    "rarity": 2,
+    "class_name": "Original Sardine Doctor"
+  },
+  {
+    "id": 3803,
+    "m_character_id": 380,
+    "rarity": 3,
+    "class_name": "Original Sardine Doctor"
+  },
+  {
+    "id": 3804,
+    "m_character_id": 380,
+    "rarity": 4,
+    "class_name": "Original Sardine Doctor"
+  },
+  {
+    "id": 3805,
+    "m_character_id": 380,
+    "rarity": 5,
+    "class_name": "Vampire celebrating the new year"
+  },
+  {
+    "id": 3806,
+    "m_character_id": 380,
+    "rarity": 6,
+    "class_name": "Tyrant Emerging at New Dawn"
   }
 ]

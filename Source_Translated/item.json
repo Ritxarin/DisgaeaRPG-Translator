@@ -26532,5 +26532,17 @@
     "description": "A magical star that can bring the Zodiac Desco to a ★6 awakened state.",
     "max_num": 9999,
     "sell_price": 0
+  },
+  {
+    "id": 201033,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201033,
+    "effect_value": [
+      905
+    ],
+    "description": "Special PT for Valvatose Raid",
+    "max_num": 99999999,
+    "sell_price": 0
   }
 ]

@@ -145,7 +145,7 @@
   "パーティのHP・ATK・DEF+#PER#%": "All Allies: HP, ATK, and DEF +#PER#%",
   "ターン終了時、残りHPが低い敵キャラに風属性攻撃(2回,威力B+)": "At the end of the turn, wind damage to the enemy with the lowest HP (2 times, B+ power)",
   "自分の魔改造1段階毎にATK・DEF+#PER#%": "Self: For each stage of Nether Enhancement, ATK and DEF +#PER#%",
-  "WAVE開始時、敵全体に衰弱(最大Lv.#PER#)付与": "At the start of the wave, apply 'Weak' (Max Lv.#PER#) to all enemies",
+  "WAVE開始時、敵全体に衰弱(最大Lv.#PER#)付与": "All Foes: At Wave Start, Inflict Weakness (Max Lv.#PER#)",
   "ターン開始時、行動ゲージが先頭の敵キャラのゲージ-#PER#": "At the start of the turn, reduce the action gauge of the enemy character with the highest Action Gauge by #PER#",
   "パーティの基礎パラメータ・CRD+#PER#%": "All Allies: base parameters and CRD +#PER#%",
   ",CRTは最大+#PER#%,5キャラまで)": ",CRT is up to +#PER#%, 5 characters max)",

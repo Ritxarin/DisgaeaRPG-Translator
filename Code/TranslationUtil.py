@@ -211,7 +211,7 @@ class Translator_Util:
         #     json.dump(translated_data, f, ensure_ascii=False, indent=2)
         self.helper.safe_save_json(patched_source, out_path)
     
-    def __is_character_file(filename):
+    def __is_character_file(self, filename):
         return "character" in filename.lower()
 
     # in case the initial files are not up to date. Look for new entries, translate and update our translations
@@ -316,7 +316,7 @@ class Translator_Util:
 
         files = os.listdir(self.updated_files_path)
         files.sort(key=lambda f: not self.__is_character_file(f))
-        for filename in os.listdir(self.updated_files_path):
+        for filename in files:
             file_path = os.path.join(self.updated_files_path, filename)
             name_only = os.path.splitext(filename)[0]
 
