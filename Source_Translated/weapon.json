@@ -11047,5 +11047,29 @@
     "book_flg": 1,
     "breeding_lvup_stage": 0,
     "weapon_type": 6
+  },
+  {
+    "id": 72013,
+    "icon_no": 7,
+    "item_rank": 40,
+    "legend_only": 1,
+    "name": "love heart cane",
+    "description": "[For Darkness] A stick of love that can charge infinitely even hundreds of millions of light years.",
+    "price": 12000,
+    "hp_min": 0,
+    "hp_per_stage": 0,
+    "atk_min": 20,
+    "atk_per_stage": 2,
+    "def_min": 0,
+    "def_per_stage": 0,
+    "inte_min": 0,
+    "inte_per_stage": 0,
+    "res_min": 0,
+    "res_per_stage": 0,
+    "spd_min": 0,
+    "spd_per_stage": 0,
+    "book_flg": 1,
+    "breeding_lvup_stage": 0,
+    "weapon_type": 7
   }
 ]

@@ -274,25 +274,39 @@ patterns = [
     # --- 1️⃣0️⃣ Party uses [Element] skill -> Buffs (Damage, stats, SP...) ✅ --- #
     (
         re.compile(
-            r"(?:[、,]\s*)?(?:さらに)?パーティが(?P<element>[炎水風星])属性の技を使用した時、"
-            r"パーティ(?:(?:に与える全てのダメージ)|(?:の(?P<buffs>[A-Z・]+|HP以外の基礎パラメータ|SP)))"
-            r"\+#PER#%(?:\((?P<turns>\d+)T\))?",
+            rf'(?:[、,]\s*)?(?:さらに)?'
+            rf'パーティが(?P<element>[炎水風星])属性の技を使用した(?:時|とき|際)、'
+            rf'パーティ'
+            rf'(?:'
+                rf'に(?P<damage_type>与える全てのダメージ)'
+                rf'|'
+                rf'の(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+                rf'|'
+                rf'の(?P<sp>SP)'
+            rf')'
+            rf'\+#PER#(?:%|％)?'          # ✅ % is OPTIONAL
+            rf'(?:\((?P<turns>\d+)T\))?',
             flags=re.UNICODE
         ),
         lambda m: (
-            # Prefix (if preceded by comma)
             f"{', ' if m.group(0).startswith(('、', ',')) else ''}"
-            # Base phrase
-            f"All Allies: When a {element_map[m.group('element')]} Skill is used, "
-            # Branch based on what matched
+            f"All Allies: When a {element_map[m.group('element')]} skill is used, "
             + (
-                f"Damage +#PER#%{f'({m.group('turns')}T)' if m.group('turns') else ''}"
-                if m.group('buffs') is None else
-                f"{stat_map.get(m.group('buffs'), m.group('buffs').replace('・', '/'))} "
-                f"+#PER#%{f'({m.group('turns')}T)' if m.group('turns') else ''}"
+                # 🟥 Damage
+                f"{damage_type_map[m.group('damage_type')]} +#PER#%"
+                if m.group('damage_type')
+                # 🟦 Stats
+                else (
+                    f"{'/'.join(stat_map[s] for s in m.group('stats').split('・'))} +#PER#%"
+                    if m.group('stats')
+                    # 🟩 SP
+                    else "SP +#PER#"
+                )
             )
+            + (f"({m.group('turns')}T)" if m.group('turns') else "")
         )
     ),
+
 
     # --- 1️⃣1️⃣ Party Crits -> Multi-Stat Buffs ✅ ---
     (
@@ -509,6 +523,30 @@ patterns = [
                 f"({m.group('turns') or m.group('turns_alt')}T)"
                 if (m.group('turns') or m.group('turns_alt')) else ""
             )
+        )
+    ),
+
+    # --- 1️⃣7️⃣ IV - Buffed Self → Damage Buffs ✅ ---
+    (
+        re.compile(
+            rf'^(?P<lead>[、,])(?:さらに)?'
+            rf'自身が(?P<cond_stat>{stats_pattern})バフ効果を受けている場合、'
+            rf'(?P<damage_type>'
+            rf'与える全てのダメージ|与えるすべてのダメージ|'
+            rf'必殺技で与えるダメージ|'
+            rf'属性攻撃で与えるダメージ'
+            rf')'
+            r'\+#PER#(?:%|％)'
+            r'(?:\((?P<turns>\d+)(?:T|ターン)\))?'
+            r'付与$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            ", "
+            + f"{stat_map.get(m.group('cond_stat'), m.group('cond_stat'))}-Buffed Self: "
+            + f"{damage_type_map.get(m.group('damage_type'), m.group('damage_type'))} "
+            + "+#PER#%"
+            + (f"({m.group('turns')}T)" if m.group('turns') else "")
         )
     ),
 
@@ -1158,6 +1196,41 @@ patterns = [
         )
     ),
 
+    # 4️⃣2️⃣ Race-based stat buffs without timing , optional duration ✅ ---
+    (
+        re.compile(
+            r'^(?P<lead>、さらに|、|,)?'
+            r'パーティの(?P<race>魔物型|人型)キャラの'
+            r'(?P<stats>[A-Z・]+)\+#PER#%'
+            r'(?:[（(]?(?P<duration>\d+T|\d+ターン)[）)]?)?'
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + f"{race_map[m.group('race')]} Allies: "
+            + f"{m.group('stats').replace('・', '/')} +#PER#%"
+            + (f"({m.group('duration').replace('ターン', 'T')})" if m.group('duration') else "")
+        )
+    ),
+
+    # 4️⃣3️⃣  Race-based stat buffs with timing (start of battle or turn), optional duration ✅ --
+    (
+        re.compile(
+            r'^(?P<lead>、さらに|、|,)?'
+            r'(?P<timing>戦闘開始時|ターン開始時|ターン終了時)、'
+            r'パーティの(?P<race>魔物型|人型)キャラの'
+            r'(?P<stats>[A-Z・]+)\+#PER#%'
+            r'(?:[（(]?(?P<duration>\d+T|\d+ターン)[）)]?)?',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + f"{timing_map[m.group('timing')]}, "
+            + f"{race_map[m.group('race')]} Allies: "
+            + f"{m.group('stats').replace('・', '/')} +#PER#%"
+            + (f"({m.group('duration').replace('ターン', 'T')})" if m.group('duration') else "")
+        )
+    ),
+
 
     #FALLBACK. Matches unconditional party-wide damage buffs ONLY.
     # Must appear after all conditional damage rules.
@@ -1289,37 +1362,8 @@ patterns = [
                 f"{m.group('sign') or ''}{m.group('percentage')}"
             )
         )
-    ),
-
-   # Race-based stat buffs with timing (start of battle or turn), optional duration
-    (
-        re.compile(
-            r'^(?P<lead>、さらに|、|,)?(?P<timing>戦闘開始時|ターン開始時|ターン終了時)、パーティの(?P<race>魔物型|人型)キャラの(?P<stats>[A-Z・]+)\+#PER#%'
-            r'(?:\((?P<duration>\d+T|\d+ターン)\))?',
-            flags=re.UNICODE
-        ),
-        lambda m: (
-            (", " if m.group('lead') else "")
-            + f"{timing_map[m.group('timing')]}, "
-            + f"{race_map[m.group('race')]} Allies: "
-            + f"{m.group('stats').replace('・', '/')} +#PER#%"
-            + (f"({m.group('duration').replace('ターン', 'T')})" if m.group('duration') else "")
-        )
-    ),
-
-   # Race-based stat buffs without timing , optional duration
-    (
-        re.compile(
-            r'^(?P<lead>、さらに|、|,)?パーティの(?P<race>魔物型|人型)キャラの(?P<stats>[A-Z・]+)\+#PER#%'
-            r'(?:\((?P<duration>\d+T|\d+ターン)\))?'
-        ),
-        lambda m: (
-            (", " if m.group('lead') else "")
-            + f"{race_map[m.group('race')]} Allies: "
-            + f"{m.group('stats').replace('・', '/')} +#PER#%"
-            + (f"({m.group('duration').replace('ターン', 'T')})" if m.group('duration') else "")
-        )
-    ),
+    ),   
+    
 
     # Damage buffs, optional leading comma, optional duration, optional "付与" suffix
     (

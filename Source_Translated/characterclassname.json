@@ -7815,25 +7815,25 @@
     "id": 3441,
     "m_character_id": 344,
     "rarity": 1,
-    "class_name": "A kind lord"
+    "class_name": "Kind-hearted Monarch"
   },
   {
     "id": 3442,
     "m_character_id": 344,
     "rarity": 2,
-    "class_name": "A kind lord"
+    "class_name": "Kind-hearted Monarch"
   },
   {
     "id": 3443,
     "m_character_id": 344,
     "rarity": 3,
-    "class_name": "A kind lord"
+    "class_name": "Kind-hearted Monarch"
   },
   {
     "id": 3444,
     "m_character_id": 344,
     "rarity": 4,
-    "class_name": "A kind lord"
+    "class_name": "Kind-hearted Monarch"
   },
   {
     "id": 3445,
@@ -7845,7 +7845,7 @@
     "id": 3446,
     "m_character_id": 344,
     "rarity": 6,
-    "class_name": "The primal demon king who inherits courage"
+    "class_name": "The primal Overlord who inherits courage"
   },
   {
     "id": 3451,
@@ -25846,5 +25846,149 @@
     "m_character_id": 380,
     "rarity": 6,
     "class_name": "Tyrant Emerging at New Dawn"
+  },
+  {
+    "id": 3811,
+    "m_character_id": 381,
+    "rarity": 1,
+    "class_name": "Angel of Fortune"
+  },
+  {
+    "id": 3812,
+    "m_character_id": 381,
+    "rarity": 2,
+    "class_name": "Angel of Fortune"
+  },
+  {
+    "id": 3813,
+    "m_character_id": 381,
+    "rarity": 3,
+    "class_name": "Angel of Fortune"
+  },
+  {
+    "id": 3814,
+    "m_character_id": 381,
+    "rarity": 4,
+    "class_name": "Angel of Fortune"
+  },
+  {
+    "id": 3815,
+    "m_character_id": 381,
+    "rarity": 5,
+    "class_name": "An exciting first visit to the shrine"
+  },
+  {
+    "id": 3816,
+    "m_character_id": 381,
+    "rarity": 6,
+    "class_name": "Angel Descending in the Rising Sun"
+  },
+  {
+    "id": 3861,
+    "m_character_id": 386,
+    "rarity": 1,
+    "class_name": "Romantic Fantasy Heroine"
+  },
+  {
+    "id": 3862,
+    "m_character_id": 386,
+    "rarity": 2,
+    "class_name": "Romantic Fantasy Heroine"
+  },
+  {
+    "id": 3863,
+    "m_character_id": 386,
+    "rarity": 3,
+    "class_name": "Romantic Fantasy Heroine"
+  },
+  {
+    "id": 3864,
+    "m_character_id": 386,
+    "rarity": 4,
+    "class_name": "Romantic Fantasy Heroine"
+  },
+  {
+    "id": 3865,
+    "m_character_id": 386,
+    "rarity": 5,
+    "class_name": "Angel with flags of love"
+  },
+  {
+    "id": 3866,
+    "m_character_id": 386,
+    "rarity": 6,
+    "class_name": "Love Angel of the Rom-Com World"
+  },
+  {
+    "id": 3891,
+    "m_character_id": 389,
+    "rarity": 1,
+    "class_name": "School Uniform Overlord"
+  },
+  {
+    "id": 3892,
+    "m_character_id": 389,
+    "rarity": 2,
+    "class_name": "School Uniform Overlord"
+  },
+  {
+    "id": 3893,
+    "m_character_id": 389,
+    "rarity": 3,
+    "class_name": "School Uniform Overlord"
+  },
+  {
+    "id": 3894,
+    "m_character_id": 389,
+    "rarity": 4,
+    "class_name": "School Uniform Overlord"
+  },
+  {
+    "id": 3895,
+    "m_character_id": 389,
+    "rarity": 5,
+    "class_name": "Honor student next to the president"
+  },
+  {
+    "id": 3896,
+    "m_character_id": 389,
+    "rarity": 6,
+    "class_name": "Super Demon Bancho"
+  },
+  {
+    "id": 201121,
+    "m_character_id": 20112,
+    "rarity": 1,
+    "class_name": "Former Member of the Diez Gentleman Entourage"
+  },
+  {
+    "id": 201122,
+    "m_character_id": 20112,
+    "rarity": 2,
+    "class_name": "Former Member of the Diez Gentleman Entourage"
+  },
+  {
+    "id": 201123,
+    "m_character_id": 20112,
+    "rarity": 3,
+    "class_name": "Former Member of the Diez Gentleman Entourage"
+  },
+  {
+    "id": 201124,
+    "m_character_id": 20112,
+    "rarity": 4,
+    "class_name": "Former Member of the Diez Gentleman Entourage"
+  },
+  {
+    "id": 201125,
+    "m_character_id": 20112,
+    "rarity": 5,
+    "class_name": "Revived partner"
+  },
+  {
+    "id": 201126,
+    "m_character_id": 20112,
+    "rarity": 6,
+    "class_name": "New Reincarnation Mascot"
   }
 ]

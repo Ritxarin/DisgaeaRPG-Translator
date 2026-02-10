@@ -111208,7 +111208,8 @@
             16,
             20,
             17,
-            64
+            64,
+            149
         ],
         "effect_values_min": [
             310,
@@ -111217,7 +111218,8 @@
             30,
             100,
             20,
-            20
+            20,
+            10
         ],
         "effect_values_max_30": [
             340,
@@ -111226,7 +111228,8 @@
             30,
             100,
             20,
-            20
+            20,
+            10
         ],
         "effect_values_max_40": [
             353,
@@ -111235,7 +111238,8 @@
             30,
             100,
             20,
-            20
+            20,
+            10
         ],
         "effect_values_max_50": [
             358,
@@ -111244,7 +111248,8 @@
             30,
             100,
             20,
-            20
+            20,
+            10
         ],
         "variance_rates": [
             1
@@ -111256,7 +111261,8 @@
             3,
             0,
             3,
-            3
+            3,
+            2
         ],
         "effect_values_sub_max": [
             0,
@@ -111265,11 +111271,13 @@
             3,
             0,
             3,
-            3
+            3,
+            2
         ],
         "effect_values_sub2": [
             0,
             1,
+            0,
             0,
             0,
             0,
@@ -111283,6 +111291,7 @@
             1,
             4,
             1,
+            1,
             1
         ],
         "trigger_types": [
@@ -111294,7 +111303,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "炎属性耐性値-#PER2#%(3T)&DEF・RES-#PER3#%(3T)&SPD・CRT-#PER6#%(3T)[敵単],行動ゲージ+#PER5#[味方全]",
+        "description_effect": "炎属性耐性値-#PER2#%(3T)&DEF・RES-#PER3#%(3T)&SPD・CRT-#PER6#%(3T)&与えるダメージ#PER8#%ダウン(2T)付与[敵単],行動ゲージ+#PER5#[味方全]",
         "description": "凧揚げをするぞ。無論キサマが凧役だ！",
         "resource_id": 3002652,
         "continuous_attack_rates": [
@@ -111322,7 +111331,8 @@
             65,
             101,
             20,
-            8
+            8,
+            63
         ],
         "effect_values_min": [
             130,
@@ -111330,7 +111340,8 @@
             40,
             25,
             150,
-            40
+            40,
+            15
         ],
         "effect_values_max_30": [
             160,
@@ -111338,7 +111349,8 @@
             40,
             25,
             150,
-            40
+            40,
+            15
         ],
         "effect_values_max_40": [
             164,
@@ -111346,7 +111358,8 @@
             40,
             25,
             150,
-            40
+            40,
+            15
         ],
         "effect_values_max_50": [
             168,
@@ -111354,7 +111367,8 @@
             40,
             25,
             150,
-            40
+            40,
+            15
         ],
         "variance_rates": [
             1
@@ -111365,6 +111379,7 @@
             3,
             3,
             0,
+            3,
             3
         ],
         "effect_values_sub_max": [
@@ -111373,6 +111388,7 @@
             3,
             3,
             0,
+            3,
             3
         ],
         "effect_values_sub2": [
@@ -111381,11 +111397,13 @@
             0,
             0,
             0,
+            0,
             0
         ],
         "effect_targets": [
             2,
             2,
+            4,
             4,
             4,
             4,
@@ -111400,7 +111418,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "炎属性耐性値-#PER2#%(3T)[敵全],ATK・CRD+#PER3#%(3T)&与える全てのダメージ+#PER4#%(3T)付与&行動ゲージ+#PER5#[味方全]",
+        "description_effect": "炎属性耐性値-#PER2#%(3T)[敵全],ATK・CRD+#PER3#%(3T)&CRT+#PER7#%(3T)&与える全てのダメージ+#PER4#%(3T)付与&行動ゲージ+#PER5#[味方全]",
         "description": "『ハッピーニューイヤー！』と叫びながら死ね！！",
         "resource_id": 3002653,
         "continuous_attack_rates": [
@@ -111524,10 +111542,10 @@
             40,
             40,
             40,
-            30,
+            40,
             150,
             15,
-            9
+            10
         ],
         "effect_values_max_30": [
             130,
@@ -111535,10 +111553,10 @@
             40,
             40,
             40,
-            30,
+            40,
             150,
             15,
-            9
+            10
         ],
         "effect_values_max_40": [
             133,
@@ -111546,10 +111564,10 @@
             40,
             40,
             40,
-            30,
+            40,
             150,
             15,
-            9
+            10
         ],
         "effect_values_max_50": [
             136,
@@ -111557,10 +111575,10 @@
             40,
             40,
             40,
-            30,
+            40,
             150,
             15,
-            9
+            10
         ],
         "variance_rates": [
             1
@@ -111571,9 +111589,9 @@
             3,
             3,
             3,
-            2,
+            3,
             1,
-            2,
+            3,
             3
         ],
         "effect_values_sub_max": [
@@ -111582,9 +111600,9 @@
             3,
             3,
             3,
-            2,
+            3,
             1,
-            2,
+            3,
             3
         ],
         "effect_values_sub2": [
@@ -111610,7 +111628,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "敵が少ないほど威力アップ[自身],HP以外の基礎パラメータ+#PER2#%(3T)&CRD+#PER6#%(2T)&与える全てのダメージ+#PER8#%(2T)付与&SP自動回復[#PER9#](3T)付与[味方全]",
+        "description_effect": "敵が少ないほど威力アップ[自身],HP以外の基礎パラメータ・CRD+#PER2#%(3T)&与える全てのダメージ+#PER8#%(3T)付与&SP自動回復[#PER9#](3T)付与[味方全]",
         "description": "宇宙の力を得た絶勝斎は、無敵ッ！",
         "resource_id": 3002662,
         "continuous_attack_rates": [
@@ -111638,7 +111656,8 @@
             85,
             124,
             143,
-            20
+            20,
+            97
         ],
         "effect_values_min": [
             380,
@@ -111646,7 +111665,8 @@
             100,
             30,
             15,
-            1000
+            1000,
+            1
         ],
         "effect_values_max_30": [
             410,
@@ -111654,7 +111674,8 @@
             100,
             30,
             15,
-            1000
+            1000,
+            1
         ],
         "effect_values_max_40": [
             425,
@@ -111662,7 +111683,8 @@
             100,
             30,
             15,
-            1000
+            1000,
+            1
         ],
         "effect_values_max_50": [
             430,
@@ -111670,7 +111692,8 @@
             100,
             30,
             15,
-            1000
+            1000,
+            1
         ],
         "variance_rates": [
             1
@@ -111681,6 +111704,7 @@
             0,
             0,
             3,
+            0,
             0
         ],
         "effect_values_sub_max": [
@@ -111689,6 +111713,7 @@
             0,
             0,
             3,
+            0,
             0
         ],
         "effect_values_sub2": [
@@ -111697,6 +111722,7 @@
             0,
             0,
             4,
+            0,
             0
         ],
         "effect_targets": [
@@ -111705,6 +111731,7 @@
             1,
             5,
             1,
+            5,
             5
         ],
         "trigger_types": [
@@ -111713,9 +111740,11 @@
             5,
             0,
             0,
+            12,
             12
         ],
         "trigger_type_params": [
+            0,
             0,
             0,
             0,
@@ -111729,9 +111758,10 @@
             3,
             0,
             0,
+            2,
             2
         ],
-        "description_effect": "技威力+#PER2#%&技使用時のCRT+#PER4#%&敵を倒した時、行動ゲージ+#PER6#[自身],星属性耐性値-#PER5#%(3T)&クリティカル時、対象のバフを#PER3#%無視してダメージ計算[敵単]",
+        "description_effect": "技威力+#PER2#%&技使用時のCRT+#PER4#%&敵を倒した時、行動ゲージ+#PER6#&バフ継続ターン+#PER7#[自身],星属性耐性値-#PER5#%(3T)&クリティカル時、対象のバフを#PER3#%無視してダメージ計算[敵単]",
         "description": "其の龍、森羅万象を喰らう者也",
         "resource_id": 3002663,
         "continuous_attack_rates": [
@@ -153365,6 +153395,367 @@
         ]
     },
     {
+        "id": 3003811,
+        "name": "大盤振る舞い！？",
+        "name_battle": "大盤\\n振る舞い！？",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 33,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            123,
+            9,
+            11,
+            63,
+            111
+        ],
+        "effect_values_min": [
+            80,
+            100,
+            30,
+            30,
+            10,
+            25
+        ],
+        "effect_values_max_30": [
+            110,
+            100,
+            30,
+            30,
+            10,
+            25
+        ],
+        "effect_values_max_40": [
+            112,
+            100,
+            30,
+            30,
+            10,
+            25
+        ],
+        "effect_values_max_50": [
+            114,
+            100,
+            30,
+            30,
+            10,
+            25
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "HP超過回復小&DEF・RES+#PER3#%(3T)&CRT+#PER5#%(3T)&受ける全てのダメージ-#PER6#%(3T)付与[味方全]",
+        "description": "業欲天使がお年玉出す訳ねぇだろ馬鹿野郎！",
+        "resource_id": 3003811,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003812,
+        "name": "年始めの祝福",
+        "name_battle": "年始めの祝福",
+        "command_category": 3,
+        "attr": 0,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 45,
+        "sp_max_30": 40,
+        "sp_max_40": 37,
+        "sp_max_50": 34,
+        "gain_sp": 0,
+        "relational_param": 0,
+        "command_types": [
+            8,
+            65,
+            63,
+            101,
+            145,
+            48,
+            50,
+            39
+        ],
+        "effect_values_min": [
+            40,
+            40,
+            15,
+            15,
+            54,
+            100,
+            100,
+            1
+        ],
+        "effect_values_max_30": [
+            40,
+            40,
+            15,
+            15,
+            54,
+            100,
+            100,
+            1
+        ],
+        "effect_values_max_40": [
+            40,
+            40,
+            15,
+            15,
+            54,
+            100,
+            100,
+            1
+        ],
+        "effect_values_max_50": [
+            40,
+            40,
+            15,
+            15,
+            54,
+            100,
+            100,
+            1
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "[連発禁止]特殊効果[束縛]解除&ATK・INTデバフ効果解除&ATK・CRD+#PER1#%(3T)&CRT+#PER3#%(3T)&与える全てのダメージ+#PER4#%(3T)付与[味方全]",
+        "description": "心なしか幻神も張り切っているようです",
+        "resource_id": 3003812,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003813,
+        "name": "午年・アルテミス",
+        "name_battle": "午年・\\nアルテミス",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 65,
+        "sp_max_30": 60,
+        "sp_max_40": 55,
+        "sp_max_50": 53,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            141,
+            8,
+            65,
+            20,
+            6,
+            14,
+            16,
+            150
+        ],
+        "effect_values_min": [
+            380,
+            80,
+            40,
+            40,
+            150,
+            100,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_30": [
+            410,
+            80,
+            40,
+            40,
+            150,
+            100,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_40": [
+            425,
+            80,
+            40,
+            40,
+            150,
+            100,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_50": [
+            430,
+            80,
+            40,
+            40,
+            150,
+            100,
+            40,
+            40,
+            15
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            0,
+            2,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            0,
+            2,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            4,
+            4,
+            4,
+            1,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "技使用時のCRD+#PER2#%[自身],ATK・CRD+#PER3#%(3T)&クリティカル時、行動ゲージ+#PER5#[味方全],眠り効果(2T)付与&DEF・RES-#PER7#%(3T)&受けるダメージ#PER9#%アップ(3T)付与[敵単]",
+        "description": "今年は午年。つまり、わたくしの年ですわね♥",
+        "resource_id": 3003813,
+        "continuous_attack_rates": []
+    },
+    {
         "id": 3003821,
         "name": "周年心得：怪悔死期",
         "name_battle": "周年心得：\\n怪悔死期",
@@ -155030,6 +155421,845 @@
         "description_effect": "使用するほどさらに威力アップ(上限3回)&技使用時のCRD+#PER3#%&HPが満タンの時、技威力+#PER4#%[自身],ATK・CRD+#PER5#%(3T)&与える全てのダメージ+#PER7#%(3T)付与[味方全],行動ゲージ-#PER8#&対象のSPを#PER9#奪う&受けるダメージ#PER10#%アップ(2T)付与[敵単]",
         "description": "櫃に取り込まれた者の末路は、誰にも分からない……",
         "resource_id": 3003853,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003861,
+        "name": "カニチョコギブユー！",
+        "name_battle": "カニチョコ\\nギブユー！",
+        "command_category": 3,
+        "attr": 1,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            10,
+            12,
+            111
+        ],
+        "effect_values_min": [
+            60,
+            10,
+            10,
+            10,
+            20
+        ],
+        "effect_values_max_30": [
+            90,
+            10,
+            10,
+            10,
+            20
+        ],
+        "effect_values_max_40": [
+            91,
+            10,
+            10,
+            10,
+            20
+        ],
+        "effect_values_max_50": [
+            92,
+            10,
+            10,
+            10,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4,
+            3
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・INT・SPD+#PER2#%(3T)[味方全],受ける全てのダメージ-#PER5#%(3T)付与[味方単]",
+        "description": "私の想いをカニミソ愛と共に受け取ってください！！",
+        "resource_id": 3003861,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003862,
+        "name": "家諦科ラブクッキン！",
+        "name_battle": "家諦科ラブ\\nクッキン！",
+        "command_category": 3,
+        "attr": 0,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 33,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 5,
+        "command_types": [
+            123,
+            48,
+            49,
+            50,
+            51,
+            52,
+            127,
+            128,
+            20,
+            8,
+            10,
+            65,
+            63,
+            101,
+            63,
+            65
+        ],
+        "effect_values_min": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            30,
+            30,
+            30,
+            10,
+            15,
+            10,
+            20
+        ],
+        "effect_values_max_30": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            30,
+            30,
+            30,
+            10,
+            15,
+            10,
+            20
+        ],
+        "effect_values_max_40": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            30,
+            30,
+            30,
+            10,
+            15,
+            10,
+            20
+        ],
+        "effect_values_max_50": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            30,
+            30,
+            30,
+            10,
+            15,
+            10,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            14
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            75,
+            75
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "description_effect": "HP超過回復小&デバフ効果解除&行動ゲージ+#PER9#&ATK・INT・CRD+#PER10#%(3T)&CRT+#PER13#%(3T)&与える全てのダメージ+#PER14#%(3T)付与&HPが75%以上の場合、CRT+#PER15#%(3T)&CRD+#PER16#%(3T)[味方全]",
+        "description": "愛情という隠し味は、癒しの効果絶大です！",
+        "resource_id": 3003862,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003863,
+        "name": "絶対相愛フロンパンチ",
+        "name_battle": "絶対相愛\\nフロンパンチ",
+        "command_category": 3,
+        "attr": 1,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 65,
+        "sp_max_30": 60,
+        "sp_max_40": 56,
+        "sp_max_50": 52,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            23,
+            25,
+            13,
+            15,
+            64,
+            143,
+            21,
+            8,
+            10,
+            101
+        ],
+        "effect_values_min": [
+            130,
+            100,
+            100,
+            30,
+            30,
+            15,
+            15,
+            150,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_30": [
+            160,
+            100,
+            100,
+            30,
+            30,
+            15,
+            15,
+            150,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_40": [
+            164,
+            100,
+            100,
+            30,
+            30,
+            15,
+            15,
+            150,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_50": [
+            168,
+            100,
+            100,
+            30,
+            30,
+            15,
+            15,
+            150,
+            40,
+            40,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_targets": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "DEF・RESバフ効果解除&ATK・INT-#PER4#%(3T)&CRT-#PER6#%(3T)&炎属性耐性値-#PER7#%(3T)&クリティカル時、行動ゲージ-#PER8#[敵全],ATK・INT+#PER9#%(3T)&与える全てのダメージ+#PER11#%(3T)付与[味方全]",
+        "description": "新しい愛に飛び出すスリルを、あなたにも教えます！",
+        "resource_id": 3003863,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003891,
+        "name": "獄学ナッコォ！！",
+        "name_battle": "獄学\\nナッコォ！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            9,
+            12
+        ],
+        "effect_values_min": [
+            60,
+            25,
+            25,
+            5
+        ],
+        "effect_values_max_30": [
+            90,
+            25,
+            25,
+            5
+        ],
+        "effect_values_max_40": [
+            91,
+            25,
+            25,
+            5
+        ],
+        "effect_values_max_50": [
+            92,
+            25,
+            25,
+            5
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・DEF+#PER2#%(3T)&SPD+#PER4#%(3T)[味方全]",
+        "description": "そこら辺のシャバ僧などワンパンで伸してくれるわ！",
+        "resource_id": 3003891,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003892,
+        "name": "魔王パワーボム！！",
+        "name_battle": "魔王パワー\\nボム！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 50,
+        "sp_max_30": 45,
+        "sp_max_40": 41,
+        "sp_max_50": 39,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            139,
+            63,
+            8,
+            65,
+            101,
+            5,
+            14,
+            16
+        ],
+        "effect_values_min": [
+            250,
+            340,
+            15,
+            30,
+            30,
+            20,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_30": [
+            280,
+            340,
+            15,
+            30,
+            30,
+            20,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_40": [
+            291,
+            340,
+            15,
+            30,
+            30,
+            20,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_50": [
+            296,
+            340,
+            15,
+            30,
+            30,
+            20,
+            100,
+            40,
+            40
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            5,
+            3,
+            3,
+            3,
+            3,
+            2,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            5,
+            3,
+            3,
+            3,
+            3,
+            2,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            4,
+            4,
+            4,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "迎撃[星][ATK](5T)付与&CRT+#PER3#%(3T)[自身],ATK・CRD+#PER4#%(3T)&与える全てのダメージ+#PER6#%(3T)付与[味方全],マヒ効果(2T)付与&DEF・RES-#PER8#%(3T)[敵単]",
+        "description": "ワルい子はストリートで真似しちゃいけません",
+        "resource_id": 3003892,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003893,
+        "name": "喧嘩上等！！",
+        "name_battle": "喧嘩上等！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 70,
+        "sp_max_30": 65,
+        "sp_max_40": 60,
+        "sp_max_50": 58,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            141,
+            81,
+            85,
+            143,
+            101,
+            20
+        ],
+        "effect_values_min": [
+            380,
+            50,
+            20,
+            80,
+            20,
+            20,
+            150
+        ],
+        "effect_values_max_30": [
+            410,
+            50,
+            20,
+            80,
+            20,
+            20,
+            150
+        ],
+        "effect_values_max_40": [
+            425,
+            50,
+            20,
+            80,
+            20,
+            20,
+            150
+        ],
+        "effect_values_max_50": [
+            430,
+            50,
+            20,
+            80,
+            20,
+            20,
+            150
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            1,
+            1,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            4
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            2
+        ],
+        "description_effect": "技使用時のCRD+#PER2#%&対象がDEFデバフ状態の時、技威力+#PER3#%[自身],対象のバフを#PER4#%無視してダメージ計算&星属性耐性値-#PER5#%(3T)[敵単],与える全てのダメージ+#PER6#%(3T)付与&クリティカル時、行動ゲージ+#PER7#[味方全]",
+        "description": "教えてやる。邪悪学園のテッペンは、オレ様だ！！",
+        "resource_id": 3003893,
         "continuous_attack_rates": []
     },
     {
@@ -171153,71 +172383,76 @@
             51,
             52,
             127,
-            128
+            128,
+            143
         ],
         "effect_values_min": [
             80,
             1000,
-            35,
-            1,
-            1,
-            25,
             50,
+            1,
+            1,
+            30,
+            70,
             100,
             100,
             100,
             100,
             100,
             100,
-            100
+            100,
+            10
         ],
         "effect_values_max_30": [
             110,
             1000,
-            35,
-            1,
-            1,
-            25,
             50,
+            1,
+            1,
+            30,
+            70,
             100,
             100,
             100,
             100,
             100,
             100,
-            100
+            100,
+            10
         ],
         "effect_values_max_40": [
             112,
             1000,
-            35,
-            1,
-            1,
-            25,
             50,
+            1,
+            1,
+            30,
+            70,
             100,
             100,
             100,
             100,
             100,
             100,
-            100
+            100,
+            10
         ],
         "effect_values_max_50": [
             114,
             1000,
-            35,
-            1,
-            1,
-            25,
             50,
+            1,
+            1,
+            30,
+            70,
             100,
             100,
             100,
             100,
             100,
             100,
-            100
+            100,
+            10
         ],
         "variance_rates": [
             100
@@ -171236,7 +172471,8 @@
             0,
             0,
             0,
-            0
+            0,
+            3
         ],
         "effect_values_sub_max": [
             0,
@@ -171252,10 +172488,25 @@
             0,
             0,
             0,
-            0
+            0,
+            3
         ],
         "effect_values_sub2": [
-            0
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
         ],
         "effect_targets": [
             2,
@@ -171271,7 +172522,8 @@
             5,
             5,
             5,
-            5
+            5,
+            2
         ],
         "trigger_types": [
             0
@@ -171282,7 +172534,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "[連発禁止]行動ゲージ+#PER2#&INT+#PER7#%(2T)&CRD+#PER3#%(2T)&デバフ効果解除[自身]&風属性で与えるダメージ+#PER6#%(1T)付与&バフ継続ターン+#PER4#[自身]",
+        "description_effect": "[連発禁止]行動ゲージ+#PER2#&INT+#PER7#%(2T)&CRD+#PER3#%(2T)&デバフ効果解除&風属性で与えるダメージ+#PER6#%(1T)付与&バフ継続ターン+#PER4#[自身],風属性耐性値-#PER15#%(3T)[敵全]",
         "description": "無数のバトンに呼び寄せられた雷が敵を襲う",
         "resource_id": 0,
         "continuous_attack_rates": []
@@ -171461,31 +172713,36 @@
             1,
             84,
             81,
-            95
+            95,
+            141
         ],
         "effect_values_min": [
             200,
             290,
             15,
-            37
+            37,
+            60
         ],
         "effect_values_max_30": [
             230,
             290,
             15,
-            37
+            37,
+            60
         ],
         "effect_values_max_40": [
             235,
             300,
             15,
-            37
+            37,
+            60
         ],
         "effect_values_max_50": [
             240,
             300,
             15,
-            37
+            37,
+            60
         ],
         "variance_rates": [
             100
@@ -171494,22 +172751,26 @@
             0,
             1,
             0,
-            5
+            1,
+            0
         ],
         "effect_values_sub_max": [
             0,
             1,
             0,
-            5
+            1,
+            0
         ],
         "effect_values_sub2": [
             0,
             0,
             0,
-            3
+            3,
+            0
         ],
         "effect_targets": [
             2,
+            5,
             5,
             5,
             5
@@ -171518,9 +172779,11 @@
             0,
             0,
             5,
+            0,
             0
         ],
         "trigger_type_params": [
+            0,
             0,
             0,
             0,
@@ -171530,9 +172793,10 @@
             0,
             0,
             3,
+            0,
             0
         ],
-        "description_effect": "敵が少ないほど威力アップ&使用するほどさらに威力アップ(上限3回)&クリティカル時、技威力+15%[自身]",
+        "description_effect": "敵が少ないほど威力アップ&使用するほどさらに威力アップ(上限3回)&技使用時のCRD+#PER5#%& クリティカル時、技威力+#PER3#%[自身]",
         "description": "集約した魔王の力を放ち敵を消滅させる",
         "resource_id": 0,
         "continuous_attack_rates": []
@@ -177627,14 +178891,14 @@
         ],
         "effect_values_sub_min": [
             0,
-            2,
-            2,
+            3,
+            3,
             2
         ],
         "effect_values_sub_max": [
             0,
-            2,
-            2,
+            3,
+            3,
             2
         ],
         "effect_values_sub2": [
@@ -177655,7 +178919,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "DEFを-#PER4#%(2T)し、INT・CRD+#PER2#%(2T)[自身]",
+        "description_effect": "DEFを-#PER4#%(2T)し、INT・CRD+#PER2#%(3T)[自身]",
         "description": "天に放り投げた杖から魔力の粒子が降り注ぐ",
         "resource_id": 3200681,
         "continuous_attack_rates": []
@@ -177678,11 +178942,12 @@
         "command_types": [
             1,
             10,
-            103,
+            101,
             14,
             20,
             39,
-            65
+            65,
+            150
         ],
         "effect_values_min": [
             250,
@@ -177691,7 +178956,8 @@
             20,
             1000,
             1,
-            15
+            40,
+            10
         ],
         "effect_values_max_30": [
             280,
@@ -177700,7 +178966,8 @@
             20,
             1000,
             1,
-            15
+            40,
+            10
         ],
         "effect_values_max_40": [
             291,
@@ -177709,7 +178976,8 @@
             20,
             1000,
             1,
-            15
+            40,
+            10
         ],
         "effect_values_max_50": [
             296,
@@ -177718,7 +178986,8 @@
             20,
             1000,
             1,
-            15
+            40,
+            10
         ],
         "variance_rates": [
             1
@@ -177730,7 +178999,8 @@
             2,
             0,
             0,
-            3
+            3,
+            2
         ],
         "effect_values_sub_max": [
             0,
@@ -177739,7 +179009,8 @@
             2,
             0,
             0,
-            3
+            3,
+            2
         ],
         "effect_values_sub2": [
             0
@@ -177751,7 +179022,8 @@
             5,
             5,
             5,
-            5
+            5,
+            1
         ],
         "trigger_types": [
             0
@@ -177762,7 +179034,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "[連発禁止]DEFを-#PER4#%(2T)し、行動ゲージ+#PER5#&INT+#PER2#%(3T)&CRD+#PER7#%(3T)&必殺技で与えるダメージ+#PER3#%(2T)付与[自身]",
+        "description_effect": "[連発禁止]DEFを-#PER4#%(2T)し、行動ゲージ+#PER5#&INT+#PER2#%(3T)&CRD+#PER7#%(3T)&与える全てのダメージ+#PER3#%(2T)付与[自身],受けるダメージ#PER8#%アップ(2T)付与[敵単]",
         "description": "魔力を込めた杖が敵を拘束し魔力爆発を引き起こす",
         "resource_id": 3200682,
         "continuous_attack_rates": []
@@ -177787,35 +179059,40 @@
             49,
             45,
             124,
-            81
+            81,
+            121
         ],
         "effect_values_min": [
             480,
             100,
             80,
             50,
-            15
+            15,
+            10
         ],
         "effect_values_max_30": [
             510,
             100,
             80,
             50,
-            15
+            15,
+            10
         ],
         "effect_values_max_40": [
             525,
             100,
             80,
             50,
-            15
+            15,
+            10
         ],
         "effect_values_max_50": [
             540,
             100,
             80,
             50,
-            15
+            15,
+            10
         ],
         "variance_rates": [
             1
@@ -177825,20 +179102,23 @@
             0,
             1,
             0,
-            0
+            0,
+            3
         ],
         "effect_values_sub_max": [
             0,
             0,
             1,
             0,
-            0
+            0,
+            3
         ],
         "effect_values_sub2": [
             0
         ],
         "effect_targets": [
             1,
+            5,
             5,
             5,
             5,
@@ -177849,9 +179129,11 @@
             4,
             0,
             0,
-            5
+            5,
+            4
         ],
         "trigger_type_params": [
+            0,
             0,
             0,
             0,
@@ -177863,9 +179145,10 @@
             2,
             0,
             0,
-            3
+            3,
+            2
         ],
-        "description_effect": "消費SPによってさらに威力アップ&技使用時のCRT+#PER4#%&クリティカル時、DEFデバフ効果解除&技威力+#PER5#%[自身]",
+        "description_effect": "消費SPによってさらに威力アップ&技使用時のCRT+#PER4#%&クリティカル時、DEFデバフ効果解除&技威力+#PER5#%&SP自動回復[#PER6#](3T)付与[自身]",
         "description": "敵を打ち上げ天を引き裂く光線を打ち放つ",
         "resource_id": 3200683,
         "continuous_attack_rates": []
@@ -192232,6 +193515,437 @@
         "description_effect": "技使用時のCRT+#PER2#%&CRDバフ効果時、技威力+#PER3#%[自身],対象のバフを#PER4#%無視してダメージ計算&マヒ・茨効果(2T)付与&DEF・RES-#PER7#%(3T)[敵単]",
         "description": "おねえさまとの『寅午』コンビネーションデス！！",
         "resource_id": 3201113,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3201121,
+        "name": "キャット延髄斬り",
+        "name_battle": "キャット\\n延髄斬り",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 30,
+        "sp_max_30": 25,
+        "sp_max_40": 23,
+        "sp_max_50": 22,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            7,
+            14,
+            16,
+            64,
+            8
+        ],
+        "effect_values_min": [
+            160,
+            100,
+            30,
+            30,
+            25,
+            40
+        ],
+        "effect_values_max_30": [
+            190,
+            100,
+            30,
+            30,
+            25,
+            40
+        ],
+        "effect_values_max_40": [
+            197,
+            100,
+            30,
+            30,
+            25,
+            40
+        ],
+        "effect_values_max_50": [
+            202,
+            100,
+            30,
+            30,
+            25,
+            40
+        ],
+        "variance_rates": [
+            1,
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+        ],
+        "description_effect": "ド忘れ効果(2T)付与&DEF・RES-#PER3#%(2T)&男性キャラはさらにCRT-#PER5#%(2T)[敵単],ATK+#PER6#%(3T)[味方単]",
+        "description": "ネコマタに伝わるマーシャルアーツなのだ",
+        "resource_id": 3201121,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3201122,
+        "name": "ネコネコ波",
+        "name_battle": "ネコネコ波",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 50,
+        "sp_max_30": 45,
+        "sp_max_40": 42,
+        "sp_max_50": 39,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            21,
+            13,
+            15,
+            22,
+            24,
+            8,
+            65,
+            103
+        ],
+        "effect_values_min": [
+            100,
+            50,
+            25,
+            25,
+            100,
+            100,
+            30,
+            30,
+            15
+        ],
+        "effect_values_max_30": [
+            130,
+            50,
+            25,
+            25,
+            100,
+            100,
+            30,
+            30,
+            15
+        ],
+        "effect_values_max_40": [
+            133,
+            50,
+            25,
+            25,
+            100,
+            100,
+            30,
+            30,
+            15
+        ],
+        "effect_values_max_50": [
+            136,
+            50,
+            25,
+            25,
+            100,
+            100,
+            30,
+            30,
+            15
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            0,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            0,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            8,
+            8,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "行動ゲージ-#PER2#&ATK・INT-#PER3#%(3T)&人型はさらにATK・INTバフ効果解除[敵全],ATK・CRD+#PER7#%(3T)&必殺技で与えるダメージ+#PER9#%(3T)付与[味方全]",
+        "description": "少年漫画の影響モロ受けなのだ",
+        "resource_id": 3201122,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3201123,
+        "name": "バケネコラッシュ",
+        "name_battle": "バケネコ\\nラッシュ",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 70,
+        "sp_max_30": 65,
+        "sp_max_40": 60,
+        "sp_max_50": 58,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            5,
+            13,
+            14,
+            15,
+            16,
+            150,
+            33,
+            63,
+            65,
+            103
+        ],
+        "effect_values_min": [
+            380,
+            100,
+            25,
+            25,
+            25,
+            25,
+            5,
+            30,
+            10,
+            30,
+            20
+        ],
+        "effect_values_max_30": [
+            410,
+            100,
+            25,
+            25,
+            25,
+            25,
+            5,
+            30,
+            10,
+            30,
+            20
+        ],
+        "effect_values_max_40": [
+            425,
+            100,
+            25,
+            25,
+            25,
+            25,
+            5,
+            30,
+            10,
+            30,
+            20
+        ],
+        "effect_values_max_50": [
+            430,
+            100,
+            25,
+            25,
+            25,
+            25,
+            5,
+            30,
+            10,
+            30,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "マヒ効果(2T)付与&HP以外の基礎パラメータ-#PER3#%(3T)&受けるダメージ#PER7#%アップ(3T)付与[敵単],攻撃対象が女性キャラの時、SP-#PER8#[敵全],CRT+#PER9#%(3T)&CRD+#PER10#%(3T)&必殺技で与えるダメージ+#PER11#%(3T)付与[味方全]",
+        "description": "待っていろ！　若作りしたドブカスが！",
+        "resource_id": 3201123,
         "continuous_attack_rates": []
     },
     {
@@ -390614,7 +392328,8 @@
             16,
             20,
             17,
-            64
+            64,
+            149
         ],
         "effect_values_min": [
             310,
@@ -390623,7 +392338,8 @@
             30,
             100,
             20,
-            20
+            20,
+            10
         ],
         "effect_values_max_30": [
             340,
@@ -390632,7 +392348,8 @@
             30,
             100,
             20,
-            20
+            20,
+            10
         ],
         "effect_values_max_40": [
             353,
@@ -390641,7 +392358,8 @@
             30,
             100,
             20,
-            20
+            20,
+            10
         ],
         "effect_values_max_50": [
             358,
@@ -390650,7 +392368,8 @@
             30,
             100,
             20,
-            20
+            20,
+            10
         ],
         "variance_rates": [
             1
@@ -390662,7 +392381,8 @@
             3,
             0,
             3,
-            3
+            3,
+            2
         ],
         "effect_values_sub_max": [
             0,
@@ -390671,11 +392391,13 @@
             3,
             0,
             3,
-            3
+            3,
+            2
         ],
         "effect_values_sub2": [
             0,
             1,
+            0,
             0,
             0,
             0,
@@ -390689,6 +392411,7 @@
             1,
             4,
             1,
+            1,
             1
         ],
         "trigger_types": [
@@ -390700,7 +392423,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "炎属性耐性値-#PER2#%(3T)&DEF・RES-#PER3#%(3T)&SPD・CRT-#PER6#%(3T)[敵単],行動ゲージ+#PER5#[味方全]",
+        "description_effect": "炎属性耐性値-#PER2#%(3T)&DEF・RES-#PER3#%(3T)&SPD・CRT-#PER6#%(3T)&与えるダメージ#PER8#%ダウン(2T)付与[敵単],行動ゲージ+#PER5#[味方全]",
         "description": "凧揚げをするぞ。無論キサマが凧役だ！",
         "resource_id": 3002652,
         "continuous_attack_rates": [
@@ -390728,7 +392451,8 @@
             65,
             101,
             20,
-            8
+            8,
+            63
         ],
         "effect_values_min": [
             130,
@@ -390736,7 +392460,8 @@
             40,
             25,
             150,
-            40
+            40,
+            15
         ],
         "effect_values_max_30": [
             160,
@@ -390744,7 +392469,8 @@
             40,
             25,
             150,
-            40
+            40,
+            15
         ],
         "effect_values_max_40": [
             164,
@@ -390752,7 +392478,8 @@
             40,
             25,
             150,
-            40
+            40,
+            15
         ],
         "effect_values_max_50": [
             168,
@@ -390760,7 +392487,8 @@
             40,
             25,
             150,
-            40
+            40,
+            15
         ],
         "variance_rates": [
             1
@@ -390771,6 +392499,7 @@
             3,
             3,
             0,
+            3,
             3
         ],
         "effect_values_sub_max": [
@@ -390779,6 +392508,7 @@
             3,
             3,
             0,
+            3,
             3
         ],
         "effect_values_sub2": [
@@ -390787,11 +392517,13 @@
             0,
             0,
             0,
+            0,
             0
         ],
         "effect_targets": [
             2,
             2,
+            4,
             4,
             4,
             4,
@@ -390806,7 +392538,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "炎属性耐性値-#PER2#%(3T)[敵全],ATK・CRD+#PER3#%(3T)&与える全てのダメージ+#PER4#%(3T)付与&行動ゲージ+#PER5#[味方全]",
+        "description_effect": "炎属性耐性値-#PER2#%(3T)[敵全],ATK・CRD+#PER3#%(3T)&CRT+#PER7#%(3T)&与える全てのダメージ+#PER4#%(3T)付与&行動ゲージ+#PER5#[味方全]",
         "description": "『ハッピーニューイヤー！』と叫びながら死ね！！",
         "resource_id": 3002653,
         "continuous_attack_rates": [
@@ -390930,10 +392662,10 @@
             40,
             40,
             40,
-            30,
+            40,
             150,
             15,
-            9
+            10
         ],
         "effect_values_max_30": [
             130,
@@ -390941,10 +392673,10 @@
             40,
             40,
             40,
-            30,
+            40,
             150,
             15,
-            9
+            10
         ],
         "effect_values_max_40": [
             133,
@@ -390952,10 +392684,10 @@
             40,
             40,
             40,
-            30,
+            40,
             150,
             15,
-            9
+            10
         ],
         "effect_values_max_50": [
             136,
@@ -390963,10 +392695,10 @@
             40,
             40,
             40,
-            30,
+            40,
             150,
             15,
-            9
+            10
         ],
         "variance_rates": [
             1
@@ -390977,9 +392709,9 @@
             3,
             3,
             3,
-            2,
+            3,
             1,
-            2,
+            3,
             3
         ],
         "effect_values_sub_max": [
@@ -390988,9 +392720,9 @@
             3,
             3,
             3,
-            2,
+            3,
             1,
-            2,
+            3,
             3
         ],
         "effect_values_sub2": [
@@ -391016,7 +392748,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "敵が少ないほど威力アップ[自身],HP以外の基礎パラメータ+#PER2#%(3T)&CRD+#PER6#%(2T)&与える全てのダメージ+#PER8#%(2T)付与&SP自動回復[#PER9#](3T)付与[味方全]",
+        "description_effect": "敵が少ないほど威力アップ[自身],HP以外の基礎パラメータ・CRD+#PER2#%(3T)&与える全てのダメージ+#PER8#%(3T)付与&SP自動回復[#PER9#](3T)付与[味方全]",
         "description": "宇宙の力を得た絶勝斎は、無敵ッ！",
         "resource_id": 3002662,
         "continuous_attack_rates": [
@@ -391044,7 +392776,8 @@
             85,
             124,
             143,
-            20
+            20,
+            97
         ],
         "effect_values_min": [
             380,
@@ -391052,7 +392785,8 @@
             100,
             30,
             15,
-            1000
+            1000,
+            1
         ],
         "effect_values_max_30": [
             410,
@@ -391060,7 +392794,8 @@
             100,
             30,
             15,
-            1000
+            1000,
+            1
         ],
         "effect_values_max_40": [
             425,
@@ -391068,7 +392803,8 @@
             100,
             30,
             15,
-            1000
+            1000,
+            1
         ],
         "effect_values_max_50": [
             430,
@@ -391076,7 +392812,8 @@
             100,
             30,
             15,
-            1000
+            1000,
+            1
         ],
         "variance_rates": [
             1
@@ -391087,6 +392824,7 @@
             0,
             0,
             3,
+            0,
             0
         ],
         "effect_values_sub_max": [
@@ -391095,6 +392833,7 @@
             0,
             0,
             3,
+            0,
             0
         ],
         "effect_values_sub2": [
@@ -391103,6 +392842,7 @@
             0,
             0,
             4,
+            0,
             0
         ],
         "effect_targets": [
@@ -391111,6 +392851,7 @@
             1,
             5,
             1,
+            5,
             5
         ],
         "trigger_types": [
@@ -391119,9 +392860,11 @@
             5,
             0,
             0,
+            12,
             12
         ],
         "trigger_type_params": [
+            0,
             0,
             0,
             0,
@@ -391135,9 +392878,10 @@
             3,
             0,
             0,
+            2,
             2
         ],
-        "description_effect": "技威力+#PER2#%&技使用時のCRT+#PER4#%&敵を倒した時、行動ゲージ+#PER6#[自身],星属性耐性値-#PER5#%(3T)&クリティカル時、対象のバフを#PER3#%無視してダメージ計算[敵単]",
+        "description_effect": "技威力+#PER2#%&技使用時のCRT+#PER4#%&敵を倒した時、行動ゲージ+#PER6#&バフ継続ターン+#PER7#[自身],星属性耐性値-#PER5#%(3T)&クリティカル時、対象のバフを#PER3#%無視してダメージ計算[敵単]",
         "description": "其の龍、森羅万象を喰らう者也",
         "resource_id": 3002663,
         "continuous_attack_rates": [
@@ -432771,6 +434515,367 @@
         ]
     },
     {
+        "id": 4003811,
+        "name": "大盤振る舞い！？",
+        "name_battle": "大盤\\n振る舞い！？",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 33,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            123,
+            9,
+            11,
+            63,
+            111
+        ],
+        "effect_values_min": [
+            88,
+            100,
+            30,
+            30,
+            10,
+            25
+        ],
+        "effect_values_max_30": [
+            118,
+            100,
+            30,
+            30,
+            10,
+            25
+        ],
+        "effect_values_max_40": [
+            120,
+            100,
+            30,
+            30,
+            10,
+            25
+        ],
+        "effect_values_max_50": [
+            122,
+            100,
+            30,
+            30,
+            10,
+            25
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "HP超過回復小&DEF・RES+#PER3#%(3T)&CRT+#PER5#%(3T)&受ける全てのダメージ-#PER6#%(3T)付与[味方全]",
+        "description": "業欲天使がお年玉出す訳ねぇだろ馬鹿野郎！",
+        "resource_id": 3003811,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003812,
+        "name": "年始めの祝福",
+        "name_battle": "年始めの祝福",
+        "command_category": 3,
+        "attr": 0,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 41,
+        "sp_max_30": 36,
+        "sp_max_40": 33,
+        "sp_max_50": 30,
+        "gain_sp": 0,
+        "relational_param": 0,
+        "command_types": [
+            8,
+            65,
+            63,
+            101,
+            145,
+            48,
+            50,
+            39
+        ],
+        "effect_values_min": [
+            40,
+            40,
+            15,
+            15,
+            54,
+            100,
+            100,
+            1
+        ],
+        "effect_values_max_30": [
+            40,
+            40,
+            15,
+            15,
+            54,
+            100,
+            100,
+            1
+        ],
+        "effect_values_max_40": [
+            40,
+            40,
+            15,
+            15,
+            54,
+            100,
+            100,
+            1
+        ],
+        "effect_values_max_50": [
+            40,
+            40,
+            15,
+            15,
+            54,
+            100,
+            100,
+            1
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "[連発禁止]特殊効果[束縛]解除&ATK・INTデバフ効果解除&ATK・CRD+#PER1#%(3T)&CRT+#PER3#%(3T)&与える全てのダメージ+#PER4#%(3T)付与[味方全]",
+        "description": "心なしか幻神も張り切っているようです",
+        "resource_id": 3003812,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003813,
+        "name": "午年・アルテミス",
+        "name_battle": "午年・\\nアルテミス",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 60,
+        "sp_max_30": 55,
+        "sp_max_40": 50,
+        "sp_max_50": 48,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            141,
+            8,
+            65,
+            20,
+            6,
+            14,
+            16,
+            150
+        ],
+        "effect_values_min": [
+            380,
+            80,
+            40,
+            40,
+            150,
+            100,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_30": [
+            410,
+            80,
+            40,
+            40,
+            150,
+            100,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_40": [
+            425,
+            80,
+            40,
+            40,
+            150,
+            100,
+            40,
+            40,
+            15
+        ],
+        "effect_values_max_50": [
+            430,
+            80,
+            40,
+            40,
+            150,
+            100,
+            40,
+            40,
+            15
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            0,
+            2,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            0,
+            2,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            4,
+            4,
+            4,
+            1,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "技使用時のCRD+#PER2#%[自身],ATK・CRD+#PER3#%(3T)&クリティカル時、行動ゲージ+#PER5#[味方全],眠り効果(2T)付与&DEF・RES-#PER7#%(3T)&受けるダメージ#PER9#%アップ(3T)付与[敵単]",
+        "description": "今年は午年。つまり、わたくしの年ですわね♥",
+        "resource_id": 3003813,
+        "continuous_attack_rates": []
+    },
+    {
         "id": 4003821,
         "name": "周年心得：怪悔死期",
         "name_battle": "周年心得：\\n怪悔死期",
@@ -434436,6 +436541,845 @@
         "description_effect": "使用するほどさらに威力アップ(上限3回)&技使用時のCRD+#PER3#%&HPが満タンの時、技威力+#PER4#%[自身],ATK・CRD+#PER5#%(3T)&与える全てのダメージ+#PER7#%(3T)付与[味方全],行動ゲージ-#PER8#&対象のSPを#PER9#奪う&受けるダメージ#PER10#%アップ(2T)付与[敵単]",
         "description": "櫃に取り込まれた者の末路は、誰にも分からない……",
         "resource_id": 3003853,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003861,
+        "name": "カニチョコギブユー！",
+        "name_battle": "カニチョコ\\nギブユー！",
+        "command_category": 3,
+        "attr": 1,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            10,
+            12,
+            111
+        ],
+        "effect_values_min": [
+            68,
+            10,
+            10,
+            10,
+            20
+        ],
+        "effect_values_max_30": [
+            98,
+            10,
+            10,
+            10,
+            20
+        ],
+        "effect_values_max_40": [
+            99,
+            10,
+            10,
+            10,
+            20
+        ],
+        "effect_values_max_50": [
+            100,
+            10,
+            10,
+            10,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4,
+            3
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・INT・SPD+#PER2#%(3T)[味方全],受ける全てのダメージ-#PER5#%(3T)付与[味方単]",
+        "description": "私の想いをカニミソ愛と共に受け取ってください！！",
+        "resource_id": 3003861,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003862,
+        "name": "家諦科ラブクッキン！",
+        "name_battle": "家諦科ラブ\\nクッキン！",
+        "command_category": 3,
+        "attr": 0,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 37,
+        "sp_max_30": 32,
+        "sp_max_40": 30,
+        "sp_max_50": 28,
+        "gain_sp": 0,
+        "relational_param": 5,
+        "command_types": [
+            123,
+            48,
+            49,
+            50,
+            51,
+            52,
+            127,
+            128,
+            20,
+            8,
+            10,
+            65,
+            63,
+            101,
+            63,
+            65
+        ],
+        "effect_values_min": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            30,
+            30,
+            30,
+            10,
+            15,
+            10,
+            20
+        ],
+        "effect_values_max_30": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            30,
+            30,
+            30,
+            10,
+            15,
+            10,
+            20
+        ],
+        "effect_values_max_40": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            30,
+            30,
+            30,
+            10,
+            15,
+            10,
+            20
+        ],
+        "effect_values_max_50": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            30,
+            30,
+            30,
+            10,
+            15,
+            10,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            14
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            75,
+            75
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "description_effect": "HP超過回復小&デバフ効果解除&行動ゲージ+#PER9#&ATK・INT・CRD+#PER10#%(3T)&CRT+#PER13#%(3T)&与える全てのダメージ+#PER14#%(3T)付与&HPが75%以上の場合、CRT+#PER15#%(3T)&CRD+#PER16#%(3T)[味方全]",
+        "description": "愛情という隠し味は、癒しの効果絶大です！",
+        "resource_id": 3003862,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003863,
+        "name": "絶対相愛フロンパンチ",
+        "name_battle": "絶対相愛\\nフロンパンチ",
+        "command_category": 3,
+        "attr": 1,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 61,
+        "sp_max_30": 56,
+        "sp_max_40": 52,
+        "sp_max_50": 48,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            23,
+            25,
+            13,
+            15,
+            64,
+            143,
+            21,
+            8,
+            10,
+            101
+        ],
+        "effect_values_min": [
+            130,
+            100,
+            100,
+            30,
+            30,
+            15,
+            15,
+            150,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_30": [
+            160,
+            100,
+            100,
+            30,
+            30,
+            15,
+            15,
+            150,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_40": [
+            164,
+            100,
+            100,
+            30,
+            30,
+            15,
+            15,
+            150,
+            40,
+            40,
+            20
+        ],
+        "effect_values_max_50": [
+            168,
+            100,
+            100,
+            30,
+            30,
+            15,
+            15,
+            150,
+            40,
+            40,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_targets": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "DEF・RESバフ効果解除&ATK・INT-#PER4#%(3T)&CRT-#PER6#%(3T)&炎属性耐性値-#PER7#%(3T)&クリティカル時、行動ゲージ-#PER8#[敵全],ATK・INT+#PER9#%(3T)&与える全てのダメージ+#PER11#%(3T)付与[味方全]",
+        "description": "新しい愛に飛び出すスリルを、あなたにも教えます！",
+        "resource_id": 3003863,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003891,
+        "name": "獄学ナッコォ！！",
+        "name_battle": "獄学\\nナッコォ！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            9,
+            12
+        ],
+        "effect_values_min": [
+            68,
+            25,
+            25,
+            5
+        ],
+        "effect_values_max_30": [
+            98,
+            25,
+            25,
+            5
+        ],
+        "effect_values_max_40": [
+            99,
+            25,
+            25,
+            5
+        ],
+        "effect_values_max_50": [
+            100,
+            25,
+            25,
+            5
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・DEF+#PER2#%(3T)&SPD+#PER4#%(3T)[味方全]",
+        "description": "そこら辺のシャバ僧などワンパンで伸してくれるわ！",
+        "resource_id": 3003891,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003892,
+        "name": "魔王パワーボム！！",
+        "name_battle": "魔王パワー\\nボム！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 46,
+        "sp_max_30": 41,
+        "sp_max_40": 37,
+        "sp_max_50": 35,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            139,
+            63,
+            8,
+            65,
+            101,
+            5,
+            14,
+            16
+        ],
+        "effect_values_min": [
+            250,
+            340,
+            15,
+            30,
+            30,
+            20,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_30": [
+            280,
+            340,
+            15,
+            30,
+            30,
+            20,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_40": [
+            291,
+            340,
+            15,
+            30,
+            30,
+            20,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_50": [
+            296,
+            340,
+            15,
+            30,
+            30,
+            20,
+            100,
+            40,
+            40
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            5,
+            3,
+            3,
+            3,
+            3,
+            2,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            5,
+            3,
+            3,
+            3,
+            3,
+            2,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            4,
+            4,
+            4,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "迎撃[星][ATK](5T)付与&CRT+#PER3#%(3T)[自身],ATK・CRD+#PER4#%(3T)&与える全てのダメージ+#PER6#%(3T)付与[味方全],マヒ効果(2T)付与&DEF・RES-#PER8#%(3T)[敵単]",
+        "description": "ワルい子はストリートで真似しちゃいけません",
+        "resource_id": 3003892,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003893,
+        "name": "喧嘩上等！！",
+        "name_battle": "喧嘩上等！！",
+        "command_category": 3,
+        "attr": 4,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 70,
+        "sp_max_30": 65,
+        "sp_max_40": 60,
+        "sp_max_50": 58,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            141,
+            81,
+            85,
+            143,
+            101,
+            20
+        ],
+        "effect_values_min": [
+            390,
+            50,
+            20,
+            80,
+            20,
+            20,
+            150
+        ],
+        "effect_values_max_30": [
+            420,
+            50,
+            20,
+            80,
+            20,
+            20,
+            150
+        ],
+        "effect_values_max_40": [
+            435,
+            50,
+            20,
+            80,
+            20,
+            20,
+            150
+        ],
+        "effect_values_max_50": [
+            440,
+            50,
+            20,
+            80,
+            20,
+            20,
+            150
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            1,
+            1,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            4
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            2
+        ],
+        "description_effect": "技使用時のCRD+#PER2#%&対象がDEFデバフ状態の時、技威力+#PER3#%[自身],対象のバフを#PER4#%無視してダメージ計算&星属性耐性値-#PER5#%(3T)[敵単],与える全てのダメージ+#PER6#%(3T)付与&クリティカル時、行動ゲージ+#PER7#[味方全]",
+        "description": "教えてやる。邪悪学園のテッペンは、オレ様だ！！",
+        "resource_id": 3003893,
         "continuous_attack_rates": []
     },
     {
@@ -447778,71 +450722,76 @@
             51,
             52,
             127,
-            128
+            128,
+            143
         ],
         "effect_values_min": [
             88,
             1000,
-            35,
-            1,
-            1,
-            25,
             50,
+            1,
+            1,
+            30,
+            70,
             100,
             100,
             100,
             100,
             100,
             100,
-            100
+            100,
+            10
         ],
         "effect_values_max_30": [
             118,
             1000,
-            35,
-            1,
-            1,
-            25,
             50,
+            1,
+            1,
+            30,
+            70,
             100,
             100,
             100,
             100,
             100,
             100,
-            100
+            100,
+            10
         ],
         "effect_values_max_40": [
             120,
             1000,
-            35,
-            1,
-            1,
-            25,
             50,
+            1,
+            1,
+            30,
+            70,
             100,
             100,
             100,
             100,
             100,
             100,
-            100
+            100,
+            10
         ],
         "effect_values_max_50": [
             122,
             1000,
-            35,
-            1,
-            1,
-            25,
             50,
+            1,
+            1,
+            30,
+            70,
             100,
             100,
             100,
             100,
             100,
             100,
-            100
+            100,
+            10
         ],
         "variance_rates": [
             100
@@ -447861,7 +450810,8 @@
             0,
             0,
             0,
-            0
+            0,
+            3
         ],
         "effect_values_sub_max": [
             0,
@@ -447877,10 +450827,25 @@
             0,
             0,
             0,
-            0
+            0,
+            3
         ],
         "effect_values_sub2": [
-            0
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
         ],
         "effect_targets": [
             2,
@@ -447896,7 +450861,8 @@
             5,
             5,
             5,
-            5
+            5,
+            2
         ],
         "trigger_types": [
             0
@@ -447907,7 +450873,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "[連発禁止]行動ゲージ+#PER2#&INT+#PER7#%(2T)&CRD+#PER3#%(2T)&デバフ効果解除[自身]&風属性で与えるダメージ+#PER6#%(1T)付与&バフ継続ターン+#PER4#[自身]",
+        "description_effect": "[連発禁止]行動ゲージ+#PER2#&INT+#PER7#%(2T)&CRD+#PER3#%(2T)&デバフ効果解除&風属性で与えるダメージ+#PER6#%(1T)付与&バフ継続ターン+#PER4#[自身],風属性耐性値-#PER15#%(3T)[敵全]",
         "description": "無数のバトンに呼び寄せられた雷が敵を襲う",
         "resource_id": 3200461,
         "continuous_attack_rates": []
@@ -448086,31 +451052,36 @@
             1,
             84,
             81,
-            95
+            95,
+            141
         ],
         "effect_values_min": [
             200,
             290,
             15,
-            37
+            37,
+            60
         ],
         "effect_values_max_30": [
             230,
             290,
             15,
-            37
+            37,
+            60
         ],
         "effect_values_max_40": [
             235,
             300,
             15,
-            37
+            37,
+            60
         ],
         "effect_values_max_50": [
             240,
             300,
             15,
-            37
+            37,
+            60
         ],
         "variance_rates": [
             100
@@ -448119,22 +451090,26 @@
             0,
             1,
             0,
-            5
+            1,
+            0
         ],
         "effect_values_sub_max": [
             0,
             1,
             0,
-            5
+            1,
+            0
         ],
         "effect_values_sub2": [
             0,
             0,
             0,
-            3
+            3,
+            0
         ],
         "effect_targets": [
             2,
+            5,
             5,
             5,
             5
@@ -448143,9 +451118,11 @@
             0,
             0,
             5,
+            0,
             0
         ],
         "trigger_type_params": [
+            0,
             0,
             0,
             0,
@@ -448155,9 +451132,10 @@
             0,
             0,
             3,
+            0,
             0
         ],
-        "description_effect": "敵が少ないほど威力アップ&使用するほどさらに威力アップ(上限3回)&クリティカル時、技威力+15%[自身]",
+        "description_effect": "敵が少ないほど威力アップ&使用するほどさらに威力アップ(上限3回)&技使用時のCRD+#PER5#%& クリティカル時、技威力+#PER3#%[自身]",
         "description": "集約した魔王の力を放ち敵を消滅させる",
         "resource_id": 3200463,
         "continuous_attack_rates": []
@@ -454252,14 +457230,14 @@
         ],
         "effect_values_sub_min": [
             0,
-            2,
-            2,
+            3,
+            3,
             2
         ],
         "effect_values_sub_max": [
             0,
-            2,
-            2,
+            3,
+            3,
             2
         ],
         "effect_values_sub2": [
@@ -454280,7 +457258,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "DEFを-#PER4#%(2T)し、INT・CRD+#PER2#%(2T)[自身]",
+        "description_effect": "DEFを-#PER4#%(2T)し、INT・CRD+#PER2#%(3T)[自身]",
         "description": "天に放り投げた杖から魔力の粒子が降り注ぐ",
         "resource_id": 3200681,
         "continuous_attack_rates": []
@@ -454303,11 +457281,12 @@
         "command_types": [
             1,
             10,
-            103,
+            101,
             14,
             20,
             39,
-            65
+            65,
+            150
         ],
         "effect_values_min": [
             260,
@@ -454316,7 +457295,8 @@
             20,
             1000,
             1,
-            15
+            40,
+            10
         ],
         "effect_values_max_30": [
             290,
@@ -454325,7 +457305,8 @@
             20,
             1000,
             1,
-            15
+            40,
+            10
         ],
         "effect_values_max_40": [
             301,
@@ -454334,7 +457315,8 @@
             20,
             1000,
             1,
-            15
+            40,
+            10
         ],
         "effect_values_max_50": [
             306,
@@ -454343,7 +457325,8 @@
             20,
             1000,
             1,
-            15
+            40,
+            10
         ],
         "variance_rates": [
             1
@@ -454355,7 +457338,8 @@
             2,
             0,
             0,
-            3
+            3,
+            2
         ],
         "effect_values_sub_max": [
             0,
@@ -454364,7 +457348,8 @@
             2,
             0,
             0,
-            3
+            3,
+            2
         ],
         "effect_values_sub2": [
             0
@@ -454376,7 +457361,8 @@
             5,
             5,
             5,
-            5
+            5,
+            1
         ],
         "trigger_types": [
             0
@@ -454387,7 +457373,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "[連発禁止]DEFを-#PER4#%(2T)し、行動ゲージ+#PER5#&INT+#PER2#%(3T)&CRD+#PER7#%(3T)&必殺技で与えるダメージ+#PER3#%(2T)付与[自身]",
+        "description_effect": "[連発禁止]DEFを-#PER4#%(2T)し、行動ゲージ+#PER5#&INT+#PER2#%(3T)&CRD+#PER7#%(3T)&与える全てのダメージ+#PER3#%(2T)付与[自身],受けるダメージ#PER8#%アップ(2T)付与[敵単]",
         "description": "魔力を込めた杖が敵を拘束し魔力爆発を引き起こす",
         "resource_id": 3200682,
         "continuous_attack_rates": []
@@ -454412,35 +457398,40 @@
             49,
             45,
             124,
-            81
+            81,
+            121
         ],
         "effect_values_min": [
             480,
             100,
             80,
             50,
-            15
+            15,
+            10
         ],
         "effect_values_max_30": [
             510,
             100,
             80,
             50,
-            15
+            15,
+            10
         ],
         "effect_values_max_40": [
             525,
             100,
             80,
             50,
-            15
+            15,
+            10
         ],
         "effect_values_max_50": [
             540,
             100,
             80,
             50,
-            15
+            15,
+            10
         ],
         "variance_rates": [
             1
@@ -454450,20 +457441,23 @@
             0,
             1,
             0,
-            0
+            0,
+            3
         ],
         "effect_values_sub_max": [
             0,
             0,
             1,
             0,
-            0
+            0,
+            3
         ],
         "effect_values_sub2": [
             0
         ],
         "effect_targets": [
             1,
+            5,
             5,
             5,
             5,
@@ -454474,9 +457468,11 @@
             4,
             0,
             0,
-            5
+            5,
+            4
         ],
         "trigger_type_params": [
+            0,
             0,
             0,
             0,
@@ -454488,9 +457484,10 @@
             2,
             0,
             0,
-            3
+            3,
+            2
         ],
-        "description_effect": "消費SPによってさらに威力アップ&技使用時のCRT+#PER4#%&クリティカル時、DEFデバフ効果解除&技威力+#PER5#%[自身]",
+        "description_effect": "消費SPによってさらに威力アップ&技使用時のCRT+#PER4#%&クリティカル時、DEFデバフ効果解除&技威力+#PER5#%&SP自動回復[#PER6#](3T)付与[自身]",
         "description": "敵を打ち上げ天を引き裂く光線を打ち放つ",
         "resource_id": 3200683,
         "continuous_attack_rates": []
@@ -468857,6 +471854,437 @@
         "description_effect": "技使用時のCRT+#PER2#%&CRDバフ効果時、技威力+#PER3#%[自身],対象のバフを#PER4#%無視してダメージ計算&マヒ・茨効果(2T)付与&DEF・RES-#PER7#%(3T)[敵単]",
         "description": "おねえさまとの『寅午』コンビネーションデス！！",
         "resource_id": 3201113,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4201121,
+        "name": "キャット延髄斬り",
+        "name_battle": "キャット\\n延髄斬り",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 30,
+        "sp_max_30": 25,
+        "sp_max_40": 23,
+        "sp_max_50": 22,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            7,
+            14,
+            16,
+            64,
+            8
+        ],
+        "effect_values_min": [
+            170,
+            100,
+            30,
+            30,
+            25,
+            40
+        ],
+        "effect_values_max_30": [
+            200,
+            100,
+            30,
+            30,
+            25,
+            40
+        ],
+        "effect_values_max_40": [
+            207,
+            100,
+            30,
+            30,
+            25,
+            40
+        ],
+        "effect_values_max_50": [
+            212,
+            100,
+            30,
+            30,
+            25,
+            40
+        ],
+        "variance_rates": [
+            1,
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+        ],
+        "description_effect": "ド忘れ効果(2T)付与&DEF・RES-#PER3#%(2T)&男性キャラはさらにCRT-#PER5#%(2T)[敵単],ATK+#PER6#%(3T)[味方単]",
+        "description": "ネコマタに伝わるマーシャルアーツなのだ",
+        "resource_id": 3201121,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4201122,
+        "name": "ネコネコ波",
+        "name_battle": "ネコネコ波",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 46,
+        "sp_max_30": 41,
+        "sp_max_40": 38,
+        "sp_max_50": 35,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            21,
+            13,
+            15,
+            22,
+            24,
+            8,
+            65,
+            103
+        ],
+        "effect_values_min": [
+            100,
+            50,
+            25,
+            25,
+            100,
+            100,
+            30,
+            30,
+            15
+        ],
+        "effect_values_max_30": [
+            130,
+            50,
+            25,
+            25,
+            100,
+            100,
+            30,
+            30,
+            15
+        ],
+        "effect_values_max_40": [
+            133,
+            50,
+            25,
+            25,
+            100,
+            100,
+            30,
+            30,
+            15
+        ],
+        "effect_values_max_50": [
+            136,
+            50,
+            25,
+            25,
+            100,
+            100,
+            30,
+            30,
+            15
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            3,
+            3,
+            0,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            3,
+            3,
+            0,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            8,
+            8,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "行動ゲージ-#PER2#&ATK・INT-#PER3#%(3T)&人型はさらにATK・INTバフ効果解除[敵全],ATK・CRD+#PER7#%(3T)&必殺技で与えるダメージ+#PER9#%(3T)付与[味方全]",
+        "description": "少年漫画の影響モロ受けなのだ",
+        "resource_id": 3201122,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4201123,
+        "name": "バケネコラッシュ",
+        "name_battle": "バケネコ\\nラッシュ",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 70,
+        "sp_max_30": 65,
+        "sp_max_40": 60,
+        "sp_max_50": 58,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            5,
+            13,
+            14,
+            15,
+            16,
+            150,
+            33,
+            63,
+            65,
+            103
+        ],
+        "effect_values_min": [
+            390,
+            100,
+            25,
+            25,
+            25,
+            25,
+            5,
+            30,
+            10,
+            30,
+            20
+        ],
+        "effect_values_max_30": [
+            420,
+            100,
+            25,
+            25,
+            25,
+            25,
+            5,
+            30,
+            10,
+            30,
+            20
+        ],
+        "effect_values_max_40": [
+            435,
+            100,
+            25,
+            25,
+            25,
+            25,
+            5,
+            30,
+            10,
+            30,
+            20
+        ],
+        "effect_values_max_50": [
+            440,
+            100,
+            25,
+            25,
+            25,
+            25,
+            5,
+            30,
+            10,
+            30,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+        ],
+        "description_effect": "マヒ効果(2T)付与&HP以外の基礎パラメータ-#PER3#%(3T)&受けるダメージ#PER7#%アップ(3T)付与[敵単],攻撃対象が女性キャラの時、SP-#PER8#[敵全],CRT+#PER9#%(3T)&CRD+#PER10#%(3T)&必殺技で与えるダメージ+#PER11#%(3T)付与[味方全]",
+        "description": "待っていろ！　若作りしたドブカスが！",
+        "resource_id": 3201123,
         "continuous_attack_rates": []
     },
     {

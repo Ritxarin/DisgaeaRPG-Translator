@@ -75,7 +75,7 @@ class Helper:
 
     def get_android_file_timestamps(self, android_path) -> dict:
         result = subprocess.run(
-            ["adb", "shell", "ls", "-lR", android_path],
+            [str(Config.ADB_PATH), "shell", "ls", "-lR", android_path],
             capture_output=True, text=True
         )
 
@@ -104,7 +104,7 @@ class Helper:
                 if ( mod_time > last_execution_timestamp) or mod_time < initial_setup_timestamp:
                     print(f"Pulling updated file: {filename}")
                     subprocess.run([
-                        "adb", "pull",
+                        str(Config.ADB_PATH), "pull",
                         f"{remote_path}/{filename}",
                         f"{local_path}/{filename}"
                     ])
@@ -114,7 +114,7 @@ class Helper:
         output_dir.mkdir(exist_ok=True)
 
         result = subprocess.run([
-            "./platform-tools//adb.exe", "pull",
+            str(Config.ADB_PATH), "pull",
             Paths.GAME_MASTERS_Android,
             str(output_dir)
         ], capture_output=True, text=True)
@@ -124,7 +124,7 @@ class Helper:
             sys.exit(1)
 
     def pull_file_from_mobile(remote_file, local_file):
-        command = ["./platform-tools//adb.exe", "pull", remote_file, local_file]
+        command = [str(Config.ADB_PATH), "pull", remote_file, local_file]
         result = subprocess.run(command, check=True, capture_output=True, text=True)
 
         if result.returncode != 0:
@@ -135,7 +135,7 @@ class Helper:
         """
         Check if a specific file exists on the Android device using ADB.
         """
-        command = ["./platform-tools//adb.exe", "shell", "test", "-f", remote_file]
+        command = [str(Config.ADB_PATH), "shell", "test", "-f", remote_file]
         result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         
         # If the file exists, test will return a 0 status code
@@ -160,7 +160,7 @@ class Helper:
                 if os.path.exists(patched_file):  # Check if the file exists in local working dir
                     if Helper.check_file_exists_on_device(remote_file):                       
                         print(f"           ├─ 📤 Pushing {relative_path} → {remote_file}")
-                        command = ["./platform-tools//adb.exe", "push", str(patched_file), remote_file]
+                        command = [str(Config.ADB_PATH), "push", str(patched_file), remote_file]
                         subprocess.run(command, check=True)
 
         print(f"       ├─ ✅ Finished pushing all patched textures.")
@@ -168,7 +168,7 @@ class Helper:
     def adb_push_file(local_path: Path, remote_path: str, filename:str):
         # Push each file to the target location on the device
         result = subprocess.run([
-            "./platform-tools//adb.exe", "push", str(local_path), f"{remote_path}/{filename}"
+            str(Config.ADB_PATH), "push", str(local_path), f"{remote_path}/{filename}"
         ], capture_output=True, text=True)
 
         if result.returncode == 0:

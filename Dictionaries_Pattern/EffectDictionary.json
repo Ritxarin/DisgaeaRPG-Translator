@@ -46,6 +46,7 @@
   "茨効果": "Thorns",
   "茨効果付与": "Thorns",
   "マヒ・茨効果": "Paralysis/Thorns",
+  "特殊効果[束縛]解除" : "Remove [Bind]",
 
   "HP回復中": "Heal",
   "HP回復小": "Small Heal",
@@ -98,6 +99,11 @@
   "自分の残体力#PER8#%減少": "Reduce remaining HP by #PER8#%",
   "自分の残体力#PER9#%減少": "Reduce remaining HP by #PER9#%",
 
+  "対象の残体力#PER1#%の割合ダメージ" : "#PER1#% Fixed Damage",
+
+  "男性キャラはさらに" : "Male characters ",
+  "攻撃対象が女性キャラの時、" : "If target is female, ",
+
   "バフ貫通": "Ignore Buffs",
   "バフ効果継続ターン": "Buff duration",
   "行動ゲージ": "Action Gauge",
@@ -132,6 +138,16 @@
   "バフ強奪": " Buff Steal",
 
   "受ける全てのダメージ": "Damage Taken",
+  "受けるダメージ#PER3#%アップ#" : "Damage Taken +#PER3#%",
+  "受けるダメージ#PER4#%アップ#" : "Damage Taken +#PER4#%",
+  "受けるダメージ#PER5#%アップ#" : "Damage Taken +#PER5#%",
+  "受けるダメージ#PER6#%アップ#" : "Damage Taken +#PER6#%",
+  "受けるダメージ#PER7#%アップ#" : "Damage Taken +#PER7#%",
+  "受けるダメージ#PER8#%アップ#" : "Damage Taken +#PER8#%",
+  "受けるダメージ#PER9#%アップ#" : "Damage Taken +#PER9#%",
+  "受けるダメージ#PER10#%アップ#" : "Damage Taken +#PER10#%",
+  "受けるダメージ#PER11#%アップ#" : "Damage Taken +#PER11#%",
+  "受けるダメージ#PER12#%アップ#" : "Damage Taken +#PER12#%",
   "受ける全てのﾀﾞﾒｰｼﾞ-": "Damage Received -",
   "受けるﾀﾞﾒｰｼﾞ": "Damage Taken",
   "与えるダメージ": "Reduce Damage dealt",
@@ -227,6 +243,7 @@
   "残体力が多いほどさらに威力アップ": "Power increases with more remaining health",
   "全てのダメージアップ効果解除": "Damage buff effect removal",
   "残HPが多いほどさらに威力アップ": "Damage increases with more HP remaining",
+  "消費SPによってさらに威力アップ" : "Use all current SP to increase Skill Power",
 
   "攻撃対象が受けているデバフ種類が多いほどダメージアップ": "Damage increases with the number of debuff types inflicted on the target ",
   "敵が少ないほど威力アップ": "Increase damage with fewer enemies",
@@ -285,6 +302,7 @@
 
   "DEFバフ状態の味方がいる時、": "[When ally has a DEF buff]",
   "対象のHPが75%以下の場合、": "If 75% or less HP, ",
+  "対象の体力が75%以下の場合、": "If target's HP is 75% or less, ",
   "体力が30%以下の場合、": "If HP is below 30%, ",
   "体力が1%以下の場合、": "If current HP is 1% or less, ",
 
@@ -350,5 +368,6 @@
   "]付与(": "](",
 
   "#%付与": "#%",
-  "#奪う&": "#&"
+  "#奪う&": "#&",
+  "し、" : "but, "
 }

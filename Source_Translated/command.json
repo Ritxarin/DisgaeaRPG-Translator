@@ -25538,8 +25538,8 @@
   },
   {
     "id": 311,
-    "name": "Cat Cat Wave+",
-    "name_battle": "Cat Cat Wave+",
+    "name": "Neko Neko Wave+",
+    "name_battle": "Neko Neko Wave+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -27924,8 +27924,8 @@
   },
   {
     "id": 335,
-    "name": "Cat Cat Wave+",
-    "name_battle": "Cat Cat Wave+",
+    "name": "Neko Neko Wave+",
+    "name_battle": "Neko Neko Wave+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -57898,7 +57898,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "消費SPによってさらに威力アップ",
+    "description_effect": "Use all current SP to increase Skill Power",
     "description": "Behold my princess power!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -60711,7 +60711,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "消費SPによってさらに威力アップ",
+    "description_effect": "Use all current SP to increase Skill Power",
     "description": "A multi-layered starlight spell used by real magic masters.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -62193,7 +62193,7 @@
       0,
       0
     ],
-    "description_effect": "対象の体力が45%以下の場合、Skill Power+#PER2#%&消費SPによってさらに威力アップ[Self],SP Steal#PER4#[Single Enemy]",
+    "description_effect": "対象の体力が45%以下の場合、Skill Power+#PER2#%&Use all current SP to increase Skill Power[Self],SP Steal#PER4#[Single Enemy]",
     "description": "Conjures ominous runes that herald the end of days.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -67625,7 +67625,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "消費SPによってさらに威力アップ&[When using skill]CRD+#PER3#%[Self],SP Steal#PER4#[Single Enemy]",
+    "description_effect": "Use all current SP to increase Skill Power&[When using skill]CRD+#PER3#%[Self],SP Steal#PER4#[Single Enemy]",
     "description": "The Flamelord's hellfire will burn down the entire world!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -68432,7 +68432,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のDEF/RESを-#PER2#%(1T)し、Skill Power+#PER4#%",
+    "description_effect": "自身のDEF/RESを-#PER2#%(1T)but, Skill Power+#PER4#%",
     "description": "An amazing combo attack from Levi, not faltering from unknown giant enemies.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -109314,7 +109314,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Fire resistance-#PER2#%(3T)&DEF/RES-#PER3#%(3T)&SPD・CRT-#PER6#%(3T)[Single Enemy],Action Gauge+#PER5#[Party]",
+    "description_effect": "Fire resistance-#PER2#%(3T)&DEF/RES-#PER3#%(3T)&SPD・CRT-#PER6#%(3T)&Damage dealt -#PER8#% (2T)[Single Enemy],Action Gauge+#PER5#[Party]",
     "description": "Let's fly a kite. Of course, I'm the kite!",
     "resource_id": 3002652,
     "continuous_attack_rates": [
@@ -109420,7 +109420,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Fire resistance-#PER2#%(3T)[All Enemies],ATK/CRD+#PER3#%(3T)&All damage+#PER4#%(3T)&Action Gauge+#PER5#[Party]",
+    "description_effect": "Fire resistance-#PER2#%(3T)[All Enemies],ATK/CRD+#PER3#%(3T)&CRT+#PER7#%(3T)&All damage+#PER4#%(3T)&Action Gauge+#PER5#[Party]",
     "description": "\"Happy New Year! 'Crying, die! !",
     "resource_id": 3002653,
     "continuous_attack_rates": [
@@ -109630,7 +109630,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Increase damage with fewer enemies[Self],Non-HP Basic Stats+#PER2#%(3T)&CRD+#PER6#%(2T)&All damage+#PER8#%(2T)&SP Regen[#PER9#](3T)[Party]",
+    "description_effect": "Increase damage with fewer enemies[Self],Non-HP Basic Stats・CRD+#PER2#%(3T)&All damage+#PER8#%(3T)&SP Regen[#PER9#](3T)[Party]",
     "description": "Zetsusai, who has gained the power of the universe, is invincible!",
     "resource_id": 3002662,
     "continuous_attack_rates": [
@@ -109751,7 +109751,7 @@
       0,
       2
     ],
-    "description_effect": "Skill Power+#PER2#%&[When using skill]CRT+#PER4#%&[When defeating an enemy]、Action Gauge+#PER6#[Self],Star resistance-#PER5#%(3T)&[On Critical hit]Damage calculation ignores #PER3#% of target buffs[Single Enemy]",
+    "description_effect": "Skill Power+#PER2#%&[When using skill]CRT+#PER4#%&[When defeating an enemy]、Action Gauge+#PER6#&Buff duration extended+#PER7#[Self],Star resistance-#PER5#%(3T)&[On Critical hit]Damage calculation ignores #PER3#% of target's buffs[Single Enemy]",
     "description": "That dragon is the one who eats all things",
     "resource_id": 3002663,
     "continuous_attack_rates": [
@@ -129810,7 +129810,7 @@
       0,
       3
     ],
-    "description_effect": "Intercept[Star][ATK](5T)[Self],ATK/DEF/CRD+#PER3#%(3T)&All damage+#PER6#%(3T)[Party],DEF-#PER7#%(3T)&Paralysis(2T)&対象の体力が75%以下の場合、Remove Special Effects[Single Enemy]",
+    "description_effect": "Intercept[Star][ATK](5T)[Self],ATK/DEF/CRD+#PER3#%(3T)&All damage+#PER6#%(3T)[Party],DEF-#PER7#%(3T)&Paralysis(2T)&If target's HP is 75% or less, Remove Special Effects[Single Enemy]",
     "description": "The impact is good! SMAAAASH! !",
     "resource_id": 3003252,
     "continuous_attack_rates": []
@@ -136555,8 +136555,8 @@
   },
   {
     "id": 3003441,
-    "name": "Usa King Circus",
-    "name_battle": "Usa King\\nCircus",
+    "name": "Usaking Circus",
+    "name_battle": "Usaking\\nCircus",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -136635,14 +136635,14 @@
       0
     ],
     "description_effect": "ATK/CRD+#PER2#%(3T)[Party],Star resistance-#PER4#%(3T)[All Enemies]",
-    "description": "Tickets with HL seat S, HL seat A seat 200 million",
+    "description": "Ticket S seat 500 million HL, A seat 200 million HL",
     "resource_id": 3003441,
     "continuous_attack_rates": []
   },
   {
     "id": 3003442,
-    "name": "Pettan Pettan Ranbu",
-    "name_battle": "Pettan\\n Pettan's rumble",
+    "name": "Pettan Pettan Dance",
+    "name_battle": "Pettan Pettan\\nDance",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -136775,14 +136775,14 @@
       0
     ],
     "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&SP Regen[#PER3#](2T)&ATK+#PER4#%(3T)&CRT+#PER5#%(3T)&All damage+#PER6#%(3T)[Self],Star resistance-#PER7#%(2T)&ATK/CRD Buff Steal[Single Enemy]",
-    "description": "With a double pestle-style flow, you can also make rice cakes twice as well!",
+    "description": "With the two-pound style, your mochi pounding skills will be twice as good!",
     "resource_id": 3003442,
     "continuous_attack_rates": []
   },
   {
     "id": 3003443,
-    "name": "Rabbit Makaiougi/Magic Priss",
-    "name_battle": "Rabbit Demon World\\nOgi/Magic Priss",
+    "name": "Rabbit Overlord's Right - Demon Pestle",
+    "name_battle": "Rabbit Overlord's Right\\nDemon Pestle",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -136900,7 +136900,7 @@
       2
     ],
     "description_effect": "[When using skill]CRD+#PER2#%&If ATK buffed, Skill Power+#PER3#%&Uses enemy's lower DEF or RES for damage calculation[Self],Action Gauge+#PER5#[Party],[On Critical hit]Remove DEF/RES buffs[All Enemies]",
-    "description": "Pyon gathers all the powers of the Rabbit Demon World into this pestle! !",
+    "description": "All the power of the Toto Bunny Netherworld will be gathered into this pestle!!",
     "resource_id": 3003443,
     "continuous_attack_rates": []
   },
@@ -138345,7 +138345,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "対象の残体力#PER1#%の割合ダメージ&Wind resistance-#PER2#%(2T)&受けるダメージ#PER3#%アップ(2T)[Single Enemy],Action Gauge+#PER4#&SP Regen[#PER5#](3T)&CRD+#PER6#%(3T)&All damage+#PER7#%(3T)[Party]",
+    "description_effect": "#PER1#% Fixed Damage&Wind resistance-#PER2#%(2T)&受けるダメージ#PER3#%アップ(2T)[Single Enemy],Action Gauge+#PER4#&SP Regen[#PER5#](3T)&CRD+#PER6#%(3T)&All damage+#PER7#%(3T)[Party]",
     "description": "How about it? Isn't it an exciting marriage ring?",
     "resource_id": 3003482,
     "continuous_attack_rates": []
@@ -151487,7 +151487,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK+#PER3#%(1T)&消費SPによってさらに威力アップ&Power increases with each use(Maximum 2times)&SP+#PER5#[Self]",
+    "description_effect": "ATK+#PER3#%(1T)&Use all current SP to increase Skill Power&Power increases with each use(Maximum 2times)&SP+#PER5#[Self]",
     "description": "I'm invincible in my true form, death!!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -156693,7 +156693,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&INT+#PER7#%(2T)&CRD+#PER3#%(2T)&Remove debuffs[Self]&Wind Damage+#PER6#%(1T)&Buff duration extended+#PER4#[Self]",
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&INT+#PER7#%(2T)&CRD+#PER3#%(2T)&Remove debuffs&Wind Damage +#PER6#%(1T)&Buff duration extended+#PER4#[Self],Wind resistance-#PER15#%(3T)[All Enemies]",
     "description": "無数のバトンに呼び寄せられた雷が敵を襲う",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -156943,7 +156943,7 @@
       3,
       0
     ],
-    "description_effect": "Increase damage with fewer enemies&Power increases with each use(Maximum 3times)&[On Critical hit]Skill Power+15%[Self]",
+    "description_effect": "Increase damage with fewer enemies&Power increases with each use(Maximum 3times)&[When using skill]CRD+#PER5#%& [On Critical hit]Skill Power+#PER3#%[Self]",
     "description": "集約した魔王の力を放ち敵を消滅させる",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -157593,7 +157593,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のDEF/RESを-#PER2#%(1T)し、Skill Power+#PER4#%",
+    "description_effect": "自身のDEF/RESを-#PER2#%(1T)but, Skill Power+#PER4#%",
     "description": "魔女と百騎兵による、超攻撃的共同作業",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -163066,7 +163066,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEFを-#PER4#%(2T)し、INT/CRD+#PER2#%(2T)[Self]",
+    "description_effect": "DEFを-#PER4#%(2T)but, INT/CRD+#PER2#%(3T)[Self]",
     "description": "Magical particles fall from the staff thrown into the sky",
     "resource_id": 3200681,
     "continuous_attack_rates": []
@@ -163173,7 +163173,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "[Repeat use prohibited]DEFを-#PER4#%(2T)し、Action Gauge+#PER5#&INT+#PER2#%(3T)&CRD+#PER7#%(3T)&Damage dealt by Special Move+#PER3#%(2T)[Self]",
+    "description_effect": "[Repeat use prohibited]DEFを-#PER4#%(2T)but, Action Gauge+#PER5#&INT+#PER2#%(3T)&CRD+#PER7#%(3T)&All damage+#PER3#%(2T)[Self],Damage Taken + #PER8#%(2T)[Single Enemy]",
     "description": "A magical staff restrains enemies and causes magical explosions.",
     "resource_id": 3200682,
     "continuous_attack_rates": []
@@ -163276,7 +163276,7 @@
       0,
       3
     ],
-    "description_effect": "消費SPによってさらに威力アップ&[When using skill]CRT+#PER4#%&[On Critical hit]DEFRemove debuffs&Skill Power+#PER5#%[Self]",
+    "description_effect": "Use all current SP to increase Skill Power&[When using skill]CRT+#PER4#%&[On Critical hit]DEFRemove debuffs&Skill Power+#PER5#%&SP Regen[#PER6#](3T)[Self]",
     "description": "Launch the enemy and fire a ray that tears the heavens",
     "resource_id": 3200683,
     "continuous_attack_rates": []
@@ -163565,7 +163565,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/CRDを-#PER2#%(2T)し、Skill Power+#PER4#%[Self],Non-HP Basic Stats+#PER5#%(3T)&CRD+#PER9#%(3T)[Party]",
+    "description_effect": "ATK/CRDを-#PER2#%(2T)but, Skill Power+#PER4#%[Self],Non-HP Basic Stats+#PER5#%(3T)&CRD+#PER9#%(3T)[Party]",
     "description": "Bottle mail with bombs from the sky!",
     "resource_id": 3200693,
     "continuous_attack_rates": []
@@ -173133,7 +173133,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/INTを-#PER7#%(2T)し、Non-HP Basic Stats・CRD+#PER2#%(3T)&All damage+#PER9#%(3T)[Party],Poison・Forget(2T)&Damage Taken +#PER12#%(1T)[All Enemies]",
+    "description_effect": "ATK/INTを-#PER7#%(2T)but, Non-HP Basic Stats・CRD+#PER2#%(3T)&All damage+#PER9#%(3T)[Party],Poison・Forget(2T)&Damage Taken +#PER12#%(1T)[All Enemies]",
     "description": "I don't even know why it splits...",
     "resource_id": 3200993,
     "continuous_attack_rates": []
@@ -301852,7 +301852,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "消費SPによってさらに威力アップ",
+    "description_effect": "Use all current SP to increase Skill Power",
     "description": "Behold my princess power!",
     "resource_id": 3000843,
     "continuous_attack_rates": []
@@ -304608,7 +304608,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "消費SPによってさらに威力アップ",
+    "description_effect": "Use all current SP to increase Skill Power",
     "description": "A multi-layered starlight spell used by real magic masters.",
     "resource_id": 3000953,
     "continuous_attack_rates": []
@@ -305737,7 +305737,7 @@
       0,
       0
     ],
-    "description_effect": "対象の体力が45%以下の場合、Skill Power+#PER2#%&消費SPによってさらに威力アップ[Self],SP Steal#PER4#[Single Enemy]",
+    "description_effect": "対象の体力が45%以下の場合、Skill Power+#PER2#%&Use all current SP to increase Skill Power[Self],SP Steal#PER4#[Single Enemy]",
     "description": "Conjures ominous runes that herald the end of days.",
     "resource_id": 3001004,
     "continuous_attack_rates": []
@@ -311039,7 +311039,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "消費SPによってさらに威力アップ&[When using skill]CRD+#PER3#%[Self],SP Steal#PER4#[Single Enemy]",
+    "description_effect": "Use all current SP to increase Skill Power&[When using skill]CRD+#PER3#%[Self],SP Steal#PER4#[Single Enemy]",
     "description": "The Flamelord's hellfire will burn down the entire world!",
     "resource_id": 3001223,
     "continuous_attack_rates": []
@@ -311846,7 +311846,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のDEF/RESを-#PER2#%(1T)し、Skill Power+#PER4#%",
+    "description_effect": "自身のDEF/RESを-#PER2#%(1T)but, Skill Power+#PER4#%",
     "description": "An amazing combo attack from Levi, not faltering from unknown giant enemies.",
     "resource_id": 3001253,
     "continuous_attack_rates": []
@@ -352506,7 +352506,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Fire resistance-#PER2#%(3T)&DEF/RES-#PER3#%(3T)&SPD・CRT-#PER6#%(3T)[Single Enemy],Action Gauge+#PER5#[Party]",
+    "description_effect": "Fire resistance-#PER2#%(3T)&DEF/RES-#PER3#%(3T)&SPD・CRT-#PER6#%(3T)&Damage dealt -#PER8#% (2T)[Single Enemy],Action Gauge+#PER5#[Party]",
     "description": "Let's fly a kite. Of course, I'm the kite!",
     "resource_id": 3002652,
     "continuous_attack_rates": [
@@ -352612,7 +352612,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Fire resistance-#PER2#%(3T)[All Enemies],ATK/CRD+#PER3#%(3T)&All damage+#PER4#%(3T)&Action Gauge+#PER5#[Party]",
+    "description_effect": "Fire resistance-#PER2#%(3T)[All Enemies],ATK/CRD+#PER3#%(3T)&CRT+#PER7#%(3T)&All damage+#PER4#%(3T)&Action Gauge+#PER5#[Party]",
     "description": "\"Happy New Year! 'Crying, die! !",
     "resource_id": 3002653,
     "continuous_attack_rates": [
@@ -352822,7 +352822,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Increase damage with fewer enemies[Self],Non-HP Basic Stats+#PER2#%(3T)&CRD+#PER6#%(2T)&All damage+#PER8#%(2T)&SP Regen[#PER9#](3T)[Party]",
+    "description_effect": "Increase damage with fewer enemies[Self],Non-HP Basic Stats・CRD+#PER2#%(3T)&All damage+#PER8#%(3T)&SP Regen[#PER9#](3T)[Party]",
     "description": "Zetsusai, who has gained the power of the universe, is invincible!",
     "resource_id": 3002662,
     "continuous_attack_rates": [
@@ -352943,7 +352943,7 @@
       0,
       2
     ],
-    "description_effect": "Skill Power+#PER2#%&[When using skill]CRT+#PER4#%&[When defeating an enemy]、Action Gauge+#PER6#[Self],Star resistance-#PER5#%(3T)&[On Critical hit]Damage calculation ignores #PER3#% of target buffs[Single Enemy]",
+    "description_effect": "Skill Power+#PER2#%&[When using skill]CRT+#PER4#%&[When defeating an enemy]、Action Gauge+#PER6#&Buff duration extended+#PER7#[Self],Star resistance-#PER5#%(3T)&[On Critical hit]Damage calculation ignores #PER3#% of target's buffs[Single Enemy]",
     "description": "That dragon is the one who eats all things",
     "resource_id": 3002663,
     "continuous_attack_rates": [
@@ -373002,7 +373002,7 @@
       0,
       3
     ],
-    "description_effect": "Intercept[Star][ATK](5T)[Self],ATK/DEF/CRD+#PER3#%(3T)&All damage+#PER6#%(3T)[Party],DEF-#PER7#%(3T)&Paralysis(2T)&対象の体力が75%以下の場合、Remove Special Effects[Single Enemy]",
+    "description_effect": "Intercept[Star][ATK](5T)[Self],ATK/DEF/CRD+#PER3#%(3T)&All damage+#PER6#%(3T)[Party],DEF-#PER7#%(3T)&Paralysis(2T)&If target's HP is 75% or less, Remove Special Effects[Single Enemy]",
     "description": "The impact is good! SMAAAASH! !",
     "resource_id": 3003252,
     "continuous_attack_rates": []
@@ -379747,8 +379747,8 @@
   },
   {
     "id": 4003441,
-    "name": "Usa King Circus",
-    "name_battle": "Usa King\\nCircus",
+    "name": "Usaking Circus",
+    "name_battle": "Usaking\\nCircus",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -379827,14 +379827,14 @@
       0
     ],
     "description_effect": "ATK/CRD+#PER2#%(3T)[Party],Star resistance-#PER4#%(3T)[All Enemies]",
-    "description": "Tickets with HL seat S, HL seat A seat 200 million",
+    "description": "Ticket S seat 500 million HL, A seat 200 million HL",
     "resource_id": 3003441,
     "continuous_attack_rates": []
   },
   {
     "id": 4003442,
-    "name": "Pettan Pettan Ranbu",
-    "name_battle": "Pettan\\n Pettan's rumble",
+    "name": "Pettan Pettan Dance",
+    "name_battle": "Pettan Pettan\\nDance",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -379967,14 +379967,14 @@
       0
     ],
     "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&SP Regen[#PER3#](2T)&ATK+#PER4#%(3T)&CRT+#PER5#%(3T)&All damage+#PER6#%(3T)[Self],Star resistance-#PER7#%(2T)&ATK/CRD Buff Steal[Single Enemy]",
-    "description": "With a double pestle-style flow, you can also make rice cakes twice as well!",
+    "description": "With the two-pound style, your mochi pounding skills will be twice as good!",
     "resource_id": 3003442,
     "continuous_attack_rates": []
   },
   {
     "id": 4003443,
-    "name": "Rabbit Makaiougi/Magic Priss",
-    "name_battle": "Rabbit Demon World\\nOgi/Magic Priss",
+    "name": "Rabbit Overlord's Right - Demon Pestle",
+    "name_battle": "Rabbit Overlord's Right\\nDemon Pestle",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -380092,7 +380092,7 @@
       2
     ],
     "description_effect": "[When using skill]CRD+#PER2#%&If ATK buffed, Skill Power+#PER3#%&Uses enemy's lower DEF or RES for damage calculation[Self],Action Gauge+#PER5#[Party],[On Critical hit]Remove DEF/RES buffs[All Enemies]",
-    "description": "Pyon gathers all the powers of the Rabbit Demon World into this pestle! !",
+    "description": "All the power of the Toto Bunny Netherworld will be gathered into this pestle!!",
     "resource_id": 3003443,
     "continuous_attack_rates": []
   },
@@ -381537,7 +381537,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "対象の残体力#PER1#%の割合ダメージ&Wind resistance-#PER2#%(2T)&受けるダメージ#PER3#%アップ(2T)[Single Enemy],Action Gauge+#PER4#&SP Regen[#PER5#](3T)&CRD+#PER6#%(3T)&All damage+#PER7#%(3T)[Party]",
+    "description_effect": "#PER1#% Fixed Damage&Wind resistance-#PER2#%(2T)&受けるダメージ#PER3#%アップ(2T)[Single Enemy],Action Gauge+#PER4#&SP Regen[#PER5#](3T)&CRD+#PER6#%(3T)&All damage+#PER7#%(3T)[Party]",
     "description": "How about it? Isn't it an exciting marriage ring?",
     "resource_id": 3003482,
     "continuous_attack_rates": []
@@ -397104,7 +397104,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&INT+#PER7#%(2T)&CRD+#PER3#%(2T)&Remove debuffs[Self]&Wind Damage+#PER6#%(1T)&Buff duration extended+#PER4#[Self]",
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&INT+#PER7#%(2T)&CRD+#PER3#%(2T)&Remove debuffs&Wind Damage +#PER6#%(1T)&Buff duration extended+#PER4#[Self],Wind resistance-#PER15#%(3T)[All Enemies]",
     "description": "無数のバトンに呼び寄せられた雷が敵を襲う",
     "resource_id": 3200461,
     "continuous_attack_rates": []
@@ -397354,7 +397354,7 @@
       3,
       0
     ],
-    "description_effect": "Increase damage with fewer enemies&Power increases with each use(Maximum 3times)&[On Critical hit]Skill Power+15%[Self]",
+    "description_effect": "Increase damage with fewer enemies&Power increases with each use(Maximum 3times)&[When using skill]CRD+#PER5#%& [On Critical hit]Skill Power+#PER3#%[Self]",
     "description": "集約した魔王の力を放ち敵を消滅させる",
     "resource_id": 3200463,
     "continuous_attack_rates": []
@@ -398004,7 +398004,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のDEF/RESを-#PER2#%(1T)し、Skill Power+#PER4#%",
+    "description_effect": "自身のDEF/RESを-#PER2#%(1T)but, Skill Power+#PER4#%",
     "description": "魔女と百騎兵による、超攻撃的共同作業",
     "resource_id": 3200483,
     "continuous_attack_rates": []
@@ -403477,7 +403477,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEFを-#PER4#%(2T)し、INT/CRD+#PER2#%(2T)[Self]",
+    "description_effect": "DEFを-#PER4#%(2T)but, INT/CRD+#PER2#%(3T)[Self]",
     "description": "Magical particles fall from the staff thrown into the sky",
     "resource_id": 3200681,
     "continuous_attack_rates": []
@@ -403584,7 +403584,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "[Repeat use prohibited]DEFを-#PER4#%(2T)し、Action Gauge+#PER5#&INT+#PER2#%(3T)&CRD+#PER7#%(3T)&Damage dealt by Special Move+#PER3#%(2T)[Self]",
+    "description_effect": "[Repeat use prohibited]DEFを-#PER4#%(2T)but, Action Gauge+#PER5#&INT+#PER2#%(3T)&CRD+#PER7#%(3T)&All damage+#PER3#%(2T)[Self],Damage Taken + #PER8#%(2T)[Single Enemy]",
     "description": "A magical staff restrains enemies and causes magical explosions.",
     "resource_id": 3200682,
     "continuous_attack_rates": []
@@ -403687,7 +403687,7 @@
       0,
       3
     ],
-    "description_effect": "消費SPによってさらに威力アップ&[When using skill]CRT+#PER4#%&[On Critical hit]DEFRemove debuffs&Skill Power+#PER5#%[Self]",
+    "description_effect": "Use all current SP to increase Skill Power&[When using skill]CRT+#PER4#%&[On Critical hit]DEFRemove debuffs&Skill Power+#PER5#%&SP Regen[#PER6#](3T)[Self]",
     "description": "Launch the enemy and fire a ray that tears the heavens",
     "resource_id": 3200683,
     "continuous_attack_rates": []
@@ -403976,7 +403976,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/CRDを-#PER2#%(2T)し、Skill Power+#PER4#%[Self],Non-HP Basic Stats+#PER5#%(3T)&CRD+#PER9#%(3T)[Party]",
+    "description_effect": "ATK/CRDを-#PER2#%(2T)but, Skill Power+#PER4#%[Self],Non-HP Basic Stats+#PER5#%(3T)&CRD+#PER9#%(3T)[Party]",
     "description": "Bottle mail with bombs from the sky!",
     "resource_id": 3200693,
     "continuous_attack_rates": []
@@ -413544,7 +413544,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/INTを-#PER7#%(2T)し、Non-HP Basic Stats・CRD+#PER2#%(3T)&All damage+#PER9#%(3T)[Party],Poison・Forget(2T)&Damage Taken +#PER12#%(1T)[All Enemies]",
+    "description_effect": "ATK/INTを-#PER7#%(2T)but, Non-HP Basic Stats・CRD+#PER2#%(3T)&All damage+#PER9#%(3T)[Party],Poison・Forget(2T)&Damage Taken +#PER12#%(1T)[All Enemies]",
     "description": "I don't even know why it splits...",
     "resource_id": 3200993,
     "continuous_attack_rates": []
@@ -488016,5 +488016,3267 @@
       50,
       50
     ]
+  },
+  {
+    "id": 3003811,
+    "name": "A lavish treat?!",
+    "name_battle": "A lavish\\ntreat?!",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      123,
+      9,
+      11,
+      63,
+      111
+    ],
+    "effect_values_min": [
+      80,
+      100,
+      30,
+      30,
+      10,
+      25
+    ],
+    "effect_values_max_30": [
+      110,
+      100,
+      30,
+      30,
+      10,
+      25
+    ],
+    "effect_values_max_40": [
+      112,
+      100,
+      30,
+      30,
+      10,
+      25
+    ],
+    "effect_values_max_50": [
+      114,
+      100,
+      30,
+      30,
+      10,
+      25
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Overheal (small)&DEF/RES+#PER3#%(3T)&CRT+#PER5#%(3T)&Damage Taken-#PER6#%(3T)[Party]",
+    "description": "There's no way a greedy angel would give out New Year's money, you idiot!",
+    "resource_id": 3003811,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003812,
+    "name": "New Year's blessings",
+    "name_battle": "New Year's blessings",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 45,
+    "sp_max_30": 40,
+    "sp_max_40": 37,
+    "sp_max_50": 34,
+    "gain_sp": 0,
+    "relational_param": 0,
+    "command_types": [
+      8,
+      65,
+      63,
+      101,
+      145,
+      48,
+      50,
+      39
+    ],
+    "effect_values_min": [
+      40,
+      40,
+      15,
+      15,
+      54,
+      100,
+      100,
+      1
+    ],
+    "effect_values_max_30": [
+      40,
+      40,
+      15,
+      15,
+      54,
+      100,
+      100,
+      1
+    ],
+    "effect_values_max_40": [
+      40,
+      40,
+      15,
+      15,
+      54,
+      100,
+      100,
+      1
+    ],
+    "effect_values_max_50": [
+      40,
+      40,
+      15,
+      15,
+      54,
+      100,
+      100,
+      1
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited]Remove [Bind]&ATK/INTRemove debuffs&ATK/CRD+#PER1#%(3T)&CRT+#PER3#%(3T)&All damage+#PER4#%(3T)[Party]",
+    "description": "The divine spirits also seem to be in high spirits.",
+    "resource_id": 3003812,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003813,
+    "name": "Year of the Noon, Artemis",
+    "name_battle": "Year of the Horse\\nArtemis",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 65,
+    "sp_max_30": 60,
+    "sp_max_40": 55,
+    "sp_max_50": 53,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      141,
+      8,
+      65,
+      20,
+      6,
+      14,
+      16,
+      150
+    ],
+    "effect_values_min": [
+      380,
+      80,
+      40,
+      40,
+      150,
+      100,
+      40,
+      40,
+      15
+    ],
+    "effect_values_max_30": [
+      410,
+      80,
+      40,
+      40,
+      150,
+      100,
+      40,
+      40,
+      15
+    ],
+    "effect_values_max_40": [
+      425,
+      80,
+      40,
+      40,
+      150,
+      100,
+      40,
+      40,
+      15
+    ],
+    "effect_values_max_50": [
+      430,
+      80,
+      40,
+      40,
+      150,
+      100,
+      40,
+      40,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      0,
+      2,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      0,
+      2,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "[When using skill]CRD+#PER2#%[Self],ATK/CRD+#PER3#%(3T)&[On Critical hit]Action Gauge+#PER5#[Party],Sleep(2T)&DEF/RES-#PER7#%(3T)&Damage Taken + #PER9#%(3T)[Single Enemy]",
+    "description": "This year is the Year of the Horse. That means it's my year, isn't it? ♥",
+    "resource_id": 3003813,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003811,
+    "name": "A lavish treat?!",
+    "name_battle": "A lavish\\ntreat?!",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      123,
+      9,
+      11,
+      63,
+      111
+    ],
+    "effect_values_min": [
+      88,
+      100,
+      30,
+      30,
+      10,
+      25
+    ],
+    "effect_values_max_30": [
+      118,
+      100,
+      30,
+      30,
+      10,
+      25
+    ],
+    "effect_values_max_40": [
+      120,
+      100,
+      30,
+      30,
+      10,
+      25
+    ],
+    "effect_values_max_50": [
+      122,
+      100,
+      30,
+      30,
+      10,
+      25
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Overheal (small)&DEF/RES+#PER3#%(3T)&CRT+#PER5#%(3T)&Damage Taken-#PER6#%(3T)[Party]",
+    "description": "There's no way a greedy angel would give out New Year's money, you idiot!",
+    "resource_id": 3003811,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003812,
+    "name": "New Year's blessings",
+    "name_battle": "New Year's blessings",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 41,
+    "sp_max_30": 36,
+    "sp_max_40": 33,
+    "sp_max_50": 30,
+    "gain_sp": 0,
+    "relational_param": 0,
+    "command_types": [
+      8,
+      65,
+      63,
+      101,
+      145,
+      48,
+      50,
+      39
+    ],
+    "effect_values_min": [
+      40,
+      40,
+      15,
+      15,
+      54,
+      100,
+      100,
+      1
+    ],
+    "effect_values_max_30": [
+      40,
+      40,
+      15,
+      15,
+      54,
+      100,
+      100,
+      1
+    ],
+    "effect_values_max_40": [
+      40,
+      40,
+      15,
+      15,
+      54,
+      100,
+      100,
+      1
+    ],
+    "effect_values_max_50": [
+      40,
+      40,
+      15,
+      15,
+      54,
+      100,
+      100,
+      1
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited]Remove [Bind]&ATK/INTRemove debuffs&ATK/CRD+#PER1#%(3T)&CRT+#PER3#%(3T)&All damage+#PER4#%(3T)[Party]",
+    "description": "The divine spirits also seem to be in high spirits.",
+    "resource_id": 3003812,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003813,
+    "name": "Year of the Noon, Artemis",
+    "name_battle": "Year of the Horse\\nArtemis",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 60,
+    "sp_max_30": 55,
+    "sp_max_40": 50,
+    "sp_max_50": 48,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      141,
+      8,
+      65,
+      20,
+      6,
+      14,
+      16,
+      150
+    ],
+    "effect_values_min": [
+      380,
+      80,
+      40,
+      40,
+      150,
+      100,
+      40,
+      40,
+      15
+    ],
+    "effect_values_max_30": [
+      410,
+      80,
+      40,
+      40,
+      150,
+      100,
+      40,
+      40,
+      15
+    ],
+    "effect_values_max_40": [
+      425,
+      80,
+      40,
+      40,
+      150,
+      100,
+      40,
+      40,
+      15
+    ],
+    "effect_values_max_50": [
+      430,
+      80,
+      40,
+      40,
+      150,
+      100,
+      40,
+      40,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      0,
+      2,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      0,
+      2,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "[When using skill]CRD+#PER2#%[Self],ATK/CRD+#PER3#%(3T)&[On Critical hit]Action Gauge+#PER5#[Party],Sleep(2T)&DEF/RES-#PER7#%(3T)&Damage Taken + #PER9#%(3T)[Single Enemy]",
+    "description": "This year is the Year of the Horse. That means it's my year, isn't it? ♥",
+    "resource_id": 3003813,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003861,
+    "name": "I'll give you crab-shaped chocolates!",
+    "name_battle": "I'll give you\\ncrab-shaped chocolates!",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      8,
+      10,
+      12,
+      111
+    ],
+    "effect_values_min": [
+      60,
+      10,
+      10,
+      10,
+      20
+    ],
+    "effect_values_max_30": [
+      90,
+      10,
+      10,
+      10,
+      20
+    ],
+    "effect_values_max_40": [
+      91,
+      10,
+      10,
+      10,
+      20
+    ],
+    "effect_values_max_50": [
+      92,
+      10,
+      10,
+      10,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      3
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "ATK/INT・SPD+#PER2#%(3T)[Party],Damage Taken-#PER5#%(3T)[Ally]",
+    "description": "Please accept my feelings, along with my love for crab innards!!",
+    "resource_id": 3003861,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003862,
+    "name": "Home Economics Love Cooking!",
+    "name_battle": "Home Economics\\nLove Cooking!",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 5,
+    "command_types": [
+      123,
+      48,
+      49,
+      50,
+      51,
+      52,
+      127,
+      128,
+      20,
+      8,
+      10,
+      65,
+      63,
+      101,
+      63,
+      65
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      30,
+      10,
+      15,
+      10,
+      20
+    ],
+    "effect_values_max_30": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      30,
+      10,
+      15,
+      10,
+      20
+    ],
+    "effect_values_max_40": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      30,
+      10,
+      15,
+      10,
+      20
+    ],
+    "effect_values_max_50": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      30,
+      10,
+      15,
+      10,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      14
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      75,
+      75
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "description_effect": "Overheal (small)&Remove debuffs&Action Gauge+#PER9#&ATK/INT/CRD+#PER10#%(3T)&CRT+#PER13#%(3T)&All damage+#PER14#%(3T)&HPが75%以上の場合、CRT+#PER15#%(3T)&CRD+#PER16#%(3T)[Party]",
+    "description": "Love, as a secret ingredient, has incredibly powerful healing effects!",
+    "resource_id": 3003862,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003863,
+    "name": "Absolute Mutual Love Flonne Punch",
+    "name_battle": "Absolute Mutual Love\\nFlonne Punch",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 65,
+    "sp_max_30": 60,
+    "sp_max_40": 56,
+    "sp_max_50": 52,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      23,
+      25,
+      13,
+      15,
+      64,
+      143,
+      21,
+      8,
+      10,
+      101
+    ],
+    "effect_values_min": [
+      130,
+      100,
+      100,
+      30,
+      30,
+      15,
+      15,
+      150,
+      40,
+      40,
+      20
+    ],
+    "effect_values_max_30": [
+      160,
+      100,
+      100,
+      30,
+      30,
+      15,
+      15,
+      150,
+      40,
+      40,
+      20
+    ],
+    "effect_values_max_40": [
+      164,
+      100,
+      100,
+      30,
+      30,
+      15,
+      15,
+      150,
+      40,
+      40,
+      20
+    ],
+    "effect_values_max_50": [
+      168,
+      100,
+      100,
+      30,
+      30,
+      15,
+      15,
+      150,
+      40,
+      40,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Remove DEF/RES buffs&ATK/INT-#PER4#%(3T)&CRT-#PER6#%(3T)&Fire resistance-#PER7#%(3T)&[On Critical hit]Action Gauge-#PER8#[All Enemies],ATK/INT+#PER9#%(3T)&All damage+#PER11#%(3T)[Party]",
+    "description": "I'll teach you the thrill of embarking on a new love!",
+    "resource_id": 3003863,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003891,
+    "name": "Prison School Nakko!!",
+    "name_battle": "Prison School\\nNakko!!",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      8,
+      9,
+      12
+    ],
+    "effect_values_min": [
+      60,
+      25,
+      25,
+      5
+    ],
+    "effect_values_max_30": [
+      90,
+      25,
+      25,
+      5
+    ],
+    "effect_values_max_40": [
+      91,
+      25,
+      25,
+      5
+    ],
+    "effect_values_max_50": [
+      92,
+      25,
+      25,
+      5
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "ATK・DEF+#PER2#%(3T)&SPD+#PER4#%(3T)[Party]",
+    "description": "I can knock out any ordinary guy around here with just one punch!",
+    "resource_id": 3003891,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003892,
+    "name": "Overlord Powerbomb",
+    "name_battle": "Overlord\\nPowerbomb",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      139,
+      63,
+      8,
+      65,
+      101,
+      5,
+      14,
+      16
+    ],
+    "effect_values_min": [
+      250,
+      340,
+      15,
+      30,
+      30,
+      20,
+      100,
+      40,
+      40
+    ],
+    "effect_values_max_30": [
+      280,
+      340,
+      15,
+      30,
+      30,
+      20,
+      100,
+      40,
+      40
+    ],
+    "effect_values_max_40": [
+      291,
+      340,
+      15,
+      30,
+      30,
+      20,
+      100,
+      40,
+      40
+    ],
+    "effect_values_max_50": [
+      296,
+      340,
+      15,
+      30,
+      30,
+      20,
+      100,
+      40,
+      40
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Intercept[Star][ATK](5T)&CRT+#PER3#%(3T)[Self],ATK/CRD+#PER4#%(3T)&All damage+#PER6#%(3T)[Party],Paralysis(2T)&DEF/RES-#PER8#%(3T)[Single Enemy]",
+    "description": "Bad kids shouldn't try to imitate this on the street.",
+    "resource_id": 3003892,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003893,
+    "name": "Bring on the Fight!!",
+    "name_battle": "Bring on the Fight!!",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 70,
+    "sp_max_30": 65,
+    "sp_max_40": 60,
+    "sp_max_50": 58,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      141,
+      81,
+      85,
+      143,
+      101,
+      20
+    ],
+    "effect_values_min": [
+      380,
+      50,
+      20,
+      80,
+      20,
+      20,
+      150
+    ],
+    "effect_values_max_30": [
+      410,
+      50,
+      20,
+      80,
+      20,
+      20,
+      150
+    ],
+    "effect_values_max_40": [
+      425,
+      50,
+      20,
+      80,
+      20,
+      20,
+      150
+    ],
+    "effect_values_max_50": [
+      430,
+      50,
+      20,
+      80,
+      20,
+      20,
+      150
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      1,
+      1,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      4
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      2
+    ],
+    "description_effect": "[When using skill]CRD+#PER2#%&If the target has a DEF debuff, Skill Power+#PER3#%[Self],Damage calculation ignores #PER4#% of target's buffs&Star resistance-#PER5#%(3T)[Single Enemy],All damage+#PER6#%(3T)&[On Critical hit]Action Gauge+#PER7#[Party]",
+    "description": "I'll tell you. I'm the top dog at Evil Academy!!",
+    "resource_id": 3003893,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201121,
+    "name": "Cat Medulla Oblongata Slash",
+    "name_battle": "Cat Medulla\\nOblongata Slash",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 23,
+    "sp_max_50": 22,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      7,
+      14,
+      16,
+      64,
+      8
+    ],
+    "effect_values_min": [
+      160,
+      100,
+      30,
+      30,
+      25,
+      40
+    ],
+    "effect_values_max_30": [
+      190,
+      100,
+      30,
+      30,
+      25,
+      40
+    ],
+    "effect_values_max_40": [
+      197,
+      100,
+      30,
+      30,
+      25,
+      40
+    ],
+    "effect_values_max_50": [
+      202,
+      100,
+      30,
+      30,
+      25,
+      40
+    ],
+    "variance_rates": [
+      1,
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      7,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    "description_effect": "Forget(2T)&DEF/RES-#PER3#%(2T)&Male characters CRT-#PER5#%(2T)[Single Enemy],ATK+#PER6#%(3T)[Ally]",
+    "description": "It's a martial art passed down through the Nekomata clan.",
+    "resource_id": 3201121,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201122,
+    "name": "Neko Neko Wave",
+    "name_battle": "Neko Neko Wave",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 42,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      21,
+      13,
+      15,
+      22,
+      24,
+      8,
+      65,
+      103
+    ],
+    "effect_values_min": [
+      100,
+      50,
+      25,
+      25,
+      100,
+      100,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_30": [
+      130,
+      50,
+      25,
+      25,
+      100,
+      100,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_40": [
+      133,
+      50,
+      25,
+      25,
+      100,
+      100,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_50": [
+      136,
+      50,
+      25,
+      25,
+      100,
+      100,
+      30,
+      30,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Action Gauge-#PER2#&ATK/INT-#PER3#%(3T)&Human Characters ATK/INTremove buff effect[All Enemies],ATK/CRD+#PER7#%(3T)&Damage dealt by Special Move+#PER9#%(3T)[Party]",
+    "description": "I was heavily influenced by shonen manga.",
+    "resource_id": 3201122,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201123,
+    "name": "Bakeneko Rush",
+    "name_battle": "Bakeneko\\nRush",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 70,
+    "sp_max_30": 65,
+    "sp_max_40": 60,
+    "sp_max_50": 58,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      5,
+      13,
+      14,
+      15,
+      16,
+      150,
+      33,
+      63,
+      65,
+      103
+    ],
+    "effect_values_min": [
+      380,
+      100,
+      25,
+      25,
+      25,
+      25,
+      5,
+      30,
+      10,
+      30,
+      20
+    ],
+    "effect_values_max_30": [
+      410,
+      100,
+      25,
+      25,
+      25,
+      25,
+      5,
+      30,
+      10,
+      30,
+      20
+    ],
+    "effect_values_max_40": [
+      425,
+      100,
+      25,
+      25,
+      25,
+      25,
+      5,
+      30,
+      10,
+      30,
+      20
+    ],
+    "effect_values_max_50": [
+      430,
+      100,
+      25,
+      25,
+      25,
+      25,
+      5,
+      30,
+      10,
+      30,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Paralysis(2T)&Non-HP Basic Stats-#PER3#%(3T)&Damage Taken + #PER7#%(3T)[Single Enemy],If target is female, SP-#PER8#[All Enemies],CRT+#PER9#%(3T)&CRD+#PER10#%(3T)&Damage dealt by Special Move+#PER11#%(3T)[Party]",
+    "description": "Wait right there! You old hag trying to look young!",
+    "resource_id": 3201123,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003861,
+    "name": "I'll give you crab-shaped chocolates!",
+    "name_battle": "I'll give you\\ncrab-shaped chocolates!",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      8,
+      10,
+      12,
+      111
+    ],
+    "effect_values_min": [
+      68,
+      10,
+      10,
+      10,
+      20
+    ],
+    "effect_values_max_30": [
+      98,
+      10,
+      10,
+      10,
+      20
+    ],
+    "effect_values_max_40": [
+      99,
+      10,
+      10,
+      10,
+      20
+    ],
+    "effect_values_max_50": [
+      100,
+      10,
+      10,
+      10,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      3
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "ATK/INT・SPD+#PER2#%(3T)[Party],Damage Taken-#PER5#%(3T)[Ally]",
+    "description": "Please accept my feelings, along with my love for crab innards!!",
+    "resource_id": 3003861,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003862,
+    "name": "Home Economics Love Cooking!",
+    "name_battle": "Home Economics\\nLove Cooking!",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 37,
+    "sp_max_30": 32,
+    "sp_max_40": 30,
+    "sp_max_50": 28,
+    "gain_sp": 0,
+    "relational_param": 5,
+    "command_types": [
+      123,
+      48,
+      49,
+      50,
+      51,
+      52,
+      127,
+      128,
+      20,
+      8,
+      10,
+      65,
+      63,
+      101,
+      63,
+      65
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      30,
+      10,
+      15,
+      10,
+      20
+    ],
+    "effect_values_max_30": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      30,
+      10,
+      15,
+      10,
+      20
+    ],
+    "effect_values_max_40": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      30,
+      10,
+      15,
+      10,
+      20
+    ],
+    "effect_values_max_50": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      30,
+      10,
+      15,
+      10,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      14
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      75,
+      75
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "description_effect": "Overheal (small)&Remove debuffs&Action Gauge+#PER9#&ATK/INT/CRD+#PER10#%(3T)&CRT+#PER13#%(3T)&All damage+#PER14#%(3T)&HPが75%以上の場合、CRT+#PER15#%(3T)&CRD+#PER16#%(3T)[Party]",
+    "description": "Love, as a secret ingredient, has incredibly powerful healing effects!",
+    "resource_id": 3003862,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003863,
+    "name": "Absolute Mutual Love Flonne Punch",
+    "name_battle": "Absolute Mutual Love\\nFlonne Punch",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 61,
+    "sp_max_30": 56,
+    "sp_max_40": 52,
+    "sp_max_50": 48,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      23,
+      25,
+      13,
+      15,
+      64,
+      143,
+      21,
+      8,
+      10,
+      101
+    ],
+    "effect_values_min": [
+      130,
+      100,
+      100,
+      30,
+      30,
+      15,
+      15,
+      150,
+      40,
+      40,
+      20
+    ],
+    "effect_values_max_30": [
+      160,
+      100,
+      100,
+      30,
+      30,
+      15,
+      15,
+      150,
+      40,
+      40,
+      20
+    ],
+    "effect_values_max_40": [
+      164,
+      100,
+      100,
+      30,
+      30,
+      15,
+      15,
+      150,
+      40,
+      40,
+      20
+    ],
+    "effect_values_max_50": [
+      168,
+      100,
+      100,
+      30,
+      30,
+      15,
+      15,
+      150,
+      40,
+      40,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Remove DEF/RES buffs&ATK/INT-#PER4#%(3T)&CRT-#PER6#%(3T)&Fire resistance-#PER7#%(3T)&[On Critical hit]Action Gauge-#PER8#[All Enemies],ATK/INT+#PER9#%(3T)&All damage+#PER11#%(3T)[Party]",
+    "description": "I'll teach you the thrill of embarking on a new love!",
+    "resource_id": 3003863,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003891,
+    "name": "Prison School Nakko!!",
+    "name_battle": "Prison School\\nNakko!!",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      8,
+      9,
+      12
+    ],
+    "effect_values_min": [
+      68,
+      25,
+      25,
+      5
+    ],
+    "effect_values_max_30": [
+      98,
+      25,
+      25,
+      5
+    ],
+    "effect_values_max_40": [
+      99,
+      25,
+      25,
+      5
+    ],
+    "effect_values_max_50": [
+      100,
+      25,
+      25,
+      5
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "ATK・DEF+#PER2#%(3T)&SPD+#PER4#%(3T)[Party]",
+    "description": "I can knock out any ordinary guy around here with just one punch!",
+    "resource_id": 3003891,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003892,
+    "name": "Overlord Powerbomb",
+    "name_battle": "Overlord\\nPowerbomb",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 46,
+    "sp_max_30": 41,
+    "sp_max_40": 37,
+    "sp_max_50": 35,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      139,
+      63,
+      8,
+      65,
+      101,
+      5,
+      14,
+      16
+    ],
+    "effect_values_min": [
+      250,
+      340,
+      15,
+      30,
+      30,
+      20,
+      100,
+      40,
+      40
+    ],
+    "effect_values_max_30": [
+      280,
+      340,
+      15,
+      30,
+      30,
+      20,
+      100,
+      40,
+      40
+    ],
+    "effect_values_max_40": [
+      291,
+      340,
+      15,
+      30,
+      30,
+      20,
+      100,
+      40,
+      40
+    ],
+    "effect_values_max_50": [
+      296,
+      340,
+      15,
+      30,
+      30,
+      20,
+      100,
+      40,
+      40
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Intercept[Star][ATK](5T)&CRT+#PER3#%(3T)[Self],ATK/CRD+#PER4#%(3T)&All damage+#PER6#%(3T)[Party],Paralysis(2T)&DEF/RES-#PER8#%(3T)[Single Enemy]",
+    "description": "Bad kids shouldn't try to imitate this on the street.",
+    "resource_id": 3003892,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003893,
+    "name": "Bring on the Fight!!",
+    "name_battle": "Bring on the Fight!!",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 70,
+    "sp_max_30": 65,
+    "sp_max_40": 60,
+    "sp_max_50": 58,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      141,
+      81,
+      85,
+      143,
+      101,
+      20
+    ],
+    "effect_values_min": [
+      390,
+      50,
+      20,
+      80,
+      20,
+      20,
+      150
+    ],
+    "effect_values_max_30": [
+      420,
+      50,
+      20,
+      80,
+      20,
+      20,
+      150
+    ],
+    "effect_values_max_40": [
+      435,
+      50,
+      20,
+      80,
+      20,
+      20,
+      150
+    ],
+    "effect_values_max_50": [
+      440,
+      50,
+      20,
+      80,
+      20,
+      20,
+      150
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      1,
+      1,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      4
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      2
+    ],
+    "description_effect": "[When using skill]CRD+#PER2#%&If the target has a DEF debuff, Skill Power+#PER3#%[Self],Damage calculation ignores #PER4#% of target's buffs&Star resistance-#PER5#%(3T)[Single Enemy],All damage+#PER6#%(3T)&[On Critical hit]Action Gauge+#PER7#[Party]",
+    "description": "I'll tell you. I'm the top dog at Evil Academy!!",
+    "resource_id": 3003893,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201121,
+    "name": "Cat Medulla Oblongata Slash",
+    "name_battle": "Cat Medulla\\nOblongata Slash",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 23,
+    "sp_max_50": 22,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      7,
+      14,
+      16,
+      64,
+      8
+    ],
+    "effect_values_min": [
+      170,
+      100,
+      30,
+      30,
+      25,
+      40
+    ],
+    "effect_values_max_30": [
+      200,
+      100,
+      30,
+      30,
+      25,
+      40
+    ],
+    "effect_values_max_40": [
+      207,
+      100,
+      30,
+      30,
+      25,
+      40
+    ],
+    "effect_values_max_50": [
+      212,
+      100,
+      30,
+      30,
+      25,
+      40
+    ],
+    "variance_rates": [
+      1,
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      7,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    "description_effect": "Forget(2T)&DEF/RES-#PER3#%(2T)&Male characters CRT-#PER5#%(2T)[Single Enemy],ATK+#PER6#%(3T)[Ally]",
+    "description": "It is a martial art passed down to the nekomata.",
+    "resource_id": 3201121,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201122,
+    "name": "Neko Neko Wave",
+    "name_battle": "Neko Neko Wave",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 46,
+    "sp_max_30": 41,
+    "sp_max_40": 38,
+    "sp_max_50": 35,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      21,
+      13,
+      15,
+      22,
+      24,
+      8,
+      65,
+      103
+    ],
+    "effect_values_min": [
+      100,
+      50,
+      25,
+      25,
+      100,
+      100,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_30": [
+      130,
+      50,
+      25,
+      25,
+      100,
+      100,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_40": [
+      133,
+      50,
+      25,
+      25,
+      100,
+      100,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_50": [
+      136,
+      50,
+      25,
+      25,
+      100,
+      100,
+      30,
+      30,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Action Gauge-#PER2#&ATK/INT-#PER3#%(3T)&Human Characters ATK/INTremove buff effect[All Enemies],ATK/CRD+#PER7#%(3T)&Damage dealt by Special Move+#PER9#%(3T)[Party]",
+    "description": "I was heavily influenced by shonen manga.",
+    "resource_id": 3201122,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201123,
+    "name": "Bakeneko Rush",
+    "name_battle": "Bakeneko\\nRush",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 70,
+    "sp_max_30": 65,
+    "sp_max_40": 60,
+    "sp_max_50": 58,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      5,
+      13,
+      14,
+      15,
+      16,
+      150,
+      33,
+      63,
+      65,
+      103
+    ],
+    "effect_values_min": [
+      390,
+      100,
+      25,
+      25,
+      25,
+      25,
+      5,
+      30,
+      10,
+      30,
+      20
+    ],
+    "effect_values_max_30": [
+      420,
+      100,
+      25,
+      25,
+      25,
+      25,
+      5,
+      30,
+      10,
+      30,
+      20
+    ],
+    "effect_values_max_40": [
+      435,
+      100,
+      25,
+      25,
+      25,
+      25,
+      5,
+      30,
+      10,
+      30,
+      20
+    ],
+    "effect_values_max_50": [
+      440,
+      100,
+      25,
+      25,
+      25,
+      25,
+      5,
+      30,
+      10,
+      30,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Paralysis(2T)&Non-HP Basic Stats-#PER3#%(3T)&Damage Taken + #PER7#%(3T)[Single Enemy],If target is female, SP-#PER8#[All Enemies],CRT+#PER9#%(3T)&CRD+#PER10#%(3T)&Damage dealt by Special Move+#PER11#%(3T)[Party]",
+    "description": "Wait right there! You old hag trying to look young!",
+    "resource_id": 3201123,
+    "continuous_attack_rates": []
   }
 ]

@@ -70,8 +70,8 @@ class DeepLTranslator:
 
 class CharacterNameTranslator:
     def __init__(self):
-        character_dir_path = Paths.CHARACTER_DICTIONARIES_DIR / 'CharacterNameDictionary.json'
-        character_prefix_dir_path = Paths.CHARACTER_DICTIONARIES_DIR / 'CharacterNamePrefixDictionary.json'
+        self.character_dir_path = Paths.CHARACTER_DICTIONARIES_DIR / 'CharacterNameDictionary.json'
+        self.character_prefix_dir_path = Paths.CHARACTER_DICTIONARIES_DIR / 'CharacterNamePrefixDictionary.json'
         self.character_name_dict = {}
         self.character_prefix_dict = {}
         self.translator_deepl = DeepLTranslator()
@@ -79,17 +79,19 @@ class CharacterNameTranslator:
         self.VARIANT_SUFFIX_MAP = {
             "凶": "Badass",
         }
+        self.__loadCharacterDictionary()
 
+    def __loadCharacterDictionary(self):
         if os.path.exists(Paths.CHARACTER_DICTIONARIES_DIR):
             # Load character name dict
-            with io.open(character_dir_path, encoding='utf8') as f1:
+            with io.open(self.character_dir_path, encoding='utf8') as f1:
                 try:
                     self.character_name_dict.update(json.load(f1))
                 except json.JSONDecodeError:
                         print(f"⚠️ Skipping invalid CharacterNameDictionary JSON")
 
             # Load character name prefix dict
-            with io.open(character_prefix_dir_path, encoding='utf8') as f2:
+            with io.open(self.character_prefix_dir_path, encoding='utf8') as f2:
                 try:
                     self.character_prefix_dict.update(json.load(f2))
                 except json.JSONDecodeError:
@@ -441,3 +443,4 @@ class Translator:
             json.dump(self.character_master_dictionary, f, ensure_ascii=False, indent=2)
 
         print(f"\t\t➕ Added character to master dictionary: {jp_name} → {en_name}")
+        self.context.characters.update(self.character_master_dictionary)

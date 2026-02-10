@@ -3523,7 +3523,7 @@
   {
     "id": 1451,
     "img_id": 90073,
-    "name": "Rabbit Demon King Usaria",
+    "name": "Rabbit Overlord Usalia",
     "description": "Power to protect the Masochist World\nA rabbit wearing it.\nThe tragedy of losing my father and mother\nTo never repeat it again,\nAs a demon king, peaceful\nHe vowed to protect the Masochist world.",
     "color_no": 3
   },
@@ -4113,6 +4113,55 @@
     "img_id": 90090,
     "name": "Best clothes Altina",
     "description": "Altina in her best clothes.\nI want to go to New Year's visit with Valbatose,\nHe went out of his way to wear new clothes.\n...However, Fenrich\nSchedule Valvatose in advance\nBecause I was filling it with \"Eto Musume\",\nHatsumode is postponed.\nThis year's resolution is to make peace with the werewolf.",
+    "color_no": 9
+  },
+  {
+    "id": 1519,
+    "img_id": 386,
+    "name": "uniform fron",
+    "description": "In the evil school uniform\nFreon wrapped around the body.\nEmbrace the fateful encounter in your heart,\nWith a straight heart\nJust an ordinary girl.",
+    "color_no": 3
+  },
+  {
+    "id": 1520,
+    "img_id": 389,
+    "name": "uniform lahar",
+    "description": "In the raw slaughter of the evil school,\nLaharl in school uniform.\nHe has a bad mouth but is kind at heart.\nA boy in the midst of adolescence.\nI don't like strong women.",
+    "color_no": 1
+  },
+  {
+    "id": 1521,
+    "img_id": 90091,
+    "name": "Uniform Ice Emperor Rosalind",
+    "description": "A raw butcher who attends evil school,\nIce Emperor Rosalind in uniform.\nIts true identity is\nA female ninja who serves the village.\nAdele for a mission\nIt's getting closer...",
+    "color_no": 8
+  },
+  {
+    "id": 1522,
+    "img_id": 90092,
+    "name": "凶師彼岸絶勝斎",
+    "description": "Become the evil master of the evil school\nHigan Zesshosai is a nurse practitioner.\nAlthough it is bold and tough on raw slaughter,\nFor those who have troubles\nHe also has the kindness of being close to you.",
+    "color_no": 1
+  },
+  {
+    "id": 1523,
+    "img_id": 20112,
+    "name": "Nyandamon-chan",
+    "description": "He is Sawayaka Sattan's partner.\n``Nyandarou-kun'' is\nKilled by Sawayaka Sattan\nA figure with a new body.\nFollow God and make a romantic comedy\nPunish those who refuse.",
+    "color_no": 4
+  },
+  {
+    "id": 1524,
+    "img_id": 90093,
+    "name": "valentine hookah",
+    "description": "Fuka in Valentine's costume.\nDeveloping an ideal romantic comedy\nIn order to achieve this,\nSpreading the \"K virus\" to the school,\nThe person who forced him to act in a romantic comedy.\nHowever, only the sex appeal development\nI will never forgive you.\nBeing naughty is no good, it's punishable by death.",
+    "color_no": 6
+  },
+  {
+    "id": 1525,
+    "img_id": 274,
+    "name": "valentine fron",
+    "description": "Power your love cells with Mao's medicine\nI got it back, Freon.\nHonest love is what it is\nI believe it's a real romantic comedy,\nTrying to correct forced love\nStand up.",
     "color_no": 9
   }
 ]

@@ -26544,5 +26544,332 @@
     "description": "Special PT for Valvatose Raid",
     "max_num": 99999999,
     "sell_price": 0
+  },
+  {
+    "id": 1952,
+    "name": "Winter selfish keep ticket",
+    "item_type": 19,
+    "icon_no": 1952,
+    "effect_value": [
+      201205
+    ],
+    "description": "Keep your winter selfish! Ticket for one All Star Festival",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 340266,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      910
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340267,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      911
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 388,
+    "name": "Muscles fluffy",
+    "item_type": 3,
+    "icon_no": 388,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. Thick and voluminous with lots of red bean paste",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340268,
+    "name": "Festival character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      912
+    ],
+    "description": "Available at the Fes Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340269,
+    "name": "Festival character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      913
+    ],
+    "description": "Can be used at the festival character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700381,
+    "name": "New Year Artina Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for New Year Artina's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 389,
+    "name": "uniform fron chocolate",
+    "item_type": 3,
+    "icon_no": 389,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. A gift of love from Freon, it would be a waste to eat it!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4566,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      920
+    ],
+    "description": "Slaughter demon! BOSSPT for Demon and Youth Valentine 3",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5934,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      920
+    ],
+    "description": "Slaughter demon! Keys needed to challenge BOSS in Valentine of Demons and Youth 3",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200033,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200033,
+    "effect_value": [
+      920
+    ],
+    "description": "Slaughter demon! Demon and Youth Valentine 3 exclusive PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340270,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      916
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340271,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      917
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340272,
+    "name": "Festival character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      921
+    ],
+    "description": "Available at the Fes Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340273,
+    "name": "Festival character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      922
+    ],
+    "description": "Can be used at the festival character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300386,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      386
+    ],
+    "description": "A wondrous potion that grants School Uniform Flonne mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300389,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      389
+    ],
+    "description": "A wondrous potion that grants School Uniform Laharl mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320112,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20112
+    ],
+    "description": "A wondrous potion that grants Nyandamon Chan mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700386,
+    "name": "School Uniform Flonne Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for School Uniform Flonne's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700387,
+    "name": "wicked man Higan Zekkosai Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for wicked man Higan Zekkosai's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700388,
+    "name": "School Uniform Frostlord Rozalin Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for School Uniform Frostlord Rozalin's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700389,
+    "name": "School Uniform Laharl Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for School Uniform Laharl's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700390,
+    "name": "Valentine Fuka Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Valentine Fuka's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720112,
+    "name": "Nyandamon Chan Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Nyandamon Chan's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600386,
+    "name": "School Uniform Flonne Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      386
+    ],
+    "description": "Nether Star for Awakening 6★ School Uniform Flonne.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600389,
+    "name": "School Uniform Laharl Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      389
+    ],
+    "description": "Nether Star for Awakening 6★ School Uniform Laharl.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620112,
+    "name": "Nyandamon Chan Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20112
+    ],
+    "description": "Nether Star for Awakening 6★ Nyandamon Chan.",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]
