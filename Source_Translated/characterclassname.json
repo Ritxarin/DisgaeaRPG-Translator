@@ -25990,5 +25990,41 @@
     "m_character_id": 20112,
     "rarity": 6,
     "class_name": "New Reincarnation Mascot"
+  },
+  {
+    "id": 3871,
+    "m_character_id": 387,
+    "rarity": 1,
+    "class_name": "Strong-arm Physician"
+  },
+  {
+    "id": 3872,
+    "m_character_id": 387,
+    "rarity": 2,
+    "class_name": "Strong-arm Physician"
+  },
+  {
+    "id": 3873,
+    "m_character_id": 387,
+    "rarity": 3,
+    "class_name": "Strong-arm Physician"
+  },
+  {
+    "id": 3874,
+    "m_character_id": 387,
+    "rarity": 4,
+    "class_name": "Strong-arm Physician"
+  },
+  {
+    "id": 3875,
+    "m_character_id": 387,
+    "rarity": 5,
+    "class_name": "Master of raw butchers"
+  },
+  {
+    "id": 3876,
+    "m_character_id": 387,
+    "rarity": 6,
+    "class_name": "Great teacher of Kokin Doppo"
   }
 ]

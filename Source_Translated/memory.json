@@ -1158,5 +1158,13 @@
     "main_m_memory_effect_type_id": 113,
     "sub_m_character_id": 0,
     "sub_m_memory_effect_type_id": 114
+  },
+  {
+    "id": 146,
+    "name": "The Devil's Alma Mater",
+    "main_m_character_id": 361,
+    "main_m_memory_effect_type_id": 12,
+    "sub_m_character_id": 361,
+    "sub_m_memory_effect_type_id": 16
   }
 ]

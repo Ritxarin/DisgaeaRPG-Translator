@@ -297549,5 +297549,28 @@
     "shop_display_type": 0,
     "open_at": "2026-02-04 11:05:00",
     "close_at": "2026-02-25 23:59:59"
+  },
+  {
+    "id": 500035,
+    "name": "Tink XENO",
+    "icon_no": 20011,
+    "icon_resource_name": "",
+    "m_item_shop_id": 500,
+    "limit_type": 2,
+    "limit_num": 1,
+    "price_type": 6,
+    "price_m_item_id": 2601,
+    "price": 100,
+    "comeback": 0,
+    "description": "",
+    "cheaping": "",
+    "pack_flg": 0,
+    "sort": 21,
+    "recommended_flg": 0,
+    "recommended_message": "",
+    "purchas_kind": 0,
+    "shop_display_type": 0,
+    "open_at": "2026-02-18 00:00:00",
+    "close_at": "2050-06-30 23:59:59"
   }
 ]

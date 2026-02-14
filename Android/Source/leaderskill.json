@@ -93518,6 +93518,314 @@
         "description": ",CRT-#PER#%(2T)"
     },
     {
+        "id": 3871,
+        "name": "日ノ本最強の保嫌凶師",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            2
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 18,
+        "effect_value_max": 18,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのHP・ATK+#PER#%"
+    },
+    {
+        "id": 3872,
+        "name": "凶科無双",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 6,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 50,
+        "effect_value_max": 50,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が斧武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3873,
+        "name": "彼岸流・荒療治",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 21,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、パーティのHPを、自身の最大HPの#PER#%回復"
+    },
+    {
+        "id": 3874,
+        "name": "絶勝の教え",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 28,
+        "target_params": [
+            8
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            3
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 40,
+        "effect_value_max": 40,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、最もCRDが高い味方キャラのATK・DEF+#PER#%(2T)"
+    },
+    {
+        "id": 3875,
+        "name": "日ノ本最強の保嫌凶師",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRD+#PER#%"
+    },
+    {
+        "id": 3876,
+        "name": "凶科無双",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 6,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3877,
+        "name": "彼岸流・荒療治",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 26,
+        "target_params": [
+            4,
+            6
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            1
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティの潜在タイプ[ビショップ・クイーン]のキャラに与える全てのダメージ+#PER#%(1T)付与"
+    },
+    {
+        "id": 3878,
+        "name": "絶勝の教え",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 28,
+        "target_params": [
+            8
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRD+#PER#%(2T)"
+    },
+    {
         "id": 3891,
         "name": "ろくでなし魔王",
         "unique_flg": 0,
@@ -150634,6 +150942,44 @@
         ],
         "bad_effect_value": 0,
         "description": "パーティが人型キャラから受けるダメージ-30%"
+    },
+    {
+        "id": 805501,
+        "name": "試闘　ターン開始時、INTデバフの敵に束縛1回付与",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 39,
+        "target_params": [
+            4
+        ],
+        "effect_type": 105,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 100,
+        "effect_value_max": 100,
+        "effect_turn": [
+            1
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、INTデバフの敵に束縛1回付与"
     },
     {
         "id": 999999,

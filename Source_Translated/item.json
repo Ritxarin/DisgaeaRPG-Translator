@@ -26778,13 +26778,13 @@
   },
   {
     "id": 2700387,
-    "name": "wicked man Higan Zekkosai Crystal",
+    "name": "Professor Higan Zesshosai Crystal",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [
       100
     ],
-    "description": "A crystal used for wicked man Higan Zekkosai's Nether Enhancement.",
+    "description": "A crystal used for Professor Higan Zesshosai's Nether Enhancement.",
     "max_num": 9999,
     "sell_price": 0
   },
@@ -26869,6 +26869,30 @@
       20112
     ],
     "description": "Nether Star for Awakening 6★ Nyandamon Chan.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 390,
+    "name": "Crab miso style chocolate",
+    "item_type": 3,
+    "icon_no": 390,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. The rich flavor is just like the crab miso that Freon loves.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600387,
+    "name": "Professor Higan Zesshosai Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      387
+    ],
+    "description": "Nether Star for Awakening 6★ Professor Higan Zesshosai.",
     "max_num": 9999,
     "sell_price": 0
   }
