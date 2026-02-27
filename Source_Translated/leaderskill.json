@@ -5788,7 +5788,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Fire skill is used, Damage +#PER#%(2T)"
+    "description": "All Allies: When a Fire skill is used, Damage +#PER#% (2T)"
   },
   {
     "id": 305,
@@ -31565,7 +31565,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Water skill is used, Non-HP Basic Stats +#PER#%(2T)"
+    "description": "All Allies: When a Water skill is used, Non-HP Basic Stats +#PER#% (2T)"
   },
   {
     "id": 1684,
@@ -33388,7 +33388,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Water skill is used, SP +#PER#%"
+    "description": "All Allies: When a Water skill is used, SP +#PER#"
   },
   {
     "id": 1754,
@@ -34280,7 +34280,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Fire skill is used, ATK/DEF +#PER#%(2T)"
+    "description": "All Allies: When a Fire skill is used, ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 1793,
@@ -34552,7 +34552,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Wind skill is used, CRD +#PER#%(2T)"
+    "description": "All Allies: When a Wind skill is used, CRD +#PER#% (2T)"
   },
   {
     "id": 1804,
@@ -38146,7 +38146,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Wind skill is used, Non-HP Basic Stats +#PER#%(1T)"
+    "description": "All Allies: When a Wind skill is used, Non-HP Basic Stats +#PER#% (1T)"
   },
   {
     "id": 1943,
@@ -43160,7 +43160,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Wind skill is used, Non-HP Basic Stats +#PER#%(2T)"
+    "description": "All Allies: When a Wind skill is used, Non-HP Basic Stats +#PER#% (2T)"
   },
   {
     "id": 2134,
@@ -44468,7 +44468,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Fire skill is used, CRD +#PER#%(2T)"
+    "description": "All Allies: When a Fire skill is used, CRD +#PER#% (2T)"
   },
   {
     "id": 2183,
@@ -47705,7 +47705,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Fire skill is used, ATK/INT +#PER#%(1T)"
+    "description": "All Allies: When a Fire skill is used, ATK/INT +#PER#% (1T)"
   },
   {
     "id": 2304,
@@ -50762,7 +50762,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Water skill is used, Non-HP Basic Stats +#PER#%(1T)"
+    "description": "All Allies: When a Water skill is used, Non-HP Basic Stats +#PER#% (1T)"
   },
   {
     "id": 2414,
@@ -56728,7 +56728,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Fire skill is used, ATK/INT/CRD +#PER#%(1T)"
+    "description": "All Allies: When a Fire skill is used, ATK/INT/CRD +#PER#% (1T)"
   },
   {
     "id": 2624,
@@ -56880,7 +56880,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", All Allies: When a Water skill is used, Damage +#PER#%(1T)"
+    "description": ", All Allies: When a Water skill is used, Damage +#PER#% (1T)"
   },
   {
     "id": 2628,
@@ -57301,7 +57301,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Wind skill is used, Damage +#PER#%(3T)"
+    "description": "All Allies: When a Wind skill is used, Damage +#PER#% (3T)"
   },
   {
     "id": 2644,
@@ -57961,7 +57961,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Star skill is used, ATK/INT/CRD +#PER#%(2T)"
+    "description": "All Allies: When a Star skill is used, ATK/INT/CRD +#PER#% (2T)"
   },
   {
     "id": 2665,
@@ -59582,7 +59582,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Water skill is used, SP +#PER#%"
+    "description": "All Allies: When a Water skill is used, SP +#PER#"
   },
   {
     "id": 2724,
@@ -60089,7 +60089,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Fire skill is used, SP +#PER#%"
+    "description": "All Allies: When a Fire skill is used, SP +#PER#"
   },
   {
     "id": 2744,
@@ -61251,7 +61251,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Star skill is used, ATK/DEF +#PER#%(2T)"
+    "description": "All Allies: When a Star skill is used, ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 2784,
@@ -66333,7 +66333,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Water skill is used, ATK/INT/CRD +#PER#%(2T)"
+    "description": "All Allies: When a Water skill is used, ATK/INT/CRD +#PER#% (2T)"
   },
   {
     "id": 2964,
@@ -66923,7 +66923,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Fire skill is used, Non-HP Basic Stats +#PER#%(3T)"
+    "description": "All Allies: When a Fire skill is used, Non-HP Basic Stats +#PER#% (3T)"
   },
   {
     "id": 2985,
@@ -68860,7 +68860,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Star skill is used, ATK/DEF/CRD +#PER#%(2T)"
+    "description": "All Allies: When a Star skill is used, ATK/DEF/CRD +#PER#% (2T)"
   },
   {
     "id": 3054,
@@ -78797,7 +78797,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, if there are 4 or more surviving characters in the party, you will be able to use your ATK/CRD+#PER#%(2T)"
+    "description": "Self: At the start of turn, if there are 4 or more surviving party characters,  ATK/CRD+#PER#%(2T)"
   },
   {
     "id": 3394,
@@ -78950,7 +78950,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, if there is only one surviving character in the party, you will receive invincible (#PER# times)"
+    "description": ", if there is only one surviving character in the party, grant Invincibility (#PER# times)"
   },
   {
     "id": 3398,
@@ -79694,7 +79694,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Water skill is used, ATK/INT/CRD +#PER#%(2T)"
+    "description": "All Allies: When a Water skill is used, ATK/INT/CRD +#PER#% (2T)"
   },
   {
     "id": 3424,
@@ -82102,7 +82102,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Fire skill is used, Damage +#PER#%(2T)"
+    "description": "All Allies: When a Fire skill is used, Damage +#PER#% (2T)"
   },
   {
     "id": 3504,
@@ -101454,7 +101454,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Star skill is used, ATK/CRD +#PER#%(2T)"
+    "description": "All Allies: When a Star skill is used, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 200553,
@@ -105674,7 +105674,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage deals with special moves when you equip monster physical weapons +#PER#%"
+    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200743,
@@ -105712,7 +105712,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Damage received from the attacks of monster-type characters in the party -#PER#%"
+    "description": "Damage received by monster type characters in the party from general attacks -#PER#%"
   },
   {
     "id": 200744,
@@ -105828,7 +105828,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", All Allies: Skill Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200747,
@@ -112087,7 +112087,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Water skill is used, SP +#PER#%"
+    "description": "All Allies: When a Water skill is used, SP +#PER#"
   },
   {
     "id": 200964,
@@ -144331,7 +144331,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Water skill is used, ATK/INT/CRD +#PER#%(2T)"
+    "description": "All Allies: When a Water skill is used, ATK/INT/CRD +#PER#% (2T)"
   },
   {
     "id": 3563,
@@ -144487,7 +144487,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", All Allies: When a Wind skill is used, Damage +#PER#%(2T)"
+    "description": ", All Allies: When a Wind skill is used, Damage +#PER#% (2T)"
   },
   {
     "id": 3567,
@@ -149114,7 +149114,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Star skill is used, Damage +#PER#%(2T)"
+    "description": "All Allies: When a Star skill is used, Damage +#PER#% (2T)"
   },
   {
     "id": 3694,
@@ -153126,7 +153126,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Wind skill is used, ATK/CRD +#PER#%(2T)"
+    "description": "All Allies: When a Wind skill is used, ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 3834,
@@ -156627,7 +156627,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Furthermore, if the enemy has one or more humanoid characters, the DEF/CRT of the enemy character with the highest ATK -#PER#% (2T)"
+    "description": ", Highest-ATK Enemy: if 1+ humanoid foe, DEF/CRT -#PER#% (2T)"
   },
   {
     "id": 201128,
@@ -157012,5 +157012,811 @@
     ],
     "bad_effect_value": 0,
     "description": "At the start of the turn, bind enemies with INT debuff once."
+  },
+  {
+    "id": 3881,
+    "name": "Ten Love Colors",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 4,
+    "trigger_status": 12,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: If all allies Forte are different, HP/ATK/INT +#PER#%"
+  },
+  {
+    "id": 3882,
+    "name": "Inner Pocket Ninja Sword",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Sword-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 3883,
+    "name": "Escort Mission, Accomplished",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 9,
+    "effect_correct_characters": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: Damage +#PER#% × No. of allies with [Fist/Spear/Bow/Gun/Axe/Mon Phy]"
+  },
+  {
+    "id": 3884,
+    "name": "Nin Nin Shinobi",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 35,
+    "effect_type_params": [
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: The more surviving allies, the higher ATK/INT/CRD/CRT increases (ATK/INT/CRD +#PER#%"
+  },
+  {
+    "id": 3885,
+    "name": "Ten Love Colors",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 4,
+    "trigger_status": 12,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", SPD +#PER#%"
+  },
+  {
+    "id": 3886,
+    "name": "Inner Pocket Ninja Sword",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3887,
+    "name": "Escort Mission, Accomplished",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 24,
+    "target_params": [
+      1,
+      7,
+      9
+    ],
+    "effect_type": 90,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 1,
+    "effect_value_max": 1,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", At the start of the turn, grant invincibility (#PER# times) to [sword/staff/monster magic] forte allies"
+  },
+  {
+    "id": 3888,
+    "name": "Nin Nin Shinobi",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 35,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRT +#PER#%, 5 characters max)"
+  },
+  {
+    "id": 3901,
+    "name": "valentine god",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+  },
+  {
+    "id": 3902,
+    "name": "chocolate fork",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Staff-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3903,
+    "name": "Hot-blooded love K virus",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 14,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 22,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 8,
+    "effect_value_max": 8,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: When a Wind skill is used, SP +#PER#"
+  },
+  {
+    "id": 3904,
+    "name": "Absolutely comply with romantic comedy",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [
+      4
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      2,
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "At the end of the turn, ATK, INT, CRD +#PER#% (2T) of the character receiving the party's INT buff effect."
+  },
+  {
+    "id": 3905,
+    "name": "valentine god",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 3906,
+    "name": "chocolate fork",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3907,
+    "name": "Hot-blooded love K virus",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 14,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3908,
+    "name": "Absolutely comply with romantic comedy",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 28,
+    "target_params": [
+      8
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", and CRT+#PER#%(2T) of the ally character with the highest CRD."
+  },
+  {
+    "id": 20000095,
+    "name": "Basic parameters other than favorite weapon type [staff] -80%, SPD, CRT, CRD -80%",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 25,
+    "target_params": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "effect_type": 2,
+    "effect_type_params": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 80,
+    "effect_value_max": 80,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Basic parameters other than favorite weapon type [staff] -80%, SPD, CRT, CRD -80%"
+  },
+  {
+    "id": 20000096,
+    "name": "Damage inflicted by all attacks except for favorite weapon type [staff] -80%",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 25,
+    "target_params": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "effect_type": 98,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 80,
+    "effect_value_max": 80,
+    "effect_turn": [
+      100
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Damage inflicted by all attacks except for favorite weapon type [staff] -80%"
+  },
+  {
+    "id": 20000097,
+    "name": "Damage received from all attacks except for favorite weapon type [staff] +300%",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 25,
+    "target_params": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "effect_type": 99,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 300,
+    "effect_value_max": 300,
+    "effect_turn": [
+      100
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Damage received from all attacks except for favorite weapon type [staff] +300%"
+  },
+  {
+    "id": 20000098,
+    "name": "Cuts excess damage that exceeds 5% of maximum HP",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 75,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Cuts excess damage that exceeds 5% of maximum HP"
   }
 ]

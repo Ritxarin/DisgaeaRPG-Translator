@@ -1166,5 +1166,21 @@
     "main_m_memory_effect_type_id": 12,
     "sub_m_character_id": 361,
     "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 147,
+    "name": "I want to be a sexy gal.",
+    "main_m_character_id": 330,
+    "main_m_memory_effect_type_id": 11,
+    "sub_m_character_id": 330,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 148,
+    "name": "The sale of the summer resort of Etna",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 110,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 112
   }
 ]

@@ -30210,6 +30210,214 @@
         "continuous_attack_rates": []
     },
     {
+        "id": 358,
+        "name": "毛玉ローリング+",
+        "name_battle": "毛玉\\nローリング+",
+        "command_category": 3,
+        "attr": 1,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 32,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            9,
+            11,
+            63,
+            15,
+            33
+        ],
+        "effect_values_min": [
+            150,
+            15,
+            25,
+            50,
+            5,
+            50,
+            15
+        ],
+        "effect_values_max_30": [
+            150,
+            15,
+            25,
+            50,
+            5,
+            50,
+            15
+        ],
+        "effect_values_max_40": [
+            150,
+            15,
+            25,
+            50,
+            5,
+            50,
+            15
+        ],
+        "effect_values_max_50": [
+            150,
+            15,
+            25,
+            50,
+            5,
+            50,
+            15
+        ],
+        "variance_rates": [
+            33,
+            33,
+            33
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            4,
+            4,
+            4,
+            4,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK+15%,DEF+25%,RES+50%,CRT+5%[味方全],INT-50%,SP-15[敵単]",
+        "description": "毛玉を転がすだけの簡単なお仕事",
+        "resource_id": 3300262,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 359,
+        "name": "寝子猫曲技団+",
+        "name_battle": "寝子猫曲技団+",
+        "command_category": 3,
+        "attr": 0,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 8,
+        "sp_min": 90,
+        "sp_max_30": 85,
+        "sp_max_40": 80,
+        "sp_max_50": 74,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            65,
+            14,
+            17,
+            64,
+            134
+        ],
+        "effect_values_min": [
+            180,
+            30,
+            20,
+            10,
+            5,
+            100
+        ],
+        "effect_values_max_30": [
+            180,
+            30,
+            20,
+            10,
+            5,
+            100
+        ],
+        "effect_values_max_40": [
+            180,
+            30,
+            20,
+            10,
+            5,
+            100
+        ],
+        "effect_values_max_50": [
+            180,
+            30,
+            20,
+            10,
+            5,
+            100
+        ],
+        "variance_rates": [
+            100
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            2
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "CRD+30%[味方全],DEF-20%,SPD-10%,CRT-5%,茨付与[敵全]",
+        "description": "客席強制参加型の楽しいサーカスだニャ♪",
+        "resource_id": 3300264,
+        "continuous_attack_rates": []
+    },
+    {
         "id": 100001,
         "name": "一文字スラッシュ",
         "name_battle": "一文字\\nスラッシュ",
@@ -133489,7 +133697,9 @@
             65,
             20,
             101,
-            143
+            143,
+            63,
+            17
         ],
         "effect_values_min": [
             100,
@@ -133498,6 +133708,8 @@
             30,
             100,
             20,
+            10,
+            10,
             10
         ],
         "effect_values_max_30": [
@@ -133507,6 +133719,8 @@
             30,
             100,
             20,
+            10,
+            10,
             10
         ],
         "effect_values_max_40": [
@@ -133516,6 +133730,8 @@
             30,
             100,
             20,
+            10,
+            10,
             10
         ],
         "effect_values_max_50": [
@@ -133525,6 +133741,8 @@
             30,
             100,
             20,
+            10,
+            10,
             10
         ],
         "variance_rates": [
@@ -133537,6 +133755,8 @@
             3,
             0,
             3,
+            3,
+            3,
             3
         ],
         "effect_values_sub_max": [
@@ -133545,6 +133765,8 @@
             3,
             3,
             0,
+            3,
+            3,
             3,
             3
         ],
@@ -133555,7 +133777,9 @@
             0,
             0,
             0,
-            4
+            4,
+            0,
+            0
         ],
         "effect_targets": [
             2,
@@ -133563,6 +133787,8 @@
             4,
             4,
             4,
+            4,
+            2,
             4,
             2
         ],
@@ -133575,7 +133801,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "ATK・INT・CRD+#PER2#%(3T)&行動ゲージ+#PER5#&与える全てのダメージ+#PER6#%(3T)付与[味方全],星属性耐性値-#PER7#%(3T)[敵全]",
+        "description_effect": "ATK・INT・CRD+#PER2#%(3T)&CRT+#PER8#%(3T)&行動ゲージ+#PER5#&与える全てのダメージ+#PER6#%(3T)付与[味方全],SPD-#PER9#%(3T)&星属性耐性値-#PER7#%(3T)[敵全]",
         "description": "勇気を出して答える子の方がえらいんです！！",
         "resource_id": 3003292,
         "continuous_attack_rates": []
@@ -133600,35 +133826,40 @@
             141,
             150,
             143,
-            143
+            143,
+            85
         ],
         "effect_values_min": [
             480,
             100,
             10,
             20,
-            10
+            10,
+            80
         ],
         "effect_values_max_30": [
             510,
             100,
             10,
             20,
-            10
+            10,
+            80
         ],
         "effect_values_max_40": [
             525,
             100,
             10,
             20,
-            10
+            10,
+            80
         ],
         "effect_values_max_50": [
             540,
             100,
             10,
             20,
-            10
+            10,
+            80
         ],
         "variance_rates": [
             1
@@ -133638,25 +133869,29 @@
             0,
             2,
             2,
-            2
+            2,
+            0
         ],
         "effect_values_sub_max": [
             0,
             0,
             2,
             2,
-            2
+            2,
+            0
         ],
         "effect_values_sub2": [
             0,
             0,
             0,
             4,
-            4
+            4,
+            0
         ],
         "effect_targets": [
             1,
             5,
+            1,
             1,
             1,
             1
@@ -133666,9 +133901,11 @@
             0,
             0,
             0,
-            5
+            5,
+            0
         ],
         "trigger_type_params": [
+            0,
             0,
             0,
             0,
@@ -133680,9 +133917,10 @@
             0,
             0,
             0,
-            3
+            3,
+            0
         ],
-        "description_effect": "技使用時のCRD+#PER2#%[自身],受けるダメージ#PER3#%アップ(2T)付与&星属性耐性値-#PER4#%(2T)&クリティカル時、星属性耐性値-#PER5#%(2T)[敵単]",
+        "description_effect": "技使用時のCRD+#PER2#%[自身],対象のバフを#PER6#%無視してダメージ計算&受けるダメージ#PER3#%アップ(2T)付与&星属性耐性値-#PER4#%(2T)&クリティカル時、星属性耐性値-#PER5#%(2T)[敵単]",
         "description": "お父さん、だ～～～い好き！",
         "resource_id": 3003293,
         "continuous_attack_rates": []
@@ -134178,38 +134416,38 @@
         ],
         "effect_values_min": [
             80,
-            7,
-            20,
-            20,
-            20,
-            20,
+            8,
+            25,
+            25,
+            25,
+            25,
             30
         ],
         "effect_values_max_30": [
             110,
-            7,
-            20,
-            20,
-            20,
-            20,
+            8,
+            25,
+            25,
+            25,
+            25,
             30
         ],
         "effect_values_max_40": [
             112,
-            7,
-            20,
-            20,
-            20,
-            20,
+            8,
+            25,
+            25,
+            25,
+            25,
             30
         ],
         "effect_values_max_50": [
             114,
-            7,
-            20,
-            20,
-            20,
-            20,
+            8,
+            25,
+            25,
+            25,
+            25,
             30
         ],
         "variance_rates": [
@@ -134292,8 +134530,8 @@
             25,
             50,
             50,
-            10,
-            20,
+            15,
+            25,
             100,
             100,
             100
@@ -134304,8 +134542,8 @@
             25,
             50,
             50,
-            10,
-            20,
+            15,
+            25,
             100,
             100,
             100
@@ -134316,8 +134554,8 @@
             25,
             50,
             50,
-            10,
-            20,
+            15,
+            25,
             100,
             100,
             100
@@ -134328,8 +134566,8 @@
             25,
             50,
             50,
-            10,
-            20,
+            15,
+            25,
             100,
             100,
             100
@@ -134419,7 +134657,8 @@
             8,
             10,
             65,
-            101
+            101,
+            149
         ],
         "effect_values_min": [
             200,
@@ -134435,7 +134674,8 @@
             50,
             50,
             50,
-            20
+            25,
+            10
         ],
         "effect_values_max_30": [
             230,
@@ -134451,7 +134691,8 @@
             50,
             50,
             50,
-            20
+            25,
+            10
         ],
         "effect_values_max_40": [
             235,
@@ -134467,7 +134708,8 @@
             50,
             50,
             50,
-            20
+            25,
+            10
         ],
         "effect_values_max_50": [
             240,
@@ -134483,7 +134725,8 @@
             50,
             50,
             50,
-            20
+            25,
+            10
         ],
         "variance_rates": [
             1
@@ -134499,6 +134742,7 @@
             0,
             3,
             1,
+            3,
             3,
             3,
             3,
@@ -134518,6 +134762,7 @@
             3,
             3,
             3,
+            3,
             3
         ],
         "effect_values_sub2": [
@@ -134530,6 +134775,7 @@
             0,
             0,
             1,
+            0,
             0,
             0,
             0,
@@ -134550,7 +134796,8 @@
             4,
             4,
             4,
-            4
+            4,
+            2
         ],
         "trigger_types": [
             0
@@ -134561,7 +134808,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "バフ効果解除&炎属性耐性値-#PER9#%(3T)[敵全],敵が少ないほど威力アップ[自身],ATK・INT・CRD+#PER11#%(3T)&与える全てのダメージ+#PER14#%(3T)付与[味方全]",
+        "description_effect": "バフ効果解除&炎属性耐性値-#PER9#%(3T)&与えるダメージ#PER15#%ダウン(3T)付与[敵全],敵が少ないほど威力アップ[自身],ATK・INT・CRD+#PER11#%(3T)&与える全てのダメージ+#PER14#%(3T)付与[味方全]",
         "description": "受験で手が止まったならば、この一字を思い出せ！！",
         "resource_id": 3003313,
         "continuous_attack_rates": []
@@ -156446,6 +156693,371 @@
         "continuous_attack_rates": []
     },
     {
+        "id": 3003881,
+        "name": "氷庭の雪合戦",
+        "name_battle": "氷庭の雪合戦",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            10,
+            12
+        ],
+        "effect_values_min": [
+            60,
+            25,
+            25,
+            10
+        ],
+        "effect_values_max_30": [
+            90,
+            25,
+            25,
+            10
+        ],
+        "effect_values_max_40": [
+            91,
+            25,
+            25,
+            10
+        ],
+        "effect_values_max_50": [
+            92,
+            25,
+            25,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・INT+#PER2#%(3T)&SPD+#PER4#%(3T)[味方全]",
+        "description": "目立ちたくはないですが、負けたくもありません。",
+        "resource_id": 3003881,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003882,
+        "name": "音楽室の氷霊",
+        "name_battle": "音楽室の氷霊",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 32,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            131,
+            8,
+            10,
+            65,
+            63,
+            101,
+            39,
+            6,
+            14,
+            16
+        ],
+        "effect_values_min": [
+            200,
+            0,
+            40,
+            40,
+            40,
+            15,
+            15,
+            1,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_30": [
+            230,
+            0,
+            40,
+            40,
+            40,
+            15,
+            15,
+            1,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_40": [
+            239,
+            0,
+            40,
+            40,
+            40,
+            15,
+            15,
+            1,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_50": [
+            244,
+            0,
+            40,
+            40,
+            40,
+            15,
+            15,
+            1,
+            100,
+            40,
+            40
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            2,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            2,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            5,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "[連発禁止]再行動(1回)付与&ATK・INT・CRD+#PER3#%(3T)&CRT+#PER6#%(3T)[味方単],与える全てのダメージ+#PER7#%(3T)付与[味方全],眠り効果(2T)付与&DEF・RES-#PER10#%(3T)[敵単]",
+        "description": "演奏に見せかけて倒すなんて、三時のおやつ前です。",
+        "resource_id": 3003882,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003883,
+        "name": "風紀と恋の雪恋譚",
+        "name_battle": "風紀と\\n恋の雪恋譚",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 80,
+        "sp_max_30": 75,
+        "sp_max_40": 70,
+        "sp_max_50": 68,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            141,
+            81,
+            40,
+            101,
+            17,
+            64,
+            143
+        ],
+        "effect_values_min": [
+            480,
+            80,
+            30,
+            11,
+            20,
+            15,
+            15,
+            20
+        ],
+        "effect_values_max_30": [
+            510,
+            80,
+            30,
+            11,
+            20,
+            15,
+            15,
+            20
+        ],
+        "effect_values_max_40": [
+            525,
+            80,
+            30,
+            11,
+            20,
+            15,
+            15,
+            20
+        ],
+        "effect_values_max_50": [
+            540,
+            80,
+            30,
+            11,
+            20,
+            15,
+            15,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            2
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            1,
+            4,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            4,
+            4,
+            4
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            2,
+            2,
+            2
+        ],
+        "description_effect": "技使用時のCRD+#PER2#%&対象が眠り状態の時、技威力+#PER3#%&DEF・RESの低い方でダメージ計算[自身],与える全てのダメージ+#PER5#%(3T)付与[味方全],クリティカル時、SPD・CRT-#PER6#%(3T)&水属性耐性値-#PER8#%(2T)[敵全]",
+        "description": "学園の平和も影ながら守ってます。にんにん。",
+        "resource_id": 3003883,
+        "continuous_attack_rates": []
+    },
+    {
         "id": 3003891,
         "name": "獄学ナッコォ！！",
         "name_battle": "獄学\\nナッコォ！！",
@@ -156788,6 +157400,434 @@
         "description_effect": "技使用時のCRD+#PER2#%&対象がDEFデバフ状態の時、技威力+#PER3#%[自身],対象のバフを#PER4#%無視してダメージ計算&星属性耐性値-#PER5#%(3T)[敵単],与える全てのダメージ+#PER6#%(3T)付与&クリティカル時、行動ゲージ+#PER7#[味方全]",
         "description": "教えてやる。邪悪学園のテッペンは、オレ様だ！！",
         "resource_id": 3003893,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003901,
+        "name": "甘電チョコ！？",
+        "name_battle": "甘電\\nチョコ！？",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 4,
+        "command_types": [
+            1,
+            8,
+            10,
+            63
+        ],
+        "effect_values_min": [
+            60,
+            30,
+            30,
+            10
+        ],
+        "effect_values_max_30": [
+            90,
+            30,
+            30,
+            10
+        ],
+        "effect_values_max_40": [
+            91,
+            30,
+            30,
+            10
+        ],
+        "effect_values_max_50": [
+            92,
+            30,
+            30,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・INT+#PER2#%(3T)&CRT+#PER4#%(3T)[味方全]",
+        "description": "気分だけでもバレンタインを楽しみたかったッス……",
+        "resource_id": 3003901,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003902,
+        "name": "ラブコメインパルス",
+        "name_battle": "ラブコメ\\nインパルス",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 50,
+        "sp_max_30": 45,
+        "sp_max_40": 41,
+        "sp_max_50": 39,
+        "gain_sp": 0,
+        "relational_param": 4,
+        "command_types": [
+            1,
+            9,
+            11,
+            65,
+            138,
+            8,
+            10,
+            101,
+            14,
+            16,
+            22,
+            24
+        ],
+        "effect_values_min": [
+            250,
+            40,
+            40,
+            40,
+            340,
+            40,
+            40,
+            20,
+            30,
+            30,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            280,
+            40,
+            40,
+            40,
+            340,
+            40,
+            40,
+            20,
+            30,
+            30,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            291,
+            40,
+            40,
+            40,
+            340,
+            40,
+            40,
+            20,
+            30,
+            30,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            296,
+            40,
+            40,
+            40,
+            340,
+            40,
+            40,
+            20,
+            30,
+            30,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_targets": [
+            1,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            1,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "DEF・RES・CRD+#PER2#%(3T)&迎撃[風][RES](3T)付与[味方単],ATK・INT+#PER6#%(3T)&与える全てのダメージ+#PER8#%(3T)付与[味方全],DEF・RES-#PER9#%(3T)&ATK・INTバフ効果解除[敵単]",
+        "description": "アンタもラブコメ展開の一部にしてあげるわ！",
+        "resource_id": 3003902,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3003903,
+        "name": "熱血恋愛ビーム！！！",
+        "name_battle": "熱血恋愛\\nビーム！！！",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 65,
+        "sp_max_30": 60,
+        "sp_max_40": 56,
+        "sp_max_50": 52,
+        "gain_sp": 0,
+        "relational_param": 4,
+        "command_types": [
+            1,
+            48,
+            49,
+            50,
+            51,
+            52,
+            127,
+            128,
+            63,
+            65,
+            101,
+            13,
+            14,
+            15,
+            16,
+            134,
+            150
+        ],
+        "effect_values_min": [
+            130,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15,
+            50,
+            20,
+            30,
+            30,
+            30,
+            30,
+            85,
+            10
+        ],
+        "effect_values_max_30": [
+            160,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15,
+            50,
+            20,
+            30,
+            30,
+            30,
+            30,
+            85,
+            10
+        ],
+        "effect_values_max_40": [
+            164,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15,
+            50,
+            20,
+            30,
+            30,
+            30,
+            30,
+            85,
+            10
+        ],
+        "effect_values_max_50": [
+            168,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15,
+            50,
+            20,
+            30,
+            30,
+            30,
+            30,
+            85,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "デバフ効果解除&CRT+#PER9#%(3T)&CRD+#PER10#%(3T)&与える全てのダメージ+#PER11#%(3T)付与[味方全],HP以外の基礎パラメータ-#PER12#%(3T)&茨効果(2T)付与&受けるダメージ#PER17#%アップ(2T)付与[敵全]",
+        "description": "Ｋは風祭のＫ！　アタシのＫに抗えるかしら！？",
+        "resource_id": 3003903,
         "continuous_attack_rates": []
     },
     {
@@ -181009,33 +182049,47 @@
         "relational_param": 2,
         "command_types": [
             1,
-            121
+            121,
+            8,
+            10
         ],
         "effect_values_min": [
             60,
-            10
+            10,
+            20,
+            20
         ],
         "effect_values_max_30": [
             90,
-            10
+            10,
+            20,
+            20
         ],
         "effect_values_max_40": [
             91,
-            10
+            10,
+            20,
+            20
         ],
         "effect_values_max_50": [
             92,
-            10
+            10,
+            20,
+            20
         ],
         "variance_rates": [
             1
         ],
         "effect_values_sub_min": [
             0,
+            3,
+            3,
             3
         ],
         "effect_values_sub_max": [
             0,
+            3,
+            3,
             3
         ],
         "effect_values_sub2": [
@@ -181043,6 +182097,8 @@
         ],
         "effect_targets": [
             2,
+            4,
+            4,
             4
         ],
         "trigger_types": [
@@ -181054,7 +182110,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "SP自動回復[#PER2#](3T)付与[味方全]",
+        "description_effect": "SP自動回復[#PER2#](3T)付与&ATK・INT+#PER3#%(3T)[味方全]",
         "description": "一糸乱れぬ動きを姉妹で猛特訓しました。",
         "resource_id": 3200741,
         "continuous_attack_rates": []
@@ -181079,40 +182135,60 @@
             20,
             8,
             65,
-            103,
-            39
+            101,
+            39,
+            8,
+            10,
+            101,
+            158
         ],
         "effect_values_min": [
             80,
             1000,
             30,
-            60,
+            80,
             30,
-            1
+            1,
+            30,
+            30,
+            20,
+            15
         ],
         "effect_values_max_30": [
             110,
             1000,
             30,
-            60,
+            80,
             30,
-            1
+            1,
+            30,
+            30,
+            20,
+            15
         ],
         "effect_values_max_40": [
             112,
             1000,
             30,
-            60,
+            80,
             30,
-            1
+            1,
+            30,
+            30,
+            20,
+            15
         ],
         "effect_values_max_50": [
             114,
             1000,
             30,
-            60,
+            80,
             30,
-            1
+            1,
+            30,
+            30,
+            20,
+            15
         ],
         "variance_rates": [
             1
@@ -181120,18 +182196,26 @@
         "effect_values_sub_min": [
             0,
             0,
-            1,
-            1,
-            1,
-            0
+            2,
+            2,
+            2,
+            0,
+            3,
+            3,
+            3,
+            2
         ],
         "effect_values_sub_max": [
             0,
             0,
-            1,
-            1,
-            1,
-            0
+            2,
+            2,
+            2,
+            0,
+            3,
+            3,
+            3,
+            2
         ],
         "effect_values_sub2": [
             0
@@ -181142,18 +182226,49 @@
             5,
             5,
             5,
-            5
+            5,
+            4,
+            4,
+            4,
+            2
         ],
         "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
             0
         ],
         "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
             0
         ],
         "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
             0
         ],
-        "description_effect": "[連発禁止]行動ゲージ+#PER2#&ATK+#PER3#%(1T)&CRD+#PER4#%(1T)&必殺技で与えるダメージ+#PER5#%(1T)付与[自身]",
+        "description_effect": "[連発禁止]行動ゲージ+#PER2#&ATK+#PER3#%(2T)&CRD+#PER4#%(2T)&与える全てのダメージ+#PER5#%(2T)付与[自身],ATK・INT+#PER7#%(3T)&魔物型はさらに与える全てのダメージ+#PER9#%(3T)付与[味方全],SP負荷[#PER10#](2T)付与[敵全]",
         "description": "ノック遊びから生まれた恐ろしい技……。",
         "resource_id": 3200742,
         "continuous_attack_rates": []
@@ -181176,26 +182291,41 @@
         "command_types": [
             1,
             85,
-            91
+            91,
+            150,
+            149,
+            124
         ],
         "effect_values_min": [
             380,
             100,
+            30,
+            10,
+            15,
             25
         ],
         "effect_values_max_30": [
             410,
             100,
+            30,
+            10,
+            15,
             25
         ],
         "effect_values_max_40": [
             425,
             100,
+            30,
+            10,
+            15,
             25
         ],
         "effect_values_max_50": [
             430,
             100,
+            30,
+            10,
+            15,
             25
         ],
         "variance_rates": [
@@ -181204,11 +182334,17 @@
         "effect_values_sub_min": [
             0,
             0,
+            0,
+            2,
+            2,
             0
         ],
         "effect_values_sub_max": [
             0,
             0,
+            0,
+            2,
+            2,
             0
         ],
         "effect_values_sub2": [
@@ -181217,18 +182353,36 @@
         "effect_targets": [
             1,
             1,
+            5,
+            1,
+            2,
             5
         ],
         "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            4,
             0
         ],
         "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
         ],
         "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            2,
             0
         ],
-        "description_effect": "対象のバフを#PER2#%無視してダメージ計算[敵単],DEFの#PER3#%を上乗せしてダメージ計算[自身]",
+        "description_effect": "対象のバフを#PER2#%無視してダメージ計算&受けるダメージ#PER4#%アップ(2T)付与[敵単],クリティカル時、与えるダメージ#PER5#%ダウン(2T)付与[敵全],技使用時のCRT+#PER6#%&DEFの#PER3#%を上乗せしてダメージ計算[自身]",
         "description": "実を言うと、ボールはもうだめです。",
         "resource_id": 3200743,
         "continuous_attack_rates": []
@@ -321873,6 +323027,3244 @@
         "continuous_attack_rates": []
     },
     {
+        "id": 3601391,
+        "name": "音楽室の氷霊+",
+        "name_battle": "音楽室の氷霊+",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 32,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            65,
+            14,
+            17,
+            111,
+            48,
+            128,
+            6
+        ],
+        "effect_values_min": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            20,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            20,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            20,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            20,
+            100,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            2
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            1,
+            1,
+            5,
+            5,
+            5,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・CRD+30%,被ダメ全攻撃-35%,ATK・CRDデバフ解除[自身],DEF-25%,SPD-5%,眠り付与[敵単]",
+        "description": "レイドBOSS",
+        "resource_id": 3601292,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601392,
+        "name": "氷庭の雪合戦+",
+        "name_battle": "氷庭の雪合戦+",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            9,
+            11,
+            63,
+            13,
+            15,
+            66,
+            101,
+            49,
+            51,
+            127
+        ],
+        "effect_values_min": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            5,
+            5,
+            5,
+            5
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "DEF+30%,RES+50%,CRT+5%,与ダメ全攻撃+35%,DEF・RES・CRTデバフ解除[自身],ATK-30%,INT・CRD-50%[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601291,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601393,
+        "name": "氷庭の雪合戦++",
+        "name_battle": "氷庭の雪合戦++",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            9,
+            10,
+            11,
+            12,
+            69,
+            70,
+            101,
+            49,
+            51,
+            127
+        ],
+        "effect_values_min": [
+            150,
+            30,
+            30,
+            30,
+            30,
+            30,
+            2,
+            2,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            150,
+            30,
+            30,
+            30,
+            30,
+            30,
+            2,
+            2,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            150,
+            30,
+            30,
+            30,
+            30,
+            30,
+            2,
+            2,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            150,
+            30,
+            30,
+            30,
+            30,
+            30,
+            2,
+            2,
+            30,
+            100,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "全バフ+30%,風星2発1Tバリア,与ダメ全攻撃+35%,DEF・RES・CRTデバフ解除[自身]",
+        "description": "レイドBOSS",
+        "resource_id": 3601291,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601394,
+        "name": "風紀と恋の雪恋譚+",
+        "name_battle": "風紀と\\n恋の雪恋譚+",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 80,
+        "sp_max_30": 75,
+        "sp_max_40": 70,
+        "sp_max_50": 68,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            12,
+            63,
+            65,
+            111,
+            48,
+            128,
+            6
+        ],
+        "effect_values_min": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            3,
+            0,
+            0,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            3,
+            0,
+            0,
+            2
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK+50%,SPD・CRT+10%,CRD+50%,被ダメ全攻撃-30%,ATK・CRDデバフ解除[自身],眠り付与[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601293,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601395,
+        "name": "氷庭の雪合戦Ω",
+        "name_battle": "氷庭の雪合戦Ω",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            95,
+            48,
+            49,
+            50,
+            51,
+            52,
+            127,
+            128,
+            101,
+            111,
+            22,
+            24,
+            26,
+            125,
+            13,
+            14,
+            15,
+            16,
+            145,
+            21
+        ],
+        "effect_values_min": [
+            750,
+            750,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            50,
+            50,
+            100,
+            100,
+            100,
+            100,
+            25,
+            25,
+            25,
+            25,
+            0,
+            1000
+        ],
+        "effect_values_max_30": [
+            750,
+            750,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            50,
+            50,
+            100,
+            100,
+            100,
+            100,
+            25,
+            25,
+            25,
+            25,
+            0,
+            1000
+        ],
+        "effect_values_max_40": [
+            750,
+            750,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            50,
+            50,
+            100,
+            100,
+            100,
+            100,
+            25,
+            25,
+            25,
+            25,
+            0,
+            1000
+        ],
+        "effect_values_max_50": [
+            750,
+            750,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            50,
+            50,
+            100,
+            100,
+            100,
+            100,
+            25,
+            25,
+            25,
+            25,
+            0,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            5,
+            5,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            5,
+            5,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "使用する度に威力+750,全デバフ解除,与ダメ全攻撃+50%,被ダメ全攻撃-50%[自身],ATK・INT・SPD・CRTバフ解除,HP以外の基礎パラメータ-25%,特殊効果解除,行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601291,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601396,
+        "name": "氷庭の雪合戦θ",
+        "name_battle": "氷庭の雪合戦θ",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            9,
+            11,
+            63,
+            13,
+            15,
+            66,
+            101,
+            49,
+            51,
+            127,
+            5,
+            33,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            21
+        ],
+        "effect_values_min": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_30": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_40": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_50": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            5,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "DEF+30%,RES+50%,CRT+5%,与ダメ全攻撃+35%,DEF・RES・CRTデバフ解除[自身],ATK-30%,INT・CRD-50%,マヒ付与,SP-15,全バフ解除,行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601291,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601397,
+        "name": "氷庭の雪合戦θ+",
+        "name_battle": "氷庭の雪合戦θ+",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            9,
+            10,
+            11,
+            12,
+            69,
+            70,
+            101,
+            49,
+            51,
+            127,
+            5,
+            33,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            21
+        ],
+        "effect_values_min": [
+            150,
+            40,
+            40,
+            40,
+            40,
+            40,
+            2,
+            2,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_30": [
+            150,
+            40,
+            40,
+            40,
+            40,
+            40,
+            2,
+            2,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_40": [
+            150,
+            40,
+            40,
+            40,
+            40,
+            40,
+            2,
+            2,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_50": [
+            150,
+            40,
+            40,
+            40,
+            40,
+            40,
+            2,
+            2,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "全バフ+40%,風星2発1Tバリア,与ダメ全攻撃+35%,DEF・RES・CRTデバフ解除[自身],マヒ付与,SP-15,全バフ解除,行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601291,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601398,
+        "name": "風紀と恋の雪恋譚θ",
+        "name_battle": "風紀と\\n恋の雪恋譚θ",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 80,
+        "sp_max_30": 75,
+        "sp_max_40": 70,
+        "sp_max_50": 68,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            12,
+            63,
+            65,
+            111,
+            48,
+            128,
+            153,
+            33,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            21
+        ],
+        "effect_values_min": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            40,
+            100,
+            100,
+            100,
+            50,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_30": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            40,
+            100,
+            100,
+            100,
+            50,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_40": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            40,
+            100,
+            100,
+            100,
+            50,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_50": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            40,
+            100,
+            100,
+            100,
+            50,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK+50%,SPD・CRT+10%,CRD+50%,被ダメ全攻撃-40%,ATK・CRDデバフ解除[自身],束縛付与,SP-50,全バフ解除[敵単],行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601293,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601401,
+        "name": "音楽室の氷霊+",
+        "name_battle": "音楽室の氷霊+",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 32,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            65,
+            14,
+            17,
+            111,
+            48,
+            128,
+            6
+        ],
+        "effect_values_min": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            20,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            20,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            20,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            20,
+            100,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            2
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            1,
+            1,
+            5,
+            5,
+            5,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・CRD+30%,被ダメ全攻撃-35%,ATK・CRDデバフ解除[自身],DEF-25%,SPD-5%,眠り付与[敵単]",
+        "description": "レイドBOSS",
+        "resource_id": 3601302,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601402,
+        "name": "氷庭の雪合戦+",
+        "name_battle": "氷庭の雪合戦+",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            9,
+            11,
+            63,
+            13,
+            15,
+            66,
+            101,
+            49,
+            51,
+            127
+        ],
+        "effect_values_min": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            5,
+            5,
+            5,
+            5
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "DEF+30%,RES+50%,CRT+5%,与ダメ全攻撃+35%,DEF・RES・CRTデバフ解除[自身],ATK-30%,INT・CRD-50%[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601301,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601403,
+        "name": "氷庭の雪合戦++",
+        "name_battle": "氷庭の雪合戦++",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            9,
+            10,
+            11,
+            12,
+            69,
+            70,
+            101,
+            49,
+            51,
+            127
+        ],
+        "effect_values_min": [
+            150,
+            30,
+            30,
+            30,
+            30,
+            30,
+            2,
+            2,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            150,
+            30,
+            30,
+            30,
+            30,
+            30,
+            2,
+            2,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            150,
+            30,
+            30,
+            30,
+            30,
+            30,
+            2,
+            2,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            150,
+            30,
+            30,
+            30,
+            30,
+            30,
+            2,
+            2,
+            30,
+            100,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "全バフ+30%,風星2発1Tバリア,与ダメ全攻撃+35%,DEF・RES・CRTデバフ解除[自身]",
+        "description": "レイドBOSS",
+        "resource_id": 3601301,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601404,
+        "name": "風紀と恋の雪恋譚+",
+        "name_battle": "風紀と\\n恋の雪恋譚+",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 80,
+        "sp_max_30": 75,
+        "sp_max_40": 70,
+        "sp_max_50": 68,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            12,
+            63,
+            65,
+            111,
+            48,
+            128,
+            6
+        ],
+        "effect_values_min": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            30,
+            100,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            3,
+            0,
+            0,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            3,
+            0,
+            0,
+            2
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK+50%,SPD・CRT+10%,CRD+50%,被ダメ全攻撃-30%,ATK・CRDデバフ解除[自身],眠り付与[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601303,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601405,
+        "name": "氷庭の雪合戦Ω",
+        "name_battle": "氷庭の雪合戦Ω",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            95,
+            48,
+            49,
+            50,
+            51,
+            52,
+            127,
+            128,
+            101,
+            111,
+            22,
+            24,
+            26,
+            125,
+            13,
+            14,
+            15,
+            16,
+            145,
+            21
+        ],
+        "effect_values_min": [
+            750,
+            750,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            50,
+            50,
+            100,
+            100,
+            100,
+            100,
+            25,
+            25,
+            25,
+            25,
+            0,
+            1000
+        ],
+        "effect_values_max_30": [
+            750,
+            750,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            50,
+            50,
+            100,
+            100,
+            100,
+            100,
+            25,
+            25,
+            25,
+            25,
+            0,
+            1000
+        ],
+        "effect_values_max_40": [
+            750,
+            750,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            50,
+            50,
+            100,
+            100,
+            100,
+            100,
+            25,
+            25,
+            25,
+            25,
+            0,
+            1000
+        ],
+        "effect_values_max_50": [
+            750,
+            750,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            50,
+            50,
+            100,
+            100,
+            100,
+            100,
+            25,
+            25,
+            25,
+            25,
+            0,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            5,
+            5,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            5,
+            5,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "使用する度に威力+750,全デバフ解除,与ダメ全攻撃+50%,被ダメ全攻撃-50%[自身],ATK・INT・SPD・CRTバフ解除,HP以外の基礎パラメータ-25%,特殊効果解除,行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601301,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601406,
+        "name": "音楽室の氷霊θ",
+        "name_battle": "音楽室の氷霊θ",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 40,
+        "sp_max_30": 35,
+        "sp_max_40": 32,
+        "sp_max_50": 31,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            65,
+            14,
+            17,
+            111,
+            48,
+            128,
+            153,
+            33,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            21
+        ],
+        "effect_values_min": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            30,
+            100,
+            100,
+            100,
+            30,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_30": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            30,
+            100,
+            100,
+            100,
+            30,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_40": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            30,
+            100,
+            100,
+            100,
+            30,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_50": [
+            150,
+            30,
+            30,
+            25,
+            5,
+            30,
+            100,
+            100,
+            100,
+            30,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            1,
+            1,
+            5,
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・CRD+30%,被ダメ全攻撃-35%,ATK・CRDデバフ解除[自身],DEF-25%,SPD-5%,束縛付与,SP-30,全バフ解除[敵単],行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601302,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601407,
+        "name": "氷庭の雪合戦θ",
+        "name_battle": "氷庭の雪合戦θ",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            9,
+            11,
+            63,
+            13,
+            15,
+            66,
+            101,
+            49,
+            51,
+            127,
+            5,
+            33,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            21
+        ],
+        "effect_values_min": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_30": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_40": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_50": [
+            100,
+            30,
+            50,
+            5,
+            30,
+            50,
+            50,
+            35,
+            100,
+            100,
+            100,
+            100,
+            15,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            5,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "DEF+30%,RES+50%,CRT+5%,与ダメ全攻撃+35%,DEF・RES・CRTデバフ解除[自身],ATK-30%,INT・CRD-50%,マヒ付与,SP-15,全バフ解除,行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601301,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601408,
+        "name": "風紀と恋の雪恋譚θ",
+        "name_battle": "風紀と\\n恋の雪恋譚θ",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 80,
+        "sp_max_30": 75,
+        "sp_max_40": 70,
+        "sp_max_50": 68,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            12,
+            63,
+            65,
+            111,
+            48,
+            128,
+            153,
+            33,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            21
+        ],
+        "effect_values_min": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            40,
+            100,
+            100,
+            100,
+            50,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_30": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            40,
+            100,
+            100,
+            100,
+            50,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_40": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            40,
+            100,
+            100,
+            100,
+            50,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_50": [
+            450,
+            50,
+            10,
+            10,
+            50,
+            40,
+            100,
+            100,
+            100,
+            50,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK+50%,SPD・CRT+10%,CRD+50%,被ダメ全攻撃-40%,ATK・CRDデバフ解除[自身],束縛付与,SP-50,全バフ解除[敵単],行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601303,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601409,
+        "name": "氷庭の雪合戦θ+",
+        "name_battle": "氷庭の雪合戦θ+",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            9,
+            10,
+            11,
+            12,
+            69,
+            70,
+            101,
+            49,
+            51,
+            127,
+            5,
+            33,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            21
+        ],
+        "effect_values_min": [
+            200,
+            60,
+            60,
+            60,
+            60,
+            60,
+            2,
+            2,
+            35,
+            100,
+            100,
+            100,
+            100,
+            25,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_30": [
+            200,
+            60,
+            60,
+            60,
+            60,
+            60,
+            2,
+            2,
+            35,
+            100,
+            100,
+            100,
+            100,
+            25,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_40": [
+            200,
+            60,
+            60,
+            60,
+            60,
+            60,
+            2,
+            2,
+            35,
+            100,
+            100,
+            100,
+            100,
+            25,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_50": [
+            200,
+            60,
+            60,
+            60,
+            60,
+            60,
+            2,
+            2,
+            35,
+            100,
+            100,
+            100,
+            100,
+            25,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "全バフ+60%,風星2発1Tバリア,与ダメ全攻撃+35%,DEF・RES・CRTデバフ解除[自身],マヒ付与,SP-25,全バフ解除,行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601301,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 3601410,
+        "name": "氷庭の雪合戦θ+",
+        "name_battle": "氷庭の雪合戦θ+",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            9,
+            10,
+            11,
+            12,
+            70,
+            101,
+            49,
+            51,
+            127,
+            5,
+            33,
+            22,
+            23,
+            24,
+            25,
+            26,
+            125,
+            126,
+            21
+        ],
+        "effect_values_min": [
+            250,
+            80,
+            80,
+            80,
+            80,
+            80,
+            2,
+            40,
+            100,
+            100,
+            100,
+            100,
+            30,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_30": [
+            250,
+            80,
+            80,
+            80,
+            80,
+            80,
+            2,
+            40,
+            100,
+            100,
+            100,
+            100,
+            30,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_40": [
+            250,
+            80,
+            80,
+            80,
+            80,
+            80,
+            2,
+            40,
+            100,
+            100,
+            100,
+            100,
+            30,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "effect_values_max_50": [
+            250,
+            80,
+            80,
+            80,
+            80,
+            80,
+            2,
+            40,
+            100,
+            100,
+            100,
+            100,
+            30,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            1000
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "全バフ+80%,星2発1Tバリア,与ダメ全攻撃+40%,DEF・RES・CRTデバフ解除[自身],マヒ付与,SP-30,全バフ解除,行動ゲージ-1000[敵全]",
+        "description": "レイドBOSS",
+        "resource_id": 3601301,
+        "continuous_attack_rates": []
+    },
+    {
         "id": 3700011,
         "name": "ラスボスの復讐",
         "name_battle": "ラスボスの\\n復讐",
@@ -415137,7 +419529,9 @@
             65,
             20,
             101,
-            143
+            143,
+            63,
+            17
         ],
         "effect_values_min": [
             100,
@@ -415146,6 +419540,8 @@
             30,
             100,
             20,
+            10,
+            10,
             10
         ],
         "effect_values_max_30": [
@@ -415155,6 +419551,8 @@
             30,
             100,
             20,
+            10,
+            10,
             10
         ],
         "effect_values_max_40": [
@@ -415164,6 +419562,8 @@
             30,
             100,
             20,
+            10,
+            10,
             10
         ],
         "effect_values_max_50": [
@@ -415173,6 +419573,8 @@
             30,
             100,
             20,
+            10,
+            10,
             10
         ],
         "variance_rates": [
@@ -415185,6 +419587,8 @@
             3,
             0,
             3,
+            3,
+            3,
             3
         ],
         "effect_values_sub_max": [
@@ -415193,6 +419597,8 @@
             3,
             3,
             0,
+            3,
+            3,
             3,
             3
         ],
@@ -415203,7 +419609,9 @@
             0,
             0,
             0,
-            4
+            4,
+            0,
+            0
         ],
         "effect_targets": [
             2,
@@ -415211,6 +419619,8 @@
             4,
             4,
             4,
+            4,
+            2,
             4,
             2
         ],
@@ -415223,7 +419633,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "ATK・INT・CRD+#PER2#%(3T)&行動ゲージ+#PER5#&与える全てのダメージ+#PER6#%(3T)付与[味方全],星属性耐性値-#PER7#%(3T)[敵全]",
+        "description_effect": "ATK・INT・CRD+#PER2#%(3T)&CRT+#PER8#%(3T)&行動ゲージ+#PER5#&与える全てのダメージ+#PER6#%(3T)付与[味方全],SPD-#PER9#%(3T)&星属性耐性値-#PER7#%(3T)[敵全]",
         "description": "勇気を出して答える子の方がえらいんです！！",
         "resource_id": 3003292,
         "continuous_attack_rates": []
@@ -415248,35 +419658,40 @@
             141,
             150,
             143,
-            143
+            143,
+            85
         ],
         "effect_values_min": [
             490,
             100,
             10,
             20,
-            10
+            10,
+            80
         ],
         "effect_values_max_30": [
             520,
             100,
             10,
             20,
-            10
+            10,
+            80
         ],
         "effect_values_max_40": [
             535,
             100,
             10,
             20,
-            10
+            10,
+            80
         ],
         "effect_values_max_50": [
             550,
             100,
             10,
             20,
-            10
+            10,
+            80
         ],
         "variance_rates": [
             1
@@ -415286,25 +419701,29 @@
             0,
             2,
             2,
-            2
+            2,
+            0
         ],
         "effect_values_sub_max": [
             0,
             0,
             2,
             2,
-            2
+            2,
+            0
         ],
         "effect_values_sub2": [
             0,
             0,
             0,
             4,
-            4
+            4,
+            0
         ],
         "effect_targets": [
             1,
             5,
+            1,
             1,
             1,
             1
@@ -415314,9 +419733,11 @@
             0,
             0,
             0,
-            5
+            5,
+            0
         ],
         "trigger_type_params": [
+            0,
             0,
             0,
             0,
@@ -415328,9 +419749,10 @@
             0,
             0,
             0,
-            3
+            3,
+            0
         ],
-        "description_effect": "技使用時のCRD+#PER2#%[自身],受けるダメージ#PER3#%アップ(2T)付与&星属性耐性値-#PER4#%(2T)&クリティカル時、星属性耐性値-#PER5#%(2T)[敵単]",
+        "description_effect": "技使用時のCRD+#PER2#%[自身],対象のバフを#PER6#%無視してダメージ計算&受けるダメージ#PER3#%アップ(2T)付与&星属性耐性値-#PER4#%(2T)&クリティカル時、星属性耐性値-#PER5#%(2T)[敵単]",
         "description": "お父さん、だ～～～い好き！",
         "resource_id": 3003293,
         "continuous_attack_rates": []
@@ -415826,38 +420248,38 @@
         ],
         "effect_values_min": [
             80,
-            7,
-            20,
-            20,
-            20,
-            20,
+            8,
+            25,
+            25,
+            25,
+            25,
             30
         ],
         "effect_values_max_30": [
             110,
-            7,
-            20,
-            20,
-            20,
-            20,
+            8,
+            25,
+            25,
+            25,
+            25,
             30
         ],
         "effect_values_max_40": [
             112,
-            7,
-            20,
-            20,
-            20,
-            20,
+            8,
+            25,
+            25,
+            25,
+            25,
             30
         ],
         "effect_values_max_50": [
             114,
-            7,
-            20,
-            20,
-            20,
-            20,
+            8,
+            25,
+            25,
+            25,
+            25,
             30
         ],
         "variance_rates": [
@@ -415940,8 +420362,8 @@
             25,
             50,
             50,
-            10,
-            20,
+            15,
+            25,
             100,
             100,
             100
@@ -415952,8 +420374,8 @@
             25,
             50,
             50,
-            10,
-            20,
+            15,
+            25,
             100,
             100,
             100
@@ -415964,8 +420386,8 @@
             25,
             50,
             50,
-            10,
-            20,
+            15,
+            25,
             100,
             100,
             100
@@ -415976,8 +420398,8 @@
             25,
             50,
             50,
-            10,
-            20,
+            15,
+            25,
             100,
             100,
             100
@@ -416067,7 +420489,8 @@
             8,
             10,
             65,
-            101
+            101,
+            149
         ],
         "effect_values_min": [
             200,
@@ -416083,7 +420506,8 @@
             50,
             50,
             50,
-            20
+            25,
+            10
         ],
         "effect_values_max_30": [
             230,
@@ -416099,7 +420523,8 @@
             50,
             50,
             50,
-            20
+            25,
+            10
         ],
         "effect_values_max_40": [
             235,
@@ -416115,7 +420540,8 @@
             50,
             50,
             50,
-            20
+            25,
+            10
         ],
         "effect_values_max_50": [
             240,
@@ -416131,7 +420557,8 @@
             50,
             50,
             50,
-            20
+            25,
+            10
         ],
         "variance_rates": [
             1
@@ -416147,6 +420574,7 @@
             0,
             3,
             1,
+            3,
             3,
             3,
             3,
@@ -416166,6 +420594,7 @@
             3,
             3,
             3,
+            3,
             3
         ],
         "effect_values_sub2": [
@@ -416178,6 +420607,7 @@
             0,
             0,
             1,
+            0,
             0,
             0,
             0,
@@ -416198,7 +420628,8 @@
             4,
             4,
             4,
-            4
+            4,
+            2
         ],
         "trigger_types": [
             0
@@ -416209,7 +420640,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "バフ効果解除&炎属性耐性値-#PER9#%(3T)[敵全],敵が少ないほど威力アップ[自身],ATK・INT・CRD+#PER11#%(3T)&与える全てのダメージ+#PER14#%(3T)付与[味方全]",
+        "description_effect": "バフ効果解除&炎属性耐性値-#PER9#%(3T)&与えるダメージ#PER15#%ダウン(3T)付与[敵全],敵が少ないほど威力アップ[自身],ATK・INT・CRD+#PER11#%(3T)&与える全てのダメージ+#PER14#%(3T)付与[味方全]",
         "description": "受験で手が止まったならば、この一字を思い出せ！！",
         "resource_id": 3003313,
         "continuous_attack_rates": []
@@ -438094,6 +442525,371 @@
         "continuous_attack_rates": []
     },
     {
+        "id": 4003881,
+        "name": "氷庭の雪合戦",
+        "name_battle": "氷庭の雪合戦",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            8,
+            10,
+            12
+        ],
+        "effect_values_min": [
+            68,
+            25,
+            25,
+            10
+        ],
+        "effect_values_max_30": [
+            98,
+            25,
+            25,
+            10
+        ],
+        "effect_values_max_40": [
+            99,
+            25,
+            25,
+            10
+        ],
+        "effect_values_max_50": [
+            100,
+            25,
+            25,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・INT+#PER2#%(3T)&SPD+#PER4#%(3T)[味方全]",
+        "description": "目立ちたくはないですが、負けたくもありません。",
+        "resource_id": 3003881,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003882,
+        "name": "音楽室の氷霊",
+        "name_battle": "音楽室の氷霊",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 37,
+        "sp_max_30": 32,
+        "sp_max_40": 29,
+        "sp_max_50": 28,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            131,
+            8,
+            10,
+            65,
+            63,
+            101,
+            39,
+            6,
+            14,
+            16
+        ],
+        "effect_values_min": [
+            200,
+            0,
+            40,
+            40,
+            40,
+            15,
+            15,
+            1,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_30": [
+            230,
+            0,
+            40,
+            40,
+            40,
+            15,
+            15,
+            1,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_40": [
+            239,
+            0,
+            40,
+            40,
+            40,
+            15,
+            15,
+            1,
+            100,
+            40,
+            40
+        ],
+        "effect_values_max_50": [
+            244,
+            0,
+            40,
+            40,
+            40,
+            15,
+            15,
+            1,
+            100,
+            40,
+            40
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            2,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            2,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            5,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "[連発禁止]再行動(1回)付与&ATK・INT・CRD+#PER3#%(3T)&CRT+#PER6#%(3T)[味方単],与える全てのダメージ+#PER7#%(3T)付与[味方全],眠り効果(2T)付与&DEF・RES-#PER10#%(3T)[敵単]",
+        "description": "演奏に見せかけて倒すなんて、三時のおやつ前です。",
+        "resource_id": 3003882,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003883,
+        "name": "風紀と恋の雪恋譚",
+        "name_battle": "風紀と\\n恋の雪恋譚",
+        "command_category": 3,
+        "attr": 2,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 80,
+        "sp_max_30": 75,
+        "sp_max_40": 70,
+        "sp_max_50": 68,
+        "gain_sp": 0,
+        "relational_param": 2,
+        "command_types": [
+            1,
+            141,
+            81,
+            40,
+            101,
+            17,
+            64,
+            143
+        ],
+        "effect_values_min": [
+            490,
+            80,
+            30,
+            11,
+            20,
+            15,
+            15,
+            20
+        ],
+        "effect_values_max_30": [
+            520,
+            80,
+            30,
+            11,
+            20,
+            15,
+            15,
+            20
+        ],
+        "effect_values_max_40": [
+            535,
+            80,
+            30,
+            11,
+            20,
+            15,
+            15,
+            20
+        ],
+        "effect_values_max_50": [
+            550,
+            80,
+            30,
+            11,
+            20,
+            15,
+            15,
+            20
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            2
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+        ],
+        "effect_targets": [
+            1,
+            5,
+            5,
+            1,
+            4,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            4,
+            4,
+            4
+        ],
+        "trigger_type_params": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "trigger_targets": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            2,
+            2,
+            2
+        ],
+        "description_effect": "技使用時のCRD+#PER2#%&対象が眠り状態の時、技威力+#PER3#%&DEF・RESの低い方でダメージ計算[自身],与える全てのダメージ+#PER5#%(3T)付与[味方全],クリティカル時、SPD・CRT-#PER6#%(3T)&水属性耐性値-#PER8#%(2T)[敵全]",
+        "description": "学園の平和も影ながら守ってます。にんにん。",
+        "resource_id": 3003883,
+        "continuous_attack_rates": []
+    },
+    {
         "id": 4003891,
         "name": "獄学ナッコォ！！",
         "name_battle": "獄学\\nナッコォ！！",
@@ -438436,6 +443232,434 @@
         "description_effect": "技使用時のCRD+#PER2#%&対象がDEFデバフ状態の時、技威力+#PER3#%[自身],対象のバフを#PER4#%無視してダメージ計算&星属性耐性値-#PER5#%(3T)[敵単],与える全てのダメージ+#PER6#%(3T)付与&クリティカル時、行動ゲージ+#PER7#[味方全]",
         "description": "教えてやる。邪悪学園のテッペンは、オレ様だ！！",
         "resource_id": 3003893,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003901,
+        "name": "甘電チョコ！？",
+        "name_battle": "甘電\\nチョコ！？",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 25,
+        "sp_max_30": 20,
+        "sp_max_40": 19,
+        "sp_max_50": 18,
+        "gain_sp": 0,
+        "relational_param": 4,
+        "command_types": [
+            1,
+            8,
+            10,
+            63
+        ],
+        "effect_values_min": [
+            68,
+            30,
+            30,
+            10
+        ],
+        "effect_values_max_30": [
+            98,
+            30,
+            30,
+            10
+        ],
+        "effect_values_max_40": [
+            99,
+            30,
+            30,
+            10
+        ],
+        "effect_values_max_50": [
+            100,
+            30,
+            30,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "ATK・INT+#PER2#%(3T)&CRT+#PER4#%(3T)[味方全]",
+        "description": "気分だけでもバレンタインを楽しみたかったッス……",
+        "resource_id": 3003901,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003902,
+        "name": "ラブコメインパルス",
+        "name_battle": "ラブコメ\\nインパルス",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 46,
+        "sp_max_30": 41,
+        "sp_max_40": 37,
+        "sp_max_50": 35,
+        "gain_sp": 0,
+        "relational_param": 4,
+        "command_types": [
+            1,
+            9,
+            11,
+            65,
+            138,
+            8,
+            10,
+            101,
+            14,
+            16,
+            22,
+            24
+        ],
+        "effect_values_min": [
+            250,
+            40,
+            40,
+            40,
+            340,
+            40,
+            40,
+            20,
+            30,
+            30,
+            100,
+            100
+        ],
+        "effect_values_max_30": [
+            280,
+            40,
+            40,
+            40,
+            340,
+            40,
+            40,
+            20,
+            30,
+            30,
+            100,
+            100
+        ],
+        "effect_values_max_40": [
+            291,
+            40,
+            40,
+            40,
+            340,
+            40,
+            40,
+            20,
+            30,
+            30,
+            100,
+            100
+        ],
+        "effect_values_max_50": [
+            296,
+            40,
+            40,
+            40,
+            340,
+            40,
+            40,
+            20,
+            30,
+            30,
+            100,
+            100
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+        ],
+        "effect_values_sub_max": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+        ],
+        "effect_values_sub2": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "effect_targets": [
+            1,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            1,
+            1,
+            1,
+            1
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "DEF・RES・CRD+#PER2#%(3T)&迎撃[風][RES](3T)付与[味方単],ATK・INT+#PER6#%(3T)&与える全てのダメージ+#PER8#%(3T)付与[味方全],DEF・RES-#PER9#%(3T)&ATK・INTバフ効果解除[敵単]",
+        "description": "アンタもラブコメ展開の一部にしてあげるわ！",
+        "resource_id": 3003902,
+        "continuous_attack_rates": []
+    },
+    {
+        "id": 4003903,
+        "name": "熱血恋愛ビーム！！！",
+        "name_battle": "熱血恋愛\\nビーム！！！",
+        "command_category": 3,
+        "attr": 3,
+        "max_lv": 50,
+        "circle_flg": 0,
+        "icon_type": 9,
+        "sp_min": 61,
+        "sp_max_30": 56,
+        "sp_max_40": 52,
+        "sp_max_50": 48,
+        "gain_sp": 0,
+        "relational_param": 4,
+        "command_types": [
+            1,
+            48,
+            49,
+            50,
+            51,
+            52,
+            127,
+            128,
+            63,
+            65,
+            101,
+            13,
+            14,
+            15,
+            16,
+            134,
+            150
+        ],
+        "effect_values_min": [
+            130,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15,
+            50,
+            20,
+            30,
+            30,
+            30,
+            30,
+            85,
+            10
+        ],
+        "effect_values_max_30": [
+            160,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15,
+            50,
+            20,
+            30,
+            30,
+            30,
+            30,
+            85,
+            10
+        ],
+        "effect_values_max_40": [
+            164,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15,
+            50,
+            20,
+            30,
+            30,
+            30,
+            30,
+            85,
+            10
+        ],
+        "effect_values_max_50": [
+            168,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            15,
+            50,
+            20,
+            30,
+            30,
+            30,
+            30,
+            85,
+            10
+        ],
+        "variance_rates": [
+            1
+        ],
+        "effect_values_sub_min": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2
+        ],
+        "effect_values_sub_max": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2
+        ],
+        "effect_values_sub2": [
+            0
+        ],
+        "effect_targets": [
+            2,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "trigger_types": [
+            0
+        ],
+        "trigger_type_params": [
+            0
+        ],
+        "trigger_targets": [
+            0
+        ],
+        "description_effect": "デバフ効果解除&CRT+#PER9#%(3T)&CRD+#PER10#%(3T)&与える全てのダメージ+#PER11#%(3T)付与[味方全],HP以外の基礎パラメータ-#PER12#%(3T)&茨効果(2T)付与&受けるダメージ#PER17#%アップ(2T)付与[敵全]",
+        "description": "Ｋは風祭のＫ！　アタシのＫに抗えるかしら！？",
+        "resource_id": 3003903,
         "continuous_attack_rates": []
     },
     {
@@ -459876,33 +465100,47 @@
         "relational_param": 2,
         "command_types": [
             1,
-            121
+            121,
+            8,
+            10
         ],
         "effect_values_min": [
             68,
-            10
+            10,
+            20,
+            20
         ],
         "effect_values_max_30": [
             98,
-            10
+            10,
+            20,
+            20
         ],
         "effect_values_max_40": [
             99,
-            10
+            10,
+            20,
+            20
         ],
         "effect_values_max_50": [
             100,
-            10
+            10,
+            20,
+            20
         ],
         "variance_rates": [
             1
         ],
         "effect_values_sub_min": [
             0,
+            3,
+            3,
             3
         ],
         "effect_values_sub_max": [
             0,
+            3,
+            3,
             3
         ],
         "effect_values_sub2": [
@@ -459910,6 +465148,8 @@
         ],
         "effect_targets": [
             2,
+            4,
+            4,
             4
         ],
         "trigger_types": [
@@ -459921,7 +465161,7 @@
         "trigger_targets": [
             0
         ],
-        "description_effect": "SP自動回復[#PER2#](3T)付与[味方全]",
+        "description_effect": "SP自動回復[#PER2#](3T)付与&ATK・INT+#PER3#%(3T)[味方全]",
         "description": "一糸乱れぬ動きを姉妹で猛特訓しました。",
         "resource_id": 3200741,
         "continuous_attack_rates": []
@@ -459946,40 +465186,60 @@
             20,
             8,
             65,
-            103,
-            39
+            101,
+            39,
+            8,
+            10,
+            101,
+            158
         ],
         "effect_values_min": [
             80,
             1000,
             30,
-            60,
+            80,
             30,
-            1
+            1,
+            30,
+            30,
+            20,
+            15
         ],
         "effect_values_max_30": [
             110,
             1000,
             30,
-            60,
+            80,
             30,
-            1
+            1,
+            30,
+            30,
+            20,
+            15
         ],
         "effect_values_max_40": [
             112,
             1000,
             30,
-            60,
+            80,
             30,
-            1
+            1,
+            30,
+            30,
+            20,
+            15
         ],
         "effect_values_max_50": [
             114,
             1000,
             30,
-            60,
+            80,
             30,
-            1
+            1,
+            30,
+            30,
+            20,
+            15
         ],
         "variance_rates": [
             1
@@ -459987,18 +465247,26 @@
         "effect_values_sub_min": [
             0,
             0,
-            1,
-            1,
-            1,
-            0
+            2,
+            2,
+            2,
+            0,
+            3,
+            3,
+            3,
+            2
         ],
         "effect_values_sub_max": [
             0,
             0,
-            1,
-            1,
-            1,
-            0
+            2,
+            2,
+            2,
+            0,
+            3,
+            3,
+            3,
+            2
         ],
         "effect_values_sub2": [
             0
@@ -460009,18 +465277,49 @@
             5,
             5,
             5,
-            5
+            5,
+            4,
+            4,
+            4,
+            2
         ],
         "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
             0
         ],
         "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
             0
         ],
         "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
             0
         ],
-        "description_effect": "[連発禁止]行動ゲージ+#PER2#&ATK+#PER3#%(1T)&CRD+#PER4#%(1T)&必殺技で与えるダメージ+#PER5#%(1T)付与[自身]",
+        "description_effect": "[連発禁止]行動ゲージ+#PER2#&ATK+#PER3#%(2T)&CRD+#PER4#%(2T)&与える全てのダメージ+#PER5#%(2T)付与[自身],ATK・INT+#PER7#%(3T)&魔物型はさらに与える全てのダメージ+#PER9#%(3T)付与[味方全],SP負荷[#PER10#](2T)付与[敵全]",
         "description": "ノック遊びから生まれた恐ろしい技……。",
         "resource_id": 3200742,
         "continuous_attack_rates": []
@@ -460043,26 +465342,41 @@
         "command_types": [
             1,
             85,
-            91
+            91,
+            150,
+            149,
+            124
         ],
         "effect_values_min": [
             380,
             100,
+            30,
+            10,
+            15,
             25
         ],
         "effect_values_max_30": [
             410,
             100,
+            30,
+            10,
+            15,
             25
         ],
         "effect_values_max_40": [
             425,
             100,
+            30,
+            10,
+            15,
             25
         ],
         "effect_values_max_50": [
             430,
             100,
+            30,
+            10,
+            15,
             25
         ],
         "variance_rates": [
@@ -460071,11 +465385,17 @@
         "effect_values_sub_min": [
             0,
             0,
+            0,
+            2,
+            2,
             0
         ],
         "effect_values_sub_max": [
             0,
             0,
+            0,
+            2,
+            2,
             0
         ],
         "effect_values_sub2": [
@@ -460084,18 +465404,36 @@
         "effect_targets": [
             1,
             1,
+            5,
+            1,
+            2,
             5
         ],
         "trigger_types": [
+            0,
+            0,
+            0,
+            0,
+            4,
             0
         ],
         "trigger_type_params": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
         ],
         "trigger_targets": [
+            0,
+            0,
+            0,
+            0,
+            2,
             0
         ],
-        "description_effect": "対象のバフを#PER2#%無視してダメージ計算[敵単],DEFの#PER3#%を上乗せしてダメージ計算[自身]",
+        "description_effect": "対象のバフを#PER2#%無視してダメージ計算&受けるダメージ#PER4#%アップ(2T)付与[敵単],クリティカル時、与えるダメージ#PER5#%ダウン(2T)付与[敵全],技使用時のCRT+#PER6#%&DEFの#PER3#%を上乗せしてダメージ計算[自身]",
         "description": "実を言うと、ボールはもうだめです。",
         "resource_id": 3200743,
         "continuous_attack_rates": []

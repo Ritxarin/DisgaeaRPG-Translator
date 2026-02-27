@@ -289,21 +289,29 @@ patterns = [
             flags=re.UNICODE
         ),
         lambda m: (
-            f"{', ' if m.group(0).startswith(('、', ',')) else ''}"
-            f"All Allies: When a {element_map[m.group('element')]} skill is used, "
+            (
+                f"{', ' if m.group(0).startswith(('、', ',')) else ''}"
+                f"All Allies: When a {element_map[m.group('element')]} skill is used, "
+            )
             + (
-                # 🟥 Damage
+                # 🟥 Damage (always %)
                 f"{damage_type_map[m.group('damage_type')]} +#PER#%"
                 if m.group('damage_type')
-                # 🟦 Stats
+
+                # 🟩 SP (flat amount, no %)
                 else (
-                    f"{'/'.join(stat_map[s] for s in m.group('stats').split('・'))} +#PER#%"
-                    if m.group('stats')
-                    # 🟩 SP
-                    else "SP +#PER#"
+                    "SP +#PER#"
+                    if m.group('stats') == 'SP'
+
+                    # 🟦 Stats (always %)
+                    else f"{'/'.join(stat_map[s] for s in m.group('stats').split('・'))} +#PER#%"
                 )
             )
-            + (f"({m.group('turns')}T)" if m.group('turns') else "")
+            + (
+                f" ({m.group('turns')}T)"
+                if m.group('turns')
+                else ""
+            )
         )
     ),
 

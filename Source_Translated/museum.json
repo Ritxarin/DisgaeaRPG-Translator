@@ -5523,5 +5523,31 @@
     "sort": 244,
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 210149,
+    "category": 2,
+    "museum_type": 1,
+    "target_id": 163,
+    "title": "Uniform Ice Emperor Rosalind",
+    "resource_name": "",
+    "m_character_id_1": 388,
+    "m_character_id_2": 0,
+    "sort": 116,
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 210150,
+    "category": 2,
+    "museum_type": 1,
+    "target_id": 164,
+    "title": "valentine hookah",
+    "resource_name": "",
+    "m_character_id_1": 390,
+    "m_character_id_2": 0,
+    "sort": 117,
+    "open_at": "",
+    "close_at": ""
   }
 ]

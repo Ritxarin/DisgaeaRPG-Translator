@@ -26026,5 +26026,77 @@
     "m_character_id": 387,
     "rarity": 6,
     "class_name": "Great teacher of Kokin Doppo"
+  },
+  {
+    "id": 3881,
+    "m_character_id": 388,
+    "rarity": 1,
+    "class_name": "Quiet and Plain Girl"
+  },
+  {
+    "id": 3882,
+    "m_character_id": 388,
+    "rarity": 2,
+    "class_name": "Quiet and Plain Girl"
+  },
+  {
+    "id": 3883,
+    "m_character_id": 388,
+    "rarity": 3,
+    "class_name": "Quiet and Plain Girl"
+  },
+  {
+    "id": 3884,
+    "m_character_id": 388,
+    "rarity": 4,
+    "class_name": "Quiet and Plain Girl"
+  },
+  {
+    "id": 3885,
+    "m_character_id": 388,
+    "rarity": 5,
+    "class_name": "A ninja girl who forgot her mission"
+  },
+  {
+    "id": 3886,
+    "m_character_id": 388,
+    "rarity": 6,
+    "class_name": "Love Colored Blue Rose"
+  },
+  {
+    "id": 3901,
+    "m_character_id": 390,
+    "rarity": 1,
+    "class_name": "The mastermind behind the virus incident"
+  },
+  {
+    "id": 3902,
+    "m_character_id": 390,
+    "rarity": 2,
+    "class_name": "The mastermind behind the virus incident"
+  },
+  {
+    "id": 3903,
+    "m_character_id": 390,
+    "rarity": 3,
+    "class_name": "The mastermind behind the virus incident"
+  },
+  {
+    "id": 3904,
+    "m_character_id": 390,
+    "rarity": 4,
+    "class_name": "The mastermind behind the virus incident"
+  },
+  {
+    "id": 3905,
+    "m_character_id": 390,
+    "rarity": 5,
+    "class_name": "Sex appeal eradication girl"
+  },
+  {
+    "id": 3906,
+    "m_character_id": 390,
+    "rarity": 6,
+    "class_name": "The infinite love creator"
   }
 ]

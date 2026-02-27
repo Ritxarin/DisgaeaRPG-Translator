@@ -291,6 +291,10 @@ class RegexTranslator:
                 fields=["description", "name"],
             ),
             RegexRule(
+                files=["product"],
+                fields=["name"],
+            ),
+            RegexRule(
                 files=["eventmission"],
                 fields=["title"],
             )
@@ -333,7 +337,7 @@ class Translator:
         self.context.characters_ready = True
 
         # External services
-        self.files_for_deepl = ['stage', 'character', 'memory', 'episode', 'command']        
+        self.files_for_deepl = ['stage', 'character', 'memory', 'episode', 'command', 'story']        
 
     # ---------------------------
     # Main Translation Dispatcher
