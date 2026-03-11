@@ -24,5 +24,10 @@
   "PUキャラ交換所(有償)で利用できる": "Available at the PU character exchange office (paid)",
   "PUキャラ交換券（通常）": "PU character exchange ticket (normal)",
   "PUキャラ交換所(通常)で利用できる": "Available at PU character exchange (normal)",
-  "専用マナポーション": "Dedicated Mana Potion"
+  "専用マナポーション": "Dedicated Mana Potion",
+
+  "プリニガービーム" : "Prinny Bomb",
+  "プリニガー\\nビーム" : "Prinny Bomb",
+  "プリニー激高乱れ打ち" : "Pringer Beam",
+  "プリニー\\n激高乱れ打ち": "Pringer Beam"
 }

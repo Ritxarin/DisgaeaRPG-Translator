@@ -228,7 +228,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Allies: ATK+#PER#%"
+    "description": "Fist-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 22,
@@ -425,7 +425,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party sword weapon equipped character ATK/CRD+#PER#%"
+    "description": "Sword-Wielding Allies: ATK/CRD +#PER#%"
   },
   {
     "id": 32,
@@ -619,7 +619,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for Party Fist Weapons +#PER#%"
+    "description": "Fist-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 42,
@@ -926,7 +926,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK/INT+#PER#% for Party Sword/Wand Weapons"
+    "description": "Sword/Staff-Wielding Allies: ATK/INT +#PER#%"
   },
   {
     "id": 55,
@@ -1693,7 +1693,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Axe Weapon ATK+#PER#%"
+    "description": "Axe-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 93,
@@ -2159,7 +2159,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party sword weapons: CRD+#PER#%"
+    "description": "Sword-Wielding Allies: Basic Stats/CRD +#PER#%"
   },
   {
     "id": 123,
@@ -2736,7 +2736,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Bow/Wand Weapon Character Consumption SP-#PER#%"
+    "description": "Bow/Staff-Wielding Allies: SP Cost -#PER#%"
   },
   {
     "id": 145,
@@ -3314,7 +3314,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff/Mon Magic-wielding Allies: INT +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 173,
@@ -3467,7 +3467,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's fist weapon equipped character SPD+#PER#%"
+    "description": "Fist-Wielding Allies: SPD +#PER#%"
   },
   {
     "id": 182,
@@ -3737,7 +3737,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Axe Weapon HP+#PER#%"
+    "description": "Axe-Wielding Allies: HP +#PER#%"
   },
   {
     "id": 194,
@@ -4893,7 +4893,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's gun weapon equipped character consumption SP-#PER#%"
+    "description": "Gun-Wielding Allies: SP Cost -#PER#%"
   },
   {
     "id": 253,
@@ -4969,7 +4969,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "SPD+#PER#% for party gun weapon equipped characters"
+    "description": "Gun-Wielding Allies: SPD +#PER#%"
   },
   {
     "id": 271,
@@ -5978,7 +5978,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Allies: ATK +#PER#%"
+    "description": "Spear-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 312,
@@ -6135,7 +6135,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party wands and monsters magic weapons +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 332,
@@ -6724,7 +6724,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters other than HP for party gun weapon equipped characters +#PER#%"
+    "description": "Gun-Wielding Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 362,
@@ -7146,7 +7146,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters other than HP of party spear weapon equipped characters +#PER#%"
+    "description": "Spear-Wielding Allies: Non-HP Basic Stats +#PER#%"
   },
   {
     "id": 382,
@@ -7573,7 +7573,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for Party Fist Weapons +#PER#%"
+    "description": "Fist-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 402,
@@ -8116,7 +8116,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK/CRD+#PER#% for party guns, fists, monsters and physical weapons equipped characters"
+    "description": "Gun/Fist/Mon Phys-Wielding Allies: ATK/CRD +#PER#%"
   },
   {
     "id": 442,
@@ -8272,7 +8272,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party guns, fists, monsters, physical weapons equipped characters consumed SP-#PER#%"
+    "description": "Gun/Fist/Mon Phys-Wielding Allies: SP Cost -#PER#%"
   },
   {
     "id": 452,
@@ -8739,7 +8739,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for party axe weapon equipped characters +#PER#%"
+    "description": "Axe-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 482,
@@ -8895,7 +8895,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for party gun weapon equipped characters +#PER#%"
+    "description": "Gun-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 492,
@@ -9404,7 +9404,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party staff weapon +#PER#%"
+    "description": "Staff-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 553,
@@ -9830,7 +9830,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff/Mon Magic-wielding Allies: INT +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 582,
@@ -10756,7 +10756,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party's fist weapon equipped character ATK/HP+#PER#%"
+    "description": "Fist-Wielding Allies: ATK/HP +#PER#%"
   },
   {
     "id": 623,
@@ -11033,7 +11033,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party bow weapons +#PER#%"
+    "description": "Bow-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 642,
@@ -11187,7 +11187,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK+#PER#% for Party Fist, Bow, and Gun Weapons"
+    "description": "Fist/Bow/Gun-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 652,
@@ -11665,7 +11665,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party bows, guns, and weapons +#PER#%"
+    "description": "Bow/Gun/Fist-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 672,
@@ -11899,7 +11899,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Allies: ATK +#PER#%"
+    "description": "Spear-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 682,
@@ -12178,7 +12178,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party sword weapons +#PER#%"
+    "description": "Sword-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 692,
@@ -12684,7 +12684,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party bow weapon equipped character ATK DEF+#PER#%"
+    "description": "Bow-Wielding Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 712,
@@ -13115,7 +13115,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party sword weapons +#PER#%"
+    "description": "Sword-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 732,
@@ -13387,7 +13387,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party bow weapons +#PER#%"
+    "description": "Bow-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 742,
@@ -13542,7 +13542,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Axe Weapon-equipped Characters ATK DEF+#PER#%"
+    "description": "Axe-Wielding Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 752,
@@ -14080,7 +14080,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Allies: ATK +#PER#%"
+    "description": "Gun-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 772,
@@ -15174,7 +15174,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party wands and monsters magic weapons +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 842,
@@ -16261,7 +16261,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for party axe weapon equipped characters +#PER#%"
+    "description": "Axe-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 902,
@@ -16414,7 +16414,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "INT/RES+#PER#% for Party Staff Weapons"
+    "description": "Staff-Wielding Allies: INT/RES +#PER#%"
   },
   {
     "id": 912,
@@ -18158,7 +18158,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party staff weapon +#PER#%"
+    "description": "Staff-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 1002,
@@ -18545,7 +18545,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "INT/DEF+#PER#% for Party Staff Weapons"
+    "description": "Staff-Wielding Allies: INT/DEF +#PER#%"
   },
   {
     "id": 1022,
@@ -19173,7 +19173,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Spear Weapon-equipped Character ATK DEF+#PER#%"
+    "description": "Spear-Wielding Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1052,
@@ -19363,7 +19363,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Spear Weapon CRD+#PER#%"
+    "description": "Spear-Wielding Allies: CRD +#PER#%"
   },
   {
     "id": 1063,
@@ -19478,7 +19478,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Axe Weapon-equipped Character ATK DEF+#PER#%"
+    "description": "Axe-Wielding Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 1072,
@@ -19516,7 +19516,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Axe Weapon CRT+#PER#%"
+    "description": "Axe-Wielding Allies: CRT +#PER#%"
   },
   {
     "id": 1073,
@@ -20623,7 +20623,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "CRT+#PER#% for party gun weapon equipped characters"
+    "description": "Gun-Wielding Allies: CRT +#PER#%"
   },
   {
     "id": 1134,
@@ -21486,7 +21486,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party sword weapon equipped character ATK/HP+#PER#%"
+    "description": "Sword-Wielding Allies: ATK/HP +#PER#%"
   },
   {
     "id": 1182,
@@ -21642,7 +21642,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK/INT+#PER#% for Party Sword/Wand Weapons"
+    "description": "Sword/Staff-Wielding Allies: ATK/INT +#PER#%"
   },
   {
     "id": 1192,
@@ -21873,7 +21873,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "CRD+#PER#% for party gun weapon equipped characters"
+    "description": "Gun-Wielding Allies: CRD +#PER#%"
   },
   {
     "id": 1204,
@@ -24673,7 +24673,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Elemental Damage +#PER#%"
+    "description": "Staff-Equipped Self: Elemental Damage +#PER#%"
   },
   {
     "id": 1334,
@@ -24787,7 +24787,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",SPD-#PER#%(3 turns)"
+    "description": ", SPD/CRT -#PER#%(3T)"
   },
   {
     "id": 1338,
@@ -26435,7 +26435,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If the party has more than 4 characters with the weapon type that is special in [Sword, Spear, Bow, Gun], all damage dealt by the party +#PER#%"
+    "description": "All Allies: If 4+ [Sword/Spear/Bow/Gun] Allies, Damage +#PER#%"
   },
   {
     "id": 1421,
@@ -26748,7 +26748,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with the special weapon type [Spear/Sword], damage dealt by the party with special move +#PER#%"
+    "description": "All Allies: If 2+ [Spear/Sword] Allies, Skill Damage +#PER#%"
   },
   {
     "id": 1441,
@@ -41288,7 +41288,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with a special weapon type [Spear], all damage dealt by the party +#PER#%"
+    "description": "All Allies: If 2+ [Spear] Allies, Damage +#PER#%"
   },
   {
     "id": 2055,
@@ -41402,7 +41402,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, if there are 3 or more characters with the special weapon type [Spear], all damage dealt by the party +#PER#%"
+    "description": ", All Allies: If 3+ [Spear] Allies, Damage +#PER#%"
   },
   {
     "id": 2061,
@@ -45892,7 +45892,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and also give the party an automatic SP recovery [#PER#] (3T)"
+    "description": ", All Allies: SP Regen [#PER#](3T)"
   },
   {
     "id": 2238,
@@ -67541,7 +67541,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and CRD+#PER#% for Party swords and weapons equipped characters"
+    "description": ", Sword/Fist-Wielding Allies: CRD +#PER#%"
   },
   {
     "id": 3006,
@@ -67658,7 +67658,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and ATK/CRT/CRD+#PER#%(2T) of characters equipped with sword/fist weapons in the party."
+    "description": ", Sword/Fist-Wielding Allies: ATK/CRT/CRD +#PER#%(2T)"
   },
   {
     "id": 3011,
@@ -72302,7 +72302,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and also give the party an automatic SP recovery [#PER#] (5T)"
+    "description": ", All Allies: SP Regen [#PER#](5T)"
   },
   {
     "id": 3168,
@@ -74349,7 +74349,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party bow weapon equipped character ATK/CRD+#PER#%"
+    "description": "Bow-Wielding Allies: ATK/CRD +#PER#%"
   },
   {
     "id": 3242,
@@ -81947,7 +81947,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and CRT+#PER#%(2T) for the party sword weapon equipped character"
+    "description": ", Sword-Wielding Allies: CRT +#PER#%(2T)"
   },
   {
     "id": 3498,
@@ -84876,7 +84876,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for character equipped with party spear weapons +#PER#%"
+    "description": "Spear-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 10122,
@@ -84914,7 +84914,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Spear Weapon-equipped Character Consumption SP-#PER#%"
+    "description": "Spear-Wielding Allies: SP Cost -#PER#%"
   },
   {
     "id": 10123,
@@ -87273,7 +87273,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party Axe Weapon ATK+#PER#%"
+    "description": "Axe-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 100013,
@@ -87425,7 +87425,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Allies: ATK +#PER#%"
+    "description": "Spear-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 100023,
@@ -87539,7 +87539,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Allies: ATK+#PER#%"
+    "description": "Fist-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 100032,
@@ -87691,7 +87691,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Fist-Equipped Allies: ATK+#PER#%"
+    "description": "Fist-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 100042,
@@ -89857,7 +89857,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Allies: ATK +#PER#%"
+    "description": "Gun-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 100183,
@@ -90123,7 +90123,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party sword weapon equipped character ATK+#PER#%"
+    "description": "Sword-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 100202,
@@ -90427,7 +90427,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "INT+#PER#% for Party Staff Weapons"
+    "description": "Staff-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 100232,
@@ -90731,7 +90731,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Equipped Allies: ATK +#PER#%"
+    "description": "Gun-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 100262,
@@ -90883,7 +90883,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party sword weapon equipped character ATK+#PER#%"
+    "description": "Sword-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 100272,
@@ -93368,7 +93368,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for monster physical weapon equipped characters +#PER#%"
+    "description": "Mon Phys-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 200142,
@@ -93869,7 +93869,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Magic Monster Weapon-Wielding Allies: INT+#PER#%"
+    "description": "Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 200182,
@@ -94292,7 +94292,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff/Mon Magic-wielding Allies: INT +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 200202,
@@ -94600,7 +94600,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK+#PER#% for monsters and physical weapons equipped characters from the party"
+    "description": "Mon Phys-Wielding Allies: ATK +#PER#%"
   },
   {
     "id": 200222,
@@ -95497,7 +95497,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Basic parameters for monster physical weapon equipped characters +#PER#%"
+    "description": "Mon Phys-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 200262,
@@ -95810,7 +95810,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Allies: base parameters +#PER#%"
+    "description": "Mon Magic-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 200282,
@@ -95963,7 +95963,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff/Mon Magic-wielding Allies: INT +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 200292,
@@ -96356,7 +96356,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Allies: base parameters +#PER#%"
+    "description": "Mon Magic-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 200312,
@@ -96827,7 +96827,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party monster physical weapon equipped character ATK DEF+#PER#%"
+    "description": "Mon Phys-Wielding Allies: ATK/DEF +#PER#%"
   },
   {
     "id": 200342,
@@ -96987,7 +96987,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "INT/RES+#PER#% for party monster magic weapon equipped characters"
+    "description": "Mon Magic-Wielding Allies: INT/RES +#PER#%"
   },
   {
     "id": 200352,
@@ -99132,7 +99132,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff/Mon Magic-wielding Allies: INT +#PER#%"
+    "description": "Staff/Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 200462,
@@ -100058,7 +100058,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with a special weapon type [Demon Magic], damage dealt by the party with a special move +#PER#%"
+    "description": "All Allies: If 2+ [Mon Magic] Allies, Skill Damage +#PER#%"
   },
   {
     "id": 200496,
@@ -100134,7 +100134,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, if there are more than 4 characters with a special weapon type [Demon Magic], damage dealt by the party with a special move +#PER#%"
+    "description": ", All Allies: If 4+ [Mon Magic] Allies, Skill Damage +#PER#%"
   },
   {
     "id": 200501,
@@ -101414,7 +101414,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If the party has more than two characters with the special weapon type [Demon Magic, Sword, Gun, Staff], all damage dealt by the party +#PER#%"
+    "description": "All Allies: If 2+ [Mon Magic/Sword/Gun/Staff] Allies, Damage +#PER#%"
   },
   {
     "id": 200552,
@@ -114959,7 +114959,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Magic-Equipped Allies: base parameters +#PER#%"
+    "description": "Mon Magic-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 210022,
@@ -115073,7 +115073,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Party monster magic weapon equipped character consumption SP-#PER#%"
+    "description": "Mon Magic-Wielding Allies: SP Cost -#PER#%"
   },
   {
     "id": 210041,
@@ -119383,7 +119383,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Magic-Equipped Allies: INT +#PER#%"
+    "description": "Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 300201,
@@ -119535,7 +119535,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Magic-Equipped Allies: INT +#PER#%"
+    "description": "Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 300211,
@@ -129009,7 +129009,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Magic-Equipped Allies: INT +#PER#%"
+    "description": "Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 300864,
@@ -129161,7 +129161,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Magic-Equipped Allies: INT +#PER#%"
+    "description": "Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 300874,
@@ -130073,7 +130073,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Magic-Equipped Allies: INT +#PER#%"
+    "description": "Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 300974,
@@ -130535,7 +130535,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon.Magic-Equipped Allies: INT +#PER#%"
+    "description": "Mon Magic-Wielding Allies: INT +#PER#%"
   },
   {
     "id": 301004,
@@ -155742,7 +155742,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", if 4+ [Spear, Bow, Gun] allies, damage +#PER#%"
+    "description": ", All Allies: If 4+ [Spear/Bow/Gun] Allies, Damage +#PER#%"
   },
   {
     "id": 3861,
@@ -156318,7 +156318,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and CRD+#PER#%(2T) for characters equipped with fists/monster physical weapons in the party."
+    "description": ", Fist/Mon Phys-Wielding Allies: CRD +#PER#%(2T)"
   },
   {
     "id": 3898,
@@ -157330,7 +157330,7 @@
   },
   {
     "id": 3901,
-    "name": "valentine god",
+    "name": "Valentine's God",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -157371,7 +157371,7 @@
   },
   {
     "id": 3902,
-    "name": "chocolate fork",
+    "name": "Chocolate Fork",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -157409,7 +157409,7 @@
   },
   {
     "id": 3903,
-    "name": "Hot-blooded love K virus",
+    "name": "Hot-blooded Love K Virus",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 14,
@@ -157447,7 +157447,7 @@
   },
   {
     "id": 3904,
-    "name": "Absolutely comply with romantic comedy",
+    "name": "Absolute Rom-Com Compliance",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 3,
@@ -157485,11 +157485,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of the turn, ATK, INT, CRD +#PER#% (2T) of the character receiving the party's INT buff effect."
+    "description": "Int Buffed Allies: At end of turn, ATK/INT/CRD + +#PER#% (2T)"
   },
   {
     "id": 3905,
-    "name": "valentine god",
+    "name": "Valentine's God",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -157527,7 +157527,7 @@
   },
   {
     "id": 3906,
-    "name": "chocolate fork",
+    "name": "Chocolate Fork",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -157565,7 +157565,7 @@
   },
   {
     "id": 3907,
-    "name": "Hot-blooded love K virus",
+    "name": "Hot-blooded Love K Virus",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 14,
@@ -157603,7 +157603,7 @@
   },
   {
     "id": 3908,
-    "name": "Absolutely comply with romantic comedy",
+    "name": "Absolute Rom-Com Compliance",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 3,
@@ -157637,7 +157637,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and CRT+#PER#%(2T) of the ally character with the highest CRD."
+    "description": ", Highest CRD Ally: CRT ++#PER#%(2T)"
   },
   {
     "id": 20000095,
@@ -157818,5 +157818,930 @@
     ],
     "bad_effect_value": 0,
     "description": "Cuts excess damage that exceeds 5% of maximum HP"
+  },
+  {
+    "id": 1337,
+    "name": "prophet's magic",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies Elemental Damage +#PER#%"
+  },
+  {
+    "id": 3911,
+    "name": "Hatter who Loves Tea Parties",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/CRD +#PER#%"
+  },
+  {
+    "id": 3912,
+    "name": "Crochet Madness",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Gun-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3913,
+    "name": "Clear canoche",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 28,
+    "target_params": [
+      7
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 35,
+    "effect_value_max": 35,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Highest-CRT Ally: At the start of the turn, ATK/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 3914,
+    "name": "Tuning Capelin",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 97,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 2,
+    "effect_value_max": 2,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "At the start of battle, give synchronization (#PER# times) to the party"
+  },
+  {
+    "id": 3915,
+    "name": "Hatter who Loves Tea Parties",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",SPD +#PER#%"
+  },
+  {
+    "id": 3916,
+    "name": "Crochet Madness",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3918,
+    "name": "Tuning Capelin",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 56,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: If 3+ [Bow/Gun/Axe] Allies, Damage +#PER#%"
+  },
+  {
+    "id": 3931,
+    "name": "Savior Descending into the Leisure World",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/HP +#PER#%"
+  },
+  {
+    "id": 3932,
+    "name": "Wonderland Arrow",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 4,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Bow-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3933,
+    "name": "Leisure World Sea Turtle Soup",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [
+      8
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "CRD-Buffed Allies: At the end of the turn, ATK/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 3934,
+    "name": "Bonds from Another World",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 17,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: At start of Battle, AG+#PER#"
+  },
+  {
+    "id": 3935,
+    "name": "Savior Descending into the Leisure World",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 4,
+    "target_params": [
+      4,
+      5
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 70,
+    "effect_value_max": 70,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Bow/Gun-Wielding Allies: CRD +#PER#%"
+  },
+  {
+    "id": 3936,
+    "name": "Wonderland Arrow",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 4,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3937,
+    "name": "Leisure World Sea Turtle Soup",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 4,
+    "target_params": [
+      4,
+      5
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Bow/Gun-Wielding Allies: Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3938,
+    "name": "Bonds from Another World",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 4,
+    "target_params": [
+      4,
+      5
+    ],
+    "effect_type": 7,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 18,
+    "effect_value_max": 18,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Bow/Gun-Wielding Allies: SP Cost -#PER#%"
+  },
+  {
+    "id": 201131,
+    "name": "Leisure World Prinny",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP +#PER#%"
+  },
+  {
+    "id": 201132,
+    "name": "Sudden Aggressiveness",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+  },
+  {
+    "id": 201133,
+    "name": "Disturbing the Sleep!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 18,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Foes: When Attacked, AG - #PER#"
+  },
+  {
+    "id": 201134,
+    "name": "Ingredients for Sleeping Tea",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 57,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: At start of battle, Sleep (2T)"
+  },
+  {
+    "id": 201135,
+    "name": "Leisure World Prinny",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRD +#PER#%"
+  },
+  {
+    "id": 201136,
+    "name": "Sudden Aggressiveness",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Skill Damage +#PER#%"
+  },
+  {
+    "id": 201137,
+    "name": "Disturbing the Sleep!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 24,
+    "effect_type_params": [
+      3,
+      5,
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      3,
+      3,
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", DEF/RES/SPD -#PER#%(3T)"
+  },
+  {
+    "id": 201138,
+    "name": "Ingredients for Sleeping Tea",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 68,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 8,
+    "effect_value_max": 8,
+    "effect_turn": [
+      5
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: SP Regen [#PER#](5T)"
   }
 ]

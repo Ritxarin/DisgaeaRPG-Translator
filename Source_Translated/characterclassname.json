@@ -26067,25 +26067,25 @@
     "id": 3901,
     "m_character_id": 390,
     "rarity": 1,
-    "class_name": "The mastermind behind the virus incident"
+    "class_name": "Mastermind behind the Virus Incident"
   },
   {
     "id": 3902,
     "m_character_id": 390,
     "rarity": 2,
-    "class_name": "The mastermind behind the virus incident"
+    "class_name": "Mastermind behind the Virus Incident"
   },
   {
     "id": 3903,
     "m_character_id": 390,
     "rarity": 3,
-    "class_name": "The mastermind behind the virus incident"
+    "class_name": "Mastermind behind the Virus Incident"
   },
   {
     "id": 3904,
     "m_character_id": 390,
     "rarity": 4,
-    "class_name": "The mastermind behind the virus incident"
+    "class_name": "Mastermind behind the Virus Incident"
   },
   {
     "id": 3905,
@@ -26097,6 +26097,114 @@
     "id": 3906,
     "m_character_id": 390,
     "rarity": 6,
-    "class_name": "The infinite love creator"
+    "class_name": "Infinite Love Creator God"
+  },
+  {
+    "id": 3911,
+    "m_character_id": 391,
+    "rarity": 1,
+    "class_name": "Madness Cap"
+  },
+  {
+    "id": 3912,
+    "m_character_id": 391,
+    "rarity": 2,
+    "class_name": "Madness Cap"
+  },
+  {
+    "id": 3913,
+    "m_character_id": 391,
+    "rarity": 3,
+    "class_name": "Madness Cap"
+  },
+  {
+    "id": 3914,
+    "m_character_id": 391,
+    "rarity": 4,
+    "class_name": "Madness Cap"
+  },
+  {
+    "id": 3915,
+    "m_character_id": 391,
+    "rarity": 5,
+    "class_name": "girl's guardian"
+  },
+  {
+    "id": 3916,
+    "m_character_id": 391,
+    "rarity": 6,
+    "class_name": "Legendary Guide"
+  },
+  {
+    "id": 3931,
+    "m_character_id": 393,
+    "rarity": 1,
+    "class_name": "Angel of Wonderland"
+  },
+  {
+    "id": 3932,
+    "m_character_id": 393,
+    "rarity": 2,
+    "class_name": "Angel of Wonderland"
+  },
+  {
+    "id": 3933,
+    "m_character_id": 393,
+    "rarity": 3,
+    "class_name": "Angel of Wonderland"
+  },
+  {
+    "id": 3934,
+    "m_character_id": 393,
+    "rarity": 4,
+    "class_name": "Angel of Wonderland"
+  },
+  {
+    "id": 3935,
+    "m_character_id": 393,
+    "rarity": 5,
+    "class_name": "savior of leisure"
+  },
+  {
+    "id": 3936,
+    "m_character_id": 393,
+    "rarity": 6,
+    "class_name": "Legendary Girl"
+  },
+  {
+    "id": 201131,
+    "m_character_id": 20113,
+    "rarity": 1,
+    "class_name": "Sleeping Prinny"
+  },
+  {
+    "id": 201132,
+    "m_character_id": 20113,
+    "rarity": 2,
+    "class_name": "Sleeping Prinny"
+  },
+  {
+    "id": 201133,
+    "m_character_id": 20113,
+    "rarity": 3,
+    "class_name": "Sleeping Prinny"
+  },
+  {
+    "id": 201134,
+    "m_character_id": 20113,
+    "rarity": 4,
+    "class_name": "Sleeping Prinny"
+  },
+  {
+    "id": 201135,
+    "m_character_id": 20113,
+    "rarity": 5,
+    "class_name": "Mysterious Sleeping Resident"
+  },
+  {
+    "id": 201136,
+    "m_character_id": 20113,
+    "rarity": 6,
+    "class_name": "Another Worlds inhabitant who becomes scary when angered"
   }
 ]

@@ -140,7 +140,7 @@
   "、さらにパーティが風属性攻撃で与えるダメージ+#PER#%": ", All Allies: Wind Damage +#PER#%",
   "、さらにSP+#PER#": ", SP +#PER#",
   "、さらにパーティが属性攻撃で与えるダメージ+#PER#%": ", All Allies Elemental Damage +#PER#%",
-  "パーティのATK・HP+#PER#%": "All Allies: ATK and HP +#PER#%",
+
   "パーティのキャラの得意武器種が全て異なっている場合、パーティの基礎パラメータ+#PER#%": "All Allies: If all party characters' forte weapons are different, Base parameters +#PER#%",
   "パーティのHP・ATK・DEF+#PER#%": "All Allies: HP, ATK, and DEF +#PER#%",
   "ターン終了時、残りHPが低い敵キャラに風属性攻撃(2回,威力B+)": "At the end of the turn, wind damage to the enemy with the lowest HP (2 times, B+ power)",

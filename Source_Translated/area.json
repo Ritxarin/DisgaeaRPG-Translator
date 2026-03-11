@@ -35264,5 +35264,82 @@
     "m_preview_id": 0,
     "area_special_type": 0,
     "sort": 1
+  },
+  {
+    "id": 1934101,
+    "m_episode_id": 19341,
+    "name": "Alice's tea party",
+    "heading": "",
+    "description": "Sicily was preparing for a tea party at the Demon King's Castle.\nThen Saria appears, looking strange...",
+    "bg_id": 10167,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1934102,
+    "m_episode_id": 19341,
+    "name": "Red Queen's Request",
+    "heading": "",
+    "description": "Sicily, who became the legendary girl \"Alice\",\nIn order to find a way to return to the demon world, I went to the queen...",
+    "bg_id": 10167,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 2
+  },
+  {
+    "id": 1934103,
+    "m_episode_id": 19341,
+    "name": "Queen of Hearts Entertainment",
+    "heading": "",
+    "description": "In order to stop the war in the free world, the Queen of Hearts\nSicily and the others headed for the castle...",
+    "bg_id": 10167,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 3
+  },
+  {
+    "id": 1934104,
+    "m_episode_id": 19341,
+    "name": "Clash! two queens",
+    "heading": "",
+    "description": "A ``Bitter Punishment'' showdown with the Queen of Hearts.\nHowever, the situation takes a turn for the worst...!",
+    "bg_id": 10167,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 4
+  },
+  {
+    "id": 1934105,
+    "m_episode_id": 19341,
+    "name": "Sicily and XENO",
+    "heading": "",
+    "description": "A collapsing leisure world. However, Sicily does not give up.\nTo protect this irreplaceable world and my friends...",
+    "bg_id": 10167,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 5
+  },
+  {
+    "id": 1934201,
+    "m_episode_id": 19342,
+    "name": "EXTRA area",
+    "heading": "",
+    "description": "Use the BOSS key,\nLet's take on even stronger enemies!",
+    "bg_id": 10167,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1938101,
+    "m_episode_id": 19381,
+    "name": "special battle",
+    "heading": "",
+    "description": "None",
+    "bg_id": 0,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
   }
 ]

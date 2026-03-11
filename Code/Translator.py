@@ -13,17 +13,18 @@ from Code.config import Config, Paths
 
 class DictionaryTranslator:
     def __init__(self):
-        folder_path = Paths.DICTIONARIES_DIR
         self.dictionary = {}
-        if os.path.exists(folder_path):
-            for filename in os.listdir(folder_path):
-                if filename.endswith('.json'):
-                    file_path = os.path.join(folder_path, filename)
-                    with open(file_path, 'r', encoding='utf8') as f:
-                        try:
-                            self.dictionary.update(json.load(f))
-                        except json.JSONDecodeError:
-                            print(f"⚠️ Skipping invalid JSON: {filename}")
+        paths = [Paths.DICTIONARIES_DIR] + [Paths.CHARACTER_DICTIONARIES_DIR]
+        for folder_path in paths:
+            if os.path.exists(folder_path):
+                for filename in os.listdir(folder_path):
+                    if filename.endswith('.json'):
+                        file_path = os.path.join(folder_path, filename)
+                        with open(file_path, 'r', encoding='utf8') as f:
+                            try:
+                                self.dictionary.update(json.load(f))
+                            except json.JSONDecodeError:
+                                print(f"⚠️ Skipping invalid JSON: {filename}")
 
     def translate(self, jp_text):
         return self.dictionary.get(jp_text)
@@ -361,17 +362,17 @@ class Translator:
                     return self.skill_name_translator.translate(value)
             
             # 3️⃣ Character name translation
-            if (filename == "character" and field == "name") or (filename == "ritualtrainings" and field == "name"):
+            if filename == "character" and field == "name":
                 translation = self.character_translator.translate(value)
-                # Update master dictionary if not variant version
-                if (
-                    translation
-                    and translation != value
-                    and not self.character_translator.has_variant_suffix(value)
-                ):
+                if translation and translation != value and not self.character_translator.has_variant_suffix(value):
                     self.__update_character_master(value, translation)
                 return translation
 
+            if (filename == "ritualtrainings" and field == "name") or (filename == "museum" and field == "title"):
+                translation = self.context.characters.get(value, value)
+                if translation != value:
+                    return translation
+            
             # 4️⃣ Evility specific translation - use regex or fall back to normal translation if no regex match found
             if filename == "leaderskill" and field == "description":
                 translation = self.evility_translator.translate(value)
@@ -447,4 +448,6 @@ class Translator:
             json.dump(self.character_master_dictionary, f, ensure_ascii=False, indent=2)
 
         print(f"\t\t➕ Added character to master dictionary: {jp_name} → {en_name}")
+        # keep in sync
         self.context.characters.update(self.character_master_dictionary)
+        self.dict_translator.dictionary[jp_name] = en_name

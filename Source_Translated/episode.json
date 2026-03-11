@@ -5218,5 +5218,35 @@
     "name": "Summer Palace of Etna Defense",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 19341,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Sicily in Wonderland",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19342,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Sicily in Wonderland EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19381,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Tea Party Special Battle",
+    "open_at": "",
+    "close_at": ""
   }
 ]

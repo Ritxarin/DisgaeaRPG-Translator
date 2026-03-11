@@ -24683,8 +24683,8 @@
   },
   {
     "id": 303,
-    "name": "Pliniger Beam+",
-    "name_battle": "Pliniger\\nBeam+",
+    "name": "Pringer Beam+",
+    "name_battle": "Pringer Beam+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -25326,8 +25326,8 @@
   },
   {
     "id": 309,
-    "name": "Pliniger Beam+",
-    "name_battle": "Pliniger\\nBeam+",
+    "name": "Pringer Beam+",
+    "name_battle": "Pringer Beam+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -27146,8 +27146,8 @@
   },
   {
     "id": 327,
-    "name": "Pliniger Beam+",
-    "name_battle": "Pliniger\\nBeam+",
+    "name": "Pringer Beam+",
+    "name_battle": "Pringer Beam+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -70562,7 +70562,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF/RES-#PER3#%,SPD-#PER2#%",
+    "description_effect": "DEF/RES-#PER3#%(3T)&SPD-#PER2#%(3T)&Water resistance-#PER5#%(3T)[All Enemies]",
     "description": "Ice needles restrain enemies as blocks of ice fly into them",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -70665,7 +70665,7 @@
       1,
       1
     ],
-    "description_effect": "INT+#PER2#%,[Random]INT+#PER3#%orRES+#PER4#%orAction Gauge+#PER5#",
+    "description_effect": "INT/CRD+#PER2#%(3T)&All damage+#PER8#%(3T)[Party],[Random]INT+#PER3#%(3T)[Party]orRES+#PER4#%(3T)[Party]orAction Gauge+#PER5#[Party]orBuff duration extended+#PER6#[Party]",
     "description": "Create a clone in an icy mirror and attack alongside it",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -70756,7 +70756,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF/RES-#PER2#%&Action Gauge-#PER5#[Single Enemy],Action Gauge+#PER4#[Self]",
+    "description_effect": "DEF/RES-#PER2#%(3T)&Action Gauge-#PER5#&Inflict Bind(2times)&[On Critical hit]SP Steal[#PER7#][Single Enemy],Action Gauge+#PER4#[Self],CRT+#PER8#%(3T)&CRD+#PER9#%(3T)&All damage+#PER10#%(3T)[Party]",
     "description": "Create an ice dragon by unlocking your true form",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -93353,7 +93353,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Wind resistance-#PER2#%(3T)[Single Enemy],CRT+#PER3#%(2T)[Ally]",
+    "description_effect": "Wind resistance-#PER2#%(3T)[Single Enemy],CRT+#PER3#%(3T)[Ally]",
     "description": "Transforms the frozen plum magic power into lightning power",
     "resource_id": 3002131,
     "continuous_attack_rates": []
@@ -93511,7 +93511,7 @@
       0,
       0
     ],
-    "description_effect": "[On Critical hit] Skill power+#PER2#%&#PER3#%RES added to damage calculation[Self],remove buff effect[Single Enemy]",
+    "description_effect": "[On Critical hit] Skill power+#PER2#%&#PER3#%RES added to damage calculation[Self],remove buff effect&Action Gauge-#PER11#[Single Enemy]",
     "description": "Pierce the enemy with an ice pillar with an ice spear covered in thunder",
     "resource_id": 3002132,
     "continuous_attack_rates": []
@@ -110023,7 +110023,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Paralysis(2T)&Water resistance-#PER7#%(3T)[All Enemies],ATK/INT/CRD+#PER3#%(3T)&All damage+#PER6#%(2T)[Party]",
+    "description_effect": "Paralysis(2T)&Water resistance-#PER7#%(3T)[All Enemies],ATK/INT/CRD+#PER3#%(3T)&All damage+#PER6#%(3T)[Party]",
     "description": "A stroke carrying a divine craft turns into an ice fang that cuts through all things.",
     "resource_id": 3002672,
     "continuous_attack_rates": [
@@ -110194,7 +110194,7 @@
       0,
       0
     ],
-    "description_effect": "Non-HP Basic Stats-#PER2#%(4T)&SPD-#PER6#%(4T)&CRD-#PER7#%(4T)[Single Enemy],[When using skill]CRD+#PER11#%&If target has a DEF debuff, Skill Power+#PER8#%&INTの#PER9#% Added to damage calculation[Self],All damage+#PER10#%(2T)[Party]",
+    "description_effect": "Non-HP Basic Stats-#PER2#%(4T)&SPD-#PER6#%(4T)&CRD-#PER7#%(4T)[Single Enemy],[When using skill]CRD+#PER11#%&If target has a DEF debuff, Skill Power+#PER8#%&INTの#PER9#% Added to damage calculation[Self],All damage+#PER10#%(3T)&[On Critical hit]Action Gauge+#PER12#[Party]",
     "description": "The Almighty Demon King, the Art Dragon Stone",
     "resource_id": 3002673,
     "continuous_attack_rates": [
@@ -160012,7 +160012,7 @@
   },
   {
     "id": 3200571,
-    "name": "Pliny Bomb (Summer)",
+    "name": "Prinny Bomb (Summer)",
     "name_battle": "Pliny\\nBomb (Summer)",
     "command_category": 3,
     "attr": 1,
@@ -160089,13 +160089,13 @@
       0
     ],
     "description_effect": "ATK・RES-#PER2#%,敵ATKバフ解除",
-    "description": "The Pliny bomb is also a special edition for the Demon Summer!",
+    "description": "The Prinny Bomb is also a special edition for the Demon Summer!",
     "resource_id": 3200571,
     "continuous_attack_rates": []
   },
   {
     "id": 3200572,
-    "name": "Summer Pliniger Beam",
+    "name": "Summer Pringer Beam",
     "name_battle": "Summer Pliny\\nGarbeam",
     "command_category": 3,
     "attr": 1,
@@ -160996,8 +160996,8 @@
   },
   {
     "id": 3200603,
-    "name": "Pliniger beam V8",
-    "name_battle": "Pliniger\\nBeam V8",
+    "name": "Pringer Beam V8",
+    "name_battle": "Pringer Beam V8",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -162267,7 +162267,7 @@
   },
   {
     "id": 3200652,
-    "name": "New Year Pliniger Beam",
+    "name": "New Year Pringer Beam",
     "name_battle": "New Year Plini\\nGarbeam",
     "command_category": 3,
     "attr": 1,
@@ -163442,7 +163442,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Overheal (small)&ATK/INT+#PER2#%(3T)&Damage dealt by Special Move+#PER4#%(2T)&必殺技で受けるダメージ-#PER5#%(3T)[Party]",
+    "description_effect": "Overheal (small)&ATK/INT+#PER2#%(3T)&Damage dealt by Special Move+#PER4#%(2T)&Skill damage taken-#PER5#%(3T)[Party]",
     "description": "Energy drinks will make you 100 times more energetic!",
     "resource_id": 3200692,
     "continuous_attack_rates": []
@@ -163898,8 +163898,8 @@
   },
   {
     "id": 3200712,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -164064,8 +164064,8 @@
   },
   {
     "id": 3200721,
-    "name": "Pliny bomb",
-    "name_battle": "Pliny bomb",
+    "name": "Prinny Bomb",
+    "name_battle": "Prinny Bomb",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -164139,8 +164139,8 @@
   },
   {
     "id": 3200722,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -164951,7 +164951,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "SPD-#PER6#%(3T)&CRT-#PER7#%(2T)[All Enemies],ATK/INT+#PER2#%(3T)&DEF/RES+#PER3#%(3T)\n&CRD+#PER8#%(3T)[Party],必殺技で受けるダメージ-#PER9#%(2T)[Self]",
+    "description_effect": "SPD-#PER6#%(3T)&CRT-#PER7#%(2T)[All Enemies],ATK/INT+#PER2#%(3T)&DEF/RES+#PER3#%(3T)\n&CRD+#PER8#%(3T)[Party],Skill damage taken-#PER9#%(2T)[Self]",
     "description": "A terrifying special move that is overcome by the feeling of floating and cannot move",
     "resource_id": 3200751,
     "continuous_attack_rates": []
@@ -165281,8 +165281,8 @@
   },
   {
     "id": 3200762,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -166455,7 +166455,7 @@
   },
   {
     "id": 3200802,
-    "name": "Pliny bomb",
+    "name": "Prinny Bomb",
     "name_battle": "Pliny\\nBoot",
     "command_category": 3,
     "attr": 1,
@@ -166532,8 +166532,8 @@
   },
   {
     "id": 3200803,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -166752,7 +166752,7 @@
   },
   {
     "id": 3200812,
-    "name": "New Year Pliniger Beam",
+    "name": "New Year Pringer Beam",
     "name_battle": "New Year's Pri\\nNiger Beam",
     "command_category": 3,
     "attr": 0,
@@ -167371,8 +167371,8 @@
   },
   {
     "id": 3200832,
-    "name": "Pliny bomb",
-    "name_battle": "Pliny bomb",
+    "name": "Prinny Bomb",
+    "name_battle": "Prinny Bomb",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -167553,8 +167553,8 @@
   },
   {
     "id": 3200833,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -172531,8 +172531,8 @@
   },
   {
     "id": 3200981,
-    "name": "Pliny bomb",
-    "name_battle": "Pliny bomb",
+    "name": "Prinny Bomb",
+    "name_battle": "Prinny Bomb",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -172606,8 +172606,8 @@
   },
   {
     "id": 3200982,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -174525,8 +174525,8 @@
   },
   {
     "id": 3201033,
-    "name": "Pliniger beam L",
-    "name_battle": "Pliniger\\nBeam L",
+    "name": "Pringer Beam L",
+    "name_battle": "Pringer Beam L",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -313846,7 +313846,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF/RES-#PER3#%,SPD-#PER2#%",
+    "description_effect": "DEF/RES-#PER3#%(3T)&SPD-#PER2#%(3T)&Water resistance-#PER5#%(3T)[All Enemies]",
     "description": "Ice needles restrain enemies as blocks of ice fly into them",
     "resource_id": 3001331,
     "continuous_attack_rates": []
@@ -313949,7 +313949,7 @@
       1,
       1
     ],
-    "description_effect": "INT+#PER2#%,[Random]INT+#PER3#%orRES+#PER4#%orAction Gauge+#PER5#",
+    "description_effect": "INT/CRD+#PER2#%(3T)&All damage+#PER8#%(3T)[Party],[Random]INT+#PER3#%(3T)[Party]orRES+#PER4#%(3T)[Party]orAction Gauge+#PER5#[Party]orBuff duration extended+#PER6#[Party]",
     "description": "Create a clone in an icy mirror and attack alongside it",
     "resource_id": 3001332,
     "continuous_attack_rates": []
@@ -314040,7 +314040,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF/RES-#PER2#%&Action Gauge-#PER5#[Single Enemy],Action Gauge+#PER4#[Self]",
+    "description_effect": "DEF/RES-#PER2#%(3T)&Action Gauge-#PER5#&Inflict Bind(2times)&[On Critical hit]SP Steal[#PER7#][Single Enemy],Action Gauge+#PER4#[Self],CRT+#PER8#%(3T)&CRD+#PER9#%(3T)&All damage+#PER10#%(3T)[Party]",
     "description": "Create an ice dragon by unlocking your true form",
     "resource_id": 3001333,
     "continuous_attack_rates": []
@@ -336545,7 +336545,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Wind resistance-#PER2#%(3T)[Single Enemy],CRT+#PER3#%(2T)[Ally]",
+    "description_effect": "Wind resistance-#PER2#%(3T)[Single Enemy],CRT+#PER3#%(3T)[Ally]",
     "description": "Transforms the frozen plum magic power into lightning power",
     "resource_id": 3002131,
     "continuous_attack_rates": []
@@ -336703,7 +336703,7 @@
       0,
       0
     ],
-    "description_effect": "[On Critical hit] Skill power+#PER2#%&#PER3#%RES added to damage calculation[Self],remove buff effect[Single Enemy]",
+    "description_effect": "[On Critical hit] Skill power+#PER2#%&#PER3#%RES added to damage calculation[Self],remove buff effect&Action Gauge-#PER11#[Single Enemy]",
     "description": "Pierce the enemy with an ice pillar with an ice spear covered in thunder",
     "resource_id": 3002132,
     "continuous_attack_rates": []
@@ -353215,7 +353215,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Paralysis(2T)&Water resistance-#PER7#%(3T)[All Enemies],ATK/INT/CRD+#PER3#%(3T)&All damage+#PER6#%(2T)[Party]",
+    "description_effect": "Paralysis(2T)&Water resistance-#PER7#%(3T)[All Enemies],ATK/INT/CRD+#PER3#%(3T)&All damage+#PER6#%(3T)[Party]",
     "description": "A stroke carrying a divine craft turns into an ice fang that cuts through all things.",
     "resource_id": 3002672,
     "continuous_attack_rates": [
@@ -353386,7 +353386,7 @@
       0,
       0
     ],
-    "description_effect": "Non-HP Basic Stats-#PER2#%(4T)&SPD-#PER6#%(4T)&CRD-#PER7#%(4T)[Single Enemy],[When using skill]CRD+#PER11#%&If target has a DEF debuff, Skill Power+#PER8#%&INTの#PER9#% Added to damage calculation[Self],All damage+#PER10#%(2T)[Party]",
+    "description_effect": "Non-HP Basic Stats-#PER2#%(4T)&SPD-#PER6#%(4T)&CRD-#PER7#%(4T)[Single Enemy],[When using skill]CRD+#PER11#%&If target has a DEF debuff, Skill Power+#PER8#%&INTの#PER9#% Added to damage calculation[Self],All damage+#PER10#%(3T)&[On Critical hit]Action Gauge+#PER12#[Party]",
     "description": "The Almighty Demon King, the Art Dragon Stone",
     "resource_id": 3002673,
     "continuous_attack_rates": [
@@ -400423,7 +400423,7 @@
   },
   {
     "id": 4200571,
-    "name": "Pliny Bomb (Summer)",
+    "name": "Prinny Bomb (Summer)",
     "name_battle": "Pliny\\nBomb (Summer)",
     "command_category": 3,
     "attr": 1,
@@ -400500,13 +400500,13 @@
       0
     ],
     "description_effect": "ATK・RES-#PER2#%,敵ATKバフ解除",
-    "description": "The Pliny bomb is also a special edition for the Demon Summer!",
+    "description": "The Prinny Bomb is also a special edition for the Demon Summer!",
     "resource_id": 3200571,
     "continuous_attack_rates": []
   },
   {
     "id": 4200572,
-    "name": "Summer Pliniger Beam",
+    "name": "Summer Pringer Beam",
     "name_battle": "Summer Pliny\\nGarbeam",
     "command_category": 3,
     "attr": 1,
@@ -401407,8 +401407,8 @@
   },
   {
     "id": 4200603,
-    "name": "Pliniger beam V8",
-    "name_battle": "Pliniger\\nBeam V8",
+    "name": "Pringer Beam V8",
+    "name_battle": "Pringer Beam V8",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -402678,7 +402678,7 @@
   },
   {
     "id": 4200652,
-    "name": "New Year Pliniger Beam",
+    "name": "New Year Pringer Beam",
     "name_battle": "New Year Plini\\nGarbeam",
     "command_category": 3,
     "attr": 1,
@@ -403853,7 +403853,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Overheal (small)&ATK/INT+#PER2#%(3T)&Damage dealt by Special Move+#PER4#%(2T)&必殺技で受けるダメージ-#PER5#%(3T)[Party]",
+    "description_effect": "Overheal (small)&ATK/INT+#PER2#%(3T)&Damage dealt by Special Move+#PER4#%(2T)&Skill damage taken-#PER5#%(3T)[Party]",
     "description": "Energy drinks will make you 100 times more energetic!",
     "resource_id": 3200692,
     "continuous_attack_rates": []
@@ -404309,8 +404309,8 @@
   },
   {
     "id": 4200712,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -404475,8 +404475,8 @@
   },
   {
     "id": 4200721,
-    "name": "Pliny bomb",
-    "name_battle": "Pliny bomb",
+    "name": "Prinny Bomb",
+    "name_battle": "Prinny Bomb",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -404550,8 +404550,8 @@
   },
   {
     "id": 4200722,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -405362,7 +405362,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "SPD-#PER6#%(3T)&CRT-#PER7#%(2T)[All Enemies],ATK/INT+#PER2#%(3T)&DEF/RES+#PER3#%(3T)\n&CRD+#PER8#%(3T)[Party],必殺技で受けるダメージ-#PER9#%(2T)[Self]",
+    "description_effect": "SPD-#PER6#%(3T)&CRT-#PER7#%(2T)[All Enemies],ATK/INT+#PER2#%(3T)&DEF/RES+#PER3#%(3T)\n&CRD+#PER8#%(3T)[Party],Skill damage taken-#PER9#%(2T)[Self]",
     "description": "A terrifying special move that is overcome by the feeling of floating and cannot move",
     "resource_id": 3200751,
     "continuous_attack_rates": []
@@ -405692,8 +405692,8 @@
   },
   {
     "id": 4200762,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -406866,7 +406866,7 @@
   },
   {
     "id": 4200802,
-    "name": "Pliny bomb",
+    "name": "Prinny Bomb",
     "name_battle": "Pliny\\nBoot",
     "command_category": 3,
     "attr": 1,
@@ -406943,8 +406943,8 @@
   },
   {
     "id": 4200803,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -407163,7 +407163,7 @@
   },
   {
     "id": 4200812,
-    "name": "New Year Pliniger Beam",
+    "name": "New Year Pringer Beam",
     "name_battle": "New Year's Pri\\nNiger Beam",
     "command_category": 3,
     "attr": 0,
@@ -407782,8 +407782,8 @@
   },
   {
     "id": 4200832,
-    "name": "Pliny bomb",
-    "name_battle": "Pliny bomb",
+    "name": "Prinny Bomb",
+    "name_battle": "Prinny Bomb",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -407964,8 +407964,8 @@
   },
   {
     "id": 4200833,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -412942,8 +412942,8 @@
   },
   {
     "id": 4200981,
-    "name": "Pliny bomb",
-    "name_battle": "Pliny bomb",
+    "name": "Prinny Bomb",
+    "name_battle": "Prinny Bomb",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -413017,8 +413017,8 @@
   },
   {
     "id": 4200982,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger\\nBeam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -414936,8 +414936,8 @@
   },
   {
     "id": 4201033,
-    "name": "Pliniger beam L",
-    "name_battle": "Pliniger\\nBeam L",
+    "name": "Pringer Beam L",
+    "name_battle": "Pringer Beam L",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -435416,8 +435416,8 @@
   },
   {
     "id": 6300012,
-    "name": "Pliny bomb",
-    "name_battle": "Pliny bomb",
+    "name": "Prinny Bomb",
+    "name_battle": "Prinny Bomb",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -435489,8 +435489,8 @@
   },
   {
     "id": 6300013,
-    "name": "Pliniger beam",
-    "name_battle": "Pliniger beam",
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -444602,7 +444602,7 @@
   },
   {
     "id": 347,
-    "name": "Pliniger Beam+.",
+    "name": "Pringer Beam+.",
     "name_battle": "Pliniger ∈ nBeam+.",
     "command_category": 3,
     "attr": 0,
@@ -452134,8 +452134,8 @@
   },
   {
     "id": 349,
-    "name": "Pliniger Beam+",
-    "name_battle": "Pliniger\\nBeam+",
+    "name": "Pringer Beam+",
+    "name_battle": "Pringer Beam+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -467690,7 +467690,7 @@
   },
   {
     "id": 353,
-    "name": "Pliniger Beam+.",
+    "name": "Pringer Beam+.",
     "name_battle": "Pliniger ∈ nBeam+.",
     "command_category": 3,
     "attr": 0,
@@ -497061,8 +497061,8 @@
   },
   {
     "id": 3003901,
-    "name": "Sweet electric chocolates!",
-    "name_battle": "Sweet electric\\nchocolates!",
+    "name": "Sweet Electric Chocolate!?",
+    "name_battle": "Sweet Electric\\nChocolate!?",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -497138,14 +497138,14 @@
       0
     ],
     "description_effect": "ATK/INT+#PER2#%(3T)&CRT+#PER4#%(3T)[Party]",
-    "description": "I wanted to enjoy Valentine's Day, even if it was just to get in the mood. ......",
+    "description": "I just wanted to enjoy Valentine's Day at least...",
     "resource_id": 3003901,
     "continuous_attack_rates": []
   },
   {
     "id": 3003902,
-    "name": "Love Comedy Impulse",
-    "name_battle": "Love Comedy\\nImpulse",
+    "name": "Rom-Com Impulse",
+    "name_battle": "Rom-Com\\nImpulse",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -497296,14 +497296,14 @@
       0
     ],
     "description_effect": "DEF/RES・CRD+#PER2#%(3T)&Intercept[Wind][RES](3T)[Ally],ATK/INT+#PER6#%(3T)&All damage+#PER8#%(3T)[Party],DEF/RES-#PER9#%(3T)&ATK/INTremove buff effect[Single Enemy]",
-    "description": "I'll make you part of the romantic comedy development!",
+    "description": "'ll make you a part of the Rom-Com too!",
     "resource_id": 3003902,
     "continuous_attack_rates": []
   },
   {
     "id": 3003903,
-    "name": "Hot love beams!",
-    "name_battle": "Hot love\\nbeams!",
+    "name": "Hot-blooded Love Beam!!!",
+    "name_battle": "Hot-blooded\\nLove Beam!!!",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -497483,14 +497483,14 @@
       0
     ],
     "description_effect": "Remove debuffs&CRT+#PER9#%(3T)&CRD+#PER10#%(3T)&All damage+#PER11#%(3T)[Party],Non-HP Basic Stats-#PER12#%(3T)&Thorns(2T)&Damage Taken +#PER17#%(2T)[All Enemies]",
-    "description": "K is for Kazamatsuri! I wonder if I can resist my K!",
+    "description": "K is Kazamatsuri's K! Can you resist my K?",
     "resource_id": 3003903,
     "continuous_attack_rates": []
   },
   {
     "id": 4003901,
-    "name": "Sweet electric chocolates!",
-    "name_battle": "Sweet electric\\nchocolates!",
+    "name": "Sweet Electric Chocolate!?",
+    "name_battle": "Sweet Electric\\nChocolate!?",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -497566,14 +497566,14 @@
       0
     ],
     "description_effect": "ATK/INT+#PER2#%(3T)&CRT+#PER4#%(3T)[Party]",
-    "description": "I wanted to enjoy Valentine's Day, even if it was just to get in the mood. ......",
+    "description": "I just wanted to enjoy Valentine's Day at least...",
     "resource_id": 3003901,
     "continuous_attack_rates": []
   },
   {
     "id": 4003902,
-    "name": "Love Comedy Impulse",
-    "name_battle": "Love Comedy\\nImpulse",
+    "name": "Rom-Com Impulse",
+    "name_battle": "Rom-Com\\nImpulse",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -497724,14 +497724,14 @@
       0
     ],
     "description_effect": "DEF/RES・CRD+#PER2#%(3T)&Intercept[Wind][RES](3T)[Ally],ATK/INT+#PER6#%(3T)&All damage+#PER8#%(3T)[Party],DEF/RES-#PER9#%(3T)&ATK/INTremove buff effect[Single Enemy]",
-    "description": "I'll make you part of the romantic comedy development!",
+    "description": "'ll make you a part of the Rom-Com too!",
     "resource_id": 3003902,
     "continuous_attack_rates": []
   },
   {
     "id": 4003903,
-    "name": "Hot love beams!",
-    "name_battle": "Hot love\\nbeams!",
+    "name": "Hot-blooded Love Beam!!!",
+    "name_battle": "Hot-blooded\\nLove Beam!!!",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -497911,8 +497911,2124 @@
       0
     ],
     "description_effect": "Remove debuffs&CRT+#PER9#%(3T)&CRD+#PER10#%(3T)&All damage+#PER11#%(3T)[Party],Non-HP Basic Stats-#PER12#%(3T)&Thorns(2T)&Damage Taken +#PER17#%(2T)[All Enemies]",
-    "description": "K is for Kazamatsuri! I wonder if I can resist my K!",
+    "description": "K is Kazamatsuri's K! Can you resist my K?",
     "resource_id": 3003903,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003911,
+    "name": "Aesthetic and sweet day",
+    "name_battle": "Aesthetic and\\nsweet day",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 24,
+    "sp_max_50": 23,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      123,
+      8,
+      101
+    ],
+    "effect_values_min": [
+      60,
+      100,
+      20,
+      10
+    ],
+    "effect_values_max_30": [
+      90,
+      100,
+      20,
+      10
+    ],
+    "effect_values_max_40": [
+      91,
+      100,
+      20,
+      10
+    ],
+    "effect_values_max_50": [
+      92,
+      100,
+      20,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Overheal (small)&ATK+#PER3#%(3T)&All damage+#PER4#%(3T)[Party]",
+    "description": "Now, let's get (my) evil hat tea party started!",
+    "resource_id": 3003911,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003912,
+    "name": "Mad Hatmaid",
+    "name_battle": "Mad Hatmaid",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 42,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      6,
+      17,
+      64,
+      143,
+      8,
+      65,
+      63,
+      101
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      15,
+      15,
+      15,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_30": [
+      130,
+      100,
+      15,
+      15,
+      15,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_40": [
+      133,
+      100,
+      15,
+      15,
+      15,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_50": [
+      136,
+      100,
+      15,
+      15,
+      15,
+      30,
+      30,
+      10,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Sleep(2T)&SPD・CRT-#PER3#%(3T)&Star resistance-#PER5#%(3T)[All Enemies],ATK/CRD+#PER6#%(3T)&CRT+#PER8#%(3T)&All damage+#PER9#%(3T)[Party]",
+    "description": "Don't think that this Evil Hat is just a tea addict!",
+    "resource_id": 3003912,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003913,
+    "name": "Celebrate the Lifeblood of Empty Days",
+    "name_battle": "Celebrate the Lifeblood\\nof Empty Days",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 70,
+    "sp_max_30": 65,
+    "sp_max_40": 60,
+    "sp_max_50": 58,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      132,
+      141,
+      81,
+      101,
+      22,
+      24
+    ],
+    "effect_values_min": [
+      380,
+      200,
+      80,
+      20,
+      20,
+      100,
+      100
+    ],
+    "effect_values_max_30": [
+      410,
+      200,
+      80,
+      20,
+      20,
+      100,
+      100
+    ],
+    "effect_values_max_40": [
+      425,
+      200,
+      80,
+      20,
+      20,
+      100,
+      100
+    ],
+    "effect_values_max_50": [
+      430,
+      200,
+      80,
+      20,
+      20,
+      100,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      4,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      4,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      5,
+      5,
+      4,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Additional Hits [2～4(Power C)]&[When using skill]CRD+#PER3#%&If target has SPD debuff, Skill Power+#PER4#%[Self],All damage+#PER5#%(3T)[Party],ATK/INTremove buff effect[Single Enemy]",
+    "description": "Rejoice! Today is your \"Unbirthday\"!",
+    "resource_id": 3003913,
+    "continuous_attack_rates": [
+      100,
+      100,
+      95,
+      75
+    ]
+  },
+  {
+    "id": 3003931,
+    "name": "Wonder Chase",
+    "name_battle": "Wonder Chase",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 24,
+    "sp_max_50": 23,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      3,
+      12,
+      63
+    ],
+    "effect_values_min": [
+      60,
+      100,
+      15,
+      5
+    ],
+    "effect_values_max_30": [
+      90,
+      100,
+      15,
+      5
+    ],
+    "effect_values_max_40": [
+      91,
+      100,
+      15,
+      5
+    ],
+    "effect_values_max_50": [
+      92,
+      100,
+      15,
+      5
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Remove all ailments&SPD+#PER3#%(3T)&CRT+#PER4#%(3T)[Party]",
+    "description": "Where are you going? Wait, Rabbit!",
+    "resource_id": 3003931,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003932,
+    "name": "Hole to Wonderland",
+    "name_battle": "Hole to\\nWonderland",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 0,
+    "command_types": [
+      121,
+      8,
+      65,
+      101,
+      8,
+      65,
+      63,
+      127,
+      128,
+      143
+    ],
+    "effect_values_min": [
+      8,
+      30,
+      30,
+      15,
+      20,
+      20,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_30": [
+      8,
+      30,
+      30,
+      15,
+      20,
+      20,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_40": [
+      8,
+      30,
+      30,
+      15,
+      20,
+      20,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_50": [
+      8,
+      30,
+      30,
+      15,
+      20,
+      20,
+      20,
+      100,
+      100,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      3
+    ],
+    "effect_values_sub_max": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      2
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "CRT+#PER7#%(3T)&CRT・CRDRemove debuffs[Ally],SP Regen[#PER1#](3T)&ATK/CRD+#PER2#%(3T)&All damage+#PER4#%(3T)&SPD Buffed allies ATK/CRD+#PER5#%(3T)[Party],Water resistance-#PER10#%(3T)[All Enemies]",
+    "description": "Wa wa wa! What does it mean to fall into a hole?",
+    "resource_id": 3003932,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003933,
+    "name": "Heavenly Fist of Wonderland",
+    "name_battle": "Heavenly Fist\\nof Wonderland",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 60,
+    "sp_max_30": 55,
+    "sp_max_40": 50,
+    "sp_max_50": 48,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      8,
+      65,
+      63,
+      101,
+      20,
+      153,
+      150
+    ],
+    "effect_values_min": [
+      310,
+      50,
+      50,
+      10,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_30": [
+      340,
+      50,
+      50,
+      10,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_40": [
+      353,
+      50,
+      50,
+      10,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_50": [
+      358,
+      50,
+      50,
+      10,
+      20,
+      100,
+      100,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "description_effect": "ATK/CRD+#PER2#%(3T)&CRT+#PER4#%(3T)&All damage+#PER5#%(3T)&[On Critical hit]Action Gauge+#PER6#[Party],Inflict Bind(2times)&Damage Taken + #PER8#%(2T)[Single Enemy]",
+    "description": "It was a strange dream. But it was kind of interesting.",
+    "resource_id": 3003933,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201131,
+    "name": "Prinny Bomb",
+    "name_battle": "Prinny Bomb",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 24,
+    "sp_max_50": 23,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      13,
+      15,
+      113
+    ],
+    "effect_values_min": [
+      60,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_30": [
+      90,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_40": [
+      91,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_50": [
+      92,
+      15,
+      15,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "ATK/INT-#PER2#%(3T)[All Enemies],Skill damage taken-#PER4#%(3T)[Party]",
+    "description": "Don't bully Prinny... supi....",
+    "resource_id": 3201131,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201132,
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 42,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      7,
+      14,
+      16,
+      8,
+      10,
+      65,
+      63,
+      103
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_30": [
+      130,
+      100,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_40": [
+      133,
+      100,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_50": [
+      136,
+      100,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Forget(2T)&DEF/RES-#PER3#%(3T)[All Enemies],ATK/INT/CRD+#PER5#%(3T)&CRT+#PER8#%(3T)&Damage dealt by Special Move+#PER9#%(3T)[Party]",
+    "description": "Ahh! Spin...spin...",
+    "resource_id": 3201132,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201133,
+    "name": "Prinny Raging Strike",
+    "name_battle": "Prinny\\nRaging Strike",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 60,
+    "sp_max_30": 55,
+    "sp_max_40": 50,
+    "sp_max_50": 48,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      95,
+      113,
+      143,
+      8,
+      10,
+      65,
+      103
+    ],
+    "effect_values_min": [
+      310,
+      34,
+      30,
+      15,
+      50,
+      50,
+      30,
+      20
+    ],
+    "effect_values_max_30": [
+      340,
+      34,
+      30,
+      15,
+      50,
+      50,
+      30,
+      20
+    ],
+    "effect_values_max_40": [
+      353,
+      34,
+      30,
+      15,
+      50,
+      50,
+      30,
+      20
+    ],
+    "effect_values_max_50": [
+      358,
+      34,
+      30,
+      15,
+      50,
+      50,
+      30,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      5,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Power increases with each use(Maximum 5times)&Skill damage taken-#PER3#%(3T)[Self],Water resistance-#PER4#%(3T)[Single Enemy],ATK/INT+#PER5#%(3T)&CRD+#PER7#%(3T)&Damage dealt by Special Move+#PER8#%(3T)[Ally]",
+    "description": "Ughhhhh!　Don't disturb my sleep!",
+    "resource_id": 3201133,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003911,
+    "name": "Aesthetic and sweet day",
+    "name_battle": "Aesthetic and\\nsweet day",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 24,
+    "sp_max_50": 23,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      123,
+      8,
+      101
+    ],
+    "effect_values_min": [
+      68,
+      100,
+      20,
+      10
+    ],
+    "effect_values_max_30": [
+      98,
+      100,
+      20,
+      10
+    ],
+    "effect_values_max_40": [
+      99,
+      100,
+      20,
+      10
+    ],
+    "effect_values_max_50": [
+      100,
+      100,
+      20,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Overheal (small)&ATK+#PER3#%(3T)&All damage+#PER4#%(3T)[Party]",
+    "description": "Now, let's get (my) evil hat tea party started!",
+    "resource_id": 3003911,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003912,
+    "name": "Mad Hatmaid",
+    "name_battle": "Mad Hatmaid",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 46,
+    "sp_max_30": 41,
+    "sp_max_40": 38,
+    "sp_max_50": 35,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      6,
+      17,
+      64,
+      143,
+      8,
+      65,
+      63,
+      101
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      15,
+      15,
+      15,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_30": [
+      130,
+      100,
+      15,
+      15,
+      15,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_40": [
+      133,
+      100,
+      15,
+      15,
+      15,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_50": [
+      136,
+      100,
+      15,
+      15,
+      15,
+      30,
+      30,
+      10,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Sleep(2T)&SPD・CRT-#PER3#%(3T)&Star resistance-#PER5#%(3T)[All Enemies],ATK/CRD+#PER6#%(3T)&CRT+#PER8#%(3T)&All damage+#PER9#%(3T)[Party]",
+    "description": "Don't think that this Evil Hat is just a tea addict!",
+    "resource_id": 3003912,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003913,
+    "name": "Celebrate the Lifeblood of Empty Days",
+    "name_battle": "Celebrate the Lifeblood\\nof Empty Days",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 70,
+    "sp_max_30": 65,
+    "sp_max_40": 60,
+    "sp_max_50": 58,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      132,
+      141,
+      81,
+      101,
+      22,
+      24
+    ],
+    "effect_values_min": [
+      390,
+      200,
+      80,
+      20,
+      20,
+      100,
+      100
+    ],
+    "effect_values_max_30": [
+      420,
+      200,
+      80,
+      20,
+      20,
+      100,
+      100
+    ],
+    "effect_values_max_40": [
+      435,
+      200,
+      80,
+      20,
+      20,
+      100,
+      100
+    ],
+    "effect_values_max_50": [
+      440,
+      200,
+      80,
+      20,
+      20,
+      100,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      4,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      4,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      5,
+      5,
+      4,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Additional Hits [2～4(Power C)]&[When using skill]CRD+#PER3#%&If target has SPD debuff, Skill Power+#PER4#%[Self],All damage+#PER5#%(3T)[Party],ATK/INTremove buff effect[Single Enemy]",
+    "description": "Rejoice! Today is your \"Unbirthday\"!",
+    "resource_id": 3003913,
+    "continuous_attack_rates": [
+      100,
+      100,
+      95,
+      75
+    ]
+  },
+  {
+    "id": 4003931,
+    "name": "Wonder Chase",
+    "name_battle": "Wonder Chase",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 24,
+    "sp_max_50": 23,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      3,
+      12,
+      63
+    ],
+    "effect_values_min": [
+      68,
+      100,
+      15,
+      5
+    ],
+    "effect_values_max_30": [
+      98,
+      100,
+      15,
+      5
+    ],
+    "effect_values_max_40": [
+      99,
+      100,
+      15,
+      5
+    ],
+    "effect_values_max_50": [
+      100,
+      100,
+      15,
+      5
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Remove all ailments&SPD+#PER3#%(3T)&CRT+#PER4#%(3T)[Party]",
+    "description": "Where are you going? Wait, Rabbit!",
+    "resource_id": 3003931,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003932,
+    "name": "Hole to Wonderland",
+    "name_battle": "Hole to\\nWonderland",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 37,
+    "sp_max_30": 32,
+    "sp_max_40": 30,
+    "sp_max_50": 28,
+    "gain_sp": 0,
+    "relational_param": 0,
+    "command_types": [
+      121,
+      8,
+      65,
+      101,
+      8,
+      65,
+      63,
+      127,
+      128,
+      143
+    ],
+    "effect_values_min": [
+      8,
+      30,
+      30,
+      15,
+      20,
+      20,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_30": [
+      8,
+      30,
+      30,
+      15,
+      20,
+      20,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_40": [
+      8,
+      30,
+      30,
+      15,
+      20,
+      20,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_50": [
+      8,
+      30,
+      30,
+      15,
+      20,
+      20,
+      20,
+      100,
+      100,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      3
+    ],
+    "effect_values_sub_max": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      2
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "CRT+#PER7#%(3T)&CRT・CRDRemove debuffs[Ally],SP Regen[#PER1#](3T)&ATK/CRD+#PER2#%(3T)&All damage+#PER4#%(3T)&SPD Buffed allies ATK/CRD+#PER5#%(3T)[Party],Water resistance-#PER10#%(3T)[All Enemies]",
+    "description": "Wa wa wa! What does it mean to fall into a hole?",
+    "resource_id": 3003932,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003933,
+    "name": "Heavenly Fist of Wonderland",
+    "name_battle": "Heavenly Fist\\nof Wonderland",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 55,
+    "sp_max_30": 50,
+    "sp_max_40": 45,
+    "sp_max_50": 43,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      8,
+      65,
+      63,
+      101,
+      20,
+      153,
+      150
+    ],
+    "effect_values_min": [
+      310,
+      50,
+      50,
+      10,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_30": [
+      340,
+      50,
+      50,
+      10,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_40": [
+      353,
+      50,
+      50,
+      10,
+      20,
+      100,
+      100,
+      10
+    ],
+    "effect_values_max_50": [
+      358,
+      50,
+      50,
+      10,
+      20,
+      100,
+      100,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "description_effect": "ATK/CRD+#PER2#%(3T)&CRT+#PER4#%(3T)&All damage+#PER5#%(3T)&[On Critical hit]Action Gauge+#PER6#[Party],Inflict Bind(2times)&Damage Taken + #PER8#%(2T)[Single Enemy]",
+    "description": "It was a strange dream. But it was kind of interesting.",
+    "resource_id": 3003933,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201131,
+    "name": "Prinny Bomb",
+    "name_battle": "Prinny Bomb",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 24,
+    "sp_max_50": 23,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      13,
+      15,
+      113
+    ],
+    "effect_values_min": [
+      68,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_30": [
+      98,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_40": [
+      99,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_50": [
+      100,
+      15,
+      15,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "ATK/INT-#PER2#%(3T)[All Enemies],Skill damage taken-#PER4#%(3T)[Party]",
+    "description": "Don't bully Prinny... supi....",
+    "resource_id": 3201131,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201132,
+    "name": "Pringer Beam",
+    "name_battle": "Pringer Beam",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 46,
+    "sp_max_30": 41,
+    "sp_max_40": 38,
+    "sp_max_50": 35,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      7,
+      14,
+      16,
+      8,
+      10,
+      65,
+      63,
+      103
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_30": [
+      130,
+      100,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_40": [
+      133,
+      100,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      15
+    ],
+    "effect_values_max_50": [
+      136,
+      100,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Forget(2T)&DEF/RES-#PER3#%(3T)[All Enemies],ATK/INT/CRD+#PER5#%(3T)&CRT+#PER8#%(3T)&Damage dealt by Special Move+#PER9#%(3T)[Party]",
+    "description": "Ahh! Spin...spin...",
+    "resource_id": 3201132,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201133,
+    "name": "Prinny Raging Strike",
+    "name_battle": "Prinny\\nRaging Strike",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 60,
+    "sp_max_30": 55,
+    "sp_max_40": 50,
+    "sp_max_50": 48,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      95,
+      113,
+      143,
+      8,
+      10,
+      65,
+      103
+    ],
+    "effect_values_min": [
+      320,
+      34,
+      30,
+      15,
+      50,
+      50,
+      30,
+      20
+    ],
+    "effect_values_max_30": [
+      350,
+      34,
+      30,
+      15,
+      50,
+      50,
+      30,
+      20
+    ],
+    "effect_values_max_40": [
+      363,
+      34,
+      30,
+      15,
+      50,
+      50,
+      30,
+      20
+    ],
+    "effect_values_max_50": [
+      368,
+      34,
+      30,
+      15,
+      50,
+      50,
+      30,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      5,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Power increases with each use(Maximum 5times)&Skill damage taken-#PER3#%(3T)[Self],Water resistance-#PER4#%(3T)[Single Enemy],ATK/INT+#PER5#%(3T)&CRD+#PER7#%(3T)&Damage dealt by Special Move+#PER8#%(3T)[Ally]",
+    "description": "Ughhhhh!　Don't disturb my sleep!",
+    "resource_id": 3201133,
     "continuous_attack_rates": []
   }
 ]

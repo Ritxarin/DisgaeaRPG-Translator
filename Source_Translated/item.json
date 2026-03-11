@@ -26955,5 +26955,248 @@
     "description": "Can be used at the festival character exchange (normal)",
     "max_num": 9999,
     "sell_price": 0
+  },
+  {
+    "id": 391,
+    "name": "unlucky cake",
+    "item_type": 3,
+    "icon_no": 391,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. It's a cake that lets you enjoy the sweetness and pathos that spreads in your mouth...",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 392,
+    "name": "Strawberry cake",
+    "item_type": 3,
+    "icon_no": 392,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. This is Futaenokiwami, which surpasses Ichigoichie!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4567,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      934
+    ],
+    "description": "BOSSPT for Wonderland of Sicily",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5935,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      934
+    ],
+    "description": "Keys needed to challenge BOSS in the wonderland of Sicily",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200034,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200034,
+    "effect_value": [
+      934
+    ],
+    "description": "Wonderland Sicily exclusive PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340278,
+    "name": "Prophet Plum Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 340009,
+    "effect_value": [
+      932
+    ],
+    "description": "Available at Prophet Plum Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340279,
+    "name": "Prophet Plum Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 340010,
+    "effect_value": [
+      933
+    ],
+    "description": "Available at Prophet Plum Exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340280,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      936
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340281,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      937
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300391,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      391
+    ],
+    "description": "A wondrous potion that grants Hatter Sicily XENO mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300393,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      393
+    ],
+    "description": "A wondrous potion that grants Alice Sicily mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320113,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20113
+    ],
+    "description": "A wondrous potion that grants Sleeping Prinny mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700391,
+    "name": "Hatter Sicily XENO Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Hatter Sicily XENO's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700392,
+    "name": "Cheshire Cat Majorita Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Cheshire Cat Majorita's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700393,
+    "name": "Alice Sicily Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Alice Sicily's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700394,
+    "name": "March Usalia Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for March Usalia's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720113,
+    "name": "Sleeping Prinny Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Sleeping Prinny's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600391,
+    "name": "Hatter Sicily XENO Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      391
+    ],
+    "description": "Nether Star for Awakening 6★ Hatter Sicily XENO.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600393,
+    "name": "Alice Sicily Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      393
+    ],
+    "description": "Nether Star for Awakening 6★ Alice Sicily.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620113,
+    "name": "Sleeping Prinny Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20113
+    ],
+    "description": "Nether Star for Awakening 6★ Sleeping Prinny.",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]

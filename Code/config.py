@@ -18,6 +18,7 @@ class Config:
     CONFIG_PATH = 'config.json'
     DEVICE = ''
     PROJECT_ROOT = Path(__file__).resolve().parent.parent
+    ADB_PATH = PROJECT_ROOT / "platform-tools" / "adb"
 
     @classmethod
     def set_device(cls, device:Device):
@@ -92,7 +93,8 @@ class Config:
         
     FILES_TO_TRANSLATE =  [
         'achievement', 'agenda', 'area', 'arenacategory', 'beginnermission', 'boost',
-        'charactermission', 'character', 'characterclassname', 'characterintroduction', 'charactersubinfo',
+        'charactermission', 'character', 'characterclassname', 'characterintroduction', 'charactersubinfo', 
+        'characterstory', 'characterstorytalk',
         'command', 'collaborationtext',
         'customdailymission', 'custommonthlymission', 'custompartskind', 'customtotalmission', 
         'drink', 'drinkskill', 
@@ -106,10 +108,14 @@ class Config:
         'kingdomrank', 'leaderskill', 'liqueur', 'loginbonus',
         'memory', 'memoryeffecttype', 'museum', 
         'potentialclass', 'potentialkind', 'product', 'ritualtrainings',
-        'stage', 'stagemission', 'survey', 'tower', 
+        'stage', 'stagemission', 'story', 'survey', 'tower', 
         'travelbenefit', 'travelnegativeeffect', 
         'trophy', 'trophydaily', 'trophydailyrequest', 'trophyrepetition', 'trophyweekly', 
         'weapon'
+    ]
+
+    FILES_TO_PATCH =  [
+        'story'
     ]
 
     FILES_TO_IGNORE = ['areareward', 'banner', 'campaign', 'campaignloginbonus', 
@@ -135,10 +141,12 @@ class Config:
         'class_name_2', 'class_name_3', 'class_name_4', 'class_name_5', 'condition_unit_name',
         'description', 'description_effect', 'description_format',
         'get_areas', 'item_name', 'm_text', 'name', 'name_battle', 'release_content_description',
-        'resource_name', 'sheet_name', 'sub_name', 'text', 'title'
+        'resource_name', 'sheet_name', 'sub_name', 'talk_text', 'text', 'title', 
     ]
 
     FIELDS_TO_CHECK_FOR_UPDATES = [ 'description', 'description_effect' ]
+
+    CHARACTER_FILE = "character.json"
 
 class Paths:
     CONFIG_PATH = Config.PROJECT_ROOT / "config.json"

@@ -4163,5 +4163,54 @@
     "name": "valentine fron",
     "description": "Power your love cells with Mao's medicine\nI got it back, Freon.\nHonest love is what it is\nI believe it's a real romantic comedy,\nTrying to correct forced love\nStand up.",
     "color_no": 9
+  },
+  {
+    "id": 1526,
+    "img_id": 391,
+    "name": "Hatter Sicily XENO",
+    "description": "runs a hat shop\nSicily XENO from another world.\nSicily knows\nShe is a different person from Sicily XENO,\nIt's the first time we've met each other.",
+    "color_no": 12
+  },
+  {
+    "id": 1527,
+    "img_id": 393,
+    "name": "Alice Sicily",
+    "description": "to attend a tea party\nmade to change clothes\nSicily dressed as Alice.\nreturn to the original world\nLooking for clues.",
+    "color_no": 8
+  },
+  {
+    "id": 1528,
+    "img_id": 90094,
+    "name": "March Usalia",
+    "description": "Loves curry tea\nA beloved resident of another world.\nSicily knows\nAlthough she is different from Usalia,\nAn obsession with curry\nIt seems they have something in common.",
+    "color_no": 3
+  },
+  {
+    "id": 1529,
+    "img_id": 20113,
+    "name": "Sleeping Prinny",
+    "description": "I just sleep\nPrinny from another world.\nattending a tea party\nThe reason is unknown, but\nThere's something in that deep sleep\nMaybe there's a secret...",
+    "color_no": 0
+  },
+  {
+    "id": 1530,
+    "img_id": 90095,
+    "name": "Cheshire Cat Majorita",
+    "description": "Sniff around Sicily,\nAn elusive resident of another world.\nSicily knows\nMajorita is a different person.",
+    "color_no": 7
+  },
+  {
+    "id": 1531,
+    "img_id": 90096,
+    "name": "red queen seraphine",
+    "description": "One of the queens of the ``time world.''\nAround my beloved Kiria\nWar with the Queen of Hearts\nIt's unfolding.\nSicily knows,\nShe is different from Seraphine.",
+    "color_no": 1
+  },
+  {
+    "id": 1532,
+    "img_id": 164,
+    "name": "Seraphine XENO",
+    "description": "One of the queens of the ``time world.''\nAround my beloved Kiria\nWar with the Red Queen\nIt's unfolding.\nSicily knows,\nShe is a different person from Seraphine XENO.",
+    "color_no": 9
   }
 ]
