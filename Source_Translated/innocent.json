@@ -1308,5 +1308,18 @@
     "weapon_type": 7,
     "m_character_id": 388,
     "trainer_group_id": 4
+  },
+  {
+    "id": 106,
+    "name": "Super ATK Boost",
+    "resource_name": "belt",
+    "innocent_type": 2,
+    "category": 2,
+    "description_format": "ATK{0}% increase",
+    "calculate_format": "{0}%",
+    "effect_type": 62,
+    "weapon_type": 12,
+    "m_character_id": 394,
+    "trainer_group_id": 2
   }
 ]

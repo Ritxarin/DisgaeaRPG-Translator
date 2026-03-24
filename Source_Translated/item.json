@@ -27198,5 +27198,77 @@
     "description": "Nether Star for Awakening 6★ Sleeping Prinny.",
     "max_num": 9999,
     "sell_price": 0
+  },
+  {
+    "id": 393,
+    "name": "Wild boar",
+    "item_type": 3,
+    "icon_no": 393,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. A special Desco stamp filled with sisterly love!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600392,
+    "name": "Cheshire Cat Majorita Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      392
+    ],
+    "description": "Nether Star for Awakening 6★ Cheshire Cat Majorita.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 394,
+    "name": "puri green tea",
+    "item_type": 3,
+    "icon_no": 394,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. Don't worry, it won't explode! …perhaps",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 201035,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201035,
+    "effect_value": [
+      940
+    ],
+    "description": "March Usari Raid exclusive PT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340282,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      941
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340283,
+    "name": "PU character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      942
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]

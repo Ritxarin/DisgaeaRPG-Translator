@@ -1182,5 +1182,13 @@
     "main_m_memory_effect_type_id": 110,
     "sub_m_character_id": 0,
     "sub_m_memory_effect_type_id": 112
+  },
+  {
+    "id": 149,
+    "name": "Father, Daughter and Higan Zekkosai",
+    "main_m_character_id": 305,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 303,
+    "sub_m_memory_effect_type_id": 16
   }
 ]

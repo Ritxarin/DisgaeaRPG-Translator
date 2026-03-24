@@ -313,6 +313,7 @@
   "RESデバフ状態の敵への": "If target has a RES debuff, ",
 
   "DEFバフ状態の味方がいる時、": "[When ally has a DEF buff]",
+  "体力が満タンの時、" : "If HP is full, ",
   "対象のHPが75%以下の場合、": "If 75% or less HP, ",
   "対象の体力が75%以下の場合、": "If target's HP is 75% or less, ",
   "体力が30%以下の場合、": "If HP is below 30%, ",

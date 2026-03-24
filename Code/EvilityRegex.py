@@ -433,7 +433,7 @@ patterns = [
         )
     ),
 
-    # --- 1️⃣5️⃣ Weapon-Wielding Party Damage Dealt/Taken ✅ ---
+    # --- 1️⃣5️⃣ - I: Weapon-Wielding Party Damage Dealt/Taken ✅ ---
     (
         re.compile(
         r"(?P<lead>[、,])?(?:さらに)?パーティの(?P<weapon>.+?)武器装備キャラが"
@@ -457,6 +457,58 @@ patterns = [
                 + (f" from {damage_type_map.get(m.group('condition'), '')}" if m.group('condition') else "")
                 + f" {m.group('sign')}#PER#%"
             )
+        )
+    ),
+
+    # --- 1️⃣5️⃣ - II: Grant Damage Buff to Weapon-Wielding Allies ---
+    (
+        re.compile(
+            rf'^(?P<lead>[、,])?(?:さらに)?パーティの(?P<weapons>.+?)武器装備キャラに'
+            rf'与える全てのダメージ'
+            r'(?P<sign>[+-])#PER#(?:%|％)'
+            r'(?:\((?P<turns>\d+)(?:T|ターン)\))?'
+            r'(?:付与)?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + f"{'/'.join(weapon_map.get(w, w) for w in m.group('weapons').split('・'))}-Wielding Allies: "
+            + f"Damage {m.group('sign')}#PER#%"
+            + (f"({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
+    # --- 1️⃣5️⃣ - III :Weapon-Wielding Allies: Stat Buff ---
+    (
+        re.compile(
+            rf'^(?P<lead>[、,])?(?:さらに)?パーティの(?P<weapons>.+?)武器装備キャラの'
+            rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'\+#PER#(?:%|％)'
+            r'(?:\((?P<turns>\d+)(?:T|ターン)\))?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + f"{'/'.join(weapon_map.get(w, w) for w in m.group('weapons').split('・'))}-Wielding Allies: "
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " +#PER#%"
+            + (f"({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
+
+    # --- 1️⃣5️⃣ - IV: SP Cost Reduction for Weapon-Wielding Allies ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*パーティの(?P<weapons>.+?)武器装備キャラの'
+            r'消費SP'
+            r'(?P<sign>[+-])#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + f"{'/'.join(weapon_map.get(w, w) for w in m.group('weapons').split('・'))}-Wielding Allies: "
+            + f"SP Cost {m.group('sign')}#PER#%"
         )
     ),
 
@@ -907,11 +959,11 @@ patterns = [
                 "Self" if m.group('target') == '自分の'
                 else "All Allies"
             )
-            + ": At the start of battle, Initial SP +#PER#%"
+            + ": At the start of battle, Initial SP +#PER#"
         )
     ),
 
-    # --- 3️⃣3️⃣ Party Stat Buff if X+ Weapon-Wielding Units Are Present (optional leading comma, multi-types) ✅ ---
+    # --- 3️⃣3️⃣ - I Party Stat Buff if X+ Weapon-Wielding Units Are Present (optional leading comma, multi-types) ✅ ---
     (
         re.compile(
             rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
@@ -934,6 +986,30 @@ patterns = [
             + "] Allies, "
             + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
             + " +#PER#%"
+        )
+    ),
+
+    # --- 3️⃣3️⃣ - II Weapon Count → Party Damage Buff ---
+    (
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'(?:パーティに)?得意武器種が\[(?P<weapons>[^\]]+)\]のキャラが'
+            rf'(?P<count>\d+)体以上いる場合、'
+            rf'パーティが(?P<damage_type>'
+            rf'必殺技で与えるダメージ|'
+            rf'与える全てのダメージ|与えるすべてのダメージ|'
+            rf'属性攻撃で与えるダメージ'
+            rf')'
+            r'\+#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "All Allies: "
+            + f"If {m.group('count')}+ ["
+            + "/".join(weapon_map.get(w, w) for w in m.group('weapons').split('・'))
+            + "] Allies, "
+            + f"{damage_type_map.get(m.group('damage_type'), m.group('damage_type'))} +#PER#%"
         )
     ),
 
@@ -1239,6 +1315,22 @@ patterns = [
         )
     ),
 
+# --- SP Auto-Regen for Party ---
+(
+    re.compile(
+        r'^(?P<lead>(?:、さらに|[、,])?)\s*'
+        r'パーティにSP自動回復'
+        r'\[#PER#\]'
+        r'(?:\((?P<turns>\d+)(?:T|ターン)\))?'
+        r'付与$',
+        flags=re.UNICODE
+    ),
+    lambda m: (
+        (", " if m.group('lead') else "")
+        + "All Allies: SP Regen [#PER#]"
+        + (f"({m.group('turns')}T)" if m.group('turns') else "")
+    )
+),
 
     #FALLBACK. Matches unconditional party-wide damage buffs ONLY.
     # Must appear after all conditional damage rules.

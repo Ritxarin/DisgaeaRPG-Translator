@@ -886,7 +886,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 54,
@@ -7808,7 +7808,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 424,
@@ -8933,7 +8933,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 493,
@@ -15603,7 +15603,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 871,
@@ -20742,7 +20742,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 1143,
@@ -24402,7 +24402,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 1323,
@@ -25294,7 +25294,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 1363,
@@ -29937,7 +29937,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 1605,
@@ -48472,7 +48472,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 2334,
@@ -52724,7 +52724,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When the party uses a fire attribute technique, it is your ATK/CRD+#PER#%(1T)"
+    "description": "When the party uses a fire attribute skill, your ATK/CRD+#PER#%(2T)"
   },
   {
     "id": 2484,
@@ -54299,7 +54299,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", If you are fully stamina, the party's SP+#PER#"
+    "description": ", All allies: if HP is full, SP+#PER#"
   },
   {
     "id": 2538,
@@ -65163,7 +65163,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 2924,
@@ -71762,7 +71762,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Self: At the start of battle, Initial SP +#PER#%"
+    "description": ", Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 3151,
@@ -89781,7 +89781,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 100181,
@@ -90503,7 +90503,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 100234,
@@ -92239,7 +92239,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 200081,
@@ -92434,7 +92434,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: DEF/RES +#PER#%"
+    "description": "All Allies: DEF/RES/HP +#PER#%"
   },
   {
     "id": 200092,
@@ -92472,7 +92472,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Mon Phys-Equipped Self: Skill Damage +#PER#%"
+    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 200093,
@@ -92550,7 +92550,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the end of the turn, ATK/INT +#PER#%(1T)"
+    "description": "All Allies: At the end of the turn, ATK/INT +#PER#%(2T)"
   },
   {
     "id": 200095,
@@ -92588,7 +92588,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", HP +#PER#%"
+    "description": ", and the damage the party receives from all attacks -#PER#%"
   },
   {
     "id": 200096,
@@ -92626,7 +92626,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", All Allies: Skill Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 200097,
@@ -92704,7 +92704,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", If your physical strength is 75% or more, the party's CRT+#PER#%(1T)"
+    "description": ", If HP >= 75%, All Allies: CRT +#PER#%(2T)"
   },
   {
     "id": 200101,
@@ -94638,7 +94638,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 200223,
@@ -95261,7 +95261,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 200254,
@@ -108880,7 +108880,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of battle, Initial SP +#PER#%"
+    "description": "All Allies: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 200855,
@@ -116509,7 +116509,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 300012,
@@ -116661,7 +116661,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 300022,
@@ -116813,7 +116813,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 300032,
@@ -116965,7 +116965,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 300042,
@@ -124539,7 +124539,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 300573,
@@ -124695,7 +124695,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 300583,
@@ -124851,7 +124851,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 300593,
@@ -125007,7 +125007,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of battle, Initial SP +#PER#%"
+    "description": "Self: At the start of battle, Initial SP +#PER#"
   },
   {
     "id": 300603,
@@ -137427,7 +137427,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the battle, it weakens"
+    "description": "At the start of battle, inflicts weakness on all enemies."
   },
   {
     "id": 802802,
@@ -137465,7 +137465,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Despair when a critical occurs"
+    "description": "When a critical hit occurs, weakens all enemies."
   },
   {
     "id": 802803,
@@ -137504,7 +137504,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Non-elemental follow-up attack"
+    "description": "At the end of turn, non-elemental follow-up attack on high HP characters x2"
   },
   {
     "id": 802804,
@@ -137543,7 +137543,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Non-elemental follow-up attack"
+    "description": "At the end of turn, non-elemental follow-up attack on low HP characters x2"
   },
   {
     "id": 803201,
@@ -158743,5 +158743,616 @@
     ],
     "bad_effect_value": 0,
     "description": ", All Allies: SP Regen [#PER#](5T)"
+  },
+  {
+    "id": 3921,
+    "name": "invisible cat witch",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 18,
+    "effect_value_max": 18,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/CRD +#PER#%"
+  },
+  {
+    "id": 3922,
+    "name": "Pig & Pepper",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Fist-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3923,
+    "name": "A cruel prank",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: When the unit is attacked, CRT +#PER#% (1T)"
+  },
+  {
+    "id": 3924,
+    "name": "ojama scratch",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 35,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      3,
+      3
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 180,
+    "effect_value_max": 180,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Lowest-HP Foe: At end of turn, Wind Follow-up (2 times, Power D+)"
+  },
+  {
+    "id": 3925,
+    "name": "invisible cat witch",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 90,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 2,
+    "effect_value_max": 2,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Self: At the start of the battle, grant Invincibility (#PER# Times)"
+  },
+  {
+    "id": 3926,
+    "name": "Pig & Pepper",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3927,
+    "name": "A cruel prank",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRD +#PER#%(1T)"
+  },
+  {
+    "id": 3928,
+    "name": "ojama scratch",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 34,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 180,
+    "effect_value_max": 180,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Highest-HP Foe: At end of turn, Wind Follow-up (1 times, Power D+)"
+  },
+  {
+    "id": 3941,
+    "name": "Extra-Spicy Curry Tea",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: ATK +#PER#%"
+  },
+  {
+    "id": 3942,
+    "name": "Mincing Tea Knife",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Axe-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3943,
+    "name": "Lunatic March",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 1,
+    "trigger_status": 35,
+    "trigger_param": 65,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 35,
+    "effect_value_max": 35,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "ATK/CRD-buffed Self: At the start of the turn, CRT +#PER#% (1T)"
+  },
+  {
+    "id": 3944,
+    "name": "Truth Insight",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 19,
+    "trigger_param2": 3,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 60,
+    "effect_value_max": 60,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "If there are 3 or more characters of latent type [King/Pawn/Knight] in the party, your ATK/CRD+#PER#%"
+  },
+  {
+    "id": 3945,
+    "name": "Extra-Spicy Curry Tea",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 3946,
+    "name": "Mincing Tea Knife",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3947,
+    "name": "Lunatic March",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 1,
+    "trigger_status": 35,
+    "trigger_param": 81,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 22,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", ATK/CRD/SPD-buffed Self: SP +#PER#%"
+  },
+  {
+    "id": 3948,
+    "name": "Truth Insight",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 19,
+    "trigger_param2": 5,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      13
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Furthermore, if there are 5 or more characters with the latent type [King Pawn Knight], the damage you deal with single attacks +#PER#%"
   }
 ]

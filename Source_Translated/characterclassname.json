@@ -26206,5 +26206,77 @@
     "m_character_id": 20113,
     "rarity": 6,
     "class_name": "Another Worlds inhabitant who becomes scary when angered"
+  },
+  {
+    "id": 3921,
+    "m_character_id": 392,
+    "rarity": 1,
+    "class_name": "grinning cat"
+  },
+  {
+    "id": 3922,
+    "m_character_id": 392,
+    "rarity": 2,
+    "class_name": "grinning cat"
+  },
+  {
+    "id": 3923,
+    "m_character_id": 392,
+    "rarity": 3,
+    "class_name": "grinning cat"
+  },
+  {
+    "id": 3924,
+    "m_character_id": 392,
+    "rarity": 4,
+    "class_name": "grinning cat"
+  },
+  {
+    "id": 3925,
+    "m_character_id": 392,
+    "rarity": 5,
+    "class_name": "Liar Cat Witch King"
+  },
+  {
+    "id": 3926,
+    "m_character_id": 392,
+    "rarity": 6,
+    "class_name": "The elusive cat witch king"
+  },
+  {
+    "id": 3941,
+    "m_character_id": 394,
+    "rarity": 1,
+    "class_name": "Crazy Tea Party Rabbit"
+  },
+  {
+    "id": 3942,
+    "m_character_id": 394,
+    "rarity": 2,
+    "class_name": "Crazy Tea Party Rabbit"
+  },
+  {
+    "id": 3943,
+    "m_character_id": 394,
+    "rarity": 3,
+    "class_name": "Crazy Tea Party Rabbit"
+  },
+  {
+    "id": 3944,
+    "m_character_id": 394,
+    "rarity": 4,
+    "class_name": "Crazy Tea Party Rabbit"
+  },
+  {
+    "id": 3945,
+    "m_character_id": 394,
+    "rarity": 5,
+    "class_name": "Rabbit that sees everything"
+  },
+  {
+    "id": 3946,
+    "m_character_id": 394,
+    "rarity": 6,
+    "class_name": "Legendary Guardian"
   }
 ]
