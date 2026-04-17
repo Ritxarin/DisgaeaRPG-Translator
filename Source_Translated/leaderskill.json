@@ -5287,7 +5287,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Allies: At end of this unit's turn, Skill Damage +#PER#%(1T)"
+    "description": "CRT-Buffed Allies: At the end of the turn, Skill Damage +#PER#%(1T)"
   },
   {
     "id": 285,
@@ -6411,7 +6411,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "DEF-Buffed Allies: At the end of the turn, SP +#PER#%"
+    "description": "DEF-Buffed Allies: At the end of the turn, SP +#PER#"
   },
   {
     "id": 351,
@@ -8895,7 +8895,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Gun-Wielding Allies: Basic Stats +#PER#%"
+    "description": "Gun-Wielding Allies: Basic Stats/CRD +#PER#%"
   },
   {
     "id": 492,
@@ -9012,7 +9012,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Enemies: Non-HP Basic Stats -#PER#%"
+    "description": "At the start of WAVE, basic parameters other than HP of all enemies - #PER#%"
   },
   {
     "id": 511,
@@ -24248,7 +24248,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK, DEF, RES+#PER#% for each stage of your own magic modification"
+    "description": "Self: ATK/DEF/RES +#PER#% per NE"
   },
   {
     "id": 1317,
@@ -24325,7 +24325,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",HP+#PER#%(ATK, DEF, RES limit 90%, HP limit 50%)"
+    "description": ", HP +#PER#% (ATK/DEF/RES max +90%, HP max +50%)"
   },
   {
     "id": 1321,
@@ -29075,7 +29075,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "CRD-Buffed Self: At the start of the turn, SP +#PER#%"
+    "description": "CRD-Buffed Self: At the start of the turn, SP +#PER#"
   },
   {
     "id": 1564,
@@ -29583,7 +29583,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: ATK/DEF/RES/HP +#PER#%"
+    "description": "Self: ATK/HP +#PER#%"
   },
   {
     "id": 1592,
@@ -29861,7 +29861,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, all damage dealt to characters who are receiving the party's DEF buff effect +#PER#%(2T)"
+    "description": "DEF-Buffed Allies: At the end of the turn, Damage +#PER#%(2T)"
   },
   {
     "id": 1603,
@@ -33812,7 +33812,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", if you are receiving a CRD buff effect, the party's SP+#PER#"
+    "description": ", CRD-Buffed Self: All Allies: SP +#PER#"
   },
   {
     "id": 1771,
@@ -35284,7 +35284,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, if the number of surviving characters in the party is 3 or more, the party's ATK/INT+#PER#%(1T)"
+    "description": "At the start of the turn, If 3+ allies are alive, All Allies: ATK/INT +#PER#%(1T)"
   },
   {
     "id": 1834,
@@ -35398,7 +35398,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, if the number of surviving characters in the party is 5 or more, the party's CRD+#PER#%(1T)"
+    "description": ", If 5+ allies are alive, All Allies: CRD +#PER#%(1T)"
   },
   {
     "id": 1841,
@@ -37668,7 +37668,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "CRD buffed self: At the start of the turn, party SP+#PER#"
+    "description": "CRD-Buffed Self: At the start of the turn, All Allies: SP +#PER#"
   },
   {
     "id": 1924,
@@ -39235,7 +39235,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: For each stage of Nether Enhancement, ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#% per NE"
   },
   {
     "id": 1984,
@@ -39387,7 +39387,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(ATK/DEF upper limit 150%, CRD upper limit 80%)"
+    "description": ", CRD +#PER#% (ATK/DEF max +150%, CRD max +80%)"
   },
   {
     "id": 1988,
@@ -41484,7 +41484,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When the party has more than 3 characters at the start of the turn, the party's ATK/INT+#PER#%(2T)"
+    "description": "At the start of the turn, If 3+ allies are alive, All Allies: ATK/INT +#PER#%(2T)"
   },
   {
     "id": 2063,
@@ -42114,7 +42114,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, if the number of surviving characters in the party is 3 or more, the party's ATK/INT+#PER#%(2T)"
+    "description": "At the end of the turn, If 3+ allies are alive, All Allies: ATK/INT +#PER#%(2T)"
   },
   {
     "id": 2086,
@@ -43198,7 +43198,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Allies: At the start of the turn, SP +#PER#%"
+    "description": "CRT-Buffed Allies: At the start of the turn, SP +#PER#"
   },
   {
     "id": 2135,
@@ -44620,7 +44620,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", if you are receiving a CRT buff effect, then your SP+#PER#"
+    "description": ", CRT-Buffed Self: SP +#PER#"
   },
   {
     "id": 2191,
@@ -45316,7 +45316,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: For each stage of Nether Enhancement, ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#% per NE"
   },
   {
     "id": 2218,
@@ -45354,7 +45354,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(ATK/DEF upper limit 70%, CRD upper limit 30%)"
+    "description": ", CRD +#PER#% (ATK/DEF max +70%, CRD max +30%)"
   },
   {
     "id": 2221,
@@ -49124,7 +49124,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, all damage dealt to characters who are receiving the party's SPD buff effect +#PER#%(1T)"
+    "description": "SPD-Buffed Allies: At the end of the turn, Damage +#PER#%(1T)"
   },
   {
     "id": 2355,
@@ -50085,7 +50085,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", if you are receiving a CRT buff effect, then your SP+#PER#"
+    "description": ", CRT-Buffed Self: SP +#PER#"
   },
   {
     "id": 2391,
@@ -50483,7 +50483,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When the party starts its turn, if there are 3 or more surviving characters, the basic parameters other than your HP +#PER#%(1T)"
+    "description": "At the start of the turn, If 3+ allies are alive, Self: Non-HP Basic Stats +#PER#%(1T)"
   },
   {
     "id": 2404,
@@ -51105,7 +51105,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK+#PER#% for each stage of your own magic modification"
+    "description": "Self: ATK +#PER#% per NE"
   },
   {
     "id": 2425,
@@ -51221,7 +51221,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT・CRD+#PER#%(ATK upper limit 100%, CRT・CRD upper limit 30%)"
+    "description": ", CRT/CRD +#PER#% (ATK max +100%, CRT/CRD max +30%)"
   },
   {
     "id": 2431,
@@ -53302,7 +53302,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "For each stage of your Nether Enhancement, INT and RES +#PER#%"
+    "description": "Self: INT/RES +#PER#% per NE"
   },
   {
     "id": 2505,
@@ -53454,7 +53454,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(INT/RES upper limit 80%, CRD upper limit 30%)"
+    "description": ", CRD +#PER#% (INT/RES max +80%, CRD max +30%)"
   },
   {
     "id": 2511,
@@ -54452,7 +54452,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, damage dealt with a special move to a character who has been receiving the party's CRT buff effect +#PER#%(1T)"
+    "description": "CRT-Buffed Allies: At the start of the turn, Skill Damage +#PER#%(1T)"
   },
   {
     "id": 2544,
@@ -60367,7 +60367,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When any ally crits, Non-HP Basic Stats: CRD+#PER#%(2T)"
+    "description": "All Allies: When any ally crits, Non-HP Basic Stats/CRD +#PER#% (2T)"
   },
   {
     "id": 2754,
@@ -60712,7 +60712,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "For each stage of your Nether Enhancement, INT and RES +#PER#%"
+    "description": "Self: INT/RES +#PER#% per NE"
   },
   {
     "id": 2765,
@@ -60826,7 +60826,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(INT/RES upper limit 70%, CRD upper limit 50%)"
+    "description": ", CRD +#PER#% (INT/RES max +70%, CRD max +50%)"
   },
   {
     "id": 2771,
@@ -62138,7 +62138,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK/CRD+#PER#% for each stage of your own magic modification"
+    "description": "Self: ATK/CRD +#PER#% per NE"
   },
   {
     "id": 2815,
@@ -62290,7 +62290,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT+#PER#%(ATK・CRD upper limit 60%, CRT upper limit 20%)"
+    "description": ", CRT +#PER#% (ATK/CRD max +60%, CRT max +20%)"
   },
   {
     "id": 2821,
@@ -65785,7 +65785,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: For each stage of Nether Enhancement, ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#% per NE"
   },
   {
     "id": 2945,
@@ -65937,7 +65937,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(ATK/DEF upper limit 70%, CRD upper limit 40%)"
+    "description": ", CRD +#PER#% (ATK/DEF max +70%, CRD max +40%)"
   },
   {
     "id": 2951,
@@ -66215,7 +66215,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, if the number of surviving characters in the party is 5 or more, the party's CRD/CRT+#PER#%(3T)"
+    "description": ", If 5+ allies are alive, All Allies: CRD/CRT +#PER#%(3T)"
   },
   {
     "id": 2961,
@@ -67933,7 +67933,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and adds all damage to characters who are receiving the party's CRT buff effect +#PER#%(2T)"
+    "description": ", CRT-Buffed Allies: Damage +#PER#%(2T)"
   },
   {
     "id": 3018,
@@ -69514,7 +69514,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK+#PER#% for each stage of your own magic modification"
+    "description": "Self: ATK +#PER#% per NE"
   },
   {
     "id": 3075,
@@ -69667,7 +69667,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT+#PER#%(ATK upper limit 70%, CRT upper limit 20%)"
+    "description": ", CRT +#PER#% (ATK max +70%, CRT max +20%)"
   },
   {
     "id": 3081,
@@ -71921,7 +71921,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: For each stage of Nether Enhancement, ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#% per NE"
   },
   {
     "id": 3156,
@@ -72035,7 +72035,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(ATK/DEF upper limit 80%, CRD upper limit 50%)"
+    "description": ", CRD +#PER#% (ATK/DEF max +80%, CRD max +50%)"
   },
   {
     "id": 3161,
@@ -78836,7 +78836,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: For each stage of Nether Enhancement, ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#% per NE"
   },
   {
     "id": 3395,
@@ -78989,7 +78989,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT・CRD+#PER#%(ATK・DEF upper limit 100%, CRT・CRD upper limit 30%)"
+    "description": ", CRT/CRD +#PER#% (ATK/DEF max +100%, CRT/CRD max +30%)"
   },
   {
     "id": 3401,
@@ -93250,7 +93250,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When the party has more than 3 characters at the start of the turn, the party's ATK/DEF+#PER#%(3T)"
+    "description": "At the start of the turn, If 3+ allies are alive, All Allies: ATK/DEF +#PER#%(3T)"
   },
   {
     "id": 200125,
@@ -99439,7 +99439,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "RES-Buffed Allies: At the end of the turn, SP +#PER#%"
+    "description": "RES-Buffed Allies: At the end of the turn, SP +#PER#"
   },
   {
     "id": 200473,
@@ -99593,7 +99593,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and adds all damage dealt by all allies who receive the DEF buff effect +#PER#%(2T)"
+    "description": ", DEF-Buffed Allies: Damage +#PER#%(2T)"
   },
   {
     "id": 200477,
@@ -100521,7 +100521,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "INT-Buffed Self: At the start of the turn, SP +#PER#%"
+    "description": "INT-Buffed Self: At the start of the turn, SP +#PER#"
   },
   {
     "id": 200515,
@@ -100877,7 +100877,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When any ally crits, Non-HP Basic Stats +#PER#%(2 turns)"
+    "description": "All Allies: When any ally crits, Non-HP Basic Stats +#PER#% (2T)"
   },
   {
     "id": 200533,
@@ -103930,7 +103930,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "For each stage of your Nether Enhancement, INT and RES +#PER#%"
+    "description": "Self: INT/RES +#PER#% per NE"
   },
   {
     "id": 200665,
@@ -104082,7 +104082,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#%(INT/RES upper limit 100%, CRD upper limit 50%)"
+    "description": ", CRD +#PER#% (INT/RES max +100%, CRD max +50%)"
   },
   {
     "id": 200671,
@@ -104858,7 +104858,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the fewer the enemy's surviving characters, the higher your CRD (up to +100%, 1T)"
+    "description": "At the start of the turn, the fewer enemy characters survive, the more your CRD/CRT increases (CRD up to +120%, 1T)"
   },
   {
     "id": 200704,
@@ -109731,7 +109731,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "ATK/CRD+#PER#% for each stage of your own magic modification"
+    "description": "Self: ATK/CRD +#PER#% per NE"
   },
   {
     "id": 200885,
@@ -109883,7 +109883,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRT+#PER#%(ATK・CRD upper limit 70%, CRT upper limit 20%)"
+    "description": ", CRT +#PER#% (ATK/CRD max +70%, CRT max +20%)"
   },
   {
     "id": 200891,
@@ -112662,7 +112662,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, damage dealt with a special move +#PER#%(2T) to a character who has been receiving the party's INT buff effect"
+    "description": "INT-Buffed Allies: At the end of the turn, Skill Damage +#PER#%(2T)"
   },
   {
     "id": 200985,
@@ -137619,7 +137619,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Synchro ally"
+    "description": "At the beginning of the battle, synchronization is given to all allies."
   },
   {
     "id": 803802,
@@ -137659,7 +137659,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Non-elemental follow-up attack"
+    "description": "At the end of the turn, nonattribute tracking x3 for low HP characters"
   },
   {
     "id": 804001,
@@ -146010,7 +146010,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", SPD-Buffed Allies: SP +#PER#%"
+    "description": ", SPD-Buffed Allies: SP +#PER#"
   },
   {
     "id": 3327,
@@ -150965,7 +150965,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: For each NE, ATK and DEF +#PER#%"
+    "description": "Self: ATK/DEF +#PER#% per NE"
   },
   {
     "id": 3725,
@@ -151117,7 +151117,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ",CRD+#PER#% (ATK/DEF limit 80%, CRD limit 50%)"
+    "description": ", CRD +#PER#% (ATK/DEF max +80%, CRD max +50%)"
   },
   {
     "id": 805201,
@@ -154360,7 +154360,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Atk-Buffed Allies: At start of turn, Damage +#PER#% (2T)."
+    "description": "ATK-Buffed Allies: At the start of the turn, Damage +#PER#%(2T)"
   },
   {
     "id": 3854,
@@ -155704,7 +155704,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", CRT-Buffed Allies: Damage +#PER#% (2T)."
+    "description": ", CRT-Buffed Allies: Damage +#PER#%(2T)"
   },
   {
     "id": 3818,
@@ -157405,7 +157405,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self, Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 3903,
@@ -157485,7 +157485,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Int Buffed Allies: At end of turn, ATK/INT/CRD + +#PER#% (2T)"
+    "description": "INT-Buffed Allies: At the end of the turn, ATK/INT/CRD +#PER#%(2T)"
   },
   {
     "id": 3905,
@@ -158896,7 +158896,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Lowest-HP Foe: At end of turn, Wind Follow-up (2 times, Power D+)"
+    "description": "Lowest-HP Foe: At the end of the turn, Wind Follow-up (2 Times, Power D+)"
   },
   {
     "id": 3925,
@@ -159048,7 +159048,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Highest-HP Foe: At end of turn, Wind Follow-up (1 times, Power D+)"
+    "description": ", Highest-HP Foe: At the end of the turn, Wind Follow-up (1 Time, Power D+)"
   },
   {
     "id": 3941,
@@ -159315,7 +159315,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", ATK/CRD/SPD-buffed Self: SP +#PER#%"
+    "description": ", ATK/CRD/SPD-Buffed Self: SP +#PER#"
   },
   {
     "id": 3948,
@@ -159354,5 +159354,2060 @@
     ],
     "bad_effect_value": 0,
     "description": ", Furthermore, if there are 5 or more characters with the latent type [King Pawn Knight], the damage you deal with single attacks +#PER#%"
+  },
+  {
+    "id": 495,
+    "name": "Karma of disaster",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 4,
+    "target_params": [
+      5
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", CRT +#PER#%"
+  },
+  {
+    "id": 497,
+    "name": "Don't disturb my sleep",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 498,
+    "name": "Are you also my enemy...?",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 18,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", and the behavior gauge of all enemies - #PER#"
+  },
+  {
+    "id": 3951,
+    "name": "Ruler of the Realm of Leisure",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+  },
+  {
+    "id": 3952,
+    "name": "Smothered Blade",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Sword-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 3953,
+    "name": "Zugzwang",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 61,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 90,
+    "effect_value_max": 90,
+    "effect_turn": [
+      3,
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "At the start of battle, party's ATK/INT +30% effect gradually increases (1T +30%, upper limit #PER#%)"
+  },
+  {
+    "id": 3954,
+    "name": "The Queen's Gambit",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [
+      8
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "CRD-Buffed Allies: At the start of the turn, Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3955,
+    "name": "Ruler of the Realm of Leisure",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 43,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Furthermore, the more characters in your party survive, the more damage you receive will be reduced (maximum -#PER#%, up to 5 characters)"
+  },
+  {
+    "id": 3956,
+    "name": "Smothered Blade",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3958,
+    "name": "The Queen's Gambit",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 6,
+    "trigger_status": 5,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      3,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      2,
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", If 3+ allies are alive, Self: ATK/DEF/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 200706,
+    "name": "scarlet carpet",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Skill Damage +#PER#%"
+  },
+  {
+    "id": 200707,
+    "name": "Deadly in the darkness",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 13,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 3,
+    "effect_value_max": 3,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", CRT maximum +15%, 1T)"
+  },
+  {
+    "id": 1595,
+    "name": "The power of the most Overlord is mine!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      3,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", DEF/RES +#PER#%"
+  },
+  {
+    "id": 3961,
+    "name": "Great Overlord's Command",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: Base parameters +#PER#%"
+  },
+  {
+    "id": 3962,
+    "name": "Hands of a Pudding Artisan",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Fist-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 3963,
+    "name": "Ring Rot App",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 33,
+    "target_params": [
+      0
+    ],
+    "effect_type": 71,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Lowest HP Ally: At end of turn, Recover #PER#% of its maximum HP (overheal)"
+  },
+  {
+    "id": 3964,
+    "name": "Nothing is impossible for Pudding!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 22,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At the start of the turn SP +#PER#"
+  },
+  {
+    "id": 3965,
+    "name": "Great Overlord's Command",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",SPD +#PER#%"
+  },
+  {
+    "id": 3966,
+    "name": "Hands of a Pudding Artisan",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3967,
+    "name": "Ring Rot App",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 33,
+    "target_params": [
+      0
+    ],
+    "effect_type": 90,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 1,
+    "effect_value_max": 1,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Invincible (#PER# times)"
+  },
+  {
+    "id": 3968,
+    "name": "Nothing is impossible for Pudding!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 1,
+    "trigger_status": 35,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "If you are under the effect of ATK and INT buff, all damage dealt to the party will be +#PER#% (2T)."
+  },
+  {
+    "id": 3981,
+    "name": "Equipment Adaptability",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: Damage +#PER#%"
+  },
+  {
+    "id": 3982,
+    "name": "Beast Master",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: At the start of the turn, Damage +#PER#%(2T)"
+  },
+  {
+    "id": 3983,
+    "name": "Trigger Rush",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 35,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      0,
+      0
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 140,
+    "effect_value_max": 140,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Lowest-HP Foe: At the end of the turn, Non-Elemental Follow-up (2 Times, Power E+)"
+  },
+  {
+    "id": 3984,
+    "name": "Infinite Round Trip",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 10,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 7,
+    "effect_value_max": 7,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: ATK/INT +#PER#% per NE (max +70%)"
+  },
+  {
+    "id": 3985,
+    "name": "Equipment Adaptability",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3986,
+    "name": "Beastmaster",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [
+      8
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2,
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", CRD-Buffed Allies: ATK/INT/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 3987,
+    "name": "Trigger Rush",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 34,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      0,
+      0
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 140,
+    "effect_value_max": 140,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Highest-HP Foe: At the end of the turn, Non-Elemental Follow-up (2 Times, Power E+)"
+  },
+  {
+    "id": 3988,
+    "name": "Infinite Round Trip",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 10,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 2,
+    "effect_value_max": 2,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: HP/ATK/INT/CRD +#PER#% per NE of this unit (max +20%)"
+  },
+  {
+    "id": 200478,
+    "name": "swamp ruler",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 24,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      5
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", CRT -#PER#%(5T)"
+  },
+  {
+    "id": 201141,
+    "name": "Nagging Minister",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 18,
+    "effect_value_max": 18,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/DEF +#PER#%"
+  },
+  {
+    "id": 201142,
+    "name": "Unexpected Strength",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 201143,
+    "name": "Capable Minister's Insight",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 63,
+    "effect_type_params": [
+      2,
+      3,
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      3,
+      3,
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At start of battle, ATK/DEF/CRT Debuff Conversion (3 times)"
+  },
+  {
+    "id": 201144,
+    "name": "Minister's Preliminary Consultations",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 99,
+    "target_params": [
+      99
+    ],
+    "effect_type": 11,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 4,
+    "effect_value_max": 4,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Party EXP +#PER#%"
+  },
+  {
+    "id": 201145,
+    "name": "Nagging Minister",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 201146,
+    "name": "Unexpected Strength",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 201148,
+    "name": "Minister's Preliminary Consultations",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      4
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Self: At the start of battle, SPD +#PER#%(4T)"
+  },
+  {
+    "id": 3971,
+    "name": "Hello World.",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK, INT, and CRD +#PER#%"
+  },
+  {
+    "id": 3972,
+    "name": "interstellar communication",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Staff-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 3973,
+    "name": "attack sharing",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 15,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: When a Star skill is used, Damage +#PER#% (2T)"
+  },
+  {
+    "id": 3974,
+    "name": "Enemy Analyze",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 11,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 11,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: When the party is attacked, INT/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 3975,
+    "name": "Hello World.",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 3976,
+    "name": "interstellar communication",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 3977,
+    "name": "attack sharing",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 15,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Self: INT/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 3978,
+    "name": "Enemy Analyze",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 11,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 50,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 11,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All damage taken -#PER#%(2T)"
+  },
+  {
+    "id": 201151,
+    "name": "Desco, the disaster.",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 35,
+    "effect_value_max": 35,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: ATK and CRD +#PER#%"
+  },
+  {
+    "id": 201152,
+    "name": "Runaway Final Boss Power",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 55,
+    "effect_value_max": 55,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 201153,
+    "name": "Aura approaching the first glimmer",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [
+      7
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "CRT-Buffed Allies: At the start of the turn, ATK/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 201154,
+    "name": "Unlimited pudding energy",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 29,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 80,
+    "effect_value_max": 80,
+    "effect_turn": [
+      0,
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "The more HP you have, the more your ATK, CRD, and CRT increase (ATK and CRD are max +#PER#%)"
+  },
+  {
+    "id": 201155,
+    "name": "Desco, the disaster.",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", HP/DEF +#PER#%"
+  },
+  {
+    "id": 201156,
+    "name": "Runaway Final Boss Power",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 201157,
+    "name": "Aura approaching the first glimmer",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [
+      7
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Damage +#PER#%(2T)"
+  },
+  {
+    "id": 201158,
+    "name": "Unlimited pudding energy",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 29,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRT is up to +#PER#%)"
   }
 ]

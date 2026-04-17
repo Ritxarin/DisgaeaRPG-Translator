@@ -3,9 +3,9 @@ import os
 import json
 import re
 import time
+import unicodedata
 from deep_translator import GoogleTranslator
 import deepl
-from datetime import datetime
 
 from Code import EvilityRegex, GeneralRegex
 from Code.config import Config, Paths
@@ -53,13 +53,67 @@ class DeepLTranslator:
         except Exception as e:
             print(f"⚠️ Failed to initialize DeepL: {e}")
 
+    def _strip_linebreaks(self, text: str):
+        """
+        Remove all \n characters and return the flattened text
+        along with the number of line breaks in the original text.
+        """
+        count = text.count("\n")
+        flattened = text.replace("\n", "")
+        return flattened, count
+
+    def _restore_linebreaks(self, text: str, num_linebreaks: int) -> str:
+        """
+        Redistribute the given number of line breaks evenly in the text.
+        Ensures line breaks only appear between words, never midword.
+        """
+        if num_linebreaks == 0:
+            return text  # nothing to do
+
+        words = text.split(" ")
+        segments = [[] for _ in range(num_linebreaks + 1)]
+
+        # Distribute words into segments roughly evenly
+        for i, word in enumerate(words):
+            index = i * (num_linebreaks + 1) // len(words)
+            segments[index].append(word)
+
+        # Rejoin segments with spaces, then join segments with line breaks
+        lines = [" ".join(seg) for seg in segments]
+        return "\n".join(lines)
+
+
     def translate(self, text, source_lang="JA", target_lang="EN-US"):
         if not self.is_available:
             print("⚠️ DeepL not available — falling back or skipping.")
             return None
         try:
-            result = self.client.translate_text(text, source_lang=source_lang, target_lang=target_lang)
-            return result.text
+
+            flattened, num_breaks = self._strip_linebreaks(text)
+
+            # Use glossary if available
+            glossary_id = Config.get_string_field(Config.GLOSSARY_ID)
+            if glossary_id:
+                result = self.client.translate_text(
+                    flattened, 
+                    source_lang=source_lang, 
+                    target_lang=target_lang,
+                    glossary= glossary_id  # 🔑 Key addition here
+                )
+            else:
+                result = self.client.translate_text(
+                    text, 
+                    source_lang=source_lang, 
+                    target_lang=target_lang
+                )
+            translated = result.text
+            # 3. Normalize (IMPORTANT: after translation)
+            translated = translated.replace("\u3000", " ")
+            #r = unicodedata.normalize("NFKC", translated)
+            # Optional cleanup
+            translated = re.sub(r"\.{3,}", "...", translated)  # normalize ellipsis
+            translated = re.sub(r"\s+", " ", translated).strip()
+            return self._restore_linebreaks(translated, num_breaks)
         except Exception as e:
             print(f"⚠️ DeepL translation failed: {e}")
             return None
@@ -262,10 +316,19 @@ class EvilityTranslator:
         self.patterns = EvilityRegex.patterns
         return
 
-    def translate(self, text):
-        for pattern, repl in self.patterns:
+    def translate(self, text, debug=False):
+        for i, entry in enumerate(self.patterns):
+        # Support both (pattern, repl) and (pattern, repl, name)
+            if len(entry) == 3:
+                name, pattern, repl = entry
+            else:
+                pattern, repl = entry
+                name = f"pattern_{i}"  # fallback name
+
             match = pattern.search(text)
             if match:
+                if debug:
+                    print(f"[MATCHED {name} - #{i}]")
                 return repl(match)
         return text
 
@@ -337,9 +400,6 @@ class Translator:
         self.context.characters.update(self.character_master_dictionary)
         self.context.characters_ready = True
 
-        # External services
-        self.files_for_deepl = ['stage', 'character', 'memory', 'episode', 'command', 'story']        
-
     # ---------------------------
     # Main Translation Dispatcher
     # ---------------------------
@@ -367,11 +427,6 @@ class Translator:
                 if translation and translation != value and not self.character_translator.has_variant_suffix(value):
                     self.__update_character_master(value, translation)
                 return translation
-
-            if (filename == "ritualtrainings" and field == "name") or (filename == "museum" and field == "title"):
-                translation = self.context.characters.get(value, value)
-                if translation != value:
-                    return translation
             
             # 4️⃣ Evility specific translation - use regex or fall back to normal translation if no regex match found
             if filename == "leaderskill" and field == "description":
@@ -386,9 +441,8 @@ class Translator:
                     if result != value:
                         return result
             
-            # --- 6️⃣ Stat Buffs with Timing, Target, and optional Leading Comma ✅ ---
-            # 5️⃣ External translators
-            if filename in self.files_for_deepl and self.translator_deepl:
+            # 6️⃣ External translators
+            if self.translator_deepl.is_available:
                 result = self._translate_with_fallback(value)
             else:
                 result = self._translate_google(value)

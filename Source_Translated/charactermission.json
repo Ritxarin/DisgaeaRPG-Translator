@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Equip your special weapon",
-    "description": "Each character has a \"special weapon.\"\n\n\"Special Weapons\" is available on the character details screen.\nYou can check the weapon proficiency level (WM).\n\nCheck your \"special weapons\"\nLet's equip it!",
+    "title": "Equip your forte weapon",
+    "description": "Each character has a \"forte weapon.\"\n\n\"Forte Weapons\" is available on the character details screen.\nYou can check the weapon proficiency level (WM).\n\nCheck your \"forte weapon\"\nLet's equip it!",
     "condition_type": 57,
     "condition_id": 0,
     "condition_num": 1,

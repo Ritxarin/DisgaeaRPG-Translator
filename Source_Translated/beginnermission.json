@@ -2137,7 +2137,7 @@
   },
   {
     "id": 53004,
-    "title": "Let's clear the gate to the God Statue.",
+    "title": "Let's clear the Statue Abyss Gate",
     "target_scene": "stage_select_scene",
     "option_param": "abyss_gate",
     "condition_type": 4,
@@ -2157,7 +2157,7 @@
   },
   {
     "id": 53005,
-    "title": "Let's clear the gate for weapon proficiency.",
+    "title": "Let's clear the WM abyss gate",
     "target_scene": "stage_select_scene",
     "option_param": "abyss_gate",
     "condition_type": 4,
@@ -2277,7 +2277,7 @@
   },
   {
     "id": 53011,
-    "title": "Let's exchange ampoulement at the Martial Arts Coin Exchange!",
+    "title": "Exchange an ampoule syringe at the PvP Coin Exchange!",
     "target_scene": "arena_battle_scene",
     "option_param": "",
     "condition_type": 93,
@@ -2417,7 +2417,7 @@
   },
   {
     "id": 54006,
-    "title": "Let's clear the gate with a lot of technique EXP!",
+    "title": "Clear Skill Exp Abyss Gate",
     "target_scene": "stage_select_scene",
     "option_param": "abyss_gate",
     "condition_type": 4,
@@ -2437,7 +2437,7 @@
   },
   {
     "id": 54007,
-    "title": "Let's clear the gate of magical elements!",
+    "title": "Clear the Magic Essence Abyss Gate",
     "target_scene": "stage_select_scene",
     "option_param": "abyss_gate",
     "condition_type": 4,

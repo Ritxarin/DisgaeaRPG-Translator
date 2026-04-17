@@ -16941,8 +16941,8 @@
   },
   {
     "id": 221,
-    "name": "夕闇エレメンタル++",
-    "name_battle": "夕闇\\nエレメンタル++",
+    "name": "Twilight Elemental++",
+    "name_battle": "Twilight Elemental++",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -17042,14 +17042,14 @@
       0
     ],
     "description_effect": "全バフ,Poison[Single Enemy]",
-    "description": "偉大なるメタリカ様は全属性の魔元素を操れるのです、はい。",
+    "description": "Metallia is so skilled, so can control all elements at once!",
     "resource_id": 3200472,
     "continuous_attack_rates": []
   },
   {
     "id": 222,
     "name": "ﾜｰﾙﾄﾞｲｽﾞﾒﾀﾘｶ+",
-    "name_battle": "ワールドイズ\\nメタリカ+",
+    "name_battle": "World is Metallia's+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -17149,14 +17149,14 @@
       0
     ],
     "description_effect": "ATK/INT-25%,SP-20[All Enemies],Poison[All Enemies],水風1発1T",
-    "description": "キヒヒ！　喜べ、この世界の全てを沼で満たしてやるよ！",
+    "description": "What!? The world belongs to Metallia!?",
     "resource_id": 3200473,
     "continuous_attack_rates": []
   },
   {
     "id": 223,
-    "name": "夕闇エレメンタル+",
-    "name_battle": "夕闇\\nエレメンタル+",
+    "name": "Twilight Elemental+",
+    "name_battle": "Twilight Elemental+",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -17264,14 +17264,14 @@
       0
     ],
     "description_effect": "全バフ,Poison[Single Enemy],水1発1T",
-    "description": "偉大なるメタリカ様は全属性の魔元素を操れるのです、はい。",
+    "description": "Metallia is so skilled, so can control all elements at once!",
     "resource_id": 3200472,
     "continuous_attack_rates": []
   },
   {
     "id": 224,
-    "name": "夕闇エレメンタル+",
-    "name_battle": "夕闇\\nエレメンタル+",
+    "name": "Twilight Elemental+",
+    "name_battle": "Twilight Elemental+",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -17379,7 +17379,7 @@
       0
     ],
     "description_effect": "全バフ,Poison[Single Enemy],風1発1T",
-    "description": "偉大なるメタリカ様は全属性の魔元素を操れるのです、はい。",
+    "description": "Metallia is so skilled, so can control all elements at once!",
     "resource_id": 3200472,
     "continuous_attack_rates": []
   },
@@ -23915,7 +23915,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF/RES+30％",
+    "description_effect": "DEF/RES+30%",
     "description": "\"He went to the deck saying he wouldn't be scared of sharks.\"",
     "resource_id": 3301291,
     "continuous_attack_rates": []
@@ -24101,7 +24101,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF+60％,RES+30％,CRT+5%,CRD+20%",
+    "description_effect": "DEF+60%,RES+30%,CRT+5%,CRD+20%",
     "description": "I'll tell you! Creating a tornado is easy! !",
     "resource_id": 3301331,
     "continuous_attack_rates": []
@@ -24271,7 +24271,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF+60％,RES+30％,全攻撃被ダメージダウン-5%",
+    "description_effect": "DEF+60%,RES+30%,全攻撃被ダメージダウン-5%",
     "description": "I can no longer watch the moon!",
     "resource_id": 3300132,
     "continuous_attack_rates": []
@@ -24460,7 +24460,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK-35%,RES+50％,CRD-30％,Poison",
+    "description_effect": "ATK-35%,RES+50%,CRD-30%,Poison",
     "description": "...Can I follow?",
     "resource_id": 3301172,
     "continuous_attack_rates": []
@@ -24676,7 +24676,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF+50%,RES+35％,CRT+5%,CRD+20%,SP-5",
+    "description_effect": "DEF+50%,RES+35%,CRT+5%,CRD+20%,SP-5",
     "description": "A special move that I drank after skipping work",
     "resource_id": 3300011,
     "continuous_attack_rates": []
@@ -24897,7 +24897,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF+40%,RES+50％,CRT+5%,CRD+20%,Paralysis,SP-5,Action Gauge-100",
+    "description_effect": "DEF+40%,RES+50%,CRT+5%,CRD+20%,Paralysis,SP-5,Action Gauge-100",
     "description": "Mushroom lovers can't get enough",
     "resource_id": 3300372,
     "continuous_attack_rates": []
@@ -25099,7 +25099,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF+30%,RES+60％,睡眠付与,SP-5,Action Gauge-50",
+    "description_effect": "DEF+30%,RES+60%,睡眠付与,SP-5,Action Gauge-50",
     "description": "I'll tell you! Creating a tornado is easy! !",
     "resource_id": 3301331,
     "continuous_attack_rates": []
@@ -25319,7 +25319,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF+30%,RES+60％,SP-5,Action Gauge-50",
+    "description_effect": "DEF+30%,RES+60%,SP-5,Action Gauge-50",
     "description": "A special move that I drank after skipping work",
     "resource_id": 3300011,
     "continuous_attack_rates": []
@@ -25531,7 +25531,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF+40%,RES+70％,CRT+5％[Party],SP-10,Action Gauge-50[Single Enemy]",
+    "description_effect": "DEF+40%,RES+70%,CRT+5%[Party],SP-10,Action Gauge-50[Single Enemy]",
     "description": "How to fight back on sexual harassment by cat mamata",
     "resource_id": 3300451,
     "continuous_attack_rates": []
@@ -25733,7 +25733,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF+70%,RES+40％,CRT+5％[Party],Action Gauge-50[Single Enemy]",
+    "description_effect": "DEF+70%,RES+40%,CRT+5%[Party],Action Gauge-50[Single Enemy]",
     "description": "Deals damage with space power (stage 1)",
     "resource_id": 200058,
     "continuous_attack_rates": []
@@ -41372,7 +41372,7 @@
       0,
       3
     ],
-    "description_effect": "攻撃If the target has a DEF debuff, Skill Power+#PER2#％",
+    "description_effect": "攻撃If the target has a DEF debuff, Skill Power+#PER2#%",
     "description": "An ultimate combo attack, so fast you can't see it",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -48544,7 +48544,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "SPD+5%",
+    "description_effect": "SPD+#PER2#%(3T)[Self],CRT-#PER3#%(3T)[Single Enemy]",
     "description": "Beautiful flowers dance in a violent storm.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -48615,7 +48615,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF-13%",
+    "description_effect": "Action Gauge-#PER4#&remove buff effect&DEF/RES-#PER2#%(3T)&Wind resistance-#PER12#%(3T)[Single Enemy]",
     "description": "The sleeping power eliminates enemies while scattering countless petals.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -48688,7 +48688,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Action Gauge+#PER1#,ATK/INT+#PER2#%(1T)",
+    "description_effect": "Action Gauge+#PER1#&ATK/INT+#PER2#%(1T)[Self],SP Regen[#PER4#](3T)[Party]",
     "description": "The torrent of awakening power manifests as wings.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -48761,7 +48761,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK+#PER2#%INT+#PER3#%",
+    "description_effect": "ATK/INT/CRD+#PER2#%(3T)&All damage+#PER5#%(3T)[Party],SP-#PER6#&Thorns(2T)&Damage Taken +#PER8#%(2T)[All Enemies]",
     "description": "The awakening power becomes a disaster and stains the earth with blood.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -50193,7 +50193,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER1#%,Overheal (small),Remove all ailments[Ally]",
+    "description_effect": "Non-HP Basic Stats+#PER1#%,Overheal (small),Remove all ailments[Ally]",
     "description": "Power of Sakura for everyone!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -58029,7 +58029,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "味方HP以外の基礎ﾊﾟﾗﾒｰﾀ・SPDﾊﾞﾌ・ﾃﾞﾊﾞﾌPoison解除",
+    "description_effect": "Non-HP Basic Stats・SPD remove buff/debuff",
     "description": "I'm sorry.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -64013,7 +64013,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のSP全て譲渡,INT+#PER2#％",
+    "description_effect": "自身のSP全て譲渡,INT+#PER2#%",
     "description": "I pray that your spirit finds happiness",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -65508,7 +65508,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Small Heal,Remove all ailments,DEF+#PER3#％",
+    "description_effect": "Small Heal,Remove all ailments,DEF+#PER3#%",
     "description": "Bring forth a sacred miracle from your heart",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -68432,7 +68432,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のDEF/RESを-#PER2#%(1T)but, Skill Power+#PER4#%",
+    "description_effect": "Own DEF/RES-#PER2#%(1T)but, Skill Power+#PER4#%",
     "description": "An amazing combo attack from Levi, not faltering from unknown giant enemies.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -73302,7 +73302,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK・DEF-#PER2#%,SPD-#PER4#％,Remove enemy buffs",
+    "description_effect": "ATK・DEF-#PER2#%,SPD-#PER4#%,Remove enemy buffs",
     "description": "マミが全身全霊を傾けて放つ究極の一射",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -73394,7 +73394,7 @@
       1,
       1
     ],
-    "description_effect": "Small Heal,DEF+#PER2#％,[Random]ATK+#PER3#％orAction Gauge+#PER4#",
+    "description_effect": "Small Heal,DEF+#PER2#%,[Random]ATK+#PER3#%orAction Gauge+#PER4#",
     "description": "プレゼントされた相手はHPを回復",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -73681,7 +73681,7 @@
       0,
       3
     ],
-    "description_effect": "[On Critical hit] Skill power+#PER2#％",
+    "description_effect": "[On Critical hit] Skill power+#PER2#%",
     "description": "弾丸の雨とミサイルが敵を襲う",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -74268,7 +74268,7 @@
       0,
       1
     ],
-    "description_effect": "INTバフ状態の時、Skill Power+#PER2#％",
+    "description_effect": "INTバフ状態の時、Skill Power+#PER2#%",
     "description": "Jump into the air and rain down golden bullets.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -77663,7 +77663,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&ATK+#PER3#%(3T)[Self],DEF-#PER7#%(3T)&Thorns(3T)[All Enemies],DEF/RES+#PER5#%(3T)[Party]",
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&ATK+#PER3#%(3T)&All damage+#PER9#%(3T)[Self],DEF-#PER7#%(3T)&Thorns(3T)[All Enemies],DEF/RES+#PER5#%(3T)[Party]",
     "description": "A high-flying rush...on a broom!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -77744,7 +77744,7 @@
       3,
       0
     ],
-    "description_effect": "If target has a DEF debuff, Skill Power+#PER2#%&#PER3#%RES added to damage calculation[Self]",
+    "description_effect": "[When using skill]CRT+#PER4#%&#PER3#%RES added to damage calculation&If the target has a DEF debuff, Skill Power+#PER2#%[Self]",
     "description": "Super Ultra Hyper Maximum Great Attack.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -79947,7 +79947,7 @@
       3,
       3
     ],
-    "description_effect": "HP以外の基礎ﾊﾟﾗﾒｰﾀ-#PER2#%,RESﾃﾞﾊﾞﾌの敵はさらにATK/INT-#PER6#%",
+    "description_effect": "Non-HP Basic Stats-#PER2#%,RES debuffed characters ATK/INT-#PER6#%",
     "description": "Calls another Adele and launches a powerful cooperative technique.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -95593,8 +95593,8 @@
   },
   {
     "id": 3002211,
-    "name": "龍焔牙",
-    "name_battle": "龍焔牙",
+    "name": "Blazing Fang",
+    "name_battle": "Blazing Fang",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -112803,7 +112803,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "CRD・CRT+#PER2#%(2T)[Party]",
+    "description_effect": "CRD+#PER2#%(2T)&CRT+#PER3#%(2T)[Party]",
     "description": "The name of the Inquisitor is not just formal!",
     "resource_id": 3002751,
     "continuous_attack_rates": [
@@ -112909,7 +112909,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Intercept[ATK](5T)[Self],CRD+#PER3#%(2T)&CRT+#PER4#%(2T)[Party],DEF/RES-#PER5#%(3T)[Single Enemy]",
+    "description_effect": "Intercept[ATK](5T)[Self],CRD+#PER3#%(3T)&CRT+#PER4#%(3T)[Party],DEF/RES-#PER5#%(3T)[Single Enemy]",
     "description": "The Hundred Knights' support is encouraging!",
     "resource_id": 3002752,
     "continuous_attack_rates": [
@@ -113806,7 +113806,7 @@
       0,
       0
     ],
-    "description_effect": "Thorns(3T)&DEF/RES-#PER3#%(3T)&SPD-#PER6#%(3T)[Single Enemy],[When enemy is poisoned]ATK/INT/CRD-#PER2#%(3T)[All Enemies],All damage+#PER8#%(2T)[Ally]",
+    "description_effect": "Thorns(3T)&DEF/RES-#PER3#%(3T)&SPD-#PER6#%(3T)[Single Enemy],[When enemy is poisoned]ATK/INT/CRD-#PER2#%(3T)[All Enemies],All damage+#PER8#%(3T)[Ally]",
     "description": "The treatment of Pliny is not particularly different for both.",
     "resource_id": 3002781,
     "continuous_attack_rates": [
@@ -114090,7 +114090,7 @@
       0,
       0
     ],
-    "description_effect": "Thorns(3T)&ATK・DEF-#PER2#%(3T)&CRT-#PER6#%(3T)[Single Enemy],[When using skill]CRD+#PER10#%&Uses enemy's lower DEF or RES for damage calculation[Self],All damage+#PER8#%(2T)&[When enemy is poisoned]CRT+#PER5#%(2T)&CRD+#PER7#%(2T)[Party]",
+    "description_effect": "Thorns(3T)&ATK・DEF-#PER2#%(3T)&SPD・CRT-#PER6#%(3T)[Single Enemy],[When using skill]CRD+#PER10#%&Uses enemy's lower DEF or RES for damage calculation[Self],All damage+#PER8#%(3T)&[When enemy is poisoned]CRT+#PER5#%(3T)&CRD+#PER7#%(3T)[Party]",
     "description": "All universes, sink into the swamp! Kiaaahhhh!",
     "resource_id": 3002783,
     "continuous_attack_rates": [
@@ -148489,7 +148489,7 @@
       0,
       3
     ],
-    "description_effect": "When the target has a RES debuff, Skill Power+#PER2#％",
+    "description_effect": "When the target has a RES debuff, Skill Power+#PER2#%",
     "description": "The wrath of the gods rains down from the heavens",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -152608,7 +152608,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Resurrect[Target],蘇生ｷｬﾗのHP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER2#%",
+    "description_effect": "Resurrect[Target],Resurrected unit Non-HP Basic Stats+#PER2#%",
     "description": "Etna resurrects her partners with her sincere prayers.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -153380,7 +153380,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自分の残体力5％減少",
+    "description_effect": "自分の残体力5%減少",
     "description": "Inescapable iron balls dancing in every direction",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -153453,7 +153453,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自分の残体力20％減少,ATK・DEF+#PER1#％",
+    "description_effect": "自分の残体力20%減少,ATK・DEF+#PER1#%",
     "description": "This is True Demonic Power",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -153532,7 +153532,7 @@
       3,
       0
     ],
-    "description_effect": "自分の残体力10％減少,[On Critical hit] Skill power+#PER2#％",
+    "description_effect": "自分の残体力10%減少,[On Critical hit] Skill power+#PER2#%",
     "description": "The rampage will not stop until all enemy targets are crushed.",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -153597,7 +153597,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "INT+#PER1#％,Action Gauge+#PER2#",
+    "description_effect": "INT+#PER1#%,Action Gauge+#PER2#",
     "description": "The blessing of demonic power transmitted through Flonne's love",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -153676,7 +153676,7 @@
       2,
       2
     ],
-    "description_effect": "[On Critical hit] INT+#PER2#％,Action Gauge+#PER3#",
+    "description_effect": "[On Critical hit] INT+#PER2#%,Action Gauge+#PER3#",
     "description": "An iron ball, made giant through love and affection, crushes enemies",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -153777,7 +153777,7 @@
       2,
       2
     ],
-    "description_effect": "ｸﾘﾃｨｶﾙ発動の場合、HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER2#％(1T)",
+    "description_effect": "If crit, Non-HP Basic Stats+#PER2#%(1T)",
     "description": "This is a collaboration between love and demonic power!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -156950,8 +156950,8 @@
   },
   {
     "id": 3200471,
-    "name": "メタル・ジャスティス",
-    "name_battle": "メタル・\\nジャスティス",
+    "name": "Metal Justice",
+    "name_battle": "Metal Justice",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -157042,15 +157042,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/INT-#PER2#%(3T)&SPD-#PER4#%(3T)&Poison(2T)&Action Gauge-#PER6#[Single Enemy]",
-    "description": "この―――（自主規制）が！　ワタシの正義を見せてやる！",
+    "description_effect": "ATK/INT-#PER2#%(3T)&SPD・CRT-#PER4#%(3T)&Poison(2T)&Action Gauge-#PER6#[Single Enemy]",
+    "description": "...Bow to me! Why you little ****!!!",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200472,
-    "name": "夕闇エレメンタル",
-    "name_battle": "夕闇\\nエレメンタル",
+    "name": "Twilight Elemental",
+    "name_battle": "Twilight Elemental",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -157141,15 +157141,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/INT+#PER2#%(3T)&CRT+#PER4#%(3T)&Damage dealt by Special Move+#PER6#%(3T)[Ally],Poison(2T)[Single Enemy]",
-    "description": "偉大なるメタリカ様は全属性の魔元素を操れるのです、はい。",
+    "description_effect": "ATK/INT+#PER2#%(3T)&DEF/RES+#PER7#%(3T)&CRT+#PER4#%(3T)&Damage dealt by Special Move+#PER6#%(3T)[Ally],Poison(2T)&Damage Taken + #PER9#%(2T)[Single Enemy]",
+    "description": "Metallia is so skilled, so can control all elements at once!",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200473,
-    "name": "ワールドイズメタリカ",
-    "name_battle": "ワールドイズ\\nメタリカ",
+    "name": "World is Metallia's",
+    "name_battle": "World is Metallia's",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -157288,15 +157288,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF/RES-#PER2#%(3T)&SPD-#PER4#%(3T)&Poison(2T)[All Enemies],remove buff effect[Single Enemy]",
-    "description": "キヒヒ！　喜べ、この世界の全てを沼で満たしてやるよ！",
+    "description_effect": "DEF/RES-#PER2#%(3T)&SPD-#PER4#%(3T)&Poison(2T)&Action Gauge-#PER13#[All Enemies],remove buff effect[Single Enemy]",
+    "description": "What!? The world belongs to Metallia!?",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200481,
-    "name": "８系チクボム",
-    "name_battle": "８系チクボム",
+    "name": "Type-8 Time Bomb",
+    "name_battle": "Type-8 Time Bomb",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -157380,14 +157380,14 @@
       0
     ],
     "description_effect": "ATK/INT+#PER2#%(3T)&SPD+#PER4#%(3T)&All damage+#PER5#%(1T)[Party]",
-    "description": "時限式の爆発型トーチカ",
+    "description": "A timed explosive Tochka",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200482,
-    "name": "百騎－連斬",
-    "name_battle": "百騎－連斬",
+    "name": "Hundred Slashes",
+    "name_battle": "Hundred Slashes",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -157511,14 +157511,14 @@
       0
     ],
     "description_effect": "DEF/RES-#PER2#%(3T),Buffs halved",
-    "description": "素早い動きで斬撃を繰り出す連続攻撃",
+    "description": "A flurry of slashes too quick to count!",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200483,
-    "name": "魔女百戦線",
-    "name_battle": "魔女百戦線",
+    "name": "Witch's Legion",
+    "name_battle": "Witch's Legion",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -157593,15 +157593,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のDEF/RESを-#PER2#%(1T)but, Skill Power+#PER4#%",
-    "description": "魔女と百騎兵による、超攻撃的共同作業",
+    "description_effect": "Own DEF/RES-#PER2#%(1T)but, Skill Power+#PER4#%",
+    "description": "A bewitching combo with the Witch & the Hundred Knight!",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200491,
-    "name": "霧の氷壁",
-    "name_battle": "霧の氷壁",
+    "name": "Wall of Rime",
+    "name_battle": "Wall of Rime",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -157685,14 +157685,14 @@
       0
     ],
     "description_effect": "INT・RES+#PER2#%(3T)[Party],CRD+#PER3#%(3T)[Ally],Sleep(2T)[All Enemies]",
-    "description": "大地より氷を発生させ敵を氷漬けにする",
+    "description": "A freezing mist seeps from the ground.",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200492,
-    "name": "幻惑の霧幻牢",
-    "name_battle": "幻惑の霧幻牢",
+    "name": "Bewitching Mist",
+    "name_battle": "Bewitching Mist",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -157784,14 +157784,14 @@
       0
     ],
     "description_effect": "[Repeat use prohibited]ATK/INT-#PER1#%(4T)&SPD・CRT-#PER3#%(4T)&Sleep(2T)[All Enemies]",
-    "description": "自身の幻覚を無数に創り出し敵を翻弄する",
+    "description": "Traps foes with hallucinations.",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200493,
-    "name": "神罰氷雷",
-    "name_battle": "神罰氷雷",
+    "name": "Frozen Thunder Retribution",
+    "name_battle": "Frozen Thunder Retribution",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -157947,14 +157947,14 @@
       0
     ],
     "description_effect": "CRT+#PER2#%(2T)&All damage+#PER3#%(2T)[Ally],ATK・RES-#PER4#%(5T)&remove buff effect&眠り・Paralysis(2T)[Single Enemy]",
-    "description": "氷と雷を操り敵を消滅させるネザリア得意の大技。キリッ",
+    "description": "Cold and crispy, just how I like it!",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200501,
-    "name": "灼熱魔沼",
-    "name_battle": "灼熱魔沼",
+    "name": "Blazing Swamp",
+    "name_battle": "Blazing Swamp",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -158022,14 +158022,14 @@
       0
     ],
     "description_effect": "DEF-#PER2#%(3T)&SPD-#PER3#%(3T)[All Enemies]",
-    "description": "相手を捕らえた沼から灼熱のマグマもとい魔沼を創り出す",
+    "description": "Create a scorching swamp of magma.",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200502,
-    "name": "極大メテオホームラン",
-    "name_battle": "極大メテオ\\nホームラン",
+    "name": "Colossal Meteor Home Run",
+    "name_battle": "Colossal Meteor\\nHome Run",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -158135,15 +158135,15 @@
       0,
       1
     ],
-    "description_effect": "SPD-#PER4#%(3T)[All Enemies],ATK/CRD+#PER2#%(3T)[Party],CRT+#PER5#%(3T)&体力が30%以上の場合SP+#PER6#[Self]",
-    "description": "ゼロ距離メテオの極大パワーで遥か彼方へビッグフライ！",
+    "description_effect": "SPD-#PER4#%(3T)[All Enemies],ATK/CRD+#PER2#%(3T)[Party],CRT+#PER5#%(3T)&If HP >= 25%, SP+#PER6#[Self]",
+    "description": "A direct crack to the skull with a point-blank meteor fly ball.",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200503,
-    "name": "獄星ナックル・ノヴァ",
-    "name_battle": "獄星ナックル\\n・ノヴァ",
+    "name": "Astral Knuckle Nova",
+    "name_battle": "Astral Knuckle Nova",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -158249,14 +158249,14 @@
       0
     ],
     "description_effect": "[When using skill]CRD+#PER6#%&Power increases with each use(Maximum 3times)&INTの#PER7#% Added to damage calculation&ATK/CRD+#PER3#%(3T)&All damage+#PER5#%(3T)[Self]",
-    "description": "異世界の力を使い、超新星爆発にも匹敵する一撃で全てを貫く",
+    "description": "A supernova-sized blow using the power of another dimension.",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200511,
-    "name": "ラヴバースト",
-    "name_battle": "ラヴバースト",
+    "name": "Love Burst",
+    "name_battle": "Love Burst",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -158324,14 +158324,14 @@
       0
     ],
     "description_effect": "RES-#PER3#%(3T)&SPD-#PER2#%(3T)[All Enemies]",
-    "description": "溢れんばかりの愛を爆発させダメージを与える",
+    "description": "The overlowing exploding of love!",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200512,
-    "name": "ラヴビーム",
-    "name_battle": "ラヴビーム",
+    "name": "Love Beam",
+    "name_battle": "Love Beam",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -158455,14 +158455,14 @@
       0
     ],
     "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&INT・RES+#PER3#%(3T)&CRD+#PER7#%(3T)&Damage dealt by Special Move+#PER8#%(2T)&Uses enemy's lower DEF or RES for damage calculation[Self],Star resistance-#PER9#%(3T)[All Enemies]",
-    "description": "周囲から愛の力を吸収し強力なビームを放つ！",
+    "description": "Absorb the power of love and fire a powerful beam!",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
   {
     "id": 3200513,
-    "name": "ラヴ＝ソートス",
-    "name_battle": "ラヴ＝\\nソートス",
+    "name": "Love Sothoth",
+    "name_battle": "Love Sothoth",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -158547,7 +158547,7 @@
       0
     ],
     "description_effect": "[When using skill]CRT+#PER4#%&INTバフ時のSkill Power+#PER2#%&#PER3#%RES added to damage calculation[Self]",
-    "description": "変身したラヴゼットが放つ愛の咆哮！",
+    "description": "The transformed Love X's roar of love!",
     "resource_id": 0,
     "continuous_attack_rates": []
   },
@@ -163640,7 +163640,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF/RES-#PER2#%(3T)[All Enemies]",
+    "description_effect": "DEF/RES-#PER2#%(3T)&SPD-#PER4#%(3T)[All Enemies]",
     "description": "Transforms the crimson armor into a scythe and emits shock waves.",
     "resource_id": 3200701,
     "continuous_attack_rates": []
@@ -163747,7 +163747,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Skill Power increases the more enemies surviving&CRT+#PER3#%(3T)&Non-HP Basic Stats+No. of foes defeated by this skill x#PER4#%(10T)[Self]",
+    "description_effect": "Skill Power increases the more enemies surviving&CRT+#PER3#%(3T)&Non-HP Basic Stats+No. of foes defeated by this skill ×#PER4#%(10T)&SPD+No. of foes defeated by this skill ×#PER8#%(3T)[Self]",
     "description": "The rising hatred burns as a flame in the blue ceiling",
     "resource_id": 3200702,
     "continuous_attack_rates": []
@@ -163814,7 +163814,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "SP Regen[#PER2#](3T)[Self]",
+    "description_effect": "SP Regen[#PER2#](3T)&[When using skill]CRD+#PER3#%&[On Critical hit]Skill Power+#PER4#%[Self],Fire resistance-#PER5#%(3T)[Single Enemy]",
     "description": "Transforms crimson armor and self into a spear, and its appearance penetrates all things",
     "resource_id": 3200703,
     "continuous_attack_rates": []
@@ -171413,7 +171413,7 @@
   {
     "id": 3200951,
     "name": "Giant Purita Ball Drop",
-    "name_battle": "Giant Puriba _nDrop",
+    "name_battle": "Giant Puriba\\nBall Drop",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -210115,7 +210115,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER1#%(2T),CRT+#PER5#%(2T),CRD+#PER6#%(2T),Action Gauge+300",
+    "description_effect": "Non-HP Basic Stats+#PER1#%(2T),CRT+#PER5#%(2T),CRD+#PER6#%(2T),Action Gauge+300",
     "description": "Power up by lasering some expendable Usagis!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -210356,7 +210356,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER1#%(2T),CRT+#PER5#%(2T),CRD+#PER6#%(2T),Action Gauge+300",
+    "description_effect": "Non-HP Basic Stats+#PER1#%(2T),CRT+#PER5#%(2T),CRD+#PER6#%(2T),Action Gauge+300",
     "description": "Power up by lasering some expendable Usagis!",
     "resource_id": 0,
     "continuous_attack_rates": []
@@ -211229,7 +211229,7 @@
   {
     "id": 3600371,
     "name": "ﾒﾀﾙ・ｼﾞｬｽﾃｨｽ+",
-    "name_battle": "メタル・\\nジャスティス+",
+    "name_battle": "Metal Justice+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -211313,14 +211313,14 @@
       0
     ],
     "description_effect": "ATK-15%,DEF/RES+15%,Poison[Single Enemy]",
-    "description": "この―――（自主規制）が！　ワタシの正義を見せてやる！",
+    "description": "...Bow to me! Why you little ****!!!",
     "resource_id": 3200471,
     "continuous_attack_rates": []
   },
   {
     "id": 3600372,
-    "name": "夕闇エレメンタル+",
-    "name_battle": "夕闇\\nエレメンタル+",
+    "name": "Twilight Elemental+",
+    "name_battle": "Twilight Elemental+",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -211396,14 +211396,14 @@
       0
     ],
     "description_effect": "ATK/INT-10%,Poison[Single Enemy]",
-    "description": "偉大なるメタリカ様は全属性の魔元素を操れるのです、はい。",
+    "description": "Metallia is so skilled, so can control all elements at once!",
     "resource_id": 3200472,
     "continuous_attack_rates": []
   },
   {
     "id": 3600373,
     "name": "ﾜｰﾙﾄﾞｲｽﾞﾒﾀﾘｶ+",
-    "name_battle": "ワールドイズ\\nメタリカ+",
+    "name_battle": "World is Metallia's+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -211487,14 +211487,14 @@
       0
     ],
     "description_effect": "ATK/INT-25%,SP-20[All Enemies],Poison[All Enemies]",
-    "description": "キヒヒ！　喜べ、この世界の全てを沼で満たしてやるよ！",
+    "description": "What!? The world belongs to Metallia!?",
     "resource_id": 3200473,
     "continuous_attack_rates": []
   },
   {
     "id": 3600381,
     "name": "ﾒﾀﾙ・ｼﾞｬｽﾃｨｽ+",
-    "name_battle": "メタル・\\nジャスティス+",
+    "name_battle": "Metal Justice+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -211578,14 +211578,14 @@
       0
     ],
     "description_effect": "ATK-15%,DEF/RES+15%,Poison[Single Enemy]",
-    "description": "この―――（自主規制）が！　ワタシの正義を見せてやる！",
+    "description": "...Bow to me! Why you little ****!!!",
     "resource_id": 3200471,
     "continuous_attack_rates": []
   },
   {
     "id": 3600382,
-    "name": "夕闇エレメンタル+",
-    "name_battle": "夕闇\\nエレメンタル+",
+    "name": "Twilight Elemental+",
+    "name_battle": "Twilight Elemental+",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -211661,14 +211661,14 @@
       0
     ],
     "description_effect": "ATK/INT-10%,Poison[Single Enemy]",
-    "description": "偉大なるメタリカ様は全属性の魔元素を操れるのです、はい。",
+    "description": "Metallia is so skilled, so can control all elements at once!",
     "resource_id": 3200472,
     "continuous_attack_rates": []
   },
   {
     "id": 3600383,
     "name": "ﾜｰﾙﾄﾞｲｽﾞﾒﾀﾘｶ+",
-    "name_battle": "ワールドイズ\\nメタリカ+",
+    "name_battle": "World is Metallia's+",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -211752,7 +211752,7 @@
       0
     ],
     "description_effect": "ATK/INT-25%,SP-20[All Enemies],Poison[All Enemies]",
-    "description": "キヒヒ！　喜べ、この世界の全てを沼で満たしてやるよ！",
+    "description": "What!? The world belongs to Metallia!?",
     "resource_id": 3200473,
     "continuous_attack_rates": []
   },
@@ -219949,8 +219949,8 @@
   },
   {
     "id": 3600692,
-    "name": "龍焔牙+",
-    "name_battle": "龍焔牙+",
+    "name": "Blazing Fang+",
+    "name_battle": "Blazing Fang+",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -220313,8 +220313,8 @@
   },
   {
     "id": 3600702,
-    "name": "龍焔牙+",
-    "name_battle": "龍焔牙+",
+    "name": "Blazing Fang+",
+    "name_battle": "Blazing Fang+",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -287329,7 +287329,7 @@
       0,
       3
     ],
-    "description_effect": "攻撃If the target has a DEF debuff, Skill Power+#PER2#％",
+    "description_effect": "攻撃If the target has a DEF debuff, Skill Power+#PER2#%",
     "description": "An ultimate combo attack, so fast you can't see it",
     "resource_id": 3000203,
     "continuous_attack_rates": []
@@ -293767,7 +293767,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "SPD+5%",
+    "description_effect": "SPD+#PER2#%(3T)[Self],CRT-#PER3#%(3T)[Single Enemy]",
     "description": "Beautiful flowers dance in a violent storm.",
     "resource_id": 3000491,
     "continuous_attack_rates": []
@@ -293838,7 +293838,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF-13%",
+    "description_effect": "Action Gauge-#PER4#&remove buff effect&DEF/RES-#PER2#%(3T)&Wind resistance-#PER12#%(3T)[Single Enemy]",
     "description": "The sleeping power eliminates enemies while scattering countless petals.",
     "resource_id": 3000492,
     "continuous_attack_rates": []
@@ -293911,7 +293911,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK+#PER2#%INT+#PER3#%",
+    "description_effect": "ATK/INT/CRD+#PER2#%(3T)&All damage+#PER5#%(3T)[Party],SP-#PER6#&Thorns(2T)&Damage Taken +#PER8#%(2T)[All Enemies]",
     "description": "The awakening power becomes a disaster and stains the earth with blood.",
     "resource_id": 3000494,
     "continuous_attack_rates": []
@@ -294906,7 +294906,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER1#%,Overheal (small),Remove all ailments[Ally]",
+    "description_effect": "Non-HP Basic Stats+#PER1#%,Overheal (small),Remove all ailments[Ally]",
     "description": "Power of Sakura for everyone!",
     "resource_id": 3000572,
     "continuous_attack_rates": []
@@ -301983,7 +301983,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "味方HP以外の基礎ﾊﾟﾗﾒｰﾀ・SPDﾊﾞﾌ・ﾃﾞﾊﾞﾌPoison解除",
+    "description_effect": "Non-HP Basic Stats・SPD remove buff/debuff",
     "description": "I'm sorry.",
     "resource_id": 3000851,
     "continuous_attack_rates": []
@@ -307492,7 +307492,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のSP全て譲渡,INT+#PER2#％",
+    "description_effect": "自身のSP全て譲渡,INT+#PER2#%",
     "description": "I pray that your spirit finds happiness",
     "resource_id": 3001081,
     "continuous_attack_rates": []
@@ -308987,7 +308987,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Small Heal,Remove all ailments,DEF+#PER3#％",
+    "description_effect": "Small Heal,Remove all ailments,DEF+#PER3#%",
     "description": "Bring forth a sacred miracle from your heart",
     "resource_id": 3001142,
     "continuous_attack_rates": []
@@ -311846,7 +311846,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のDEF/RESを-#PER2#%(1T)but, Skill Power+#PER4#%",
+    "description_effect": "Own DEF/RES-#PER2#%(1T)but, Skill Power+#PER4#%",
     "description": "An amazing combo attack from Levi, not faltering from unknown giant enemies.",
     "resource_id": 3001253,
     "continuous_attack_rates": []
@@ -316586,7 +316586,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK・DEF-#PER2#%,SPD-#PER4#％,Remove enemy buffs",
+    "description_effect": "ATK・DEF-#PER2#%,SPD-#PER4#%,Remove enemy buffs",
     "description": "マミが全身全霊を傾けて放つ究極の一射",
     "resource_id": 3001423,
     "continuous_attack_rates": []
@@ -316678,7 +316678,7 @@
       1,
       1
     ],
-    "description_effect": "Small Heal,DEF+#PER2#％,[Random]ATK+#PER3#％orAction Gauge+#PER4#",
+    "description_effect": "Small Heal,DEF+#PER2#%,[Random]ATK+#PER3#%orAction Gauge+#PER4#",
     "description": "プレゼントされた相手はHPを回復",
     "resource_id": 3001431,
     "continuous_attack_rates": []
@@ -316965,7 +316965,7 @@
       0,
       3
     ],
-    "description_effect": "[On Critical hit] Skill power+#PER2#％",
+    "description_effect": "[On Critical hit] Skill power+#PER2#%",
     "description": "弾丸の雨とミサイルが敵を襲う",
     "resource_id": 3001442,
     "continuous_attack_rates": []
@@ -317552,7 +317552,7 @@
       0,
       1
     ],
-    "description_effect": "INTバフ状態の時、Skill Power+#PER2#％",
+    "description_effect": "INTバフ状態の時、Skill Power+#PER2#%",
     "description": "Jump into the air and rain down golden bullets.",
     "resource_id": 3001463,
     "continuous_attack_rates": []
@@ -320947,7 +320947,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&ATK+#PER3#%(3T)[Self],DEF-#PER7#%(3T)&Thorns(3T)[All Enemies],DEF/RES+#PER5#%(3T)[Party]",
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&ATK+#PER3#%(3T)&All damage+#PER9#%(3T)[Self],DEF-#PER7#%(3T)&Thorns(3T)[All Enemies],DEF/RES+#PER5#%(3T)[Party]",
     "description": "A high-flying rush...on a broom!",
     "resource_id": 3001592,
     "continuous_attack_rates": []
@@ -321028,7 +321028,7 @@
       3,
       0
     ],
-    "description_effect": "If target has a DEF debuff, Skill Power+#PER2#%&#PER3#%RES added to damage calculation[Self]",
+    "description_effect": "[When using skill]CRT+#PER4#%&#PER3#%RES added to damage calculation&If the target has a DEF debuff, Skill Power+#PER2#%[Self]",
     "description": "Super Ultra Hyper Maximum Great Attack.",
     "resource_id": 3001593,
     "continuous_attack_rates": []
@@ -323139,7 +323139,7 @@
       3,
       3
     ],
-    "description_effect": "HP以外の基礎ﾊﾟﾗﾒｰﾀ-#PER2#%,RESﾃﾞﾊﾞﾌの敵はさらにATK/INT-#PER6#%",
+    "description_effect": "Non-HP Basic Stats-#PER2#%,RES debuffed characters ATK/INT-#PER6#%",
     "description": "Calls another Adele and launches a powerful cooperative technique.",
     "resource_id": 3001663,
     "continuous_attack_rates": []
@@ -338785,8 +338785,8 @@
   },
   {
     "id": 4002211,
-    "name": "龍焔牙",
-    "name_battle": "龍焔牙",
+    "name": "Blazing Fang",
+    "name_battle": "Blazing Fang",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -355995,7 +355995,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "CRD・CRT+#PER2#%(2T)[Party]",
+    "description_effect": "CRD+#PER2#%(2T)&CRT+#PER3#%(2T)[Party]",
     "description": "The name of the Inquisitor is not just formal!",
     "resource_id": 3002751,
     "continuous_attack_rates": [
@@ -356101,7 +356101,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Intercept[ATK](5T)[Self],CRD+#PER3#%(2T)&CRT+#PER4#%(2T)[Party],DEF/RES-#PER5#%(3T)[Single Enemy]",
+    "description_effect": "Intercept[ATK](5T)[Self],CRD+#PER3#%(3T)&CRT+#PER4#%(3T)[Party],DEF/RES-#PER5#%(3T)[Single Enemy]",
     "description": "The Hundred Knights' support is encouraging!",
     "resource_id": 3002752,
     "continuous_attack_rates": [
@@ -356998,7 +356998,7 @@
       0,
       0
     ],
-    "description_effect": "Thorns(3T)&DEF/RES-#PER3#%(3T)&SPD-#PER6#%(3T)[Single Enemy],[When enemy is poisoned]ATK/INT/CRD-#PER2#%(3T)[All Enemies],All damage+#PER8#%(2T)[Ally]",
+    "description_effect": "Thorns(3T)&DEF/RES-#PER3#%(3T)&SPD-#PER6#%(3T)[Single Enemy],[When enemy is poisoned]ATK/INT/CRD-#PER2#%(3T)[All Enemies],All damage+#PER8#%(3T)[Ally]",
     "description": "The treatment of Pliny is not particularly different for both.",
     "resource_id": 3002781,
     "continuous_attack_rates": [
@@ -357282,7 +357282,7 @@
       0,
       0
     ],
-    "description_effect": "Thorns(3T)&ATK・DEF-#PER2#%(3T)&CRT-#PER6#%(3T)[Single Enemy],[When using skill]CRD+#PER10#%&Uses enemy's lower DEF or RES for damage calculation[Self],All damage+#PER8#%(2T)&[When enemy is poisoned]CRT+#PER5#%(2T)&CRD+#PER7#%(2T)[Party]",
+    "description_effect": "Thorns(3T)&ATK・DEF-#PER2#%(3T)&SPD・CRT-#PER6#%(3T)[Single Enemy],[When using skill]CRD+#PER10#%&Uses enemy's lower DEF or RES for damage calculation[Self],All damage+#PER8#%(3T)&[When enemy is poisoned]CRT+#PER5#%(3T)&CRD+#PER7#%(3T)[Party]",
     "description": "All universes, sink into the swamp! Kiaaahhhh!",
     "resource_id": 3002783,
     "continuous_attack_rates": [
@@ -389770,7 +389770,7 @@
       0,
       3
     ],
-    "description_effect": "When the target has a RES debuff, Skill Power+#PER2#％",
+    "description_effect": "When the target has a RES debuff, Skill Power+#PER2#%",
     "description": "The wrath of the gods rains down from the heavens",
     "resource_id": 3200152,
     "continuous_attack_rates": []
@@ -393880,7 +393880,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自分の残体力5％減少",
+    "description_effect": "自分の残体力5%減少",
     "description": "Inescapable iron balls dancing in every direction",
     "resource_id": 3200341,
     "continuous_attack_rates": []
@@ -393953,7 +393953,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自分の残体力20％減少,ATK・DEF+#PER1#％",
+    "description_effect": "自分の残体力20%減少,ATK・DEF+#PER1#%",
     "description": "This is True Demonic Power",
     "resource_id": 3200342,
     "continuous_attack_rates": []
@@ -394032,7 +394032,7 @@
       3,
       0
     ],
-    "description_effect": "自分の残体力10％減少,[On Critical hit] Skill power+#PER2#％",
+    "description_effect": "自分の残体力10%減少,[On Critical hit] Skill power+#PER2#%",
     "description": "The rampage will not stop until all enemy targets are crushed.",
     "resource_id": 3200343,
     "continuous_attack_rates": []
@@ -394097,7 +394097,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "INT+#PER1#％,Action Gauge+#PER2#",
+    "description_effect": "INT+#PER1#%,Action Gauge+#PER2#",
     "description": "The blessing of demonic power transmitted through Flonne's love",
     "resource_id": 3200351,
     "continuous_attack_rates": []
@@ -394176,7 +394176,7 @@
       2,
       2
     ],
-    "description_effect": "[On Critical hit] INT+#PER2#％,Action Gauge+#PER3#",
+    "description_effect": "[On Critical hit] INT+#PER2#%,Action Gauge+#PER3#",
     "description": "An iron ball, made giant through love and affection, crushes enemies",
     "resource_id": 3200352,
     "continuous_attack_rates": []
@@ -394277,7 +394277,7 @@
       2,
       2
     ],
-    "description_effect": "ｸﾘﾃｨｶﾙ発動の場合、HP以外の基礎ﾊﾟﾗﾒｰﾀ+#PER2#％(1T)",
+    "description_effect": "If crit, Non-HP Basic Stats+#PER2#%(1T)",
     "description": "This is a collaboration between love and demonic power!",
     "resource_id": 3200353,
     "continuous_attack_rates": []
@@ -397361,8 +397361,8 @@
   },
   {
     "id": 4200471,
-    "name": "メタル・ジャスティス",
-    "name_battle": "メタル・\\nジャスティス",
+    "name": "Metal Justice",
+    "name_battle": "Metal Justice",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -397453,15 +397453,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/INT-#PER2#%(3T)&SPD-#PER4#%(3T)&Poison(2T)&Action Gauge-#PER6#[Single Enemy]",
-    "description": "この―――（自主規制）が！　ワタシの正義を見せてやる！",
+    "description_effect": "ATK/INT-#PER2#%(3T)&SPD・CRT-#PER4#%(3T)&Poison(2T)&Action Gauge-#PER6#[Single Enemy]",
+    "description": "...Bow to me! Why you little ****!!!",
     "resource_id": 3200471,
     "continuous_attack_rates": []
   },
   {
     "id": 4200472,
-    "name": "夕闇エレメンタル",
-    "name_battle": "夕闇\\nエレメンタル",
+    "name": "Twilight Elemental",
+    "name_battle": "Twilight Elemental",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -397552,15 +397552,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/INT+#PER2#%(3T)&CRT+#PER4#%(3T)&Damage dealt by Special Move+#PER6#%(3T)[Ally],Poison(2T)[Single Enemy]",
-    "description": "偉大なるメタリカ様は全属性の魔元素を操れるのです、はい。",
+    "description_effect": "ATK/INT+#PER2#%(3T)&DEF/RES+#PER7#%(3T)&CRT+#PER4#%(3T)&Damage dealt by Special Move+#PER6#%(3T)[Ally],Poison(2T)&Damage Taken + #PER9#%(2T)[Single Enemy]",
+    "description": "Metallia is so skilled, so can control all elements at once!",
     "resource_id": 3200472,
     "continuous_attack_rates": []
   },
   {
     "id": 4200473,
-    "name": "ワールドイズメタリカ",
-    "name_battle": "ワールドイズ\\nメタリカ",
+    "name": "World is Metallia's",
+    "name_battle": "World is Metallia's",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -397699,15 +397699,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF/RES-#PER2#%(3T)&SPD-#PER4#%(3T)&Poison(2T)[All Enemies],remove buff effect[Single Enemy]",
-    "description": "キヒヒ！　喜べ、この世界の全てを沼で満たしてやるよ！",
+    "description_effect": "DEF/RES-#PER2#%(3T)&SPD-#PER4#%(3T)&Poison(2T)&Action Gauge-#PER13#[All Enemies],remove buff effect[Single Enemy]",
+    "description": "What!? The world belongs to Metallia!?",
     "resource_id": 3200473,
     "continuous_attack_rates": []
   },
   {
     "id": 4200481,
-    "name": "８系チクボム",
-    "name_battle": "８系チクボム",
+    "name": "Type-8 Time Bomb",
+    "name_battle": "Type-8 Time Bomb",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -397791,14 +397791,14 @@
       0
     ],
     "description_effect": "ATK/INT+#PER2#%(3T)&SPD+#PER4#%(3T)&All damage+#PER5#%(1T)[Party]",
-    "description": "時限式の爆発型トーチカ",
+    "description": "A timed explosive Tochka",
     "resource_id": 3200481,
     "continuous_attack_rates": []
   },
   {
     "id": 4200482,
-    "name": "百騎－連斬",
-    "name_battle": "百騎－連斬",
+    "name": "Hundred Slashes",
+    "name_battle": "Hundred Slashes",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -397922,14 +397922,14 @@
       0
     ],
     "description_effect": "DEF/RES-#PER2#%(3T),Buffs halved",
-    "description": "素早い動きで斬撃を繰り出す連続攻撃",
+    "description": "A flurry of slashes too quick to count!",
     "resource_id": 3200482,
     "continuous_attack_rates": []
   },
   {
     "id": 4200483,
-    "name": "魔女百戦線",
-    "name_battle": "魔女百戦線",
+    "name": "Witch's Legion",
+    "name_battle": "Witch's Legion",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -398004,15 +398004,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "自身のDEF/RESを-#PER2#%(1T)but, Skill Power+#PER4#%",
-    "description": "魔女と百騎兵による、超攻撃的共同作業",
+    "description_effect": "Own DEF/RES-#PER2#%(1T)but, Skill Power+#PER4#%",
+    "description": "A bewitching combo with the Witch & the Hundred Knight!",
     "resource_id": 3200483,
     "continuous_attack_rates": []
   },
   {
     "id": 4200491,
-    "name": "霧の氷壁",
-    "name_battle": "霧の氷壁",
+    "name": "Wall of Rime",
+    "name_battle": "Wall of Rime",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -398096,14 +398096,14 @@
       0
     ],
     "description_effect": "INT・RES+#PER2#%(3T)[Party],CRD+#PER3#%(3T)[Ally],Sleep(2T)[All Enemies]",
-    "description": "大地より氷を発生させ敵を氷漬けにする",
+    "description": "A freezing mist seeps from the ground.",
     "resource_id": 3200491,
     "continuous_attack_rates": []
   },
   {
     "id": 4200492,
-    "name": "幻惑の霧幻牢",
-    "name_battle": "幻惑の霧幻牢",
+    "name": "Bewitching Mist",
+    "name_battle": "Bewitching Mist",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -398195,14 +398195,14 @@
       0
     ],
     "description_effect": "[Repeat use prohibited]ATK/INT-#PER1#%(4T)&SPD・CRT-#PER3#%(4T)&Sleep(2T)[All Enemies]",
-    "description": "自身の幻覚を無数に創り出し敵を翻弄する",
+    "description": "Traps foes with hallucinations.",
     "resource_id": 3200492,
     "continuous_attack_rates": []
   },
   {
     "id": 4200493,
-    "name": "神罰氷雷",
-    "name_battle": "神罰氷雷",
+    "name": "Frozen Thunder Retribution",
+    "name_battle": "Frozen Thunder Retribution",
     "command_category": 3,
     "attr": 3,
     "max_lv": 50,
@@ -398358,14 +398358,14 @@
       0
     ],
     "description_effect": "CRT+#PER2#%(2T)&All damage+#PER3#%(2T)[Ally],ATK・RES-#PER4#%(5T)&remove buff effect&眠り・Paralysis(2T)[Single Enemy]",
-    "description": "氷と雷を操り敵を消滅させるネザリア得意の大技。キリッ",
+    "description": "Cold and crispy, just how I like it!",
     "resource_id": 3200493,
     "continuous_attack_rates": []
   },
   {
     "id": 4200501,
-    "name": "灼熱魔沼",
-    "name_battle": "灼熱魔沼",
+    "name": "Blazing Swamp",
+    "name_battle": "Blazing Swamp",
     "command_category": 3,
     "attr": 1,
     "max_lv": 50,
@@ -398433,14 +398433,14 @@
       0
     ],
     "description_effect": "DEF-#PER2#%(3T)&SPD-#PER3#%(3T)[All Enemies]",
-    "description": "相手を捕らえた沼から灼熱のマグマもとい魔沼を創り出す",
+    "description": "Create a scorching swamp of magma.",
     "resource_id": 3200501,
     "continuous_attack_rates": []
   },
   {
     "id": 4200502,
-    "name": "極大メテオホームラン",
-    "name_battle": "極大メテオ\\nホームラン",
+    "name": "Colossal Meteor Home Run",
+    "name_battle": "Colossal Meteor\\nHome Run",
     "command_category": 3,
     "attr": 0,
     "max_lv": 50,
@@ -398546,15 +398546,15 @@
       0,
       1
     ],
-    "description_effect": "SPD-#PER4#%(3T)[All Enemies],ATK/CRD+#PER2#%(3T)[Party],CRT+#PER5#%(3T)&体力が30%以上の場合SP+#PER6#[Self]",
-    "description": "ゼロ距離メテオの極大パワーで遥か彼方へビッグフライ！",
+    "description_effect": "SPD-#PER4#%(3T)[All Enemies],ATK/CRD+#PER2#%(3T)[Party],CRT+#PER5#%(3T)&If HP>=30%, SP+#PER6#[Self]",
+    "description": "A direct crack to the skull with a point-blank meteor fly ball.",
     "resource_id": 3200502,
     "continuous_attack_rates": []
   },
   {
     "id": 4200503,
-    "name": "獄星ナックル・ノヴァ",
-    "name_battle": "獄星ナックル\\n・ノヴァ",
+    "name": "Astral Knuckle Nova",
+    "name_battle": "Astral Knuckle Nova",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -398660,14 +398660,14 @@
       0
     ],
     "description_effect": "[When using skill]CRD+#PER6#%&Power increases with each use(Maximum 3times)&INTの#PER7#% Added to damage calculation&ATK/CRD+#PER3#%(3T)&All damage+#PER5#%(3T)[Self]",
-    "description": "異世界の力を使い、超新星爆発にも匹敵する一撃で全てを貫く",
+    "description": "A supernova-sized blow using the power of another dimension.",
     "resource_id": 3200503,
     "continuous_attack_rates": []
   },
   {
     "id": 4200511,
-    "name": "ラヴバースト",
-    "name_battle": "ラヴバースト",
+    "name": "Love Burst",
+    "name_battle": "Love Burst",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -398735,14 +398735,14 @@
       0
     ],
     "description_effect": "RES-#PER3#%(3T)&SPD-#PER2#%(3T)[All Enemies]",
-    "description": "溢れんばかりの愛を爆発させダメージを与える",
+    "description": "The overlowing exploding of love!",
     "resource_id": 3200511,
     "continuous_attack_rates": []
   },
   {
     "id": 4200512,
-    "name": "ラヴビーム",
-    "name_battle": "ラヴビーム",
+    "name": "Love Beam",
+    "name_battle": "Love Beam",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -398866,14 +398866,14 @@
       0
     ],
     "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&INT・RES+#PER3#%(3T)&CRD+#PER7#%(3T)&Damage dealt by Special Move+#PER8#%(2T)&Uses enemy's lower DEF or RES for damage calculation[Self],Star resistance-#PER9#%(3T)[All Enemies]",
-    "description": "周囲から愛の力を吸収し強力なビームを放つ！",
+    "description": "Absorb the power of love and fire a powerful beam!",
     "resource_id": 3200512,
     "continuous_attack_rates": []
   },
   {
     "id": 4200513,
-    "name": "ラヴ＝ソートス",
-    "name_battle": "ラヴ＝\\nソートス",
+    "name": "Love Sothoth",
+    "name_battle": "Love Sothoth",
     "command_category": 3,
     "attr": 4,
     "max_lv": 50,
@@ -398958,7 +398958,7 @@
       0
     ],
     "description_effect": "[When using skill]CRT+#PER4#%&INTバフ時のSkill Power+#PER2#%&#PER3#%RES added to damage calculation[Self]",
-    "description": "変身したラヴゼットが放つ愛の咆哮！",
+    "description": "The transformed Love X's roar of love!",
     "resource_id": 3200513,
     "continuous_attack_rates": []
   },
@@ -404051,7 +404051,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "DEF/RES-#PER2#%(3T)[All Enemies]",
+    "description_effect": "DEF/RES-#PER2#%(3T)&SPD-#PER4#%(3T)[All Enemies]",
     "description": "Transforms the crimson armor into a scythe and emits shock waves.",
     "resource_id": 3200701,
     "continuous_attack_rates": []
@@ -404158,7 +404158,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Skill Power increases the more enemies surviving&CRT+#PER3#%(3T)&Non-HP Basic Stats+No. of foes defeated by this skill x#PER4#%(10T)[Self]",
+    "description_effect": "Skill Power increases the more enemies surviving&CRT+#PER3#%(3T)&Non-HP Basic Stats+No. of foes defeated by this skill ×#PER4#%(10T)&SPD+No. of foes defeated by this skill ×#PER8#%(3T)[Self]",
     "description": "The rising hatred burns as a flame in the blue ceiling",
     "resource_id": 3200702,
     "continuous_attack_rates": []
@@ -404225,7 +404225,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "SP Regen[#PER2#](3T)[Self]",
+    "description_effect": "SP Regen[#PER2#](3T)&[When using skill]CRD+#PER3#%&[On Critical hit]Skill Power+#PER4#%[Self],Fire resistance-#PER5#%(3T)[Single Enemy]",
     "description": "Transforms crimson armor and self into a spear, and its appearance penetrates all things",
     "resource_id": 3200703,
     "continuous_attack_rates": []
@@ -427561,7 +427561,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK,INT,CRT,CTD50％ダウン(4ターン）",
+    "description_effect": "ATK,INT,CRT,CTD50%ダウン(4ターン）",
     "description": "A merciless blow from a tyrant",
     "resource_id": 3000381,
     "continuous_attack_rates": []
@@ -428467,8 +428467,8 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "All damage+20%(3T)&Damage Taken-20%(3T)&ATK/CRD+50%(3T)&DEF/RES+100%(3T)&Buff duration extended+1&Action Gauge+300[Party]",
-    "description": "",
+    "description_effect": "All damage+20%(3T)&Damage Taken-25%(3T)&ATK/CRD+75%(3T)&DEF/RES+100%(3T)&Buff duration extended+1&Action Gauge+300[Party]",
+    "description": "Is this the one that still works?",
     "resource_id": 3000741,
     "continuous_attack_rates": []
   },
@@ -428558,8 +428558,8 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "茨(3T)&受けるダメージ+20%アップ(3T)&Reduce Damage dealt-20%ダウン(3T)Buff duration extended-3",
-    "description": "",
+    "description_effect": "茨(3T)&Reduce Damage dealt-25%ダウン(3T)&受けるダメージ+20%アップ(3T)&Buff duration extended-3[All Enemies]",
+    "description": "Would you like to join us?",
     "resource_id": 3000743,
     "continuous_attack_rates": []
   },
@@ -428657,8 +428657,8 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "[When using skill]CRT+70%&Ignore Buffs100%[Ally]CRD&DEF&RES+200%(3T)[Party]",
-    "description": "",
+    "description_effect": "[When using skill]CRT+70%[Self],対象のバフを100%無視してダメージ計算[Single Enemy],CRD・DEF/RES+200%(3T)[Party]",
+    "description": "Let's upload this one too!",
     "resource_id": 3000744,
     "continuous_attack_rates": []
   },
@@ -429874,7 +429874,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Non-HP Basic Stats-75%(5T)&SPD-20％(5T)[All Enemies]被ダメージダウン+30%(5T)[Party]",
+    "description_effect": "Non-HP Basic Stats-75%(5T)&SPD-20%(5T)[All Enemies]被ダメージダウン+30%(5T)[Party]",
     "description": "",
     "resource_id": 3001263,
     "continuous_attack_rates": []
@@ -435409,7 +435409,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Non-HP Basic Stats+50%(3T)[Ally],Forget(2T)[Single Enemy]",
+    "description_effect": "Non-HP Basic Stats+50%(3T)[Ally]",
     "description": "A special move that I drank after skipping work",
     "resource_id": 3300011,
     "continuous_attack_rates": []
@@ -435555,7 +435555,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Buff duration-2&Thorns(2T)",
+    "description_effect": "Buff duration-2&Poison(2T)",
     "description": "Beam is a man's romance",
     "resource_id": 3300013,
     "continuous_attack_rates": []
@@ -505515,6 +505515,4240 @@
     "description_effect": "Damage increases with the number of debuff types inflicted on the target (Maximum 5 times)&[When using skill]CRD+#PER3#%&[On Critical hit]Buff duration extended+#PER4#[Self]",
     "description": "Here it comes! Here it comes! Full power—Py Py Pyon!!",
     "resource_id": 3003943,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003951,
+    "name": "Red Queen's Soldiers",
+    "name_battle": "Red Queen's Soldiers",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      9,
+      11,
+      111
+    ],
+    "effect_values_min": [
+      60,
+      25,
+      25,
+      15
+    ],
+    "effect_values_max_30": [
+      90,
+      25,
+      25,
+      15
+    ],
+    "effect_values_max_40": [
+      91,
+      25,
+      25,
+      15
+    ],
+    "effect_values_max_50": [
+      92,
+      25,
+      25,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF/RES+#PER2#%(3T)&Damage Taken-#PER4#%(3T)[Party]",
+    "description": "Now, my pawns—go!",
+    "resource_id": 3003951,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003952,
+    "name": "Jabberwocky's Tusk",
+    "name_battle": "Jabberwocky's Tusk",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 45,
+    "sp_max_30": 40,
+    "sp_max_40": 38,
+    "sp_max_50": 36,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      121,
+      63,
+      65,
+      39,
+      8,
+      10,
+      101,
+      21,
+      150
+    ],
+    "effect_values_min": [
+      80,
+      1000,
+      15,
+      20,
+      50,
+      1,
+      40,
+      40,
+      20,
+      75,
+      10
+    ],
+    "effect_values_max_30": [
+      110,
+      1000,
+      15,
+      20,
+      50,
+      1,
+      40,
+      40,
+      20,
+      75,
+      10
+    ],
+    "effect_values_max_40": [
+      112,
+      1000,
+      15,
+      20,
+      50,
+      1,
+      40,
+      40,
+      20,
+      75,
+      10
+    ],
+    "effect_values_max_50": [
+      114,
+      1000,
+      15,
+      20,
+      50,
+      1,
+      40,
+      40,
+      20,
+      75,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      2,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3,
+      0,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      2,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3,
+      0,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      4,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&SP Regen[#PER3#](2T)&CRT+#PER4#%(2T)&CRD+#PER5#%(2T)[Self],ATK/INT+#PER7#%(3T)&All damage+#PER9#%(3T)[Party],Action Gauge-#PER10#&Damage Taken +#PER11#%(2T)[All Enemies]",
+    "description": "I shall make you a treat for my pet!",
+    "resource_id": 3003952,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003953,
+    "name": "Heart-Flame of Wrath",
+    "name_battle": "Heart-Flame of Wrath",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 68,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      132,
+      141,
+      81
+    ],
+    "effect_values_min": [
+      480,
+      200,
+      60,
+      15
+    ],
+    "effect_values_max_30": [
+      510,
+      200,
+      60,
+      15
+    ],
+    "effect_values_max_40": [
+      525,
+      200,
+      60,
+      15
+    ],
+    "effect_values_max_50": [
+      540,
+      200,
+      60,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      5,
+      5
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      5
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      3
+    ],
+    "description_effect": "Additional Hits [2～5(Power C)]&[When using skill]CRD+#PER3#%&[On Critical hit]Skill Power+#PER4#%[Self]",
+    "description": "And with that... Checkmate!Ohohoho!",
+    "resource_id": 3003953,
+    "continuous_attack_rates": [
+      100,
+      100,
+      90,
+      85,
+      80
+    ]
+  },
+  {
+    "id": 4003951,
+    "name": "Red Queen's Soldiers",
+    "name_battle": "Red Queen's Soldiers",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      9,
+      11,
+      111
+    ],
+    "effect_values_min": [
+      68,
+      25,
+      25,
+      15
+    ],
+    "effect_values_max_30": [
+      98,
+      25,
+      25,
+      15
+    ],
+    "effect_values_max_40": [
+      99,
+      25,
+      25,
+      15
+    ],
+    "effect_values_max_50": [
+      100,
+      25,
+      25,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF/RES+#PER2#%(3T)&Damage Taken-#PER4#%(3T)[Party]",
+    "description": "Now, my pawns—go!",
+    "resource_id": 3003951,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003952,
+    "name": "Jabberwocky's Tusk",
+    "name_battle": "Jabberwocky's Tusk",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 42,
+    "sp_max_30": 37,
+    "sp_max_40": 35,
+    "sp_max_50": 33,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      121,
+      63,
+      65,
+      39,
+      8,
+      10,
+      101,
+      21,
+      150
+    ],
+    "effect_values_min": [
+      80,
+      1000,
+      15,
+      20,
+      50,
+      1,
+      40,
+      40,
+      20,
+      75,
+      10
+    ],
+    "effect_values_max_30": [
+      110,
+      1000,
+      15,
+      20,
+      50,
+      1,
+      40,
+      40,
+      20,
+      75,
+      10
+    ],
+    "effect_values_max_40": [
+      112,
+      1000,
+      15,
+      20,
+      50,
+      1,
+      40,
+      40,
+      20,
+      75,
+      10
+    ],
+    "effect_values_max_50": [
+      114,
+      1000,
+      15,
+      20,
+      50,
+      1,
+      40,
+      40,
+      20,
+      75,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      2,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3,
+      0,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      2,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3,
+      0,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      4,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&SP Regen[#PER3#](2T)&CRT+#PER4#%(2T)&CRD+#PER5#%(2T)[Self],ATK/INT+#PER7#%(3T)&All damage+#PER9#%(3T)[Party],Action Gauge-#PER10#&Damage Taken +#PER11#%(2T)[All Enemies]",
+    "description": "I shall make you a treat for my pet!",
+    "resource_id": 3003952,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003953,
+    "name": "Heart-Flame of Wrath",
+    "name_battle": "Heart-Flame of Wrath",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 68,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      132,
+      141,
+      81
+    ],
+    "effect_values_min": [
+      490,
+      200,
+      60,
+      15
+    ],
+    "effect_values_max_30": [
+      520,
+      200,
+      60,
+      15
+    ],
+    "effect_values_max_40": [
+      535,
+      200,
+      60,
+      15
+    ],
+    "effect_values_max_50": [
+      550,
+      200,
+      60,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      5,
+      5
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      5
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      3
+    ],
+    "description_effect": "Additional Hits [2～5(Power C)]&[When using skill]CRD+#PER3#%&[On Critical hit]Skill Power+#PER4#%[Self]",
+    "description": "And with that... Checkmate!Ohohoho!",
+    "resource_id": 3003953,
+    "continuous_attack_rates": [
+      100,
+      100,
+      90,
+      85,
+      80
+    ]
+  },
+  {
+    "id": 3003961,
+    "name": "Let's Prier.",
+    "name_battle": "Let's\\nPrier.",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 5,
+    "command_types": [
+      123,
+      3,
+      8,
+      9,
+      10,
+      11,
+      111
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_30": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_40": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_50": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Overheal (small)&Remove all ailments&Non-HP Basic Stats+#PER3#%(4T)&Damage Taken-#PER7#%(4T)[Party]",
+    "description": "Go ahead, taste my pudding!",
+    "resource_id": 3003961,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003962,
+    "name": "Principal's Happiness",
+    "name_battle": "Principal's\\nHappiness",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 42,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 0,
+    "command_types": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      127,
+      128,
+      8,
+      10,
+      12,
+      101,
+      165,
+      166
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      15,
+      20,
+      3,
+      3
+    ],
+    "effect_values_max_30": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      15,
+      20,
+      3,
+      3
+    ],
+    "effect_values_max_40": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      15,
+      20,
+      3,
+      3
+    ],
+    "effect_values_max_50": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      15,
+      20,
+      3,
+      3
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      10,
+      40
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      10,
+      40
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Remove debuffs&ATK/INT+#PER8#%(3T)&SPD+#PER10#%(3T)&All damage+#PER11#%(3T)&Auto-Buff(#PER12#T)[CRT+10%(2T)・CRD+40%(2T)][Party]",
+    "description": "This is the pudding power that will bring peace to the world!",
+    "resource_id": 3003962,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003963,
+    "name": "Exquisite Pre-Grilla",
+    "name_battle": "Exquisite\\nPre-Grilla",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 65,
+    "sp_max_30": 60,
+    "sp_max_40": 56,
+    "sp_max_50": 52,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      65,
+      101,
+      160,
+      162,
+      46,
+      150
+    ],
+    "effect_values_min": [
+      130,
+      100,
+      50,
+      20,
+      3,
+      3,
+      100,
+      10
+    ],
+    "effect_values_max_30": [
+      160,
+      100,
+      50,
+      20,
+      3,
+      3,
+      100,
+      10
+    ],
+    "effect_values_max_40": [
+      164,
+      100,
+      50,
+      20,
+      3,
+      3,
+      100,
+      10
+    ],
+    "effect_values_max_50": [
+      168,
+      100,
+      50,
+      20,
+      3,
+      3,
+      100,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      40,
+      40,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      40,
+      40,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Action Gauge+#PER2#&CRD+#PER3#%(3T)&All damage+#PER4#%(3T)&Auto-Buff(#PER5#T)[ATK/INT+40%(2T)][Party],Inflict Random Ailments(2T)&Damage Taken + #PER8#%(2T)[All Enemies]",
+    "description": "Here I come! Behold—the command of the Super Duper Overlord!",
+    "resource_id": 3003963,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003981,
+    "name": "Ichimonji Shuriken",
+    "name_battle": "Ichimonji Shuriken",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      14,
+      16,
+      8,
+      10,
+      65
+    ],
+    "effect_values_min": [
+      60,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_30": [
+      90,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_40": [
+      91,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_50": [
+      92,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF/RES-#PER2#%(3T)[All Enemies],ATK/INT/CRD+#PER4#%(3T)[Party]",
+    "description": "Well, it's time to get to work.",
+    "resource_id": 3003981,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003982,
+    "name": "Light Blade Dance",
+    "name_battle": "Light Blade Dance",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      63,
+      65,
+      101,
+      39,
+      32
+    ],
+    "effect_values_min": [
+      80,
+      1000,
+      15,
+      40,
+      15,
+      1,
+      15
+    ],
+    "effect_values_max_30": [
+      110,
+      1000,
+      15,
+      40,
+      15,
+      1,
+      15
+    ],
+    "effect_values_max_40": [
+      112,
+      1000,
+      15,
+      40,
+      15,
+      1,
+      15
+    ],
+    "effect_values_max_50": [
+      114,
+      1000,
+      15,
+      40,
+      15,
+      1,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&CRT+#PER3#%(3T)&CRD+#PER4#%(3T)&All damage+#PER5#%(3T)&[On Critical hit]SP+#PER7#[Self]",
+    "description": "Given my line of work, I'm used to handling large crowds.",
+    "resource_id": 3003982,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003983,
+    "name": "Flying Dark Cross Slash",
+    "name_battle": "Flying Dark\\nCross Slash",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 68,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      132,
+      141,
+      85
+    ],
+    "effect_values_min": [
+      480,
+      200,
+      50,
+      50
+    ],
+    "effect_values_max_30": [
+      510,
+      200,
+      50,
+      50
+    ],
+    "effect_values_max_40": [
+      525,
+      200,
+      50,
+      50
+    ],
+    "effect_values_max_50": [
+      540,
+      200,
+      50,
+      50
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      4,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      4,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      3
+    ],
+    "description_effect": "Additional Hits [1～4(Power C)]&[When using skill]CRD+#PER3#%[Self],If the target has a DEF debuff, Damage calculation ignores #PER4#% of target's buffs[Single Enemy]",
+    "description": "Let's just get this over with. Don't take it personally, alright??",
+    "resource_id": 3003983,
+    "continuous_attack_rates": [
+      100,
+      95,
+      90,
+      80
+    ]
+  },
+  {
+    "id": 3201141,
+    "name": "Minister Barrage",
+    "name_battle": "Minister Barrage",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 23,
+    "sp_max_50": 22,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      14,
+      16,
+      17,
+      8,
+      10,
+      65
+    ],
+    "effect_values_min": [
+      160,
+      20,
+      20,
+      10,
+      25,
+      25,
+      25
+    ],
+    "effect_values_max_30": [
+      190,
+      20,
+      20,
+      10,
+      25,
+      25,
+      25
+    ],
+    "effect_values_max_40": [
+      197,
+      20,
+      20,
+      10,
+      25,
+      25,
+      25
+    ],
+    "effect_values_max_50": [
+      202,
+      20,
+      20,
+      10,
+      25,
+      25,
+      25
+    ],
+    "variance_rates": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF/RES-#PER2#%(3T)&SPD-#PER4#%(3T)[Single Enemy],ATK/INT/CRD+#PER5#%(3T)[Ally]",
+    "description": "It cannot be helped. I, too, shall fight!",
+    "resource_id": 3201141,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201142,
+    "name": "Minister Bombshell",
+    "name_battle": "Minister Bombshell",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      5,
+      21,
+      13,
+      15,
+      64,
+      149
+    ],
+    "effect_values_min": [
+      80,
+      100,
+      50,
+      40,
+      40,
+      10,
+      10
+    ],
+    "effect_values_max_30": [
+      110,
+      100,
+      50,
+      40,
+      40,
+      10,
+      10
+    ],
+    "effect_values_max_40": [
+      112,
+      100,
+      50,
+      40,
+      40,
+      10,
+      10
+    ],
+    "effect_values_max_50": [
+      114,
+      100,
+      50,
+      40,
+      40,
+      10,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Paralysis(2T)&Action Gauge-#PER3#&ATK/INT-#PER4#%(2T)&CRT-#PER6#%(2T)&Damage dealt -#PER7#% (2T)[All Enemies]",
+    "description": "In place of Lady Tichelle—who possesses zero combat prowess—I shall be your opponent!",
+    "resource_id": 3201142,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201143,
+    "name": "Minister Beam",
+    "name_battle": "Minister Beam",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 65,
+    "sp_max_30": 60,
+    "sp_max_40": 56,
+    "sp_max_50": 52,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      65,
+      63,
+      101,
+      21,
+      14,
+      16
+    ],
+    "effect_values_min": [
+      130,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      20,
+      75,
+      40,
+      40
+    ],
+    "effect_values_max_30": [
+      160,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      20,
+      75,
+      40,
+      40
+    ],
+    "effect_values_max_40": [
+      164,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      20,
+      75,
+      40,
+      40
+    ],
+    "effect_values_max_50": [
+      168,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      20,
+      75,
+      40,
+      40
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Non-HP Basic Stats・CRD+#PER2#%(3T)&CRT+#PER7#%(3T)&All damage+#PER8#%(3T)[Party],Action Gauge-#PER9#&DEF/RES-#PER10#%(3T)[All Enemies]",
+    "description": "For something of this caliber, just a fraction of my true power will suffice!",
+    "resource_id": 3201143,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003961,
+    "name": "Let's Prier.",
+    "name_battle": "Let's\\nPrier.",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 37,
+    "sp_max_30": 32,
+    "sp_max_40": 30,
+    "sp_max_50": 28,
+    "gain_sp": 0,
+    "relational_param": 5,
+    "command_types": [
+      123,
+      3,
+      8,
+      9,
+      10,
+      11,
+      111
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_30": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_40": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_50": [
+      100,
+      100,
+      30,
+      30,
+      30,
+      30,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Overheal (small)&Remove all ailments&Non-HP Basic Stats+#PER3#%(4T)&Damage Taken-#PER7#%(4T)[Party]",
+    "description": "Go ahead, taste my pudding!",
+    "resource_id": 3003961,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003962,
+    "name": "Principal's Happiness",
+    "name_battle": "Principal's\\nHappiness",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 46,
+    "sp_max_30": 41,
+    "sp_max_40": 38,
+    "sp_max_50": 35,
+    "gain_sp": 0,
+    "relational_param": 0,
+    "command_types": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      127,
+      128,
+      8,
+      10,
+      12,
+      101,
+      165,
+      166
+    ],
+    "effect_values_min": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      15,
+      20,
+      3,
+      3
+    ],
+    "effect_values_max_30": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      15,
+      20,
+      3,
+      3
+    ],
+    "effect_values_max_40": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      15,
+      20,
+      3,
+      3
+    ],
+    "effect_values_max_50": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      30,
+      30,
+      15,
+      20,
+      3,
+      3
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      10,
+      40
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      10,
+      40
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2
+    ],
+    "effect_targets": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Remove debuffs&ATK/INT+#PER8#%(3T)&SPD+#PER10#%(3T)&All damage+#PER11#%(3T)&Auto-Buff(#PER12#T)[CRT+10%(2T)・CRD+40%(2T)][Party]",
+    "description": "This is the pudding power that will bring peace to the world!",
+    "resource_id": 3003962,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003963,
+    "name": "Exquisite Pre-Grilla",
+    "name_battle": "Exquisite\\nPre-Grilla",
+    "command_category": 3,
+    "attr": 1,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 61,
+    "sp_max_30": 56,
+    "sp_max_40": 52,
+    "sp_max_50": 48,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      65,
+      101,
+      160,
+      162,
+      46,
+      150
+    ],
+    "effect_values_min": [
+      130,
+      100,
+      50,
+      20,
+      3,
+      3,
+      100,
+      10
+    ],
+    "effect_values_max_30": [
+      160,
+      100,
+      50,
+      20,
+      3,
+      3,
+      100,
+      10
+    ],
+    "effect_values_max_40": [
+      164,
+      100,
+      50,
+      20,
+      3,
+      3,
+      100,
+      10
+    ],
+    "effect_values_max_50": [
+      168,
+      100,
+      50,
+      20,
+      3,
+      3,
+      100,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      40,
+      40,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      40,
+      40,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Action Gauge+#PER2#&CRD+#PER3#%(3T)&All damage+#PER4#%(3T)&Auto-Buff(#PER5#T)[ATK/INT+40%(2T)][Party],Inflict Random Ailments(2T)&Damage Taken + #PER8#%(2T)[All Enemies]",
+    "description": "Here I come! Behold—the command of the Super Duper Overlord!",
+    "resource_id": 3003963,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003981,
+    "name": "Ichimonji Shuriken",
+    "name_battle": "Ichimonji Shuriken",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      14,
+      16,
+      8,
+      10,
+      65
+    ],
+    "effect_values_min": [
+      68,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_30": [
+      98,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_40": [
+      99,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "effect_values_max_50": [
+      100,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF/RES-#PER2#%(3T)[All Enemies],ATK/INT/CRD+#PER4#%(3T)[Party]",
+    "description": "Well, it's time to get to work.",
+    "resource_id": 3003981,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003982,
+    "name": "Light Blade Dance",
+    "name_battle": "Light Blade Dance",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 37,
+    "sp_max_30": 32,
+    "sp_max_40": 30,
+    "sp_max_50": 28,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      63,
+      65,
+      101,
+      39,
+      32
+    ],
+    "effect_values_min": [
+      80,
+      1000,
+      15,
+      40,
+      15,
+      1,
+      15
+    ],
+    "effect_values_max_30": [
+      110,
+      1000,
+      15,
+      40,
+      15,
+      1,
+      15
+    ],
+    "effect_values_max_40": [
+      112,
+      1000,
+      15,
+      40,
+      15,
+      1,
+      15
+    ],
+    "effect_values_max_50": [
+      114,
+      1000,
+      15,
+      40,
+      15,
+      1,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#&CRT+#PER3#%(3T)&CRD+#PER4#%(3T)&All damage+#PER5#%(3T)&[On Critical hit]SP+#PER7#[Self]",
+    "description": "Given my line of work, I'm used to handling large crowds.",
+    "resource_id": 3003982,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003983,
+    "name": "Flying Dark Cross Slash",
+    "name_battle": "Flying Dark\\nCross Slash",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 68,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      132,
+      141,
+      85
+    ],
+    "effect_values_min": [
+      490,
+      200,
+      50,
+      50
+    ],
+    "effect_values_max_30": [
+      520,
+      200,
+      50,
+      50
+    ],
+    "effect_values_max_40": [
+      535,
+      200,
+      50,
+      50
+    ],
+    "effect_values_max_50": [
+      550,
+      200,
+      50,
+      50
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      4,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      4,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      3
+    ],
+    "description_effect": "Additional Hits [1～4(Power C)]&[When using skill]CRD+#PER3#%[Self],If the target has a DEF debuff, Damage calculation ignores #PER4#% of target's buffs[Single Enemy]",
+    "description": "Let's just get this over with. Don't take it personally, alright??",
+    "resource_id": 3003983,
+    "continuous_attack_rates": [
+      100,
+      95,
+      90,
+      80
+    ]
+  },
+  {
+    "id": 4201141,
+    "name": "Minister Barrage",
+    "name_battle": "Minister Barrage",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 30,
+    "sp_max_30": 25,
+    "sp_max_40": 23,
+    "sp_max_50": 22,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      14,
+      16,
+      17,
+      8,
+      10,
+      65
+    ],
+    "effect_values_min": [
+      170,
+      20,
+      20,
+      10,
+      25,
+      25,
+      25
+    ],
+    "effect_values_max_30": [
+      200,
+      20,
+      20,
+      10,
+      25,
+      25,
+      25
+    ],
+    "effect_values_max_40": [
+      207,
+      20,
+      20,
+      10,
+      25,
+      25,
+      25
+    ],
+    "effect_values_max_50": [
+      212,
+      20,
+      20,
+      10,
+      25,
+      25,
+      25
+    ],
+    "variance_rates": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF/RES-#PER2#%(3T)&SPD-#PER4#%(3T)[Single Enemy],ATK/INT/CRD+#PER5#%(3T)[Ally]",
+    "description": "It cannot be helped. I, too, shall fight!",
+    "resource_id": 3201141,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201142,
+    "name": "Minister Bombshell",
+    "name_battle": "Minister Bombshell",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 37,
+    "sp_max_30": 32,
+    "sp_max_40": 30,
+    "sp_max_50": 28,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      5,
+      21,
+      13,
+      15,
+      64,
+      149
+    ],
+    "effect_values_min": [
+      80,
+      100,
+      50,
+      40,
+      40,
+      10,
+      10
+    ],
+    "effect_values_max_30": [
+      110,
+      100,
+      50,
+      40,
+      40,
+      10,
+      10
+    ],
+    "effect_values_max_40": [
+      112,
+      100,
+      50,
+      40,
+      40,
+      10,
+      10
+    ],
+    "effect_values_max_50": [
+      114,
+      100,
+      50,
+      40,
+      40,
+      10,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Paralysis(2T)&Action Gauge-#PER3#&ATK/INT-#PER4#%(2T)&CRT-#PER6#%(2T)&Damage dealt -#PER7#% (2T)[All Enemies]",
+    "description": "In place of Lady Tichelle—who possesses zero combat prowess—I shall be your opponent!",
+    "resource_id": 3201142,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201143,
+    "name": "Minister Beam",
+    "name_battle": "Minister Beam",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 61,
+    "sp_max_30": 56,
+    "sp_max_40": 52,
+    "sp_max_50": 48,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      65,
+      63,
+      101,
+      21,
+      14,
+      16
+    ],
+    "effect_values_min": [
+      130,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      20,
+      75,
+      40,
+      40
+    ],
+    "effect_values_max_30": [
+      160,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      20,
+      75,
+      40,
+      40
+    ],
+    "effect_values_max_40": [
+      164,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      20,
+      75,
+      40,
+      40
+    ],
+    "effect_values_max_50": [
+      168,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      20,
+      75,
+      40,
+      40
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Non-HP Basic Stats・CRD+#PER2#%(3T)&CRT+#PER7#%(3T)&All damage+#PER8#%(3T)[Party],Action Gauge-#PER9#&DEF/RES-#PER10#%(3T)[All Enemies]",
+    "description": "For something of this caliber, just a fraction of my true power will suffice!",
+    "resource_id": 3201143,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003971,
+    "name": "photon barrette",
+    "name_battle": "photon\\nbarrette",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      21,
+      143,
+      65,
+      101
+    ],
+    "effect_values_min": [
+      80,
+      50,
+      10,
+      30,
+      10
+    ],
+    "effect_values_max_30": [
+      110,
+      50,
+      10,
+      30,
+      10
+    ],
+    "effect_values_max_40": [
+      112,
+      50,
+      10,
+      30,
+      10
+    ],
+    "effect_values_max_50": [
+      114,
+      50,
+      10,
+      30,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Action Gauge-#PER2#&Star resistance-#PER3#%(3T)[All Enemies], CRD+#PER4#%(3T)&All damage+#PER5#%(3T)[Party]",
+    "description": "Bits deployed and swept.",
+    "resource_id": 3003971,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003972,
+    "name": "thunder pulsar",
+    "name_battle": "thunder\\npulsar",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      5,
+      133,
+      23,
+      25,
+      125,
+      150,
+      10,
+      65,
+      63,
+      20
+    ],
+    "effect_values_min": [
+      250,
+      100,
+      30,
+      100,
+      100,
+      100,
+      10,
+      50,
+      50,
+      15,
+      1000
+    ],
+    "effect_values_max_30": [
+      280,
+      100,
+      30,
+      100,
+      100,
+      100,
+      10,
+      50,
+      50,
+      15,
+      1000
+    ],
+    "effect_values_max_40": [
+      291,
+      100,
+      30,
+      100,
+      100,
+      100,
+      10,
+      50,
+      50,
+      15,
+      1000
+    ],
+    "effect_values_max_50": [
+      296,
+      100,
+      30,
+      100,
+      100,
+      100,
+      10,
+      50,
+      50,
+      15,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5,
+      5,
+      5,
+      5
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "description_effect": "Paralysis(2T)&Steal #PER3# SP&DEF/RES・CRTremove buff effect&Damage Taken + #PER7#%(2T)[Single Enemy],INT/CRD+#PER8#%(2T)&CRT+#PER10#%(2T)&[When defeating an enemy]、Action Gauge+#PER11#[Self]",
+    "description": "Identify and detain the threat target.",
+    "resource_id": 3003972,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3003973,
+    "name": "planet cannon",
+    "name_battle": "planet\\ncannon",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 90,
+    "sp_max_30": 85,
+    "sp_max_40": 80,
+    "sp_max_50": 74,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      84,
+      81,
+      20,
+      101,
+      132,
+      14,
+      16
+    ],
+    "effect_values_min": [
+      200,
+      300,
+      15,
+      100,
+      15,
+      140,
+      30,
+      30
+    ],
+    "effect_values_max_30": [
+      230,
+      300,
+      15,
+      100,
+      15,
+      140,
+      30,
+      30
+    ],
+    "effect_values_max_40": [
+      235,
+      300,
+      15,
+      100,
+      15,
+      140,
+      30,
+      30
+    ],
+    "effect_values_max_50": [
+      240,
+      300,
+      15,
+      100,
+      15,
+      140,
+      30,
+      30
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      4,
+      4,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Increase damage with fewer enemies&[On Critical hit]Skill Power+#PER3#%[Self],Action Gauge+#PER4#&All damage+#PER5#%(3T)[Party],Additional Hits [1～3(Power E+)]&DEF/RES-#PER7#%(3T)[All Enemies]",
+    "description": "Mission understood. Rozala will destroy it.",
+    "resource_id": 3003973,
+    "continuous_attack_rates": [
+      100,
+      90,
+      75
+    ]
+  },
+  {
+    "id": 4003971,
+    "name": "photon barrette",
+    "name_battle": "photon\\nbarrette",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      21,
+      143,
+      65,
+      101
+    ],
+    "effect_values_min": [
+      88,
+      50,
+      10,
+      30,
+      10
+    ],
+    "effect_values_max_30": [
+      118,
+      50,
+      10,
+      30,
+      10
+    ],
+    "effect_values_max_40": [
+      120,
+      50,
+      10,
+      30,
+      10
+    ],
+    "effect_values_max_50": [
+      122,
+      50,
+      10,
+      30,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Action Gauge-#PER2#&Star resistance-#PER3#%(3T)[All Enemies], CRD+#PER4#%(3T)&All damage+#PER5#%(3T)[Party]",
+    "description": "Bits deployed and swept.",
+    "resource_id": 3003971,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003972,
+    "name": "thunder pulsar",
+    "name_battle": "thunder\\npulsar",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      5,
+      133,
+      23,
+      25,
+      125,
+      150,
+      10,
+      65,
+      63,
+      20
+    ],
+    "effect_values_min": [
+      260,
+      100,
+      30,
+      100,
+      100,
+      100,
+      10,
+      50,
+      50,
+      15,
+      1000
+    ],
+    "effect_values_max_30": [
+      290,
+      100,
+      30,
+      100,
+      100,
+      100,
+      10,
+      50,
+      50,
+      15,
+      1000
+    ],
+    "effect_values_max_40": [
+      301,
+      100,
+      30,
+      100,
+      100,
+      100,
+      10,
+      50,
+      50,
+      15,
+      1000
+    ],
+    "effect_values_max_50": [
+      306,
+      100,
+      30,
+      100,
+      100,
+      100,
+      10,
+      50,
+      50,
+      15,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5,
+      5,
+      5,
+      5
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "description_effect": "Paralysis(2T)&Steal #PER3# SP&DEF/RES・CRTremove buff effect&Damage Taken + #PER7#%(2T)[Single Enemy],INT/CRD+#PER8#%(2T)&CRT+#PER10#%(2T)&[When defeating an enemy]、Action Gauge+#PER11#[Self]",
+    "description": "Identify and detain the threat target.",
+    "resource_id": 3003972,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4003973,
+    "name": "planet cannon",
+    "name_battle": "planet\\ncannon",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 90,
+    "sp_max_30": 85,
+    "sp_max_40": 80,
+    "sp_max_50": 74,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      84,
+      81,
+      20,
+      101,
+      132,
+      14,
+      16
+    ],
+    "effect_values_min": [
+      208,
+      300,
+      15,
+      100,
+      15,
+      140,
+      30,
+      30
+    ],
+    "effect_values_max_30": [
+      238,
+      300,
+      15,
+      100,
+      15,
+      140,
+      30,
+      30
+    ],
+    "effect_values_max_40": [
+      243,
+      300,
+      15,
+      100,
+      15,
+      140,
+      30,
+      30
+    ],
+    "effect_values_max_50": [
+      248,
+      300,
+      15,
+      100,
+      15,
+      140,
+      30,
+      30
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      4,
+      4,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "description_effect": "Increase damage with fewer enemies&[On Critical hit]Skill Power+#PER3#%[Self],Action Gauge+#PER4#&All damage+#PER5#%(3T)[Party],Additional Hits [1～3(Power E+)]&DEF/RES-#PER7#%(3T)[All Enemies]",
+    "description": "Mission understood. Rozala will destroy it.",
+    "resource_id": 3003973,
+    "continuous_attack_rates": [
+      100,
+      90,
+      75
+    ]
+  },
+  {
+    "id": 3201151,
+    "name": "death press",
+    "name_battle": "death press",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      14,
+      16,
+      64,
+      101
+    ],
+    "effect_values_min": [
+      60,
+      30,
+      30,
+      15,
+      10
+    ],
+    "effect_values_max_30": [
+      90,
+      30,
+      30,
+      15,
+      10
+    ],
+    "effect_values_max_40": [
+      91,
+      30,
+      30,
+      15,
+      10
+    ],
+    "effect_values_max_50": [
+      92,
+      30,
+      30,
+      15,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      5
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      5
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF/RES-#PER2#%(3T)&CRT-#PER4#%(3T)[All Enemies],All damage+#PER5#%(5T)[Party]",
+    "description": "With the power of pudding, even giant size is no problem!",
+    "resource_id": 3201151,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201152,
+    "name": "Prindesse breath",
+    "name_battle": "Prindesse\\nbreath",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      8,
+      65,
+      101,
+      39,
+      63,
+      150,
+      134
+    ],
+    "effect_values_min": [
+      80,
+      1000,
+      100,
+      100,
+      20,
+      3,
+      10,
+      10,
+      85
+    ],
+    "effect_values_max_30": [
+      110,
+      1000,
+      100,
+      100,
+      20,
+      3,
+      10,
+      10,
+      85
+    ],
+    "effect_values_max_40": [
+      112,
+      1000,
+      100,
+      100,
+      20,
+      3,
+      10,
+      10,
+      85
+    ],
+    "effect_values_max_50": [
+      114,
+      1000,
+      100,
+      100,
+      20,
+      3,
+      10,
+      10,
+      85
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      5,
+      5,
+      5,
+      0,
+      5,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      5,
+      5,
+      5,
+      0,
+      5,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited 3T]Action Gauge+#PER2#&ATK/CRD+#PER3#%(5T)&All damage+#PER5#%(5T)[Self],CRT+#PER7#%(5T)[Party],Damage Taken + #PER8#%(2T)&Thorns(2T)[All Enemies]",
+    "description": "Hahahahaha! Infinite pudding powerooo desu!",
+    "resource_id": 3201152,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3201153,
+    "name": "Purin-Desco mode",
+    "name_battle": "Purin-Desco\\nmode",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 68,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      140,
+      40,
+      8,
+      65,
+      98
+    ],
+    "effect_values_min": [
+      480,
+      0,
+      11,
+      25,
+      25,
+      1
+    ],
+    "effect_values_max_30": [
+      510,
+      0,
+      11,
+      25,
+      25,
+      1
+    ],
+    "effect_values_max_40": [
+      525,
+      0,
+      11,
+      25,
+      25,
+      1
+    ],
+    "effect_values_max_50": [
+      540,
+      0,
+      11,
+      25,
+      25,
+      1
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      5,
+      5,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Lock-On (CRT decreases every successful hit)&Uses enemy's lower DEF or RES for damage calculation&ATK/CRD+#PER4#%(3T)[Self],Buff duration extended-#PER6#[Single Enemy]",
+    "description": "It's game over with this super judgmental body hit!",
+    "resource_id": 3201153,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201151,
+    "name": "death press",
+    "name_battle": "death press",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      14,
+      16,
+      64,
+      101
+    ],
+    "effect_values_min": [
+      68,
+      30,
+      30,
+      15,
+      10
+    ],
+    "effect_values_max_30": [
+      98,
+      30,
+      30,
+      15,
+      10
+    ],
+    "effect_values_max_40": [
+      99,
+      30,
+      30,
+      15,
+      10
+    ],
+    "effect_values_max_50": [
+      100,
+      30,
+      30,
+      15,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      5
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      5
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF/RES-#PER2#%(3T)&CRT-#PER4#%(3T)[All Enemies],All damage+#PER5#%(5T)[Party]",
+    "description": "With the power of pudding, even giant size is no problem!",
+    "resource_id": 3201151,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201152,
+    "name": "Prindesse breath",
+    "name_battle": "Prindesse\\nbreath",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 37,
+    "sp_max_30": 32,
+    "sp_max_40": 30,
+    "sp_max_50": 28,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      8,
+      65,
+      101,
+      39,
+      63,
+      150,
+      134
+    ],
+    "effect_values_min": [
+      80,
+      1000,
+      100,
+      100,
+      20,
+      3,
+      10,
+      10,
+      85
+    ],
+    "effect_values_max_30": [
+      110,
+      1000,
+      100,
+      100,
+      20,
+      3,
+      10,
+      10,
+      85
+    ],
+    "effect_values_max_40": [
+      112,
+      1000,
+      100,
+      100,
+      20,
+      3,
+      10,
+      10,
+      85
+    ],
+    "effect_values_max_50": [
+      114,
+      1000,
+      100,
+      100,
+      20,
+      3,
+      10,
+      10,
+      85
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      5,
+      5,
+      5,
+      0,
+      5,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      5,
+      5,
+      5,
+      0,
+      5,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited 3T]Action Gauge+#PER2#&ATK/CRD+#PER3#%(5T)&All damage+#PER5#%(5T)[Self],CRT+#PER7#%(5T)[Party],Damage Taken + #PER8#%(2T)&Thorns(2T)[All Enemies]",
+    "description": "Hahahahaha! Infinite pudding powerooo desu!",
+    "resource_id": 3201152,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4201153,
+    "name": "Purin-Desco mode",
+    "name_battle": "Purin-Desco\\nmode",
+    "command_category": 3,
+    "attr": 3,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 68,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      140,
+      40,
+      8,
+      65,
+      98
+    ],
+    "effect_values_min": [
+      490,
+      0,
+      11,
+      25,
+      25,
+      1
+    ],
+    "effect_values_max_30": [
+      520,
+      0,
+      11,
+      25,
+      25,
+      1
+    ],
+    "effect_values_max_40": [
+      535,
+      0,
+      11,
+      25,
+      25,
+      1
+    ],
+    "effect_values_max_50": [
+      550,
+      0,
+      11,
+      25,
+      25,
+      1
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      5,
+      5,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Lock-On (CRT decreases every successful hit)&Uses enemy's lower DEF or RES for damage calculation&ATK/CRD+#PER4#%(3T)[Self],Buff duration extended-#PER6#[Single Enemy]",
+    "description": "It's game over with this super judgmental body hit!",
+    "resource_id": 3201153,
     "continuous_attack_rates": []
   }
 ]

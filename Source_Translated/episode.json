@@ -5278,5 +5278,45 @@
     "name": "Summer Palace of Etna Defense",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 19491,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "This is Disgea Mayhem! The most evil pudding that shakes the Netherworld!",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19492,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "This is Disgea Mayhem! The most evil pudding EXTRA that shakes the Netherworld!",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19541,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Disgea Mayhem Collaboration Memorial Special Battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19551,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Trial Room Raspberyl XENO",
+    "open_at": "",
+    "close_at": ""
   }
 ]

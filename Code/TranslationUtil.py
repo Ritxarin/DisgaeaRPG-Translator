@@ -290,7 +290,8 @@ class Translator_Util:
                 mtime = os.path.getmtime(file_path)
                 modified_date = datetime.fromtimestamp(mtime)
 
-                # Compare with cutoff date. Get if modified more recently OR before initial setup (means this is a file that's now bein)
+                # Compare with cutoff date. Get if modified more recently OR before initial setup
+                # this means this is a file that hadn't been translated before
                 if modified_date > last_execution_timestamp or modified_date < initial_setup_timestamp:
                     updated_files.append(filename)
 

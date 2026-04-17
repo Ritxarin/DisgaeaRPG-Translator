@@ -14,6 +14,9 @@ class Config:
     DEEPL_API_KEY = "YOUR API KEY HERE"
     INITIAL_SETUP = "initial_setup_date"
     LAST_EXECUTION = "last_execution_date"
+    GLOSSARY_HASH = "glossary_hash"
+    GLOSSARY_ID = "glossary_id"
+    GLOSSARY_NAME = "Disgaea_RPG_Glossary"
     TEXTURE_UPDATED_DATE = "texture_last_updated_date"
     CONFIG_PATH = 'config.json'
     DEVICE = ''
@@ -90,6 +93,40 @@ class Config:
     def get_updated_files(cls) -> List[str]:
         config = cls._load_config()
         return config.get('updated_files', [])
+    
+    @classmethod
+    def get_string_field(cls, field_name: str) -> Optional[str]:
+        """Get a string field from the config by name."""
+        config = cls._load_config()
+
+        if cls.DEVICE is None:
+            raise RuntimeError("DEVICE not set. Use Config.set_device() first.")
+
+        device_suffix = f"_{cls.DEVICE}"
+        full_field_name = field_name + device_suffix
+
+        value = config.get(full_field_name)
+        return str(value) if value is not None else None
+
+
+    @classmethod
+    def set_string_field(cls, field_name: str, value: Optional[str]):
+        """Set a string field in the config."""
+        config = cls._load_config()
+
+        if cls.DEVICE is None:
+            raise RuntimeError("DEVICE not set. Use Config.set_device() first.")
+
+        device_suffix = f"_{cls.DEVICE}"
+        full_field_name = field_name + device_suffix
+
+        if value is None:
+            # Optional: remove the field if None is passed
+            config.pop(full_field_name, None)
+        else:
+            config[full_field_name] = value
+
+        cls._save_config(config)
         
     FILES_TO_TRANSLATE =  [
         'achievement', 'agenda', 'area', 'arenacategory', 'beginnermission', 'boost',
@@ -114,37 +151,22 @@ class Config:
         'weapon'
     ]
 
-    FILES_TO_PATCH =  [
-        'story'
-    ]
-
-    FILES_TO_IGNORE = ['areareward', 'banner', 'campaign', 'campaignloginbonus', 
-            'characterboost', 'charactermagiccommand', 'charactercommand', 'charactermaterial', 'characterretrofit',
-            'divisionbattle', 'divisionbattlehpreducereward', 'divisionbattlerankingreward', 'divisionbattlereward',
-            'divisionbattlerewardgroup', 'divisionbattlestage', 
-            'enemy', 'enemygroupposition', 'enemyleaderskill', 
-            'eventboostcharacter', 'eventterm',
-            'gacha', 'gachabonus', 'gachabonuscategory', 'gachabonusgroup', 'gachabutton', 'gachagroup', 'gachagroupitem', 
-            'gachalot', 'gachapickup', 'gachaspecificcountbonus', 'gachaspecificprice',
-            'itemshop', 'mapeventbattlerankingreward', 'mapeventbattlereward', 'mapeventbattlerewardgroup',
-            'memorystory',
-            'product', 'productpresent', 'renewstoryeventboss', 'ritualtrainingmaterialdata', 'ritualtrainingstage',
-            'stageenemygroup', 'story', 'storycharacter', 'storytalk', 'stopnotificationterm'
-          ]
-
     FILES_TO_CHECK_FOR_UPDATES =  ['command', 'leaderskill']
 
-    FILES_TO_TRACK_NEW_ENTRIES =  ['command', 'leaderskill', 'character', 'characterclassname', 'item', 'product', 'event']
+    FIELDS_TO_CHECK_FOR_UPDATES = [ 'description', 'description_effect' ]
+
+    FILES_TO_TRACK_NEW_ENTRIES =  ['character', 'characterclassname', 'command', 'event', 'item', 
+                                   'leaderskill', 'product']
 
     FIELDS_TO_TRANSLATE = [
-        'ability_description', 'body', 'boost_description', 'boost_title', 'button_text', 'category', 'class_name', 'class_name_1',
-        'class_name_2', 'class_name_3', 'class_name_4', 'class_name_5', 'condition_unit_name',
+        'ability_description', 'body', 'boost_description', 'boost_title', 'button_text', 'category', 
+        'chara1_name', 'chara2_name', 'chara3_name', 
+        'class_name', 'class_name_1', 'class_name_2', 'class_name_3', 'class_name_4', 'class_name_5', 
+        'condition_unit_name',
         'description', 'description_effect', 'description_format',
         'get_areas', 'item_name', 'm_text', 'name', 'name_battle', 'release_content_description',
         'resource_name', 'sheet_name', 'sub_name', 'talk_text', 'text', 'title', 
     ]
-
-    FIELDS_TO_CHECK_FOR_UPDATES = [ 'description', 'description_effect' ]
 
     CHARACTER_FILE = "character.json"
 
@@ -155,6 +177,7 @@ class Paths:
     PATTERN_DICTIONARIES_DIR = Config.PROJECT_ROOT / "Dictionaries_Pattern"
     GLOBAL_ASSETS_DIR = Config.PROJECT_ROOT / "Global_Assets"
     SOURCE_TRANSLATED_DIR = Config.PROJECT_ROOT / "Source_Translated"
+    DEEPL_DIR = Config.PROJECT_ROOT / "DeepL"
     SOURCE_DIR = "Source"
     NEW_ENTRIES_DIR = "New_Entries"
     TRANSLATED_FILES_DIR = "Translated_Files"

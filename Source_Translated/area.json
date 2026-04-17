@@ -31440,7 +31440,7 @@
   {
     "id": 1832101,
     "m_episode_id": 18321,
-    "name": "During the test fight Fuji Zesksai",
+    "name": "During the test fight Fuji Zessho-sai",
     "heading": "",
     "description": "",
     "bg_id": 10004,
@@ -35778,6 +35778,94 @@
     "heading": "",
     "description": "None",
     "bg_id": 0,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1949101,
+    "m_episode_id": 19491,
+    "name": "Appearance! The Jie Chou Overlord",
+    "heading": "",
+    "description": "Killia and Zeroken, who are searching for the \"deadliest\npudding\" in hell, appear in front of them...",
+    "bg_id": 10173,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1949102,
+    "m_episode_id": 19491,
+    "name": "The Other Desco.",
+    "heading": "",
+    "description": "The group sets out to search for the \"Hajiko-Hirakuo\nPudding,\" which grants power to those who eat it...",
+    "bg_id": 10173,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 2
+  },
+  {
+    "id": 1949103,
+    "m_episode_id": 19491,
+    "name": "Tear! Barricades!",
+    "heading": "",
+    "description": "The group followed Desco into the barricaded\ninterior---where they were met by the police.",
+    "bg_id": 10173,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 3
+  },
+  {
+    "id": 1949104,
+    "m_episode_id": 19491,
+    "name": "Rozala of Information",
+    "heading": "",
+    "description": "The team arrives at the final line of\ndefense. What is the power of Rozala?",
+    "bg_id": 10173,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 4
+  },
+  {
+    "id": 1949105,
+    "m_episode_id": 19491,
+    "name": "The one who took the pudding.",
+    "heading": "",
+    "description": "Etna has the power of the first sparkling pudding. Is\nthere any way to stop its overwhelming power? ...",
+    "bg_id": 10173,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 5
+  },
+  {
+    "id": 1949201,
+    "m_episode_id": 19492,
+    "name": "EXTRA Area",
+    "heading": "",
+    "description": "Use the key of BOSS\nto challenge further strong enemies!",
+    "bg_id": 10173,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1954101,
+    "m_episode_id": 19541,
+    "name": "special battle",
+    "heading": "",
+    "description": "None",
+    "bg_id": 0,
+    "m_preview_id": 0,
+    "area_special_type": 0,
+    "sort": 1
+  },
+  {
+    "id": 1955101,
+    "m_episode_id": 19551,
+    "name": "Trial Room Raspberyl XENO",
+    "heading": "",
+    "description": "",
+    "bg_id": 10004,
     "m_preview_id": 0,
     "area_special_type": 0,
     "sort": 1

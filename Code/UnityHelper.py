@@ -160,7 +160,12 @@ class UnityHelper:
                         if en_data is not None:
                             for key in Config.FIELDS_TO_TRANSLATE:
                                 if key in en_data:
-                                    item[key] = en_data[key]
+                                    value = en_data[key]
+                                    # Skip None values
+                                    if value is None:
+                                        item[key] = ''
+                                    else:
+                                        item[key] = en_data[key]
                                     updated = True
                 if updated:
                     obj.save_typetree(tree)

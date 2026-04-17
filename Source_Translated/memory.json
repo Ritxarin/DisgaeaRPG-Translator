@@ -1190,5 +1190,21 @@
     "main_m_memory_effect_type_id": 10,
     "sub_m_character_id": 303,
     "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 151,
+    "name": "Giant Jie Choumakai",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 111,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 118
+  },
+  {
+    "id": 150,
+    "name": "The Jie Super Overlord and the Mercenary",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 116,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 115
   }
 ]

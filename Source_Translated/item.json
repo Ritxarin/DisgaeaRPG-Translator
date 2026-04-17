@@ -7314,7 +7314,7 @@
   },
   {
     "id": 6501,
-    "name": "Demon Resistance Drop Level 1",
+    "name": "Resistance Drop Level 1",
     "item_type": 65,
     "icon_no": 6501,
     "effect_value": [
@@ -7326,7 +7326,7 @@
   },
   {
     "id": 6502,
-    "name": "Demon Resistance Drop Level 2",
+    "name": "Resistance Drop Level 2",
     "item_type": 65,
     "icon_no": 6502,
     "effect_value": [
@@ -7338,7 +7338,7 @@
   },
   {
     "id": 6503,
-    "name": "Demon Resistance Drop Level 3",
+    "name": "Resistance Drop Level 3",
     "item_type": 65,
     "icon_no": 6503,
     "effect_value": [
@@ -7350,7 +7350,7 @@
   },
   {
     "id": 6504,
-    "name": "Demon Resistance Drop Level 4",
+    "name": "Resistance Drop Level 4",
     "item_type": 65,
     "icon_no": 6504,
     "effect_value": [
@@ -7362,7 +7362,7 @@
   },
   {
     "id": 6505,
-    "name": "Demon Resistance Drop Level 5",
+    "name": "Resistance Drop Level 5",
     "item_type": 65,
     "icon_no": 6505,
     "effect_value": [
@@ -9012,7 +9012,7 @@
     "effect_value": [
       776
     ],
-    "description": "Fuji Zesksai Raid exclusive PT",
+    "description": "Fuji Zessho-sai Raid exclusive PT",
     "max_num": 99999999,
     "sell_price": 0
   },
@@ -18663,7 +18663,7 @@
   },
   {
     "id": 2700339,
-    "name": "The Crystal of Fuji Zesksai",
+    "name": "The Crystal of Fuji Zessho-sai",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [
@@ -27268,6 +27268,357 @@
       942
     ],
     "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 395,
+    "name": "White enemy chocolate",
+    "item_type": 3,
+    "icon_no": 395,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. hardness! mass! Sweetness! Best class in every way!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 396,
+    "name": "paw cookie",
+    "item_type": 3,
+    "icon_no": 396,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. It has a unique smell of meatballs. A fragrant scent that you will get addicted to!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 397,
+    "name": "Torayokan",
+    "item_type": 3,
+    "icon_no": 397,
+    "effect_value": [
+      100
+    ],
+    "description": "Mobility is fully restored. A prestigious and long-established item from the demon world. It will be appreciated as a gift.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340284,
+    "name": "Festival character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      946
+    ],
+    "description": "Available at the Fes Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340285,
+    "name": "Festival character exchange ticket (normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      947
+    ],
+    "description": "Can be used at the festival character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700395,
+    "name": "Red Queen Seraphina Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Red Queen Seraphina's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 398,
+    "name": "Laharl pudding",
+    "item_type": 3,
+    "icon_no": 398,
+    "effect_value": [
+      100
+    ],
+    "description": "Full recovery of action. Your faithfully recreated antennae hair will be hard to eat!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4568,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      949
+    ],
+    "description": "This is Disgea Mayhem! The most dangerous BOSSPT dedicated to pudding that shakes the Netherworld!",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5936,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      949
+    ],
+    "description": "This is Disgea Mayhem! The key needed to challenge the BOSS in the deadliest pudding that shakes the Netherworld.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200035,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200035,
+    "effect_value": [
+      949
+    ],
+    "description": "This is Disgea Mayhem! The most dangerous pudding-only PT that shakes the Netherworld!",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340286,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      950
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340287,
+    "name": "PU Character Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      951
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340288,
+    "name": "The Witch and the Hundred Knight Exchange Ticket (paid)",
+    "item_type": 34,
+    "icon_no": 340009,
+    "effect_value": [
+      952
+    ],
+    "description": "Available at the Witch and the Hundred Knight Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340289,
+    "name": "The Witch and the Hundred Knight Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 340010,
+    "effect_value": [
+      953
+    ],
+    "description": "Available at the Witch and the Hundred Knight Exchange (regular)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300396,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      396
+    ],
+    "description": "A wondrous potion that grants Tichelle mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300398,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      398
+    ],
+    "description": "A wondrous potion that grants N.A. mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320114,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20114
+    ],
+    "description": "A wondrous potion that grants Bluest mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700396,
+    "name": "Tichelle Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Tichelle's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700397,
+    "name": "Rozala Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Rozala's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700398,
+    "name": "N.A. Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for N.A.'s Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720114,
+    "name": "Bluest Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Bluest's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720115,
+    "name": "Pudding Desco Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Pudding Desco's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600396,
+    "name": "Tichelle Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      396
+    ],
+    "description": "Nether Star for Awakening 6★ Tichelle.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600398,
+    "name": "N.A. Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      398
+    ],
+    "description": "Nether Star for Awakening 6★ N.A..",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620114,
+    "name": "Bluest Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20114
+    ],
+    "description": "Nether Star for Awakening 6★ Bluest.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600397,
+    "name": "Rozala Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      397
+    ],
+    "description": "Nether Star for Awakening 6★ Rozala.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 6713,
+    "name": "soft and fluffy pudding",
+    "item_type": 67,
+    "icon_no": 6713,
+    "effect_value": [
+      0
+    ],
+    "description": "A reward pudding made by Tichelle for a limited time, which\ncan be exchanged for various rewards at the limited time exchange.",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340290,
+    "name": "Fes Character Exchange Ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3486,
+    "effect_value": [
+      960
+    ],
+    "description": "Available at the festival character exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340291,
+    "name": "FES Character Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 3485,
+    "effect_value": [
+      961
+    ],
+    "description": "Available at the festival character exchange (regular)",
     "max_num": 9999,
     "sell_price": 0
   }

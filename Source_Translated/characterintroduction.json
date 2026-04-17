@@ -1234,7 +1234,7 @@
   {
     "id": 1124,
     "img_id": 137,
-    "name": "Keke ",
+    "name": "Keke",
     "description": "A follower of the god Dulvalkie, he is a sorcerer of the Netherworld whose appointed task is to control the fortunes and misfortunes of others.\nHe visits Etna after hearing he can control the fate of the greatest trainer if he remains in the Summer Retreat.\nHe ends up the boss of the Equipment Workshop where equipment is refined.\nAlthough he may appear tricky, he is actually a sweetheart.\nHe will attack enemies with silly curses and support allies with equally silly spells...probably.",
     "color_no": 11
   },
@@ -3474,7 +3474,7 @@
   {
     "id": 1444,
     "img_id": 339,
-    "name": "Fuji Zesksai",
+    "name": "Fuji Zessho-sai",
     "description": "With the power of the four seasons of mourning,\nFuji has brought out his potential to the limit.\nIn the future, the limits that Fuji will reach\nPerhaps because the power has awakened to the state,\nMy head is more than ever\nIt's full of things about Ao.\nBlood vomiting due to human allergies,\nI'm in the verge of bleeding!",
     "color_no": 1
   },
@@ -4212,5 +4212,47 @@
     "name": "Seraphine XENO",
     "description": "One of the queens of the ``time world.''\nAround my beloved Kiria\nWar with the Red Queen\nIt's unfolding.\nSicily knows,\nShe is a different person from Seraphine XENO.",
     "color_no": 9
+  },
+  {
+    "id": 1533,
+    "img_id": 396,
+    "name": "Tichelle",
+    "description": "A character in Disgea Mayhem.\nHe became Overlord after\nthe death of his father.\nHe loves pudding, both\nmaking and eating it. He\nis a master craftsman.",
+    "color_no": 11
+  },
+  {
+    "id": 1534,
+    "img_id": 20114,
+    "name": "Bluest",
+    "description": "A character in Disgea Mayhem. A minister in Tichelle's\nservice. He is a competent man with a\nlot of petulant and sarcastic remarks. He was\ninvolved in a commotion and came to Hell.",
+    "color_no": 0
+  },
+  {
+    "id": 1535,
+    "img_id": 398,
+    "name": "N.A.",
+    "description": "The protagonist of Disgea Mayhem. He is\na freelance mercenary, currently employed by\nTichelle. He does not like pudding\nitself, but is involved in it\nfor the sake of the mission.",
+    "color_no": 12
+  },
+  {
+    "id": 1536,
+    "img_id": 20115,
+    "name": "Pudding Desco",
+    "description": "Another Desco, born of a\nsplit Desco under the influence\nof the legendary pudding created\nby Tichelle's father. His personality\nis almost the same as\nDesco's, and he loves Fuka.",
+    "color_no": 3
+  },
+  {
+    "id": 1537,
+    "img_id": 397,
+    "name": "Rozala",
+    "description": "He is an executive of the Jie Cho-Dan\nNetherworld and one of the \"Six Split\nTroops\". By communicating with the stars, he\ngains vast knowledge and immense magical power.\nHe boasts of his outstanding information-gathering abilities.",
+    "color_no": 0
+  },
+  {
+    "id": 1538,
+    "img_id": 90097,
+    "name": "Etna of the first twinkling of the light",
+    "description": "Etna has been empowered after\neating the \"Hajiki-Hikkou Pudding. Her\nrationality is unhinged, and\nher attitude and ambitions are\nmore daring than usual.",
+    "color_no": 1
   }
 ]
