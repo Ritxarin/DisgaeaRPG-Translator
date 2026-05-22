@@ -77,7 +77,7 @@ patterns = [
     (
         re.compile(r"(.+?)を魔改造させよう"),
         lambda m, ctx: (
-            f"Nether Enhancemen "
+            f"Nether Enhance "
             f"{ctx.characters.get(m.group(1), m.group(1))}"
         )
     ),
@@ -92,6 +92,22 @@ patterns = [
             f"Clear {int(m.group(2)):,} stages with "
             f"{ctx.characters.get(m.group(1), m.group(1))} in your party "
             f"(not companion)"
+        )
+    ),
+
+    # --- Character Reminiscence area --- #
+    (
+        re.compile(r"(.+?)追想エリア"),
+        lambda m, ctx: (
+            f"{ctx.characters.get(m.group(1), m.group(1))} Reminiscence Area"
+        )
+    ),
+
+    # --- Trial --- #
+    (
+        re.compile(r"試闘の間\s*(.+)"),
+        lambda m, ctx: (
+            f"Trial Room {ctx.characters.get(m.group(1), m.group(1))}"
         )
     ),
 

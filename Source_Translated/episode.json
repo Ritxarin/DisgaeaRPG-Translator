@@ -5318,5 +5318,95 @@
     "name": "Trial Room Raspberyl XENO",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 19561,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Puddesco",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19621,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Summer Palace of Etna Defense",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 22581,
+    "episode_type": 5,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Demon God Academy vs. Evil Academy! A joint school disaster of madness! (Reminiscence)",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19691,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "XENO Blood War! ～The Ephemeral Evil God and the Young Demons",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19692,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "XENO Blood War! -The Fragile Evil God and the Young Demons - EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19721,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "6.5th Anniversary Special Battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19731,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Trial Room, Nightmare Artina XENO",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19741,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Piyori XENO",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19751,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Etna's Summer Resort Defence",
+    "open_at": "",
+    "close_at": ""
   }
 ]

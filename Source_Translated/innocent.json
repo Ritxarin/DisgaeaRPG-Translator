@@ -1321,5 +1321,31 @@
     "weapon_type": 12,
     "m_character_id": 394,
     "trainer_group_id": 2
+  },
+  {
+    "id": 107,
+    "name": "Super ATK Boost",
+    "resource_name": "monster_atk",
+    "innocent_type": 2,
+    "category": 2,
+    "description_format": "ATK{0}% increase",
+    "calculate_format": "{0}%",
+    "effect_type": 60,
+    "weapon_type": 8,
+    "m_character_id": 20115,
+    "trainer_group_id": 2
+  },
+  {
+    "id": 108,
+    "name": "Super ATK Boost",
+    "resource_name": "spear",
+    "innocent_type": 2,
+    "category": 2,
+    "description_format": "ATK{0}% increase",
+    "calculate_format": "{0}%",
+    "effect_type": 54,
+    "weapon_type": 3,
+    "m_character_id": 400,
+    "trainer_group_id": 2
   }
 ]

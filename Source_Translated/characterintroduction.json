@@ -4237,7 +4237,7 @@
   {
     "id": 1536,
     "img_id": 20115,
-    "name": "Pudding Desco",
+    "name": "Puddesco",
     "description": "Another Desco, born of a\nsplit Desco under the influence\nof the legendary pudding created\nby Tichelle's father. His personality\nis almost the same as\nDesco's, and he loves Fuka.",
     "color_no": 3
   },
@@ -4254,5 +4254,47 @@
     "name": "Etna of the first twinkling of the light",
     "description": "Etna has been empowered after\neating the \"Hajiki-Hikkou Pudding. Her\nrationality is unhinged, and\nher attitude and ambitions are\nmore daring than usual.",
     "color_no": 1
+  },
+  {
+    "id": 1539,
+    "img_id": 202,
+    "name": "Young Rozalin",
+    "description": "Rozalin has become a child. She\nhas lost part of her\nmemory, and even she does\nnot know why she has\nshrunk. Even though she has\nbecome a child, she still\nhas the same high-spirited personality.",
+    "color_no": 9
+  },
+  {
+    "id": 1540,
+    "img_id": 90102,
+    "name": "Young Thunderlady Laharl",
+    "description": "Thunderlord Laharl, Girl Laharl, who has\nbecome an infant. Like Young\nRozalin, she cannot remember the\nreason for her infantile transformation.\nEven though her figure has\nbecome smaller, her straightforward personality\nand sissy-conscience are still intact.",
+    "color_no": 3
+  },
+  {
+    "id": 1541,
+    "img_id": 400,
+    "name": "Piyori XENO",
+    "description": "Piyori Nijino from another world. He\nis a dark hero who\nis kind to children and\nhas no mercy on demons.\nHe is a man of\nexcessive justice who will stop\nat nothing to defeat evil.",
+    "color_no": 12
+  },
+  {
+    "id": 1542,
+    "img_id": 402,
+    "name": "Immovable Strategist Higan",
+    "description": "After the peace of the Hinomoto\nNetherworld group, Higan of the\nworld line put down his\nsword and wandered the universe. He\nis calmer than when he\nwas once known as \"Zekkosai.",
+    "color_no": 2
+  },
+  {
+    "id": 1543,
+    "img_id": 90100,
+    "name": "Pirilika Zesshosai",
+    "description": "Pirilika inherited the title of Zesshosai\nfrom Higan. She has grown up\nto be a brave swordsman, but\nher brightness and natural temperament remain\nas they were in the past.",
+    "color_no": 3
+  },
+  {
+    "id": 1544,
+    "img_id": 90101,
+    "name": "Valvatorez, the ephemeral evil god",
+    "description": "Nightmare Tyrant Valvatorez has taken on\nthe form of the Overlord God\nZenon. He radiates overwhelming power,\nbut its source is hatred. He\nis tormented by a destructive impulse\nthat wells up from within.",
+    "color_no": 2
   }
 ]

@@ -102,7 +102,7 @@ class DeepLTranslator:
                 )
             else:
                 result = self.client.translate_text(
-                    text, 
+                    flattened, 
                     source_lang=source_lang, 
                     target_lang=target_lang
                 )
@@ -133,8 +133,13 @@ class CharacterNameTranslator:
         self.google_translator = GoogleTranslator(source='auto', target='en')
         self.VARIANT_SUFFIX_MAP = {
             "凶": "Badass",
+            "XENO": "XENO",
+            "絶勝斎": "Zesshosai"
         }
         self.__loadCharacterDictionary()
+        self.name_pattern = re.compile(
+            "(" + "|".join(sorted(self.character_name_dict.keys(), key=len, reverse=True)) + ")"
+        )
 
     def __loadCharacterDictionary(self):
         if os.path.exists(Paths.CHARACTER_DICTIONARIES_DIR):
@@ -167,20 +172,16 @@ class CharacterNameTranslator:
                 return jp_name[:-len(suffix)], en_variant
         return jp_name, None
     
-    def has_variant_suffix(self, jp_name: str) -> bool:
-        return any(jp_name.endswith(suffix) for suffix in self.VARIANT_SUFFIX_MAP)
+    def is_badass_variant(self, jp_name: str) -> bool:
+        return jp_name.endswith('凶')
     
     def translate(self, jp_name):
         # 1️⃣ Extract variant suffix first
         base_name, variant = self._extract_variant(jp_name)
 
-        # 2️⃣ Build regex to match known names (longest first)
-        name_pattern = "|".join(
-            sorted(self.character_name_dict.keys(), key=len, reverse=True)
-        )
-        regex = re.compile(f"({name_pattern})")
+        # 2️⃣ Use regex to match known names
+        match = self.name_pattern.search(base_name)
 
-        match = regex.search(base_name)
         # 3️⃣ No match → fallback translation
         if not match:
             translated = self._translate_with_fallback(base_name)
@@ -352,16 +353,20 @@ class RegexTranslator:
         self.regex_rules = [
             RegexRule(
                 files=["item"],
-                fields=["description", "name"],
+                fields=["description", "name"]
             ),
             RegexRule(
                 files=["product"],
-                fields=["name"],
+                fields=["name"]
             ),
             RegexRule(
                 files=["eventmission"],
-                fields=["title"],
-            )
+                fields=["title"]
+            ),
+            RegexRule(
+                files=["area"],
+                fields=["description", "name"]
+            ),
         ]
 
 
@@ -424,7 +429,7 @@ class Translator:
             # 3️⃣ Character name translation
             if filename == "character" and field == "name":
                 translation = self.character_translator.translate(value)
-                if translation and translation != value and not self.character_translator.has_variant_suffix(value):
+                if translation and translation != value and not self.character_translator.is_badass_variant(value):
                     self.__update_character_master(value, translation)
                 return translation
             

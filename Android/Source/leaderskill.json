@@ -17590,7 +17590,8 @@
         "effect_type": 35,
         "effect_type_params": [
             2,
-            4
+            4,
+            8
         ],
         "limit_damage": 0,
         "limit_characters": [
@@ -17600,8 +17601,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 15,
-        "effect_value_max": 15,
+        "effect_value_min": 40,
+        "effect_value_max": 40,
         "effect_turn": [
             0
         ],
@@ -17610,7 +17611,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティの生存キャラ数が多いほどパーティのATK・INTアップ（最大+#PER#%, 5キャラまで）"
+        "description": "パーティの生存キャラ数が多いほどパーティのATK・INT・CRD・CRTアップ(ATK・INT・CRDは最大+#PER#%"
     },
     {
         "id": 962,
@@ -17648,7 +17649,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "ターン開始時、SPDバフ効果を受けている場合、ATK+#PER#%(1ターン)"
+        "description": "ターン開始時、SPDバフ効果を受けている場合、自分のATK+#PER#%(1T)"
     },
     {
         "id": 963,
@@ -17686,7 +17687,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティの生存キャラ数が多いほど自分が与えるダメージアップ（最大+#PER#%, 5キャラまで）"
+        "description": "パーティの生存キャラ数が多いほど自分が与える全てのダメージアップ(最大+#PER#%, 5キャラまで)"
     },
     {
         "id": 964,
@@ -17714,8 +17715,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 12,
-        "effect_value_max": 12,
+        "effect_value_min": 20,
+        "effect_value_max": 20,
         "effect_turn": [
             0
         ],
@@ -17724,7 +17725,121 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティの女性キャラが受けるダメージ-#PER#%"
+        "description": "パーティの女性キャラが受ける全てのダメージ-#PER#%"
+    },
+    {
+        "id": 965,
+        "name": "共鳴する思い",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 35,
+        "effect_type_params": [
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRTは最大+#PER#%, 5キャラまで)"
+    },
+    {
+        "id": 967,
+        "name": "祝福のインファイト",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 41,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティの生存キャラ数が多いほどパーティが与える全てのダメージアップ(最大+#PER#%, 5キャラまで)"
+    },
+    {
+        "id": 968,
+        "name": "エスコート",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 2,
+        "target_params": [
+            2
+        ],
+        "effect_type": 6,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",初期SP+#PER#"
     },
     {
         "id": 981,
@@ -17764,7 +17879,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "ターン開始時、行動ゲージが最後尾の味方キャラのATK・INT+#PER#％(1ターン)"
+        "description": "ターン開始時、行動ゲージが最後尾の味方キャラのATK・INT+#PER#%(1T)"
     },
     {
         "id": 982,
@@ -17804,7 +17919,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "HPが多いほど自分のATK・DEFアップ(最大+#PER#%)"
+        "description": "HPが多いほど自分のATK・DEF・必殺技で与えるダメージアップ(ATK・DEFは最大+#PER#%"
     },
     {
         "id": 983,
@@ -17832,8 +17947,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 16,
-        "effect_value_max": 16,
+        "effect_value_min": 20,
+        "effect_value_max": 20,
         "effect_turn": [
             0
         ],
@@ -17842,7 +17957,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティが必殺技で与えるダメージ+#PER#％"
+        "description": "パーティが必殺技で与えるダメージ+#PER#%"
     },
     {
         "id": 984,
@@ -17874,8 +17989,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 6,
-        "effect_value_max": 6,
+        "effect_value_min": 7,
+        "effect_value_max": 7,
         "effect_turn": [
             0
         ],
@@ -17884,7 +17999,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティの基礎パラメータ+パーティ男性キャラ数×#PER#％"
+        "description": "パーティの基礎パラメータ+パーティ男性キャラ数×#PER#%"
     },
     {
         "id": 985,
@@ -17923,6 +18038,82 @@
         ],
         "bad_effect_value": 0,
         "description": "、さらにパーティの消費SP-パーティ男性キャラ数×#PER#%"
+    },
+    {
+        "id": 986,
+        "name": "セレブレーション",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 37,
+        "effect_type_params": [
+            3
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 50,
+        "effect_value_max": 50,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",必殺技で与えるダメージは最大+#PER#%)"
+    },
+    {
+        "id": 987,
+        "name": "祝宴のファンファーレ",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 68,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            3
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらに戦闘開始時、パーティにSP自動回復[#PER#](3T)付与"
     },
     {
         "id": 991,
@@ -29763,8 +29954,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 35,
-        "effect_value_max": 35,
+        "effect_value_min": 40,
+        "effect_value_max": 40,
         "effect_turn": [
             0
         ],
@@ -29801,8 +29992,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 25,
-        "effect_value_max": 25,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             0
         ],
@@ -29877,8 +30068,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             2
         ],
@@ -32130,8 +32321,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 25,
-        "effect_value_max": 25,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             0
         ],
@@ -32148,13 +32339,13 @@
         "unique_flg": 1,
         "lv_max": 1,
         "timing_type": 1,
-        "trigger_target": 0,
-        "trigger_status": 0,
-        "trigger_param": 0,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 7,
         "trigger_param2": 0,
-        "target_type": 23,
+        "target_type": 9,
         "target_params": [
-            7
+            0
         ],
         "effect_type": 3,
         "effect_type_params": [
@@ -32168,8 +32359,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 80,
-        "effect_value_max": 80,
+        "effect_value_min": 60,
+        "effect_value_max": 60,
         "effect_turn": [
             0
         ],
@@ -32228,7 +32419,7 @@
         "trigger_status": 21,
         "trigger_param": 1,
         "trigger_param2": 2,
-        "target_type": 9,
+        "target_type": 1,
         "target_params": [
             0
         ],
@@ -32257,7 +32448,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティに人型キャラが2体以上いる場合、自分のINT・DEF・RES・CRD+#PER#%"
+        "description": "パーティに人型キャラが2体以上いる場合、パーティのINT・DEF・RES・CRD+#PER#%"
     },
     {
         "id": 1695,
@@ -32298,6 +32489,44 @@
         "description": ",HP+#PER#%"
     },
     {
+        "id": 1696,
+        "name": "賢者の水杖",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 7,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
         "id": 1698,
         "name": "アディショナルリリーサー",
         "unique_flg": 1,
@@ -32326,8 +32555,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 40,
-        "effect_value_max": 40,
+        "effect_value_min": 50,
+        "effect_value_max": 50,
         "effect_turn": [
             0
         ],
@@ -38080,8 +38309,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 55,
-        "effect_value_max": 55,
+        "effect_value_min": 50,
+        "effect_value_max": 50,
         "effect_turn": [
             0
         ],
@@ -38195,8 +38424,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 5,
-        "effect_value_max": 5,
+        "effect_value_min": 10,
+        "effect_value_max": 10,
         "effect_turn": [
             0
         ],
@@ -38233,8 +38462,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 15,
-        "effect_value_max": 15,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -38244,6 +38473,44 @@
         ],
         "bad_effect_value": 0,
         "description": "、さらにパーティが必殺技で与えるダメージ+#PER#%"
+    },
+    {
+        "id": 1927,
+        "name": "雷帝の光運",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 1,
+        "trigger_status": 8,
+        "trigger_param": 8,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            3
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",必殺技で与えるダメージ+#PER#%(2T)付与"
     },
     {
         "id": 1928,
@@ -61202,8 +61469,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 7,
-        "effect_value_max": 7,
+        "effect_value_min": 8,
+        "effect_value_max": 8,
         "effect_turn": [
             0
         ],
@@ -61326,7 +61593,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": ",CRD+#PER#%(INT・RES上限70%,CRD上限50%)"
+        "description": ",CRD+#PER#%(INT・RES上限80%,CRD上限50%)"
     },
     {
         "id": 2771,
@@ -61355,8 +61622,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 18,
-        "effect_value_max": 18,
+        "effect_value_min": 20,
+        "effect_value_max": 20,
         "effect_turn": [
             0
         ],
@@ -61393,8 +61660,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 45,
-        "effect_value_max": 45,
+        "effect_value_min": 40,
+        "effect_value_max": 40,
         "effect_turn": [
             0
         ],
@@ -61509,8 +61776,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 25,
-        "effect_value_max": 25,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             0
         ],
@@ -61547,8 +61814,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 25,
-        "effect_value_max": 25,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             0
         ],
@@ -61633,7 +61900,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "、さらにRESバフ効果を受けている味方キャラに必殺技で与えるダメージ+#PER#%(2T)付与"
+        "description": "、さらにパーティのRESバフ効果を受けているキャラに必殺技で与えるダメージ+#PER#%(2T)付与"
     },
     {
         "id": 2781,
@@ -79627,7 +79894,8 @@
         "effect_type": 1,
         "effect_type_params": [
             1,
-            2
+            2,
+            3
         ],
         "limit_damage": 0,
         "limit_characters": [
@@ -79647,7 +79915,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティのHP・ATK+#PER#%"
+        "description": "パーティのHP・ATK・DEF+#PER#%"
     },
     {
         "id": 3402,
@@ -79713,8 +79981,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 10,
-        "effect_value_max": 10,
+        "effect_value_min": 12,
+        "effect_value_max": 12,
         "effect_turn": [
             0
         ],
@@ -79791,8 +80059,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 30,
+        "effect_value_max": 30,
         "effect_turn": [
             0
         ],
@@ -79867,8 +80135,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 10,
-        "effect_value_max": 10,
+        "effect_value_min": 15,
+        "effect_value_max": 15,
         "effect_turn": [
             2
         ],
@@ -97347,6 +97615,1559 @@
         "description": "、さらに自分の魔改造1段階毎にパーティのHP・ATK・INT・CRD+#PER#%(上限20%)"
     },
     {
+        "id": 3991,
+        "name": "始煌のヒロイン",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティの基礎パラメータ+#PER#%"
+    },
+    {
+        "id": 3992,
+        "name": "エルダーデザートスプーン",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 3,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が槍武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3993,
+        "name": "芳醇なるカラメル",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 1,
+        "trigger_status": 8,
+        "trigger_param": 7,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、CRTバフ効果を受けている場合、自分に与える全てのダメージ+#PER#%(2T)付与"
+    },
+    {
+        "id": 3994,
+        "name": "傑超たる魔神の領域",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 60,
+        "effect_value_max": 60,
+        "effect_turn": [
+            4,
+            4,
+            4,
+            4
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "戦闘開始時、パーティのHP以外の基礎パラメータ+#PER#%(4T)"
+    },
+    {
+        "id": 3995,
+        "name": "始煌のヒロイン",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 6,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",初期SP+#PER#"
+    },
+    {
+        "id": 3996,
+        "name": "エルダーデザートスプーン",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 3,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 3997,
+        "name": "芳醇なるカラメル",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 36,
+        "target_params": [
+            6
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            4,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            2,
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティのSPDバフ効果を受けているキャラのATK・INT・CRD+#PER#%(2T)"
+    },
+    {
+        "id": 3998,
+        "name": "傑超たる魔神の領域",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 109,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            4
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティにSP超過[#PER#](4T)付与"
+    },
+    {
+        "id": 4001,
+        "name": "闇に染まる虹",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            2
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのHP・ATK+#PER#%"
+    },
+    {
+        "id": 4002,
+        "name": "リベンジャーフィスト",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 50,
+        "effect_value_max": 50,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が拳武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 4003,
+        "name": "レイジングロアー",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 32,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            3,
+            3
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "敵味方いずれかのキャラの戦闘不能時、パーティのATK・CRD+#PER#%(3T)"
+    },
+    {
+        "id": 4004,
+        "name": "誅悪の誓い",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 13,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 8,
+        "effect_value_max": 8,
+        "effect_turn": [
+            1,
+            1
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、敵の生存キャラ数が少ないほどパーティのATK・CRDアップ(最大+40%,1T)"
+    },
+    {
+        "id": 4005,
+        "name": "闇に染まる虹",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 79,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 2,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 340,
+        "effect_value_max": 340,
+        "effect_turn": [
+            3
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらに戦闘開始時、自分に迎撃[星][ATK](3T)付与"
+    },
+    {
+        "id": 4006,
+        "name": "リベンジャーフィスト",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 2,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 4007,
+        "name": "レイジングロアー",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 32,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 22,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらに自分のSP+#PER#"
+    },
+    {
+        "id": 4008,
+        "name": "誅悪の誓い",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 13,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 5,
+        "effect_value_max": 5,
+        "effect_turn": [
+            1
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらに敵の生存キャラ数が少ないほど自分が与える全てのダメージアップ(最大+25%,1T)"
+    },
+    {
+        "id": 4011,
+        "name": "異世界の剣豪",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            2,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのATK・CRD+#PER#%"
+    },
+    {
+        "id": 4012,
+        "name": "神器カイセンドン",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 1,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 50,
+        "effect_value_max": 50,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が剣武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 4013,
+        "name": "異聞・性善説",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 11,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            3
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 11,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティがダメージを受けた時、自分のATK・DEF+#PER#%(2T)"
+    },
+    {
+        "id": 4014,
+        "name": "神討の閃き",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            2,
+            3
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 10,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分の魔改造1段階毎にATK・DEF+#PER#%"
+    },
+    {
+        "id": 4015,
+        "name": "異世界の剣豪",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",HP+#PER#%"
+    },
+    {
+        "id": 4016,
+        "name": "神器カイセンドン",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 1,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 4017,
+        "name": "異聞・性善説",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 11,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 11,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 5,
+        "effect_value_max": 5,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRT+#PER#%(2T)"
+    },
+    {
+        "id": 4018,
+        "name": "神討の閃き",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 10,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 5,
+        "effect_value_max": 5,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRD+#PER#%(ATK・DEF上限100%,CRD上限50%)"
+    },
+    {
+        "id": 4021,
+        "name": "動かざる軍師",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのATK・INT+#PER#%"
+    },
+    {
+        "id": 4022,
+        "name": "彼岸流・軍配術",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 7,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が杖武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 4023,
+        "name": "周到な計略",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 2,
+        "trigger_status": 25,
+        "trigger_param": 83,
+        "trigger_param2": 3,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 22,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティに得意武器種が[剣・拳・銃・杖]のキャラが3体以上いる場合、ターン開始時、パーティのSP+#PER#"
+    },
+    {
+        "id": 4024,
+        "name": "不敗の神算",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 15,
+        "effect_type_params": [
+            2,
+            4,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 18,
+        "effect_value_max": 18,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティが使用するATK・INT・CRDバフの効果+18%"
+    },
+    {
+        "id": 4025,
+        "name": "動かざる軍師",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            3,
+            5,
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",DEF・RES・HP+#PER#%"
+    },
+    {
+        "id": 4026,
+        "name": "彼岸流・軍配術",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 7,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 4027,
+        "name": "周到な計略",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 2,
+        "trigger_status": 25,
+        "trigger_param": 83,
+        "trigger_param2": 3,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティに与える全てのダメージ+#PER#%(2T)付与"
+    },
+    {
+        "id": 4028,
+        "name": "不敗の神算",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 16,
+        "effect_type_params": [
+            3,
+            5
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが使用するDEF・RESデバフの効果+10%"
+    },
+    {
+        "id": 4031,
+        "name": "小さな聖護帝",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 4,
+        "trigger_status": 11,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            1,
+            2,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティのキャラの装備武器種が全て異なっている場合、パーティのHP・ATK・CRD+#PER#%"
+    },
+    {
+        "id": 4032,
+        "name": "ライトニングバレット",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 5,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が銃武器装備時、与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 4033,
+        "name": "電光石火の牽制",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 19,
+        "target_params": [
+            0
+        ],
+        "effect_type": 24,
+        "effect_type_params": [
+            3,
+            5
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "ターン開始時、行動ゲージが先頭の敵キャラのDEF・RES-#PER#%(2T)"
+    },
+    {
+        "id": 4034,
+        "name": "疾風迅雷",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 5,
+        "trigger_target": 2,
+        "trigger_status": 33,
+        "trigger_param": 9,
+        "trigger_param2": 2,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 17,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 125,
+        "effect_value_max": 125,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティに潜在タイプ[キング・ビショップ]のキャラが2体以上いる場合、WAVE開始時、自分の行動ゲージ+#PER#"
+    },
+    {
+        "id": 4035,
+        "name": "小さな聖護帝",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 4,
+        "trigger_status": 11,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 1,
+        "effect_type_params": [
+            6
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 8,
+        "effect_value_max": 8,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",SPD+#PER#%"
+    },
+    {
+        "id": 4036,
+        "name": "ライトニングバレット",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 5,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが与える全てのダメージ+#PER#%"
+    },
+    {
+        "id": 4037,
+        "name": "電光石火の牽制",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 2,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 36,
+        "target_params": [
+            7
+        ],
+        "effect_type": 49,
+        "effect_type_params": [
+            1
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 15,
+        "effect_value_max": 15,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティのCRTバフ効果を受けているキャラに与える全てのダメージ+#PER#%(2T)付与"
+    },
+    {
+        "id": 4038,
+        "name": "疾風迅雷",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 5,
+        "trigger_target": 2,
+        "trigger_status": 33,
+        "trigger_param": 9,
+        "trigger_param2": 2,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            3
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRT+#PER#%(3T)"
+    },
+    {
         "id": 10011,
         "name": "ニジマーク",
         "unique_flg": 0,
@@ -114251,7 +116072,7 @@
         "effect_value_min": 60,
         "effect_value_max": 60,
         "effect_turn": [
-            1
+            3
         ],
         "bad_effect_type": 0,
         "bad_effect_params": [
@@ -114306,7 +116127,7 @@
         "timing_type": 1,
         "trigger_target": 2,
         "trigger_status": 25,
-        "trigger_param": 256,
+        "trigger_param": 320,
         "trigger_param2": 2,
         "target_type": 1,
         "target_params": [
@@ -114334,7 +116155,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティに得意武器種が[魔物魔法]のキャラが2体以上いる場合、パーティが必殺技で与えるダメージ+#PER#%"
+        "description": "パーティに得意武器種が[杖・魔物魔法]のキャラが2体以上いる場合、パーティが必殺技で与えるダメージ+#PER#%"
     },
     {
         "id": 200496,
@@ -114365,7 +116186,7 @@
         "effect_value_min": 30,
         "effect_value_max": 30,
         "effect_turn": [
-            1
+            3
         ],
         "bad_effect_type": 0,
         "bad_effect_params": [
@@ -114375,6 +116196,44 @@
         "description": ",INT+#PER#%(3T)"
     },
     {
+        "id": 200497,
+        "name": "プラチナミスティア",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 3,
+        "trigger_target": 6,
+        "trigger_status": 5,
+        "trigger_param": 3,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRT+#PER#%(2T)"
+    },
+    {
         "id": 200498,
         "name": "偉大なる霧の魔女",
         "unique_flg": 1,
@@ -114382,7 +116241,7 @@
         "timing_type": 1,
         "trigger_target": 2,
         "trigger_status": 25,
-        "trigger_param": 256,
+        "trigger_param": 320,
         "trigger_param2": 4,
         "target_type": 1,
         "target_params": [
@@ -114410,7 +116269,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "、さらに得意武器種が[魔物魔法]のキャラが4体以上いる場合、パーティが必殺技で与えるダメージ+#PER#%"
+        "description": "、さらに得意武器種が[杖・魔物魔法]のキャラが4体以上いる場合、パーティが必殺技で与えるダメージ+#PER#%"
     },
     {
         "id": 200501,
@@ -127461,7 +129320,8 @@
         "effect_type": 1,
         "effect_type_params": [
             1,
-            2
+            2,
+            8
         ],
         "limit_damage": 0,
         "limit_characters": [
@@ -127481,7 +129341,7 @@
             0
         ],
         "bad_effect_value": 0,
-        "description": "パーティのHP・ATK+#PER#%"
+        "description": "パーティのHP・ATK・CRD+#PER#%"
     },
     {
         "id": 201002,
@@ -127509,8 +129369,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 50,
-        "effect_value_max": 50,
+        "effect_value_min": 45,
+        "effect_value_max": 45,
         "effect_turn": [
             0
         ],
@@ -127547,8 +129407,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 10,
-        "effect_value_max": 10,
+        "effect_value_min": 15,
+        "effect_value_max": 15,
         "effect_turn": [
             0
         ],
@@ -127671,8 +129531,8 @@
         "effect_correct_characters": [
             0
         ],
-        "effect_value_min": 20,
-        "effect_value_max": 20,
+        "effect_value_min": 25,
+        "effect_value_max": 25,
         "effect_turn": [
             0
         ],
@@ -132218,6 +134078,320 @@
         ],
         "bad_effect_value": 0,
         "description": ",CRTは最大+#PER#%)"
+    },
+    {
+        "id": 201161,
+        "name": "異世界の秘書",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 5,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 11,
+        "target_params": [
+            0
+        ],
+        "effect_type": 2,
+        "effect_type_params": [
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "敵全体のATK・INT-#PER#%"
+    },
+    {
+        "id": 201162,
+        "name": "パワハラサポート",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 8,
+        "trigger_param2": 0,
+        "target_type": 9,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            3
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 45,
+        "effect_value_max": 45,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "自分が魔物物理武器装備時、必殺技で与えるダメージ+#PER#%"
+    },
+    {
+        "id": 201163,
+        "name": "アットホームサービス",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 22,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            2,
+            4
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 5,
+        "effect_value_max": 5,
+        "effect_turn": [
+            2,
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "パーティキャラのターン開始時、パーティのATK・INT+#PER#%(2T)"
+    },
+    {
+        "id": 201164,
+        "name": "殺りがい搾取",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 7,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 11,
+        "target_params": [
+            0
+        ],
+        "effect_type": 24,
+        "effect_type_params": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 30,
+        "effect_value_max": 30,
+        "effect_turn": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "戦闘不能時、敵全体のHP以外の基礎パラメータ-#PER#%(3T)"
+    },
+    {
+        "id": 201165,
+        "name": "異世界の秘書",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 5,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 11,
+        "target_params": [
+            0
+        ],
+        "effect_type": 2,
+        "effect_type_params": [
+            6,
+            7
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 5,
+        "effect_value_max": 5,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",SPD・CRT-#PER#%"
+    },
+    {
+        "id": 201166,
+        "name": "パワハラサポート",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 1,
+        "trigger_status": 3,
+        "trigger_param": 8,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 3,
+        "effect_type_params": [
+            3
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 20,
+        "effect_value_max": 20,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "、さらにパーティが必殺技で与えるダメージ+#PER#%"
+    },
+    {
+        "id": 201167,
+        "name": "アットホームサービス",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 22,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 1,
+        "target_params": [
+            0
+        ],
+        "effect_type": 23,
+        "effect_type_params": [
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 10,
+        "effect_value_max": 10,
+        "effect_turn": [
+            2
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",CRD+#PER#%(2T)"
+    },
+    {
+        "id": 201168,
+        "name": "殺りがい搾取",
+        "unique_flg": 1,
+        "lv_max": 1,
+        "timing_type": 7,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 11,
+        "target_params": [
+            0
+        ],
+        "effect_type": 65,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 1,
+        "effect_value_max": 1,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": ",バフ継続ターン-#PER#"
     },
     {
         "id": 210021,
@@ -155200,6 +157374,44 @@
         "description": "ターン開始時、INTデバフの敵に束縛1回付与"
     },
     {
+        "id": 805801,
+        "name": "試闘　開幕SP負荷",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 1,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 11,
+        "target_params": [
+            0
+        ],
+        "effect_type": 110,
+        "effect_type_params": [
+            0
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 25,
+        "effect_value_max": 25,
+        "effect_turn": [
+            3
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "戦闘開始時、敵全体にSP負荷[25](3T)付与"
+    },
+    {
         "id": 999999,
         "name": "お助けパワー",
         "unique_flg": 0,
@@ -160769,6 +162981,58 @@
         ],
         "bad_effect_value": 0,
         "description": "最大HPの5%を超過するダメージの超過分カット"
+    },
+    {
+        "id": 20000099,
+        "name": "得意武器種【剣】以外は基礎パラメータ-80%・SPD・CRT・CRD-80%",
+        "unique_flg": 0,
+        "lv_max": 1,
+        "timing_type": 5,
+        "trigger_target": 0,
+        "trigger_status": 0,
+        "trigger_param": 0,
+        "trigger_param2": 0,
+        "target_type": 25,
+        "target_params": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "effect_type": 2,
+        "effect_type_params": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "limit_damage": 0,
+        "limit_characters": [
+            0
+        ],
+        "effect_correct_type": 0,
+        "effect_correct_characters": [
+            0
+        ],
+        "effect_value_min": 80,
+        "effect_value_max": 80,
+        "effect_turn": [
+            0
+        ],
+        "bad_effect_type": 0,
+        "bad_effect_params": [
+            0
+        ],
+        "bad_effect_value": 0,
+        "description": "得意武器種【剣】以外は基礎パラメータ-80%・SPD・CRT・CRD-80%"
     },
     {
         "id": 999000001,

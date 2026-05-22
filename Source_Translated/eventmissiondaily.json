@@ -6160,5 +6160,70 @@
     "present_rarity": 0,
     "present_num": 30,
     "sort": 5
+  },
+  {
+    "id": 969001,
+    "m_event_id": 969,
+    "title": "Redeem Items at the Exchange",
+    "condition_type": 39,
+    "condition_id": 0,
+    "condition_num": 1,
+    "present_type": 1,
+    "present_id": 301,
+    "present_rarity": 0,
+    "present_num": 1,
+    "sort": 1
+  },
+  {
+    "id": 969002,
+    "m_event_id": 969,
+    "title": "Clear Event Stage Once",
+    "condition_type": 44,
+    "condition_id": 19691,
+    "condition_num": 1,
+    "present_type": 1,
+    "present_id": 200036,
+    "present_rarity": 0,
+    "present_num": 2500,
+    "sort": 2
+  },
+  {
+    "id": 969003,
+    "m_event_id": 969,
+    "title": "Clear a BOSS stage once",
+    "condition_type": 76,
+    "condition_id": 0,
+    "condition_num": 1,
+    "present_type": 1,
+    "present_id": 200036,
+    "present_rarity": 0,
+    "present_num": 5000,
+    "sort": 3
+  },
+  {
+    "id": 969004,
+    "m_event_id": 969,
+    "title": "Obtain 2500 Event Points",
+    "condition_type": 34,
+    "condition_id": 0,
+    "condition_num": 2500,
+    "present_type": 1,
+    "present_id": 200036,
+    "present_rarity": 0,
+    "present_num": 2500,
+    "sort": 4
+  },
+  {
+    "id": 969005,
+    "m_event_id": 969,
+    "title": "Complete all missions",
+    "condition_type": 99,
+    "condition_id": 0,
+    "condition_num": 4,
+    "present_type": 1,
+    "present_id": 201,
+    "present_rarity": 0,
+    "present_num": 30,
+    "sort": 5
   }
 ]

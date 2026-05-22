@@ -26427,25 +26427,25 @@
     "id": 3971,
     "m_character_id": 397,
     "rarity": 1,
-    "class_name": "Lonely Six-Split Struggle"
+    "class_name": "Solitary Member of the Six Psychlamates"
   },
   {
     "id": 3972,
     "m_character_id": 397,
     "rarity": 2,
-    "class_name": "Lonely Six-Split Struggle"
+    "class_name": "Solitary Member of the Six Psychlamates"
   },
   {
     "id": 3973,
     "m_character_id": 397,
     "rarity": 3,
-    "class_name": "Lonely Six-Split Struggle"
+    "class_name": "Solitary Member of the Six Psychlamates"
   },
   {
     "id": 3974,
     "m_character_id": 397,
     "rarity": 4,
-    "class_name": "Lonely Six-Split Struggle"
+    "class_name": "Solitary Member of the Six Psychlamates"
   },
   {
     "id": 3975,
@@ -26457,7 +26457,7 @@
     "id": 3976,
     "m_character_id": 397,
     "rarity": 6,
-    "class_name": "The Six Split Struggles of the Divine Machine and the Mysterious Arithmetic"
+    "class_name": "Inscrutable Strategist of the Six Psychlamates"
   },
   {
     "id": 201151,
@@ -26494,5 +26494,221 @@
     "m_character_id": 20115,
     "rarity": 6,
     "class_name": "The ultimate weapon to eclipse disasters"
+  },
+  {
+    "id": 3991,
+    "m_character_id": 399,
+    "rarity": 1,
+    "class_name": "Pudding Lover"
+  },
+  {
+    "id": 3992,
+    "m_character_id": 399,
+    "rarity": 2,
+    "class_name": "Pudding Lover"
+  },
+  {
+    "id": 3993,
+    "m_character_id": 399,
+    "rarity": 3,
+    "class_name": "Pudding Lover"
+  },
+  {
+    "id": 3994,
+    "m_character_id": 399,
+    "rarity": 4,
+    "class_name": "Pudding Lover"
+  },
+  {
+    "id": 3995,
+    "m_character_id": 399,
+    "rarity": 5,
+    "class_name": "The master of pudding food"
+  },
+  {
+    "id": 3996,
+    "m_character_id": 399,
+    "rarity": 6,
+    "class_name": "Super Duper's Sweets Majin"
+  },
+  {
+    "id": 4001,
+    "m_character_id": 400,
+    "rarity": 1,
+    "class_name": "A vengeful hero"
+  },
+  {
+    "id": 4002,
+    "m_character_id": 400,
+    "rarity": 2,
+    "class_name": "A vengeful hero"
+  },
+  {
+    "id": 4003,
+    "m_character_id": 400,
+    "rarity": 3,
+    "class_name": "A vengeful hero"
+  },
+  {
+    "id": 4004,
+    "m_character_id": 400,
+    "rarity": 4,
+    "class_name": "A vengeful hero"
+  },
+  {
+    "id": 4005,
+    "m_character_id": 400,
+    "rarity": 5,
+    "class_name": "Children's Heroes"
+  },
+  {
+    "id": 4006,
+    "m_character_id": 400,
+    "rarity": 6,
+    "class_name": "The black hero with a destiny"
+  },
+  {
+    "id": 4021,
+    "m_character_id": 402,
+    "rarity": 1,
+    "class_name": "Rounded former swordsman"
+  },
+  {
+    "id": 4022,
+    "m_character_id": 402,
+    "rarity": 2,
+    "class_name": "Rounded former swordsman"
+  },
+  {
+    "id": 4023,
+    "m_character_id": 402,
+    "rarity": 3,
+    "class_name": "Rounded former swordsman"
+  },
+  {
+    "id": 4024,
+    "m_character_id": 402,
+    "rarity": 4,
+    "class_name": "Rounded former swordsman"
+  },
+  {
+    "id": 4025,
+    "m_character_id": 402,
+    "rarity": 5,
+    "class_name": "Whipped heavyweight chief of staff"
+  },
+  {
+    "id": 4026,
+    "m_character_id": 402,
+    "rarity": 6,
+    "class_name": "self-conceited and self-possessed"
+  },
+  {
+    "id": 201161,
+    "m_character_id": 20116,
+    "rarity": 1,
+    "class_name": "Prinny, the dark secretary"
+  },
+  {
+    "id": 201162,
+    "m_character_id": 20116,
+    "rarity": 2,
+    "class_name": "Prinny, the dark secretary"
+  },
+  {
+    "id": 201163,
+    "m_character_id": 20116,
+    "rarity": 3,
+    "class_name": "Prinny, the dark secretary"
+  },
+  {
+    "id": 201164,
+    "m_character_id": 20116,
+    "rarity": 4,
+    "class_name": "Prinny, the dark secretary"
+  },
+  {
+    "id": 201165,
+    "m_character_id": 20116,
+    "rarity": 5,
+    "class_name": "Overlord's servant"
+  },
+  {
+    "id": 201166,
+    "m_character_id": 20116,
+    "rarity": 6,
+    "class_name": "The Lonely Prime Minister"
+  },
+  {
+    "id": 4031,
+    "m_character_id": 403,
+    "rarity": 1,
+    "class_name": "The Prince Who Became a Girl"
+  },
+  {
+    "id": 4032,
+    "m_character_id": 403,
+    "rarity": 2,
+    "class_name": "The Prince Who Became a Girl"
+  },
+  {
+    "id": 4033,
+    "m_character_id": 403,
+    "rarity": 3,
+    "class_name": "The Prince Who Became a Girl"
+  },
+  {
+    "id": 4034,
+    "m_character_id": 403,
+    "rarity": 4,
+    "class_name": "The Prince Who Became a Girl"
+  },
+  {
+    "id": 4035,
+    "m_character_id": 403,
+    "rarity": 5,
+    "class_name": "The Lightning of the Young Seigou"
+  },
+  {
+    "id": 4036,
+    "m_character_id": 403,
+    "rarity": 6,
+    "class_name": "lightning child"
+  },
+  {
+    "id": 4011,
+    "m_character_id": 401,
+    "rarity": 1,
+    "class_name": "The young lady who inherited the sword"
+  },
+  {
+    "id": 4012,
+    "m_character_id": 401,
+    "rarity": 2,
+    "class_name": "The young lady who inherited the sword"
+  },
+  {
+    "id": 4013,
+    "m_character_id": 401,
+    "rarity": 3,
+    "class_name": "The young lady who inherited the sword"
+  },
+  {
+    "id": 4014,
+    "m_character_id": 401,
+    "rarity": 4,
+    "class_name": "The young lady who inherited the sword"
+  },
+  {
+    "id": 4015,
+    "m_character_id": 401,
+    "rarity": 5,
+    "class_name": "The Different Swordsman Who Cuts Off All Things"
+  },
+  {
+    "id": 4016,
+    "m_character_id": 401,
+    "rarity": 6,
+    "class_name": "white fangs of the divine flash"
   }
 ]

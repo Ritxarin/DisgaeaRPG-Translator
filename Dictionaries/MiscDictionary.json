@@ -26,8 +26,17 @@
   "PUキャラ交換所(通常)で利用できる": "Available at PU character exchange (normal)",
   "専用マナポーション": "Dedicated Mana Potion",
 
-  "プリニガービーム" : "Prinny Bomb",
-  "プリニガー\\nビーム" : "Prinny Bomb",
-  "プリニー激高乱れ打ち" : "Pringer Beam",
-  "プリニー\\n激高乱れ打ち": "Pringer Beam"
+  "プリニガービーム" : "Pringer Beam",
+  "プリニガー\\nビーム" : "Pringer Beam",
+  "プリニー激高乱れ打ち" : "Prinny Bomb",
+  "プリニー\\n激高乱れ打ち": "Prinny Bomb",
+
+  "追想エリア" : "Reminiscence Area",
+  "エトナの避暑地　防衛戦" : "Etna's Summer Resort Defence",
+  "レアBOSS" : "Rare Boss",
+  "通常BOSS" : "Normal Boss",
+  "レイドバトルデータ" : "Raid Battle Data",
+  "スペシャルバトル" : "Special Battle",
+  "EXTRAエリア" : "EXTRA Area",
+  "BOSSの鍵を使い、\n更なる強敵に挑戦しよう！" : "Use the BOSS Key to battle even tougher opponents!"
 }

@@ -1206,5 +1206,37 @@
     "main_m_memory_effect_type_id": 116,
     "sub_m_character_id": 0,
     "sub_m_memory_effect_type_id": 115
+  },
+  {
+    "id": 152,
+    "name": "Desco and Puddesco",
+    "main_m_character_id": 20115,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 20115,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 153,
+    "name": "Games for Everyone",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 113,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 111
+  },
+  {
+    "id": 154,
+    "name": "Black maid, beryl",
+    "main_m_character_id": 20102,
+    "main_m_memory_effect_type_id": 12,
+    "sub_m_character_id": 20102,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 155,
+    "name": "Ephemeral Kimi's Plot",
+    "main_m_character_id": 343,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 343,
+    "sub_m_memory_effect_type_id": 16
   }
 ]
