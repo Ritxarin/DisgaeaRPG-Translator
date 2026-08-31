@@ -26643,72 +26643,756 @@
     "id": 4031,
     "m_character_id": 403,
     "rarity": 1,
-    "class_name": "The Prince Who Became a Girl"
+    "class_name": "The Prince who Became a Girl"
   },
   {
     "id": 4032,
     "m_character_id": 403,
     "rarity": 2,
-    "class_name": "The Prince Who Became a Girl"
+    "class_name": "The Prince who Became a Girl"
   },
   {
     "id": 4033,
     "m_character_id": 403,
     "rarity": 3,
-    "class_name": "The Prince Who Became a Girl"
+    "class_name": "The Prince who Became a Girl"
   },
   {
     "id": 4034,
     "m_character_id": 403,
     "rarity": 4,
-    "class_name": "The Prince Who Became a Girl"
+    "class_name": "The Prince who Became a Girl"
   },
   {
     "id": 4035,
     "m_character_id": 403,
     "rarity": 5,
-    "class_name": "The Lightning of the Young Seigou"
+    "class_name": "Young Saint Guardian's Lightning"
   },
   {
     "id": 4036,
     "m_character_id": 403,
     "rarity": 6,
-    "class_name": "lightning child"
+    "class_name": "Lightning Child"
   },
   {
     "id": 4011,
     "m_character_id": 401,
     "rarity": 1,
-    "class_name": "The young lady who inherited the sword"
+    "class_name": "Young Lady who inherited the Sword"
   },
   {
     "id": 4012,
     "m_character_id": 401,
     "rarity": 2,
-    "class_name": "The young lady who inherited the sword"
+    "class_name": "Young Lady who inherited the Sword"
   },
   {
     "id": 4013,
     "m_character_id": 401,
     "rarity": 3,
-    "class_name": "The young lady who inherited the sword"
+    "class_name": "Young Lady who inherited the Sword"
   },
   {
     "id": 4014,
     "m_character_id": 401,
     "rarity": 4,
-    "class_name": "The young lady who inherited the sword"
+    "class_name": "Young Lady who inherited the Sword"
   },
   {
     "id": 4015,
     "m_character_id": 401,
     "rarity": 5,
-    "class_name": "The Different Swordsman Who Cuts Off All Things"
+    "class_name": "Otherworldly Swordsman who Sunders All Things"
   },
   {
     "id": 4016,
     "m_character_id": 401,
     "rarity": 6,
-    "class_name": "white fangs of the divine flash"
+    "class_name": "Divine Flash of the White Fang"
+  },
+  {
+    "id": 4041,
+    "m_character_id": 404,
+    "rarity": 1,
+    "class_name": "The Fragile One, Breaking Apart"
+  },
+  {
+    "id": 4042,
+    "m_character_id": 404,
+    "rarity": 2,
+    "class_name": "The Fragile One, Breaking Apart"
+  },
+  {
+    "id": 4043,
+    "m_character_id": 404,
+    "rarity": 3,
+    "class_name": "The Fragile One, Breaking Apart"
+  },
+  {
+    "id": 4044,
+    "m_character_id": 404,
+    "rarity": 4,
+    "class_name": "The Fragile One, Breaking Apart"
+  },
+  {
+    "id": 4045,
+    "m_character_id": 404,
+    "rarity": 5,
+    "class_name": "Incarnation of Fleeting Calamity"
+  },
+  {
+    "id": 4046,
+    "m_character_id": 404,
+    "rarity": 6,
+    "class_name": "Solitary Overlord"
+  },
+  {
+    "id": 201171,
+    "m_character_id": 20117,
+    "rarity": 1,
+    "class_name": "The Lost Girl"
+  },
+  {
+    "id": 201172,
+    "m_character_id": 20117,
+    "rarity": 2,
+    "class_name": "The Lost Girl"
+  },
+  {
+    "id": 201173,
+    "m_character_id": 20117,
+    "rarity": 3,
+    "class_name": "The Lost Girl"
+  },
+  {
+    "id": 201174,
+    "m_character_id": 20117,
+    "rarity": 4,
+    "class_name": "The Lost Girl"
+  },
+  {
+    "id": 201175,
+    "m_character_id": 20117,
+    "rarity": 5,
+    "class_name": "A Kind-Hearted Girl"
+  },
+  {
+    "id": 201176,
+    "m_character_id": 20117,
+    "rarity": 6,
+    "class_name": "The Girl Who Walks Through the Night"
+  },
+  {
+    "id": 201181,
+    "m_character_id": 20118,
+    "rarity": 1,
+    "class_name": "A friend wandering about"
+  },
+  {
+    "id": 201182,
+    "m_character_id": 20118,
+    "rarity": 2,
+    "class_name": "A friend wandering about"
+  },
+  {
+    "id": 201183,
+    "m_character_id": 20118,
+    "rarity": 3,
+    "class_name": "A friend wandering about"
+  },
+  {
+    "id": 201184,
+    "m_character_id": 20118,
+    "rarity": 4,
+    "class_name": "A friend wandering about"
+  },
+  {
+    "id": 201185,
+    "m_character_id": 20118,
+    "rarity": 5,
+    "class_name": "A Dear Friend"
+  },
+  {
+    "id": 201186,
+    "m_character_id": 20118,
+    "rarity": 6,
+    "class_name": "An irreplaceable friend"
+  },
+  {
+    "id": 201191,
+    "m_character_id": 20119,
+    "rarity": 1,
+    "class_name": "Creepy minions"
+  },
+  {
+    "id": 201192,
+    "m_character_id": 20119,
+    "rarity": 2,
+    "class_name": "Creepy minions"
+  },
+  {
+    "id": 201193,
+    "m_character_id": 20119,
+    "rarity": 3,
+    "class_name": "Creepy minions"
+  },
+  {
+    "id": 201194,
+    "m_character_id": 20119,
+    "rarity": 4,
+    "class_name": "Creepy minions"
+  },
+  {
+    "id": 201195,
+    "m_character_id": 20119,
+    "rarity": 5,
+    "class_name": "A soul that is far too evil"
+  },
+  {
+    "id": 201196,
+    "m_character_id": 20119,
+    "rarity": 6,
+    "class_name": "A Wandering Ghost"
+  },
+  {
+    "id": 4061,
+    "m_character_id": 406,
+    "rarity": 1,
+    "class_name": "Aho-Tare Wakes Up"
+  },
+  {
+    "id": 4062,
+    "m_character_id": 406,
+    "rarity": 2,
+    "class_name": "Aho-Tare Wakes Up"
+  },
+  {
+    "id": 4063,
+    "m_character_id": 406,
+    "rarity": 3,
+    "class_name": "Aho-Tare Wakes Up"
+  },
+  {
+    "id": 4064,
+    "m_character_id": 406,
+    "rarity": 4,
+    "class_name": "Aho-Tare Wakes Up"
+  },
+  {
+    "id": 4065,
+    "m_character_id": 406,
+    "rarity": 5,
+    "class_name": "The Hero Who Dances Wildly"
+  },
+  {
+    "id": 4066,
+    "m_character_id": 406,
+    "rarity": 6,
+    "class_name": "The New Dark Hero"
+  },
+  {
+    "id": 4071,
+    "m_character_id": 407,
+    "rarity": 1,
+    "class_name": "Aoi Faces the Fears of the Night"
+  },
+  {
+    "id": 4072,
+    "m_character_id": 407,
+    "rarity": 2,
+    "class_name": "Aoi Faces the Fears of the Night"
+  },
+  {
+    "id": 4073,
+    "m_character_id": 407,
+    "rarity": 3,
+    "class_name": "Aoi Faces the Fears of the Night"
+  },
+  {
+    "id": 4074,
+    "m_character_id": 407,
+    "rarity": 4,
+    "class_name": "Aoi Faces the Fears of the Night"
+  },
+  {
+    "id": 4075,
+    "m_character_id": 407,
+    "rarity": 5,
+    "class_name": "The Ice-Fanged Princess Who Answers One's Wishes"
+  },
+  {
+    "id": 4076,
+    "m_character_id": 407,
+    "rarity": 6,
+    "class_name": "Ultramarine Illuminating the Dawn"
+  },
+  {
+    "id": 4051,
+    "m_character_id": 405,
+    "rarity": 1,
+    "class_name": "The Black Rose Blooms Again"
+  },
+  {
+    "id": 4052,
+    "m_character_id": 405,
+    "rarity": 2,
+    "class_name": "The Black Rose Blooms Again"
+  },
+  {
+    "id": 4053,
+    "m_character_id": 405,
+    "rarity": 3,
+    "class_name": "The Black Rose Blooms Again"
+  },
+  {
+    "id": 4054,
+    "m_character_id": 405,
+    "rarity": 4,
+    "class_name": "The Black Rose Blooms Again"
+  },
+  {
+    "id": 4055,
+    "m_character_id": 405,
+    "rarity": 5,
+    "class_name": "The Princess of Chaos"
+  },
+  {
+    "id": 4056,
+    "m_character_id": 405,
+    "rarity": 6,
+    "class_name": "The Overlord of Salvation"
+  },
+  {
+    "id": 4081,
+    "m_character_id": 408,
+    "rarity": 1,
+    "class_name": "Sun-Kissed Madonna"
+  },
+  {
+    "id": 4082,
+    "m_character_id": 408,
+    "rarity": 2,
+    "class_name": "Sun-Kissed Madonna"
+  },
+  {
+    "id": 4083,
+    "m_character_id": 408,
+    "rarity": 3,
+    "class_name": "Sun-Kissed Madonna"
+  },
+  {
+    "id": 4084,
+    "m_character_id": 408,
+    "rarity": 4,
+    "class_name": "Sun-Kissed Madonna"
+  },
+  {
+    "id": 4085,
+    "m_character_id": 408,
+    "rarity": 5,
+    "class_name": "The Beautiful Young Demon Who Played Too Much"
+  },
+  {
+    "id": 4086,
+    "m_character_id": 408,
+    "rarity": 6,
+    "class_name": "A Beautiful Young Demon with a Wheat-Colored Complexion"
+  },
+  {
+    "id": 4091,
+    "m_character_id": 409,
+    "rarity": 1,
+    "class_name": "Gonbuto Summer Girl"
+  },
+  {
+    "id": 4092,
+    "m_character_id": 409,
+    "rarity": 2,
+    "class_name": "Gonbuto Summer Girl"
+  },
+  {
+    "id": 4093,
+    "m_character_id": 409,
+    "rarity": 3,
+    "class_name": "Gonbuto Summer Girl"
+  },
+  {
+    "id": 4094,
+    "m_character_id": 409,
+    "rarity": 4,
+    "class_name": "Gonbuto Summer Girl"
+  },
+  {
+    "id": 4095,
+    "m_character_id": 409,
+    "rarity": 5,
+    "class_name": "A Healthy, Sun-Kissed Beauty"
+  },
+  {
+    "id": 4096,
+    "m_character_id": 409,
+    "rarity": 6,
+    "class_name": "Summer-Colored Princess"
+  },
+  {
+    "id": 4111,
+    "m_character_id": 411,
+    "rarity": 1,
+    "class_name": "The Battle Maniac of the Demon Summer"
+  },
+  {
+    "id": 4112,
+    "m_character_id": 411,
+    "rarity": 2,
+    "class_name": "The Battle Maniac of the Demon Summer"
+  },
+  {
+    "id": 4113,
+    "m_character_id": 411,
+    "rarity": 3,
+    "class_name": "The Battle Maniac of the Demon Summer"
+  },
+  {
+    "id": 4114,
+    "m_character_id": 411,
+    "rarity": 4,
+    "class_name": "The Battle Maniac of the Demon Summer"
+  },
+  {
+    "id": 4115,
+    "m_character_id": 411,
+    "rarity": 5,
+    "class_name": "The Brazen Gold Bikini"
+  },
+  {
+    "id": 4116,
+    "m_character_id": 411,
+    "rarity": 6,
+    "class_name": "The Ultimate Golden Marine"
+  },
+  {
+    "id": 4101,
+    "m_character_id": 410,
+    "rarity": 1,
+    "class_name": "Hey, Go swimming in the Ocean"
+  },
+  {
+    "id": 4102,
+    "m_character_id": 410,
+    "rarity": 2,
+    "class_name": "Hey, Go swimming in the Ocean"
+  },
+  {
+    "id": 4103,
+    "m_character_id": 410,
+    "rarity": 3,
+    "class_name": "Hey, Go swimming in the Ocean"
+  },
+  {
+    "id": 4104,
+    "m_character_id": 410,
+    "rarity": 4,
+    "class_name": "Hey, Go swimming in the Ocean"
+  },
+  {
+    "id": 4105,
+    "m_character_id": 410,
+    "rarity": 5,
+    "class_name": "The Genius Gamer from the Beach"
+  },
+  {
+    "id": 4106,
+    "m_character_id": 410,
+    "rarity": 6,
+    "class_name": "Creator of the Electronic Shore"
+  },
+  {
+    "id": 4121,
+    "m_character_id": 412,
+    "rarity": 1,
+    "class_name": "Sunlight Sensitive Maid"
+  },
+  {
+    "id": 4122,
+    "m_character_id": 412,
+    "rarity": 2,
+    "class_name": "Sunlight Sensitive Maid"
+  },
+  {
+    "id": 4123,
+    "m_character_id": 412,
+    "rarity": 3,
+    "class_name": "A Maid Who Can't Stand the Sun"
+  },
+  {
+    "id": 4124,
+    "m_character_id": 412,
+    "rarity": 4,
+    "class_name": "Sunlight Sensitive Maid"
+  },
+  {
+    "id": 4125,
+    "m_character_id": 412,
+    "rarity": 5,
+    "class_name": "A Maid Enduring the Scorching Heat"
+  },
+  {
+    "id": 4126,
+    "m_character_id": 412,
+    "rarity": 6,
+    "class_name": "Retainers Reveling in the Height of Summe"
+  },
+  {
+    "id": 4131,
+    "m_character_id": 413,
+    "rarity": 1,
+    "class_name": "Manifested Overlord of the Sea"
+  },
+  {
+    "id": 4132,
+    "m_character_id": 413,
+    "rarity": 2,
+    "class_name": "Manifested Overlord of the Sea"
+  },
+  {
+    "id": 4133,
+    "m_character_id": 413,
+    "rarity": 3,
+    "class_name": "The Sea Overlord Who Has Appeared"
+  },
+  {
+    "id": 4134,
+    "m_character_id": 413,
+    "rarity": 4,
+    "class_name": "Manifested Overlord of the Sea"
+  },
+  {
+    "id": 4135,
+    "m_character_id": 413,
+    "rarity": 5,
+    "class_name": "Bounty: 66.6 billion HL"
+  },
+  {
+    "id": 4136,
+    "m_character_id": 413,
+    "rarity": 6,
+    "class_name": "Ruler of the Great Nethersea"
+  },
+  {
+    "id": 4141,
+    "m_character_id": 414,
+    "rarity": 1,
+    "class_name": "The Girl in a Swimsuit from the Future"
+  },
+  {
+    "id": 4142,
+    "m_character_id": 414,
+    "rarity": 2,
+    "class_name": "The Girl in a Swimsuit from the Future"
+  },
+  {
+    "id": 4143,
+    "m_character_id": 414,
+    "rarity": 3,
+    "class_name": "The Girl in a Swimsuit from the Future"
+  },
+  {
+    "id": 4144,
+    "m_character_id": 414,
+    "rarity": 4,
+    "class_name": "The Girl in a Swimsuit from the Future"
+  },
+  {
+    "id": 4145,
+    "m_character_id": 414,
+    "rarity": 5,
+    "class_name": "My Beloved Daughter Glistening on the Water's Surface"
+  },
+  {
+    "id": 4146,
+    "m_character_id": 414,
+    "rarity": 6,
+    "class_name": "The Universe's Strongest Swimsuit Overlord"
+  },
+  {
+    "id": 4171,
+    "m_character_id": 417,
+    "rarity": 1,
+    "class_name": "The Battle-Ready Sister in a Swimsuit"
+  },
+  {
+    "id": 4172,
+    "m_character_id": 417,
+    "rarity": 2,
+    "class_name": "The Battle-Ready Sister in a Swimsuit"
+  },
+  {
+    "id": 4173,
+    "m_character_id": 417,
+    "rarity": 3,
+    "class_name": "The Battle-Ready Sister in a Swimsuit"
+  },
+  {
+    "id": 4174,
+    "m_character_id": 417,
+    "rarity": 4,
+    "class_name": "The Battle-Ready Sister in a Swimsuit"
+  },
+  {
+    "id": 4175,
+    "m_character_id": 417,
+    "rarity": 5,
+    "class_name": "La Pucelle of the Shore"
+  },
+  {
+    "id": 4176,
+    "m_character_id": 417,
+    "rarity": 6,
+    "class_name": "The Shining Summer Saint"
+  },
+  {
+    "id": 201201,
+    "m_character_id": 20120,
+    "rarity": 1,
+    "class_name": "Inside is a sexy bottle"
+  },
+  {
+    "id": 201202,
+    "m_character_id": 20120,
+    "rarity": 2,
+    "class_name": "Inside is a sexy bottle"
+  },
+  {
+    "id": 201203,
+    "m_character_id": 20120,
+    "rarity": 3,
+    "class_name": "Inside is a sexy bottle"
+  },
+  {
+    "id": 201204,
+    "m_character_id": 20120,
+    "rarity": 4,
+    "class_name": "Inside is a sexy bottle"
+  },
+  {
+    "id": 201205,
+    "m_character_id": 20120,
+    "rarity": 5,
+    "class_name": "The Enchanting, Whimsical Bottle"
+  },
+  {
+    "id": 201206,
+    "m_character_id": 20120,
+    "rarity": 6,
+    "class_name": "The Former Queen in a Jar"
+  },
+  {
+    "id": 4151,
+    "m_character_id": 415,
+    "rarity": 1,
+    "class_name": "Captain Muscle"
+  },
+  {
+    "id": 4152,
+    "m_character_id": 415,
+    "rarity": 2,
+    "class_name": "Captain Muscle"
+  },
+  {
+    "id": 4153,
+    "m_character_id": 415,
+    "rarity": 3,
+    "class_name": "Captain Muscle"
+  },
+  {
+    "id": 4154,
+    "m_character_id": 415,
+    "rarity": 4,
+    "class_name": "Captain Muscle"
+  },
+  {
+    "id": 4155,
+    "m_character_id": 415,
+    "rarity": 5,
+    "class_name": "A Physique Sculpted by the Sea"
+  },
+  {
+    "id": 4156,
+    "m_character_id": 415,
+    "rarity": 6,
+    "class_name": "Pirate Captain Conquering the Clear Blue Sky"
+  },
+  {
+    "id": 4161,
+    "m_character_id": 416,
+    "rarity": 1,
+    "class_name": "The Princess's Summer Vacation"
+  },
+  {
+    "id": 4162,
+    "m_character_id": 416,
+    "rarity": 2,
+    "class_name": "The Princess's Summer Vacation"
+  },
+  {
+    "id": 4163,
+    "m_character_id": 416,
+    "rarity": 3,
+    "class_name": "The Princess's Summer Vacation"
+  },
+  {
+    "id": 4164,
+    "m_character_id": 416,
+    "rarity": 4,
+    "class_name": "The Princess's Summer Vacation"
+  },
+  {
+    "id": 4165,
+    "m_character_id": 416,
+    "rarity": 5,
+    "class_name": "Pure Sunlight"
+  },
+  {
+    "id": 4166,
+    "m_character_id": 416,
+    "rarity": 6,
+    "class_name": "The White Princess of the Blue Sea"
+  },
+  {
+    "id": 4181,
+    "m_character_id": 418,
+    "rarity": 1,
+    "class_name": "The Genius Overlord Descends Upon the Sea"
+  },
+  {
+    "id": 4182,
+    "m_character_id": 418,
+    "rarity": 2,
+    "class_name": "The Genius Overlord Descends Upon the Sea"
+  },
+  {
+    "id": 4183,
+    "m_character_id": 418,
+    "rarity": 3,
+    "class_name": "The Genius Overlord Descends Upon the Sea"
+  },
+  {
+    "id": 4184,
+    "m_character_id": 418,
+    "rarity": 4,
+    "class_name": "The Genius Overlord Descends Upon the Sea"
+  },
+  {
+    "id": 4185,
+    "m_character_id": 418,
+    "rarity": 5,
+    "class_name": "Those Who Toy with the Scorching Summer"
+  },
+  {
+    "id": 4186,
+    "m_character_id": 418,
+    "rarity": 6,
+    "class_name": "The Prophet of the Shores Who Throws Us into Turmoil"
   }
 ]

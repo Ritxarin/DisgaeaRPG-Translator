@@ -1238,5 +1238,69 @@
     "main_m_memory_effect_type_id": 10,
     "sub_m_character_id": 343,
     "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 156,
+    "name": "Majorita murder case",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 111,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 114
+  },
+  {
+    "id": 157,
+    "name": "Ao's Plan to Become an Idol",
+    "main_m_character_id": 20100,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 20100,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 158,
+    "name": "Everyone's Vacation",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 114,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 112
+  },
+  {
+    "id": 159,
+    "name": "Guardians of Peace in the Ocean",
+    "main_m_character_id": 352,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 352,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 160,
+    "name": "A Miraculous Encounter",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 113,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 118
+  },
+  {
+    "id": 161,
+    "name": "The Two Raspberyls",
+    "main_m_character_id": 20091,
+    "main_m_memory_effect_type_id": 12,
+    "sub_m_character_id": 20091,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 162,
+    "name": "Drawn in by the dripping sound",
+    "main_m_character_id": 20067,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 20067,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 163,
+    "name": "Joint Manji Expo of the Netherworld and the Human World",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 112,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 113
   }
 ]

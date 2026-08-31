@@ -110,7 +110,7 @@ class Helper:
                     ])
 
     def pull_masters_from_mobile():
-        output_dir = Path('./Android')
+        output_dir = Config.PROJECT_ROOT / 'Android'
         output_dir.mkdir(exist_ok=True)
 
         result = subprocess.run([

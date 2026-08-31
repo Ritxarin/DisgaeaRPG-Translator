@@ -27996,5 +27996,1178 @@
     "description": "Piyori XENO raid dedicated PT",
     "max_num": 99999999,
     "sell_price": 0
+  },
+  {
+    "id": 340302,
+    "name": "PU character exchange ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      977
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340303,
+    "name": "PU Character Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      978
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340304,
+    "name": "Fes Character Exchange Ticket (paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      980
+    ],
+    "description": "Available at the festival character exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340305,
+    "name": "FES Character Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      981
+    ],
+    "description": "Available at the festival character exchange (regular)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700404,
+    "name": "Nightmare Deity Valvatorez Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Nightmare Deity Valvatorez's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4570,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      982
+    ],
+    "description": "Shin Yomawari and Hell's\nHero Exclusive BOSSPT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5938,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      982
+    ],
+    "description": "The keys needed to challenge the BOSS in\n*Shin Yomawari Girl* and *Hero of Hell*",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10304,
+    "name": "Purifying Salt Rice Ball",
+    "item_type": 3,
+    "icon_no": 10304,
+    "effect_value": [
+      100
+    ],
+    "description": "Your stamina is fully restored. It’s so delicious it’ll send you straight to Celestia! Evil spirits, begone!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10305,
+    "name": "Bottled Ramune",
+    "item_type": 3,
+    "icon_no": 10305,
+    "effect_value": [
+      100
+    ],
+    "description": "Your stamina is fully restored. The sound of marbles brings back memories of summer—like fireworks and festival fairs.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10306,
+    "name": "J-brand Lubricant (Can)",
+    "item_type": 3,
+    "icon_no": 10306,
+    "effect_value": [
+      100
+    ],
+    "description": "Your Action Points are fully restored. There’s no end to the number of people who mistake it for a drink and take a sip.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200037,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200037,
+    "effect_value": [
+      982
+    ],
+    "description": "Party for the Shin Yomawari\nand the Hero of Hell",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340306,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      983
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340307,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      984
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320117,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20117
+    ],
+    "description": "A wondrous potion that grants Haru mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320118,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20118
+    ],
+    "description": "A wondrous potion that grants Yui mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320119,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20119
+    ],
+    "description": "A wondrous potion that grants Ghost Prinny mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700406,
+    "name": "Netherworld President Axel Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Netherworld President Axel's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720117,
+    "name": "Haru Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Haru's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720118,
+    "name": "Yui Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Yui's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720119,
+    "name": "Ghost Prinny Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Ghost Prinny's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620117,
+    "name": "Haru Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20117
+    ],
+    "description": "Nether Star for Awakening 6★ Haru.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620118,
+    "name": "Yui Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20118
+    ],
+    "description": "Nether Star for Awakening 6★ Yui.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620119,
+    "name": "Ghost Prinny Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20119
+    ],
+    "description": "Nether Star for Awakening 6★ Ghost Prinny.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 6714,
+    "name": "Some kind of item",
+    "item_type": 67,
+    "icon_no": 6714,
+    "effect_value": [
+      0
+    ],
+    "description": "You can exchange parts—whose purpose you don't know—for\nvarious rewards at the limited-time exchange shop.",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 201038,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201038,
+    "effect_value": [
+      990
+    ],
+    "description": "Calamity Adell Exclusive Party for the Cataclysmic Adelraid",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340308,
+    "name": "\"Nisa\" Reissue Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 340009,
+    "effect_value": [
+      987
+    ],
+    "description": "Available at Nisa Exchange (paid service)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340309,
+    "name": "Nisa Reprint Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 340010,
+    "effect_value": [
+      988
+    ],
+    "description": "Available at the Nisa Exchange (Standard)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700407,
+    "name": "Yomawari Ao Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Yomawari Ao's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600406,
+    "name": "Netherworld President Axel Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      406
+    ],
+    "description": "Nether Star for Awakening 6★ Netherworld President Axel.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10307,
+    "name": "Mayo-Teriyaki Pizza",
+    "item_type": 3,
+    "icon_no": 10307,
+    "effect_value": [
+      100
+    ],
+    "description": "Your Action Points are fully restored. Add mayo to Barney's signature dish!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340310,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      993
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340311,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      994
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340312,
+    "name": "Festival Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      996
+    ],
+    "description": "Available at the Festival Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340313,
+    "name": "Festival Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      997
+    ],
+    "description": "Available at the Festival Character Exchange (Standard)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700405,
+    "name": "Hero Rozalin Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Hero Rozalin's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4571,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      999
+    ],
+    "description": "Asagi Wars in the Summer of Magic★ Exclusive BOSSPT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5939,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      999
+    ],
+    "description": "The key needed to challenge the boss in \"Asagi Wars★: Magic Summer\"",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 6204,
+    "name": "'26 Swimsuit Popularity Poll Ballot",
+    "item_type": 62,
+    "icon_no": 6204,
+    "effect_value": [
+      0
+    ],
+    "description": "A voting ticket that allows you to vote in the popularity poll",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10308,
+    "name": "Gaming Shaved Ice",
+    "item_type": 3,
+    "icon_no": 10308,
+    "effect_value": [
+      100
+    ],
+    "description": "Your stamina is fully restored. The energy drink flavor further boosts the brain-cooling effect.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10309,
+    "name": "Snow Mochi",
+    "item_type": 3,
+    "icon_no": 10309,
+    "effect_value": [
+      100
+    ],
+    "description": "Your stamina is fully restored. Enjoy its chewy, soft texture even at sub-zero temperatures!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200038,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200038,
+    "effect_value": [
+      999
+    ],
+    "description": "Asagi Wars in the Summer of Magic★ Exclusive Party",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340314,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1000
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340315,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1001
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300408,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      408
+    ],
+    "description": "A wondrous potion that grants Sun-tanned Etna mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300409,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      409
+    ],
+    "description": "A wondrous potion that grants Swimsuit Sapphire mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300411,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      411
+    ],
+    "description": "A wondrous potion that grants Maritime Salvatore mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700408,
+    "name": "Sun-tanned Etna Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Sun-tanned Etna's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700409,
+    "name": "Swimsuit Sapphire Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Swimsuit Sapphire's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700410,
+    "name": "Swimsuit Creator Asagi Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Swimsuit Creator Asagi's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700411,
+    "name": "Maritime Salvatore Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Maritime Salvatore's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700412,
+    "name": "Swimsuit Artina XENO Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Swimsuit Artina XENO's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700413,
+    "name": "Pirate Overlord Asagi Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Pirate Overlord Asagi's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600408,
+    "name": "Sun-tanned Etna Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      408
+    ],
+    "description": "Nether Star for Awakening 6★ Sun-tanned Etna.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600409,
+    "name": "Swimsuit Sapphire Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      409
+    ],
+    "description": "Nether Star for Awakening 6★ Swimsuit Sapphire.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600411,
+    "name": "Maritime Salvatore Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      411
+    ],
+    "description": "Nether Star for Awakening 6★ Maritime Salvatore.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340316,
+    "name": "Asagi Exchange Ticket for \"Magic Summer\" (Paid)",
+    "item_type": 34,
+    "icon_no": 340009,
+    "effect_value": [
+      1004
+    ],
+    "description": "Available at the Asagi Exchange (paid) in \"Magic Summer\"",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340317,
+    "name": "Asagi Exchange Ticket (Regular) from \"Magic Summer\"",
+    "item_type": 34,
+    "icon_no": 340010,
+    "effect_value": [
+      1005
+    ],
+    "description": "Available at the Asagi Exchange (Standard) in Magic Summer",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600410,
+    "name": "Swimsuit Creator Asagi Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      410
+    ],
+    "description": "Nether Star for Awakening 6★ Swimsuit Creator Asagi.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10310,
+    "name": "Madeleine",
+    "item_type": 3,
+    "icon_no": 10310,
+    "effect_value": [
+      100
+    ],
+    "description": "Restores all Action Points. A heartfelt, handmade treasure crafted by Majolene's students.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 201039,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201039,
+    "effect_value": [
+      1006
+    ],
+    "description": "Swimsuit Artina XENO Raid-Exclusive Party",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340318,
+    "name": "Enchanting Swimsuit Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 340009,
+    "effect_value": [
+      1008
+    ],
+    "description": "Available at the Enchanting Swimsuit Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340319,
+    "name": "Enchanting Swimsuit Exchange Ticket (Regular)",
+    "item_type": 34,
+    "icon_no": 340010,
+    "effect_value": [
+      1009
+    ],
+    "description": "Available at the Enchanting Swimsuit Exchange (Regular)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340320,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1011
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340321,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1012
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340322,
+    "name": "Festival Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      1014
+    ],
+    "description": "Available at the Festival Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340323,
+    "name": "Festival Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      1015
+    ],
+    "description": "Available at the Festival Character Exchange (Standard)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4572,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      1016
+    ],
+    "description": "Japan's No. 1 SRPG Swimsuit Festival: ~Phantom and La Pucelle~ Exclusive BOSSPT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5940,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      1016
+    ],
+    "description": "Japan's No. 1 SRPG Swimsuit Festival: ~Phantom and La Pucelle~ — The Key You Need to Challenge the Boss",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10311,
+    "name": "Chilled Chinese Noodles with Roast Pork",
+    "item_type": 3,
+    "icon_no": 10311,
+    "effect_value": [
+      100
+    ],
+    "description": "Your energy is fully restored. Top off a refreshing cold noodle dish with a generous slice of thick, grilled pork!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200039,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200039,
+    "effect_value": [
+      1016
+    ],
+    "description": "Japan's No. 1 SRPG Swimsuit Festival: ~Phantom and La Pucelle~ Exclusive Party",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340324,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1018
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340325,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1019
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300414,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      414
+    ],
+    "description": "A wondrous potion that grants Beach Petta mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300417,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      417
+    ],
+    "description": "A wondrous potion that grants Swimsuit Prier mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320120,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20120
+    ],
+    "description": "A wondrous potion that grants Bottle Henna mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700414,
+    "name": "Beach Petta Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Beach Petta's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700415,
+    "name": "Swimsuit Mayfair Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Swimsuit Mayfair's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700416,
+    "name": "Beach Eclair Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Beach Eclair's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700417,
+    "name": "Swimsuit Prier Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Swimsuit Prier's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720120,
+    "name": "Bottle Henna Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Bottle Henna's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600414,
+    "name": "Beach Petta Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      414
+    ],
+    "description": "Nether Star for Awakening 6★ Beach Petta.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600417,
+    "name": "Swimsuit Prier Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      417
+    ],
+    "description": "Nether Star for Awakening 6★ Swimsuit Prier.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620120,
+    "name": "Bottle Henna Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20120
+    ],
+    "description": "Nether Star for Awakening 6★ Bottle Henna.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340326,
+    "name": "Ivory Coast Hero Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 340009,
+    "effect_value": [
+      1021
+    ],
+    "description": "Available at the Ivory Coast Hero Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340327,
+    "name": "Ivory Coast Hero Exchange Ticket (Normal)",
+    "item_type": 34,
+    "icon_no": 340010,
+    "effect_value": [
+      1022
+    ],
+    "description": "Available at the Ivory Coast Hero Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600415,
+    "name": "Swimsuit Mayfair Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      415
+    ],
+    "description": "Nether Star for Awakening 6★ Swimsuit Mayfair.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 6715,
+    "name": "Colorful Flags",
+    "item_type": 67,
+    "icon_no": 6715,
+    "effect_value": [
+      0
+    ],
+    "description": "You can exchange the flags earned in \"Miike Furogu\"\nfor various rewards at the limited-time exchange shop.",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 10312,
+    "name": "A Whole Rose (Blue)",
+    "item_type": 3,
+    "icon_no": 10312,
+    "effect_value": [
+      100
+    ],
+    "description": "Action Points are fully restored. The blue born of a miracle—noble elegance that makes dreams come true!!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 201040,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201040,
+    "effect_value": [
+      1024
+    ],
+    "description": "Swimsuit Eclair Raid-Exclusive Party",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 3403128,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1026
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 3403129,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1027
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 3403130,
+    "name": "\"The Universe's Strongest Overlord\" Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 340012,
+    "effect_value": [
+      1029
+    ],
+    "description": "Available at the Universe's Strongest Overlord Exchange (Paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 3403131,
+    "name": "\"Universe's Strongest Overlord\" Exchange Ticket (Regular)",
+    "item_type": 34,
+    "icon_no": 340013,
+    "effect_value": [
+      1030
+    ],
+    "description": "Available at the Universe's Strongest Overlord Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10313,
+    "name": "Caramel, the Dark Hero",
+    "item_type": 3,
+    "icon_no": 10313,
+    "effect_value": [
+      100
+    ],
+    "description": "Your Action Points are fully restored. It’s got a dark, bittersweet flavor—plus fun collectible extras!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340328,
+    "name": "Festival Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      1031
+    ],
+    "description": "Available at the Festival Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340329,
+    "name": "Festival Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      1032
+    ],
+    "description": "Available at the Festival Character Exchange (Standard)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700418,
+    "name": "Beach Pram Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Beach Pram's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]

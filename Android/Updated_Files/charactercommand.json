@@ -10320,6 +10320,694 @@
         "mana": 0
     },
     {
+        "id": 3003611,
+        "m_character_id": 361,
+        "m_command_id": 3003611,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003612,
+        "m_character_id": 361,
+        "m_command_id": 3003612,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003621,
+        "m_character_id": 362,
+        "m_command_id": 3003621,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003622,
+        "m_character_id": 362,
+        "m_command_id": 3003622,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003631,
+        "m_character_id": 363,
+        "m_command_id": 3003631,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003632,
+        "m_character_id": 363,
+        "m_command_id": 3003632,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003641,
+        "m_character_id": 364,
+        "m_command_id": 3003641,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003642,
+        "m_character_id": 364,
+        "m_command_id": 3003642,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003651,
+        "m_character_id": 365,
+        "m_command_id": 3003651,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003652,
+        "m_character_id": 365,
+        "m_command_id": 3003652,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003661,
+        "m_character_id": 366,
+        "m_command_id": 3003661,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003662,
+        "m_character_id": 366,
+        "m_command_id": 3003662,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003671,
+        "m_character_id": 367,
+        "m_command_id": 3003671,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003672,
+        "m_character_id": 367,
+        "m_command_id": 3003672,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003681,
+        "m_character_id": 368,
+        "m_command_id": 3003681,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003682,
+        "m_character_id": 368,
+        "m_command_id": 3003682,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003691,
+        "m_character_id": 369,
+        "m_command_id": 3003691,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003692,
+        "m_character_id": 369,
+        "m_command_id": 3003692,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003701,
+        "m_character_id": 370,
+        "m_command_id": 3003701,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003702,
+        "m_character_id": 370,
+        "m_command_id": 3003702,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003711,
+        "m_character_id": 371,
+        "m_command_id": 3003711,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003712,
+        "m_character_id": 371,
+        "m_command_id": 3003712,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003721,
+        "m_character_id": 372,
+        "m_command_id": 3003721,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003722,
+        "m_character_id": 372,
+        "m_command_id": 3003722,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003731,
+        "m_character_id": 373,
+        "m_command_id": 3003731,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003732,
+        "m_character_id": 373,
+        "m_command_id": 3003732,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003741,
+        "m_character_id": 374,
+        "m_command_id": 3003741,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003742,
+        "m_character_id": 374,
+        "m_command_id": 3003742,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003751,
+        "m_character_id": 375,
+        "m_command_id": 3003751,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003752,
+        "m_character_id": 375,
+        "m_command_id": 3003752,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003761,
+        "m_character_id": 376,
+        "m_command_id": 3003761,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003762,
+        "m_character_id": 376,
+        "m_command_id": 3003762,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003771,
+        "m_character_id": 377,
+        "m_command_id": 3003771,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003772,
+        "m_character_id": 377,
+        "m_command_id": 3003772,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003781,
+        "m_character_id": 378,
+        "m_command_id": 3003781,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003782,
+        "m_character_id": 378,
+        "m_command_id": 3003782,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003791,
+        "m_character_id": 379,
+        "m_command_id": 3003791,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003792,
+        "m_character_id": 379,
+        "m_command_id": 3003792,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003801,
+        "m_character_id": 380,
+        "m_command_id": 3003801,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003802,
+        "m_character_id": 380,
+        "m_command_id": 3003802,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003811,
+        "m_character_id": 381,
+        "m_command_id": 3003811,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003812,
+        "m_character_id": 381,
+        "m_command_id": 3003812,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003821,
+        "m_character_id": 382,
+        "m_command_id": 3003821,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003822,
+        "m_character_id": 382,
+        "m_command_id": 3003822,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003831,
+        "m_character_id": 383,
+        "m_command_id": 3003831,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003832,
+        "m_character_id": 383,
+        "m_command_id": 3003832,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003841,
+        "m_character_id": 384,
+        "m_command_id": 3003841,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003842,
+        "m_character_id": 384,
+        "m_command_id": 3003842,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003851,
+        "m_character_id": 385,
+        "m_command_id": 3003851,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003852,
+        "m_character_id": 385,
+        "m_command_id": 3003852,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003861,
+        "m_character_id": 386,
+        "m_command_id": 3003861,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003862,
+        "m_character_id": 386,
+        "m_command_id": 3003862,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003871,
+        "m_character_id": 387,
+        "m_command_id": 3003871,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003872,
+        "m_character_id": 387,
+        "m_command_id": 3003872,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003881,
+        "m_character_id": 388,
+        "m_command_id": 3003881,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003882,
+        "m_character_id": 388,
+        "m_command_id": 3003882,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003891,
+        "m_character_id": 389,
+        "m_command_id": 3003891,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003892,
+        "m_character_id": 389,
+        "m_command_id": 3003892,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003901,
+        "m_character_id": 390,
+        "m_command_id": 3003901,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003902,
+        "m_character_id": 390,
+        "m_command_id": 3003902,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003911,
+        "m_character_id": 391,
+        "m_command_id": 3003911,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003912,
+        "m_character_id": 391,
+        "m_command_id": 3003912,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003921,
+        "m_character_id": 392,
+        "m_command_id": 3003921,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003922,
+        "m_character_id": 392,
+        "m_command_id": 3003922,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003931,
+        "m_character_id": 393,
+        "m_command_id": 3003931,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003932,
+        "m_character_id": 393,
+        "m_command_id": 3003932,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003941,
+        "m_character_id": 394,
+        "m_command_id": 3003941,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003942,
+        "m_character_id": 394,
+        "m_command_id": 3003942,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003951,
+        "m_character_id": 395,
+        "m_command_id": 3003951,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003952,
+        "m_character_id": 395,
+        "m_command_id": 3003952,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003961,
+        "m_character_id": 396,
+        "m_command_id": 3003961,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003962,
+        "m_character_id": 396,
+        "m_command_id": 3003962,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003971,
+        "m_character_id": 397,
+        "m_command_id": 3003971,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003972,
+        "m_character_id": 397,
+        "m_command_id": 3003972,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003981,
+        "m_character_id": 398,
+        "m_command_id": 3003981,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003982,
+        "m_character_id": 398,
+        "m_command_id": 3003982,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3003991,
+        "m_character_id": 399,
+        "m_command_id": 3003991,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3003992,
+        "m_character_id": 399,
+        "m_command_id": 3003992,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3004001,
+        "m_character_id": 400,
+        "m_command_id": 3004001,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3004002,
+        "m_character_id": 400,
+        "m_command_id": 3004002,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3004011,
+        "m_character_id": 401,
+        "m_command_id": 3004011,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3004012,
+        "m_character_id": 401,
+        "m_command_id": 3004012,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3004021,
+        "m_character_id": 402,
+        "m_command_id": 3004021,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3004022,
+        "m_character_id": 402,
+        "m_command_id": 3004022,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3004031,
+        "m_character_id": 403,
+        "m_command_id": 3004031,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3004032,
+        "m_character_id": 403,
+        "m_command_id": 3004032,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
         "id": 3200091,
         "m_character_id": 20009,
         "m_command_id": 3200091,
@@ -10779,6 +11467,166 @@
         "id": 3201062,
         "m_character_id": 20106,
         "m_command_id": 3201062,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201071,
+        "m_character_id": 20107,
+        "m_command_id": 3201071,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201072,
+        "m_character_id": 20107,
+        "m_command_id": 3201072,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201081,
+        "m_character_id": 20108,
+        "m_command_id": 3201081,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201082,
+        "m_character_id": 20108,
+        "m_command_id": 3201082,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201091,
+        "m_character_id": 20109,
+        "m_command_id": 3201091,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201092,
+        "m_character_id": 20109,
+        "m_command_id": 3201092,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201101,
+        "m_character_id": 20110,
+        "m_command_id": 3201101,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201102,
+        "m_character_id": 20110,
+        "m_command_id": 3201102,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201111,
+        "m_character_id": 20111,
+        "m_command_id": 3201111,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201112,
+        "m_character_id": 20111,
+        "m_command_id": 3201112,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201121,
+        "m_character_id": 20112,
+        "m_command_id": 3201121,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201122,
+        "m_character_id": 20112,
+        "m_command_id": 3201122,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201131,
+        "m_character_id": 20113,
+        "m_command_id": 3201131,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201132,
+        "m_character_id": 20113,
+        "m_command_id": 3201132,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201141,
+        "m_character_id": 20114,
+        "m_command_id": 3201141,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201142,
+        "m_character_id": 20114,
+        "m_command_id": 3201142,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201151,
+        "m_character_id": 20115,
+        "m_command_id": 3201151,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201152,
+        "m_character_id": 20115,
+        "m_command_id": 3201152,
+        "learn_type": 1,
+        "lv": 200,
+        "mana": 0
+    },
+    {
+        "id": 3201161,
+        "m_character_id": 20116,
+        "m_command_id": 3201161,
+        "learn_type": 1,
+        "lv": 1,
+        "mana": 0
+    },
+    {
+        "id": 3201162,
+        "m_character_id": 20116,
+        "m_command_id": 3201162,
         "learn_type": 1,
         "lv": 200,
         "mana": 0

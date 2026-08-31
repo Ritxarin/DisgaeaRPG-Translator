@@ -1075,6 +1075,24 @@ patterns = [
         )
     ),
 
+    # --- 3️⃣2️⃣ II SP gain at turn start/end ✅ ---
+    (
+        "SP gain at turn start/end",
+        re.compile(
+            r'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            r'(?:(?P<timing>ターン開始時|ターン終了時)、)'
+            r'(?P<target>自分の|パーティの)'
+            r'SP'
+            r'\+#PER#(?:%|％)?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            ("All Allies: " if m.group("target") == "パーティの" else "Self: ")
+            + f"At the {'start' if m.group('timing') == 'ターン開始時' else 'end'} of turn, "
+            + "SP +#PER#"
+        )
+    ),
+
     # --- 3️⃣3️⃣ - I Party Stat Buff if X+ Weapon-Wielding Units Are Present (optional leading comma, multi-types) ✅ ---
     (
         re.compile(
@@ -1779,6 +1797,93 @@ patterns = [
                 if m.group('timing') else ""
             )
             + "SP +#PER#"
+        )
+    ),
+
+    (
+        "HP Full Condition → Party Stat Buff",
+        re.compile(
+            rf'^(?P<timing>ターン開始時|ターン終了時)、'
+            rf'体力が満タンの場合、'
+            rf'(?P<target>パーティ|自分)の'
+            rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'\+#PER#(?:%|％)'
+            r'(?:\((?P<turns>\d+)(?:T|ターン)\)|（(?P<turns_alt>\d+)ターン）)?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            ("All Allies: " if m.group("target") == "パーティ" else "Self: ")
+            + f"If this unit's HP is full at the "
+            + ("start" if m.group("timing") == "ターン開始時" else "end")
+            + " of turn, "
+            + "/".join(stat_map.get(s, s) for s in m.group("stats").split("・"))
+            + " +#PER#%"
+            + (
+                f" ({m.group('turns') or m.group('turns_alt')} turns)"
+                if (m.group("turns") or m.group("turns_alt"))
+                else ""
+            )
+        )
+    ),
+
+    (
+        "SP Threshold → Consume SP for AG",
+        re.compile(
+            r'^ターン(?P<timing>開始|終了)時、'
+            r'SPが(?P<threshold>\d+)以上ある場合、'
+            r'SPを(?P<cost>\d+)消費して'
+            r'行動ゲージ\+(?P<ag>#PER#|\d+)'
+            r'\(連続発動は最大(?P<limit>\d+)回まで\)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            f"Self: {timing_map[f'ターン{m.group('timing')}時']}, "
+            f"if SP is {m.group('threshold')} or more, "
+            f"consume {m.group('cost')} SP for "
+            f"{m.group('ag')} AG "
+            f"(can be activated {m.group('limit')} "
+            f"{'time' if m.group('limit') == '1' else 'times'} in a row)"
+        )
+    ),
+
+
+    (
+        "Stat-Debuffed Enemy → Stat Debuff",
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)'
+            rf'(?P<cond_stat>{stats_pattern})'
+            rf'デバフ効果を受けている敵キャラの'
+            rf'(?P<apply_stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'-(?P<value>#PER#)(?:%|％)'
+            r'(?:\((?P<turns>\d+)(?:T|ターン)\))?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group("lead") else "")
+            + f"{stat_map.get(m.group('cond_stat'), m.group('cond_stat'))}-Debuffed Foes: "
+            + "/".join(stat_map.get(s, s) for s in m.group("apply_stats").split("・"))
+            + " -#PER#%"
+            + (f"({m.group('turns')}T)" if m.group("turns") else "")
+        )
+    ),
+
+    # --- Fewer enemies remaining -> more stats --- #
+    (
+        "Fewer enemies remaining -> more stats",
+        re.compile(
+            r'^(?P<timing>戦闘開始時|ターン開始時|ターン終了時)、'
+            r'敵の生存キャラ数が少ないほど'
+            r'自分の(?P<stats>(?:' + stats_pattern + r')(?:・(?:' + stats_pattern + r'))*)'
+            r'アップ'
+            r'\(最大\+(?P<max>\d+)%,(?P<turns>\d+T|\d+ターン)\)'
+        ),
+        lambda m: (
+            f"Self: {timing_map[m.group('timing')]}, "
+            f"the fewer foes remaining, the more "
+            f"{'/'.join(stat_map[s] for s in m.group('stats').split('・'))} "
+            f"increases "
+            f"(Max +{m.group('max')}%, "
+            f"{m.group('turns').replace('ターン', 'T')})"
         )
     ),
 

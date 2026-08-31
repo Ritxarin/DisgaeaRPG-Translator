@@ -4296,5 +4296,124 @@
     "name": "Valvatorez, the ephemeral evil god",
     "description": "Nightmare Tyrant Valvatorez has taken on\nthe form of the Overlord God\nZenon. He radiates overwhelming power,\nbut its source is hatred. He\nis tormented by a destructive impulse\nthat wells up from within.",
     "color_no": 2
+  },
+  {
+    "id": 1545,
+    "img_id": 20117,
+    "name": "Haru",
+    "description": "The protagonist of *Shin Yomawari*. On her\nway home from a fireworks festival, she\ngot separated from her best friend, Yui.\nThough she has a quiet personality, she’s\nmustering up the courage to search for\nYui, wandering the streets at night.",
+    "color_no": 7
+  },
+  {
+    "id": 1546,
+    "img_id": 20118,
+    "name": "Yui",
+    "description": "The protagonist of *Shin Yomawari*. Haru’s best\nfriend, who has a cheerful personality.\nShe got separated from Haru on their\nway home from the fireworks festival.",
+    "color_no": 7
+  },
+  {
+    "id": 1547,
+    "img_id": 90103,
+    "name": "Hero Rozalin",
+    "description": "Rozalin transforms, drawing power from\nthe wandering souls who responded\nto Yui and Haru’s cheers.\nClad in an outfit modeled\nafter the former Overlord Zenon,\nshe unleashes godlike powers.",
+    "color_no": 12
+  },
+  {
+    "id": 1548,
+    "img_id": 90104,
+    "name": "Yomawari Ao",
+    "description": "Ao transforms, drawing strength from the\nwandering souls who responded to\nYui and Haru’s cheers. Her\nappearance is reminiscent of the\nprotagonist of *Yomawari*, and it\ninspires the courage to face\nthe terrors of the night.",
+    "color_no": 7
+  },
+  {
+    "id": 1549,
+    "img_id": 90105,
+    "name": "Netherworld President Axel",
+    "description": "Here is Axel, having awakened his power\nas the President of the Netherworld\nin response to Emizel’s encouragement. By shouldering\nthe expectations of the people, he\nis now unleashing his true potential.",
+    "color_no": 7
+  },
+  {
+    "id": 1550,
+    "img_id": 409,
+    "name": "Swimsuit Sapphire",
+    "description": "Sapphire in her swimsuit. She invited\nRaspberyl and came to the\nbeach. Her sense of adventure and\nlove for all things cute\nare still going strong, even at\nthe Sea of Magic Summer.",
+    "color_no": 5
+  },
+  {
+    "id": 1551,
+    "img_id": 90106,
+    "name": "Swimsuit Creator Asagi",
+    "description": "Creator Asagi, a creator of summer outfits. She’s\nthe one who organized the “Ultra VR\nGame Tournament” and gathered participants at the beach.\nA game creator who is pure selfishness.",
+    "color_no": 2
+  },
+  {
+    "id": 1552,
+    "img_id": 411,
+    "name": "Maritime Salvatore",
+    "description": "Salvatore, dressed in his summer outfit,\nis participating in a gaming\ntournament. Even though the setting\nis a beach, his ruthlessly\ncold military demeanor remains unchanged.",
+    "color_no": 3
+  },
+  {
+    "id": 1553,
+    "img_id": 90107,
+    "name": "Swimsuit Artina XENO",
+    "description": "Artina XENO, dressed in a swimsuit,\nis participating in a gaming\ntournament alongside Raspberyl XENO. It\nseems she’s here without telling\nher boyfriend, Nightmare Tyrant Valvatorez…?",
+    "color_no": 12
+  },
+  {
+    "id": 1554,
+    "img_id": 408,
+    "name": "Sun-Kissed Etna",
+    "description": "A tanned Etna is participating\nin the tournament as\na partner with Girl Laharl.\nHer skills are well-established\neven within the game.",
+    "color_no": 1
+  },
+  {
+    "id": 1555,
+    "img_id": 90108,
+    "name": "Pirate Overlord Asagi",
+    "description": "The Overlord Asagi, dressed as a\npirate, appears in *Sea of Devils*,\ncreated by Creator Asagi. He\nstands in the way of Raspberyl\nand her friends' treasure hunt.",
+    "color_no": 12
+  },
+  {
+    "id": 1556,
+    "img_id": 417,
+    "name": "Swimsuit Prier",
+    "description": "The heroine of *La Pucelle: Legend of the\nSaintess of Light*. She’s a rookie demon exorcist\naspiring to become the Saintess of Light, but\nher method of exorcising demons is close-quarters combat.\nShe’s a meat-loving, combat-oriented fighter who adores roast\npork. Aiming to secure the lead role in\na potential sequel, she entered the *Swimsuit Festival.*",
+    "color_no": 9
+  },
+  {
+    "id": 1557,
+    "img_id": 90109,
+    "name": "Beach Eclair",
+    "description": "A princess of the Kingdom of Saint\nPaprika who appears in *La Pucelle:\nLegend of the Holy Maiden of\nLight*. She adores Prier and calls her\n“big sister.” Although she isn’t used\nto wearing a swimsuit, she joins\nthe “Swimsuit Festival” to support Prier.",
+    "color_no": 7
+  },
+  {
+    "id": 1558,
+    "img_id": 90110,
+    "name": "Swimsuit Mayfair",
+    "description": "A female pirate captain who appears\nin *Phantom Brave: The Ghost Fleet\nand the Vanished Hero*. She’s a\nfighter who takes on any challenge\nhead-on. She doesn’t understand the point\nof fashion shows, but when she\nheard it was a festival, she\ncouldn’t resist and rushed over.",
+    "color_no": 1
+  },
+  {
+    "id": 1559,
+    "img_id": 414,
+    "name": "Beach Petta",
+    "description": "A girl who claims to be Zetta’s daughter,\nappearing in *Phantom Kingdom*. She possesses the\npower to manipulate time and space. As the\nprotagonist of this game, she joins the\nbattle in *Swimsuit Festival.* to save her father,\nwho has been turned into a book.",
+    "color_no": 1
+  },
+  {
+    "id": 1560,
+    "img_id": 90111,
+    "name": "Plum in a Swimsuit",
+    "description": "A prophet with a 100% track record of\naccurate predictions who appears in *Phantom Kingdom*.\nAlthough she is known as the “Heroine,”\nshe seems to have absolutely no intention\nof helping Zetta when he’s in trouble.\nShe shows interest in the protagonist’s role\nand joins the battle in *Swimsuit Festival.*",
+    "color_no": 11
+  },
+  {
+    "id": 1561,
+    "img_id": 20120,
+    "name": "Bottle Henna",
+    "description": "On her way to pick up\na custom-made swimsuit, Henna was trapped\ninside a bottle by someone. She’s\nreportedly lamenting her current appearance, which\nis completely devoid of any sex\nappeal. By the way, it seems\nthe swimsuit she ordered was quite—very—revealing.",
+    "color_no": 6
   }
 ]

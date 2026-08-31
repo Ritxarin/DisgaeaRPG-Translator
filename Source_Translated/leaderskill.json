@@ -4275,7 +4275,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and at the start of your turn, your SP+#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 221,
@@ -5710,7 +5710,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 303,
@@ -6990,7 +6990,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 372,
@@ -7146,7 +7146,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Wielding Allies: Non-HP Basic Stats +#PER#%"
+    "description": "Spear-Wielding Allies: Basic Stats +#PER#%"
   },
   {
     "id": 382,
@@ -7222,7 +7222,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Spear-Equipped Self: Skill Damage +#PER#%"
+    "description": "Spear-Equipped Self, Damage +#PER#%"
   },
   {
     "id": 384,
@@ -7300,7 +7300,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", HP +#PER#%"
+    "description": ",CRD +#PER#%"
   },
   {
     "id": 387,
@@ -7338,7 +7338,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and more consumption SP-#PER#%"
+    "description": ", Spear-Wielding Allies: SP Cost -#PER#%"
   },
   {
     "id": 388,
@@ -7923,7 +7923,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 433,
@@ -10098,7 +10098,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 593,
@@ -14004,7 +14004,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", CRT +#PER#%"
+    "description": ", HP/CRT +#PER#%"
   },
   {
     "id": 768,
@@ -16685,7 +16685,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 923,
@@ -17378,7 +17378,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 953,
@@ -18583,7 +18583,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 1023,
@@ -19211,7 +19211,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 1053,
@@ -24089,7 +24089,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, if there are more than 5 characters of the latent type [King] alive, when the turn begins, you will be able to use your own CRT+#PER#%(1T)"
+    "description": "Additionally, if 5 or more characters of the [King] subtype are still alive, at the start of your turn, your CRT and CRD are increased by #PER#% (1T)"
   },
   {
     "id": 1311,
@@ -28647,7 +28647,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If your health is below 1% at the start of your turn, your SP+#PER#"
+    "description": "At the start of turn, If HP <= 1%, Self: SP +#PER#"
   },
   {
     "id": 1541,
@@ -33080,7 +33080,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Water Damage when you equip yourself with an axe weapon +#PER#%"
+    "description": "Axe-Equipped Self: Elemental Damage +#PER#%"
   },
   {
     "id": 1743,
@@ -33233,7 +33233,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": " .Additionally, All Allies: Water Damage +#PER#%"
+    "description": ", All Allies Elemental Damage +#PER#%"
   },
   {
     "id": 1748,
@@ -33658,7 +33658,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 1764,
@@ -33894,7 +33894,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If you are fully energized at the start of the turn, the party's ATK/INT+#PER#%(2 turns)"
+    "description": "All Allies: If this unit's HP is full at the start of turn, ATK/INT +#PER#% (2 turns)"
   },
   {
     "id": 1773,
@@ -34318,7 +34318,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 1794,
@@ -34819,7 +34819,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)"
+    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
   },
   {
     "id": 1814,
@@ -35092,7 +35092,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the smaller the number of surviving enemies, the higher your ATK/CRD (up to +50%, 1 turn)"
+    "description": "Self: At start of turn, the fewer foes remaining, the more ATK/CRD increases (Max +50%, 1T)"
   },
   {
     "id": 1825,
@@ -36103,7 +36103,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Lowest-SPD Ally: At the end of the turn, ATK/INT +#PER#% (1T)"
+    "description": "Lowest-SPD Ally: At the end of turn, ATK/INT +#PER#% (1T)"
   },
   {
     "id": 1865,
@@ -38457,7 +38457,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If you are fully stamina at the start of your turn, your ATK/CRT+#PER#%(1T)"
+    "description": "Self: If this unit's HP is full at the start of turn, ATK/CRT +#PER#% (1 turns)"
   },
   {
     "id": 1955,
@@ -39387,7 +39387,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", CRD +#PER#% (ATK/DEF max +150%, CRD max +80%)"
+    "description": ", CRD +#PER#% (ATK/DEF max +150%, CRD max +90%)"
   },
   {
     "id": 1988,
@@ -39768,7 +39768,7 @@
       0
     ],
     "bad_effect_value": 20,
-    "description": "At the end of turn, if you have 20 or more SP, consume 20 SP and take action gauge +#PER# (Up to 2 consecutive activations)"
+    "description": "Self: At the end of the turn, if SP is 20 or more, consume 20 SP for #PER# AG (can be activated 2 times in a row)"
   },
   {
     "id": 2003,
@@ -39844,7 +39844,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 2005,
@@ -41560,7 +41560,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2065,
@@ -41764,7 +41764,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Basic Stats/CRD +#PER#%"
+    "description": "All Allies: Base parameters +#PER#%"
   },
   {
     "id": 2072,
@@ -41802,7 +41802,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: Wind Damage dealt when equipped with bow weapons +#PER#%"
+    "description": "Bow-Equipped Self: Elemental Damage +#PER#%"
   },
   {
     "id": 2073,
@@ -41842,7 +41842,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If you are fully stamina at the start of your turn, your ATK/CRD+#PER#%(1T)"
+    "description": "At the start of your turn, if your HP is full, your ATK and CRD increase by #PER#% (1T)"
   },
   {
     "id": 2074,
@@ -44468,7 +44468,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: When a Fire skill is used, CRD +#PER#% (2T)"
+    "description": "All Allies: When a Fire skill is used, ATK/INT +#PER#% (2T)"
   },
   {
     "id": 2183,
@@ -44506,7 +44506,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)"
+    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
   },
   {
     "id": 2184,
@@ -44544,7 +44544,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2185,
@@ -46048,7 +46048,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2244,
@@ -46090,7 +46090,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If you are fully stamina at the end of your turn, the party's ATK, INT, CRD+#PER#%(1T)"
+    "description": "All Allies: If this unit's HP is full at the end of turn, ATK/INT/CRD +#PER#% (1 turns)"
   },
   {
     "id": 2245,
@@ -47086,7 +47086,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2283,
@@ -48281,7 +48281,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2325,
@@ -49433,7 +49433,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2365,
@@ -49933,7 +49933,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2385,
@@ -50800,7 +50800,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2415,
@@ -51643,7 +51643,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: Buff Effects +10%"
+    "description": "All Allies: Buff Effects +15%"
   },
   {
     "id": 2444,
@@ -53225,7 +53225,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Staff-Equipped Self: Skill Damage +#PER#%"
+    "description": "Staff-Equipped Self: Damage +#PER#%"
   },
   {
     "id": 2503,
@@ -53263,7 +53263,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Debuff effect used by parties +15%"
+    "description": "All Allies: Debuff Effects +15%"
   },
   {
     "id": 2504,
@@ -53378,7 +53378,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", All Allies: Skill Damage +#PER#%"
+    "description": ", Party: Damage +#PER#%"
   },
   {
     "id": 2507,
@@ -53454,7 +53454,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", CRD +#PER#% (INT/RES max +80%, CRD max +30%)"
+    "description": ", CRT/CRD +#PER#% (INT/RES max +100%, CRT/CRD max +30%)"
   },
   {
     "id": 2511,
@@ -54145,7 +54145,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the end of turn, party SP+#PER#"
+    "description": "All Allies: At the end of turn, SP +#PER#"
   },
   {
     "id": 2534,
@@ -57033,7 +57033,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2634,
@@ -58194,7 +58194,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2674,
@@ -59857,7 +59857,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If you are fully energized at the start of the turn, the party's ATK/INT+#PER#%(2T)"
+    "description": "All Allies: If this unit's HP is full at the start of turn, ATK/INT +#PER#% (2 turns)"
   },
   {
     "id": 2734,
@@ -62720,7 +62720,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2834,
@@ -64038,7 +64038,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 2884,
@@ -67462,7 +67462,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 3004,
@@ -71299,7 +71299,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 3134,
@@ -77328,7 +77328,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Enemies: Non-HP Basic Stats -#PER#%"
+    "description": "All Enemies: Non-HP Basic Stats/CRT -#PER#%"
   },
   {
     "id": 3342,
@@ -77482,7 +77482,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", SPD/CRT -#PER#%"
+    "description": ",SPD -#PER#%"
   },
   {
     "id": 3346,
@@ -77676,7 +77676,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)"
+    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
   },
   {
     "id": 3354,
@@ -77944,7 +77944,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 3364,
@@ -79104,7 +79104,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 3404,
@@ -79652,7 +79652,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 3423,
@@ -80625,7 +80625,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", CRD +#PER#%"
+    "description": ", HP/CRD +#PER#%"
   },
   {
     "id": 3456,
@@ -82140,7 +82140,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 3505,
@@ -87919,7 +87919,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 100054,
@@ -88071,7 +88071,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 100064,
@@ -88223,7 +88223,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 100074,
@@ -88337,7 +88337,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 100083,
@@ -88527,7 +88527,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 100094,
@@ -88679,7 +88679,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 100104,
@@ -88831,7 +88831,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 100114,
@@ -88945,7 +88945,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 100123,
@@ -94792,7 +94792,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 200233,
@@ -95069,7 +95069,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 200243,
@@ -97511,7 +97511,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, if there are less than 3 enemies, the basic parameters other than your HP +#PER#%(1 turn)"
+    "description": "At the start of your turn, if there are 3 or fewer enemies, your base stats (excluding HP) are increased by #PER#%%(1T)"
   },
   {
     "id": 200383,
@@ -97549,7 +97549,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When the start of the turn, if there is an enemy in the DEF debuff state, damage you deal with with your special move +#PER#%(1 turn)"
+    "description": "At the start of a turn, if there are enemies under a DEF debuff, grants yourself +#PER#% damage from special moves (1T)"
   },
   {
     "id": 200384,
@@ -99246,7 +99246,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the fewer enemy characters survive, the more your INT increases (maximum +80%, 1T)"
+    "description": "Self: At start of turn, the fewer foes remaining, the more INT increases (Max +80%, 1T)"
   },
   {
     "id": 200465,
@@ -100211,7 +100211,7 @@
       0
     ],
     "bad_effect_value": 20,
-    "description": "At the end of turn, if you have 20 or more SP, consume 20 SP and take action gauge +#PER# (Up to 2 consecutive activations)"
+    "description": "Self: At the end of the turn, if SP is 20 or more, consume 20 SP for #PER# AG (can be activated 2 times in a row)"
   },
   {
     "id": 200503,
@@ -100790,7 +100790,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: If 2+ Monster units are present, CRT +#PER#%"
+    "description": "Self: If 2+ Monster units are present, DEF/RES/CRT +#PER#%"
   },
   {
     "id": 200531,
@@ -102845,7 +102845,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When the start of the turn, if your health is 50% or more, damage you deal with with your special move +#PER#%(1 turn)"
+    "description": "At the start of turn, If HP >= 50%, Self: Skill Damage +#PER#%(1T)"
   },
   {
     "id": 200613,
@@ -102922,7 +102922,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 200615,
@@ -104160,7 +104160,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 200673,
@@ -104433,7 +104433,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the fewer enemy characters are alive, the more your INT/CRD increases (up to +90%, 1T)"
+    "description": "Self: At start of turn, the fewer foes remaining, the more INT/CRD increases (Max +90%, 1T)"
   },
   {
     "id": 200686,
@@ -108222,7 +108222,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 200834,
@@ -108800,7 +108800,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)"
+    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
   },
   {
     "id": 200853,
@@ -109461,7 +109461,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the fewer the enemy's surviving characters, the higher your ATK/CRD (up to +60%, 1T)"
+    "description": "Self: At start of turn, the fewer foes remaining, the more ATK/CRD increases (Max +60%, 1T)"
   },
   {
     "id": 200875,
@@ -110579,7 +110579,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 200914,
@@ -112317,7 +112317,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)"
+    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
   },
   {
     "id": 200973,
@@ -112355,7 +112355,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 200974,
@@ -113794,7 +113794,7 @@
       0
     ],
     "bad_effect_value": 15,
-    "description": "At the end of turn, if you have 15 or more SP, consume 15 SP and take action gauge +#PER# (May be activated up to one continuous time)"
+    "description": "Self: At the end of the turn, if SP is 15 or more, consume 15 SP for #PER# AG (can be activated 1 time in a row)"
   },
   {
     "id": 201024,
@@ -118965,7 +118965,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 300172,
@@ -119117,7 +119117,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 300182,
@@ -119269,7 +119269,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 300192,
@@ -119421,7 +119421,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 300202,
@@ -125845,7 +125845,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 300661,
@@ -125999,7 +125999,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 300671,
@@ -130227,7 +130227,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 300984,
@@ -130381,7 +130381,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Self: At the start of the turn SP +#PER#"
+    "description": "Self: At the start of turn, SP +#PER#"
   },
   {
     "id": 300994,
@@ -144060,7 +144060,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the fewer the enemy's surviving characters, the higher your ATK/CRD (up to +80%, 1T)"
+    "description": "Self: At start of turn, the fewer foes remaining, the more ATK/CRD increases (Max +80%, 1T)"
   },
   {
     "id": 3534,
@@ -145856,7 +145856,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)"
+    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
   },
   {
     "id": 3574,
@@ -146165,7 +146165,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 3614,
@@ -155016,7 +155016,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "At the start of the turn, the fewer enemy characters survive, the more your ATK/CRD increases (up to +50%, 1T)"
+    "description": "Self: At start of turn, the fewer foes remaining, the more ATK/CRD increases (Max +50%, 1T)"
   },
   {
     "id": 201115,
@@ -155551,7 +155551,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 3813,
@@ -155589,7 +155589,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)"
+    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
   },
   {
     "id": 3814,
@@ -160013,7 +160013,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "All Allies: At the start of the turn SP +#PER#"
+    "description": "All Allies: At the start of turn, SP +#PER#"
   },
   {
     "id": 3965,
@@ -163019,7 +163019,7 @@
   },
   {
     "id": 4031,
-    "name": "Little Saint Protector",
+    "name": "Little Holy Emperor",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -163055,11 +163055,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "HP, ATK, CRD +#PER#% of the party's HP, ATK, CRD +#PER#% if all the characters in the party are equipped with different weapon types."
+    "description": "All Allies: If all allies are equipped with a different weapon type, HP/ATK/CRD +#PER#%"
   },
   {
     "id": 4032,
-    "name": "lightning barrette",
+    "name": "Lightning Bullet",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -163097,7 +163097,7 @@
   },
   {
     "id": 4033,
-    "name": "lightning check",
+    "name": "Lightning-Fast Feint",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -163137,7 +163137,7 @@
   },
   {
     "id": 4034,
-    "name": "with lightning speed",
+    "name": "Swift Lightning",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 5,
@@ -163171,11 +163171,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "If there are 2 or more characters of potential type [King Bishop] in the party, at the beginning of the WAVE, your action gauge +#PER#."
+    "description": "Self: At start of Wave, if 2+ [King/Bishop] allies, AG +#PER#."
   },
   {
     "id": 4035,
-    "name": "Little Saint Protector",
+    "name": "Little Holy Emperor",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -163213,7 +163213,7 @@
   },
   {
     "id": 4036,
-    "name": "lightning barrette",
+    "name": "Lightning Bullet",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -163251,7 +163251,7 @@
   },
   {
     "id": 4037,
-    "name": "lightning check",
+    "name": "Lightning-Fast Feint",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -163289,7 +163289,7 @@
   },
   {
     "id": 4038,
-    "name": "with lightning speed",
+    "name": "Swift Lightning",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 5,
@@ -163365,7 +163365,7 @@
   },
   {
     "id": 4011,
-    "name": "Swordsman of Another World",
+    "name": "Swordsman from Another World",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -163404,7 +163404,7 @@
   },
   {
     "id": 4012,
-    "name": "sacred object Caisendon",
+    "name": "Sacred Treasure: Kaisendon",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -163442,7 +163442,7 @@
   },
   {
     "id": 4013,
-    "name": "strange stories and good deeds",
+    "name": "Alternate Tale: Theory of Innate Goodness",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 11,
@@ -163478,11 +163478,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When your party takes damage, your ATK and DEF + #PER#% (2T)"
+    "description": "Self: When any ally takes damage, ATK/DEF +#PER#% (2T)"
   },
   {
     "id": 4014,
-    "name": "spark of divine vengeance",
+    "name": "Divine Retribution Flash",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -163521,7 +163521,7 @@
   },
   {
     "id": 4015,
-    "name": "Swordsman of Another World",
+    "name": "Swordsman from Another World",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -163559,7 +163559,7 @@
   },
   {
     "id": 4016,
-    "name": "sacred object Caisendon",
+    "name": "Sacred Treasure: Kaisendon",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -163597,7 +163597,7 @@
   },
   {
     "id": 4017,
-    "name": "strange stories and good deeds",
+    "name": "Alternate Tale: Theory of Innate Goodness",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 11,
@@ -163635,7 +163635,7 @@
   },
   {
     "id": 4018,
-    "name": "spark of divine vengeance",
+    "name": "Divine Retribution Flash",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -163670,5 +163670,6280 @@
     ],
     "bad_effect_value": 0,
     "description": "CRD+#PER#%(ATK and DEF limit 100%, CRD limit 50%)"
+  },
+  {
+    "id": 2186,
+    "name": "Retainer's Conflagration",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 12,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRD +#PER#%(2T)"
+  },
+  {
+    "id": 4041,
+    "name": "Merged Evil Deity",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+  },
+  {
+    "id": 4042,
+    "name": "Frenzied Severing Blade",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Axe-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 4043,
+    "name": "Twilight of Life",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 71,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: At start of turn, Overheal #PER#%"
+  },
+  {
+    "id": 4044,
+    "name": "Last Word",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 35,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      1,
+      1,
+      1
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 180,
+    "effect_value_max": 180,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (3 Times, Power D+)"
+  },
+  {
+    "id": 4045,
+    "name": "Merged Evil Deity",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 63,
+    "effect_type_params": [
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      3,
+      3,
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At start of battle, ATK/INT/CRD Debuff Conversion (3 times)"
+  },
+  {
+    "id": 4046,
+    "name": "Frenzied Severing Blade",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4047,
+    "name": "Twilight of Life",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [
+      7
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", CRT-Buffed Allies: Damage +#PER#%(2T)"
+  },
+  {
+    "id": 201171,
+    "name": "Kind Heart",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK/DEF +#PER#%"
+  },
+  {
+    "id": 201172,
+    "name": "Strong Psychic Ability",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 201173,
+    "name": "Fearless Courage",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 22,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At the end of turn, SP +#PER#"
+  },
+  {
+    "id": 201174,
+    "name": "Together Forever",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 48,
+    "trigger_param2": 2,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 4,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: If 2+ [Knight/Queen] allies, Damage Taken- #PER#%%."
+  },
+  {
+    "id": 201175,
+    "name": "Kind Heart",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",SPD +#PER#%"
+  },
+  {
+    "id": 201176,
+    "name": "Strong Psychic Ability",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 201177,
+    "name": "Fearless Courage",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 1,
+    "trigger_status": 15,
+    "trigger_param": 75,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 104,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 54,
+    "effect_value_max": 54,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", if HP is 75% or more, remove [Bind] effect"
+  },
+  {
+    "id": 201178,
+    "name": "Together Forever",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 27,
+    "trigger_param": 5,
+    "trigger_param2": 1,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 8,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", if 1+ [Knight] allies, Healing +#PER#%"
+  },
+  {
+    "id": 201181,
+    "name": "Heart",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK/CRD +#PER#%"
+  },
+  {
+    "id": 201182,
+    "name": "Determination to Reunite",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Mon.Phys-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 201183,
+    "name": "Convey Feelings",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At the end of turn, ATK/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 201184,
+    "name": "Friends Forever",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 48,
+    "trigger_param2": 2,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: If 2+ [Knight/Queen] Type units are present, Damage +#PER#%"
+  },
+  {
+    "id": 201185,
+    "name": "Heart",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", CRT +#PER#%"
+  },
+  {
+    "id": 201186,
+    "name": "Determination to Reunite",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 8,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 201187,
+    "name": "Convey Feelings",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 2,
+    "trigger_status": 21,
+    "trigger_param": 2,
+    "trigger_param2": 2,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 17,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", if 2+ Monster Allies, AG+ #PER#"
+  },
+  {
+    "id": 201188,
+    "name": "Friends Forever",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 2,
+    "trigger_status": 27,
+    "trigger_param": 6,
+    "trigger_param2": 1,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 7,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", if 1+ [Queen] allies, SP Cost- #PER#%"
+  },
+  {
+    "id": 201191,
+    "name": "The Ghost of the Prinnys",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP +#PER#%"
+  },
+  {
+    "id": 201192,
+    "name": "The Wrath of the Dead",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Mon Magic-Equipped Self: Skill damage +#PER#%"
+  },
+  {
+    "id": 201193,
+    "name": "A Scream of Terror",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 18,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Foes: When this unit is Attacked, AG- #PER#"
+  },
+  {
+    "id": 201194,
+    "name": "Astral projection",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 90,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 1,
+    "effect_value_max": 1,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: At the start of the battle, grant Invincibility (#PER# Times)"
+  },
+  {
+    "id": 201195,
+    "name": "The Ghost of the Prinnys",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 2,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Enemies: CRT -#PER#%"
+  },
+  {
+    "id": 201196,
+    "name": "The Wrath of the Dead",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Skill Damage +#PER#%"
+  },
+  {
+    "id": 201197,
+    "name": "A Scream of Terror",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 24,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      3,
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", ATK/INT -#PER#%(3T)"
+  },
+  {
+    "id": 201198,
+    "name": "Astral projection",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 8,
+    "target_params": [
+      0
+    ],
+    "effect_type": 50,
+    "effect_type_params": [
+      13
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Other Allies: Single Target Damage Taken -#PER#% (2T)"
+  },
+  {
+    "id": 2075,
+    "name": "Winter Heroic",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRD +#PER#%"
+  },
+  {
+    "id": 2076,
+    "name": "Kamikaze on Christmas Eve",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 4,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies Elemental Damage +#PER#%"
+  },
+  {
+    "id": 4061,
+    "name": "The President's Dandyism",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK +#PER#%"
+  },
+  {
+    "id": 4062,
+    "name": "A Blazing Shout",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Spear-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 4063,
+    "name": "The Blazing Fire Within My Chest",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 12,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: When a Fire skill is used, ATK/DEF +#PER#% (2T)"
+  },
+  {
+    "id": 4064,
+    "name": "Triangle Beat",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 35,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      1,
+      1
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 180,
+    "effect_value_max": 180,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Lowest-HP Foe: At the end of the turn, Fire Follow-up (2 Times, Power D+)"
+  },
+  {
+    "id": 4065,
+    "name": "The President's Dandyism",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      3,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 4,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", plus your ATK, DEF, and CRD + the number of female characters in your party × #PER#%"
+  },
+  {
+    "id": 4066,
+    "name": "A Blazing Shout",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4067,
+    "name": "The Blazing Fire Within My Chest",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 12,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Damage +#PER#%(2T)"
+  },
+  {
+    "id": 4068,
+    "name": "Triangle Beat",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 34,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 180,
+    "effect_value_max": 180,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Highest-HP Foe: At the end of the turn, Fire Follow-up (1 Time, Power D+)"
+  },
+  {
+    "id": 4071,
+    "name": "The Courage to Light Up the Dark Night",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK/INT +#PER#%"
+  },
+  {
+    "id": 4072,
+    "name": "The Mysterious Flashlight",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Staff-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 4073,
+    "name": "Night Falls",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 56,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "If your party includes 3 or more characters with the [Bishop, Knight, Queen] latent types, at the start of your turn, your party's ATK and INT are increased by #PER#% (2 turns)."
+  },
+  {
+    "id": 4074,
+    "name": "Together with Everyone",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 35,
+    "effect_type_params": [
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "The more surviving characters there are in the party, the more the party's ATK, INT, CRD, and SPD increase (ATK, INT, and CRD increase by up to #PER#%)."
+  },
+  {
+    "id": 4075,
+    "name": "The Courage to Light Up the Dark Night",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 2,
+    "effect_type_params": [
+      6,
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Enemies: SPD/CRT -#PER#%"
+  },
+  {
+    "id": 4076,
+    "name": "The Mysterious Flashlight",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4077,
+    "name": "Night Falls",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 33,
+    "trigger_param": 56,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Damage +#PER#%(2T)"
+  },
+  {
+    "id": 4078,
+    "name": "Together with Everyone",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 35,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",SPD: up to +#PER#%%, up to 5 characters)"
+  },
+  {
+    "id": 20000100,
+    "name": "Applies \"Intimidation\" at the start of combat",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 102,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 0,
+    "effect_value_max": 0,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Applies \"Intimidation\" at the start of combat"
+  },
+  {
+    "id": 4051,
+    "name": "A Gentle Awakening",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: HP/ATK/CRD +#PER#%"
+  },
+  {
+    "id": 4052,
+    "name": "Kouki's Dual Swords",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Sword-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 4053,
+    "name": "The Hope I Hold in My Heart",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [
+      6
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "SPD-Buffed Allies: At the start of the turn, ATK/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 4054,
+    "name": "The Cycle of Resonance",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 29,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 80,
+    "effect_value_max": 80,
+    "effect_turn": [
+      0,
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "The higher your HP, the more damage you deal with your ATK, CRD, and single-target attacks (ATK and CRD are increased by up to #PER#%%)"
+  },
+  {
+    "id": 4056,
+    "name": "Kouki's Dual Swords",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4057,
+    "name": "The Hope I Hold in My Heart",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 1,
+    "trigger_status": 8,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", and if you are currently under the effect of an SPD buff, your CRT + #PER#% (1T)"
+  },
+  {
+    "id": 4058,
+    "name": "The Cycle of Resonance",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 37,
+    "effect_type_params": [
+      13
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Damage dealt by single-target attacks is increased by up to #PER#%"
+  },
+  {
+    "id": 200386,
+    "name": "Scarlet Armor",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 7,
+    "trigger_status": 6,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", and also grants a +#PER#% damage boost to your special moves (1T)"
+  },
+  {
+    "id": 200388,
+    "name": "Ruthless Queen",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 26,
+    "target_params": [
+      6
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      5,
+      5
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", ATK/INT +#PER#%(5T)"
+  },
+  {
+    "id": 200526,
+    "name": "ROAR!!!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      9
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Fire Damage +#PER#%"
+  },
+  {
+    "id": 200528,
+    "name": "Kaiju of Love",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 21,
+    "trigger_param": 2,
+    "trigger_param2": 2,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 22,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: At the start of turn, SP +#PER#"
+  },
+  {
+    "id": 200618,
+    "name": "Sharp Claws of Rage",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 1,
+    "trigger_status": 15,
+    "trigger_param": 50,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      1,
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", If HP >= 50%, Self: ATK/CRD +#PER#%(1T)"
+  },
+  {
+    "id": 4081,
+    "name": "Suntan-Dash",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 2,
+    "target_params": [
+      2
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 18,
+    "effect_value_max": 18,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Base Stats for Female Party Characters +#PER#%"
+  },
+  {
+    "id": 4082,
+    "name": "Enjoying Summer to the Fullest",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Fist-Equipped Self, Skill Damage +#PER#%"
+  },
+  {
+    "id": 4083,
+    "name": "Alluring Tanned Skin",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 2,
+    "target_params": [
+      2
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Female Allies: At start of battle, Non-HP Basic Stats +#PER#% (3 turns)"
+  },
+  {
+    "id": 4084,
+    "name": "Summer Frenzy",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 4,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 1,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Damage received from male characters -#PER#%"
+  },
+  {
+    "id": 4085,
+    "name": "Suntan-Dash",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 2,
+    "target_params": [
+      2
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",SPD +#PER#%"
+  },
+  {
+    "id": 4086,
+    "name": "Enjoying Summer to the Fullest",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Skill Damage +#PER#%"
+  },
+  {
+    "id": 4087,
+    "name": "Alluring Tanned Skin",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 2,
+    "target_params": [
+      2
+    ],
+    "effect_type": 6,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Initial SP +#PER#"
+  },
+  {
+    "id": 4088,
+    "name": "Summer Frenzy",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 4,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: ATK/CRD + No of Female Allies ×#PER#%"
+  },
+  {
+    "id": 4091,
+    "name": "Robust Vacation",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK +#PER#%"
+  },
+  {
+    "id": 4092,
+    "name": "Summarize Axe",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Axe-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 4093,
+    "name": "Forward Splash",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 36,
+    "target_params": [
+      6
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "SPD-Buffed Allies: At the start of the turn, ATK/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 4094,
+    "name": "Frontline Charge!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 32,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 17,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: If 3+ [Axe] allies, at end of turn, AG +#PER#"
+  },
+  {
+    "id": 4095,
+    "name": "Robust Vacation",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 4,
+    "target_params": [
+      6
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Axe-Wielding Allies: SPD +#PER#%"
+  },
+  {
+    "id": 4096,
+    "name": "Summarize Axe",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 6,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4097,
+    "name": "Forward Splash",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 4,
+    "target_params": [
+      6
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Axe-Wielding Allies: Damage +#PER#%(2T)"
+  },
+  {
+    "id": 4098,
+    "name": "Frontline Charge!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 32,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRD +#PER#%(2T)"
+  },
+  {
+    "id": 4111,
+    "name": "Dazzling Ten Gentlemen",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/CRD +#PER#%"
+  },
+  {
+    "id": 4112,
+    "name": "Ultimate Golden Bazooka",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Gun-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 4113,
+    "name": "Suppressive Fire",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 19,
+    "target_params": [
+      0
+    ],
+    "effect_type": 18,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Highest AG Foe: At end of turn, AG -#PER#"
+  },
+  {
+    "id": 4114,
+    "name": "S-Typhoon",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 16,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: When any ally crits, ATK/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 4115,
+    "name": "Dazzling Ten Gentlemen",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", CRT +#PER#%"
+  },
+  {
+    "id": 4116,
+    "name": "Ultimate Golden Bazooka",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4117,
+    "name": "Suppressive Fire",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 39,
+    "target_params": [
+      6
+    ],
+    "effect_type": 24,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", SPD Debuffed Foes: CRT -#PER#% (2T)"
+  },
+  {
+    "id": 4118,
+    "name": "S-Typhoon",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 16,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Damage +#PER#%(2T)"
+  },
+  {
+    "id": 4101,
+    "name": "Midsummer Game Creator",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/INT +#PER#%"
+  },
+  {
+    "id": 4102,
+    "name": "Fully water-cooled Selfie Stick",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Staff-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 4103,
+    "name": "The Great Asagi-chan Era★",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 81,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 22,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At the start of the turn, If 3+ [Sword/Gun/Staff] forte allies, SP +#PER#"
+  },
+  {
+    "id": 4104,
+    "name": "Critical Create",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 63,
+    "effect_type_params": [
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      3,
+      3,
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At start of battle, ATK/INT/CRD Debuff Conversion (3 times)"
+  },
+  {
+    "id": 4105,
+    "name": "Midsummer Game Creator",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 2,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 8,
+    "effect_value_max": 8,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Enemies: SPD -#PER#%"
+  },
+  {
+    "id": 4106,
+    "name": "Fully Water-Cooled Selfie Stick",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4107,
+    "name": "The Great Asagi-chan Era★",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 2,
+    "trigger_status": 25,
+    "trigger_param": 81,
+    "trigger_param2": 3,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Damage +#PER#%(2T)"
+  },
+  {
+    "id": 4108,
+    "name": "Critical Create",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: CRT +#PER#%(3T)"
+  },
+  {
+    "id": 4121,
+    "name": "Maid in Summer",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+  },
+  {
+    "id": 4122,
+    "name": "Sailing Arrow",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 4,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Bow-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 4123,
+    "name": "Rapidly Securing Shade",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 11,
+    "trigger_status": 5,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 74,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 1000,
+    "effect_value_max": 1000,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 9,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 10,
+    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)"
+  },
+  {
+    "id": 4124,
+    "name": "Cool Breeze in the Evening Dusk ",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 22,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At the start of the turn SP +#PER#"
+  },
+  {
+    "id": 4125,
+    "name": "Maid in Summer",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", HP/CRD +#PER#%"
+  },
+  {
+    "id": 4126,
+    "name": "Sailing Arrow",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 4,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4128,
+    "name": "Cool Breeze in the Evening Dusk ",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 19,
+    "target_params": [
+      0
+    ],
+    "effect_type": 99,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Highest AG Foe: Damage Taken +#PER#% (1 turn)"
+  },
+  {
+    "id": 765,
+    "name": "The Curse Mark of the Yuki Clan",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 2,
+    "effect_type_params": [
+      6
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",SPD -#PER#%"
+  },
+  {
+    "id": 4131,
+    "name": "Pirate Overlord Guarding the Hidden Treasure",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: ATK +#PER#%"
+  },
+  {
+    "id": 4132,
+    "name": "Pirate Cutlass",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Sword-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 4133,
+    "name": "Relentless Delayed Bombardment",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 35,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      2,
+      2,
+      2
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 140,
+    "effect_value_max": 140,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Lowest-HP Foe: At the end of the turn, Water Follow-up (3 Times, Power E+)"
+  },
+  {
+    "id": 4134,
+    "name": "Interconnected End of the Century",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 93,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Foes: At Wave Start, Inflict Weakness (Max Lv.#PER#)"
+  },
+  {
+    "id": 4135,
+    "name": "Pirate Overlord Guarding the Hidden Treasure",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRD +#PER#%"
+  },
+  {
+    "id": 4136,
+    "name": "Pirate Cutlass",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4137,
+    "name": "Relentless Delayed Bombardment",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 34,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      2
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 140,
+    "effect_value_max": 140,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Highest-HP Foe: At the end of the turn, Water Follow-up (1 Time, Power E+)"
+  },
+  {
+    "id": 4138,
+    "name": "Interconnected End of the Century",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 18,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 75,
+    "effect_value_max": 75,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", AG -#PER#"
+  },
+  {
+    "id": 4141,
+    "name": "Petta Summer",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 18,
+    "effect_value_max": 18,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: Non-HP Basic Stats+#PER#%"
+  },
+  {
+    "id": 4142,
+    "name": "Petta Parasol",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Staff-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 4143,
+    "name": "Petageizing",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 15,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: When a Star skill is used, ATK/INT +#PER#% (2T)"
+  },
+  {
+    "id": 4144,
+    "name": "PettaSmile",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 28,
+    "target_params": [
+      8
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Highest-CRD Ally: At the end of turn, All Stats except HP +#PER#% (2T)"
+  },
+  {
+    "id": 4145,
+    "name": "Petta Summer",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 4146,
+    "name": "Petta Parasol",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4147,
+    "name": "Petageizing",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 15,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRD +#PER#%(2T)"
+  },
+  {
+    "id": 4148,
+    "name": "PettaSmile",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 28,
+    "target_params": [
+      8
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ",CRT +#PER#%(2T)"
+  },
+  {
+    "id": 4171,
+    "name": "The Power of \"Magic Summer\" Grilled Pork",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK +#PER#%"
+  },
+  {
+    "id": 4172,
+    "name": "Sacred Sea-Splitting Fist",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 55,
+    "effect_value_max": 55,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Fist-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 4173,
+    "name": "Scorching Voltage",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 61,
+    "effect_type_params": [
+      2,
+      3,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 90,
+    "effect_value_max": 90,
+    "effect_turn": [
+      3,
+      3,
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "At the start of combat, your ATK, DEF, and CRD increase by 30%, and your CRT increases by 5%. The effects gradually increase (ATK, DEF, and CRD increase by 30% per turn, up to a maximum of #PER#%)."
+  },
+  {
+    "id": 4174,
+    "name": "Summer Execution",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 4,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "At the end of your turn, if you have defeated an enemy character, grant yourself +#PER#% of all damage dealt to you (2 turns)."
+  },
+  {
+    "id": 4175,
+    "name": "The Power of \"Magic Summer\" Grilled Pork",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 6,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Self: At the start of battle, Initial SP +#PER#"
+  },
+  {
+    "id": 4176,
+    "name": "Sacred Sea-Splitting Fist",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 2,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4177,
+    "name": "Scorching Voltage",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 61,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", CRT is 1T + 5%, capped at #PER#%"
+  },
+  {
+    "id": 4178,
+    "name": "Summer Execution",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 4,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 17,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 150,
+    "effect_value_max": 150,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: Action Gauge +#PER#"
+  },
+  {
+    "id": 201201,
+    "name": "Bottling Queen",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 2,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All enemies: ATK/INT -#PER#%"
+  },
+  {
+    "id": 201202,
+    "name": "The Enduring Magic of Sand",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 45,
+    "effect_value_max": 45,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Mon Magic-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 201203,
+    "name": "The Enchanting Bottle",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 3,
+    "trigger_status": 9,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At the end of this unit's turn, if there is a foe with a RES debuff, ATK/INT +#PER#%(2T)"
+  },
+  {
+    "id": 201204,
+    "name": "The Dignity of a Queen",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 63,
+    "effect_type_params": [
+      4,
+      5,
+      7,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At start of battle, INT/RES/CRD/CRT Debuff Conversion (4 times)"
+  },
+  {
+    "id": 201205,
+    "name": "Bottling Queen",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 4,
+    "effect_type_params": [
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", and reduces damage taken by the party from elemental attacks by #PER#%"
+  },
+  {
+    "id": 201206,
+    "name": "The Enduring Magic of Sand",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 9,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 201207,
+    "name": "The Enchanting Bottle",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 39,
+    "target_params": [
+      4
+    ],
+    "effect_type": 24,
+    "effect_type_params": [
+      6,
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", INT-Debuffed Foes: SPD/CRT -#PER#%(2T)"
+  },
+  {
+    "id": 4151,
+    "name": "Pirate Muscle",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: ATK/CRD +#PER#%"
+  },
+  {
+    "id": 4152,
+    "name": "Fighting Spirit surging in the Midsummer",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Sword-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 4153,
+    "name": "Pirate's True Nature",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 13,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 8,
+    "effect_value_max": 8,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: At start of turn, the fewer foes remaining, the more ATK/CRD increases (Max +40%, 2T)"
+  },
+  {
+    "id": 4154,
+    "name": "Blazing, Powerful Cannon Blast",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 35,
+    "target_params": [
+      0
+    ],
+    "effect_type": 59,
+    "effect_type_params": [
+      3,
+      3,
+      3
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 180,
+    "effect_value_max": 180,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Lowest-HP Foe: At the end of the turn, Wind Follow-up (3 Times, Power D+)"
+  },
+  {
+    "id": 4155,
+    "name": "Pirate Muscle",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", HP +#PER#%"
+  },
+  {
+    "id": 4156,
+    "name": "Fighting Spirit surging in the Midsummer",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4157,
+    "name": "Pirate's True Nature",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 22,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 13,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Increased SP Earned (up to +25)"
+  },
+  {
+    "id": 806101,
+    "name": "Test Battle: If the enemy has the [King] latent ability, they'll use Flame Intercept at the start of the battle.",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 3,
+    "trigger_status": 27,
+    "trigger_param": 1,
+    "trigger_param2": 1,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 76,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 2,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 450,
+    "effect_value_max": 450,
+    "effect_turn": [
+      999
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "If the enemy has one or more characters with the latent type [King], at the start of battle, you gain the Counter [Fire] [ATK] (999T) effect."
+  },
+  {
+    "id": 806102,
+    "name": "Test Battle: Damage dealt increases when an enemy with the [King] latent ability is present",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 3,
+    "trigger_status": 27,
+    "trigger_param": 1,
+    "trigger_param2": 1,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "If the enemy has one or more characters with the [King] latent type, all damage dealt by your party is increased by 100%."
+  },
+  {
+    "id": 4161,
+    "name": "Blessing of Fine Weather",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK/DEF +#PER#%"
+  },
+  {
+    "id": 4162,
+    "name": "Royal-Seal Large Sun Umbrella",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Spear-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 4163,
+    "name": "Grand Soleil",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 75,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 55,
+    "effect_value_max": 55,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "When you receive damage exceeding #PER#% of your max HP, cut the excess damage"
+  },
+  {
+    "id": 4164,
+    "name": "Charité Noble",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 11,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 11,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: When the party is attacked, ATK/DEF +#PER#% (2T)"
+  },
+  {
+    "id": 4165,
+    "name": "Blessing of Fine Weather",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 77,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 3,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 340,
+    "effect_value_max": 340,
+    "effect_turn": [
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Self: At start of battle, Intercept [Water][DEF](3T)"
+  },
+  {
+    "id": 4166,
+    "name": "Royal-Seal Large Sun Umbrella",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4167,
+    "name": "Grand Soleil",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 15,
+    "effect_type_params": [
+      2,
+      3,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 18,
+    "effect_value_max": 18,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: ATK/DEF/CRD Buff Effects +18%"
+  },
+  {
+    "id": 4168,
+    "name": "Charité Noble",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 11,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      3,
+      5,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 11,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      2,
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Self: DEF/RES/CRD +#PER#%(2T)"
+  },
+  {
+    "id": 1937,
+    "name": "Follow my lead!",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 41,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Self: More surviving allies, higher Damage boost (max +#PER#%, 5 allies)"
+  },
+  {
+    "id": 1938,
+    "name": "Netherworld Special Assault Tank",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 26,
+    "target_params": [
+      1
+    ],
+    "effect_type": 80,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", plus the SP of characters with the [King] latent type in the party + #PER#"
+  },
+  {
+    "id": 200678,
+    "name": "The Evil Soul",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 57,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", and inflicts a poison effect (2 turns) on all enemies"
+  },
+  {
+    "id": 4181,
+    "name": "A Genius Who Savors Summer",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: Base parameters +#PER#%"
+  },
+  {
+    "id": 4182,
+    "name": "The Rapid-Fire Cannon That Never Misses",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Gun-Equipped Self, Damage +#PER#%"
+  },
+  {
+    "id": 4183,
+    "name": "The Prophecy of Evasion",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 50,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "At the end of the turn, grants a -#PER#% reduction to all damage taken by the party (2 turns)"
+  },
+  {
+    "id": 4184,
+    "name": "Ryo Hoshi's Aiperos",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 17,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 100,
+    "effect_value_max": 100,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: At the start of the wave, Action Gauge +#PER#"
+  },
+  {
+    "id": 4185,
+    "name": "A Genius Who Relishes Summer",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 5,
+    "effect_value_max": 5,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", CRT +#PER#%"
+  },
+  {
+    "id": 4186,
+    "name": "The Rapid-Fire Cannon That Never Misses",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 5,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4187,
+    "name": "The Prophecy of Evasion",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 19,
+    "target_params": [
+      0
+    ],
+    "effect_type": 98,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 10,
+    "effect_value_max": 10,
+    "effect_turn": [
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", and further reduces the damage dealt by the Action Gauge to the frontmost enemy character by #PER#% (2 turns)"
+  },
+  {
+    "id": 4188,
+    "name": "Ryo Hoshi's \"Aiperos\"",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      3,
+      3,
+      3
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", ATK/INT/CRD +#PER#%(3T)"
   }
 ]

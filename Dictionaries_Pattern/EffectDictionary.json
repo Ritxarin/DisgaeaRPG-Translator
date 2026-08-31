@@ -115,6 +115,7 @@
   "自分の残体力#PER9#%減少": "Reduce remaining HP by #PER9#%",
 
   "対象の残体力#PER1#%の割合ダメージ" : "#PER1#% Fixed Damage",
+  "対象の残HP#PER1#%の割合ダメージ" : "#PER1#% Fixed Damage",
 
   "男性キャラはさらに" : "Male characters ",
   "攻撃対象が女性キャラの時、" : "If target is female, ",
@@ -141,7 +142,6 @@
   "味方ﾃﾞﾊﾞﾌ効果解除": "Remove debuff [Ally]",
   "デバフ半減": "Debuffs halved",
   "デバフ効果半減": "Debuffs halved",
-  "受ける全てのダメージダウン効果解除": "Remove damage reduction buffs",
   "バフ継続ターン": "Buff duration extended",
   "デバフ継続ターン": "Debuff duration extended",
   "特殊効果解除": "Special Effect Removal",
@@ -149,6 +149,8 @@
   "特殊効果[衰弱]解除": "Remove Weakness",
   "敵バフ効果微減": "Slightly reduce buff effect",
   "バフ効果微減": "Slightly reduce buff effect",
+  "受ける全てのダメージダウン効果解除": "Remove damage reduction buffs",
+  "全てのダメージダウン効果解除"  : "Remove all Damage reduction effects",
   "与ダメアップ効果解除全種類": "Remove damage reduction effects",
   "バフ強奪": " Buff Steal",
 
@@ -294,6 +296,8 @@
   "対象のバフを#PER8#%無視してダメージ計算": "Damage calculation ignores #PER8#% of target's buffs",
   "対象のバフを#PER9#%無視してダメージ計算": "Damage calculation ignores #PER9#% of target's buffs",
   "対象のバフを#PER10#%無視してダメージ計算": "Damage calculation ignores #PER10#% of target's buffs",
+  "対象のバフを#PER11#%無視してダメージ計算" : "#PER11#% Buff Piercing",
+  "対象のバフを#PER12#%無視してダメージ計算" : "#PER12#% Buff Piercing",
   "対象のバフを70%無視してダメージ計算": "Damage calculation ignores 70% of target's Buffs",
   "対象がマヒ状態の時、": "If target is paralyzed, ",
   "対象が睡眠状態の時、": "If target is asleep, ",
@@ -337,8 +341,11 @@
   "体力が満タンの時、" : "If HP is full, ",
   "対象のHPが75%以下の場合、": "If 75% or less HP, ",
   "対象の体力が75%以下の場合、": "If target's HP is 75% or less, ",
+  "HPが75%以上の場合、": "If HP is 75% or higher, ",
   "体力が30%以下の場合、": "If HP is below 30%, ",
   "体力が1%以下の場合、": "If current HP is 1% or less, ",
+
+  "使用するほど" : "with each use ",
 
   "残HP#PER2#%減少": "Reduce HP by #PER2#%",
   "残HP#PER3#%減少": "Reduce HP by #PER3#%",
@@ -369,10 +376,11 @@
   "[連発禁止]": "[Repeat use prohibited]",
   "[連発禁止": "[Repeat use prohibited ",
 
-  "星属性耐性値": "Star resistance",
-  "炎属性耐性値": "Fire resistance",
-  "水属性耐性値": "Water resistance",
-  "風属性耐性値": "Wind resistance",
+  "星属性耐性値": "Star Res",
+  "炎属性耐性値": "Fire Res",
+  "水属性耐性値": "Water Res",
+  "水属性耐性" : "Water Res",  
+  "風属性耐性値": "Wind Res",
   "全属性耐性値": "All resistances",
   "[炎]": "[Fire]",
   "[星]": "[Star]",

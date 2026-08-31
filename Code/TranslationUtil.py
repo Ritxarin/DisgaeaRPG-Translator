@@ -10,6 +10,7 @@ from Code.Helper import Helper
 from Code.UnityHelper import UnityHelper
 from Code.config import Config, Paths
 from Code.Translator import Translator
+import gc
 
 class Translator_Util:
     
@@ -267,6 +268,7 @@ class Translator_Util:
 
         # For android, pull updated files from phone
         if self.device == 'Android':
+            gc.collect()
             source_dir = Path(self.masters_path)
             for file in source_dir.iterdir():
                 if file.is_file():
@@ -437,7 +439,7 @@ class Translator_Util:
             if file_path.exists() and file_path.is_file():
                 # Push each file to the target location on the device
                 result = subprocess.run([
-                    "./platform-tools//adb.exe", "push", str(file_path), f"{target_dir}/{filename}"
+                    str(Config.ADB_PATH), "push", str(file_path), f"{target_dir}/{filename}"
                 ], capture_output=True, text=True)
 
                 if result.returncode == 0:

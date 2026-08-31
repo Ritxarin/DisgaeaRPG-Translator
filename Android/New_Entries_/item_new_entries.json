@@ -1,0 +1,50 @@
+[
+  {
+    "id": 10313,
+    "name": "Caramel, the Dark Hero",
+    "item_type": 3,
+    "icon_no": 10313,
+    "effect_value": [
+      100
+    ],
+    "description": "Your Action Points are fully restored. It’s got a dark, bittersweet flavor—plus fun collectible extras!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340328,
+    "name": "Festival Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      1031
+    ],
+    "description": "Available at the Festival Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340329,
+    "name": "Festival Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      1032
+    ],
+    "description": "Available at the Festival Character Exchange (Standard)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700418,
+    "name": "Beach Pram Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Beach Pram's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  }
+]

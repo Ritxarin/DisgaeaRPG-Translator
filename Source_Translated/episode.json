@@ -5408,5 +5408,225 @@
     "name": "Etna's Summer Resort Defence",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 19821,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Shin Yomawari and the\nHero of Hell",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19822,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Shin Yomawari and the\nHero of Hell EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19861,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Yomawari Series Collaboration Commemorative Special Battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19891,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "The Hall of Trial Battles: Fuji Zessho-sai",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19901,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Calamity Adell",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19911,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Etna's Summer Resort Defence",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 22971,
+    "episode_type": 5,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Beauty Bride Grand Prix! (Flashback)",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19991,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Asagi Wars: Magic Summer★",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 19992,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Asagi Wars: Magic Summer ★ EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 20021,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Special Battle in the Extreme Heat",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 20031,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "The Trial Arena: Prinny Mascot Asagi",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 20071,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Etna's Summer Resort Defence",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30061,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Swimsuit Artina XENO",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30002,
+    "episode_type": 9,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Invasion! Metal Prinnys",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30161,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Japan's No. 1 SRPG Swimsuit Festival: ~Phantom and La Pucelle~",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30162,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Japan's No. 1 SRPG Swimsuit Festival: ~Phantom and La Pucelle~ EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30201,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Nippon Ichi Software: Special Battle to Celebrate the Second Installment of the Classic SRPG Collaboration Series",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30231,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "The Trial Arena: Etna, the Swimsuit Goddess",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 23151,
+    "episode_type": 5,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "The Legend of the Holy Swimsuit: The Cursed Saintess and the Five Trials (Flashback)",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30241,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Beach Eclair",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30251,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Etna's Summer Resort Defence",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30003,
+    "episode_type": 9,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Invasion! Metal Prinnys",
+    "open_at": "",
+    "close_at": ""
   }
 ]

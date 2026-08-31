@@ -138,7 +138,6 @@
   "、さらにSP+#PER#": ", SP +#PER#",
   "、さらにパーティが属性攻撃で与えるダメージ+#PER#%": ", All Allies Elemental Damage +#PER#%",
   "パーティのキャラの得意武器種が全て異なっている場合、パーティの基礎パラメータ+#PER#%": "All Allies: If all party characters' forte weapons are different, Base parameters +#PER#%",
-  "パーティのHP・ATK・DEF+#PER#%": "All Allies: HP, ATK, and DEF +#PER#%",
   "ターン終了時、残りHPが低い敵キャラに風属性攻撃(2回,威力B+)": "At the end of the turn, wind damage to the enemy with the lowest HP (2 times, B+ power)",
   "自分の魔改造1段階毎にATK・DEF+#PER#%": "Self: For each stage of Nether Enhancement, ATK and DEF +#PER#%",
   "WAVE開始時、敵全体に衰弱(最大Lv.#PER#)付与": "All Foes: At Wave Start, Inflict Weakness (Max Lv.#PER#)",
@@ -256,5 +255,6 @@
   "、さらに魔物型キャラが5体以上いる場合、パーティが属性攻撃で与えるダメージ+#PER#%": ", if 5+ Monster units in party, Elemental Damage dealt +#PER#%",
   "ターン終了時、体力が75%以上の場合、パーティの行動ゲージ+#PER#": "All Allies: At end of turn, if this unit's HP is 75%+, Action Gauge +#PER#",
   "自分が杖武器装備時、属性攻撃で与えるダメージ+#PER#%": "Staff-Equipped Self: Elemental Damage +#PER#%",
-  "自分が魔物魔法武器装備時、星属性攻撃で与えるダメージ+#PER#%": "Mon Magic-Equipped Self: Star Damage +#PER#%"
+  "自分が魔物魔法武器装備時、星属性攻撃で与えるダメージ+#PER#%": "Mon Magic-Equipped Self: Star Damage +#PER#%",
+  "、さらに敵全体の行動ゲージ-#PER#" : ", AG -#PER#"
 }

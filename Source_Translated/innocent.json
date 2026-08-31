@@ -1347,5 +1347,44 @@
     "weapon_type": 3,
     "m_character_id": 400,
     "trainer_group_id": 2
+  },
+  {
+    "id": 109,
+    "name": "Super INT Boost",
+    "resource_name": "monster_int",
+    "innocent_type": 4,
+    "category": 3,
+    "description_format": "INT{0}% increase",
+    "calculate_format": "{0}%",
+    "effect_type": 55,
+    "weapon_type": 9,
+    "m_character_id": 126,
+    "trainer_group_id": 4
+  },
+  {
+    "id": 110,
+    "name": "Super ATK Boost",
+    "resource_name": "bow",
+    "innocent_type": 2,
+    "category": 2,
+    "description_format": "ATK +{0}%",
+    "calculate_format": "{0}%",
+    "effect_type": 53,
+    "weapon_type": 4,
+    "m_character_id": 412,
+    "trainer_group_id": 2
+  },
+  {
+    "id": 111,
+    "name": "Super ATK Boost",
+    "resource_name": "fist",
+    "innocent_type": 2,
+    "category": 2,
+    "description_format": "ATK +{0}%",
+    "calculate_format": "{0}%",
+    "effect_type": 52,
+    "weapon_type": 2,
+    "m_character_id": 416,
+    "trainer_group_id": 2
   }
 ]
