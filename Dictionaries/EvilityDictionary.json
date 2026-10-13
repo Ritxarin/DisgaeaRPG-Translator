@@ -72,7 +72,6 @@
   "自分が弓武器装備時、必殺技で与えるダメージ+#PER#%": "Bow-Equipped Self, Skill Damage +#PER#%",
   "自分が拳武器装備キャラから受けるダメージ-#PER#%": "Damage received from fist weapon-equipped characters -#PER#%",
   ",CRD+#PER#%": ",CRD +#PER#%",
-  "自分が人型キャラから受けるダメージ-#PER#%": "Damage received from humanoid characters -#PER#%",
   ",SPD-#PER#%": ",SPD -#PER#%",
   "パーティが必殺技で与えるダメージ+#PER#％": "All Allies: Skill Damage +#PER#%",
   "パーティの自分以外への単体攻撃を確率で自分が受ける": "Has a chance to take single targeted attack for party members",
@@ -94,7 +93,6 @@
   "自分が斧武器装備時、与える全てのダメージ+#PER#%": "Axe-Equipped Self, Damage +#PER#%",
   "自分が男性キャラに与えるダメージ+#PER#%": "Self: Damage to Male Characters +#PER#%",
   ",CRT+#PER#%(1T)": ",CRT +#PER#%(1T)",
-  "自分が魔物型キャラから受けるダメージ-#PER#%": "Damage received from Monster-Type Characters -#PER#%",
   "ターン開始時、ATKバフ効果を受けている場合、自分が与える全てのダメージ+#PER#%(1T)付与": "Self: At the start of the turn, if receiving ATK buff, Damage +#PER#%(1T)",
   "自分が拳武器装備時、与える全てのダメージ+#PER#%": "Fist-Equipped Self, Damage +#PER#%",
   "自分が剣武器装備時、与える全てのダメージ+#PER#%": "Sword-Equipped Self: Damage +#PER#%",
@@ -256,5 +254,6 @@
   "ターン終了時、体力が75%以上の場合、パーティの行動ゲージ+#PER#": "All Allies: At end of turn, if this unit's HP is 75%+, Action Gauge +#PER#",
   "自分が杖武器装備時、属性攻撃で与えるダメージ+#PER#%": "Staff-Equipped Self: Elemental Damage +#PER#%",
   "自分が魔物魔法武器装備時、星属性攻撃で与えるダメージ+#PER#%": "Mon Magic-Equipped Self: Star Damage +#PER#%",
-  "、さらに敵全体の行動ゲージ-#PER#" : ", AG -#PER#"
+  "、さらに敵全体の行動ゲージ-#PER#" : ", AG -#PER#",
+  "ターン終了時、パーティに受ける全てのダメージ-#PER#%(2T)付与" :"All Allies: At end of turn, Damage Taken -#PER#% (2T)"
 }

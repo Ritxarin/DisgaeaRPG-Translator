@@ -6358,5 +6358,71 @@
     "m_item_id": 2700418,
     "item_type": 27,
     "get_areas": "Adell's training"
+  },
+  {
+    "id": 2700419,
+    "m_item_id": 2700419,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2700420,
+    "m_item_id": 2700420,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2700421,
+    "m_item_id": 2700421,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2720125,
+    "m_item_id": 2720125,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2700423,
+    "m_item_id": 2700423,
+    "item_type": 27,
+    "get_areas": "Adell's training"
+  },
+  {
+    "id": 2700422,
+    "m_item_id": 2700422,
+    "item_type": 27,
+    "get_areas": "Adell's training"
+  },
+  {
+    "id": 2700424,
+    "m_item_id": 2700424,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2700425,
+    "m_item_id": 2700425,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2700426,
+    "m_item_id": 2700426,
+    "item_type": 27,
+    "get_areas": "Adell's training"
+  },
+  {
+    "id": 2700427,
+    "m_item_id": 2700427,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
+  },
+  {
+    "id": 2720126,
+    "m_item_id": 2720126,
+    "item_type": 27,
+    "get_areas": "Adell's training, Fishing Fleet"
   }
 ]

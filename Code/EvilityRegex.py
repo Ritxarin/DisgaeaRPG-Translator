@@ -387,11 +387,12 @@ patterns = [
         )
     ),
 
-    # --- 1️⃣2️⃣ Alternative: Weapon-equipped self: elemental party damage buff ✅ --- #
+    # --- 1️⃣2️⃣ Alternative: Weapon-equipped self: party damage buff ✅ --- #
     (
+        "Weapon-equipped self: party damage buff",
         re.compile(
             r'^(?P<lead>[、,])?(?:さらに)?'
-            r'自分が(?P<weapon>剣|杖|魔物魔法|魔物物理|拳|銃|斧|弓|槍)武器装備時、'
+            r'自分が(?P<weapon>剣|杖|魔物魔法|魔物物理|拳|銃|斧|弓|槍)武器装備(?:時|の場合)、'
             r'パーティが(?P<damage_type>'
             r'属性攻撃で与えるダメージ|'
             r'与える全てのダメージ|与えるすべてのダメージ|'
@@ -955,23 +956,27 @@ patterns = [
         )
     ),
 
-    # --- 2️⃣8️⃣ Party Stat Buffs if X+ Latent-Type Units Are Present (optional leading comma, timing, multi-types) ✅ ---
+
+    # --- 2️⃣8️⃣ Latent Type Count → Self/Party Stat Buff ✅ ---
     (
+        "atent Type Count → Self Stat Buff",
         re.compile(
             rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
             rf'(?P<timing>ターン開始時、|ターン終了時、)?'
-            rf'(?:パーティに)?'   # ✅ FIX
+            rf'(?:パーティに)?'
             rf'潜在タイプ\[(?P<latent>[^\]]+)\]のキャラが'
             rf'(?P<count>\d+)体以上いる場合、'
-            rf'パーティの(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            rf'(?P<target>自分の|パーティの)'
+            rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
             r'\+#PER#(?:%|％)$',
             flags=re.UNICODE
         ),
         lambda m: (
             (", " if m.group('lead') else "")
-            + "All Allies: "
+            + ("Self" if m.group('target') == '自分の' else "All Allies")
+            + ": "
             + (
-                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of turn, "
+                f"At the {'start' if m.group('timing') == 'ターン開始時、' else 'end'} of the turn, "
                 if m.group('timing') else ""
             )
             + f"If {m.group('count')}+ ["
@@ -1143,9 +1148,9 @@ patterns = [
         )
     ),
 
-    # --- 3️⃣4️⃣ Party Stat-Specific Buff/Debuff Effects ---
+    # --- 3️⃣4️⃣ Party Stat-Specific Buff/Debuff Effect effectiveness ---
     (
-        "Party Stat-Specific and generic Buff/Debuff Effects",
+        "Party Stat-Specific and generic Buff/Debuff Effect effectivenes",
         re.compile(
             rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
             r'パーティが使用する'
@@ -1884,6 +1889,48 @@ patterns = [
             f"increases "
             f"(Max +{m.group('max')}%, "
             f"{m.group('turns').replace('ターン', 'T')})"
+        )
+    ),
+
+    # --- Damage Taken from Race (Self/Party) ---
+    (
+        "Damage Taken from Race (Self/Party)",
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'(?P<target>自分が|パーティが)'
+            rf'(?P<race>魔物型|人型)キャラから受けるダメージ'
+            r'(?P<sign>[+-])#PER#(?:%|％)$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + ("Self" if m.group('target') == '自分が' else "All Allies")
+            + f": Damage taken from {race_map.get(m.group('race'), m.group('race'))} units "
+            + f"{m.group('sign')}#PER#%"
+        )
+    ),
+
+    # --- Enemies remaining Condition → Party/Self Stat Buff ---
+    (
+        "Enemies remaining Condition → Party/Self Stat Buff",
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'(?P<timing>ターン開始時|ターン終了時)、'
+            rf'敵が(?P<count>\d+)体以下の場合、'
+            rf'(?P<target>自分の|パーティの)'
+            rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'\+#PER#(?:%|％)'
+            r'(?:\((?P<turns>\d+)(?:T|ターン)\))?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + ("Self" if m.group('target') == '自分の' else "All Allies")
+            + f": At the {'start' if m.group('timing') == 'ターン開始時' else 'end'} of the turn, "
+            + f"if {m.group('count')} or fewer foes, "
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + " +#PER#%"
+            + (f"({m.group('turns')}T)" if m.group('turns') else "")
         )
     ),
 

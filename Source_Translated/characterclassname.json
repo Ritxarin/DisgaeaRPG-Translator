@@ -27393,6 +27393,330 @@
     "id": 4186,
     "m_character_id": 418,
     "rarity": 6,
-    "class_name": "The Prophet of the Shores Who Throws Us into Turmoil"
+    "class_name": "Prophet of the Shore who toys with others"
+  },
+  {
+    "id": 4191,
+    "m_character_id": 419,
+    "rarity": 1,
+    "class_name": "Black Rabbit, the Mochi-Pounder"
+  },
+  {
+    "id": 4192,
+    "m_character_id": 419,
+    "rarity": 2,
+    "class_name": "Black Rabbit, the Mochi-Pounding Expert"
+  },
+  {
+    "id": 4193,
+    "m_character_id": 419,
+    "rarity": 3,
+    "class_name": "Black Rabbit, the Mochi-Pounding Expert"
+  },
+  {
+    "id": 4194,
+    "m_character_id": 419,
+    "rarity": 4,
+    "class_name": "Black Rabbit, the Mochi-Pounding Expert"
+  },
+  {
+    "id": 4195,
+    "m_character_id": 419,
+    "rarity": 5,
+    "class_name": "The Black Shadow of the Dark Moon"
+  },
+  {
+    "id": 4196,
+    "m_character_id": 419,
+    "rarity": 6,
+    "class_name": "The Black Twin Moons of the Mid-Autumn Festival"
+  },
+  {
+    "id": 4201,
+    "m_character_id": 420,
+    "rarity": 1,
+    "class_name": "The White Rabbit Who Kneads Mochi"
+  },
+  {
+    "id": 4202,
+    "m_character_id": 420,
+    "rarity": 2,
+    "class_name": "The White Rabbit Who Kneads Mochi"
+  },
+  {
+    "id": 4203,
+    "m_character_id": 420,
+    "rarity": 3,
+    "class_name": "The White Rabbit Who Kneads Mochi"
+  },
+  {
+    "id": 4204,
+    "m_character_id": 420,
+    "rarity": 4,
+    "class_name": "The White Rabbit Who Kneads Mochi"
+  },
+  {
+    "id": 4205,
+    "m_character_id": 420,
+    "rarity": 5,
+    "class_name": "The White Shadow of the Full Moon"
+  },
+  {
+    "id": 4206,
+    "m_character_id": 420,
+    "rarity": 6,
+    "class_name": "The Twin White Moons of the Mid-Autumn Festival"
+  },
+  {
+    "id": 201251,
+    "m_character_id": 20125,
+    "rarity": 1,
+    "class_name": "A Suspicious Rabbit in the Middle of the Night"
+  },
+  {
+    "id": 201252,
+    "m_character_id": 20125,
+    "rarity": 2,
+    "class_name": "A Suspicious Rabbit in the Middle of the Night"
+  },
+  {
+    "id": 201253,
+    "m_character_id": 20125,
+    "rarity": 3,
+    "class_name": "A Suspicious Rabbit in the Middle of the Night"
+  },
+  {
+    "id": 201254,
+    "m_character_id": 20125,
+    "rarity": 4,
+    "class_name": "A Suspicious Rabbit in the Middle of the Night"
+  },
+  {
+    "id": 201255,
+    "m_character_id": 20125,
+    "rarity": 5,
+    "class_name": "The Rabbit on the Sign with the Moon Motif"
+  },
+  {
+    "id": 201256,
+    "m_character_id": 20125,
+    "rarity": 6,
+    "class_name": "The Messenger Rabbit from the Moon Kingdom"
+  },
+  {
+    "id": 4211,
+    "m_character_id": 421,
+    "rarity": 1,
+    "class_name": "Shy Rabbit"
+  },
+  {
+    "id": 4212,
+    "m_character_id": 421,
+    "rarity": 2,
+    "class_name": "Shy Rabbit"
+  },
+  {
+    "id": 4213,
+    "m_character_id": 421,
+    "rarity": 3,
+    "class_name": "Shy Rabbit"
+  },
+  {
+    "id": 4214,
+    "m_character_id": 421,
+    "rarity": 4,
+    "class_name": "Shy Rabbit"
+  },
+  {
+    "id": 4215,
+    "m_character_id": 421,
+    "rarity": 5,
+    "class_name": "The Light That Shines on Beast-Awaken Night"
+  },
+  {
+    "id": 4216,
+    "m_character_id": 421,
+    "rarity": 6,
+    "class_name": "Radiant Woman who Outshines the Moon"
+  },
+  {
+    "id": 4231,
+    "m_character_id": 423,
+    "rarity": 1,
+    "class_name": "Queen of Consecutive Plays"
+  },
+  {
+    "id": 4232,
+    "m_character_id": 423,
+    "rarity": 2,
+    "class_name": "Queen of Consecutive Plays"
+  },
+  {
+    "id": 4233,
+    "m_character_id": 423,
+    "rarity": 3,
+    "class_name": "Queen of Consecutive Plays"
+  },
+  {
+    "id": 4234,
+    "m_character_id": 423,
+    "rarity": 4,
+    "class_name": "Queen of Consecutive Plays"
+  },
+  {
+    "id": 4235,
+    "m_character_id": 423,
+    "rarity": 5,
+    "class_name": "The Indomitable Diva"
+  },
+  {
+    "id": 4236,
+    "m_character_id": 423,
+    "rarity": 6,
+    "class_name": "Diva Racing through Infinity"
+  },
+  {
+    "id": 4221,
+    "m_character_id": 422,
+    "rarity": 1,
+    "class_name": "The Angry Rabbit Overlord"
+  },
+  {
+    "id": 4222,
+    "m_character_id": 422,
+    "rarity": 2,
+    "class_name": "The Angry Rabbit Overlord"
+  },
+  {
+    "id": 4223,
+    "m_character_id": 422,
+    "rarity": 3,
+    "class_name": "The Angry Rabbit Overlord"
+  },
+  {
+    "id": 4224,
+    "m_character_id": 422,
+    "rarity": 4,
+    "class_name": "The Angry Rabbit Overlord"
+  },
+  {
+    "id": 4225,
+    "m_character_id": 422,
+    "rarity": 5,
+    "class_name": "The Destroyer in Rabbit Form"
+  },
+  {
+    "id": 4226,
+    "m_character_id": 422,
+    "rarity": 6,
+    "class_name": "Moonlit Whip-Wielding Super Overlord"
+  },
+  {
+    "id": 4241,
+    "m_character_id": 424,
+    "rarity": 1,
+    "class_name": "Killer Clown"
+  },
+  {
+    "id": 4242,
+    "m_character_id": 424,
+    "rarity": 2,
+    "class_name": "Killer Clown"
+  },
+  {
+    "id": 4243,
+    "m_character_id": 424,
+    "rarity": 3,
+    "class_name": "Killer Clown"
+  },
+  {
+    "id": 4244,
+    "m_character_id": 424,
+    "rarity": 4,
+    "class_name": "Killer Clown"
+  },
+  {
+    "id": 4245,
+    "m_character_id": 424,
+    "rarity": 5,
+    "class_name": "Whip-Whip Pierrot"
+  },
+  {
+    "id": 4246,
+    "m_character_id": 424,
+    "rarity": 6,
+    "class_name": "Frenzied Jester"
+  },
+  {
+    "id": 4271,
+    "m_character_id": 427,
+    "rarity": 1,
+    "class_name": "Event Venue Assistant"
+  },
+  {
+    "id": 4272,
+    "m_character_id": 427,
+    "rarity": 2,
+    "class_name": "Event Venue Assistant"
+  },
+  {
+    "id": 4273,
+    "m_character_id": 427,
+    "rarity": 3,
+    "class_name": "Event Venue Assistant"
+  },
+  {
+    "id": 4274,
+    "m_character_id": 427,
+    "rarity": 4,
+    "class_name": "Event Venue Assistant"
+  },
+  {
+    "id": 4275,
+    "m_character_id": 427,
+    "rarity": 5,
+    "class_name": "The Gatekeeper of the Netherworld of Death, Weapons, and Demons"
+  },
+  {
+    "id": 4276,
+    "m_character_id": 427,
+    "rarity": 6,
+    "class_name": "Impregnable Peach Oni"
+  },
+  {
+    "id": 201261,
+    "m_character_id": 20126,
+    "rarity": 1,
+    "class_name": "A Warrior Who Holds Her Own Against Men"
+  },
+  {
+    "id": 201262,
+    "m_character_id": 20126,
+    "rarity": 2,
+    "class_name": "A Warrior Who Holds Her Own Against Men"
+  },
+  {
+    "id": 201263,
+    "m_character_id": 20126,
+    "rarity": 3,
+    "class_name": "A Warrior Who's as Tough as Any Man"
+  },
+  {
+    "id": 201264,
+    "m_character_id": 20126,
+    "rarity": 4,
+    "class_name": "A Warrior Who Holds Her Own Against Men"
+  },
+  {
+    "id": 201265,
+    "m_character_id": 20126,
+    "rarity": 5,
+    "class_name": "The Daughter of the Legendary Overlord"
+  },
+  {
+    "id": 201266,
+    "m_character_id": 20126,
+    "rarity": 6,
+    "class_name": "Commander of the Fanged Dragon Netherworld"
   }
 ]

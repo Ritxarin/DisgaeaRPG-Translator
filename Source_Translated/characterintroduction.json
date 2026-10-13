@@ -4415,5 +4415,96 @@
     "name": "Bottle Henna",
     "description": "On her way to pick up\na custom-made swimsuit, Henna was trapped\ninside a bottle by someone. She’s\nreportedly lamenting her current appearance, which\nis completely devoid of any sex\nappeal. By the way, it seems\nthe swimsuit she ordered was quite—very—revealing.",
     "color_no": 6
+  },
+  {
+    "id": 1562,
+    "img_id": 420,
+    "name": "Moon Viewing Salia",
+    "description": "Salia, dressed in a bunny costume—supposedly\na \"moon-viewing\" outfit. With a\nmortar in one hand, she\nseems all set to start pounding\nmochi. Together with her older\nsister, Usa, she attacks Melodia,\nbut what is her motive…!?",
+    "color_no": 11
+  },
+  {
+    "id": 1563,
+    "img_id": 421,
+    "name": "Bunny Saint Etna",
+    "description": "Saint Etna in a bunny costume. While\nher polite and demure personality remains\nthe same, she makes an appearance in\na bolder look than usual. For\nsome reason, even the way she ends\nher sentences seems to have changed…?",
+    "color_no": 8
+  },
+  {
+    "id": 1564,
+    "img_id": 419,
+    "name": "Moon Viewing Usa",
+    "description": "Usa, dressed in a bunny suit—supposedly\na moon-viewing outfit. With a\nKine in one hand, she seems\nall set to start pounding\nmochi. Together with her younger sister,\nSalia, she attacks Melodia, but\nwhat is her true purpose…!?",
+    "color_no": 12
+  },
+  {
+    "id": 1565,
+    "img_id": 90113,
+    "name": "Girl Laharl",
+    "description": "Girl Laharl in a bunny outfit.\nWhile his spoiled personality remains the\nsame, he seems quite furious about\nbeing turned into a girl and\nforced to wear a bunny outfit.\nPlus, even the way he ends\nhis sentences seems different from usual…?",
+    "color_no": 1
+  },
+  {
+    "id": 1566,
+    "img_id": 20125,
+    "name": "Moon-Viewing Lucky Board",
+    "description": "A somewhat mysterious \"Lucky Board\"\nthat appears on moonlit\nnights. There's a slightly mysterious\naura surrounding those words.",
+    "color_no": 3
+  },
+  {
+    "id": 1567,
+    "img_id": 247,
+    "name": "Wild Fenrich",
+    "description": "Fenrich's body hair has grown out again. He was\nrunning a shop in the Rabbit Netherworld, but\nit seems he has other motives as well...?",
+    "color_no": 11
+  },
+  {
+    "id": 1568,
+    "img_id": 90112,
+    "name": "Princess Kaguya Melodia",
+    "description": "To save Zed, Melodia has obtained the\npower of Princess Kaguya. With the\npower of the moon, she will face\nthe bad ending again and again.",
+    "color_no": 11
+  },
+  {
+    "id": 1569,
+    "img_id": 20079,
+    "name": "Toto Majorita",
+    "description": "Majorita in a bunny outfit.\nEven in her bunny costume,\nher cantankerous personality remains unchanged.",
+    "color_no": 7
+  },
+  {
+    "id": 1570,
+    "img_id": 21005,
+    "name": "Izuna",
+    "description": "She is the daughter of the legendary\nDragon Overlord “Drumdorn” and the commander\nof the “Fanged Dragon Netherworld.” With\nher tomboyish and fearless personality, she has\nearned the deep trust of her\nkin and subordinates. This is her\nfirst time participating in Halloween, but…",
+    "color_no": 7
+  },
+  {
+    "id": 1571,
+    "img_id": 90114,
+    "name": "Halloween Usalia",
+    "description": "Usalia in her Halloween costume.\nTogether with Seraphina, she invites\nIzuna to join them for\nHalloween. It’s supposed to be\na fun day, but…?",
+    "color_no": 3
+  },
+  {
+    "id": 1572,
+    "img_id": 90115,
+    "name": "Halloween Strategist Higan",
+    "description": "Higan Zesshosai from another world. After passing\nthe name \"Zesshosai\" on to Pirilika,\nshe has put on quite a bit\nof weight from indulging in sweets\nday in and day out. What is\nher purpose for coming to Halloween...?",
+    "color_no": 2
+  },
+  {
+    "id": 1573,
+    "img_id": 424,
+    "name": "Halloween Lucy",
+    "description": "Lucy in her Halloween costume. She\nhad prepared a meticulously crafted\nclown outfit and was all\nset to enjoy Halloween to\nthe fullest—or so it seemed...",
+    "color_no": 6
+  },
+  {
+    "id": 1574,
+    "img_id": 427,
+    "name": "Halloween Raspberyl",
+    "description": "Raspberyl in her Halloween costume. She’s\nvolunteering to help the prison\nguards who are manning the\nentrance to the Halloween event.",
+    "color_no": 9
   }
 ]

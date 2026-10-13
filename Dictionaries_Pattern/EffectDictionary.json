@@ -34,6 +34,7 @@
   "ド忘れ効果付与": "Forget",
   "ド忘れ効果": "Forget",
   "ド忘れ" : "Forget",
+  "ド忘れ付与" : "Forget",
   "対象を「ド忘れ」状態にします": "Inflicts Forget on the target",
   "いずれかの状態異常効果付与": "Inflict Random Ailments",
   "ランダム状態異常付与": "Inflict Random Ailments",
@@ -93,6 +94,7 @@
   "SP自動回復[#PER5#]付与" : "SP Regen [#PER5#]",
   "SP自動回復[#PER6#]付与" : "SP Regen [#PER6#]",
   "自分のSPを全て譲渡": "Transfer your SP",
+  "自身のSPを全て譲渡" :"Transfer your SP",
   "SP超過": "SP Overflow",
   "SP負荷": "SP Load",
 

@@ -29160,13 +29160,595 @@
   },
   {
     "id": 2700418,
-    "name": "Beach Pram Crystal",
+    "name": "Swimsuit Pram Crystal",
     "item_type": 27,
     "icon_no": 2701,
     "effect_value": [
       100
     ],
-    "description": "A crystal used for Beach Pram's Nether Enhancement.",
+    "description": "A crystal used for Swimsuit Pram's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4573,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      1034
+    ],
+    "description": "Ultra Bunny Hell! ~A Moon-Viewing Party Doomed to a Bad Ending~ Exclusive BOSSPT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5941,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      1034
+    ],
+    "description": "Super Bunny Hell! ~A Moon-Viewing Party That's Bound to End in a Bad Ending~: The Key You Need to Challenge the Boss",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10314,
+    "name": "Red Tsukimi Dango",
+    "item_type": 3,
+    "icon_no": 10314,
+    "effect_value": [
+      100
+    ],
+    "description": "Restores all Action Points. A mysterious moon-viewing dumpling modeled after the red moon that illuminates the Netherworld.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200040,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200040,
+    "effect_value": [
+      1034
+    ],
+    "description": "Super Bunny Hell! ~A Moon-Viewing Party That's Guaranteed to End in a Bad Ending~ Dedicated Party",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340330,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1036
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340331,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1037
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340332,
+    "name": "Jugo Ya Moon Viewing Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 340009,
+    "effect_value": [
+      1038
+    ],
+    "description": "Available at the Shugo Ya Moon Viewing Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340333,
+    "name": "Jugo-ya Moon Viewing Exchange Ticket (Regular)",
+    "item_type": 34,
+    "icon_no": 340010,
+    "effect_value": [
+      1039
+    ],
+    "description": "Available at the Juugoya Moon Viewing Exchange (Regular)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300419,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      419
+    ],
+    "description": "A wondrous potion that grants Moon Viewing Usa mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300420,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      420
+    ],
+    "description": "A wondrous potion that grants Moon Viewing Salia mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320125,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20125
+    ],
+    "description": "A wondrous potion that grants Moon-Viewing Lucky Board mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700419,
+    "name": "Moon Viewing Usa Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Moon Viewing Usa's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700420,
+    "name": "Moon Viewing Salia Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Moon Viewing Salia's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700421,
+    "name": "Bunny Saint Etna Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Bunny Saint Etna's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720125,
+    "name": "Moon-Viewing Lucky Board Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Moon-Viewing Lucky Board's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600419,
+    "name": "Moon Viewing Usa Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      419
+    ],
+    "description": "Nether Star for Awakening 6★ Moon Viewing Usa.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600420,
+    "name": "Moon Viewing Salia Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      420
+    ],
+    "description": "Nether Star for Awakening 6★ Moon Viewing Salia.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620125,
+    "name": "Moon-Viewing Lucky Board Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20125
+    ],
+    "description": "Nether Star for Awakening 6★ Moon-Viewing Lucky Board.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10315,
+    "name": "Carrot Curry",
+    "item_type": 3,
+    "icon_no": 10315,
+    "effect_value": [
+      100
+    ],
+    "description": "Your Action Points are fully restored. Curry counteracts the aggression caused by carrots—Plip!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600421,
+    "name": "Bunny Saint Etna Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      421
+    ],
+    "description": "Nether Star for Awakening 6★ Bunny Saint Etna.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 1954,
+    "name": "Jugo Ya's Spoiled Keep Ticket",
+    "item_type": 19,
+    "icon_no": 1954,
+    "effect_value": [
+      201323
+    ],
+    "description": "Beast Goya: Keep the Spoiled Attitude! A ticket for one All-Star Fest",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 201041,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201041,
+    "effect_value": [
+      1048
+    ],
+    "description": "Princess Kaguya Melodia Raid-Exclusive Party",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340334,
+    "name": "\"Evening Otherworld Festival\" Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 340009,
+    "effect_value": [
+      1042
+    ],
+    "description": "Available at the \"Evening Otherworld Festival\" Exchange (Paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340335,
+    "name": "Evening Otherworld Festival Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 340010,
+    "effect_value": [
+      1043
+    ],
+    "description": "Available at the \"Evening Otherworld Festival Exchange\" (Standard)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340336,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1046
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340337,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1047
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700423,
+    "name": "Princess Kaguya Melodia Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Princess Kaguya Melodia's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10316,
+    "name": "Fried Sardines",
+    "item_type": 3,
+    "icon_no": 10316,
+    "effect_value": [
+      100
+    ],
+    "description": "Your Action Points are fully restored. This is a heavenly delicacy carefully prepared by Fenrich!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340338,
+    "name": "Festival Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      1049
+    ],
+    "description": "Available at the Festival Character Exchange (Paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340339,
+    "name": "Festival Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      1050
+    ],
+    "description": "Available at the Festival Character Exchange (Regular)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700422,
+    "name": "Bunny Girl Laharl Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Bunny Girl Laharl's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4574,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      1052
+    ],
+    "description": "Netherworld Reikon-den Izuna: My First Halloween - Exclusive BOSSPT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5942,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      1052
+    ],
+    "description": "The Key Needed to Challenge the Boss in *Netherworld Reikon-den Izuna: My First Halloween*",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10317,
+    "name": "Super-Spicy Curry Candy",
+    "item_type": 3,
+    "icon_no": 10317,
+    "effect_value": [
+      100
+    ],
+    "description": "Your Action Points are fully restored. These are Usalia-brand super-spicy candies that no one can underestimate! Plip!",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200041,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200041,
+    "effect_value": [
+      1052
+    ],
+    "description": "\"Netherworld Legend: Izuna—My First Halloween\" Exclusive Party",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340340,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1054
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340341,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1055
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300424,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      424
+    ],
+    "description": "A wondrous potion that grants Halloween Lucy mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300427,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      427
+    ],
+    "description": "A wondrous potion that grants Halloween Raspberyl mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320126,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20126
+    ],
+    "description": "A wondrous potion that grants Izuna mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700424,
+    "name": "Halloween Lucy Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Halloween Lucy's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700425,
+    "name": "Halloween Usalia Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Halloween Usalia's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700426,
+    "name": "Halloween Strategist Higan Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Halloween Strategist Higan's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700427,
+    "name": "Halloween Raspberyl Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Halloween Raspberyl's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720126,
+    "name": "Izuna Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Izuna's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600424,
+    "name": "Halloween Lucy Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      424
+    ],
+    "description": "Nether Star for Awakening 6★ Halloween Lucy.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600427,
+    "name": "Halloween Raspberyl Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      427
+    ],
+    "description": "Nether Star for Awakening 6★ Halloween Raspberyl.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620126,
+    "name": "Izuna Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20126
+    ],
+    "description": "Nether Star for Awakening 6★ Izuna.",
     "max_num": 9999,
     "sell_price": 0
   }

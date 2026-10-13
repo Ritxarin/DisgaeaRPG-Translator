@@ -5628,5 +5628,95 @@
     "name": "Invasion! Metal Prinnys",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 30341,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Super Bunny Hell! ~A Moon-Viewing Party That's Bound to End in a Bad Ending~",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30342,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Super Bunny Hell! ~A Moon-Viewing Party That’s Bound to End in a Bad Ending~ EXTRA",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30401,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "The Trial Arena: Tyrant Valvatorez",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30411,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Jugo's Special Battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30441,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Etna's Summer Resort Defence",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30481,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Princess Kaguya Melodia",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30004,
+    "episode_type": 9,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Invasion! Metal Prinnys",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30521,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "The Legend of Izuna: Spirits of the Netherworld—My First Halloween—",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30522,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "The Legend of Izuna: My First Halloween—EXTRA",
+    "open_at": "",
+    "close_at": ""
   }
 ]

@@ -1302,5 +1302,21 @@
     "main_m_memory_effect_type_id": 112,
     "sub_m_character_id": 0,
     "sub_m_memory_effect_type_id": 113
+  },
+  {
+    "id": 164,
+    "name": "Up Close! Lucy of the Netherworld Police",
+    "main_m_character_id": 364,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 364,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 165,
+    "name": "A Flashy Halloween with My Favorite Idol",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 110,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 111
   }
 ]

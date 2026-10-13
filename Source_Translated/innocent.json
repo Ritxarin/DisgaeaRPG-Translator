@@ -1386,5 +1386,18 @@
     "weapon_type": 2,
     "m_character_id": 416,
     "trainer_group_id": 2
+  },
+  {
+    "id": 112,
+    "name": "Super ATK Boost",
+    "resource_name": "sword",
+    "innocent_type": 2,
+    "category": 2,
+    "description_format": "ATK +{0}%",
+    "calculate_format": "{0}%",
+    "effect_type": 59,
+    "weapon_type": 1,
+    "m_character_id": 423,
+    "trainer_group_id": 2
   }
 ]
