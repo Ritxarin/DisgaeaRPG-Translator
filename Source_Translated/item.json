@@ -29751,5 +29751,368 @@
     "description": "Nether Star for Awakening 6★ Izuna.",
     "max_num": 9999,
     "sell_price": 0
+  },
+  {
+    "id": 340342,
+    "name": "Witch Hundred Overlord Fest Part 1 Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 340009,
+    "effect_value": [
+      1058
+    ],
+    "description": "Available at the \"Witch Hundred Overlord Fest: Part 1\" Exchange Shop (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340343,
+    "name": "Witch Hundred Overlord Festival Part 1 Exchange Ticket (Regular)",
+    "item_type": 34,
+    "icon_no": 340010,
+    "effect_value": [
+      1059
+    ],
+    "description": "Available at the \"Witch Hundred Overlord Fest: Part 1\" Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600425,
+    "name": "Halloween Usalia Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      425
+    ],
+    "description": "Nether Star for Awakening 6★ Halloween Usalia.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 201042,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201042,
+    "effect_value": [
+      1060
+    ],
+    "description": "Halloween Strategist Higan Raid-Exclusive Party",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340344,
+    "name": "Witch Hundred Overlord Fest Part 2 Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 340012,
+    "effect_value": [
+      1062
+    ],
+    "description": "Available at the \"Witch Hundred Overlord Fest: Part 2\" Exchange Shop (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340345,
+    "name": "Witch and the Hundred Overlords Festival Part 2 Exchange Ticket (Regular)",
+    "item_type": 34,
+    "icon_no": 340013,
+    "effect_value": [
+      1063
+    ],
+    "description": "Available at the \"Witch Hundred Overlord Fest: Part 2\" Exchange (Normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700428,
+    "name": "Kitsune Rozalin Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Kitsune Rozalin's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340346,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1065
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340347,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1066
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340348,
+    "name": "Festival Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3481,
+    "effect_value": [
+      1067
+    ],
+    "description": "Available at the Festival Character Exchange (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340349,
+    "name": "Festival Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3482,
+    "effect_value": [
+      1068
+    ],
+    "description": "Available at the Festival Character Exchange (Standard)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 1955,
+    "name": "7th Whimsical Keep Ticket",
+    "item_type": 19,
+    "icon_no": 1955,
+    "effect_value": [
+      201345
+    ],
+    "description": "7th Anniversary: \"Do Whatever You Want!\" All-Star Fest One-Time Use Ticket",
+    "max_num": 999,
+    "sell_price": 0
+  },
+  {
+    "id": 4575,
+    "name": "BOSSPT",
+    "item_type": 45,
+    "icon_no": 4502,
+    "effect_value": [
+      1070
+    ],
+    "description": "Netherworld Disaster Theater \"Tindarella\" Exclusive BOSSPT",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 5943,
+    "name": "BOSS Key",
+    "item_type": 59,
+    "icon_no": 5901,
+    "effect_value": [
+      1070
+    ],
+    "description": "The Key Needed to Challenge the BOSS in the Netherworld’s “Tindarella”",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10318,
+    "name": "Angel Food Cake",
+    "item_type": 3,
+    "icon_no": 10318,
+    "effect_value": [
+      100
+    ],
+    "description": "Your Action Points are fully restored. This is a pure white, fluffy cake said to be the food of Angels.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 10319,
+    "name": "Golden-Colored Sweets",
+    "item_type": 3,
+    "icon_no": 10319,
+    "effect_value": [
+      100
+    ],
+    "description": "Your Action Points are fully restored. It’s proper etiquette to hand it over while saying, “You’re quite the rascal, aren’t you?”",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 200042,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 200042,
+    "effect_value": [
+      1070
+    ],
+    "description": "Netherworld Disaster Theater \"Tindarella\" Exclusive Party",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340350,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1071
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340351,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1072
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300429,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      429
+    ],
+    "description": "A wondrous potion that grants Formal Fuka mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2300432,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      432
+    ],
+    "description": "A wondrous potion that grants Formal Desco mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2320127,
+    "name": "Dedicated Mana Potion",
+    "item_type": 23,
+    "icon_no": 2302,
+    "effect_value": [
+      500,
+      20127
+    ],
+    "description": "A wondrous potion that grants Golden Tink mana when used",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700429,
+    "name": "Formal Fuka Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Formal Fuka's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700430,
+    "name": "Witch Plenair Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Witch Plenair's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700432,
+    "name": "Formal Desco Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Formal Desco's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2700433,
+    "name": "Formal Adell Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Formal Adell's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 2720127,
+    "name": "Golden Tink Crystal",
+    "item_type": 27,
+    "icon_no": 2701,
+    "effect_value": [
+      100
+    ],
+    "description": "A crystal used for Golden Tink's Nether Enhancement.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600429,
+    "name": "Formal Fuka Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      429
+    ],
+    "description": "Nether Star for Awakening 6★ Formal Fuka.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4600432,
+    "name": "Formal Desco Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      432
+    ],
+    "description": "Nether Star for Awakening 6★ Formal Desco.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 4620127,
+    "name": "Golden Tink Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      20127
+    ],
+    "description": "Nether Star for Awakening 6★ Golden Tink.",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]

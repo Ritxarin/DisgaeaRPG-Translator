@@ -270,5 +270,29 @@
     "time_value": 0,
     "boost_title": "drop rate boost",
     "boost_description": "The drop rate of battle reward items will be doubled by #VALUE# (during the campaign period)"
+  },
+  {
+    "id": 34,
+    "boost_type": 1,
+    "effect_value": 600,
+    "time_value": 0,
+    "boost_title": "EXP Gain Boost",
+    "boost_description": "EXP earned from characters obtained in battle will be multiplied by #VALUE# (during the campaign period)"
+  },
+  {
+    "id": 35,
+    "boost_type": 2,
+    "effect_value": 600,
+    "time_value": 0,
+    "boost_title": "HL Boost Earned",
+    "boost_description": "HL earned in battles will be multiplied by #VALUE# (during the campaign period)"
+  },
+  {
+    "id": 36,
+    "boost_type": 3,
+    "effect_value": 600,
+    "time_value": 0,
+    "boost_title": "Drop Rate Boost",
+    "boost_description": "The drop rate for battle reward items will be #VALUE# times higher (during the campaign period)"
   }
 ]

@@ -231,7 +231,6 @@
   "ターン終了時、パーティのCRTバフ効果を受けているキャラのATK・INT・CRD+#PER#%(2T)": "CRT-Buffed Allies: At end of turn, ATK/INT/CRD +#PER#% (2T)",
   "、さらにパーティに得意武器種が[杖・魔物魔法]のキャラが2体以上いる場合、パーティに与える全てのダメージ+#PER#%(2T)付与": ", if 2+ [Staff/Monster Magic] allies, Damage +#PER#%(2T)",
   "、さらに自身のHPが75%以上の場合、パーティに受ける全てのダメージ-#PER#%(2T)付与": ", if your HP is 75%+, All Allies Damage Taken -#PER#%(2T)",
-  "ターン開始時、行動ゲージが先頭の敵キャラの行動ゲージ-#PER#": "Highest AG Foe: At start of turn, AG -#PER#",
   "攻撃を受けた時、パーティのHPを、自身の最大HPの#PER#%回復": "All Allies: When unit is attacked, Restores party's HP by #PER#% of this unit max HP",
   "攻撃を受けた時、パーティのSP+#PER#": "All Allies: When unit is attacked, SP +#PER#",
   "ターン終了時、ATK・INTバフ効果のいずれかを受けている場合、パーティに必殺技で与えるダメージ+#PER#%(2T)付与": "All Allies: At end of turn, if this unit has an ATK or INT buff, Skill Damage +#PER#% (2T)",

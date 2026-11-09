@@ -113,7 +113,8 @@ class DeepLTranslator:
             # Optional cleanup
             translated = re.sub(r"\.{3,}", "...", translated)  # normalize ellipsis
             translated = re.sub(r"\s+", " ", translated).strip()
-            return self._restore_linebreaks(translated, num_breaks)
+            return translated
+            #return self._restore_linebreaks(translated, num_breaks)
         except Exception as e:
             print(f"⚠️ DeepL translation failed: {e}")
             return None

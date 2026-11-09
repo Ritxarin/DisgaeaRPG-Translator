@@ -3126,5 +3126,22 @@
     "help_resource_name": "",
     "open_at": "2026-10-06 00:00:00",
     "close_at": "2026-11-06 10:59:59"
+  },
+  {
+    "id": 251,
+    "agenda_type": 7,
+    "agenda_rank": 10000,
+    "point": 50,
+    "base_rate": 20,
+    "effect_value": "34,35,36",
+    "lowmaker_lv": 200,
+    "release_type": 0,
+    "release_param": "0",
+    "appear_m_agenda_id": 0,
+    "title": "I want to keep enjoying all the benefits of our 7th anniversary for a long time to come.",
+    "sort": 1,
+    "help_resource_name": "",
+    "open_at": "2026-11-06 11:05:00",
+    "close_at": "2026-12-04 10:59:59"
   }
 ]

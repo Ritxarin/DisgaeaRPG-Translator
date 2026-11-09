@@ -723,6 +723,7 @@ patterns = [
 
    # --- 1️⃣9️⃣ Highest Stat Ally Damage Buffs at Turn Start/End ✅ ---
     (
+        "Highest Stat Ally Damage Buffs at Turn Start/End",
         re.compile(
             rf'^ターン(?P<timing>開始|終了)時、'                              # timing
             rf'(?:パーティの)?'                                             # optional "パーティの" (second form)
@@ -743,32 +744,36 @@ patterns = [
         )
     ),
 
-    # --- 2️⃣0️⃣ Highest/Lowest AG Ally Effects at Turn Start/End (AG, SP, Heal) ✅ ---
+    # --- 2️⃣0️⃣ Highest/Lowest AG Ally/Enemy Effects (AG, SP, Heal; optional lead/timing) ✅ ---
     (
+        "Highest/Lowest AG Ally/Enemy Effects (AG, SP, Heal; optional lead/timing)",
         re.compile(
-            r"ターン(?P<timing>開始|終了)時、"
-            r"行動ゲージが(?P<position>先頭|最後尾)の味方キャラの"
+            r"^(?P<lead>(?:、さらに|[、,])?)\s*"
+            r"(?:ターン(?P<timing>開始|終了)時、)?"
+            r"行動ゲージが(?P<position>先頭|最後尾)の(?P<who>味方|敵)キャラの"
             r"(?:(?P<hp>HPを、自身の最大HPの#PER#(?:%|％)回復)"
-            r"|(?P<stat>SP|ゲージ)\+#PER#)",
+            r"|(?P<stat>SP|(?:行動)?ゲージ)(?P<sign>[+-])#PER#)$",
             flags=re.UNICODE
         ),
         lambda m: (
-            f"{'Highest' if m.group('position')=='先頭' else 'Lowest'}-AG Ally: "
-            f"At the {'start' if m.group('timing')=='開始' else 'end'} of turn, "
-            +
-            (
-                # HP heal block
+            (", " if m.group('lead') else "")
+            + f"{'Highest' if m.group('position') == '先頭' else 'Lowest'}-AG "
+            + f"{'Ally' if m.group('who') == '味方' else 'Enemy'}: "
+            + (
+                f"At the {'start' if m.group('timing') == '開始' else 'end'} of the turn, "
+                if m.group('timing') else ""
+            )
+            + (
                 "Heal #PER#% of max HP"
                 if m.group('hp')
-                else
-                # SP / Gauge block
-                f"{stat_map.get(m.group('stat'), m.group('stat'))} +#PER#"
+                else f"{'SP' if m.group('stat') == 'SP' else 'Action Gauge'} {m.group('sign')}#PER#"
             )
         )
     ),
 
     # --- 2️⃣1️⃣ Highest/Lowest AG Ally Multi-Stat Buffs at Turn Start/End ✅ ---
     (
+        "Highest/Lowest AG Ally Multi-Stat Buffs at Turn Start/End",
         re.compile(
             rf"ターン(?P<timing>開始|終了)時、"
             rf"行動ゲージが(?P<position>先頭|最後尾)の味方キャラの"
@@ -1606,11 +1611,12 @@ patterns = [
         )
     ),
 
-    # --- Turn Start/End: Self Damage Buff Grant ---
+    # --- Self Damage Buff Grant (optional timing) ---
     (
+        "Self Damage Buff Grant (optional timing)",
         re.compile(
             rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
-            rf'(?P<timing>ターン開始時|ターン終了時)、'
+            rf'(?:(?P<timing>ターン開始時|ターン終了時|戦闘開始時)、)?'
             rf'自分に'
             rf'(?P<damage_type>'
             rf'与える全てのダメージ|与えるすべてのダメージ|'
@@ -1625,7 +1631,11 @@ patterns = [
         lambda m: (
             (", " if m.group('lead') else "")
             + "Self: "
-            + f"At the {'start' if m.group('timing') == 'ターン開始時' else 'end'} of turn, "
+            + (
+                "At the start of battle, " if m.group('timing') == '戦闘開始時'
+                else f"At the {'start' if m.group('timing') == 'ターン開始時' else 'end'} of turn, "
+                if m.group('timing') else ""
+            )
             + f"{damage_type_map.get(m.group('damage_type'), m.group('damage_type'))} "
             + f"{m.group('sign')}#PER#%"
             + (f"({m.group('turns')}T)" if m.group('turns') else "")
@@ -1934,6 +1944,30 @@ patterns = [
         )
     ),
 
+    # --- Latent Type Allies → SP Gain (optional timing, multi-types) ---
+        (
+            "Latent Type Allies → SP Gain (optional timing, multi-types)",
+            re.compile(
+                rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+                rf'(?:(?P<timing>ターン開始時|ターン終了時|戦闘開始時)、)?'
+                rf'(?:パーティの)?'
+                rf'潜在タイプ\[(?P<latent>[^\]]+)\]のキャラの'
+                rf'SP\+#PER#(?:%|％)?$',
+                flags=re.UNICODE
+            ),
+            lambda m: (
+                (", " if m.group('lead') else "")
+                + "/".join(latent_type_map.get(t, t) for t in m.group('latent').split('・'))
+                + "-type Allies: "
+                + (
+                    "At the start of battle, " if m.group('timing') == '戦闘開始時'
+                    else f"At the {'start' if m.group('timing') == 'ターン開始時' else 'end'} of the unit's turn, "
+                    if m.group('timing') else ""
+                )
+                + "SP +#PER#"
+            )
+        ),
+
     #FALLBACK. Matches unconditional party-wide damage buffs ONLY.
     # Must appear after all conditional damage rules.
     # ---  ✅ --- #
@@ -2040,9 +2074,7 @@ patterns = [
         )
     ),   
     
-
     # Damage buffs, optional leading comma, optional duration, optional "付与" suffix
-        # Damage buffs, optional leading comma, optional duration, optional "付与" suffix
     (
         re.compile(
             r'^(?P<lead>(?:、さらに|[、,])?)'
@@ -2056,6 +2088,6 @@ patterns = [
             + f"{damage_type_map[m.group('target')]}: +#PER#%"
             + (f"({m.group('duration').replace('ターン', 'T')})" if m.group('duration') else "")
         )
-    )
+    ),
 
 ]

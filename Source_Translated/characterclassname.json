@@ -27718,5 +27718,221 @@
     "m_character_id": 20126,
     "rarity": 6,
     "class_name": "Commander of the Fanged Dragon Netherworld"
+  },
+  {
+    "id": 4251,
+    "m_character_id": 425,
+    "rarity": 1,
+    "class_name": "Master of Magical Curry Powder"
+  },
+  {
+    "id": 4252,
+    "m_character_id": 425,
+    "rarity": 2,
+    "class_name": "Master of Magical Curry Powder"
+  },
+  {
+    "id": 4253,
+    "m_character_id": 425,
+    "rarity": 3,
+    "class_name": "Master of Magical Curry Powder"
+  },
+  {
+    "id": 4254,
+    "m_character_id": 425,
+    "rarity": 4,
+    "class_name": "Master of Magical Curry Powder"
+  },
+  {
+    "id": 4255,
+    "m_character_id": 425,
+    "rarity": 5,
+    "class_name": "The Sarcastic Wizard"
+  },
+  {
+    "id": 4256,
+    "m_character_id": 425,
+    "rarity": 6,
+    "class_name": "The Curry-Wielding Wizard"
+  },
+  {
+    "id": 4261,
+    "m_character_id": 426,
+    "rarity": 1,
+    "class_name": "A Mummy That's a Little Too Plump"
+  },
+  {
+    "id": 4262,
+    "m_character_id": 426,
+    "rarity": 2,
+    "class_name": "A Mummy That's a Little Too Plump"
+  },
+  {
+    "id": 4263,
+    "m_character_id": 426,
+    "rarity": 3,
+    "class_name": "A Mummy That's a Little Too Plump"
+  },
+  {
+    "id": 4264,
+    "m_character_id": 426,
+    "rarity": 4,
+    "class_name": "A Mummy That's a Little Too Plump"
+  },
+  {
+    "id": 4265,
+    "m_character_id": 426,
+    "rarity": 5,
+    "class_name": "Super-Heavyweight Mummy"
+  },
+  {
+    "id": 4266,
+    "m_character_id": 426,
+    "rarity": 6,
+    "class_name": "The God of War of the Mausoleum"
+  },
+  {
+    "id": 4281,
+    "m_character_id": 428,
+    "rarity": 1,
+    "class_name": "The Fox Overlord Princess"
+  },
+  {
+    "id": 4282,
+    "m_character_id": 428,
+    "rarity": 2,
+    "class_name": "The Fox Overlord Princess"
+  },
+  {
+    "id": 4283,
+    "m_character_id": 428,
+    "rarity": 3,
+    "class_name": "The Fox Overlord Princess"
+  },
+  {
+    "id": 4284,
+    "m_character_id": 428,
+    "rarity": 4,
+    "class_name": "The Fox Overlord Princess"
+  },
+  {
+    "id": 4285,
+    "m_character_id": 428,
+    "rarity": 5,
+    "class_name": "The Night-Stalking Yokai Princess"
+  },
+  {
+    "id": 4286,
+    "m_character_id": 428,
+    "rarity": 6,
+    "class_name": "The Rose That Rules the Hundred Demons"
+  },
+  {
+    "id": 4291,
+    "m_character_id": 429,
+    "rarity": 1,
+    "class_name": "A Girl Playing on the 7th Anniversary"
+  },
+  {
+    "id": 4292,
+    "m_character_id": 429,
+    "rarity": 2,
+    "class_name": "A Girl Playing on the 7th Anniversary"
+  },
+  {
+    "id": 4293,
+    "m_character_id": 429,
+    "rarity": 3,
+    "class_name": "A Girl Playing on the 7th Anniversary"
+  },
+  {
+    "id": 4294,
+    "m_character_id": 429,
+    "rarity": 4,
+    "class_name": "A Girl Playing on the 7th Anniversary"
+  },
+  {
+    "id": 4295,
+    "m_character_id": 429,
+    "rarity": 5,
+    "class_name": "Formal Dream Girl"
+  },
+  {
+    "id": 4296,
+    "m_character_id": 429,
+    "rarity": 6,
+    "class_name": "The Ultimate Big Sister at the Celebration Banquet"
+  },
+  {
+    "id": 4321,
+    "m_character_id": 432,
+    "rarity": 1,
+    "class_name": "The Final Boss of the 7th Anniversary"
+  },
+  {
+    "id": 4322,
+    "m_character_id": 432,
+    "rarity": 2,
+    "class_name": "The Final Boss of the 7th Anniversary"
+  },
+  {
+    "id": 4323,
+    "m_character_id": 432,
+    "rarity": 3,
+    "class_name": "The Final Boss of the 7th Anniversary"
+  },
+  {
+    "id": 4324,
+    "m_character_id": 432,
+    "rarity": 4,
+    "class_name": "The Final Boss of the 7th Anniversary"
+  },
+  {
+    "id": 4325,
+    "m_character_id": 432,
+    "rarity": 5,
+    "class_name": "A Slightly More Mature Final Boss"
+  },
+  {
+    "id": 4326,
+    "m_character_id": 432,
+    "rarity": 6,
+    "class_name": "The Glorious Ultimate Weapon"
+  },
+  {
+    "id": 201271,
+    "m_character_id": 20127,
+    "rarity": 1,
+    "class_name": "The Banned Frog"
+  },
+  {
+    "id": 201272,
+    "m_character_id": 20127,
+    "rarity": 2,
+    "class_name": "The Banned Frog"
+  },
+  {
+    "id": 201273,
+    "m_character_id": 20127,
+    "rarity": 3,
+    "class_name": "The Banned Frog"
+  },
+  {
+    "id": 201274,
+    "m_character_id": 20127,
+    "rarity": 4,
+    "class_name": "The Banned Frog"
+  },
+  {
+    "id": 201275,
+    "m_character_id": 20127,
+    "rarity": 5,
+    "class_name": "The Runaway Golden Frog"
+  },
+  {
+    "id": 201276,
+    "m_character_id": 20127,
+    "rarity": 6,
+    "class_name": "The Auspicious Golden Frog"
   }
 ]

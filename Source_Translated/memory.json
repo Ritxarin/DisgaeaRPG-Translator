@@ -1318,5 +1318,13 @@
     "main_m_memory_effect_type_id": 110,
     "sub_m_character_id": 0,
     "sub_m_memory_effect_type_id": 111
+  },
+  {
+    "id": 167,
+    "name": "Attack on Modified Laharl",
+    "main_m_character_id": 369,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 369,
+    "sub_m_memory_effect_type_id": 16
   }
 ]

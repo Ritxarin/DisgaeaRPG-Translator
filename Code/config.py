@@ -144,7 +144,7 @@ class Config:
         'item', 'iteminformation', 
         'kingdomrank', 'leaderskill', 'liqueur', 'loginbonus',
         'memory', 'memoryeffecttype', 'museum', 
-        'potentialclass', 'potentialkind', 'product', 'ritualtrainings',
+        'potentialclass', 'potentialkind', 'product', 'quiz', 'ritualtrainings',
         'stage', 'stagemission', 'story', 'survey', 'tower', 
         'travelbenefit', 'travelnegativeeffect', 
         'trophy', 'trophydaily', 'trophydailyrequest', 'trophyrepetition', 'trophyweekly', 
@@ -164,8 +164,10 @@ class Config:
         'class_name', 'class_name_1', 'class_name_2', 'class_name_3', 'class_name_4', 'class_name_5', 
         'condition_unit_name',
         'description', 'description_effect', 'description_format',
-        'get_areas', 'item_name', 'm_text', 'name', 'name_battle', 'release_content_description',
-        'resource_name', 'sheet_name', 'sub_name', 'talk_text', 'text', 'title', 
+        'get_areas', 'item_name', 'm_text', 'name', 'name_battle', 
+        'question', 'correct_answer',
+        'release_content_description', 'resource_name', 
+        'sheet_name', 'sub_name', 'talk_text', 'text', 'title', 
     ]
 
     CHARACTER_FILE = "character.json"

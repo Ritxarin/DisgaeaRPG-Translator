@@ -4506,5 +4506,61 @@
     "name": "Halloween Raspberyl",
     "description": "Raspberyl in her Halloween costume. She’s\nvolunteering to help the prison\nguards who are manning the\nentrance to the Halloween event.",
     "color_no": 9
+  },
+  {
+    "id": 1575,
+    "img_id": 375,
+    "name": "Formal Rozalin",
+    "description": "Rozalin, dressed in formal attire for the 7th-anniversary party, will be co-hosting the event with Adell this time. She also helped Adell choose her outfit.",
+    "color_no": 12
+  },
+  {
+    "id": 1576,
+    "img_id": 90117,
+    "name": "Formal Adell",
+    "description": "For the 7th-anniversary party, Adell is dressed in formal attire—a rare sight for her. Though she’s a little nervous, she co-hosts the event alongside Rozalin. She usually isn’t fond of such glamorous outfits, but she doesn’t seem to mind this one all that much.",
+    "color_no": 1
+  },
+  {
+    "id": 1577,
+    "img_id": 90118,
+    "name": "Witch Plenair",
+    "description": "Pleinair is dressed in a witch-like costume. She’s waving a pumpkin wand around and seems to be granting the wishes of people who look like they’ve had a rough go of it. …But still, something seems a little different from usual…?",
+    "color_no": 12
+  },
+  {
+    "id": 1578,
+    "img_id": 20127,
+    "name": "Golden Tink",
+    "description": "Thanks to Witch Pleinair's magic, Tink has transformed into a figure whose entire body glows golden. She hopes to attend the 7th-anniversary party, but will she be able to?",
+    "color_no": 3
+  },
+  {
+    "id": 1579,
+    "img_id": 90119,
+    "name": "Asagi in Formal Attire",
+    "description": "The heroine Asagi is dressed in formal attire to attend the 7th-anniversary party. This time, she’s looking for a partner to join her in a new game.",
+    "color_no": 2
+  },
+  {
+    "id": 1580,
+    "img_id": 429,
+    "name": "Formal Fuka",
+    "description": "Fuka has come to the 7th-anniversary party with Desco. She seems more mature than usual, but she’s acting her age as she excitedly tries to eat her way through all the sweets at the party. She’s entered a contest hosted by the Creator Asagi, aiming to become the Heroine Asagi’s partner.",
+    "color_no": 2
+  },
+  {
+    "id": 1581,
+    "img_id": 432,
+    "name": "Formal Desco",
+    "description": "Desco attends the 7th-anniversary party with Fuka, dressed in formal attire. He loves the sound of the party’s traditional toast and, whenever the opportunity arises, clinks glasses with Fuka. It seems he’s also entering the contest to choose a partner for the Heroine Asagi. I wonder what kind of pitch he’ll come up with…?",
+    "color_no": 7
+  },
+  {
+    "id": 1582,
+    "img_id": 147,
+    "name": "Kagemaru",
+    "description": "One of the Four Evil Gods of XENO who suddenly appeared, she is a ninja skilled in the “Art of Transformation.” What is her purpose for appearing at the 7th Anniversary Party……?",
+    "color_no": 12
   }
 ]

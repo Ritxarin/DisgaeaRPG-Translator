@@ -1678,5 +1678,21 @@
     "present_num": 1,
     "open_at": "2026-10-01 00:00:00",
     "close_at": "2026-10-31 23:59:59"
+  },
+  {
+    "id": 2071,
+    "title": "Earn 60,000 or more Challenge Points",
+    "sort": 74,
+    "condition_type": 1,
+    "condition_id": 0,
+    "condition_num": 60000,
+    "rename_flg": 1,
+    "display_name": "【冥彩用】ティン活うちわ",
+    "present_type": 7,
+    "present_id": 10060,
+    "present_rarity": 0,
+    "present_num": 1,
+    "open_at": "2026-11-01 00:00:00",
+    "close_at": "2026-11-30 23:59:59"
   }
 ]

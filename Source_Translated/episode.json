@@ -5718,5 +5718,85 @@
     "name": "The Legend of Izuna: My First Halloween—EXTRA",
     "open_at": "",
     "close_at": ""
+  },
+  {
+    "id": 30561,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Halloween Special Battle",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30571,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "The Trial Arena: Ultimate Weapon Fuka",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30601,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Halloween Strategist Higan",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30611,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Etna's Summer Resort Defence",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 23231,
+    "episode_type": 5,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Summer Vacation with Val the Vampire (Flashback)",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30005,
+    "episode_type": 9,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Invasion! Metal Prinnys",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30701,
+    "episode_type": 4,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Netherworld Disaster Theater: “Tindarella”",
+    "open_at": "",
+    "close_at": ""
+  },
+  {
+    "id": 30702,
+    "episode_type": 6,
+    "no": 1,
+    "series": 0,
+    "m_main_story_category_id": 0,
+    "name": "Netherworld Disaster Theater: \"Tindarella\" EXTRA",
+    "open_at": "",
+    "close_at": ""
   }
 ]
