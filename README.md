@@ -4,7 +4,7 @@ A project to translate Disgaea RPG JP to english. It supports both Android and D
 
 Requirements:
 
-- Python v3.10+
+- Python v3.12+
 - `pip install unitypy`
 - `pip install deepl`
 - `pip install deep_translator`

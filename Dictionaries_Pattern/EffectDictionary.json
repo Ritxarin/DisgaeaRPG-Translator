@@ -385,6 +385,7 @@
   "水属性耐性" : "Water Res",  
   "風属性耐性値": "Wind Res",
   "全属性耐性値": "All resistances",
+  "炎・" : "Fire/",
   "[炎]": "[Fire]",
   "[星]": "[Star]",
   "[水]": "[Water]",

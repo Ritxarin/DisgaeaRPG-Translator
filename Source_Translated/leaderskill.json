@@ -16225,7 +16225,7 @@
   },
   {
     "id": 891,
-    "name": "Chi Palm V",
+    "name": "Punishing Palm V",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -16263,7 +16263,7 @@
   },
   {
     "id": 892,
-    "name": "Unified Mind",
+    "name": "Mental Focus",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -16297,11 +16297,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When the DEF buff effect is received at the start of the turn, the SP-#PER#% consumption"
+    "description": "Def-Buffed Self: At start of turn, SP Cost -#PER#%"
   },
   {
     "id": 893,
-    "name": "Cutie Spear",
+    "name": "Lovely Spear",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -16340,7 +16340,7 @@
   },
   {
     "id": 894,
-    "name": "Secret of Endurance V",
+    "name": "Calm Observer V",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -35472,7 +35472,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
+    "description": "Self: At the end of turn, if SP is 10+, consume 10 SP for #PER# AG (1 time)"
   },
   {
     "id": 1814,
@@ -40613,7 +40613,7 @@
       0
     ],
     "bad_effect_value": 20,
-    "description": "Self: At the end of the turn, if SP is 20 or more, consume 20 SP for #PER# AG (can be activated 2 times in a row)"
+    "description": "Self: At the end of turn, if SP is 20+, consume 20 SP for #PER# AG (2 times)"
   },
   {
     "id": 2003,
@@ -45423,7 +45423,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
+    "description": "Self: At the end of turn, if SP is 10+, consume 10 SP for #PER# AG (1 time)"
   },
   {
     "id": 2184,
@@ -78791,7 +78791,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
+    "description": "Self: At the end of turn, if SP is 10+, consume 10 SP for #PER# AG (1 time)"
   },
   {
     "id": 3354,
@@ -85302,7 +85302,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
+    "description": "Self: At the end of turn, if SP is 10+, consume 10 SP for #PER# AG (1 time)"
   },
   {
     "id": 3574,
@@ -92052,7 +92052,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", Inflict Forget (2T)."
+    "description": ", Inflict Forget (2T)"
   },
   {
     "id": 3798,
@@ -92511,7 +92511,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
+    "description": "Self: At the end of turn, if SP is 10+, consume 10 SP for #PER# AG (1 time)"
   },
   {
     "id": 3814,
@@ -92820,7 +92820,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "CRT-Buffed Allies: At the end of the turn, ATK/CRD +#PER#%(2T)"
+    "description": "CRT-Buffed Allies: At the end of the turn, ATK/DEF/CRD +#PER#%(2T)"
   },
   {
     "id": 3825,
@@ -101919,7 +101919,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)"
+    "description": "Self: At the end of turn, if SP is 10+, consume 10 SP for #PER# AG (1 time)"
   },
   {
     "id": 4124,
@@ -121158,7 +121158,7 @@
       0
     ],
     "bad_effect_value": 20,
-    "description": "Self: At the end of the turn, if SP is 20 or more, consume 20 SP for #PER# AG (can be activated 2 times in a row)"
+    "description": "Self: At the end of turn, if SP is 20+, consume 20 SP for #PER# AG (2 times)"
   },
   {
     "id": 200503,
@@ -129903,7 +129903,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and also gives all enemies a 2T effect"
+    "description": ", inflict Forget (2T)"
   },
   {
     "id": 200851,
@@ -129979,7 +129979,7 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
+    "description": "Self: At the end of turn, if SP is 10+, consume 10 SP for #PER# AG (1 time)"
   },
   {
     "id": 200853,
@@ -133496,11 +133496,11 @@
       0
     ],
     "bad_effect_value": 10,
-    "description": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP for #PER# AG (can be activated 1 time in a row)"
+    "description": "Self: At the end of turn, if SP is 10+, consume 10 SP for #PER# AG (1 time)"
   },
   {
     "id": 200973,
-    "name": "Benefit of Extended Life and Fortune",
+    "name": "The Benefits of Longevity",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -133538,7 +133538,7 @@
   },
   {
     "id": 200974,
-    "name": "Snake Eye Smile",
+    "name": "Snake Eyes Smile",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 6,
@@ -133574,7 +133574,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, the entire enemy's ATK/INT-#PER#%(3T)"
+    "description": "All Foes: When this unit is attacked, ATK/INT-#PER#% (3T)"
   },
   {
     "id": 200975,
@@ -133616,7 +133616,7 @@
   },
   {
     "id": 200977,
-    "name": "Benefit of Extended Life and Fortune",
+    "name": "The Benefits of Longevity",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 2,
@@ -133650,11 +133650,11 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "Furthermore, if there are more than two monster-type characters in the party, you will recover your HP#PER#%"
+    "description": ", Self: If 2+ Monster Allies, Heal #PER#%"
   },
   {
     "id": 200978,
-    "name": "Snake Eye Smile",
+    "name": "Snake Eyes Smile",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 6,
@@ -134974,7 +134974,7 @@
       0
     ],
     "bad_effect_value": 15,
-    "description": "Self: At the end of the turn, if SP is 15 or more, consume 15 SP for #PER# AG (can be activated 1 time in a row)"
+    "description": "Self: At the end of turn, if SP is 15+, consume 15 SP for #PER# AG (1 time)"
   },
   {
     "id": 201024,
@@ -135784,7 +135784,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and also gives all enemies a 2T effect"
+    "description": ", inflict Forget (2T)"
   },
   {
     "id": 201051,
@@ -164044,7 +164044,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": "When attacked, the entire enemy's ATK/INT-#PER#% (10 turns)"
+    "description": "All Foes: When this unit is attacked, ATK/INT-#PER#% (10T)"
   },
   {
     "id": 10000010,
@@ -173810,7 +173810,7 @@
   },
   {
     "id": 4291,
-    "name": "The Well-Dressed Lady",
+    "name": "Dressed-up Young Lady",
     "unique_flg": 0,
     "lv_max": 1,
     "timing_type": 1,
@@ -173849,7 +173849,7 @@
   },
   {
     "id": 4292,
-    "name": "Dream and Reality Prinny Folk",
+    "name": "Dreaming Prinny Fork",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -173887,7 +173887,7 @@
   },
   {
     "id": 4293,
-    "name": "Kizuna's Teamwork",
+    "name": "Bond-based Cooperation",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 13,
@@ -173927,7 +173927,7 @@
   },
   {
     "id": 4294,
-    "name": "Anniversary Talk",
+    "name": "Anniversary Talking",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 3,
@@ -173965,7 +173965,7 @@
   },
   {
     "id": 4295,
-    "name": "The Well-Dressed Lady",
+    "name": "Dressed-up Young Lady",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -174003,7 +174003,7 @@
   },
   {
     "id": 4296,
-    "name": "Dream and Reality Prinny Folk",
+    "name": "Dreaming Prinny Fork",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 1,
@@ -174041,7 +174041,7 @@
   },
   {
     "id": 4297,
-    "name": "Kizuna's Teamwork",
+    "name": "Bond-based Cooperation",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 12,
@@ -174079,7 +174079,7 @@
   },
   {
     "id": 4298,
-    "name": "Anniversary Talk",
+    "name": "Anniversary Talking",
     "unique_flg": 1,
     "lv_max": 1,
     "timing_type": 3,
@@ -174115,7 +174115,7 @@
       0
     ],
     "bad_effect_value": 0,
-    "description": ", and the Action Gauge of the ally at the front of the party is increased by ATK and CRD + #PER#% (2T)"
+    "description": ", Highest-AG Ally: ATK/CRD +#PER#% (2T)"
   },
   {
     "id": 4321,
@@ -174734,5 +174734,595 @@
     ],
     "bad_effect_value": 0,
     "description": ",Healing Amount - #PER#%"
+  },
+  {
+    "id": 4331,
+    "name": "Our 7th Anniversary Style",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Allies: HP/ATK/CRD +#PER#%"
+  },
+  {
+    "id": 4332,
+    "name": "Martial Arts Demonstration at the Banquet",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Sword-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 4333,
+    "name": "Martial Spirit of the Warrior",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 1,
+    "trigger_status": 8,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      1,
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "CRT-Buffed Self: At the start of turn, ATK/CRD +#PER#%(1T)"
+  },
+  {
+    "id": 4334,
+    "name": "A Reliable Back",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 91,
+    "effect_type_params": [
+      2,
+      3,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "The higher your HP, the greater the increase in the party's ATK, DEF, and CRD (up to #PER#%)"
+  },
+  {
+    "id": 4335,
+    "name": "Our 7th Anniversary Style",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      3
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 20,
+    "effect_value_max": 20,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Self: HP/DEF +#PER#%"
+  },
+  {
+    "id": 4336,
+    "name": "Martial Arts Demonstration at the Banquet",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 1,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 25,
+    "effect_value_max": 25,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4337,
+    "name": "The Fighting Spirit of Martial Pursuit",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 2,
+    "trigger_target": 1,
+    "trigger_status": 35,
+    "trigger_param": 3,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 49,
+    "effect_type_params": [
+      13
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", and if the character is under the effect of an ATK or DEF buff, grants a +#PER#% damage boost from single-target attacks against the character (1 turn)"
+  },
+  {
+    "id": 4338,
+    "name": "A Reliable Back",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 6,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 23,
+    "effect_type_params": [
+      2,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 40,
+    "effect_value_max": 40,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: When the unit is attacked, ATK/CRD +#PER#% (2T)"
+  },
+  {
+    "id": 4301,
+    "name": "The Mascot Girl's Spell",
+    "unique_flg": 0,
+    "lv_max": 1,
+    "timing_type": 5,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 2,
+    "effect_type_params": [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "All Enemies: Non-HP Basic Stats/CRT -#PER#%"
+  },
+  {
+    "id": 4302,
+    "name": "Rabbit-Head Magic Wand",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 50,
+    "effect_value_max": 50,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Staff-Equipped Self: Damage +#PER#%"
+  },
+  {
+    "id": 4303,
+    "name": "Margia Realizzare",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      1,
+      4,
+      5,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 10,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 6,
+    "effect_value_max": 6,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "Self: HP/INT/RES/CRD +#PER#% per NE (max +60%)"
+  },
+  {
+    "id": 4304,
+    "name": "Notte Infinita",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 11,
+    "target_params": [
+      0
+    ],
+    "effect_type": 24,
+    "effect_type_params": [
+      2,
+      4
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 15,
+    "effect_value_max": 15,
+    "effect_turn": [
+      2,
+      2
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": "At the end of the turn, reduces all enemies' ATK and INT by #PER#% (2 turns)"
+  },
+  {
+    "id": 4306,
+    "name": "Rabbit-Head Magic Wand",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 1,
+    "trigger_status": 3,
+    "trigger_param": 7,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 3,
+    "effect_type_params": [
+      1
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 30,
+    "effect_value_max": 30,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", Party: Damage +#PER#%"
+  },
+  {
+    "id": 4307,
+    "name": "Margia Realizzare",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 1,
+    "trigger_target": 0,
+    "trigger_status": 0,
+    "trigger_param": 0,
+    "trigger_param2": 0,
+    "target_type": 1,
+    "target_params": [
+      0
+    ],
+    "effect_type": 1,
+    "effect_type_params": [
+      2,
+      4,
+      8
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 10,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 3,
+    "effect_value_max": 3,
+    "effect_turn": [
+      0
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", All Allies: ATK/INT/CRD +#PER#% per NE of this unit (max +30%)"
+  },
+  {
+    "id": 4308,
+    "name": "Notte Infinita",
+    "unique_flg": 1,
+    "lv_max": 1,
+    "timing_type": 3,
+    "trigger_target": 1,
+    "trigger_status": 15,
+    "trigger_param": 100,
+    "trigger_param2": 0,
+    "target_type": 9,
+    "target_params": [
+      0
+    ],
+    "effect_type": 102,
+    "effect_type_params": [
+      0
+    ],
+    "limit_damage": 0,
+    "limit_characters": [
+      0
+    ],
+    "effect_correct_type": 0,
+    "effect_correct_characters": [
+      0
+    ],
+    "effect_value_min": 0,
+    "effect_value_max": 0,
+    "effect_turn": [
+      1
+    ],
+    "bad_effect_type": 0,
+    "bad_effect_params": [
+      0
+    ],
+    "bad_effect_value": 0,
+    "description": ", and if your HP is at full, grants yourself the Intimidation effect (2 turns)"
   }
 ]

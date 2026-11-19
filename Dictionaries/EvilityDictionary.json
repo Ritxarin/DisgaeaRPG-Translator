@@ -131,7 +131,6 @@
   ",SPD+#PER#%": ",SPD +#PER#%",
   "パーティが水属性の技を使用した時、パーティのSP+#PER#": "All Allies: When the party uses a water skill, SP +#PER#",
   "パーティのHP+#PER#%": "All Allies: HP +#PER#%",
-  "ターン終了時、SPが10以上ある場合、SPを10消費して行動ゲージ+#PER#(連続発動は最大1回まで)": "Self: At the end of the turn, if SP is 10 or more, consume 10 SP to increase action gauge +#PER# (can only activate once consecutively)",
   "、さらにパーティが風属性攻撃で与えるダメージ+#PER#%": ", All Allies: Wind Damage +#PER#%",
   "、さらにSP+#PER#": ", SP +#PER#",
   "、さらにパーティが属性攻撃で与えるダメージ+#PER#%": ", All Allies Elemental Damage +#PER#%",

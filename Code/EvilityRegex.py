@@ -71,7 +71,7 @@ race_map = {
 
 timing_map = {
     'ターン開始時': 'At start of turn',
-    'ターン終了時': 'At the end of the turn',
+    'ターン終了時': 'At the end of turn',
     '戦闘開始時': 'At the start of battle',
 }
 
@@ -462,6 +462,29 @@ patterns = [
         )
     ),
 
+    # --- When Attacked → All Enemies Stat Debuff ---
+    (
+        "When Attacked → All Enemies Stat Debuff",
+        re.compile(
+            rf'^(?P<lead>(?:、さらに|[、,])?)\s*'
+            rf'(?P<trigger>パーティが)?攻撃を受けた時、'
+            rf'敵全体の'
+            rf'(?P<stats>(?:{stats_pattern})(?:・(?:{stats_pattern}))*)'
+            r'(?P<sign>[+-])#PER#(?:%|％)'
+            r'(?:[\(（](?P<turns>\d+)(?:T|ターン)[\)）])?$',
+            flags=re.UNICODE
+        ),
+        lambda m: (
+            (", " if m.group('lead') else "")
+            + "All Foes: When "
+            + ("any ally" if m.group('trigger') else "this unit")
+            + " is attacked, "
+            + "/".join(stat_map.get(s, s) for s in m.group('stats').split('・'))
+            + f"{m.group('sign')}#PER#%"
+            + (f" ({m.group('turns')}T)" if m.group('turns') else "")
+        )
+    ),
+
     # --- 1️⃣5️⃣ - I: Weapon-Wielding Party Damage Dealt/Taken ✅ ---
     (
         re.compile(
@@ -771,22 +794,28 @@ patterns = [
         )
     ),
 
-    # --- 2️⃣1️⃣ Highest/Lowest AG Ally Multi-Stat Buffs at Turn Start/End ✅ ---
+   # --- 2️⃣1️⃣ Highest/Lowest AG Ally Multi-Stat Buffs (optional lead/timing) ✅ ---
     (
-        "Highest/Lowest AG Ally Multi-Stat Buffs at Turn Start/End",
+        "Highest/Lowest AG Ally Multi-Stat Buffs (optional lead/timing)",
         re.compile(
-            rf"ターン(?P<timing>開始|終了)時、"
+            rf"^(?P<lead>(?:、さらに|[、,])?)\s*"
+            rf"(?:ターン(?P<timing>開始|終了)時、)?"
             rf"行動ゲージが(?P<position>先頭|最後尾)の味方キャラの"
-            rf"(?P<buffs>(?:(?!(?<![A-Z・])SP(?![A-Z・])|ゲージ){stats_pattern})(?:・(?:(?!(?<![A-Z・])SP(?![A-Z・])|ゲージ){stats_pattern}))*)"
-            rf"\+#PER#(?P<percent>%|％)?"
-            rf"(?:\((?P<turns>\d+)(?:T|ターン)\))?",
+            rf"(?P<buffs>(?:(?!(?:SP|ゲージ)(?![A-Z・])){stats_pattern})"
+            rf"(?:・(?:(?!(?:SP|ゲージ)(?![A-Z・])){stats_pattern}))*)"
+            rf"(?P<sign>[+-])#PER#(?:%|％)"
+            rf"(?:\((?P<turns>\d+)(?:T|ターン)\))?$",
             flags=re.UNICODE
         ),
         lambda m: (
-            f"{'Highest' if m.group('position')=='先頭' else 'Lowest'}-AG Ally: "
-            f"At the {'start' if m.group('timing')=='開始' else 'end'} of turn, "
-            f"{'/'.join(m.group('buffs').split('・'))} "
-            f"+#PER#%"
+            (", " if m.group('lead') else "")
+            + f"{'Highest' if m.group('position') == '先頭' else 'Lowest'}-AG Ally: "
+            + (
+                f"At the {'start' if m.group('timing') == '開始' else 'end'} of turn, "
+                if m.group('timing') else ""
+            )
+            + "/".join(stat_map.get(s, s) for s in m.group('buffs').split('・'))
+            + f" {m.group('sign')}#PER#%"
             + (f" ({m.group('turns')}T)" if m.group('turns') else "")
         )
     ),
@@ -1853,14 +1882,13 @@ patterns = [
         ),
         lambda m: (
             f"Self: {timing_map[f'ターン{m.group('timing')}時']}, "
-            f"if SP is {m.group('threshold')} or more, "
+            f"if SP is {m.group('threshold')}+, "
             f"consume {m.group('cost')} SP for "
             f"{m.group('ag')} AG "
-            f"(can be activated {m.group('limit')} "
-            f"{'time' if m.group('limit') == '1' else 'times'} in a row)"
+            f"({m.group('limit')} "
+            f"{'time' if m.group('limit') == '1' else 'times'})"
         )
     ),
-
 
     (
         "Stat-Debuffed Enemy → Stat Debuff",

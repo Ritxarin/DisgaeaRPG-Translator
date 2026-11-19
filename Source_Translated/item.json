@@ -30114,5 +30114,77 @@
     "description": "Nether Star for Awakening 6★ Golden Tink.",
     "max_num": 9999,
     "sell_price": 0
+  },
+  {
+    "id": 4600433,
+    "name": "Formal Adell Nether Star",
+    "item_type": 46,
+    "icon_no": 4601,
+    "effect_value": [
+      433
+    ],
+    "description": "Nether Star for Awakening 6★ Formal Adell.",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 6716,
+    "name": "Party Ticket",
+    "item_type": 67,
+    "icon_no": 6716,
+    "effect_value": [
+      0
+    ],
+    "description": "\"Collect Party Tickets for Great Deals\"—Part 3: Exchange them for various rewards at the limited-time exchange shop.",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 201043,
+    "name": "Event PT",
+    "item_type": 20,
+    "icon_no": 201043,
+    "effect_value": [
+      1076
+    ],
+    "description": "Party Specifically for the Witch Preneur Raid",
+    "max_num": 99999999,
+    "sell_price": 0
+  },
+  {
+    "id": 340352,
+    "name": "Re-release: Pleinair Exchange Ticket",
+    "item_type": 34,
+    "icon_no": 3484,
+    "effect_value": [
+      1077
+    ],
+    "description": "Re-release: Available at the Pleinair Exchange",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340353,
+    "name": "PU Character Exchange Ticket (Paid)",
+    "item_type": 34,
+    "icon_no": 3420,
+    "effect_value": [
+      1080
+    ],
+    "description": "Available at the PU character exchange office (paid)",
+    "max_num": 9999,
+    "sell_price": 0
+  },
+  {
+    "id": 340354,
+    "name": "PU Character Exchange Ticket (Standard)",
+    "item_type": 34,
+    "icon_no": 3421,
+    "effect_value": [
+      1081
+    ],
+    "description": "Available at PU character exchange (normal)",
+    "max_num": 9999,
+    "sell_price": 0
   }
 ]

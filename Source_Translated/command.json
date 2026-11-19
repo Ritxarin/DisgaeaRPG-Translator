@@ -103670,7 +103670,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK+#PER2#%(2T)&INT+#PER7#%(2T)&CRT+#PER3#%(2T)&All damage+#PER4#%(2T)[Self],炎・Star Res -#PER5#%(3T)[Single Enemy]",
+    "description_effect": "ATK+#PER2#%(2T)&INT+#PER7#%(2T)&CRT+#PER3#%(2T)&All damage+#PER4#%(2T)[Self],Fire/Star Res -#PER5#%(3T)[Single Enemy]",
     "description": "Slash multiple enemies with the power of fire",
     "resource_id": 3002482,
     "continuous_attack_rates": [
@@ -103776,7 +103776,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "[When using skill]CRD+#PER2#%&Uses enemy's lower DEF or RES for damage calculation&INTの#PER4#% Added to damage calculation[Self],炎・Star Res -#PER5#%(3T)[Single Enemy]",
+    "description_effect": "[When using skill]CRD+#PER2#%&Uses enemy's lower DEF or RES for damage calculation&INTの#PER4#% Added to damage calculation[Self],Fire/Star Res -#PER5#%(3T)[Single Enemy]",
     "description": "With the help of the three great spirits, we cut all the dimensions.",
     "resource_id": 3002483,
     "continuous_attack_rates": [
@@ -108480,7 +108480,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/INT+#PER2#%(5T)&All damage+#PER4#%(2T)[Party],炎・Water Res -#PER5#%(4T)[All Enemies]",
+    "description_effect": "ATK/INT+#PER2#%(5T)&All damage+#PER4#%(2T)[Party],Fire/Water Res -#PER5#%(4T)[All Enemies]",
     "description": "The roar of a false star floating on the holy night",
     "resource_id": 3002623,
     "continuous_attack_rates": [
@@ -346862,7 +346862,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK+#PER2#%(2T)&INT+#PER7#%(2T)&CRT+#PER3#%(2T)&All damage+#PER4#%(2T)[Self],炎・Star Res -#PER5#%(3T)[Single Enemy]",
+    "description_effect": "ATK+#PER2#%(2T)&INT+#PER7#%(2T)&CRT+#PER3#%(2T)&All damage+#PER4#%(2T)[Self],Fire/Star Res -#PER5#%(3T)[Single Enemy]",
     "description": "Slash multiple enemies with the power of fire",
     "resource_id": 3002482,
     "continuous_attack_rates": [
@@ -346968,7 +346968,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "[When using skill]CRD+#PER2#%&Uses enemy's lower DEF or RES for damage calculation&INTの#PER4#% Added to damage calculation[Self],炎・Star Res -#PER5#%(3T)[Single Enemy]",
+    "description_effect": "[When using skill]CRD+#PER2#%&Uses enemy's lower DEF or RES for damage calculation&INTの#PER4#% Added to damage calculation[Self],Fire/Star Res -#PER5#%(3T)[Single Enemy]",
     "description": "With the help of the three great spirits, we cut all the dimensions.",
     "resource_id": 3002483,
     "continuous_attack_rates": [
@@ -351672,7 +351672,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/INT+#PER2#%(5T)&All damage+#PER4#%(2T)[Party],炎・Water Res -#PER5#%(4T)[All Enemies]",
+    "description_effect": "ATK/INT+#PER2#%(5T)&All damage+#PER4#%(2T)[Party],Fire/Water Res -#PER5#%(4T)[All Enemies]",
     "description": "The roar of a false star floating on the holy night",
     "resource_id": 3002623,
     "continuous_attack_rates": [
@@ -435482,7 +435482,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "Action Gauge+500&CRD+50%(3T)[Party]",
+    "description_effect": "Action Gauge+500&SPD+30%(3T)[Party]",
     "description": "I feel an affinity to explosives",
     "resource_id": 3300012,
     "continuous_attack_rates": []
@@ -473540,7 +473540,7 @@
       0,
       0
     ],
-    "description_effect": "SP Overflow[#PER2#](5T)&ATK/CRD+#PER3#%(3T)&All damage+#PER5#%(3T)[Ally],[On Critical hit]Action Gauge+#PER6#[Party],Remove DEF/RES buffs&Water Res -#PER9#%(2T)[Single Enemy]",
+    "description_effect": "SP Overflow[#PER2#](5T)&SP Regen[#PER10#](3T)&ATK/CRD+#PER3#%(3T)&All damage+#PER5#%(3T)[Ally],[On Critical hit]Action Gauge+#PER6#[Party],Remove DEF/RES buffs&Water Res-#PER9#%(2T)[Single Enemy]",
     "description": "Seriously, you're always giving me trouble, Mao.",
     "resource_id": 3003822,
     "continuous_attack_rates": []
@@ -474692,7 +474692,7 @@
       0,
       0
     ],
-    "description_effect": "SP Overflow[#PER2#](5T)&ATK/CRD+#PER3#%(3T)&All damage+#PER5#%(3T)[Ally],[On Critical hit]Action Gauge+#PER6#[Party],Remove DEF/RES buffs&Water Res -#PER9#%(2T)[Single Enemy]",
+    "description_effect": "SP Overflow[#PER2#](5T)&SP Regen[#PER10#](3T)&ATK/CRD+#PER3#%(3T)&All damage+#PER5#%(3T)[Ally],[On Critical hit]Action Gauge+#PER6#[Party],Remove DEF/RES buffs&Water Res-#PER9#%(2T)[Single Enemy]",
     "description": "Seriously, you're always giving me trouble, Mao.",
     "resource_id": 3003822,
     "continuous_attack_rates": []
@@ -510111,7 +510111,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/DEF/CRD+25%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,炎・水・Wind resistance+5%[Self],Forget[Single Enemy]",
+    "description_effect": "ATK/DEF/CRD+25%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,Fire/水・Wind resistance+5%[Self],Forget[Single Enemy]",
     "description": "Raid BOSS",
     "resource_id": 3601333,
     "continuous_attack_rates": []
@@ -510506,7 +510506,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK+50%,CRT+20%,CRD+75%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,炎・水・Wind resistance+5%[Self],Forget[Single Enemy]",
+    "description_effect": "ATK+50%,CRT+20%,CRD+75%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,Fire/水・Wind resistance+5%[Self],Forget[Single Enemy]",
     "description": "Raid BOSS",
     "resource_id": 3601333,
     "continuous_attack_rates": []
@@ -510736,7 +510736,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "使用する度に威力+750,全デバフ解除,与ダメ全攻撃+50%,被ダメ単攻撃-50%[Self],炎・水・Wind resistance+30%,ATK・SPD・CRT・CRDバフ解除,Remove Special Effect,Action Gauge-1000[All Enemies]",
+    "description_effect": "使用する度に威力+750,全デバフ解除,与ダメ全攻撃+50%,被ダメ単攻撃-50%[Self],Fire/水・Wind resistance+30%,ATK・SPD・CRT・CRDバフ解除,Remove Special Effect,Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601332,
     "continuous_attack_rates": []
@@ -510966,7 +510966,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "与ダメ全攻撃+50%,被ダメ単体攻撃-50%,炎・水・Wind resistance+10%[Self],ATK・DEF-30%,CRT-10%,Forget・茨付与,SP-10,全バフ解除,Action Gauge-1000[All Enemies]",
+    "description_effect": "与ダメ全攻撃+50%,被ダメ単体攻撃-50%,Fire/水・Wind resistance+10%[Self],ATK・DEF-30%,CRT-10%,Forget・茨付与,SP-10,全バフ解除,Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601331,
     "continuous_attack_rates": []
@@ -511232,7 +511232,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "全バフ+50%,炎星2発1Tバリア,与ダメ全攻撃+50%,被ダメ単体攻撃-50%,炎・水・Wind resistance+10%[Self],Forget・茨付与,SP-10,全バフ解除,Action Gauge-1000[All Enemies]",
+    "description_effect": "全バフ+50%,炎星2発1Tバリア,与ダメ全攻撃+50%,被ダメ単体攻撃-50%,Fire/水・Wind resistance+10%[Self],Forget・茨付与,SP-10,全バフ解除,Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601332,
     "continuous_attack_rates": []
@@ -511471,7 +511471,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK+50%,CRT+20%,CRD+75%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,炎・水・Wind resistance+10%[Self],Forget・茨付与,SP-30,全バフ解除[Single Enemy],Action Gauge-1000[All Enemies]",
+    "description_effect": "ATK+50%,CRT+20%,CRD+75%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,Fire/水・Wind resistance+10%[Self],Forget・茨付与,SP-30,全バフ解除[Single Enemy],Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601333,
     "continuous_attack_rates": []
@@ -511620,7 +511620,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/DEF/CRD+25%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,炎・水・Wind resistance+5%[Self],Forget[Single Enemy]",
+    "description_effect": "ATK/DEF/CRD+25%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,Fire/水・Wind resistance+5%[Self],Forget[Single Enemy]",
     "description": "Raid BOSS",
     "resource_id": 3601343,
     "continuous_attack_rates": []
@@ -512015,7 +512015,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK+50%,CRT+20%,CRD+75%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,炎・水・Wind resistance+5%[Self],Forget[Single Enemy]",
+    "description_effect": "ATK+50%,CRT+20%,CRD+75%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,Fire/水・Wind resistance+5%[Self],Forget[Single Enemy]",
     "description": "Raid BOSS",
     "resource_id": 3601343,
     "continuous_attack_rates": []
@@ -512245,7 +512245,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "使用する度に威力+750,全デバフ解除,与ダメ全攻撃+50%,被ダメ単攻撃-50%[Self],炎・水・Wind resistance+30%,ATK・SPD・CRT・CRDバフ解除,Remove Special Effect,Action Gauge-1000[All Enemies]",
+    "description_effect": "使用する度に威力+750,全デバフ解除,与ダメ全攻撃+50%,被ダメ単攻撃-50%[Self],Fire/水・Wind resistance+30%,ATK・SPD・CRT・CRDバフ解除,Remove Special Effect,Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601342,
     "continuous_attack_rates": []
@@ -512484,7 +512484,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK/DEF/CRD+25%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,炎・水・Wind resistance+10%[Self],Forget・茨付与,SP-10,全バフ解除[Single Enemy],Action Gauge-1000[All Enemies]",
+    "description_effect": "ATK/DEF/CRD+25%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,Fire/水・Wind resistance+10%[Self],Forget・茨付与,SP-10,全バフ解除[Single Enemy],Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601343,
     "continuous_attack_rates": []
@@ -512714,7 +512714,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "与ダメ全攻撃+50%,被ダメ単体攻撃-50%,炎・水・Wind resistance+10%[Self],ATK・DEF-30%,CRT-10%,Forget・茨付与,SP-10,全バフ解除,Action Gauge-1000[All Enemies]",
+    "description_effect": "与ダメ全攻撃+50%,被ダメ単体攻撃-50%,Fire/水・Wind resistance+10%[Self],ATK・DEF-30%,CRT-10%,Forget・茨付与,SP-10,全バフ解除,Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601341,
     "continuous_attack_rates": []
@@ -512953,7 +512953,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "ATK+50%,CRT+20%,CRD+75%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,炎・水・Wind resistance+10%[Self],Forget・茨付与,SP-30,全バフ解除[Single Enemy],Action Gauge-1000[All Enemies]",
+    "description_effect": "ATK+50%,CRT+20%,CRD+75%,被ダメ単体攻撃-50%,ATK/CRDデバフ解除,Fire/水・Wind resistance+10%[Self],Forget・茨付与,SP-30,全バフ解除[Single Enemy],Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601343,
     "continuous_attack_rates": []
@@ -513219,7 +513219,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "全バフ+75%,炎星1発1Tバリア,与ダメ全攻撃+40%,被ダメ単体攻撃-50%,炎・水・Wind resistance+10%[Self],Forget・茨付与,SP-20,全バフ解除,Action Gauge-1000[All Enemies]",
+    "description_effect": "全バフ+75%,炎星1発1Tバリア,与ダメ全攻撃+40%,被ダメ単体攻撃-50%,Fire/水・Wind resistance+10%[Self],Forget・茨付与,SP-20,全バフ解除,Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601342,
     "continuous_attack_rates": []
@@ -513476,7 +513476,7 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "全バフ+100%,星1発1Tバリア,与ダメ全攻撃+50%,被ダメ単体攻撃-50%,炎・水・Wind resistance+10%[Self],Forget・茨付与,SP-25,全バフ解除,Action Gauge-1000[All Enemies]",
+    "description_effect": "全バフ+100%,星1発1Tバリア,与ダメ全攻撃+50%,被ダメ単体攻撃-50%,Fire/水・Wind resistance+10%[Self],Forget・茨付与,SP-25,全バフ解除,Action Gauge-1000[All Enemies]",
     "description": "Raid BOSS",
     "resource_id": 3601342,
     "continuous_attack_rates": []
@@ -563217,8 +563217,8 @@
   },
   {
     "id": 3004291,
-    "name": "Hot Celebration, Cold Drink, Slugger",
-    "name_battle": "Hot Celebration,\\nCold Drink, Slugger",
+    "name": "Hot Celebration, Cold Toast Slugger",
+    "name_battle": "Hot Celebration, Cold Toast Slugger",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -563300,8 +563300,8 @@
   },
   {
     "id": 3004292,
-    "name": "Anniversary Program",
-    "name_battle": "Anniversary\\nProgram",
+    "name": "AAnnivaProgram",
+    "name_battle": "AnnivaProgram",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -563424,15 +563424,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "SPD・CRT-#PER2#%(3T)&炎・Water Res-#PER4#%(3T)[All Enemies],Action Gauge+#PER6#&Ailment Removal&SP Regen[#PER8#](3T)&All damage+#PER9#%(3T)[Party]",
+    "description_effect": "SPD・CRT-#PER2#%(3T)&Fire/Water Res-#PER4#%(3T)[All Enemies],Action Gauge+#PER6#&Ailment Removal&SP Regen[#PER8#](3T)&All damage+#PER9#%(3T)[Party]",
     "description": "I can finally show off the results of the intensive training I started back in winter!",
     "resource_id": 3004292,
     "continuous_attack_rates": []
   },
   {
     "id": 3004293,
-    "name": "Plinicaizer 7XX",
-    "name_battle": "Plinicaizer\\n7XX",
+    "name": "Pringer Kaiser 7XX",
+    "name_battle": "Pringer Kaiser 7XX",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -563651,7 +563651,7 @@
       0,
       0
     ],
-    "description_effect": "[When using skill]CRT+#PER2#%[Self],CRT+#PER3#%(3T)&CRD+#PER4#%(3T)&All damage+#PER5#%(3T)&[On Critical hit]ATK+#PER6#%(3T)[Party],remove buff effect&炎・Water Res-#PER14#%(3T)[Single Enemy]",
+    "description_effect": "[When using skill]CRT+#PER2#%[Self],CRT+#PER3#%(3T)&CRD+#PER4#%(3T)&All damage+#PER5#%(3T)&[On Critical hit]ATK+#PER6#%(3T)[Party],remove buff effect&Fire/Water Res-#PER14#%(3T)[Single Enemy]",
     "description": "Go ahead and feel the full force of seven years' worth of power with that body of yours!",
     "resource_id": 3004293,
     "continuous_attack_rates": []
@@ -564532,8 +564532,8 @@
   },
   {
     "id": 4004291,
-    "name": "Hot Celebration, Cold Drink, Slugger",
-    "name_battle": "Hot Celebration,\\nCold Drink, Slugger",
+    "name": "Hot Celebration, Cold Toast Slugger",
+    "name_battle": "Hot Celebration, Cold Toast Slugger",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -564615,8 +564615,8 @@
   },
   {
     "id": 4004292,
-    "name": "Anniversary Program",
-    "name_battle": "Anniversary\\nProgram",
+    "name": "AAnnivaProgram",
+    "name_battle": "AnnivaProgram",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -564739,15 +564739,15 @@
     "trigger_targets": [
       0
     ],
-    "description_effect": "SPD・CRT-#PER2#%(3T)&炎・Water Res-#PER4#%(3T)[All Enemies],Action Gauge+#PER6#&Ailment Removal&SP Regen[#PER8#](3T)&All damage+#PER9#%(3T)[Party]",
+    "description_effect": "SPD・CRT-#PER2#%(3T)&Fire/Water Res-#PER4#%(3T)[All Enemies],Action Gauge+#PER6#&Ailment Removal&SP Regen[#PER8#](3T)&All damage+#PER9#%(3T)[Party]",
     "description": "I can finally show off the results of the intensive training I started back in winter!",
     "resource_id": 3004292,
     "continuous_attack_rates": []
   },
   {
     "id": 4004293,
-    "name": "Plinicaizer 7XX",
-    "name_battle": "Plinicaizer\\n7XX",
+    "name": "Pringer Kaiser 7XX",
+    "name_battle": "Pringer Kaiser 7XX",
     "command_category": 3,
     "attr": 2,
     "max_lv": 50,
@@ -564966,7 +564966,7 @@
       0,
       0
     ],
-    "description_effect": "[When using skill]CRT+#PER2#%[Self],CRT+#PER3#%(3T)&CRD+#PER4#%(3T)&All damage+#PER5#%(3T)&[On Critical hit]ATK+#PER6#%(3T)[Party],remove buff effect&炎・Water Res-#PER14#%(3T)[Single Enemy]",
+    "description_effect": "[When using skill]CRT+#PER2#%[Self],CRT+#PER3#%(3T)&CRD+#PER4#%(3T)&All damage+#PER5#%(3T)&[On Critical hit]ATK+#PER6#%(3T)[Party],remove buff effect&Fire/Water Res-#PER14#%(3T)[Single Enemy]",
     "description": "Go ahead and feel the full force of seven years' worth of power with that body of yours!",
     "resource_id": 3004293,
     "continuous_attack_rates": []
@@ -565843,6 +565843,4980 @@
     "description_effect": "Reduce HP by #PER2#%&[When using skill]CRT+#PER3#%&Skill Power+#PER4#%[Self],remove buff effect&Damage Taken +#PER12#%(3T)[All Enemies]",
     "description": "Being the star of the 7th anniversary—I’ve got absolutely no regrets!!",
     "resource_id": 3201273,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3004331,
+    "name": "Super Pot Exploding Ice Bomb",
+    "name_battle": "Super Pot Exploding Ice Bomb",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 35,
+    "sp_max_30": 30,
+    "sp_max_40": 28,
+    "sp_max_50": 26,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      137,
+      86,
+      9,
+      11,
+      13,
+      64,
+      149
+    ],
+    "effect_values_min": [
+      80,
+      340,
+      100,
+      30,
+      30,
+      25,
+      10,
+      10
+    ],
+    "effect_values_max_30": [
+      110,
+      340,
+      100,
+      30,
+      30,
+      25,
+      10,
+      10
+    ],
+    "effect_values_max_40": [
+      112,
+      340,
+      100,
+      30,
+      30,
+      25,
+      10,
+      10
+    ],
+    "effect_values_max_50": [
+      114,
+      340,
+      100,
+      30,
+      30,
+      25,
+      10,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      4,
+      4,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Intercept[Water][ATK](3T)&Cover(3T)[Self],DEF/RES+#PER4#%(3T)[Party],ATK-#PER6#%(2T)&CRT-#PER7#%(2T)&Damage dealt -#PER8#% (2T)[All Enemies]",
+    "description": "It's been a while since I've been in the spotlight. Let's do that!",
+    "resource_id": 3004331,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3004332,
+    "name": "Ice Rose Crushing Strike",
+    "name_battle": "Ice Rose Crushing Strike",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 32,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      127,
+      128,
+      8,
+      65,
+      63,
+      101,
+      39,
+      14,
+      16,
+      143
+    ],
+    "effect_values_min": [
+      200,
+      1000,
+      100,
+      100,
+      50,
+      50,
+      15,
+      30,
+      1,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_30": [
+      230,
+      1000,
+      100,
+      100,
+      50,
+      50,
+      15,
+      30,
+      1,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_40": [
+      239,
+      1000,
+      100,
+      100,
+      50,
+      50,
+      15,
+      30,
+      1,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_50": [
+      244,
+      1000,
+      100,
+      100,
+      50,
+      50,
+      15,
+      30,
+      1,
+      30,
+      30,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#& CRT・CRDRemove debuffs& ATK/CRD+#PER5#%(2T)&CRT+#PER7#%(2T)&All damage+#PER8#%(2T)[Self],DEF/RES-#PER10#%(3T)&Water Res-#PER12#%(3T)[Single Enemy]",
+    "description": "Haha, looks like Taro's really fired up, too!",
+    "resource_id": 3004332,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3004333,
+    "name": "Formal Rose",
+    "name_battle": "Formal\\nRose",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 68,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      132,
+      141,
+      81
+    ],
+    "effect_values_min": [
+      480,
+      180,
+      60,
+      15
+    ],
+    "effect_values_max_30": [
+      510,
+      180,
+      60,
+      15
+    ],
+    "effect_values_max_40": [
+      525,
+      180,
+      60,
+      15
+    ],
+    "effect_values_max_50": [
+      540,
+      180,
+      60,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      7,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      7,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      5,
+      5
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      6
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "description_effect": "Additional Hits [3～7(Power D+)]&[When using skill]CRD+#PER3#%&If CRT buffed, Skill Power+#PER4#%[Self]",
+    "description": "We'll give it our all for our 7th anniversary, too. That's our style!!",
+    "resource_id": 3004333,
+    "continuous_attack_rates": [
+      100,
+      100,
+      100,
+      95,
+      95,
+      90,
+      90
+    ]
+  },
+  {
+    "id": 4004331,
+    "name": "Super Pot Exploding Ice Bomb",
+    "name_battle": "Super Pot Exploding Ice Bomb",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 35,
+    "sp_max_30": 30,
+    "sp_max_40": 28,
+    "sp_max_50": 26,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      137,
+      86,
+      9,
+      11,
+      13,
+      64,
+      149
+    ],
+    "effect_values_min": [
+      88,
+      340,
+      100,
+      30,
+      30,
+      25,
+      10,
+      10
+    ],
+    "effect_values_max_30": [
+      118,
+      340,
+      100,
+      30,
+      30,
+      25,
+      10,
+      10
+    ],
+    "effect_values_max_40": [
+      120,
+      340,
+      100,
+      30,
+      30,
+      25,
+      10,
+      10
+    ],
+    "effect_values_max_50": [
+      122,
+      340,
+      100,
+      30,
+      30,
+      25,
+      10,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      4,
+      4,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Intercept[Water][ATK](3T)&Cover(3T)[Self],DEF/RES+#PER4#%(3T)[Party],ATK-#PER6#%(2T)&CRT-#PER7#%(2T)&Damage dealt -#PER8#% (2T)[All Enemies]",
+    "description": "It's been a while since I've had a chance to perform. Let's do that!",
+    "resource_id": 3004331,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4004332,
+    "name": "Ice Rose Crushing Strike",
+    "name_battle": "Ice Rose Crushing Strike",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 37,
+    "sp_max_30": 32,
+    "sp_max_40": 29,
+    "sp_max_50": 28,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      20,
+      127,
+      128,
+      8,
+      65,
+      63,
+      101,
+      39,
+      14,
+      16,
+      143
+    ],
+    "effect_values_min": [
+      200,
+      1000,
+      100,
+      100,
+      50,
+      50,
+      15,
+      30,
+      1,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_30": [
+      230,
+      1000,
+      100,
+      100,
+      50,
+      50,
+      15,
+      30,
+      1,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_40": [
+      239,
+      1000,
+      100,
+      100,
+      50,
+      50,
+      15,
+      30,
+      1,
+      30,
+      30,
+      15
+    ],
+    "effect_values_max_50": [
+      244,
+      1000,
+      100,
+      100,
+      50,
+      50,
+      15,
+      30,
+      1,
+      30,
+      30,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited]Action Gauge+#PER2#& CRT・CRDRemove debuffs& ATK/CRD+#PER5#%(2T)&CRT+#PER7#%(2T)&All damage+#PER8#%(2T)[Self],DEF/RES-#PER10#%(3T)&Water Res-#PER12#%(3T)[Single Enemy]",
+    "description": "Haha, looks like Taro's really fired up, too!",
+    "resource_id": 3004332,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4004333,
+    "name": "Formal Rose",
+    "name_battle": "Formal\\nRose",
+    "command_category": 3,
+    "attr": 2,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 68,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      132,
+      141,
+      81
+    ],
+    "effect_values_min": [
+      490,
+      180,
+      60,
+      15
+    ],
+    "effect_values_max_30": [
+      520,
+      180,
+      60,
+      15
+    ],
+    "effect_values_max_40": [
+      535,
+      180,
+      60,
+      15
+    ],
+    "effect_values_max_50": [
+      550,
+      180,
+      60,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      7,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      7,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      5,
+      5
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      6
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "description_effect": "Additional Hits [3～7(Power D+)]&[When using skill]CRD+#PER3#%&If CRT buffed, Skill Power+#PER4#%[Self]",
+    "description": "We'll give it our all for our 7th anniversary, too. That's our style!!",
+    "resource_id": 3004333,
+    "continuous_attack_rates": [
+      100,
+      100,
+      100,
+      95,
+      95,
+      90,
+      90
+    ]
+  },
+  {
+    "id": 6004011,
+    "name": "Higan-ryu: A-in Slash+",
+    "name_battle": "Higan-ryu: A-in Slash+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      8,
+      9,
+      101
+    ],
+    "effect_values_min": [
+      150,
+      50,
+      50,
+      15
+    ],
+    "effect_values_max_30": [
+      150,
+      50,
+      50,
+      15
+    ],
+    "effect_values_max_40": [
+      150,
+      50,
+      50,
+      15
+    ],
+    "effect_values_max_50": [
+      150,
+      50,
+      50,
+      15
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      5,
+      5
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      5,
+      5
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "ATK・DEF+50%(5T)&All damage+15%(5T)[Party]",
+    "description": "I am Pirilika Zesshosai. Let’s bring it on, Ginger!",
+    "resource_id": 3004011,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 6004012,
+    "name": "Higan-ryu: Shippu Doutor+",
+    "name_battle": "Higan-ryu: Shippu Doutor+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      44,
+      149,
+      143,
+      139,
+      9,
+      8,
+      65,
+      12,
+      63,
+      101
+    ],
+    "effect_values_min": [
+      65,
+      25,
+      30,
+      340,
+      80,
+      80,
+      80,
+      15,
+      15,
+      25
+    ],
+    "effect_values_max_30": [
+      65,
+      25,
+      30,
+      340,
+      80,
+      80,
+      80,
+      15,
+      15,
+      25
+    ],
+    "effect_values_max_40": [
+      65,
+      25,
+      30,
+      340,
+      80,
+      80,
+      80,
+      15,
+      15,
+      25
+    ],
+    "effect_values_max_50": [
+      65,
+      25,
+      30,
+      340,
+      80,
+      80,
+      80,
+      15,
+      15,
+      25
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      2,
+      2,
+      5,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      2,
+      2,
+      5,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      1,
+      1,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "対象の残HP65%の割合ダメージ&Reduce Damage dealt25%ダウン(2T)&Star Res-30%(2T)[Single Enemy],Intercept[Star][ATK](5T)&DEF+80%(2T)[Self],ATK/CRD+80%(2T)&SPD・CRT+15%(2T)&All damage+25%(2T)[Party]",
+    "description": "Blade Wolf, unite! Now is the time to strike first!",
+    "resource_id": 3004012,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 6004013,
+    "name": "Complete Slash: Kamui · White Tiger+",
+    "name_battle": "Complete Slash: Kamui · White Tiger+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 68,
+    "gain_sp": 0,
+    "relational_param": 2,
+    "command_types": [
+      1,
+      141,
+      91,
+      101,
+      85,
+      145,
+      22,
+      23,
+      24,
+      25,
+      26,
+      125,
+      126
+    ],
+    "effect_values_min": [
+      600,
+      150,
+      30,
+      30,
+      100,
+      0,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_30": [
+      600,
+      150,
+      30,
+      30,
+      100,
+      0,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_40": [
+      600,
+      150,
+      30,
+      30,
+      100,
+      0,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_50": [
+      600,
+      150,
+      30,
+      30,
+      100,
+      0,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      4,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "description_effect": "[When using skill]CRD+150%&DEFの30% Added to damage calculation[Self],All damage+30%(3T)[Party],対象のバフを100%無視してダメージ計算&Remove Special Effect[Single Enemy],[On Critical hit]remove buff effect[All Enemies]",
+    "description": "The Sword of Utter Victory—Take the blow from Shikkarol head-on!",
+    "resource_id": 3004013,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 376,
+    "name": "Prinnys: Flower Bouquet Barrage+",
+    "name_battle": "Prinnys:\\nFlower Bouquet Barrage+",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 70,
+    "sp_max_30": 65,
+    "sp_max_40": 60,
+    "sp_max_50": 58,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      9,
+      11,
+      64,
+      66,
+      4,
+      33
+    ],
+    "effect_values_min": [
+      120,
+      50,
+      30,
+      15,
+      50,
+      100,
+      15
+    ],
+    "effect_values_max_30": [
+      120,
+      50,
+      30,
+      15,
+      50,
+      100,
+      15
+    ],
+    "effect_values_max_40": [
+      120,
+      50,
+      30,
+      15,
+      50,
+      100,
+      15
+    ],
+    "effect_values_max_50": [
+      120,
+      50,
+      30,
+      15,
+      50,
+      100,
+      15
+    ],
+    "variance_rates": [
+      100
+    ],
+    "effect_values_sub_min": [
+      0,
+      4,
+      4,
+      2,
+      2,
+      2,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      4,
+      4,
+      2,
+      2,
+      2,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF+50%,RES+30%[Party],CRT-15%,CRD-50%,Poison,SP-15[Single Enemy]",
+    "description": "It's a truly stunning combination of flowers and lights.",
+    "resource_id": 3200282,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 377,
+    "name": "Prinny's Paper Ball Bomb+",
+    "name_battle": "Prinny's\\nPaper Ball Bomb+",
+    "command_category": 3,
+    "attr": 0,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 8,
+    "sp_min": 25,
+    "sp_max_30": 20,
+    "sp_max_40": 19,
+    "sp_max_50": 18,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      13,
+      16,
+      17,
+      134
+    ],
+    "effect_values_min": [
+      150,
+      25,
+      25,
+      20,
+      100
+    ],
+    "effect_values_max_30": [
+      150,
+      25,
+      25,
+      20,
+      100
+    ],
+    "effect_values_max_40": [
+      150,
+      25,
+      25,
+      20,
+      100
+    ],
+    "effect_values_max_50": [
+      150,
+      25,
+      25,
+      20,
+      100
+    ],
+    "variance_rates": [
+      100
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      2,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      2,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "ATK・RES-25%,SPD-20%,茨[All Enemies]",
+    "description": "We’re unveiling the kusudama we made to celebrate our first anniversary.",
+    "resource_id": 3200281,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3004301,
+    "name": "Summoning the Rabbit",
+    "name_battle": "Summoning\\nthe Rabbit",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      123,
+      8,
+      9,
+      10,
+      11,
+      101,
+      139,
+      46,
+      143
+    ],
+    "effect_values_min": [
+      80,
+      100,
+      25,
+      25,
+      25,
+      25,
+      15,
+      340,
+      100,
+      10
+    ],
+    "effect_values_max_30": [
+      110,
+      100,
+      25,
+      25,
+      25,
+      25,
+      15,
+      340,
+      100,
+      10
+    ],
+    "effect_values_max_40": [
+      112,
+      100,
+      25,
+      25,
+      25,
+      25,
+      15,
+      340,
+      100,
+      10
+    ],
+    "effect_values_max_50": [
+      114,
+      100,
+      25,
+      25,
+      25,
+      25,
+      15,
+      340,
+      100,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      4
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Overheal (small)&Non-HP Basic Stats+#PER3#%(3T)&All damage+#PER7#%(3T)[Party],Intercept[Star][INT](3T)[Self],Inflict Random Ailments(2T)&Star Res-#PER10#%(3T)[All Enemies]",
+    "description": "I'll summon the bunny from various dimensions.",
+    "resource_id": 3004301,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3004302,
+    "name": "Bunny Pumpkin Cannon",
+    "name_battle": "Bunny\\nPumpkin Cannon",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      131,
+      48,
+      50,
+      8,
+      10,
+      65,
+      63,
+      101,
+      39,
+      133,
+      14,
+      16,
+      17,
+      150
+    ],
+    "effect_values_min": [
+      250,
+      1,
+      100,
+      100,
+      60,
+      60,
+      60,
+      20,
+      25,
+      1,
+      30,
+      30,
+      30,
+      15,
+      20
+    ],
+    "effect_values_max_30": [
+      280,
+      1,
+      100,
+      100,
+      60,
+      60,
+      60,
+      20,
+      25,
+      1,
+      30,
+      30,
+      30,
+      15,
+      20
+    ],
+    "effect_values_max_40": [
+      291,
+      1,
+      100,
+      100,
+      60,
+      60,
+      60,
+      20,
+      25,
+      1,
+      30,
+      30,
+      30,
+      15,
+      20
+    ],
+    "effect_values_max_50": [
+      296,
+      1,
+      100,
+      100,
+      60,
+      60,
+      60,
+      20,
+      25,
+      1,
+      30,
+      30,
+      30,
+      15,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      3,
+      3,
+      3,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      3,
+      3,
+      3,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited]Extra Action(1times)&ATK/INTRemove debuffs&ATK/INT/CRD+#PER5#%(3T)&CRT+#PER8#%(3T)&All damage+#PER9#%(3T)[Ally],SP Steal#PER11#&DEF/RES-#PER12#%(3T)&SPD-#PER14#%(3T)&Damage Taken +#PER15#%(2T)[Single Enemy]",
+    "description": "It fires from much closer than you'd expect, so it really takes you by surprise.",
+    "resource_id": 3004302,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3004303,
+    "name": "Usakabo Requiem",
+    "name_battle": "Usakabo\\nRequiem",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 65,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      141,
+      144,
+      84,
+      20
+    ],
+    "effect_values_min": [
+      160,
+      60,
+      15,
+      300,
+      200
+    ],
+    "effect_values_max_30": [
+      190,
+      60,
+      15,
+      300,
+      200
+    ],
+    "effect_values_max_40": [
+      195,
+      60,
+      15,
+      300,
+      200
+    ],
+    "effect_values_max_50": [
+      200,
+      60,
+      15,
+      300,
+      200
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "description_effect": "[When using skill]CRD+#PER2#%&Damage increases with the number of debuff types inflicted on the target (Maximum 5 times)&Increase damage with fewer enemies[Self],[When defeating an enemy]、Action Gauge+#PER5#[Party]",
+    "description": "Pleinair's magic devours the misfortune that fills the world",
+    "resource_id": 3004303,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601571,
+    "name": "Bunny Pumpkin Cannon+",
+    "name_battle": "Bunny\\nPumpkin Cannon+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      9,
+      11,
+      12,
+      111,
+      22,
+      126,
+      6
+    ],
+    "effect_values_min": [
+      120,
+      50,
+      30,
+      15,
+      15,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_30": [
+      120,
+      50,
+      30,
+      15,
+      15,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_40": [
+      120,
+      50,
+      30,
+      15,
+      15,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_50": [
+      120,
+      50,
+      30,
+      15,
+      15,
+      100,
+      100,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF+50%,RES+30%,SPD+15%,被ダメ全攻撃-15%[Self],ATK/CRDバフ解除,Sleep[Single Enemy]",
+    "description": "Raid Boss",
+    "resource_id": 3601472,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601572,
+    "name": "Summon a Rabbit+",
+    "name_battle": "Summon\\na Rabbit+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      10,
+      63,
+      50,
+      49,
+      127,
+      101,
+      16,
+      17,
+      7
+    ],
+    "effect_values_min": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      30,
+      30,
+      10,
+      100
+    ],
+    "effect_values_max_30": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      30,
+      30,
+      10,
+      100
+    ],
+    "effect_values_max_40": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      30,
+      30,
+      10,
+      100
+    ],
+    "effect_values_max_50": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      30,
+      30,
+      10,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      5,
+      3,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      5,
+      3,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "INT+50%,CRT+15%,INT・DEF・CRTデバフ解除,与ダメ全攻撃+30%[Self],RES-30%,SPD-10%,Forget[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601471,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601573,
+    "name": "Usakabo Requiem+",
+    "name_battle": "Usakabo\\nRequiem+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 65,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      67,
+      68,
+      50,
+      49,
+      127,
+      101,
+      7
+    ],
+    "effect_values_min": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      30,
+      100
+    ],
+    "effect_values_max_30": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      30,
+      100
+    ],
+    "effect_values_max_40": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      30,
+      100
+    ],
+    "effect_values_max_50": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      30,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "全バフ+30%,炎水2発1Tバリア,INT・DEF・CRTデバフ解除,与ダメ全攻撃+30%[Self],Forget[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601473,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601574,
+    "name": "Bunny Pumpkin Cannon++",
+    "name_battle": "Bunny Pumpkin\\nCannon++",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      10,
+      65,
+      111,
+      17,
+      22,
+      126,
+      6
+    ],
+    "effect_values_min": [
+      400,
+      80,
+      80,
+      25,
+      20,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_30": [
+      400,
+      80,
+      80,
+      25,
+      20,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_40": [
+      400,
+      80,
+      80,
+      25,
+      20,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_50": [
+      400,
+      80,
+      80,
+      25,
+      20,
+      100,
+      100,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "INT/CRD+80%,被ダメ全攻撃-25%[Self],SPD-20%,ATK/CRDバフ解除,Sleep[Single Enemy]",
+    "description": "Raid Boss",
+    "resource_id": 3601472,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601575,
+    "name": "Usakabo Requiem Ω",
+    "name_battle": "Usakabo\\nRequiem Ω",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 65,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      95,
+      48,
+      49,
+      50,
+      51,
+      52,
+      127,
+      128,
+      101,
+      139,
+      154,
+      134,
+      21
+    ],
+    "effect_values_min": [
+      750,
+      750,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      50,
+      400,
+      0,
+      100,
+      1000
+    ],
+    "effect_values_max_30": [
+      750,
+      750,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      50,
+      400,
+      0,
+      100,
+      1000
+    ],
+    "effect_values_max_40": [
+      750,
+      750,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      50,
+      400,
+      0,
+      100,
+      1000
+    ],
+    "effect_values_max_50": [
+      750,
+      750,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      50,
+      400,
+      0,
+      100,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      5,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      5,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "使用する度に威力+750,全デバフ解除,与ダメ全攻撃+50%,Intercept[Star][INT][Self],与ダメ＆被ダメremove buff effect,茨付与,Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601473,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601576,
+    "name": "Summon the Rabbit θ",
+    "name_battle": "Summon\\nthe Rabbit θ",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      10,
+      63,
+      50,
+      49,
+      127,
+      101,
+      139,
+      16,
+      17,
+      149,
+      7,
+      33,
+      21
+    ],
+    "effect_values_min": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      50,
+      400,
+      30,
+      10,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "effect_values_max_30": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      50,
+      400,
+      30,
+      10,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "effect_values_max_40": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      50,
+      400,
+      30,
+      10,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "effect_values_max_50": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      50,
+      400,
+      30,
+      10,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      1,
+      5,
+      3,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      1,
+      5,
+      3,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "INT+50%,CRT+15%,INT・DEF・CRTデバフ解除,与ダメ全攻撃+50%,Intercept[Star][INT][Self],RES-30%,SPD-10%,与ダメ全攻撃-15%,Forget,SP-20,Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601471,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601577,
+    "name": "Usakabo Requiem θ",
+    "name_battle": "Usakabo\\nRequiem θ",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 65,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      67,
+      68,
+      50,
+      49,
+      127,
+      101,
+      139,
+      149,
+      7,
+      33,
+      21
+    ],
+    "effect_values_min": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "effect_values_max_30": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "effect_values_max_40": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "effect_values_max_50": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      1,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      1,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "全バフ+30%,炎水2発1Tバリア,INT・DEF・CRTデバフ解除,与ダメ全攻撃+30%,Intercept[Star][INT][Self],与ダメ全攻撃-15%,Forget,SP-20,Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601473,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601578,
+    "name": "Bunny Pumpkin Cannon θ+",
+    "name_battle": "Bunny Pumpkin\\nCannon θ+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      10,
+      65,
+      139,
+      17,
+      22,
+      126,
+      149,
+      6,
+      33,
+      21
+    ],
+    "effect_values_min": [
+      400,
+      80,
+      80,
+      400,
+      20,
+      100,
+      100,
+      15,
+      100,
+      50,
+      1000
+    ],
+    "effect_values_max_30": [
+      400,
+      80,
+      80,
+      400,
+      20,
+      100,
+      100,
+      15,
+      100,
+      50,
+      1000
+    ],
+    "effect_values_max_40": [
+      400,
+      80,
+      80,
+      400,
+      20,
+      100,
+      100,
+      15,
+      100,
+      50,
+      1000
+    ],
+    "effect_values_max_50": [
+      400,
+      80,
+      80,
+      400,
+      20,
+      100,
+      100,
+      15,
+      100,
+      50,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      5,
+      1,
+      5,
+      0,
+      0,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      5,
+      1,
+      5,
+      0,
+      0,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "INT/CRD+80%,Intercept[Star][INT][Self],SPD-15%,ATK/CRDバフ解除,与ダメ全攻撃-15%,Sleep付与,SP-50[Single Enemy],Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601472,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601581,
+    "name": "Bunny Pumpkin Cannon+",
+    "name_battle": "Bunny\\nPumpkin Cannon+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      9,
+      11,
+      12,
+      111,
+      22,
+      126,
+      6
+    ],
+    "effect_values_min": [
+      120,
+      50,
+      30,
+      15,
+      15,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_30": [
+      120,
+      50,
+      30,
+      15,
+      15,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_40": [
+      120,
+      50,
+      30,
+      15,
+      15,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_50": [
+      120,
+      50,
+      30,
+      15,
+      15,
+      100,
+      100,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF+50%,RES+30%,SPD+15%,被ダメ全攻撃-15%[Self],ATK/CRDバフ解除,Sleep[Single Enemy]",
+    "description": "Raid Boss",
+    "resource_id": 3601482,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601582,
+    "name": "Summon a Rabbit+",
+    "name_battle": "Summon\\na Rabbit+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      10,
+      63,
+      50,
+      49,
+      127,
+      101,
+      16,
+      17,
+      7
+    ],
+    "effect_values_min": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      30,
+      30,
+      10,
+      100
+    ],
+    "effect_values_max_30": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      30,
+      30,
+      10,
+      100
+    ],
+    "effect_values_max_40": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      30,
+      30,
+      10,
+      100
+    ],
+    "effect_values_max_50": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      30,
+      30,
+      10,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      5,
+      3,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      5,
+      3,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "INT+50%,CRT+15%,INT・DEF・CRTデバフ解除,与ダメ全攻撃+30%[Self],RES-30%,SPD-10%,Forget[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601481,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601583,
+    "name": "Usakabo Requiem+",
+    "name_battle": "Usakabo\\nRequiem+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 65,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      67,
+      68,
+      50,
+      49,
+      127,
+      101,
+      7
+    ],
+    "effect_values_min": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      30,
+      100
+    ],
+    "effect_values_max_30": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      30,
+      100
+    ],
+    "effect_values_max_40": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      30,
+      100
+    ],
+    "effect_values_max_50": [
+      120,
+      30,
+      30,
+      30,
+      30,
+      30,
+      2,
+      2,
+      100,
+      100,
+      100,
+      30,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "全バフ+30%,炎水2発1Tバリア,INT・DEF・CRTデバフ解除,与ダメ全攻撃+30%[Self],Forget[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601483,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601584,
+    "name": "Bunny Pumpkin Cannon++",
+    "name_battle": "Bunny Pumpkin\\nCannon++",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      10,
+      65,
+      111,
+      17,
+      22,
+      126,
+      6
+    ],
+    "effect_values_min": [
+      400,
+      80,
+      80,
+      25,
+      20,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_30": [
+      400,
+      80,
+      80,
+      25,
+      20,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_40": [
+      400,
+      80,
+      80,
+      25,
+      20,
+      100,
+      100,
+      100
+    ],
+    "effect_values_max_50": [
+      400,
+      80,
+      80,
+      25,
+      20,
+      100,
+      100,
+      100
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "INT/CRD+80%,被ダメ全攻撃-25%[Self],SPD-20%,ATK/CRDバフ解除,Sleep[Single Enemy]",
+    "description": "Raid Boss",
+    "resource_id": 3601482,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601585,
+    "name": "Usakabo Requiem Ω",
+    "name_battle": "Usakabo\\nRequiem Ω",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 65,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      95,
+      48,
+      49,
+      50,
+      51,
+      52,
+      127,
+      128,
+      101,
+      139,
+      154,
+      134,
+      21
+    ],
+    "effect_values_min": [
+      750,
+      750,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      50,
+      400,
+      0,
+      100,
+      1000
+    ],
+    "effect_values_max_30": [
+      750,
+      750,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      50,
+      400,
+      0,
+      100,
+      1000
+    ],
+    "effect_values_max_40": [
+      750,
+      750,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      50,
+      400,
+      0,
+      100,
+      1000
+    ],
+    "effect_values_max_50": [
+      750,
+      750,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      50,
+      400,
+      0,
+      100,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      5,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      5,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "使用する度に威力+750,全デバフ解除,与ダメ全攻撃+50%,Intercept[Star][INT][Self],与ダメ＆被ダメremove buff effect,茨付与,Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601483,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601586,
+    "name": "Bunny Pumpkin Cannon θ",
+    "name_battle": "Bunny Pumpkin\\nCannon θ",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      9,
+      11,
+      12,
+      139,
+      22,
+      126,
+      149,
+      6,
+      33,
+      21
+    ],
+    "effect_values_min": [
+      120,
+      50,
+      30,
+      15,
+      400,
+      100,
+      100,
+      15,
+      100,
+      30,
+      1000
+    ],
+    "effect_values_max_30": [
+      120,
+      50,
+      30,
+      15,
+      400,
+      100,
+      100,
+      15,
+      100,
+      30,
+      1000
+    ],
+    "effect_values_max_40": [
+      120,
+      50,
+      30,
+      15,
+      400,
+      100,
+      100,
+      15,
+      100,
+      30,
+      1000
+    ],
+    "effect_values_max_50": [
+      120,
+      50,
+      30,
+      15,
+      400,
+      100,
+      100,
+      15,
+      100,
+      30,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      5,
+      5,
+      1,
+      0,
+      0,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      5,
+      5,
+      1,
+      0,
+      0,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "DEF+50%,RES+30%,SPD+15%,被ダメ全攻撃-15%[Self],ATK/CRDバフ解除,与ダメ全攻撃-15%,Sleep付与,SP-30[Single Enemy],Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601482,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601587,
+    "name": "Summon the Rabbit θ",
+    "name_battle": "Summon\\nthe Rabbit θ",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 40,
+    "sp_max_30": 35,
+    "sp_max_40": 33,
+    "sp_max_50": 31,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      10,
+      63,
+      50,
+      49,
+      127,
+      101,
+      139,
+      16,
+      17,
+      149,
+      7,
+      33,
+      21
+    ],
+    "effect_values_min": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      50,
+      400,
+      30,
+      10,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "effect_values_max_30": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      50,
+      400,
+      30,
+      10,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "effect_values_max_40": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      50,
+      400,
+      30,
+      10,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "effect_values_max_50": [
+      80,
+      50,
+      15,
+      100,
+      100,
+      100,
+      50,
+      400,
+      30,
+      10,
+      15,
+      100,
+      20,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      1,
+      5,
+      3,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      1,
+      5,
+      3,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "INT+50%,CRT+15%,INT・DEF・CRTデバフ解除,与ダメ全攻撃+50%,Intercept[Star][INT][Self],RES-30%,SPD-10%,与ダメ全攻撃-15%,Forget,SP-20,Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601481,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601588,
+    "name": "Bunny Pumpkin Cannon θ+",
+    "name_battle": "Bunny Pumpkin\\nCannon θ+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 50,
+    "sp_max_30": 45,
+    "sp_max_40": 41,
+    "sp_max_50": 39,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      10,
+      65,
+      139,
+      17,
+      22,
+      126,
+      149,
+      6,
+      33,
+      21
+    ],
+    "effect_values_min": [
+      400,
+      80,
+      80,
+      400,
+      20,
+      100,
+      100,
+      15,
+      100,
+      50,
+      1000
+    ],
+    "effect_values_max_30": [
+      400,
+      80,
+      80,
+      400,
+      20,
+      100,
+      100,
+      15,
+      100,
+      50,
+      1000
+    ],
+    "effect_values_max_40": [
+      400,
+      80,
+      80,
+      400,
+      20,
+      100,
+      100,
+      15,
+      100,
+      50,
+      1000
+    ],
+    "effect_values_max_50": [
+      400,
+      80,
+      80,
+      400,
+      20,
+      100,
+      100,
+      15,
+      100,
+      50,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      5,
+      5,
+      1,
+      5,
+      0,
+      0,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      5,
+      5,
+      1,
+      5,
+      0,
+      0,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      1,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "INT/CRD+80%,Intercept[Star][INT][Self],SPD-15%,ATK/CRDバフ解除,与ダメ全攻撃-15%,Sleep付与,SP-50[Single Enemy],Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601482,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601589,
+    "name": "Usakabo Requiem θ+",
+    "name_battle": "Usakabo\\nRequiem θ+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 65,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      67,
+      50,
+      49,
+      127,
+      101,
+      139,
+      149,
+      7,
+      33,
+      21
+    ],
+    "effect_values_min": [
+      150,
+      50,
+      50,
+      50,
+      50,
+      50,
+      1,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      40,
+      1000
+    ],
+    "effect_values_max_30": [
+      150,
+      50,
+      50,
+      50,
+      50,
+      50,
+      1,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      40,
+      1000
+    ],
+    "effect_values_max_40": [
+      150,
+      50,
+      50,
+      50,
+      50,
+      50,
+      1,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      40,
+      1000
+    ],
+    "effect_values_max_50": [
+      150,
+      50,
+      50,
+      50,
+      50,
+      50,
+      1,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      40,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      1,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      1,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "全バフ+50%,炎1発1Tバリア,INT・DEF・CRTデバフ解除,与ダメ全攻撃+50%,Intercept[Star][INT][Self],与ダメ全攻撃-15%,Forget,SP-40Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601483,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 3601590,
+    "name": "Usakabo Requiem θ+",
+    "name_battle": "Usakabo\\nRequiem θ+",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 65,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      68,
+      50,
+      49,
+      127,
+      101,
+      139,
+      149,
+      7,
+      33,
+      21
+    ],
+    "effect_values_min": [
+      200,
+      80,
+      80,
+      80,
+      80,
+      80,
+      1,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      40,
+      1000
+    ],
+    "effect_values_max_30": [
+      200,
+      80,
+      80,
+      80,
+      80,
+      80,
+      1,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      40,
+      1000
+    ],
+    "effect_values_max_40": [
+      200,
+      80,
+      80,
+      80,
+      80,
+      80,
+      1,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      40,
+      1000
+    ],
+    "effect_values_max_50": [
+      200,
+      80,
+      80,
+      80,
+      80,
+      80,
+      1,
+      100,
+      100,
+      100,
+      50,
+      400,
+      15,
+      100,
+      40,
+      1000
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      1,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      1,
+      3,
+      2,
+      0,
+      0
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "全バフ+80%,水1発1Tバリア,INT・DEF・CRTデバフ解除,与ダメ全攻撃+50%,Intercept[Star][INT][Self],与ダメ全攻撃-15%,Forget,SP-40Action Gauge-1000[All Enemies]",
+    "description": "Raid Boss",
+    "resource_id": 3601483,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4004301,
+    "name": "Summoning the Rabbit",
+    "name_battle": "Summoning\\nthe Rabbit",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 37,
+    "sp_max_30": 32,
+    "sp_max_40": 30,
+    "sp_max_50": 28,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      123,
+      8,
+      9,
+      10,
+      11,
+      101,
+      139,
+      46,
+      143
+    ],
+    "effect_values_min": [
+      80,
+      100,
+      25,
+      25,
+      25,
+      25,
+      15,
+      340,
+      100,
+      10
+    ],
+    "effect_values_max_30": [
+      110,
+      100,
+      25,
+      25,
+      25,
+      25,
+      15,
+      340,
+      100,
+      10
+    ],
+    "effect_values_max_40": [
+      112,
+      100,
+      25,
+      25,
+      25,
+      25,
+      15,
+      340,
+      100,
+      10
+    ],
+    "effect_values_max_50": [
+      114,
+      100,
+      25,
+      25,
+      25,
+      25,
+      15,
+      340,
+      100,
+      10
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3
+    ],
+    "effect_values_sub2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      4
+    ],
+    "effect_targets": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      2,
+      2
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "Overheal (small)&Non-HP Basic Stats+#PER3#%(3T)&All damage+#PER7#%(3T)[Party],Intercept[Star][INT](3T)[Self],Inflict Random Ailments(2T)&Star Res-#PER10#%(3T)[All Enemies]",
+    "description": "I'll summon the bunny from various dimensions.",
+    "resource_id": 3004301,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4004302,
+    "name": "Bunny Pumpkin Cannon",
+    "name_battle": "Bunny\\nPumpkin Cannon",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 46,
+    "sp_max_30": 41,
+    "sp_max_40": 37,
+    "sp_max_50": 35,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      131,
+      48,
+      50,
+      8,
+      10,
+      65,
+      63,
+      101,
+      39,
+      133,
+      14,
+      16,
+      17,
+      150
+    ],
+    "effect_values_min": [
+      250,
+      1,
+      100,
+      100,
+      60,
+      60,
+      60,
+      20,
+      25,
+      1,
+      30,
+      30,
+      30,
+      15,
+      20
+    ],
+    "effect_values_max_30": [
+      280,
+      1,
+      100,
+      100,
+      60,
+      60,
+      60,
+      20,
+      25,
+      1,
+      30,
+      30,
+      30,
+      15,
+      20
+    ],
+    "effect_values_max_40": [
+      291,
+      1,
+      100,
+      100,
+      60,
+      60,
+      60,
+      20,
+      25,
+      1,
+      30,
+      30,
+      30,
+      15,
+      20
+    ],
+    "effect_values_max_50": [
+      296,
+      1,
+      100,
+      100,
+      60,
+      60,
+      60,
+      20,
+      25,
+      1,
+      30,
+      30,
+      30,
+      15,
+      20
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      3,
+      3,
+      3,
+      2
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      3,
+      3,
+      3,
+      2
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "trigger_types": [
+      0
+    ],
+    "trigger_type_params": [
+      0
+    ],
+    "trigger_targets": [
+      0
+    ],
+    "description_effect": "[Repeat use prohibited]Extra Action(1times)&ATK/INTRemove debuffs&ATK/INT/CRD+#PER5#%(3T)&CRT+#PER8#%(3T)&All damage+#PER9#%(3T)[Ally],SP Steal#PER11#&DEF/RES-#PER12#%(3T)&SPD-#PER14#%(3T)&Damage Taken +#PER15#%(2T)[Single Enemy]",
+    "description": "It fires from much closer than you'd expect, so it really takes you by surprise.",
+    "resource_id": 3004302,
+    "continuous_attack_rates": []
+  },
+  {
+    "id": 4004303,
+    "name": "Usakabo Requiem",
+    "name_battle": "Usakabo\\nRequiem",
+    "command_category": 3,
+    "attr": 4,
+    "max_lv": 50,
+    "circle_flg": 0,
+    "icon_type": 9,
+    "sp_min": 80,
+    "sp_max_30": 75,
+    "sp_max_40": 70,
+    "sp_max_50": 65,
+    "gain_sp": 0,
+    "relational_param": 4,
+    "command_types": [
+      1,
+      141,
+      144,
+      84,
+      20
+    ],
+    "effect_values_min": [
+      168,
+      60,
+      15,
+      300,
+      200
+    ],
+    "effect_values_max_30": [
+      198,
+      60,
+      15,
+      300,
+      200
+    ],
+    "effect_values_max_40": [
+      203,
+      60,
+      15,
+      300,
+      200
+    ],
+    "effect_values_max_50": [
+      208,
+      60,
+      15,
+      300,
+      200
+    ],
+    "variance_rates": [
+      1
+    ],
+    "effect_values_sub_min": [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    "effect_values_sub_max": [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    "effect_values_sub2": [
+      0
+    ],
+    "effect_targets": [
+      2,
+      5,
+      5,
+      5,
+      4
+    ],
+    "trigger_types": [
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "trigger_type_params": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trigger_targets": [
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "description_effect": "[When using skill]CRD+#PER2#%&Damage increases with the number of debuff types inflicted on the target (Maximum 5 times)&Increase damage with fewer enemies[Self],[When defeating an enemy]、Action Gauge+#PER5#[Party]",
+    "description": "Pleinair's magic devours the misfortune that fills the world",
+    "resource_id": 3004303,
     "continuous_attack_rates": []
   }
 ]

@@ -4851,13 +4851,13 @@
     "id": 2615,
     "m_character_id": 261,
     "rarity": 5,
-    "class_name": "惨多苦弄過道場師範"
+    "class_name": "Slaughter Claus GDF"
   },
   {
     "id": 2616,
     "m_character_id": 261,
     "rarity": 6,
-    "class_name": "The golden lion roaring on the holy night"
+    "class_name": "Yuletide Golden Lion's Roar"
   },
   {
     "id": 2621,
@@ -27934,5 +27934,77 @@
     "m_character_id": 20127,
     "rarity": 6,
     "class_name": "The Auspicious Golden Frog"
+  },
+  {
+    "id": 4331,
+    "m_character_id": 433,
+    "rarity": 1,
+    "class_name": "The Young Man Who's Going All Out for the 7th Anniversary"
+  },
+  {
+    "id": 4332,
+    "m_character_id": 433,
+    "rarity": 2,
+    "class_name": "The Young Man Who's Going All Out for the 7th Anniversary"
+  },
+  {
+    "id": 4333,
+    "m_character_id": 433,
+    "rarity": 3,
+    "class_name": "The Young Man Who's Going All Out for the 7th Anniversary"
+  },
+  {
+    "id": 4334,
+    "m_character_id": 433,
+    "rarity": 4,
+    "class_name": "The Young Man Who's Going All Out for the 7th Anniversary"
+  },
+  {
+    "id": 4335,
+    "m_character_id": 433,
+    "rarity": 5,
+    "class_name": "The Passionate Fighter at the Banquet"
+  },
+  {
+    "id": 4336,
+    "m_character_id": 433,
+    "rarity": 6,
+    "class_name": "Devil Buster at the Banquet"
+  },
+  {
+    "id": 4301,
+    "m_character_id": 430,
+    "rarity": 1,
+    "class_name": "The Spell-Casting Mascot"
+  },
+  {
+    "id": 4302,
+    "m_character_id": 430,
+    "rarity": 2,
+    "class_name": "The Spell-Casting Mascot"
+  },
+  {
+    "id": 4303,
+    "m_character_id": 430,
+    "rarity": 3,
+    "class_name": "The Spell-Casting Mascot"
+  },
+  {
+    "id": 4304,
+    "m_character_id": 430,
+    "rarity": 4,
+    "class_name": "The Spell-Casting Mascot"
+  },
+  {
+    "id": 4305,
+    "m_character_id": 430,
+    "rarity": 5,
+    "class_name": "The One Who Granted a One-Night Wish"
+  },
+  {
+    "id": 4306,
+    "m_character_id": 430,
+    "rarity": 6,
+    "class_name": "The Miracle Poster Girl Who Descends from the Sky"
   }
 ]

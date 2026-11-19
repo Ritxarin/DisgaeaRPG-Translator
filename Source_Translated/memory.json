@@ -1326,5 +1326,29 @@
     "main_m_memory_effect_type_id": 10,
     "sub_m_character_id": 369,
     "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 166,
+    "name": "Mao's Experiment",
+    "main_m_character_id": 376,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 376,
+    "sub_m_memory_effect_type_id": 16
+  },
+  {
+    "id": 168,
+    "name": "Congratulations on our 5th anniversary!",
+    "main_m_character_id": 0,
+    "main_m_memory_effect_type_id": 112,
+    "sub_m_character_id": 0,
+    "sub_m_memory_effect_type_id": 111
+  },
+  {
+    "id": 169,
+    "name": "Santa and Black Santa",
+    "main_m_character_id": 384,
+    "main_m_memory_effect_type_id": 10,
+    "sub_m_character_id": 384,
+    "sub_m_memory_effect_type_id": 16
   }
 ]
